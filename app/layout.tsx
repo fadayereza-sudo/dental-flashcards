@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Fraunces } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -37,12 +36,6 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${fraunces.variable} h-full`}
     >
-      <head>
-        <Script
-          src="https://telegram.org/js/telegram-web-app.js"
-          strategy="beforeInteractive"
-        />
-      </head>
       <body className="min-h-full flex flex-col relative">{children}</body>
     </html>
   );

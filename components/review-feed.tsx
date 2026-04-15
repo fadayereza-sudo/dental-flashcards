@@ -38,6 +38,7 @@ function loadSelectedFolders(): number[] {
 export function ReviewFeed() {
   const [cards, setCards] = useState<Card[]>([]);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState<string | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [tree, setTree] = useState<FolderTree["tree"]>([]);
   const [selected, setSelected] = useState<number[]>([]);
@@ -51,12 +52,20 @@ export function ReviewFeed() {
 
   const fetchCards = useCallback(async () => {
     setLoading(true);
+    setFetchError(null);
     const qs =
       selected.length > 0 ? `?folders=${selected.join(",")}` : "";
-    const res = await fetch(`/api/cards/due${qs}`, { cache: "no-store" });
-    const data = await res.json();
-    setCards(data.cards ?? []);
-    setLoading(false);
+    try {
+      const res = await fetch(`/api/cards/due${qs}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+      const data = await res.json();
+      setCards(data.cards ?? []);
+    } catch (err) {
+      setFetchError(err instanceof Error ? err.message : String(err));
+      setCards([]);
+    } finally {
+      setLoading(false);
+    }
   }, [selected]);
 
   useEffect(() => {
@@ -121,6 +130,19 @@ export function ReviewFeed() {
           <span className="text-ink-muted text-sm tracking-wide uppercase">
             Loading…
           </span>
+        </div>
+      ) : fetchError ? (
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 px-8 text-center">
+          <p className="font-serif text-2xl text-ink">Couldn&rsquo;t load cards</p>
+          <p className="text-xs text-ink-muted break-all max-w-xs">
+            {fetchError}
+          </p>
+          <button
+            onClick={fetchCards}
+            className="mt-2 rounded-full bg-ink text-paper px-5 py-2.5 text-sm tracking-wide uppercase"
+          >
+            Retry
+          </button>
         </div>
       ) : cards.length === 0 ? (
         <EmptyState selectedCount={selected.length} />
