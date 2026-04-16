@@ -1,25 +1,32 @@
 ---
 id: biopsychosocial-004
 book: "The Biopsychosocial Model of Health and Disease 2019"
-section: "Ch 3 Psychology Regulates Activity in the Social World – Embodied agency"
-paragraphs: [1199, 1218]
+section: "Patient-centred care, agency, and autonomy"
+paragraphs: [1199, 1218, 1736, 1757]
 images: []
 tags:
-  - holistic-care
   - patient-communication
+  - holistic-care
 ---
 
-The decisive break from dualism in psychological science came with the development of the information-processing paradigm from around the 1960s onwards, in parallel with its development in biology. The paradigm ties together the biological and the psychological. Biology as physiology and anatomy deals with the body inside the skin, while psychology as behavioural science models functioning of the whole organism in its external environment, regulated and controlled by the central nervous system.
+## The principle
 
-Recent developments include 4E cognition, which characterises cognition in these four interconnected terms:
+Agency — the sense of being an active, self-determining person in control of one's own life — is central to psychological health. Healthcare that undermines a patient's agency (by being paternalistic, dismissive, or controlling) harms the patient. Healthcare that supports agency (through shared decision-making, respect, and recognition) improves outcomes.
 
-1. 'Embodied' (in the body)
-2. 'Embedded' (in the environment; in causal loops with it)
-3. 'Enactive' (Acting in and manipulating the environment, directly, not via a representation or model; the environment offers affordances, or opportunities, for action and manipulation)
-4. 'Extended' (Extended to the body and environment, including devices used for cognitive functioning).
+## What the book says
 
-Embodied cognition involves the whole body, is action-based, dynamical, involving feedback loops, comprising sensory inputs, cognition as prediction, affect, decision, motor planning, modification by experience, and so on, all fundamentally in the service of action in the environment. The new approach is biopsychological but the psychological soon merges—along with the biological—into the social, because the environment is for us substantially social.
+The book identifies agency as the core psychological concept: the capacity to act, to make decisions, to control one's life. Agency requires recognition — being seen, heard, and respected by others. When agency is denied (the person is "not noticed, not consulted, not listened to, has no place at the table when important decisions affecting them are being made"), psychological health is jeopardised. Patient-centred care places the person — their aims, values, and goals — at the centre of healthcare. The centrality of the person was identified by Engel as a feature of the biopsychosocial model: health conditions must be understood in terms of how they affect the person's agency and achievement of personal goals (Ch 3, Sect. 3.1; Ch 4, Sect. 4.2).
 
-This new view of the psychological can be called 'embodied agency' for short. The term captures two ideas that are fundamental themes in the biopsychosocial model being developed here: first, that the 'I' that knows, the psychological, is also (in) an object among others, a biological body; and, second, that the biopsychosocial individual, the person, is an active, causal power.
+## How this applies in dental practice
 
-The concept of embodied agency is fundamental in the biopsychosocial theory of health and disease. It links physical with psychological health and implicates pathways between them. We will argue that psychological health depends on the development of a viable enough—for the person—sense of agency, such that, if this condition is not met, mental health is jeopardised, and so also, via complex biopsychological pathways, is physical health.
+Dental treatment is uniquely intimate and disempowering — the patient lies supine, mouth open, unable to speak, while someone works inside their body with sharp instruments. This is a setup that inherently threatens agency. A GDP who understands this can actively counteract it:
+
+- **Give control back.** "Raise your hand if you want me to stop at any time" is a simple, powerful restoration of agency. It reduces anxiety precisely because it restores the patient's sense of control.
+
+- **Shared decision-making.** Presenting options ("we could do X or Y — here are the pros and cons of each") rather than dictating treatment respects the patient as a capable decision-maker. This is not just ethical best practice — patients who participate in decisions are more likely to follow through with treatment and aftercare.
+
+- **Ask what matters to the patient.** A patient's priorities may differ from yours. They may prioritise aesthetics over longevity, or cost over ideal materials, or keeping a tooth you'd extract. Understanding their values leads to better treatment plans and better compliance.
+
+- **Listen before you examine.** Taking a thorough history where the patient feels heard — before you look in their mouth — establishes that you see them as a person, not a set of teeth. This builds trust and gives you diagnostic information that the mirror and probe cannot.
+
+- **Avoid dismissal.** "It's only a small filling" dismisses the patient's experience. Their anxiety about it is real and valid. Acknowledging concerns ("I can see this is worrying you — let me explain what we'll do") recognises the patient's perspective.

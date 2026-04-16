@@ -1,28 +1,32 @@
 ---
 id: biopsychosocial-006
 book: "The Biopsychosocial Model of Health and Disease 2019"
-section: "Ch 4 Biopsychosocial Conditions of Health and Disease – Pain and distress"
-paragraphs: [1759, 1804]
+section: "Clinical uncertainty and multifactorial presentations"
+paragraphs: [1914, 1924]
 images: []
 tags:
-  - holistic-care
   - clinical-reasoning
+  - holistic-care
 ---
 
-Pain and Distress Have Personal Biopsychosocial Meaning
+## The principle
 
-Activity limitation is the core behavioural feature of illness or injury, pain and distress are their subjectively experienced aspects. But even these subjective experiences turn out to be thoroughly biopsychosocial, whichever way one approaches them: by philosophical analysis of 'subjective experience', or in terms of neuropsychological models of causal pathways, or behavioural models of interpersonal pain signalling functions.
+As health science has advanced, clinical certainty has often decreased rather than increased, because we now understand that most conditions have complex, multifactorial causation. Single-cause thinking gives false confidence. The clinician must tolerate uncertainty, stay open to complexity, and resist the temptation to force a simple explanation onto a complex picture.
 
-Turning to the science of pain, this is an expanding, large and complex area of research and we give a very brief and simplified survey of some relevant key points. Until about the mid-1960s, it was supposed that pain was caused by signalling of tissue damage to the central nervous system by specific pathways. In the 1960s, Ronald Melzack and Patrick Wall proposed their innovative 'gate theory' to supersede specificity models, explaining how pain perception involved multiple neural pathways, creating a model more able to capture individual and cultural contextual factors in pain perception. Melzack and Wall's theory created the foundations for increasingly sophisticated models of pain perception, involving both bottom-up and central, context-sensitive pathways.
+## What the book says
 
-the neuroscientist Howard fields describes current models of neurological pathways of pain perception and then considers its signalling functions—its meaning for the person, using the example of inadvertently touching a hot iron:
+The book observes that "while health research has made such strides over the past few decades, while knowledge has increased, certainty in the clinic is just as likely to have gone down as up." This is because much of what has been discovered involves complex, multifactorial causation — multiple interacting biological systems, plus psychological and social factors. The resulting knowledge is statistical and probabilistic, not deterministic. "The more responsibility a clinician has, the more obligation they have to know the science as well as the patient and to keep a mind open to complexity and alternatives, at the same time as needing to make definite decisions and recommendations one way or the other." There are occasions in complex cases where it is correct to say: "it is a complex biopsychosocial picture" — not as vague hand-waving, but as an honest acknowledgement that single-cause models have been excluded (Ch 4, Sect. 4.3).
 
-Turning to the subjective experience: there are three distinct components. first, there is the purely discriminative part that includes recognizing the quality of the sensation as a burn and localizing it to your hand. Second, there is the motivational aspect associated with the desire to pull your hand away or to terminate the sensation. Third, there is an evaluative component the thought of the damage that has been done to your hand and how that will affect your life in the hours and days ahead.
+## How this applies in dental practice
 
-It is this third component that is of special interest here, because we take it to involve: the thought of the impact of the damage to oneself, one's agency and way of life, including its always important social aspects. In short, this evaluative component that is central to the experience of pain is thoroughly biopsychosocial. The 'biopsychosocial' appears here in the intentionality of pain, i.e. in what it is 'about', its meaning or representational content, which is, briefly: threat of loss of significant biopsychosocial function.
+GDPs encounter clinical uncertainty regularly, and the temptation is always to simplify:
 
-In addition to its role in pain perception, the limbic system mediates emotional responses to a variety of factors including personal loss, anticipation of harm, and so on. The dysphoric states such as depression and anxiety share limbic system circuits with somatic pain. It is thus no accident that the word "pain" is often used to denote emotional pain that has no somatic component.
+- **Atypical facial pain / persistent idiopathic facial pain.** No clear dental cause found, but the patient is in real distress. Resisting the urge to "do something dental" (extract a tooth, redo a root canal) when the evidence doesn't support it is one of the hardest decisions in practice. Acknowledging complexity — "I don't think this pain is coming from a tooth, and I think we need to explore other factors" — is better care than a diagnostic extraction.
 
-The evaluative component in pain perception figures prominently in psychological models of pain and distress, with clinical applications. Highly negative (fearful) appraisals about the effect of damage, or other negative events, and indeed of the pain or distress itself, on one's future life are sometimes referred to as catastrophizing, and they typically risk having the effect of amplifying the experience. These models have the implication that psychological management of pain and distress should target among other things reduction of catastrophising.
+- **Treatment that doesn't work as expected.** A well-placed restoration that keeps failing, periodontal treatment that doesn't stabilise, dentures that are technically satisfactory but the patient can't wear them. When the biology seems right but the outcome is wrong, psychological and social factors are likely in play.
 
-A further psychosocial aspect of pain and distress is their function in interpersonal signalling and regulation of behaviour. expressions of pain, behavioural, facial and verbal, induce caring responses from others.
+- **Medically unexplained oral symptoms.** Burning mouth syndrome, atypical odontalgia, phantom bite syndrome. These are real conditions with biopsychosocial causation. Saying "there's nothing wrong" is both inaccurate and harmful.
+
+- **Communicating uncertainty.** Patients expect certainty ("what's causing this?"). A GDP can be honest without being dismissive: "I can see several factors that are contributing to this — let me explain what I think is going on and what we can do about it." This is more trustworthy than false certainty and more helpful than a shrug.
+
+The skill of tolerating clinical uncertainty — making reasonable decisions while holding open the possibility that the picture is more complex than it appears — is a hallmark of a mature clinician.

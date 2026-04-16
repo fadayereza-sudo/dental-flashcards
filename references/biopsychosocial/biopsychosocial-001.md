@@ -1,18 +1,30 @@
 ---
 id: biopsychosocial-001
 book: "The Biopsychosocial Model of Health and Disease 2019"
-section: "Ch 1 The Biopsychosocial Model 40 Years On – Engel's proposed improvement"
-paragraphs: [191, 227]
+section: "The biopsychosocial model and what it means for dentistry"
+paragraphs: [191, 349]
 images: []
 tags:
   - holistic-care
   - clinical-reasoning
 ---
 
-In his classic paper published in 1977 George Engel proposed a new model for medicine, the biopsychosocial model, contrasted with the existing biomedical model. While recognising the great advances in biomedicine, Engel argued that nevertheless the biomedical model was limited, and insufficient for many aspects of medical science and healthcare. These limitations were extensive, comprising failure to take account of the following: the person who has the illness, the person's experience of, account of and attitude towards the illness; whether the person or others in fact regard the condition as an illness; care of the patient as a person; for some conditions such as schizophrenia and diabetes, the effect of conditions of living on onset, presentation and course; and finally, the healthcare system itself also cannot be conceptualised solely in biomedical terms but rather involves social factors such as professionalisation. Engel argued that a broadening of the biomedical approach, a new biopsychosocial model, was needed to take account of all these factors 'contributing to both illness and patienthood'.
+## The principle
 
-Whether the biopsychosocial model has this status for the rest of medicine is less clear, given the prominence of biomedicine and its biomedical model. Nevertheless, 'the rest of medicine' is not one thing, and the various medical specialities differ in their relative involvement with the biological, the psychological and the social. Primary care, also known as general practice or family medicine, is well-known to be much involved in psychological and social factors, and another clear example is public health.
+Health and disease are never purely biological. Every health condition involves an interaction of biological factors (the body), psychological factors (thoughts, emotions, beliefs, coping), and social factors (relationships, culture, socioeconomic status, access to care). These three domains constantly influence each other.
 
-for all these various kinds of reasons, since Engel wrote his papers some 40 years ago, the biopsychosocial model has become the orthodox overarching model for health, disease and healthcare. It is much cited and taught in healthcare trainings of all sorts and in workshops and ward rounds the world over. In simple terms it recommends to healthcare to take into account all three aspects, the biological, the psychological and the social. It is particularly useful in psychology and social work healthcare professions, and in medical practice that has to deal with the psychological and the social as much as the biomedical, primary care (family medicine) being the clearest example, and in-hospital medical training that emphasises the importance of a comprehensive management plan. In all these contexts the biopsychosocial model easily wins, facilitating identification and integration of different aspects of care aimed at different aspects of the patient's life, disease and management. To illustrate further good fit with much current practice, the biopsychosocial model obviously aligns with the rationale of multidisciplinary teams, and with the increasing recognition of the value of the service user's views in providing good and effective healthcare.
+## What the book says
 
-Given the prominent status and use of the biopsychosocial model, it is clearly of great importance that the model is clear and robust. At this point, however, there is a very large problem, because there have been increasing charges in the medical literature that in fact the biopsychosocial model—popular and accommodating as it may be—is far from being clear and robust, but is in fact deeply flawed.
+Engel (1977) argued that the dominant biomedical model — treating disease as a purely biological malfunction — was insufficient. The biopsychosocial (BPS) model proposes that clinicians must consider psychological and social factors alongside biology to understand why a patient is unwell and how to help them. The scientific content of the model is not one general theory but lives in the specifics: there is a biopsychosocial model of cardiovascular disease, of depression, and equally of dental disease. The relative weight of biological, psychological, and social factors varies by condition and by stage of condition (Ch 1, Sects. 1.1–1.2).
+
+## How this applies in dental practice
+
+In dentistry, "the tooth has a person attached to it." Consider a patient presenting with rampant caries:
+
+- **Biological**: high cariogenic bacterial load, reduced salivary flow, enamel quality
+- **Psychological**: dental anxiety leading to avoidance of care; depression reducing motivation for self-care; health beliefs ("my teeth are just bad, like my parents'")
+- **Social**: low income limiting access to healthy food and dental visits; shift work disrupting routine; no family support for behaviour change; cultural norms around sugar consumption
+
+Treating the caries operatively without addressing the psychological and social drivers means the patient returns with more caries. A GDP applying the BPS model asks: *what biological, psychological, and social factors are driving this patient's oral disease — and which of those can I influence?*
+
+This same framework applies to periodontal disease, TMD, chronic orofacial pain, tooth wear, and dental anxiety itself.

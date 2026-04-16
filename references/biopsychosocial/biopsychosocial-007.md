@@ -1,22 +1,33 @@
 ---
 id: biopsychosocial-007
 book: "The Biopsychosocial Model of Health and Disease 2019"
-section: "Ch 4 Biopsychosocial Conditions of Health and Disease – Identifying dysfunctions and modifiable causes"
-paragraphs: [1808, 1818]
+section: "Social determinants of oral health"
+paragraphs: [1395, 1454]
 images: []
 tags:
-  - clinical-reasoning
   - holistic-care
+  - prevention
+  - clinical-reasoning
 ---
 
-Identifying Dysfunctions and Modifiable Causes
+## The principle
 
-While disease is contextualised in the person as a whole, the immediate question is where the dysfunctional process is located: which system within the whole is dysfunctional, causing problems for the whole? The methodological assumption of healthcare is that the person as a whole is in trouble because of some dysfunctional part, a dysfunctional sub-system within the body/mind. It underlies the traditional individual focussed medical model of identification of clinical syndromes and diagnoses, and models of psychological processes in the individual that give rise to distress and activity limitations. The scientific details are in the medical and clinical psychological textbooks and will not be taken further here. We focus more on the broader implications of systems theory and the biopsychosocial approach. The main issue is that systems theory envisages (causal) interactions everywhere, including within and between the organism and the environment, in which context the question arises: what is the logic of attributing causes of dysfunction to the organism rather than the environment?
+Social factors — income, education, employment, housing, social support, and access to resources — are genuine causes of health and disease, not just background context. Health follows a social gradient: the lower a person's socioeconomic position, the worse their health. Social causes are real causes, not just "distal risk factors" that deliver people to biological mechanisms.
 
-In systems theory, one cannot begin to talk about the function of systems without reference to their operating environments. All biological systems function in interaction with others and ultimately in relation to fitness of the whole organism in a range of environmental conditions. One broad kind of pathway to dysfunction of the whole is poorness of fit between the expected environment, to which behaviour is adapted, and the actual environment, to which it isn't.
+## What the book says
 
-Notwithstanding these considerations, we still locate the problem— the dysfunction—in the person. An obvious reason for doing so is the centrality of the person: it is the person to whom harm accrues— who suffers pain, distress, significant impairment of agency and loss. However, this consideration alone is superficial in a systemic context, because the cause may still lie outside the person, being done to, and this is the force behind the social model of disability which we have already had occasion to cite in this section. A more promising key to this issue is the one increasingly found in the health literature: the concept of identifying modifiable causes. The idea is that, among all the criss-crossing causal pathways, what needs to be identified are promising targets for intervention. This approach is consistent with the interventionist approach to causality referred to in Chapter 3, Sect. 3.1, and is well suited to healthcare as applied science, seeking to change things, for the better. From this point of view, dysfunction attribution is in part—and somewhat paradoxically—shorthand for belief about promising possibilities for change. While 'dysfunction' and its cognates connote deficit, promising possibilities for change are opportunities.
+The book argues forcefully that social determinants are causal, not merely correlational. Marmot's Whitehall studies showed a clear social gradient in health — not just between rich and poor, but at every step of the hierarchy. Importantly, perceived social status is a better predictor of health outcomes than objectively measured status. The question "why is there a social gradient in smoking?" is as important as "does smoking cause disease?" Social structures control the distribution of resources necessary for biological and psychological life, and unequal distribution directly raises health risk. Social exclusion — not being noticed, consulted, or resourced — undermines agency and jeopardises both mental and physical health (Ch 3, Sects. 3.2–3.3).
 
-In complex systems where there is a poor fit between the person's behaviours and the environment, the question arises: where is potential for change? In conditions of the person that are lifelong, not amenable to change, the potential for change lies elsewhere, not in the person, but in social attitudes and resources—and this is a compelling argument of the social model of disability. For acquired long-term health conditions, it is likely that optimal outcomes from the person's point of view come from a combination of—in no order—available high-quality healthcare, self-management, social support, plus non-discrimination by broader society.
+## How this applies in dental practice
 
-Effective treatment or prevention technologies rely on targeting a cause of large enough effect, i.e. a causal factor identified in group studies that accounts for a large proportion of the outcome variance. The main point for the present purpose is that there are few causes of currently common health conditions with so large an effect that targeting them leads to complete prevention or complete cure, and for the majority, a multimodal approach to multiple factors is required.
+Oral health has one of the steepest social gradients of any health outcome. A GDP sees this daily:
+
+- **Caries and deprivation.** Children in the most deprived areas have several times the caries experience of those in the least deprived. This is driven by diet (cheap, high-sugar food is more accessible than healthy alternatives), fluoride access (less likely to use fluoride toothpaste correctly), and dental attendance patterns (emergency-only vs preventive).
+
+- **Access barriers are real causes.** A patient who misses appointments is not necessarily "non-compliant." They may lack transport, cannot take time off work without losing pay, have caring responsibilities, or face language barriers. Asking "what makes it difficult to attend?" reveals modifiable social causes.
+
+- **Oral health literacy.** Education level affects a person's ability to understand and act on oral health advice. Adapting your communication — using plain language, checking understanding, using visual aids — is not dumbing down; it's equitable care.
+
+- **The judgment trap.** It is easy to silently blame patients for their oral disease ("if they just stopped drinking Coke and brushed properly..."). The BPS model reminds you that their behaviours exist within a social context: what food they can afford, what they were taught, what resources and support they have. This doesn't mean you accept disease without trying to help — it means you help without judgment, which is more effective anyway.
+
+- **Your role in the system.** A GDP cannot fix poverty, but you can: provide preventive care to those who need it most (not just those who attend regularly); make your practice accessible (flexible appointments, clear signage, welcoming environment); and advocate for public health measures like water fluoridation and sugar regulation that address upstream causes.

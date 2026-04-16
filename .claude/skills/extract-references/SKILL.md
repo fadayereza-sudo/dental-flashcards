@@ -46,17 +46,53 @@ Focus on content with the highest clinical yield. A paragraph explaining *why* a
 
 Two preprocessed books in `source-material/`:
 
-| Short name | Full title | Structure |
-|---|---|---|
-| `oxford-handbook` | Oxford Handbook of Clinical Dentistry 7e | Topic-based chapters with sections |
-| `biopsychosocial` | The Biopsychosocial Model of Health and Disease 2019 | Theoretical chapters on the BPS model |
+| Short name | Full title | Structure | Extraction approach |
+|---|---|---|---|
+| `oxford-handbook` | Oxford Handbook of Clinical Dentistry 7e | Topic-based chapters with sections | **Verbatim** — line-by-line scan, copy text as-is |
+| `biopsychosocial` | The Biopsychosocial Model of Health and Disease 2019 | Theoretical chapters on the BPS model | **Applied** — read for principles, write dental applications |
 
 Each has:
 - **`full-text.txt`** — every paragraph, one per line, tagged `[index][style] text`
 - **`image-map.json`** — extracted images mapped to paragraph indices
 - **`images/`** — extracted image files
 
-## How headings work in the text
+## Book-specific approaches
+
+### Oxford Handbook — verbatim extraction
+
+The Oxford Handbook is a clinical reference. Extract text verbatim using the line-by-line scan workflow below.
+
+### Biopsychosocial — applied to dentistry
+
+The biopsychosocial book is academic theory (philosophy, systems theory, epistemology). Verbatim paragraphs about physicalism and Hegel will not make useful flashcards. Instead:
+
+1. **Read the source** to understand the principles being taught.
+2. **Identify each principle** that has practical relevance to GDP work — patient communication, pain management, behaviour change, treatment planning, clinical reasoning under uncertainty.
+3. **Write a reference** that teaches the principle *applied to dental practice*. The body is **not verbatim** — it is a clear explanation of the principle with concrete dental examples. The `paragraphs` field records where in the source the principle was derived from.
+4. **One reference = one teachable principle** — sized for 1–5 flashcards.
+
+#### What to extract from the biopsychosocial book
+
+- The biopsychosocial model itself and what it means for dentistry
+- Pain perception: discriminative, motivational, evaluative components; catastrophising
+- Chronic stress mechanisms and their dental consequences (bruxism, TMD, periodontal disease, dry mouth)
+- Patient-centred care: asking what matters to the patient, not just what's the matter
+- Agency and autonomy: shared decision-making, giving patients control
+- Modifiable causes: targeting what you can change in complex cases
+- Clinical uncertainty: managing multifactorial presentations
+- Illness attribution and stigma: how shame about oral health affects care-seeking
+- Social determinants: deprivation, access, the social gradient in oral health
+- Behaviour change: understanding motivation, not just instructing technique
+
+#### What to skip
+
+- Pure philosophy (physicalism, dualism, reductionism debates)
+- Academic methodology (statistical theory, study design philosophy)
+- Research framework design (RDoC, grid models)
+- Psychiatry-specific content
+- Historical context that doesn't yield a clinical lesson
+
+## How headings work in the Oxford Handbook text
 
 There are **no `[Heading 2]` or `[Heading 3]` tags** in the Oxford Handbook. Structure is encoded as:
 
@@ -65,13 +101,11 @@ There are **no `[Heading 2]` or `[Heading 3]` tags** in the Oxford Handbook. Str
 - **Section headings:** `[Heading 1] <title>` — marks a section within a chapter (e.g. `[Heading 1] Presenting complaint`)
 - **Sub-section headings:** `[Para 032] <title>` — shorter heading-style text within a section
 
-The biopsychosocial text has minimal heading structure — `[Heading 1]` for major parts only.
+**Always derive the current chapter and section title from these tags** as you scan. Every Oxford Handbook reference needs a `section` field like `"Ch 1 History and examination – Presenting complaint"`.
 
-**Always derive the current chapter and section title from these tags** as you scan. Every reference needs a `section` field like `"Ch 1 History and examination – Presenting complaint"`.
+## How to scan the Oxford Handbook — line by line, no sampling
 
-## How to scan — line by line, no sampling
-
-**Read every line.** Do not sample, skip ahead, or skim. The goal is comprehensive coverage.
+**Read every line.** Do not sample, skip ahead, or skim. The goal is comprehensive coverage. This workflow applies to the Oxford Handbook only; for the biopsychosocial book, see "Book-specific approaches" above.
 
 ### Workflow
 
@@ -157,7 +191,7 @@ tags:
 - `images` — filenames from `source-material/<book>/images/` that belong to this reference. Copy these to `references/images/` when writing the reference
 - `tags` — one or more from the tag list in `references/README.md`
 
-### Body
+### Body — Oxford Handbook (verbatim)
 
 Copy the text **verbatim** from `full-text.txt`, but:
 - **Strip** the `[index][style]` prefix from each line
@@ -165,6 +199,16 @@ Copy the text **verbatim** from `full-text.txt`, but:
 - **Do not** paraphrase, summarise, or edit the text
 - **Do not** include lines that are purely structural (empty `[Para 218]` lines, image captions that are just figure numbers)
 - **Include** meaningful figure captions (e.g. "Fig. 1.1 The lower right first molar. The gutta percha point indicates a sinus opening.")
+
+### Body — Biopsychosocial (applied to dentistry)
+
+The body teaches a principle from the book **applied to dental practice**. Structure each reference as:
+
+1. **The principle** — state the concept clearly in 1–2 sentences
+2. **What the book says** — summarise the key argument (cite chapter/section, not verbatim paragraphs)
+3. **How this applies in dental practice** — concrete dental scenarios, patient interactions, or clinical decisions where this principle matters
+
+Keep it concise and practical. The flashcards generated from these references will test whether the user can recall and apply the principle, not recite academic text.
 
 ### Images
 
@@ -181,9 +225,9 @@ A reference should be **self-contained enough to generate 1–5 flashcards** fro
 
 Process books in this order (highest clinical yield first):
 1. **`oxford-handbook`** — broadest coverage of GDP-relevant topics (COMPLETE)
-2. **`biopsychosocial`** — theoretical framework for holistic care (selective — only extract what's clinically applicable)
+2. **`biopsychosocial`** — principles applied to dental practice (see "Book-specific approaches")
 
-Within each book, work **sequentially from line 1 to the end**. No skipping ahead.
+For the Oxford Handbook, work sequentially from line 1 to the end. For the biopsychosocial book, read thematically to understand each principle, then write the applied reference.
 
 ## Inputs
 
@@ -207,8 +251,9 @@ After processing each batch, report:
 
 ## Do NOT
 
-- Skip lines or sample — read every line in order
-- Paraphrase or edit the source text — the body must be verbatim
+- Skip lines or sample in the Oxford Handbook — read every line in order
+- Paraphrase Oxford Handbook text — the body must be verbatim
+- For the biopsychosocial book: do not copy verbatim academic text — apply principles to dentistry
 - Extract content that doesn't serve the user's learning goals
 - Create references for content that's already covered by an existing reference (check paragraph ranges in `progress.json`)
 - Copy large images (> 1MB) without noting it — the user may want to skip those

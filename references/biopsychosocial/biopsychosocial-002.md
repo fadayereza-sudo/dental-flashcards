@@ -1,30 +1,31 @@
 ---
 id: biopsychosocial-002
 book: "The Biopsychosocial Model of Health and Disease 2019"
-section: "Ch 1 The Biopsychosocial Model 40 Years On – Emerging evidence of psychosocial causation"
-paragraphs: [268, 337]
+section: "Pain is biopsychosocial"
+paragraphs: [1759, 1804]
 images: []
 tags:
   - holistic-care
   - clinical-reasoning
+  - patient-communication
 ---
 
-Over the past few decades the picture that has emerged for causes of disease onset, especially for the non-communicable diseases, also known as the LTCs, is one of complex, multifactorial causation, involving many risk factors of relatively small effect, affecting multiple outcomes. The recent research on social factors as causes or risks for poor health—the so-called 'social determinants of health'—is probably the most well-known, new face validation of the need for a broad biopsychosocial model. Among the most influential social epidemiological research programmes are the Whitehall Studies of British civil servants, led by Michael Marmot. These longitudinal cohort studies found robust correlations between variance in incidence for a wide range of health conditions—coronary heart disease, premature mortality, some cancers, lung disease, gastrointestinal disease, depression, suicide, sickness absence, back pain and general feelings of ill-health—and civil service grade. The social gradient in health—the correlation between indices of social status and health outcomes—is now well-established.
+## The principle
 
-Other large research programmes have investigated associations between adverse psychosocial exposure in childhood and later health outcomes. A landmark programme is the Adverse Childhood Experiences Study (ACE Study) in the United States, carried out by Kaiser Permanente and the Centers for Disease Control and Prevention. The ACE study has demonstrated associations between adverse childhood experiences, such as physical and emotional neglect and abuse, and a large range of physical as well as mental health outcomes.
+Pain is not simply a signal of tissue damage. It has three distinct components: discriminative (where and what type), motivational (the urge to escape), and evaluative (what does this mean for my life?). The evaluative component — the personal meaning of pain — is where psychological and social factors powerfully amplify or dampen the experience.
 
-Lifestyle factors, comprising behaviours and associated beliefs, attitudes and values, have been increasingly implicated as risks, or conversely as protective factors, for a wide range of physical health conditions. for example risk factors for some cancers and cardiovascular disease include such as smoking, alcohol use, diet, exercise and chronic stress. Lifestyle factors can be covered under the same heading as social factors, or separately. Either way, lifestyle factors interact strongly with social context, reflecting Engel's insight that the person is essentially within a social context: diet for example, depends to some extent on choice, but also on what is available and affordable; stress depends on individual characteristics but also on task demands and available resources.
+## What the book says
 
-it is not objectively measured social status but social status as perceived, so-called 'subjective social status' that accounts for more of the variance in health outcomes. This interesting finding becomes part of the complex jigsaw puzzle of biopsychosocial aetiology.
+The book traces the evolution from specificity models of pain (tissue damage = pain) to Melzack and Wall's gate theory and beyond. Modern neuroscience shows pain perception involves both bottom-up signals and top-down, context-sensitive central processing. The evaluative component — "what does this damage mean for me, my agency, my life?" — is thoroughly biopsychosocial. Catastrophising (highly negative appraisals about pain and its consequences) amplifies the pain experience. Pain also has interpersonal signalling functions: expressions of pain induce caring responses from others. The limbic system mediates both somatic pain and emotional distress, which is why the word "pain" is used for both physical and emotional suffering (Ch 4, Sect. 4.2).
 
-Access to healthcare is an obvious heading, covering diverse factors such as public health screening to ensure timely detection, health literacy, availability, accessibility and affordability of care, and quality of care—all factors heavily dependent on personal, class and state economics, associated therefore with the social gradient in health.
+## How this applies in dental practice
 
-Acceptability of/participation in the recommended treatment regime. Psychosocial factors are associated with medication non-adherence, for example, following acute coronary syndrome, in haemodialysis patients, in youth with newly diagnosed epilepsy.
+A GDP encounters pain in almost every clinical session. Understanding that pain is biopsychosocial changes how you manage it:
 
-Psychosocial factors in pain. Pain as an important phenomenon and concept spanning the biopsychosocial will be considered further in Chapter 4.
+- **The anxious patient feels more pain.** A patient catastrophising ("this is going to be agony, the injection never works on me") will genuinely experience more pain from the same procedure. Addressing fear and expectations before picking up the syringe is not a nicety — it directly reduces the pain they feel.
 
-Psychological/mental health complications of medical conditions. This is an increasingly recognised issue, with implications for quality of life, social impairments and costs, in primary care, in LTCs and in oncology. Accumulating clinical experience and research has led to a new UK NHS policy directive requiring psychological therapy services to be integrated into physical healthcare pathways.
+- **Explain to reframe.** The evaluative component means that *what the patient thinks is happening* matters as much as what is happening. "You'll feel pressure but not sharpness" reframes the sensation. "This discomfort means the anaesthetic is working" gives meaning that reduces threat.
 
-Quality of life. There is a substantial literature on psychosocial factors and health-related quality of life in medical conditions.
+- **Chronic orofacial pain.** Patients with persistent pain after apparently successful treatment (e.g. post-endodontic pain, atypical facial pain, TMD) may have central sensitisation where the pain system itself is dysregulated. Telling them "there's nothing wrong" invalidates their experience. Acknowledging the pain is real while explaining that the nervous system can amplify signals helps them engage with management strategies like stress reduction and CBT-based approaches.
 
-Accumulating health data of the sort indicated above implicating psychosocial as well as biomedical factors, taken together, cover a large proportion of population health and health service provision in clinics and hospital beds. In other words, they are massively important, looked at in terms of population health, individual suffering, or economic costs; they are not a side-issue compared with conditions or stages of conditions that involve biological factors alone.
+- **Pain behaviour is communication.** When a patient expresses pain dramatically, they are (often unconsciously) signalling a need for care and reassurance. Responding to that need — rather than dismissing it — builds trust and actually reduces pain perception.
