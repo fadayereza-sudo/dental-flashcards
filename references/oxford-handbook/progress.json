@@ -1,71 +1,18 @@
 {
   "book": "oxford-handbook",
   "totalLines": 14908,
-  "lastLineProcessed": 1379,
-  "lastChapter": "Ch 3 Paediatric dentistry",
-  "lastSection": "Local analgesia for children – Block injection",
-  "referencesCreated": [
-    "oxford-handbook-001",
-    "oxford-handbook-002",
-    "oxford-handbook-003",
-    "oxford-handbook-004",
-    "oxford-handbook-005",
-    "oxford-handbook-006",
-    "oxford-handbook-007",
-    "oxford-handbook-008",
-    "oxford-handbook-009",
-    "oxford-handbook-010",
-    "oxford-handbook-011",
-    "oxford-handbook-012",
-    "oxford-handbook-013",
-    "oxford-handbook-014",
-    "oxford-handbook-015",
-    "oxford-handbook-016",
-    "oxford-handbook-017",
-    "oxford-handbook-018",
-    "oxford-handbook-019",
-    "oxford-handbook-020",
-    "oxford-handbook-021",
-    "oxford-handbook-022",
-    "oxford-handbook-023",
-    "oxford-handbook-024",
-    "oxford-handbook-025",
-    "oxford-handbook-026",
-    "oxford-handbook-027"
-  ],
-  "sectionsSkipped": [
-    {
-      "lines": [0, 230],
-      "reason": "Front matter — title page, copyright, table of contents, contributors, symbols and abbreviations"
-    },
-    {
-      "lines": [370, 375],
-      "reason": "Tooth notation — rote knowledge (notation chart diagrams), no clinical reasoning"
-    },
-    {
-      "lines": [501, 506],
-      "reason": "Sialography, arthrography, PET — specialist imaging techniques, included CBCT/MRI/US in ref 010 instead"
-    },
-    {
-      "lines": [835, 852],
-      "reason": "Provision of dental care — service structure (GDS, CDS, hospital). Administrative/system knowledge, not clinical"
-    },
-    {
-      "lines": [917, 933],
-      "reason": "Dental care professionals — regulatory/administrative detail about DCP roles and GDC registration"
-    },
-    {
-      "lines": [934, 960],
-      "reason": "Statistics and epidemiology — prevalence numbers and indices, no clinical reasoning"
-    },
-    {
-      "lines": [961, 996],
-      "reason": "Chapter 3 contents page and source list — structural"
-    },
-    {
-      "lines": [1252, 1308],
-      "reason": "Abnormalities of tooth form and colour — mostly rare specialist conditions (double teeth, macrodontia, microdontia, dens in dente, dilaceration, taurodontism, staining). Recognise-and-refer with low clinical yield for GDP"
-    }
-  ],
-  "complete": false
+  "lastLineProcessed": 14908,
+  "lastChapter": "Ch 21 Useful information and addresses",
+  "lastSection": "Index",
+  "totalReferences": 242,
+  "referenceRanges": {
+    "001-027": "Ch 1–3 partial (lines 0–1379) — extracted sequentially",
+    "028-074": "Ch 3 remainder + Ch 4 + Ch 5 (lines 1380–3340)",
+    "100-138": "Ch 6 + Ch 7 + Ch 8 + Ch 9 (lines 3341–5368)",
+    "200-244": "Ch 10 + Ch 11 + Ch 12 (lines 5369–7130)",
+    "300-348": "Ch 13 + Ch 14 + Ch 15 (lines 7131–8646)",
+    "400-429": "Ch 16 + Ch 17 + Ch 18 + Ch 19 + Ch 20 (lines 8647–10558)",
+    "500-504": "Ch 21 + Index (lines 10559–14908)"
+  },
+  "complete": true
 }
