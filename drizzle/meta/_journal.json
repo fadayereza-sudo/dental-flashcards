@@ -8,6 +8,20 @@
       "when": 1776283897064,
       "tag": "0000_init",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1776306723827,
+      "tag": "0001_noisy_tyrannus",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1776307873938,
+      "tag": "0002_curvy_black_knight",
+      "breakpoints": true
     }
   ]
 }
