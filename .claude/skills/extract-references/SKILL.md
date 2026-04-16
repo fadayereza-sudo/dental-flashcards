@@ -44,12 +44,11 @@ Focus on content with the highest clinical yield. A paragraph explaining *why* a
 
 ## Source material
 
-Three preprocessed books in `source-material/`:
+Two preprocessed books in `source-material/`:
 
 | Short name | Full title | Structure |
 |---|---|---|
 | `oxford-handbook` | Oxford Handbook of Clinical Dentistry 7e | Topic-based chapters with sections |
-| `odells` | Odell's Clinical Problem Solving in Dentistry 4e | Case-based — each case is a clinical scenario |
 | `biopsychosocial` | The Biopsychosocial Model of Health and Disease 2019 | Theoretical chapters on the BPS model |
 
 Each has:
@@ -65,8 +64,6 @@ There are **no `[Heading 2]` or `[Heading 3]` tags** in the Oxford Handbook. Str
 - **Chapter title:** `[Para 086] <title>` — the line immediately after a chapter boundary (e.g. `[Para 086] History and examination`)
 - **Section headings:** `[Heading 1] <title>` — marks a section within a chapter (e.g. `[Heading 1] Presenting complaint`)
 - **Sub-section headings:** `[Para 032] <title>` — shorter heading-style text within a section
-
-Odell's uses `[Heading 1]` for case titles and `[Heading 2]` for questions within each case.
 
 The biopsychosocial text has minimal heading structure — `[Heading 1]` for major parts only.
 
@@ -134,7 +131,7 @@ When invoked with no line range:
 references/<book-short-name>/<book-short-name>-<NNN>.md
 ```
 
-Example: `references/odells/odells-003.md`
+Example: `references/biopsychosocial/biopsychosocial-003.md`
 
 **Numbering:** check the existing files in the book's reference folder to find the next available sequence number. Always use 3-digit zero-padded numbers (001, 002, ...).
 
@@ -183,9 +180,8 @@ A reference should be **self-contained enough to generate 1–5 flashcards** fro
 ## Running order
 
 Process books in this order (highest clinical yield first):
-1. **`oxford-handbook`** — broadest coverage of GDP-relevant topics
-2. **`odells`** — case-based reasoning, excellent for clinical thinking
-3. **`biopsychosocial`** — theoretical framework for holistic care (selective — only extract what's clinically applicable)
+1. **`oxford-handbook`** — broadest coverage of GDP-relevant topics (COMPLETE)
+2. **`biopsychosocial`** — theoretical framework for holistic care (selective — only extract what's clinically applicable)
 
 Within each book, work **sequentially from line 1 to the end**. No skipping ahead.
 

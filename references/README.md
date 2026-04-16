@@ -15,7 +15,6 @@ references/
 
 Book short names match source-material folders:
 - `oxford-handbook`
-- `odells`
 - `biopsychosocial`
 
 ## Reference file format
@@ -24,7 +23,7 @@ Each `.md` file uses this frontmatter:
 
 ```yaml
 ---
-id: <book>-<seq>           # e.g. odells-001
+id: <book>-<seq>           # e.g. oxford-handbook-001
 book: <full book title>
 section: <chapter or case + section title>
 paragraphs: [start, end]  # inclusive line range in full-text.txt

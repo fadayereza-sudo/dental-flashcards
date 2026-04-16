@@ -104,9 +104,9 @@ Schema (matches [scripts/import-flashcards.ts](../../../scripts/import-flashcard
 
 ```json
 {
-  "folder": "Odell's Clinical Problem Solving in Dentistry",
-  "subfolder": "Case 1 – Selective carious tissue removal",
-  "source": "Odell's 4e, Case 1",
+  "folder": "Oxford Handbook of Clinical Dentistry",
+  "subfolder": "Ch 1 History and examination – Presenting complaint",
+  "source": "Oxford Handbook 7e, Ch 1",
   "cards": [
     {
       "question": "Why …?",
@@ -117,7 +117,7 @@ Schema (matches [scripts/import-flashcards.ts](../../../scripts/import-flashcard
     {
       "question": "What …?",
       "answer": "…",
-      "image": "/card-images/odells-001-description.jpg",
+      "image": "/card-images/oxford-handbook-001-description.jpg",
       "reference": "Verbatim source text.",
       "referenceSection": "Section heading"
     }
