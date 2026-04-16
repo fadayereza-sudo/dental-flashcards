@@ -108,13 +108,28 @@ Schema (matches [scripts/import-flashcards.ts](../../../scripts/import-flashcard
   "subfolder": "Case 1 – Selective carious tissue removal",
   "source": "Odell's 4e, Case 1",
   "cards": [
-    { "question": "Why …?", "answer": "Because …" },
-    { "question": "What …?", "answer": "…", "image": "/card-images/odells-001-description.jpg" }
+    {
+      "question": "Why …?",
+      "answer": "Because …",
+      "reference": "Verbatim text from the reference file that this card was derived from.",
+      "referenceSection": "Section heading from the reference"
+    },
+    {
+      "question": "What …?",
+      "answer": "…",
+      "image": "/card-images/odells-001-description.jpg",
+      "reference": "Verbatim source text.",
+      "referenceSection": "Section heading"
+    }
   ]
 }
 ```
 
 `folder` should be the book's full title (so the in-app folder tree reads naturally). `subfolder` is derived from the reference's `section` field. `source` should let a user trace the citation back.
+
+**Every card MUST include `reference` and `referenceSection`.**
+- `reference` — the verbatim text from the reference file that this specific card was derived from. Copy the relevant passage(s) exactly. This appears in a "View Reference" popup on the card back.
+- `referenceSection` — the section/chapter heading the text comes from (e.g. "First impressions", "Should You Ensure Removal of All Carious Tissue?").
 
 ## Do NOT
 

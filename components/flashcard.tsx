@@ -9,6 +9,8 @@ type Props = {
     answer: string;
     source: string | null;
     image: string | null;
+    reference: string | null;
+    referenceSection: string | null;
     state: number;
     reps: number;
   };
@@ -25,6 +27,7 @@ const RATINGS = [
 export function Flashcard({ card, onRate }: Props) {
   const [flipped, setFlipped] = useState(false);
   const [rated, setRated] = useState(false);
+  const [refOpen, setRefOpen] = useState(false);
 
   const stateLabel =
     card.state === 0
@@ -97,7 +100,24 @@ export function Flashcard({ card, onRate }: Props) {
               )}
             </div>
             <div className="flex items-center justify-between text-[10px] tracking-[0.18em] uppercase text-ink-muted pt-6 border-t border-rule/70">
-              <span>Rate your recall</span>
+              {card.reference ? (
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setRefOpen(true);
+                  }}
+                  className="flex items-center gap-1.5 text-bronze hover:text-ink transition-colors"
+                >
+                  <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden>
+                    <path d="M2 2h8l4 4v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z" stroke="currentColor" strokeWidth="1.2" />
+                    <path d="M4 9h8M4 12h5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
+                  </svg>
+                  View reference
+                </button>
+              ) : (
+                <span>Rate your recall</span>
+              )}
               <span aria-hidden>▴</span>
             </div>
           </div>
@@ -125,6 +145,59 @@ export function Flashcard({ card, onRate }: Props) {
         <p className="mt-3 text-center text-[10px] tracking-[0.18em] uppercase text-ink-muted">
           Scheduled — scroll on
         </p>
+      )}
+
+      {/* Reference overlay */}
+      {refOpen && card.reference && (
+        <div
+          className="fixed inset-0 z-50 flex items-end justify-center"
+          onClick={() => setRefOpen(false)}
+        >
+          <div className="absolute inset-0 bg-ink/40 backdrop-blur-sm" />
+          <div
+            className="relative w-full max-w-lg max-h-[85dvh] rounded-t-2xl bg-paper border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden animate-slide-up"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Handle */}
+            <div className="flex justify-center pt-3 pb-1">
+              <div className="w-10 h-1 rounded-full bg-ink-muted/30" />
+            </div>
+
+            {/* Header */}
+            <div className="flex items-start justify-between px-6 pb-4 border-b border-rule/70">
+              <div className="min-w-0 pr-4">
+                <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-1">
+                  Source reference
+                </p>
+                {card.source && (
+                  <p className="text-xs text-ink-soft truncate">{card.source}</p>
+                )}
+                {card.referenceSection && (
+                  <p className="text-sm font-medium text-ink mt-1">
+                    {card.referenceSection}
+                  </p>
+                )}
+              </div>
+              <button
+                type="button"
+                onClick={() => setRefOpen(false)}
+                className="shrink-0 mt-1 w-7 h-7 rounded-full bg-paper-sunk border border-rule flex items-center justify-center text-ink-muted hover:text-ink transition-colors"
+                aria-label="Close"
+              >
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden>
+                  <path d="M1 1l8 8M9 1l-8 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                </svg>
+              </button>
+            </div>
+
+            {/* Body */}
+            <div className="flex-1 overflow-y-auto px-6 py-5">
+              <blockquote className="text-[15px] leading-[1.7] text-ink whitespace-pre-line border-l-2 border-bronze/40 pl-4">
+                {card.reference}
+              </blockquote>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

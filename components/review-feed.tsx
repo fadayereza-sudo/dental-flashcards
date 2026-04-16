@@ -10,6 +10,8 @@ type Card = {
   answer: string;
   source: string | null;
   image: string | null;
+  reference: string | null;
+  referenceSection: string | null;
   folderId: number;
   due: string;
   state: number;

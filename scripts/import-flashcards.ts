@@ -10,7 +10,13 @@ type ImportFile = {
   folder: string;
   subfolder: string;
   source?: string;
-  cards: Array<{ question: string; answer: string; image?: string }>;
+  cards: Array<{
+    question: string;
+    answer: string;
+    image?: string;
+    reference?: string;
+    referenceSection?: string;
+  }>;
 };
 
 const IMPORT_DIR = resolve(process.cwd(), "flashcards-import");
@@ -103,6 +109,8 @@ async function run() {
           answer: c.answer,
           source: payload.source ?? null,
           image: c.image ?? null,
+          reference: c.reference ?? null,
+          referenceSection: c.referenceSection ?? null,
           contentHash,
         })
         .returning({ id: schema.cards.id });

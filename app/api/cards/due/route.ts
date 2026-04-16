@@ -38,6 +38,8 @@ export async function GET(req: NextRequest) {
       answer: schema.cards.answer,
       source: schema.cards.source,
       image: schema.cards.image,
+      reference: schema.cards.reference,
+      referenceSection: schema.cards.referenceSection,
       folderId: schema.cards.folderId,
       due: schema.cardState.due,
       state: schema.cardState.state,
