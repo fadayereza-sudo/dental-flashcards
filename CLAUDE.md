@@ -37,6 +37,10 @@ Preprocessing script: `python scripts/preprocess-docx.py "<docx-path>" "<output-
 
 Card images served from `public/card-images/`. Cards can reference them via the `image` field.
 
+## References
+
+Curated extracts live in `references/<book>/`. Each `.md` file has YAML frontmatter (`id`, `book`, `section`, `paragraphs`, `images`, `tags`) and verbatim source text. These are the inputs for the `make-flashcards` skill. See [references/README.md](references/README.md) for the full format.
+
 ## Data model
 
 Two-level folder tree → cards → per-card FSRS `card_state` + append-only `reviews` log. `settings` is a single-row table holding Telegram chat id, timezone, and notification windows. Schema in [lib/db/schema.ts](lib/db/schema.ts).
