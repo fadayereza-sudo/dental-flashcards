@@ -68,13 +68,20 @@ export function Flashcard({ card, onRate }: Props) {
         >
           {/* Front */}
           <div className="flip-face absolute inset-0 p-8 flex flex-col justify-between">
-            <div>
+            <div className="overflow-y-auto pr-1">
               <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-6">
                 Question
               </p>
               <p className="text-[24px] leading-[1.3] text-ink">
                 {card.question}
               </p>
+              {card.image && (
+                <img
+                  src={card.image}
+                  alt=""
+                  className="mt-4 w-full rounded-lg border border-rule/50"
+                />
+              )}
             </div>
             <div className="flex items-center justify-between text-[10px] tracking-[0.18em] uppercase text-ink-muted pt-6 border-t border-rule/70">
               <span>Tap to reveal</span>
