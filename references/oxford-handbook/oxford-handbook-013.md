@@ -1,67 +1,59 @@
 ---
 id: oxford-handbook-013
 book: "Oxford Handbook of Clinical Dentistry 7e"
-section: "Ch 2 – Dental health education and behaviour change"
-paragraphs: [802, 834]
+section: "Ch 2 Preventive and community dentistry – Caries diagnosis"
+paragraphs: [570, 595]
 images: []
 tags:
-  - patient-communication
+  - clinical-reasoning
   - prevention
-  - holistic-care
+  - operative
 ---
 
-Dental health education
+Caries diagnosis
 
-The objective of dental health education is to influence the attitude and behaviour of the individual to maintain oral health for life and prevent oral disease.
+As caries can be arrested or even reversed, early diagnosis is important.
 
-Primary prevention—seeks to prevent the initial occurrence of a disease or disorder and is aimed at healthy individuals.
+Aids to diagnosis
 
-Secondary prevention—aims to arrest disease through early detection and Rx.
+Good eyesight (and a clean, dry, well-illuminated tooth). Magnification between ×2 and ×6 (leaning forward with the naked eye magnifies the image but you can only get so close to your patient); loupes are better!
 
-Tertiary prevention—helps individuals to deal with the effects of the disease and to prevent further recurrence.
+A blunt probe should only be used to horizontally dredge plaque away from the fissures (as a sharp probe may actually damage an incipient lesion).
 
-Who should give it?
+Horizontal bitewing (b/w) radiographs are useful in the detection of approximal caries and in some instances occlusal caries. They are best approached systematically viewing 'approximal–occlusal–approximal' surface for each tooth, first in enamel then dentine, first with the naked eye and then with a viewing box (magnification and external light blackened out or enlargement of digital images). The clinical situation is more advanced than the radiographic appearance. However, it is thought that the probability of cavitation is low when a lesion is confined to enamel on a radiograph.
 
-All health professionals. In practice, many patients relate better to advice from a hygienist or nurse.
+Fibreoptic transillumination (FOTI) probes with a 0.5mm tip are useful for detecting dentinal lesions at approximal sites. FOTI is considered to be an adjunct to b/w radiographs.
 
-What information should be given?
+Laser-based (e.g. DIAGNOdent®) and impedance-based (e.g. CarieScan PRO®) instruments are available which use properties of the carious lesion to produce a quantitative reading of infected carious tissue, particularly dentine caries.
 
-It is important that the information given is factual and that different sources do not give conflicting advice. Four simple messages are recommended:
+Diagnosis and its relevance to management
 
-Restrict sugar-containing foods to mealtimes.
+Remember:
 
-Clean teeth and gums thoroughly bd with a fluoride toothpaste.
+Pre-cavitated lesion—prevention.
+Cavitated lesion—prevention and restoration.
 
-Attend the dentist regularly.
+Counsel the patient that if the lesion is not cavitated, it has the potential to arrest. This makes the preventive advice very relevant to the patient, increasing the chance of that patient acting on the advice.
 
-Water fluoridation is beneficial.
+Smooth surface caries
+This is relatively straightforward to diagnose. The chances of remineralization are ↑ as it is obvious, and accessible for cleaning. Restoration is indicated if prevention has failed and the lesion is cavitated, if the tooth is symptomatic or sensitive, or if aesthetics are poor.
 
-How?
+Pit and fissure caries
+This is difficult to diagnose reliably, especially in the early stages. Testing the suspected cavity with a sharp probe is discouraged as stickiness could be due to the morphology of the fissure and the probe could encourage cavitation. The anatomy of the area also tends to favour spread of the lesion, which often occurs rapidly. As fissure caries is less affected by fluoride and oral hygiene (OH), fissure sealant (f/s) is preferable to watching and waiting particularly in high-risk individuals. Occlusal caries evident on b/w radiographs should not always be excised. If the tooth is fissure sealed or restored, check the margins very carefully, and if intact, monitoring the lesion radiographically is often justified initially. If marginal integrity is not intact, investigate the area with a small round bur. The 'cavity' can be aborted if no caries is found and the surface sealed.
 
-The way in which the advice is imparted is as important as its content. One-to-one in the clinical environment is usually the most successful approach, because the message can be tailored to the individual and reinforcement is facilitated.
+Approximal caries
+Currently accepted practice:
 
-Individual dental health education
+If lesion is confined to enamel on b/w radiograph, institute preventive measures and keep under review.
 
-Because many patients find the dental surgery threatening, it may be better to choose a more neutral environment, e.g. a dental health or preventive unit. It is important that the information is given by someone the patient trusts and can relate to—this is not always the dentist! It is important also to have adequate time, as a hurried approach is of dubious value, and to choose words that the patient will understand.
+If lesion has penetrated dentine radiographically, a restoration is indicated unless serial radiographs show that it is static.
 
-The following approach has been used successfully:
+If in doubt whether an approximal lesion has cavitated or not, an elastic orthodontic separator may be fitted for 3–7 days to allow surface visualization.
 
-Define the problem and its aetiology. For example, poor OH which has resulted in periodontal disease—is it because the patient lacks motivation or the appropriate skills? This stage includes questioning the patient to discover how often and for how long he or she brushes.
+Recall intervals
 
-Set realistic objectives. It is better to start with trying to motivate the patient to brush well once a day rather than teaching them how to floss.
+This subject has evoked considerable controversy, some arguing that regular attendance puts a patient more at risk of receiving replacement fillings, while others contend that regular and frequent check-ups are necessary to monitor prevention. In fact, it would appear that only a minority of the British public attend for 6-monthly check-ups. The available evidence suggests that there is no clear benefit for recall intervals of <1yr for healthy patients, although the at-risk patient often needs to be seen more frequently. In addition, as changing dentist ↑ the likelihood of replacement restorations the profession has to re-examine its criteria for replacement.
 
-Demonstrate on the patient, as this makes the advice more relevant, and more likely to be remembered.
+In the UK, guidance from the National Institute for Health and Care Excellence (NICE) recommends that dental recall intervals ('oral health review' intervals) should be determined by the needs of the individual patient based on a risk assessment of existing disease progressing or new disease developing. For adult patients this interval can be between 3 and 24 months and for children 3 and 12 months.
 
-Monitor by comparing plaque scores before and after. This not only enables you to monitor improvement but also allows improvements in the patient's OH behaviour to be reinforced.
-
-Remember that everyone responds well to praise, so if a patient is doing well, tell them.
-
-Keys to successful dental health education
-
-Relevant to the individual, their lifestyle and problems.
-
-Keep the message simple. Too much information may be counter-productive.
-
-Repetition of message.
-
-Positive reinforcement.
+A child's first check-up should occur once the first teeth have erupted (i.e. usually between 6 months and 1yr of age).

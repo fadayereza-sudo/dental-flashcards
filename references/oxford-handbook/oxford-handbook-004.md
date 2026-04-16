@@ -1,17 +1,19 @@
 ---
 id: oxford-handbook-004
 book: "Oxford Handbook of Clinical Dentistry 7e"
-section: "Ch 1 – The medical history and screening"
+section: "Ch 1 History and examination – Medical history and screening"
 paragraphs: [314, 321]
 images: []
 tags:
   - medical-history
-  - patient-communication
+  - clinical-reasoning
 ---
 
 The medical history
 
 There is much to be said for asking patients to complete a medical history questionnaire, as this encourages more accurate responses to sensitive questions. However, it is important to use this as a starting point and clarify the answers with the patient.
+
+Example of a medical questionnaire
 
 Check the medical history at each recall.
 

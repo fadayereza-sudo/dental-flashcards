@@ -1,65 +1,56 @@
 ---
 id: oxford-handbook-012
 book: "Oxford Handbook of Clinical Dentistry 7e"
-section: "Ch 2 – Sugar, the Stephan curve, and dietary advice"
-paragraphs: [736, 796]
+section: "Ch 2 Preventive and community dentistry – Dental caries"
+paragraphs: [539, 569]
 images: []
 tags:
+  - clinical-reasoning
   - prevention
-  - patient-communication
-  - holistic-care
 ---
 
-Sugar
+Dental caries
 
-Sugar is used to refer to the mono- and disaccharide members of the carbohydrate family. Dietary sugars have been classified as intrinsic when they are part of the cells in a food (vegetables and fruit) or extrinsic (milk sugar or, the real baddy, non-milk extrinsic sugar, e.g. table sugar). Both intrinsic and extrinsic sugars may cause decay, although non-milk extrinsic sugars are most cariogenic.
+Dental caries is a sugar-dependent infectious disease (Fig. 2.1). Acid is produced as a by-product of the metabolism of fermentable carbohydrate by plaque bacteria, which results in a drop in pH at the tooth surface. In response, calcium and phosphate ions diffuse out of enamel, resulting in demineralization. This process is reversed when the pH rises again. Caries is ∴ a dynamic process characterized by episodic demineralization and remineralization occurring over time. If destruction predominates, disintegration of the mineral component will occur, leading to cavitation.
 
-In order of ↓ cariogenicity:
+Enamel caries
+The initial lesion is visible as a white spot. This appearance is due to demineralization of the prisms in a sub-surface layer, with the surface enamel remaining more mineralized. With continued acid attack the surface changes from being smooth to rough, and may become stained. As the lesion progresses, pitting and eventually cavitation occur. The carious process favours repair, as remineralized enamel concentrates fluoride and has larger crystals, with a ↓ surface area. Fissure caries often starts as two white spot lesions on opposing walls, which coalesce.
 
-Sucrose, glucose, fructose, maltose.
+Dentine caries
+Dentine caries comprises demineralization followed by bacterial invasion, but differs from enamel caries in the production of 2° dentine and the proximity of the pulp. Once bacteria reach the amelo-dentinal junction (ADJ), lateral spread occurs, undermining the overlying enamel.
 
-Galactose, lactose.
+Rate of progression of caries
+Although it has been suggested that the mean time that lesions remain confined radiographically to the enamel is 3–4yrs, there is great individual variation and lesions may even regress. The rate of progression through dentine is unknown; however, it is likely to be faster than through enamel. Progression of fissure caries is usually rapid due to the morphology of the area. Rapid progression is especially common in 1° molars, with progress from early dentine involvement to pulpal involvement in <1yr in some cases.
 
-Complex carbohydrate (e.g. starch in rice, bread, potatoes).
+Arrested caries
+Under favourable conditions a lesion may become inactive and even regress. Clinically, arrested dentine caries has a hard or leathery consistency and is darker in colour than soft, yellow, active decay. Arrested enamel caries can be stained dark brown.
 
-The frequency of sugary intakes and the interval between them, the total amount of sugar eaten in the diet, and the concentration of sugar and stickiness of a food have been shown to be important. The acidogenicity of a sugar-containing food can be modified by other items in the food or meal. Foods that stimulate salivary flow can speed the return of plaque pH to normal (e.g. cheese, sugar-free gum, salted peanuts).
+Susceptible sites
+The sites on a tooth which are particularly prone to decay are those where plaque accumulation can occur unhindered, e.g. approximal enamel surfaces, cervical margins, and pits and fissures. Host factors, e.g. the volume and composition of the saliva, can also affect susceptibility.
 
-Dietary analysis
+Saliva and caries
+Saliva acts as an IO antacid, due to its alkaline pH at high flow rates and buffering capacity. Also:
 
-Aim
+↓ plaque accumulation and aids clearance of foodstuffs.
 
-To ↓ the time for which the teeth are at risk of demineralization and ↑ the potential remineralization period.
+Acts as a reservoir of calcium, phosphate, and fluoride ions, thereby favouring remineralization.
 
-Indications
+Has an antibacterial action because of its IgA, lysozyme, lactoferrin, and lactoperoxidase content.
 
-(i) High caries activity, (ii) unusual caries pattern, and (iii) suspected dietary erosion.
+An appreciation of the importance of saliva can be gained by examining a patient with a dry mouth.
 
-Dietary advice should be tailored to the individual. This is most easily done after analysing the patient's present eating pattern.
+Chewing sugar-free gum regularly after meals stimulates saliva production and does appear to ↓ caries, but the reduction is small.
 
-Method
+Root caries
+With gingival recession, root dentine is exposed to carious attack. Rx requires, first, control of the aetiological factors and for most patients this involves dietary advice and oral hygiene instruction (OHI). Topical fluoride may aid remineralization and prevent new lesions developing. However, active lesions will require restoration (Root surface caries, p. 248).
 
-A consecutive 3- or 4-day analysis (including at least one weekend day) is the most widely used, with the patient recording the time, content, and quantity of food/drink consumed. In addition, toothbrushing and bedtime should be indicated. When the form is returned, the entries should be checked with the patient.
+Caries prevention
+Classically three main approaches are possible:
 
-Analysis
+Tooth strengthening or protection.
+Reduction in the availability of microbial substrate.
+Removal of plaque by physical or chemical means.
 
-Ring the main meals. If in any doubt, identify those snacks that contain complex carbohydrate. Assess nutritional value of meals.
+In practice this means dietary advice, fluoride, fissure sealing, and regular toothbrushing (which is also important in the prevention of periodontal disease). The relative value of these varies with the age of the individual.
 
-Underline all sugar intakes in red.
-
-Identify between-meal snacks and note any associations, e.g. following insubstantial meals or at school.
-
-Decide on a maximum of three recommendations.
-
-Dietary advice
-
-This should include an explanation of the effect of between-meals eating and sugary drinks. It must also be personal, practical, and positive! The suggestion that a child should select crisps when friends are buying sweets is more likely to be followed than total abstinence.
-
-Some helpful hints:
-
-Save sweets to be eaten on 1 day, e.g. Saturday dinnertime, or to be eaten at the end of a meal.
-
-All-in-one chocolate bars are preferable to packets of individual sweets.
-
-Foods which ↑ salivary flow (e.g. cheese, sugar-free chewing gum) can help to reverse the pH drop due to sugar if eaten afterwards.
-
-Treacle, honey, and fruit (especially fruit juice) are cariogenic.
+Of equal importance with the prevention of new lesions is a preventive philosophy on the part of the dentist, so that early carious lesions are given the chance to arrest and a minimalistic approach is taken to the excision of caries where 1° prevention has failed.

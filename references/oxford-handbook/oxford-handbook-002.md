@@ -1,59 +1,44 @@
 ---
 id: oxford-handbook-002
 book: "Oxford Handbook of Clinical Dentistry 7e"
-section: "Ch 1 – The dental history"
-paragraphs: [278, 301]
+section: "Ch 1 History and examination – Presenting complaint"
+paragraphs: [258, 277]
 images: []
 tags:
-  - patient-communication
   - clinical-reasoning
-  - prevention
+  - patient-communication
 ---
 
-The dental history
+Presenting complaint
 
-It is important to assess the patient's dental awareness and the likelihood of raising it. A dental history may also provide invaluable clues as to the nature of the presenting complaint and should not be ignored. This can be achieved by some simple general questions:
+The aim of this part of the history is to establish provisional differential diagnoses even before examining the patient. The following is a suggested outline, which would require modifying according to the circumstances:
 
-How often do you go to the dentist?
+Complaining of (C/O) documented in the patient's own words
 
-This gives information on motivation, likely attendance patterns, and may indicate patients who change their general dental practitioner (GDP) frequently.
+Use a general introductory question, e.g. 'Why did you come to see us today?' or 'What is the problem?'
 
-When did you last see a dentist and what did they do?
+If symptoms are present
 
-This may give clues as to the diagnosis of the presenting complaint, e.g. a recent root canal treatment (RCT).
+Onset and pattern
+When did the problem start? Was it a sudden or gradual onset? Is it getting better, worse, or staying the same?
 
-How often do you brush your teeth and how long for? Do you use mouthwash, floss, or interdental brushes?
+Frequency
+How often and how long does it last? Does it occur at any particular time of day or night?
 
-This gives information on motivation and likely gingival condition.
+Exacerbating and relieving factors
+What makes it better? What makes it worse? What started it?
 
-Have you ever had any pain or clicking from your jaw joints?
+If pain is the main symptom
 
-This may indicate temporomandibular joint (TMJ) pathology.
+Origin and radiation
+Where is the pain and does it spread?
 
-Are you aware that you grind your teeth or bite your nails?
+Character and intensity
+How would you describe the pain: sharp, shooting, dull, aching, etc.? This can be difficult, but patients with specific 'organic' pain will often understand exactly what you mean whereas patients with symptoms with a high behavioural overlay will be vague and prevaricate.
 
-This may provide information on temporomandibular disorder (TMD) and personality.
+Remember, while 'severity' of pain is subjective this may give an idea of how well a patient is coping.
 
-How do you feel about dental treatment?
+Associations
+Is there anything, in your own mind, which you associate with the problem?
 
-This helps in explaining any dental anxiety.
-
-What do you think about the appearance of your teeth?
-
-This provides clues about motivation and possible need for orthodontic Rx.
-
-What is your job?
-
-This can give indications about socio-economic status, education, availability for attending appointments, possible snacking habits, and frequently changing routines (e.g. night shifts or long-distance driving), that may affect diet (e.g. high-sugar/energy drinks if an athlete).
-
-Where do you live?
-
-This gives information on fluoride intake and travelling time to surgery. This question may seem invasive to the patient, so the information can be obtained from their records. Confirm these are up to date and accurate.
-
-What types of dental treatment have you had previously?
-
-For example, previous extractions, problems with local anaesthesia (LA) or general anaesthesia (GA), orthodontics, and periodontal Rx.
-
-What are your snacking habits like?
-
-For example, types of foods/drinks and frequency. This can give indications about hidden sugars, caries rate, and erosion. It is worth including specific questions as to whether or not they use tobacco, alcohol, or other recreational drugs.
+The majority of dental problems can quickly be narrowed down using a simple series of questions such as these to create a provisional diagnosis and judge the urgency of the problem.

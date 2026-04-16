@@ -1,35 +1,39 @@
 ---
 id: oxford-handbook-006
 book: "Oxford Handbook of Clinical Dentistry 7e"
-section: "Ch 1 – Examination of the mouth"
-paragraphs: [357, 369]
+section: "Ch 1 History and examination – Examination of the head and neck"
+paragraphs: [338, 356]
 images: []
 tags:
   - clinical-reasoning
 ---
 
-Examination of the mouth
+Examination of the head and neck
 
-Most dental textbooks, quite rightly, include a very detailed and comprehensive description of how to examine the mouth. Given the constraints imposed by routine clinical practice, this approach needs to be modified to give a somewhat briefer format that is as equally applicable to the routine dental attendee who is symptomless as to the new patient attending with pain of unknown origin.
+This is an important aspect of examination that is often undertaught and overlooked in both medical and dental training. In the former, the tendency is to approach the area in a rather cursory manner, partly because it is not well understood. In the latter, it is often forgotten, despite otherwise extensive knowledge of the head and neck, to look beyond the mouth. For this reason, the examination described here is given in some detail, but the depth of examination will vary, dependent on the patient's complaint, risk factors, and clinical suspicion.
 
-The key to this is to develop a systematic approach, which becomes almost automatic, so that when you are under pressure there is less likelihood of missing any pathology.
+Head and facial appearance
+Look for specific deformities (Cleft lip and palate, p. 170), facial disharmony (Orthodontics and orthognathic surgery, p. 168), syndromes (Chapter 20), traumatic defects (Mandibular fractures, p. 494; Mid-face fractures, p. 496; Nasal and malar fractures, p. 498), and facial palsy (Oral manifestations of neurological disease, p. 476).
 
-Extra-oral (EO) examination
+Assessment of the cranial nerves is covered in Cranial nerves, p. 546.
 
-For routine clinical practice this can usually be limited to a visual appraisal, e.g. swellings, asymmetry, patient's colour, etc. More detailed examination can be carried out if indicated by the patient's symptoms. Lymph nodes may be palpated.
+Skin
+Lesions of the face should be examined for colour, scaling, bleeding, and crusting, and palpated for texture and consistency and whether or not they are fixed to, or arising from, surrounding tissues. Those with facial hair who have had radiotherapy may have hairless patches indicating the area which was irradiated.
 
-Intra-oral (IO) examination
+Eyes
+Note obvious abnormalities such as proptosis and lid retraction (e.g. hyperthyroidism) and ptosis (drooping eyelid). Examine conjunctiva for chemosis (swelling) and pallor (e.g. anaemia or jaundice). Look at the iris and pupil. Ophthalmoscopy is the examination of the disc and retina via the pupil. It is a specialized skill requiring an adequate ophthalmoscope and is acquired by watching and practising with a skilled supervisor. However, direct and consensual (contralateral eye) light responses of the pupils are straightforward and should always be assessed in suspected head injury (Pupils, p. 492).
 
-Oral hygiene. Avoid subjective scores. A validated plaque score is advised, preferably using scores where a higher number is better, to motivate the patient with an objective measurement.
+Ears
+Gross abnormalities of the external ear are usually obvious. Further examination requires an auroscope. The secret is to have a good auroscope and straighten the external auditory meatus by pulling upwards, backwards, and outwards using the largest applicable speculum. Look for the pearly grey tympanic membrane; a plug of wax often intervenes.
 
-Soft tissues. The entire oral mucosa should be carefully inspected. Any ulcer of >3 weeks' duration requires further investigation. Examination should include the tongue, floor of mouth, lips, oropharynx, tonsillar crypt and tonsils, and hard palate. It is important to recognize normal anatomy.
+Mouth
+See Examination of the mouth, p. 12.
 
-Periodontal condition. This can be assessed rapidly, using a periodontal probe.
+Oropharynx and tonsils
+These can easily be seen by depressing the tongue with a spatula, the hypopharynx and larynx are seen by indirect laryngoscopy, using a head-light and mirror, and the post-nasal space is similarly viewed. Skill with a flexible nasendoscope is essential for those (e.g. oral and maxillofacial surgery trainees) who examine this area in detail regularly.
 
-Chart the teeth present.
+The neck
+Inspect from in front and palpate from behind. Look for skin changes, scars, swellings, and arterial and venous pulsations. Palpate the neck systematically, starting at a fixed standard point, e.g. beneath the chin, working back to the angle of the mandible and then down the cervical chain, remembering the scalene and supraclavicular nodes. Swellings of the thyroid move with swallowing. Auscultation may reveal bruits over the carotids (usually due to atheroma).
 
-Examine each tooth in turn for caries and examine the integrity of any restorations present.
-
-Occlusion. This should involve not only getting the patient to close together and examining the relationship between the arches, but also looking at the path of closure for any obvious prematurities and displacements. Check for evidence of tooth wear.
-
-For those patients complaining of pain, a more thorough examination of the area related to their symptoms should then be carried out, followed by any special investigations.
+Temporomandibular joint
+Palpate both joints simultaneously. Have the patient open and close and move joint laterally while feeling for clicking, locking, and crepitus. Palpate the muscles of mastication for spasm and tenderness. Auscultation is not usually used. Clicking can be physiological rather than pathological and in these cases simple reassurance may be required. Examine for diversion of the mandible.

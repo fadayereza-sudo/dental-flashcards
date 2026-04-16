@@ -1,50 +1,47 @@
 ---
 id: oxford-handbook-016
 book: "Oxford Handbook of Clinical Dentistry 7e"
-section: "Ch 3 – Safeguarding children"
-paragraphs: [1629, 1656]
+section: "Ch 2 Preventive and community dentistry – Bacterial plaque and dental decay"
+paragraphs: [680, 699]
 images: []
 tags:
-  - professional
-  - patient-communication
+  - prevention
+  - clinical-reasoning
 ---
 
-Safeguarding children
+Bacterial plaque and dental decay
 
-All professionals involved with children need to be aware of the principles of safeguarding and alert to the possibility of child abuse or neglect.
+Evidence for role of bacteria in dental caries
 
-NB: the term 'child abuse' is now favoured over 'non-accidental injury'.
+In vitro—incubating teeth with plaque and sugar in saliva results in caries.
 
-The following signs are associated with abuse:
+Animal experiments, e.g. germ-free rodents fed a cariogenic diet do not develop caries, but following the introduction of Streptococcus mutans caries occurs.
 
-Usually younger children are involved.
+Epidemiological evidence showing that a supply of bacterial substrate results in caries.
 
-The presenting injuries may not match the parent's account of how they were sustained. The account may change over time.
+Clinical experiments, e.g. stringent removal of plaque ↓ decay.
 
-Delay attending at a surgery or clinic for Rx of the injury.
+A correlation has been found between the presence of Streptococcus mutans and caries. This is not surprising, because this organism is acidophilic, can synthesize acid rapidly from sugar, and produces a sticky extracellular polysaccharide which helps bind it to the tooth. However, caries can develop in the absence of S. mutans, and its presence does not inevitably lead to decay, e.g. root caries has been associated with S. salivarius and Actinomyces species. Lactobacillus species are also acidophilic and have been implicated in fissure caries. In addition, plaque prevents acid diffusing away from the enamel and hinders the neutralizing effect of salivary buffers.
 
-Bruises/injuries of different vintages are found on examination.
+Methods of preventing caries by bacterial control
 
-Ear pinches and frenal tears in children <1yr old are highly suspicious.
+Physical removal of plaque
+By a professional. If sufficiently frequent it can ↓ caries, but is impractical as a population-based approach.
 
-50% of abused children will have signs on the head &/or neck.
+By the individual. The available evidence suggests that toothbrushing alone is not an effective method of caries control. However, a long-term study has demonstrated much less oral disease, including dental caries, in patients who maintain good plaque control over many years. Also ↓ gingivitis.
 
-Management
+Chemical removal of plaque
+To achieve more than a transitory effect, an antiseptic needs to be retained in the mouth. Chlorhexidine, a positively charged bactericidal and fungicidal antiseptic, is capable of this. It is attracted to the negatively charged proteins on the surface of teeth and oral mucosa and in saliva from where it gradually leaches out. It is available as a 0.2% mouthwash and a 1% gel which are cheaper over the counter than by prescription. Although the main application of chlorhexidine is in the management of gingivitis, it has been shown to be effective at ↓ caries when used regularly. While its widespread use for this purpose is not practical, it can be helpful in the management of disabled patients or those with ↓ salivary flow. Unwanted effects include staining, disturbance of taste, and parotid swelling (which is reversible). It is less effective in the presence of a large build-up of plaque and is inactivated by commercial toothpastes.
 
-Local guidelines are produced by Local Safeguarding Children Boards (LSCBs) or Area Child Protection Committees.
+A variety of pre-brushing rinses are now available. Research suggests that these do have a small beneficial effect if used in conjunction with toothbrushing.
 
-If abuse is suspected
+Immunization against caries
+As no vaccine is completely safe, the ethics of vaccinating against caries, an avoidable non-lethal disease, have been hotly debated. Yet, despite considerable research and efforts to produce one, there is currently no such vaccine commercially available. This may be due to a number of problems:
 
-Take a careful history and keep full records.
+Which species of mutans streptococci to target, and whether pathogenicity would then shift to another species.
 
-Discuss concerns with an experienced/trusted colleague and decide if further action/referral is justified.
+Lack of strong economic interests.
 
-Provide any urgent/emergency dental care.
+Differing modes of action in monkeys and rodents, ∴ questionable relevance of experiments to humans.
 
-Talk to child and parents—tactfully explain your concerns, seeking consent to sharing of information. Rarely, if you feel informing the parents/carers may put the child or others (including yourself) at risk, you may still share information &/or refer if you believe it is in the child's best interests to do so. Make sure to arrange review with child and parents before they leave the appointment.
-
-Making a referral
-
-Referral should be made directly to social services and followed up in writing within 48h. The child's medical practitioner should also be informed. If a child presents with serious injuries which are suspicious, they should be referred to the nearest accident and emergency department, with the department informed of the situation before the child's arrival.
-
-Tact and understanding is required when dealing with the patient's family. Try to avoid making accusations and concentrate on treating the patient's injuries, expressing the need to refer them on to experts who will be able to fully evaluate the situation and offer appropriate help.
+Cross-reactivity with heart muscle in animal experiments.

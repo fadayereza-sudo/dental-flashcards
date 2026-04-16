@@ -1,50 +1,34 @@
 ---
 id: oxford-handbook-007
 book: "Oxford Handbook of Clinical Dentistry 7e"
-section: "Ch 1 – Specific investigations: sensibility testing and diagnosis"
-paragraphs: [423, 446]
+section: "Ch 1 History and examination – Examination of the mouth"
+paragraphs: [357, 369]
 images: []
 tags:
   - clinical-reasoning
-  - operative
 ---
 
-Sensibility testing
+Examination of the mouth
 
-It must be borne in mind when vitality testing that it is the integrity of the nerve supply that is being investigated. However, it is the blood supply which is of more relevance to the continued vitality of a pulp. Test the suspect tooth and its neighbours for comparison.
+Most dental textbooks, quite rightly, include a very detailed and comprehensive description of how to examine the mouth. Given the constraints imposed by routine clinical practice, this approach needs to be modified to give a somewhat briefer format that is as equally applicable to the routine dental attendee who is symptomless as to the new patient attending with pain of unknown origin.
 
-Application of cold
+The key to this is to develop a systematic approach, which becomes almost automatic, so that when you are under pressure there is less likelihood of missing any pathology.
 
-This is most practically carried out using Endo-Frost or ethyl chloride on a pledget of cotton wool, held against a dry tooth.
+Extra-oral (EO) examination
+(Examination of the head and neck, p. 10.) For routine clinical practice this can usually be limited to a visual appraisal, e.g. swellings, asymmetry, patient's colour, etc. More detailed examination can be carried out if indicated by the patient's symptoms. Lymph nodes may be palpated.
 
-Application of heat
+Intra-oral (IO) examination
 
-Petroleum jelly should be applied first to the tooth being tested to prevent the heated gutta-percha (GP) sticking. No response suggests that the tooth is non-vital, but an ↑ response indicates that the pulp is hyperaemic.
+Oral hygiene. Avoid subjective scores. A validated plaque score is advised, preferably using scores where a higher number is better, to motivate the patient with an objective measurement.
 
-Electric pulp tester
+Soft tissues. The entire oral mucosa should be carefully inspected. Any ulcer of >3 weeks' duration requires further investigation (An approach to oral ulcers, p. 482). Examination should include the tongue, floor of mouth, lips, oropharynx, tonsillar crypt and tonsils, and hard palate. It is important to recognize normal anatomy.
 
-The tooth to be tested should be dry, and prophy paste or a proprietary lubricant used as a conductive medium. Most machines ascribe numbers to the patient's reaction, but these should be interpreted with caution as the response can also vary with battery strength or the position of the electrode on the tooth.
+Periodontal condition. This can be assessed rapidly, using a periodontal probe (Basic Periodontal Examination, p. 178).
 
-Test cavity
+Chart the teeth present (Tooth notation, p. 790).
 
-Drilling into dentine without LA is an accurate diagnostic test, but as tooth tissue is destroyed it should only be used as a last resort. Can be helpful for crowned teeth but should be used with caution.
+Examine each tooth in turn for caries (Caries diagnosis, p. 26) and examine the integrity of any restorations present.
 
-Percussion
+Occlusion. This should involve not only getting the patient to close together and examining the relationship between the arches (Definitions, p. 124), but also looking at the path of closure for any obvious prematurities and displacements (Crossbites, p. 154). Check for evidence of tooth wear (Tooth wear/tooth surface loss, p. 252).
 
-This is carried out by gently tapping adjacent and suspect teeth with the end of a mirror handle. A positive response indicates that a tooth is extruded due to exudate in apical or lateral periodontal tissues.
-
-Tooth mobility
-
-Tooth mobility is ↑ by ↓ in the bony support (e.g. due to periodontal disease or an apical abscess) and also by a fracture (#) of the root or supporting bone.
-
-Palpation
-
-Palpation of the buccal sulcus next to a painful tooth can help to determine if there is an associated apical abscess.
-
-Biting on to a Tooth Slooth, gauze, or rubber
-
-This can be used to try and elicit pain due to a cracked tooth.
-
-Local anaesthesia
-
-LA can help localize organic pain.
+For those patients complaining of pain, a more thorough examination of the area related to their symptoms should then be carried out, followed by any special investigations (Investigations—specific, p. 16).

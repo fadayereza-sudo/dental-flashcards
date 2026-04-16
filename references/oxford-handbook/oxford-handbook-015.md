@@ -1,68 +1,74 @@
 ---
 id: oxford-handbook-015
 book: "Oxford Handbook of Clinical Dentistry 7e"
-section: "Ch 3 – Managing the anxious child: behaviour management techniques"
-paragraphs: [1064, 1109]
+section: "Ch 2 Preventive and community dentistry – Fluoride therapy planning"
+paragraphs: [641, 679]
 images: []
 tags:
-  - patient-communication
-  - holistic-care
+  - prevention
 ---
 
-The anxious child
+Planning fluoride therapy
 
-Techniques for behaviour management
+The most important action of fluoride is to favour remineralization of the early carious lesion. Although fluoride incorporated within developing enamel results in a high local concentration following acid attack, the maximum benefit appears to be derived from frequent low-concentration topical administration.
 
-While many of these techniques often come with experience of treating children over a period of time, they can be learnt.
+Systemic fluoride
 
-General principles
+To minimize the risk of mottling, only one systemic measure should be used at a time.
 
-Show interest in the child as a person.
+Water fluoridation
+At 1ppm (1mg F per litre), water fluoridation reduces caries by 50%. The main advantages are systemic and topical effect; no effort is required on the part of the individual; and the low cost. Yet despite this, only 10% of the UK population has fluoridated water. In some countries school water has been fluoridated, but a concentration of 5ppm is required to offset the less frequent intake.
 
-Touch > facial expression > tone of the voice > what is said.
+Fluoride drops and tablets
+The regimen (mg F per day) depends upon drinking water content (Table 2.1). This approach can be almost as effective as fluoridated water, but requires good parental motivation. Unfortunately, compliance is generally poor, so benefit as a public health measure is questionable.
 
-Don't ignore a child's fears or anxieties.
+Milk
+2.5–7ppm F has been tried successfully.
 
-Explain—why, how, when.
+Salt
+Cheap and effective for rural communities in developing countries where water fluoridation is not feasible.
 
-Aim to reward behaviour which approximates to positive, desired patterns. Try to ignore inappropriate or negative behaviour.
+Topical fluoride
 
-Get child involved in Rx, e.g. holding saliva ejector.
+Professionally applied fluorides
+Overall, there is a caries ↓ of 20–40%. Gels or foams applied in trays are still popular in some parts of the world, but without adequate suction the systemic dosage can be high and patients may not tolerate these well, Hence, their use in the UK is not extensive. Fluoride varnish (e.g. Duraphat® 5% NaF) is useful for applying directly to individual lesions to aid arrest. Fluoride varnish has been shown to be effective in ↓ caries incidence in children, and regular application (two times per year ↑ to three or four times per year where caries risk is i) is now advocated for all children over age 3yrs deemed to be at risk of caries. However, it should be applied carefully and sparingly, especially in young children as it contains 22,600ppm fluoride. Application of Duraphat® varnish is C/I in patients suffering from asthma.
 
-Giving the child some control over the situation will also help them to relax, e.g. a stop signal such as raising their hand if they want you to stop for any reason ('enhancing control').
+Rinsing solutions
+C/I in children <7yrs. The concentration depends upon the frequency of use: 0.2% fortnightly/weekly or 0.05% daily. Daily use is the most beneficial. Caries reductions of 16–50% have been reported with rinsing alone. The most widely used solution is sodium fluoride. Should be done at a separate time to brushing.
 
-The aim is to acclimatize the child to the new experiences associated with dental care, and establish a positive, trusting relationship with the child and family.
+Toothpastes
+Aid tooth cleaning, but, most importantly, provide fluoride. In the UK they contain abrasives (to a specified abrasivity standard), detergents, humectants, flavouring, binding agents, preservatives, and active agents, including:
 
-Tell, show, do
+Fluoride. Most toothpastes contain sodium monofluorophosphate &/or NaF, in concentrations of 1000–1500ppm (i.e. 1–1.5mg per 1cm of paste). Caries reductions of 15% (in fluoridated areas) to 30% (in non-fluoridated areas) are reported. Low-dose formulations for children <7yrs containing <500ppm are available, to ↓ risk of mottling, but such low concentrations are unlikely to be effective at significantly reducing caries.
 
-Self-explanatory, but use language the child will understand.
+Anti-calculus agents, e.g. sodium pyrophosphate, can ↓ calculus formation by 50%.
 
-Behaviour shaping
+Desensitizing agents, e.g. 10% strontium or potassium chloride, or 1.4% formaldehyde.
 
-Aim to guide and modify the child's responses, selectively reinforcing appropriate behaviour, while discouraging/ignoring inappropriate behaviour.
+Antibacterial agents, e.g. triclosan.
 
-Reinforcement
+Toothbrushing
+Brush twice daily (bd) with a >1000ppm fluoride toothpaste. >3yrs and those at ↑ risk of developing caries use 1350–1500ppm fluoride toothpaste.
 
-This is the strengthening of patterns of behaviour, usually by rewarding good behaviour with approval and praise. If a child protests and is uncooperative during Rx, do not immediately abandon the session and return them to the consolation of their parent, as this could inadvertently reinforce the undesirable behaviour. Try to ensure that something is completed (e.g. placing a dressing or even an examination) and focus on the successful completion of this, rather than the failure to complete what might have been originally planned.
+Children <3yrs of age should use a 'smear' and >3yrs a small pea-size blob (<0.3mL) of toothpaste.
 
-Desensitization
+Spit out well, but do not rinse, after brushing.
 
-Used for a child with pre-existing fears or phobias. Involves helping the patient to relax in the dental environment, then constructing a hierarchy of steps which gradually approximate to the fear-provoking stimulus for that patient. These steps are then introduced to the child gradually, with progression on to the next stimulus only when the child is able to cope with previous situation. It is a useful approach for managing needle phobia.
+Brushing with fluoride toothpaste should start as soon as the first teeth erupt (about 6 months of age). Parents should supervise brushing up to at least 7yrs of age to avoid over-ingestion of toothpaste and ensure adequate plaque removal.
 
-Should a parent accompany the child into surgery?
+Recommended daily fluoride supplementation (mg F)
 
-This is essential on the first visit, and thereafter depends upon the child's age and the clinician's preference. If in doubt, ask about the child's preference. However, if the parent is dental phobic, their anxiety in the dental environment can be detrimental, so in these cases it is worth considering leaving the parent in the waiting room. Younger children are more likely to suffer 'separation anxiety', and many parents nowadays wish to be involved in, and informed about, their child's Rx.
+For children considered to be at high risk of caries and who live in areas with water supplies containing <0.3ppm, see Table 2.1 (see guidelines).
 
-Sedation
+Fluoride supplement (drops and tablets)
+May be prescribed for children deemed to be at risk of developing caries living in areas with less than optimal fluoride in the water supply. Compliance with self-administered fluoride supplements is often poor (i.e. parents often forget to administer them regularly).
 
-Sometimes indicated for the genuinely anxious child who wishes to cooperate and also may help children with over-active gag reflexes and those for whom analgesia additional to LA may be needed.
+Fluoridation of water still remains the most cost-effective method.
 
-Inhalation sedation uses nitrous oxide/oxygen mixture to produce relative analgesia (RA) and is the most popular technique for use with children. Effective for ↓ anxiety and ↑ tolerance of invasive procedures in children who wish to cooperate but are too anxious to do so without help. It is a good idea not to carry out any Rx during the visit when the child is introduced to 'happy air'.
+Other products
 
-General anaesthesia
+Casein phosphopeptide/amorphous calcium phosphate
+These components based on concentrated milk proteins show promise for both caries prevention and enamel remineralization.
 
-Allows dental rehabilitation &/or dental extractions to be achieved at one visit. GA should only be used for dental Rx when absolutely necessary (i.e. when other methods of management, e.g. LA or sedation, are deemed unsuitable). Alternative strategies and the risks of GA must be discussed to enable parents to make an informed decision. The risk of unexpected death of a healthy person:
-
-Under GA has been estimated to be about 3 or 4 in 1 million.
-
-Under sedation has been estimated to be about 1 in 2 million.
+Chlorhexidine varnish
+This has also shown some efficacy in preventing approximal caries.

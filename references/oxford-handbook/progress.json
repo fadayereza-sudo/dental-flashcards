@@ -1,0 +1,40 @@
+{
+  "book": "oxford-handbook",
+  "totalLines": 14908,
+  "lastLineProcessed": 699,
+  "lastChapter": "Ch 2 Preventive and community dentistry",
+  "lastSection": "Bacterial plaque and dental decay",
+  "referencesCreated": [
+    "oxford-handbook-001",
+    "oxford-handbook-002",
+    "oxford-handbook-003",
+    "oxford-handbook-004",
+    "oxford-handbook-005",
+    "oxford-handbook-006",
+    "oxford-handbook-007",
+    "oxford-handbook-008",
+    "oxford-handbook-009",
+    "oxford-handbook-010",
+    "oxford-handbook-011",
+    "oxford-handbook-012",
+    "oxford-handbook-013",
+    "oxford-handbook-014",
+    "oxford-handbook-015",
+    "oxford-handbook-016"
+  ],
+  "sectionsSkipped": [
+    {
+      "lines": [0, 230],
+      "reason": "Front matter — title page, copyright, table of contents, contributors, symbols and abbreviations"
+    },
+    {
+      "lines": [370, 375],
+      "reason": "Tooth notation — rote knowledge (notation chart diagrams), no clinical reasoning"
+    },
+    {
+      "lines": [501, 506],
+      "reason": "Sialography, arthrography, PET — specialist imaging techniques, included CBCT/MRI/US in ref 010 instead"
+    }
+  ],
+  "complete": false
+}
