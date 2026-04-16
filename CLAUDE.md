@@ -23,9 +23,19 @@ Personal spaced-repetition app for dental study. Single-user; no auth.
 
 Every card's `answer` must include the **reasoning**, not just the fact. The user has to recall the "why" to pass. See [flashcards-import/README.md](flashcards-import/README.md) for the JSON format the importer expects.
 
-## PDF sources
+## Source material
 
-Source PDFs live at `c:\Users\IAU\Documents\Claude Projects\e-books\dentistry\` — **never** copy them into this repo. Putting large PDFs under the project root makes the Next dev server OOM.
+Original e-books live at `c:\Users\IAU\Documents\Claude Projects\e-books\dentistry\` — **never** copy them into this repo (dev server OOM).
+
+Preprocessed content lives in `source-material/<book>/` inside the repo:
+- `full-text.txt` — every paragraph tagged `[index][style] text`
+- `chapters.json` — chapter/section boundaries (paragraph indices)
+- `image-map.json` — extracted images mapped to paragraph indices
+- `images/` — extracted images
+
+Preprocessing script: `python scripts/preprocess-docx.py "<docx-path>" "<output-dir>"`
+
+Card images served from `public/card-images/`. Cards can reference them via the `image` field.
 
 ## Data model
 

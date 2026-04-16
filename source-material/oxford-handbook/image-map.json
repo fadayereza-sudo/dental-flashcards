@@ -1,0 +1,680 @@
+[
+  {
+    "file": "para-0000-img-000.jpeg",
+    "paragraph": 0,
+    "context": "",
+    "bytes": 724292
+  },
+  {
+    "file": "para-0114-img-001.jpeg",
+    "paragraph": 114,
+    "context": "",
+    "bytes": 3450
+  },
+  {
+    "file": "para-0116-img-002.jpeg",
+    "paragraph": 116,
+    "context": "",
+    "bytes": 3450
+  },
+  {
+    "file": "para-0217-img-003.jpeg",
+    "paragraph": 217,
+    "context": "",
+    "bytes": 498054
+  },
+  {
+    "file": "para-0218-img-004.jpeg",
+    "paragraph": 218,
+    "context": "",
+    "bytes": 672666
+  },
+  {
+    "file": "para-0219-img-005.jpeg",
+    "paragraph": 219,
+    "context": "",
+    "bytes": 704491
+  },
+  {
+    "file": "para-0220-img-006.jpeg",
+    "paragraph": 220,
+    "context": "",
+    "bytes": 686060
+  },
+  {
+    "file": "para-0221-img-007.jpeg",
+    "paragraph": 221,
+    "context": "",
+    "bytes": 666986
+  },
+  {
+    "file": "para-0222-img-008.jpeg",
+    "paragraph": 222,
+    "context": "",
+    "bytes": 663184
+  },
+  {
+    "file": "para-0223-img-009.jpeg",
+    "paragraph": 223,
+    "context": "",
+    "bytes": 640926
+  },
+  {
+    "file": "para-0224-img-010.jpeg",
+    "paragraph": 224,
+    "context": "",
+    "bytes": 650563
+  },
+  {
+    "file": "para-0225-img-011.jpeg",
+    "paragraph": 225,
+    "context": "",
+    "bytes": 687184
+  },
+  {
+    "file": "para-0226-img-012.jpeg",
+    "paragraph": 226,
+    "context": "",
+    "bytes": 679691
+  },
+  {
+    "file": "para-0227-img-013.jpeg",
+    "paragraph": 227,
+    "context": "",
+    "bytes": 692856
+  },
+  {
+    "file": "para-0228-img-014.jpeg",
+    "paragraph": 228,
+    "context": "",
+    "bytes": 650455
+  },
+  {
+    "file": "para-0229-img-015.jpeg",
+    "paragraph": 229,
+    "context": "",
+    "bytes": 253481
+  },
+  {
+    "file": "para-0372-img-016.jpeg",
+    "paragraph": 372,
+    "context": "",
+    "bytes": 145701
+  },
+  {
+    "file": "para-0374-img-017.jpeg",
+    "paragraph": 374,
+    "context": "",
+    "bytes": 122012
+  },
+  {
+    "file": "para-0568-img-018.jpeg",
+    "paragraph": 568,
+    "context": "",
+    "bytes": 53221
+  },
+  {
+    "file": "para-0600-img-019.jpeg",
+    "paragraph": 600,
+    "context": "",
+    "bytes": 44142
+  },
+  {
+    "file": "para-0761-img-020.jpeg",
+    "paragraph": 761,
+    "context": "",
+    "bytes": 46756
+  },
+  {
+    "file": "para-0895-img-021.jpeg",
+    "paragraph": 895,
+    "context": "",
+    "bytes": 196206
+  },
+  {
+    "file": "para-1145-img-022.jpeg",
+    "paragraph": 1145,
+    "context": "",
+    "bytes": 243686
+  },
+  {
+    "file": "para-1228-img-023.jpeg",
+    "paragraph": 1228,
+    "context": "",
+    "bytes": 230566
+  },
+  {
+    "file": "para-1311-img-024.jpeg",
+    "paragraph": 1311,
+    "context": "",
+    "bytes": 217192
+  },
+  {
+    "file": "para-1444-img-025.jpeg",
+    "paragraph": 1444,
+    "context": "",
+    "bytes": 36527
+  },
+  {
+    "file": "para-1479-img-026.jpeg",
+    "paragraph": 1479,
+    "context": "",
+    "bytes": 338083
+  },
+  {
+    "file": "para-1481-img-027.jpeg",
+    "paragraph": 1481,
+    "context": "",
+    "bytes": 279071
+  },
+  {
+    "file": "para-1566-img-028.jpeg",
+    "paragraph": 1566,
+    "context": "",
+    "bytes": 143356
+  },
+  {
+    "file": "para-1978-img-029.jpeg",
+    "paragraph": 1978,
+    "context": "",
+    "bytes": 33005
+  },
+  {
+    "file": "para-2023-img-030.jpeg",
+    "paragraph": 2023,
+    "context": "",
+    "bytes": 22654
+  },
+  {
+    "file": "para-2025-img-031.jpeg",
+    "paragraph": 2025,
+    "context": "",
+    "bytes": 23476
+  },
+  {
+    "file": "para-2027-img-032.jpeg",
+    "paragraph": 2027,
+    "context": "",
+    "bytes": 26039
+  },
+  {
+    "file": "para-2029-img-033.jpeg",
+    "paragraph": 2029,
+    "context": "",
+    "bytes": 24691
+  },
+  {
+    "file": "para-2084-img-034.jpeg",
+    "paragraph": 2084,
+    "context": "",
+    "bytes": 86319
+  },
+  {
+    "file": "para-2113-img-035.jpeg",
+    "paragraph": 2113,
+    "context": "",
+    "bytes": 199896
+  },
+  {
+    "file": "para-2136-img-036.jpeg",
+    "paragraph": 2136,
+    "context": "",
+    "bytes": 86754
+  },
+  {
+    "file": "para-2350-img-037.jpeg",
+    "paragraph": 2350,
+    "context": "",
+    "bytes": 21331
+  },
+  {
+    "file": "para-2404-img-038.jpeg",
+    "paragraph": 2404,
+    "context": "",
+    "bytes": 118559
+  },
+  {
+    "file": "para-2406-img-039.jpeg",
+    "paragraph": 2406,
+    "context": "",
+    "bytes": 119839
+  },
+  {
+    "file": "para-2431-img-040.jpeg",
+    "paragraph": 2431,
+    "context": "",
+    "bytes": 214679
+  },
+  {
+    "file": "para-2453-img-041.jpeg",
+    "paragraph": 2453,
+    "context": "",
+    "bytes": 22007
+  },
+  {
+    "file": "para-2508-img-042.jpeg",
+    "paragraph": 2508,
+    "context": "",
+    "bytes": 167863
+  },
+  {
+    "file": "para-2510-img-043.jpeg",
+    "paragraph": 2510,
+    "context": "",
+    "bytes": 65196
+  },
+  {
+    "file": "para-2593-img-044.jpeg",
+    "paragraph": 2593,
+    "context": "",
+    "bytes": 324667
+  },
+  {
+    "file": "para-2595-img-045.jpeg",
+    "paragraph": 2595,
+    "context": "",
+    "bytes": 397016
+  },
+  {
+    "file": "para-2820-img-046.jpeg",
+    "paragraph": 2820,
+    "context": "",
+    "bytes": 23277
+  },
+  {
+    "file": "para-3014-img-047.jpeg",
+    "paragraph": 3014,
+    "context": "",
+    "bytes": 368166
+  },
+  {
+    "file": "para-3237-img-048.jpeg",
+    "paragraph": 3237,
+    "context": "",
+    "bytes": 263808
+  },
+  {
+    "file": "para-3252-img-049.jpeg",
+    "paragraph": 3252,
+    "context": "",
+    "bytes": 219332
+  },
+  {
+    "file": "para-3887-img-050.jpeg",
+    "paragraph": 3887,
+    "context": "",
+    "bytes": 168279
+  },
+  {
+    "file": "para-4160-img-051.jpeg",
+    "paragraph": 4160,
+    "context": "",
+    "bytes": 452149
+  },
+  {
+    "file": "para-4173-img-052.jpeg",
+    "paragraph": 4173,
+    "context": "",
+    "bytes": 44830
+  },
+  {
+    "file": "para-4182-img-053.jpeg",
+    "paragraph": 4182,
+    "context": "",
+    "bytes": 44762
+  },
+  {
+    "file": "para-4280-img-054.jpeg",
+    "paragraph": 4280,
+    "context": "",
+    "bytes": 436350
+  },
+  {
+    "file": "para-4352-img-055.jpeg",
+    "paragraph": 4352,
+    "context": "",
+    "bytes": 151524
+  },
+  {
+    "file": "para-4400-img-056.jpeg",
+    "paragraph": 4400,
+    "context": "",
+    "bytes": 117224
+  },
+  {
+    "file": "para-4402-img-057.jpeg",
+    "paragraph": 4402,
+    "context": "",
+    "bytes": 151534
+  },
+  {
+    "file": "para-4442-img-058.jpeg",
+    "paragraph": 4442,
+    "context": "",
+    "bytes": 290930
+  },
+  {
+    "file": "para-4962-img-059.jpeg",
+    "paragraph": 4962,
+    "context": "",
+    "bytes": 390711
+  },
+  {
+    "file": "para-4963-img-060.jpeg",
+    "paragraph": 4963,
+    "context": "",
+    "bytes": 23183
+  },
+  {
+    "file": "para-5052-img-061.jpeg",
+    "paragraph": 5052,
+    "context": "",
+    "bytes": 475530
+  },
+  {
+    "file": "para-5068-img-062.jpeg",
+    "paragraph": 5068,
+    "context": "",
+    "bytes": 277496
+  },
+  {
+    "file": "para-5248-img-063.jpeg",
+    "paragraph": 5248,
+    "context": "",
+    "bytes": 171489
+  },
+  {
+    "file": "para-5262-img-064.jpeg",
+    "paragraph": 5262,
+    "context": "",
+    "bytes": 111034
+  },
+  {
+    "file": "para-5318-img-065.jpeg",
+    "paragraph": 5318,
+    "context": "",
+    "bytes": 152192
+  },
+  {
+    "file": "para-5338-img-066.jpeg",
+    "paragraph": 5338,
+    "context": "",
+    "bytes": 162511
+  },
+  {
+    "file": "para-5344-img-067.jpeg",
+    "paragraph": 5344,
+    "context": "",
+    "bytes": 114786
+  },
+  {
+    "file": "para-5547-img-068.jpeg",
+    "paragraph": 5547,
+    "context": "",
+    "bytes": 183349
+  },
+  {
+    "file": "para-5561-img-069.jpeg",
+    "paragraph": 5561,
+    "context": "",
+    "bytes": 322562
+  },
+  {
+    "file": "para-5579-img-070.jpeg",
+    "paragraph": 5579,
+    "context": "",
+    "bytes": 156592
+  },
+  {
+    "file": "para-5618-img-071.jpeg",
+    "paragraph": 5618,
+    "context": "",
+    "bytes": 184119
+  },
+  {
+    "file": "para-5620-img-072.jpeg",
+    "paragraph": 5620,
+    "context": "",
+    "bytes": 213433
+  },
+  {
+    "file": "para-5638-img-073.jpeg",
+    "paragraph": 5638,
+    "context": "",
+    "bytes": 221159
+  },
+  {
+    "file": "para-5655-img-074.jpeg",
+    "paragraph": 5655,
+    "context": "",
+    "bytes": 210355
+  },
+  {
+    "file": "para-5685-img-075.jpeg",
+    "paragraph": 5685,
+    "context": "",
+    "bytes": 191883
+  },
+  {
+    "file": "para-5687-img-076.jpeg",
+    "paragraph": 5687,
+    "context": "",
+    "bytes": 382933
+  },
+  {
+    "file": "para-5711-img-077.jpeg",
+    "paragraph": 5711,
+    "context": "",
+    "bytes": 215562
+  },
+  {
+    "file": "para-5713-img-078.jpeg",
+    "paragraph": 5713,
+    "context": "",
+    "bytes": 297865
+  },
+  {
+    "file": "para-5751-img-079.jpeg",
+    "paragraph": 5751,
+    "context": "",
+    "bytes": 452424
+  },
+  {
+    "file": "para-5884-img-080.jpeg",
+    "paragraph": 5884,
+    "context": "",
+    "bytes": 264630
+  },
+  {
+    "file": "para-5898-img-081.jpeg",
+    "paragraph": 5898,
+    "context": "",
+    "bytes": 153995
+  },
+  {
+    "file": "para-5924-img-082.jpeg",
+    "paragraph": 5924,
+    "context": "",
+    "bytes": 355865
+  },
+  {
+    "file": "para-6054-img-083.jpeg",
+    "paragraph": 6054,
+    "context": "",
+    "bytes": 507144
+  },
+  {
+    "file": "para-6068-img-084.jpeg",
+    "paragraph": 6068,
+    "context": "",
+    "bytes": 373249
+  },
+  {
+    "file": "para-6148-img-085.jpeg",
+    "paragraph": 6148,
+    "context": "",
+    "bytes": 317317
+  },
+  {
+    "file": "para-6223-img-086.jpeg",
+    "paragraph": 6223,
+    "context": "",
+    "bytes": 496174
+  },
+  {
+    "file": "para-6399-img-087.jpeg",
+    "paragraph": 6399,
+    "context": "",
+    "bytes": 446800
+  },
+  {
+    "file": "para-6507-img-088.jpeg",
+    "paragraph": 6507,
+    "context": "",
+    "bytes": 572035
+  },
+  {
+    "file": "para-6545-img-089.jpeg",
+    "paragraph": 6545,
+    "context": "",
+    "bytes": 310808
+  },
+  {
+    "file": "para-6691-img-090.jpeg",
+    "paragraph": 6691,
+    "context": "",
+    "bytes": 348539
+  },
+  {
+    "file": "para-6709-img-091.jpeg",
+    "paragraph": 6709,
+    "context": "",
+    "bytes": 123408
+  },
+  {
+    "file": "para-6726-img-092.jpeg",
+    "paragraph": 6726,
+    "context": "",
+    "bytes": 340893
+  },
+  {
+    "file": "para-6728-img-093.jpeg",
+    "paragraph": 6728,
+    "context": "",
+    "bytes": 305852
+  },
+  {
+    "file": "para-6887-img-094.jpeg",
+    "paragraph": 6887,
+    "context": "",
+    "bytes": 79582
+  },
+  {
+    "file": "para-6889-img-095.jpeg",
+    "paragraph": 6889,
+    "context": "",
+    "bytes": 99397
+  },
+  {
+    "file": "para-6972-img-096.jpeg",
+    "paragraph": 6972,
+    "context": "",
+    "bytes": 458665
+  },
+  {
+    "file": "para-6974-img-097.jpeg",
+    "paragraph": 6974,
+    "context": "",
+    "bytes": 404342
+  },
+  {
+    "file": "para-7680-img-098.jpeg",
+    "paragraph": 7680,
+    "context": "",
+    "bytes": 177166
+  },
+  {
+    "file": "para-7683-img-099.jpeg",
+    "paragraph": 7683,
+    "context": "",
+    "bytes": 500607
+  },
+  {
+    "file": "para-7686-img-100.jpeg",
+    "paragraph": 7686,
+    "context": "",
+    "bytes": 507351
+  },
+  {
+    "file": "para-7706-img-101.jpeg",
+    "paragraph": 7706,
+    "context": "",
+    "bytes": 696096
+  },
+  {
+    "file": "para-7771-img-102.jpeg",
+    "paragraph": 7771,
+    "context": "",
+    "bytes": 183465
+  },
+  {
+    "file": "para-8023-img-103.jpeg",
+    "paragraph": 8023,
+    "context": "",
+    "bytes": 245777
+  },
+  {
+    "file": "para-8024-img-104.jpeg",
+    "paragraph": 8024,
+    "context": "",
+    "bytes": 42379
+  },
+  {
+    "file": "para-8526-img-105.jpeg",
+    "paragraph": 8526,
+    "context": "",
+    "bytes": 144389
+  },
+  {
+    "file": "para-10402-img-106.jpeg",
+    "paragraph": 10402,
+    "context": "",
+    "bytes": 167877
+  },
+  {
+    "file": "para-10569-img-107.jpeg",
+    "paragraph": 10569,
+    "context": "",
+    "bytes": 138425
+  },
+  {
+    "file": "para-10572-img-108.jpeg",
+    "paragraph": 10572,
+    "context": "",
+    "bytes": 120079
+  },
+  {
+    "file": "para-10575-img-109.jpeg",
+    "paragraph": 10575,
+    "context": "",
+    "bytes": 188607
+  },
+  {
+    "file": "para-10576-img-110.jpeg",
+    "paragraph": 10576,
+    "context": "",
+    "bytes": 223849
+  },
+  {
+    "file": "para-10577-img-111.jpeg",
+    "paragraph": 10577,
+    "context": "",
+    "bytes": 233085
+  },
+  {
+    "file": "para-10578-img-112.jpeg",
+    "paragraph": 10578,
+    "context": "",
+    "bytes": 25462
+  }
+]

@@ -8,6 +8,7 @@ type Props = {
     question: string;
     answer: string;
     source: string | null;
+    image: string | null;
     state: number;
     reps: number;
   };
@@ -87,6 +88,13 @@ export function Flashcard({ card, onRate }: Props) {
               <p className="text-[18px] leading-[1.5] text-ink">
                 {card.answer}
               </p>
+              {card.image && (
+                <img
+                  src={card.image}
+                  alt=""
+                  className="mt-4 w-full rounded-lg border border-rule/50"
+                />
+              )}
             </div>
             <div className="flex items-center justify-between text-[10px] tracking-[0.18em] uppercase text-ink-muted pt-6 border-t border-rule/70">
               <span>Rate your recall</span>

@@ -38,6 +38,7 @@ export const cards = pgTable(
     question: text("question").notNull(),
     answer: text("answer").notNull(),
     source: text("source"),
+    image: text("image"),
     contentHash: text("content_hash").notNull(),
     createdAt: timestamp("created_at", { withTimezone: true })
       .notNull()

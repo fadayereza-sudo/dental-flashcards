@@ -37,6 +37,7 @@ export async function GET(req: NextRequest) {
       question: schema.cards.question,
       answer: schema.cards.answer,
       source: schema.cards.source,
+      image: schema.cards.image,
       folderId: schema.cards.folderId,
       due: schema.cardState.due,
       state: schema.cardState.state,

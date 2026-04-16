@@ -9,6 +9,7 @@ type Card = {
   question: string;
   answer: string;
   source: string | null;
+  image: string | null;
   folderId: number;
   due: string;
   state: number;
