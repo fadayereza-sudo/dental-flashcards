@@ -1,9 +1,9 @@
 {
   "book": "oxford-handbook",
   "totalLines": 14908,
-  "lastLineProcessed": 699,
-  "lastChapter": "Ch 2 Preventive and community dentistry",
-  "lastSection": "Bacterial plaque and dental decay",
+  "lastLineProcessed": 1379,
+  "lastChapter": "Ch 3 Paediatric dentistry",
+  "lastSection": "Local analgesia for children – Block injection",
   "referencesCreated": [
     "oxford-handbook-001",
     "oxford-handbook-002",
@@ -20,7 +20,18 @@
     "oxford-handbook-013",
     "oxford-handbook-014",
     "oxford-handbook-015",
-    "oxford-handbook-016"
+    "oxford-handbook-016",
+    "oxford-handbook-017",
+    "oxford-handbook-018",
+    "oxford-handbook-019",
+    "oxford-handbook-020",
+    "oxford-handbook-021",
+    "oxford-handbook-022",
+    "oxford-handbook-023",
+    "oxford-handbook-024",
+    "oxford-handbook-025",
+    "oxford-handbook-026",
+    "oxford-handbook-027"
   ],
   "sectionsSkipped": [
     {
@@ -34,6 +45,26 @@
     {
       "lines": [501, 506],
       "reason": "Sialography, arthrography, PET — specialist imaging techniques, included CBCT/MRI/US in ref 010 instead"
+    },
+    {
+      "lines": [835, 852],
+      "reason": "Provision of dental care — service structure (GDS, CDS, hospital). Administrative/system knowledge, not clinical"
+    },
+    {
+      "lines": [917, 933],
+      "reason": "Dental care professionals — regulatory/administrative detail about DCP roles and GDC registration"
+    },
+    {
+      "lines": [934, 960],
+      "reason": "Statistics and epidemiology — prevalence numbers and indices, no clinical reasoning"
+    },
+    {
+      "lines": [961, 996],
+      "reason": "Chapter 3 contents page and source list — structural"
+    },
+    {
+      "lines": [1252, 1308],
+      "reason": "Abnormalities of tooth form and colour — mostly rare specialist conditions (double teeth, macrodontia, microdontia, dens in dente, dilaceration, taurodontism, staining). Recognise-and-refer with low clinical yield for GDP"
     }
   ],
   "complete": false
