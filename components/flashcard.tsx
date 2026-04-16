@@ -68,7 +68,7 @@ export function Flashcard({ card, onRate }: Props) {
               <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-6">
                 Question
               </p>
-              <p className="font-serif text-[26px] leading-[1.25] text-ink [font-variation-settings:'opsz'_36]">
+              <p className="text-[24px] leading-[1.3] text-ink">
                 {card.question}
               </p>
             </div>
@@ -84,7 +84,7 @@ export function Flashcard({ card, onRate }: Props) {
               <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-6">
                 Answer &amp; Reasoning
               </p>
-              <p className="font-serif text-[20px] leading-[1.45] text-ink [font-variation-settings:'opsz'_24]">
+              <p className="text-[18px] leading-[1.5] text-ink">
                 {card.answer}
               </p>
             </div>
@@ -106,7 +106,7 @@ export function Flashcard({ card, onRate }: Props) {
             onClick={() => handleRate(r.value)}
             className="group flex flex-col items-center justify-center gap-0.5 rounded-2xl bg-paper-sunk border border-rule hover:border-ink-soft active:scale-[0.97] transition py-3"
           >
-            <span className={`font-serif text-lg ${r.accent}`}>{r.label}</span>
+            <span className={`text-base font-medium ${r.accent}`}>{r.label}</span>
             <span className="text-[10px] tracking-[0.18em] uppercase text-ink-muted">
               {r.sub}
             </span>

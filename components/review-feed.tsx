@@ -154,7 +154,7 @@ export function ReviewFeed() {
           {cards.map((c, i) => (
             <div
               key={c.id}
-              className="snap-item h-[100dvh] w-full flex items-center justify-center px-5"
+              className="snap-item h-[100dvh] w-full flex items-center justify-center px-5 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+4rem)]"
             >
               <Flashcard
                 card={c}
@@ -162,7 +162,7 @@ export function ReviewFeed() {
               />
             </div>
           ))}
-          <div className="snap-item h-[100dvh] w-full flex items-center justify-center px-5">
+          <div className="snap-item h-[100dvh] w-full flex items-center justify-center px-5 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+4rem)]">
             <EndOfFeed onRefresh={fetchCards} />
           </div>
         </div>

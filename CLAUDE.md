@@ -25,7 +25,7 @@ Every card's `answer` must include the **reasoning**, not just the fact. The use
 
 ## PDF sources
 
-Source PDFs live at `c:\Users\IAU\Documents\dentistry\e-books\` — **never** copy them into this repo. Putting large PDFs under the project root makes the Next dev server OOM.
+Source PDFs live at `c:\Users\IAU\Documents\Claude Projects\e-books\dentistry\` — **never** copy them into this repo. Putting large PDFs under the project root makes the Next dev server OOM.
 
 ## Data model
 
