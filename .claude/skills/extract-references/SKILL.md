@@ -5,7 +5,7 @@ description: "Scan source material and extract sections relevant to the user's l
 
 # extract-references
 
-Systematically scan preprocessed dental textbooks and extract the specific sections that will help the user become a safe, competent GDP. Each extracted section becomes a reference file — the raw input for flashcard generation.
+Systematically scan preprocessed dental textbooks **line by line** and extract every section that will help the user become a safe, competent GDP. Each extracted section becomes a reference file — the raw input for flashcard generation.
 
 ## User's learning goals
 
@@ -54,30 +54,77 @@ Three preprocessed books in `source-material/`:
 
 Each has:
 - **`full-text.txt`** — every paragraph, one per line, tagged `[index][style] text`
-- **`chapters.json`** — chapter/section boundaries (paragraph indices)
 - **`image-map.json`** — extracted images mapped to paragraph indices
 - **`images/`** — extracted image files
 
-## How to scan (token-efficient)
+## How headings work in the text
 
-**Never load an entire `full-text.txt` into context.** Follow this workflow:
+There are **no `[Heading 2]` or `[Heading 3]` tags** in the Oxford Handbook. Structure is encoded as:
 
-1. **Read `chapters.json`** to get the chapter/section list with paragraph indices.
-2. **Pick a section** to evaluate. Calculate its paragraph range (from its index to the next section's index).
-3. **Read a sample** — the first 30–50 lines of the section to assess relevance.
-4. **Decide:** does this section serve the user's goals? If not, skip it. If yes, read the full section.
-5. **Segment the section** into reference-sized chunks. One reference = one teachable concept. This might be:
-   - A single paragraph that explains a key mechanism
-   - A sequence of paragraphs covering one diagnostic approach
-   - A full subsection on a procedure
-   - A case presentation with its reasoning
-6. **Check `image-map.json`** for images in the paragraph range. View clinically useful ones.
-7. **Write the reference file** with verbatim text.
-8. **Move to the next section** and repeat.
+- **Chapter boundary:** `[Para 047] Chapter N` — marks the start of a new chapter
+- **Chapter title:** `[Para 086] <title>` — the line immediately after a chapter boundary (e.g. `[Para 086] History and examination`)
+- **Section headings:** `[Heading 1] <title>` — marks a section within a chapter (e.g. `[Heading 1] Presenting complaint`)
+- **Sub-section headings:** `[Para 032] <title>` — shorter heading-style text within a section
 
-### Deciding granularity
+Odell's uses `[Heading 1]` for case titles and `[Heading 2]` for questions within each case.
 
-A reference should be **self-contained enough to generate 1–5 flashcards** from it. If a passage only supports one card, that's fine. If a section is so large it covers 10+ distinct concepts, split it into multiple references.
+The biopsychosocial text has minimal heading structure — `[Heading 1]` for major parts only.
+
+**Always derive the current chapter and section title from these tags** as you scan. Every reference needs a `section` field like `"Ch 1 History and examination – Presenting complaint"`.
+
+## How to scan — line by line, no sampling
+
+**Read every line.** Do not sample, skip ahead, or skim. The goal is comprehensive coverage.
+
+### Workflow
+
+1. **Check progress.** Read `references/<book>/progress.json` (if it exists) to find the last line processed.
+2. **Read a batch of lines.** Load ~1500 lines at a time from `full-text.txt` using offset/limit. This is your working window.
+3. **Track heading context.** As you read, maintain the current chapter title and current section heading. Update these whenever you encounter a chapter boundary (`[Para 047] Chapter N`) or a section heading (`[Heading 1]`).
+4. **Assess every paragraph.** For each substantive paragraph or group of paragraphs, decide: does this serve the user's learning goals? If yes, mark it for extraction. If no, note it as skipped.
+5. **Segment into references.** Group relevant consecutive paragraphs into reference-sized chunks. One reference = one teachable concept (enough for 1–5 flashcards).
+6. **Check `image-map.json`** for images in each reference's paragraph range. View clinically useful ones.
+7. **Write reference files** for each extracted chunk.
+8. **Update `progress.json`** with the last line processed and a summary of what was extracted/skipped.
+9. **Load the next batch** and repeat until you reach the end of the file or the context window is getting full.
+
+### Batch size
+
+~1500 lines per read. This fits comfortably in context alongside reference-writing work. For the Oxford Handbook (14,908 lines), that's ~10 batches to cover the whole book.
+
+### When context is getting full
+
+If you've processed several batches and the conversation is getting long, **stop, update progress.json, and tell the user** where you left off. They can invoke the skill again to continue. Do not rush or skip content to finish in one session.
+
+## Progress tracking
+
+Each book gets a progress file at `references/<book>/progress.json`:
+
+```json
+{
+  "book": "oxford-handbook",
+  "totalLines": 14908,
+  "lastLineProcessed": 2500,
+  "lastChapter": "Ch 2 Preventive and community dentistry",
+  "referencesCreated": ["oxford-handbook-001", "oxford-handbook-002", "..."],
+  "sectionsSkipped": [
+    {
+      "lines": [29, 231],
+      "reason": "Front matter — title page, copyright, table of contents, contributors"
+    }
+  ],
+  "complete": false
+}
+```
+
+Update this file **every time you finish processing a batch**. This is the source of truth for resuming work across conversations.
+
+### Resuming
+
+When invoked with no line range:
+1. Read `progress.json` for the book.
+2. Start from `lastLineProcessed + 1`.
+3. Restore heading context from `lastChapter`.
 
 ## Writing reference files
 
@@ -89,28 +136,27 @@ references/<book-short-name>/<book-short-name>-<NNN>.md
 
 Example: `references/odells/odells-003.md`
 
-**Numbering:** check the existing files in the book's reference folder to find the next available sequence number. Always use 3-digit zero-padded numbers (001, 002, …).
+**Numbering:** check the existing files in the book's reference folder to find the next available sequence number. Always use 3-digit zero-padded numbers (001, 002, ...).
 
 ### Frontmatter
 
 ```yaml
 ---
-id: odells-003
-book: "Odell's Clinical Problem Solving in Dentistry 4e"
-section: "Case 9 – Selective caries removal in deep lesions"
-paragraphs: [1205, 1230]
-images:
-  - para-1210-img-042.jpeg
+id: oxford-handbook-003
+book: "Oxford Handbook of Clinical Dentistry 7e"
+section: "Ch 1 History and examination – Presenting complaint"
+paragraphs: [258, 277]
+images: []
 tags:
-  - operative
   - clinical-reasoning
+  - patient-communication
 ---
 ```
 
 - `id` — matches the filename without extension
 - `book` — full title of the source book
-- `section` — human-readable chapter/case + topic. Be specific: "Case 9 – Selective caries removal in deep lesions" not just "Case 9"
-- `paragraphs` — `[start, end]` inclusive line numbers in `full-text.txt` (the `[index]` values, not file line numbers)
+- `section` — derived from the heading context: `"Ch N <chapter title> – <section heading>"`. Be specific
+- `paragraphs` — `[start, end]` inclusive index values from the `[index]` prefix in `full-text.txt` (NOT file line numbers — the index is the number in the first bracket)
 - `images` — filenames from `source-material/<book>/images/` that belong to this reference. Copy these to `references/images/` when writing the reference
 - `tags` — one or more from the tag list in `references/README.md`
 
@@ -130,41 +176,44 @@ Copy the text **verbatim** from `full-text.txt`, but:
 3. Copy useful images to `references/images/` (preserving the original filename).
 4. List them in the frontmatter `images` array.
 
-## Tracking progress
+## Deciding granularity
 
-When scanning a book, keep track of where you are by checking which references already exist for that book. The paragraph ranges in existing references tell you what's been covered.
+A reference should be **self-contained enough to generate 1–5 flashcards** from it. If a passage only supports one card, that's fine. If a section is so large it covers 10+ distinct concepts, split it into multiple references.
 
-### Running order
+## Running order
 
 Process books in this order (highest clinical yield first):
 1. **`oxford-handbook`** — broadest coverage of GDP-relevant topics
 2. **`odells`** — case-based reasoning, excellent for clinical thinking
 3. **`biopsychosocial`** — theoretical framework for holistic care (selective — only extract what's clinically applicable)
 
-Within each book, work through sections in order from `chapters.json`. This ensures systematic coverage without gaps.
+Within each book, work **sequentially from line 1 to the end**. No skipping ahead.
 
 ## Inputs
 
 When invoked, the user may specify:
 - A specific book: "extract references from odells"
-- A specific chapter/case: "extract from odells case 9"
-- A tag focus: "find emergency content across all books"
-- No arguments: continue from where you left off (check existing references to find the last covered paragraph range, then continue from there)
+- A specific chapter: "extract from oxford-handbook ch 5"
+- A line range: "extract from oxford-handbook lines 3000-5000"
+- No arguments: continue from where you left off (check `progress.json`)
 
-If no input is given, check existing references to determine progress and continue systematically.
+If no input is given, check `progress.json` to determine where to resume and continue systematically.
 
 ## Output
 
-After writing each batch of references, report:
+After processing each batch, report:
+- Lines processed (e.g. "lines 1–2500 of 14,908")
 - How many references were created
-- Which sections they cover
+- Which chapters/sections they cover
 - The tags assigned
 - Any notable sections that were skipped and why
+- Where the next session should pick up
 
 ## Do NOT
 
-- Load `full-text.txt` in its entirety — always grep or read targeted ranges
+- Skip lines or sample — read every line in order
 - Paraphrase or edit the source text — the body must be verbatim
 - Extract content that doesn't serve the user's learning goals
-- Create references for content that's already covered by an existing reference (check paragraph ranges)
+- Create references for content that's already covered by an existing reference (check paragraph ranges in `progress.json`)
 - Copy large images (> 1MB) without noting it — the user may want to skip those
+- Try to finish an entire book in one session if context is getting full — stop cleanly and resume next time
