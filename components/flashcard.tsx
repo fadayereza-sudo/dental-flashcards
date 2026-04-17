@@ -53,8 +53,10 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
       {/* Card meta above */}
       <div className="flex items-center justify-between px-1 pb-3 text-[10px] tracking-[0.18em] uppercase text-ink-muted">
         <span>{stateLabel}</span>
-        {card.source && (
-          <span className="truncate max-w-[60%] text-right">{card.source}</span>
+        {(card.source || card.referenceSection) && (
+          <span className="truncate max-w-[60%] text-right">
+            {card.source || card.referenceSection}
+          </span>
         )}
       </div>
 
@@ -115,7 +117,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
               )}
             </div>
             <div className="flex items-center justify-between gap-3 text-[10px] tracking-[0.18em] uppercase text-ink-muted pt-6 border-t border-rule/70">
-              {card.reference ? (
+              {card.reference || card.referenceSection ? (
                 <button
                   type="button"
                   onClick={(e) => {
@@ -181,7 +183,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
       )}
 
       {/* Reference overlay */}
-      {refOpen && card.reference && (
+      {refOpen && (card.reference || card.referenceSection) && (
         <div
           className="fixed inset-0 z-50 flex items-end justify-center"
           onClick={() => setRefOpen(false)}
@@ -225,9 +227,15 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
 
             {/* Body */}
             <div className="flex-1 overflow-y-auto px-6 py-5">
-              <blockquote className="text-[15px] leading-[1.7] text-ink whitespace-pre-line border-l-2 border-bronze/40 pl-4">
-                {card.reference}
-              </blockquote>
+              {card.reference ? (
+                <blockquote className="text-[15px] leading-[1.7] text-ink whitespace-pre-line border-l-2 border-bronze/40 pl-4">
+                  {card.reference}
+                </blockquote>
+              ) : (
+                <p className="text-sm text-ink-muted italic">
+                  No reference text saved for this card.
+                </p>
+              )}
             </div>
           </div>
         </div>
