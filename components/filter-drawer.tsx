@@ -129,8 +129,8 @@ export function FilterDrawer({
                       <span className="font-serif text-[17px] text-ink flex-1">
                         {root.name}
                       </span>
-                      <span className="text-[10px] tracking-wide uppercase text-ink-muted">
-                        {root.children.length}
+                      <span className="font-mono text-[11px] text-ink-muted">
+                        {root.children.reduce((sum, c) => sum + c.cardCount, 0)}
                       </span>
                     </div>
                     {isOpen &&
