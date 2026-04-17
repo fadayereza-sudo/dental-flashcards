@@ -29,8 +29,47 @@ export async function sendMessage(
       reply_markup: opts.replyMarkup,
     }),
   });
-  const data = (await res.json()) as TelegramSendResult;
-  return data;
+  return (await res.json()) as TelegramSendResult;
+}
+
+export async function editMessageText(
+  chatId: string | number,
+  messageId: number,
+  text: string,
+  opts: {
+    parseMode?: "MarkdownV2" | "HTML";
+    replyMarkup?: object;
+  } = {},
+): Promise<TelegramSendResult> {
+  const token = getToken();
+  const res = await fetch(`${API}/bot${token}/editMessageText`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      chat_id: chatId,
+      message_id: messageId,
+      text,
+      parse_mode: opts.parseMode,
+      reply_markup: opts.replyMarkup,
+    }),
+  });
+  return (await res.json()) as TelegramSendResult;
+}
+
+export async function answerCallbackQuery(
+  callbackQueryId: string,
+  text?: string,
+): Promise<TelegramSendResult> {
+  const token = getToken();
+  const res = await fetch(`${API}/bot${token}/answerCallbackQuery`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      callback_query_id: callbackQueryId,
+      text,
+    }),
+  });
+  return (await res.json()) as TelegramSendResult;
 }
 
 export async function setWebhook(

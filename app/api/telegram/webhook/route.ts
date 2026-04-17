@@ -1,18 +1,35 @@
 import { NextRequest, NextResponse } from "next/server";
 import { eq, lte, or } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
-import { sendMessage } from "@/lib/telegram";
+import {
+  sendMessage,
+  editMessageText,
+  answerCallbackQuery,
+} from "@/lib/telegram";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-type TelegramUpdate = {
-  message?: {
-    chat: { id: number };
-    from?: { id: number };
-    text?: string;
-  };
+type TelegramMessage = {
+  message_id: number;
+  chat: { id: number };
+  from?: { id: number };
+  text?: string;
 };
+
+type TelegramCallbackQuery = {
+  id: string;
+  from: { id: number };
+  message?: TelegramMessage;
+  data?: string;
+};
+
+type TelegramUpdate = {
+  message?: TelegramMessage;
+  callback_query?: TelegramCallbackQuery;
+};
+
+const FOREVER = new Date("9999-12-31T00:00:00Z");
 
 async function ensureSettings() {
   const rows = await db.select().from(schema.settings).limit(1);
@@ -37,24 +54,192 @@ async function countDue(): Promise<number> {
     .select({ id: schema.cardState.cardId })
     .from(schema.cardState)
     .where(
-      or(
-        lte(schema.cardState.due, now),
-        eq(schema.cardState.state, 0),
-      )!,
+      or(lte(schema.cardState.due, now), eq(schema.cardState.state, 0))!,
     );
   return rows.length;
 }
 
-function parseHours(arg: string | undefined): number | null {
-  if (!arg) return null;
-  const m = arg.trim().match(/^(\d+)\s*h?$/i);
-  if (!m) return null;
-  const n = parseInt(m[1], 10);
-  return Number.isFinite(n) && n > 0 && n <= 24 * 14 ? n : null;
+function formatUntil(d: Date): string {
+  // If effectively forever (>1000 days out), show "forever"
+  const diffDays = (d.getTime() - Date.now()) / 86_400_000;
+  if (diffDays > 1000) return "forever";
+  return d.toISOString().replace("T", " ").slice(0, 16) + " UTC";
+}
+
+function statusText(
+  settings: typeof schema.settings.$inferSelect,
+  due: number,
+): string {
+  const muted = !!(settings.mutedUntil && settings.mutedUntil > new Date());
+  const statusLine = muted
+    ? `🔕 Muted until ${formatUntil(settings.mutedUntil!)}`
+    : "🔔 Active";
+  return [
+    statusLine,
+    "",
+    `Times: ${settings.notifyTimes?.join(", ") || "(none)"} (${settings.timezone})`,
+    `Due now: ${due}`,
+  ].join("\n");
+}
+
+function mainKeyboard(
+  settings: typeof schema.settings.$inferSelect,
+): object {
+  const muted = !!(settings.mutedUntil && settings.mutedUntil > new Date());
+  return {
+    inline_keyboard: [
+      muted
+        ? [{ text: "🔔 Unmute", callback_data: "unmute" }]
+        : [{ text: "🔕 Mute", callback_data: "menu:mute" }],
+      [{ text: "📊 Status", callback_data: "menu:main" }],
+    ],
+  };
+}
+
+function muteKeyboard(): object {
+  return {
+    inline_keyboard: [
+      [
+        { text: "1 hour", callback_data: "mute:1h" },
+        { text: "1 day", callback_data: "mute:1d" },
+        { text: "Forever", callback_data: "mute:forever" },
+      ],
+      [{ text: "← Back", callback_data: "menu:main" }],
+    ],
+  };
+}
+
+async function handleMessage(msg: TelegramMessage, allowedUser?: string) {
+  if (allowedUser && msg.from && String(msg.from.id) !== allowedUser) {
+    await sendMessage(msg.chat.id, "This bot is not for you.");
+    return;
+  }
+
+  const chatId = String(msg.chat.id);
+  const body = (msg.text ?? "").trim();
+  const [cmdRaw] = body.split(/\s+/);
+  const cmd = cmdRaw?.toLowerCase().split("@")[0];
+
+  switch (cmd) {
+    case "/start": {
+      await db
+        .update(schema.settings)
+        .set({ telegramChatId: chatId })
+        .where(eq(schema.settings.id, 1));
+      const settings = await loadSettings();
+      const due = await countDue();
+      await sendMessage(
+        chatId,
+        `Linked. I'll ping you when cards are due.\n\n${statusText(settings, due)}`,
+        { replyMarkup: mainKeyboard(settings) },
+      );
+      break;
+    }
+
+    case "/status":
+    case "/settings": {
+      const settings = await loadSettings();
+      const due = await countDue();
+      await sendMessage(chatId, statusText(settings, due), {
+        replyMarkup: mainKeyboard(settings),
+      });
+      break;
+    }
+
+    default: {
+      if (body) {
+        const settings = await loadSettings();
+        const due = await countDue();
+        await sendMessage(chatId, statusText(settings, due), {
+          replyMarkup: mainKeyboard(settings),
+        });
+      }
+    }
+  }
+}
+
+async function handleCallback(
+  cq: TelegramCallbackQuery,
+  allowedUser?: string,
+) {
+  if (allowedUser && String(cq.from.id) !== allowedUser) {
+    await answerCallbackQuery(cq.id, "Not authorised");
+    return;
+  }
+  if (!cq.message) {
+    await answerCallbackQuery(cq.id);
+    return;
+  }
+  const chatId = String(cq.message.chat.id);
+  const messageId = cq.message.message_id;
+  const data = cq.data ?? "";
+  const [action, arg] = data.split(":");
+
+  let toast: string | undefined;
+  let nextKeyboard: "main" | "mute" = "main";
+
+  switch (action) {
+    case "menu": {
+      if (arg === "mute") {
+        nextKeyboard = "mute";
+      } else {
+        nextKeyboard = "main";
+      }
+      break;
+    }
+
+    case "mute": {
+      let until: Date;
+      if (arg === "1h") {
+        until = new Date(Date.now() + 3600 * 1000);
+        toast = "Muted 1 hour";
+      } else if (arg === "1d") {
+        until = new Date(Date.now() + 24 * 3600 * 1000);
+        toast = "Muted 1 day";
+      } else if (arg === "forever") {
+        until = FOREVER;
+        toast = "Muted forever";
+      } else {
+        toast = "Bad mute value";
+        break;
+      }
+      await db
+        .update(schema.settings)
+        .set({ mutedUntil: until })
+        .where(eq(schema.settings.id, 1));
+      nextKeyboard = "main";
+      break;
+    }
+
+    case "unmute": {
+      await db
+        .update(schema.settings)
+        .set({ mutedUntil: null })
+        .where(eq(schema.settings.id, 1));
+      toast = "Unmuted";
+      nextKeyboard = "main";
+      break;
+    }
+
+    default:
+      toast = "Unknown action";
+  }
+
+  await answerCallbackQuery(cq.id, toast);
+
+  const settings = await loadSettings();
+  const due = await countDue();
+  const text =
+    nextKeyboard === "mute"
+      ? "How long should I stay quiet?"
+      : statusText(settings, due);
+  const replyMarkup =
+    nextKeyboard === "mute" ? muteKeyboard() : mainKeyboard(settings);
+
+  await editMessageText(chatId, messageId, text, { replyMarkup });
 }
 
 export async function POST(req: NextRequest) {
-  // Verify secret via either ?secret= or the Telegram header
   const url = new URL(req.url);
   const headerSecret = req.headers.get("x-telegram-bot-api-secret-token");
   const querySecret = url.searchParams.get("secret");
@@ -65,103 +250,11 @@ export async function POST(req: NextRequest) {
 
   const allowedUser = process.env.TELEGRAM_USER_ID;
   const update = (await req.json().catch(() => null)) as TelegramUpdate | null;
-  if (!update?.message) {
-    return NextResponse.json({ ok: true });
-  }
 
-  const { chat, from, text } = update.message;
-  if (allowedUser && from && String(from.id) !== allowedUser) {
-    await sendMessage(chat.id, "This bot is not for you.");
-    return NextResponse.json({ ok: true });
-  }
-
-  const chatId = String(chat.id);
-  const body = (text ?? "").trim();
-  const [cmdRaw, ...rest] = body.split(/\s+/);
-  const cmd = cmdRaw?.toLowerCase().split("@")[0];
-
-  const settings = await loadSettings();
-
-  const miniAppUrl = process.env.MINI_APP_URL;
-
-  const reply = async (t: string) => {
-    await sendMessage(chatId, t);
-  };
-
-  switch (cmd) {
-    case "/start": {
-      await db
-        .update(schema.settings)
-        .set({ telegramChatId: chatId })
-        .where(eq(schema.settings.id, 1));
-      const parts = [
-        "Linked. I'll send a reminder at your configured times when cards are due.",
-        `Current times: ${(settings.notifyTimes ?? ["08:00", "20:00"]).join(", ")} (${settings.timezone}).`,
-        "",
-        "Commands:",
-        "/due — how many cards are waiting",
-        "/mute 2 — quiet for 2 hours",
-        "/unmute — resume",
-        "/settings — show config",
-      ];
-      await reply(parts.join("\n"));
-      break;
-    }
-
-    case "/due": {
-      const n = await countDue();
-      const suffix = miniAppUrl ? `\nOpen: ${miniAppUrl}` : "";
-      await reply(
-        n === 0
-          ? "Nothing due. Come back later."
-          : `${n} card${n === 1 ? "" : "s"} due.${suffix}`,
-      );
-      break;
-    }
-
-    case "/mute": {
-      const hours = parseHours(rest[0]);
-      if (!hours) {
-        await reply("Usage: /mute <hours>   (1–336)");
-        break;
-      }
-      const until = new Date(Date.now() + hours * 3600 * 1000);
-      await db
-        .update(schema.settings)
-        .set({ mutedUntil: until })
-        .where(eq(schema.settings.id, 1));
-      await reply(`Muted until ${until.toISOString().replace("T", " ").slice(0, 16)} UTC.`);
-      break;
-    }
-
-    case "/unmute": {
-      await db
-        .update(schema.settings)
-        .set({ mutedUntil: null })
-        .where(eq(schema.settings.id, 1));
-      await reply("Unmuted. Reminders resumed.");
-      break;
-    }
-
-    case "/settings": {
-      const lines = [
-        `Chat id: ${settings.telegramChatId ?? "(not linked)"}`,
-        `Times:   ${(settings.notifyTimes ?? []).join(", ") || "(none)"}`,
-        `Timezone: ${settings.timezone}`,
-        `Muted until: ${settings.mutedUntil?.toISOString() ?? "—"}`,
-        `Last notified: ${settings.lastNotifiedAt?.toISOString() ?? "—"}`,
-      ];
-      await reply(lines.join("\n"));
-      break;
-    }
-
-    default: {
-      if (body) {
-        await reply(
-          "Commands: /due, /mute <hours>, /unmute, /settings, /start",
-        );
-      }
-    }
+  if (update?.callback_query) {
+    await handleCallback(update.callback_query, allowedUser);
+  } else if (update?.message) {
+    await handleMessage(update.message, allowedUser);
   }
 
   return NextResponse.json({ ok: true });
