@@ -117,7 +117,7 @@ function Stat({
 }) {
   return (
     <div className="rounded-2xl border border-rule bg-paper-sunk px-4 py-3">
-      <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-1">
+      <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-1">
         {label}
       </p>
       <p className="font-serif text-3xl text-ink">{value}</p>
@@ -141,7 +141,7 @@ function DailyChart({
   return (
     <div className="rounded-2xl border border-rule bg-paper-sunk p-4">
       <div className="flex items-baseline justify-between mb-3">
-        <p className="text-[10px] tracking-[0.22em] uppercase text-bronze">
+        <p className="text-[10px] tracking-[0.12em] uppercase text-bronze">
           Reviews · last 30 days
         </p>
         <p className="text-[11px] text-ink-muted">
@@ -230,7 +230,7 @@ function StateBreakdown({
   ];
   return (
     <div className="rounded-2xl border border-rule bg-paper-sunk p-4">
-      <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-1">
+      <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-1">
         Card state
       </p>
       <p className="text-[12px] text-ink-muted mb-4">
@@ -244,7 +244,7 @@ function StateBreakdown({
           return (
             <div key={it.label}>
               <div className="flex items-baseline justify-between mb-1">
-                <span className={`text-[11px] tracking-[0.18em] uppercase ${it.text}`}>
+                <span className={`text-[11px] tracking-[0.08em] uppercase ${it.text}`}>
                   {it.label}
                 </span>
                 <span className="text-[12px] text-ink-soft">

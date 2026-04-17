@@ -51,7 +51,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
       style={{ perspective: "1400px" }}
     >
       {/* Card meta above */}
-      <div className="flex items-center justify-between px-1 pb-3 text-[10px] tracking-[0.18em] uppercase text-ink-muted">
+      <div className="flex items-center justify-between px-1 pb-3 text-[10px] tracking-[0.08em] uppercase text-ink-muted">
         <span>{stateLabel}</span>
         {(card.source || card.referenceSection) && (
           <span className="truncate max-w-[60%] text-right">
@@ -79,7 +79,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
           {/* Front */}
           <div className="flip-face absolute inset-0 p-8 flex flex-col justify-between">
             <div className="overflow-y-auto pr-1">
-              <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-6">
+              <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-6">
                 Question
               </p>
               <p className="text-[24px] leading-[1.3] text-ink">
@@ -93,7 +93,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
                 />
               )}
             </div>
-            <div className="flex items-center justify-between text-[10px] tracking-[0.18em] uppercase text-ink-muted pt-6 border-t border-rule/70">
+            <div className="flex items-center justify-between text-[10px] tracking-[0.08em] uppercase text-ink-muted pt-6 border-t border-rule/70">
               <span>Tap to reveal</span>
               <span aria-hidden>▾</span>
             </div>
@@ -102,7 +102,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
           {/* Back */}
           <div className="flip-face flip-back absolute inset-0 p-8 flex flex-col justify-between">
             <div className="overflow-y-auto pr-1">
-              <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-6">
+              <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-6">
                 Answer &amp; Reasoning
               </p>
               <p className="text-[18px] leading-[1.5] text-ink">
@@ -116,7 +116,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
                 />
               )}
             </div>
-            <div className="flex items-center justify-between gap-3 text-[10px] tracking-[0.18em] uppercase text-ink-muted pt-6 border-t border-rule/70">
+            <div className="flex items-center justify-between gap-3 text-[10px] tracking-[0.08em] uppercase text-ink-muted pt-6 border-t border-rule/70">
               {card.reference || card.referenceSection ? (
                 <button
                   type="button"
@@ -177,7 +177,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
         ))}
       </div>
       {rated && (
-        <p className="mt-3 text-center text-[10px] tracking-[0.18em] uppercase text-ink-muted">
+        <p className="mt-3 text-center text-[10px] tracking-[0.08em] uppercase text-ink-muted">
           Scheduled — scroll on
         </p>
       )}
@@ -201,7 +201,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
             {/* Header */}
             <div className="flex items-start justify-between px-6 pb-4 border-b border-rule/70">
               <div className="min-w-0 pr-4">
-                <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-1">
+                <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-1">
                   Source reference
                 </p>
                 {card.source && (
