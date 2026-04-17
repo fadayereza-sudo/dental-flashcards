@@ -23,12 +23,6 @@ type Stats = {
       easy: number;
     }>;
   };
-  folders: Array<{
-    folderId: number;
-    folderName: string;
-    parentName: string | null;
-    count: number;
-  }>;
 };
 
 export function StatsView() {
@@ -88,7 +82,6 @@ export function StatsView() {
           accuracy={data.reviews.accuracy}
         />
         <StateBreakdown data={data.cards.byState} total={data.cards.total} />
-        <FolderList folders={data.folders} />
       </div>
     </div>
   );
@@ -199,76 +192,71 @@ function StateBreakdown({
   data: Stats["cards"]["byState"];
   total: number;
 }) {
-  const items: Array<{ label: string; value: number; color: string }> = [
-    { label: "New", value: data.new, color: "bg-ink-muted/40" },
-    { label: "Learning", value: data.learning, color: "bg-bronze/70" },
-    { label: "Review", value: data.review, color: "bg-accent-green/70" },
-    { label: "Relearning", value: data.relearning, color: "bg-accent-red/70" },
+  const items: Array<{
+    label: string;
+    sub: string;
+    value: number;
+    accent: string;
+    text: string;
+  }> = [
+    {
+      label: "New",
+      sub: "never studied",
+      value: data.new,
+      accent: "bg-ink-muted/40",
+      text: "text-ink-muted",
+    },
+    {
+      label: "Learning",
+      sub: "first grasp",
+      value: data.learning,
+      accent: "bg-bronze/70",
+      text: "text-bronze",
+    },
+    {
+      label: "Review",
+      sub: "held in memory",
+      value: data.review,
+      accent: "bg-accent-green/70",
+      text: "text-accent-green",
+    },
+    {
+      label: "Relearning",
+      sub: "forgotten, rebuilding",
+      value: data.relearning,
+      accent: "bg-accent-red/70",
+      text: "text-accent-red",
+    },
   ];
   return (
-    <div className="rounded-2xl border border-rule bg-paper-sunk p-4">
-      <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-3">
+    <div>
+      <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-3 px-1">
         Card state
       </p>
-      <div className="flex rounded-full overflow-hidden h-2 bg-rule/50">
+      <div className="grid grid-cols-2 gap-3">
         {items.map((it) => {
-          const pct = total > 0 ? (it.value / total) * 100 : 0;
-          if (pct === 0) return null;
+          const pct = total > 0 ? Math.round((it.value / total) * 100) : 0;
           return (
             <div
               key={it.label}
-              className={it.color}
-              style={{ width: `${pct}%` }}
-              title={`${it.label}: ${it.value}`}
-            />
+              className="relative rounded-2xl border border-rule bg-paper-sunk px-4 py-3 pl-5 overflow-hidden"
+            >
+              <span
+                aria-hidden
+                className={`absolute left-0 top-0 bottom-0 w-1 ${it.accent}`}
+              />
+              <p className={`text-[10px] tracking-[0.18em] uppercase ${it.text}`}>
+                {it.label}
+              </p>
+              <p className="font-serif text-3xl text-ink mt-1">{it.value}</p>
+              <p className="text-[11px] text-ink-muted mt-0.5">
+                {pct}% · {it.sub}
+              </p>
+            </div>
           );
         })}
-      </div>
-      <div className="mt-3 grid grid-cols-2 gap-2">
-        {items.map((it) => (
-          <div
-            key={it.label}
-            className="flex items-center justify-between text-[13px]"
-          >
-            <span className="flex items-center gap-2">
-              <span className={`w-2 h-2 rounded-full ${it.color}`} />
-              <span className="text-ink-soft">{it.label}</span>
-            </span>
-            <span className="font-mono text-ink">{it.value}</span>
-          </div>
-        ))}
       </div>
     </div>
   );
 }
 
-function FolderList({ folders }: { folders: Stats["folders"] }) {
-  if (folders.length === 0) return null;
-  return (
-    <div className="rounded-2xl border border-rule bg-paper-sunk p-4">
-      <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-3">
-        Top folders
-      </p>
-      <div className="space-y-1">
-        {folders.map((f) => (
-          <div
-            key={f.folderId}
-            className="flex items-center justify-between py-1.5 text-[13px]"
-          >
-            <span className="text-ink-soft truncate pr-3">
-              {f.parentName ? (
-                <>
-                  <span className="text-ink-muted">{f.parentName} · </span>
-                  {f.folderName}
-                </>
-              ) : (
-                f.folderName
-              )}
-            </span>
-            <span className="font-mono text-ink">{f.count}</span>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}

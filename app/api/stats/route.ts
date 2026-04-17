@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { desc, eq, gte, sql } from "drizzle-orm";
+import { gte, sql } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
 
 export const runtime = "nodejs";
@@ -48,26 +48,6 @@ export async function GET() {
     })
     .from(schema.reviews);
 
-  const folderCounts = await db
-    .select({
-      folderId: schema.cards.folderId,
-      folderName: schema.folders.name,
-      parentName: sql<string | null>`parent.name`,
-      count: sql<number>`COUNT(${schema.cards.id})::int`,
-    })
-    .from(schema.cards)
-    .innerJoin(
-      schema.folders,
-      eq(schema.folders.id, schema.cards.folderId),
-    )
-    .leftJoin(
-      sql`${schema.folders} AS parent`,
-      sql`parent.id = ${schema.folders.parentId}`,
-    )
-    .groupBy(schema.folders.id, schema.cards.folderId, sql`parent.name`)
-    .orderBy(desc(sql`COUNT(${schema.cards.id})`))
-    .limit(15);
-
   // Fill day gaps for the last 30 days
   const byDay = new Map(reviewsByDayRaw.map((r) => [r.day, r]));
   const reviewsByDay: Array<{
@@ -113,6 +93,5 @@ export async function GET() {
           : null,
       byDay: reviewsByDay,
     },
-    folders: folderCounts,
   });
 }
