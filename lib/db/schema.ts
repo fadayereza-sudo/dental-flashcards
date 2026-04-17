@@ -101,7 +101,7 @@ export const settings = pgTable("settings", {
   notifyTimes: jsonb("notify_times")
     .$type<string[]>()
     .notNull()
-    .default(sql`'["08:00","20:00"]'::jsonb`),
+    .default(sql`'["09:00","13:00","20:00"]'::jsonb`),
   lastNotifiedAt: timestamp("last_notified_at", { withTimezone: true }),
   timezone: text("timezone").notNull().default("Europe/London"),
 });
