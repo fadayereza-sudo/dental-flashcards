@@ -163,6 +163,18 @@ export function ReviewFeed() {
 
   const dueCount = cards.filter((c) => new Date(c.due) <= new Date()).length;
 
+  const selectedCardCount = (() => {
+    if (selected.length === 0) return 0;
+    const ids = new Set(selected);
+    let total = 0;
+    for (const root of tree) {
+      for (const c of root.children) {
+        if (ids.has(c.id)) total += c.cardCount;
+      }
+    }
+    return total;
+  })();
+
   return (
     <div className="fixed inset-0 overflow-hidden">
       <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-3 pointer-events-none">
@@ -175,7 +187,7 @@ export function ReviewFeed() {
           </svg>
           Filter
           {selected.length > 0 && (
-            <span className="text-bronze">· {selected.length}</span>
+            <span className="text-bronze">· {selectedCardCount}</span>
           )}
         </button>
         <div className="flex items-center gap-2">
