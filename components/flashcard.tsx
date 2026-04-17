@@ -57,10 +57,17 @@ export function Flashcard({ card, onRate }: Props) {
         )}
       </div>
 
-      <button
-        type="button"
+      <div
+        role="button"
+        tabIndex={0}
         onClick={() => setFlipped((f) => !f)}
-        className="block w-full text-left"
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            setFlipped((f) => !f);
+          }
+        }}
+        className="block w-full text-left cursor-pointer"
         aria-label={flipped ? "Show question" : "Show answer"}
       >
         <div
@@ -129,7 +136,7 @@ export function Flashcard({ card, onRate }: Props) {
             </div>
           </div>
         </div>
-      </button>
+      </div>
 
       {/* Rating row (visible only when flipped) */}
       <div
