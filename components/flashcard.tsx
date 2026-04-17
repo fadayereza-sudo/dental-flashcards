@@ -15,6 +15,7 @@ type Props = {
     reps: number;
   };
   onRate: (rating: number) => void;
+  onEdit?: () => void;
 };
 
 const RATINGS = [
@@ -24,7 +25,7 @@ const RATINGS = [
   { value: 4, label: "Easy",  sub: "instant",   accent: "text-accent-green" },
 ] as const;
 
-export function Flashcard({ card, onRate }: Props) {
+export function Flashcard({ card, onRate, onEdit }: Props) {
   const [flipped, setFlipped] = useState(false);
   const [rated, setRated] = useState(false);
   const [refOpen, setRefOpen] = useState(false);
@@ -113,7 +114,7 @@ export function Flashcard({ card, onRate }: Props) {
                 />
               )}
             </div>
-            <div className="flex items-center justify-between text-[10px] tracking-[0.18em] uppercase text-ink-muted pt-6 border-t border-rule/70">
+            <div className="flex items-center justify-between gap-3 text-[10px] tracking-[0.18em] uppercase text-ink-muted pt-6 border-t border-rule/70">
               {card.reference ? (
                 <button
                   type="button"
@@ -132,7 +133,25 @@ export function Flashcard({ card, onRate }: Props) {
               ) : (
                 <span>Rate your recall</span>
               )}
-              <span aria-hidden>▴</span>
+              <div className="flex items-center gap-3">
+                {onEdit && (
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onEdit();
+                    }}
+                    className="flex items-center gap-1 text-ink-muted hover:text-ink transition-colors"
+                    aria-label="Edit card"
+                  >
+                    <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden>
+                      <path d="M11 2l3 3-8 8H3v-3l8-8z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
+                    </svg>
+                    Edit
+                  </button>
+                )}
+                <span aria-hidden>▴</span>
+              </div>
             </div>
           </div>
         </div>

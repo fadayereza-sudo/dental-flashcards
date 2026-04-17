@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Flashcard } from "./flashcard";
 import { FilterDrawer } from "./filter-drawer";
+import { CardEditor, type CardEditorValue } from "./card-editor";
 
 type Card = {
   id: number;
@@ -46,6 +47,9 @@ export function ReviewFeed() {
   const [tree, setTree] = useState<FolderTree["tree"]>([]);
   const [selected, setSelected] = useState<number[]>([]);
   const [initialized, setInitialized] = useState(false);
+  const [editorOpen, setEditorOpen] = useState(false);
+  const [editorMode, setEditorMode] = useState<"create" | "edit">("create");
+  const [editorInitial, setEditorInitial] = useState<CardEditorValue | null>(null);
   const scrollerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -76,12 +80,16 @@ export function ReviewFeed() {
     fetchCards();
   }, [initialized, fetchCards]);
 
-  useEffect(() => {
+  const refreshTree = useCallback(() => {
     fetch("/api/folders")
       .then((r) => r.json())
       .then((d: FolderTree) => setTree(d.tree ?? []))
       .catch(() => {});
   }, []);
+
+  useEffect(() => {
+    refreshTree();
+  }, [refreshTree]);
 
   const onRate = useCallback(
     async (cardId: number, rating: number, index: number) => {
@@ -105,6 +113,53 @@ export function ReviewFeed() {
     setDrawerOpen(false);
   }, []);
 
+  const openCreate = useCallback(() => {
+    setEditorMode("create");
+    setEditorInitial({
+      folderId: null,
+      question: "",
+      answer: "",
+      source: "",
+      image: "",
+      reference: "",
+      referenceSection: "",
+    });
+    setEditorOpen(true);
+  }, []);
+
+  const openEdit = useCallback((card: Card) => {
+    setEditorMode("edit");
+    setEditorInitial({
+      id: card.id,
+      folderId: card.folderId,
+      question: card.question,
+      answer: card.answer,
+      source: card.source ?? "",
+      image: card.image ?? "",
+      reference: card.reference ?? "",
+      referenceSection: card.referenceSection ?? "",
+    });
+    setEditorOpen(true);
+  }, []);
+
+  const onEditorSaved = useCallback(
+    async (_saved: { id: number }) => {
+      setEditorOpen(false);
+      refreshTree();
+      await fetchCards();
+    },
+    [fetchCards, refreshTree],
+  );
+
+  const onEditorDeleted = useCallback(
+    (id: number) => {
+      setEditorOpen(false);
+      setCards((prev) => prev.filter((c) => c.id !== id));
+      refreshTree();
+    },
+    [refreshTree],
+  );
+
   const dueCount = cards.filter((c) => new Date(c.due) <= new Date()).length;
 
   return (
@@ -122,9 +177,20 @@ export function ReviewFeed() {
             <span className="text-bronze">· {selected.length}</span>
           )}
         </button>
-        <div className="pointer-events-auto inline-flex items-center gap-1.5 rounded-full bg-paper/80 backdrop-blur-md px-3.5 py-2 text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm">
-          <span className="font-mono text-ink">{dueCount}</span>
-          <span>due</span>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={openCreate}
+            className="pointer-events-auto inline-flex items-center justify-center rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 text-ink-soft border border-rule/60 shadow-sm hover:text-ink"
+            aria-label="New card"
+          >
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
+              <path d="M7 2v10M2 7h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+            </svg>
+          </button>
+          <div className="pointer-events-auto inline-flex items-center gap-1.5 rounded-full bg-paper/80 backdrop-blur-md px-3.5 py-2 text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm">
+            <span className="font-mono text-ink">{dueCount}</span>
+            <span>due</span>
+          </div>
         </div>
       </header>
 
@@ -162,6 +228,7 @@ export function ReviewFeed() {
               <Flashcard
                 card={c}
                 onRate={(rating) => onRate(c.id, rating, i)}
+                onEdit={() => openEdit(c)}
               />
             </div>
           ))}
@@ -177,6 +244,15 @@ export function ReviewFeed() {
         tree={tree}
         selected={selected}
         onApply={onApplyFilters}
+      />
+      <CardEditor
+        open={editorOpen}
+        mode={editorMode}
+        tree={tree}
+        initial={editorInitial}
+        onClose={() => setEditorOpen(false)}
+        onSaved={onEditorSaved}
+        onDeleted={onEditorDeleted}
       />
     </div>
   );
