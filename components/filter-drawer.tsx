@@ -29,7 +29,7 @@ export function FilterDrawer({
   useEffect(() => {
     if (open) {
       setLocal(new Set(selected));
-      setExpanded(new Set(tree.map((t) => t.id)));
+      setExpanded(new Set());
     }
   }, [open, selected, tree]);
 

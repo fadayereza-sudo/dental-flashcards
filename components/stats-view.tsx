@@ -204,28 +204,28 @@ function StateBreakdown({
       value: data.new,
       bar: "bg-ink-muted/50",
       text: "text-ink-muted",
-      desc: "Never studied. FSRS hasn't scheduled these yet.",
+      desc: "You haven't seen these yet. They'll come up in your next session.",
     },
     {
       label: "Learning",
       value: data.learning,
       bar: "bg-bronze/80",
       text: "text-bronze",
-      desc: "Just introduced — short intervals until recall is reliable.",
+      desc: "Just started. These come back soon to build the memory.",
     },
     {
       label: "Review",
       value: data.review,
       bar: "bg-accent-green/80",
       text: "text-accent-green",
-      desc: "Held in memory. Intervals grow each time you recall it.",
+      desc: "Solid. You'll see them less and less as you keep getting them right.",
     },
     {
       label: "Relearning",
       value: data.relearning,
       bar: "bg-accent-red/80",
       text: "text-accent-red",
-      desc: "You recently forgot it. Back to short intervals until it sticks.",
+      desc: "You forgot one recently. It comes back soon to rebuild the memory.",
     },
   ];
   return (
@@ -234,8 +234,8 @@ function StateBreakdown({
         Card state
       </p>
       <p className="text-[12px] text-ink-muted mb-4">
-        FSRS moves each card through these stages as you rate your recall
-        (Again, Hard, Good, Easy).
+        Where each card sits in your memory right now. Cards move between
+        these stages as you practise them.
       </p>
       <div className="space-y-3">
         {items.map((it) => {
