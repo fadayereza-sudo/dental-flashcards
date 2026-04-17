@@ -1,0 +1,1297 @@
+Restricting the Use of Dental Amalgam
+
+in Specific Patient Groups
+
+Implementation Advice
+
+
+
+
+
+This document has been provided to facilitate the
+
+
+
+implementation of Article 10(2) of
+
+
+
+Regulation (EU) 2017/852 on Mercury.
+
+
+
+
+
+June 2018
+
+
+
+
+
+The Scottish Dental Clinical Effectiveness Programme (SDCEP) is an initiative of the
+
+
+
+National Dental Advisory Committee (NDAC) in partnership with NHS Education for
+
+Scotland. The Programme provides user-friendly, evidence-based guidance and
+
+implementation advice on topics identified as priorities for oral health care.
+
+SDCEP implementation advice aims to interpret and clarify changes in legislation,
+
+professional regulations or other developments relevant to patient care, and to provide
+
+practical advice to help dental teams implement any necessary changes to practice.
+
+
+
+Supporting the provision of safe, effective, person-centred care
+
+
+
+
+
+Restricting the Use of Dental Amalgam
+
+in Specific Patient Groups
+
+
+
+1 Introduction 1
+
+1.1 The Minamata Convention on Mercury 1
+
+1.2 The Contribution of Dental Amalgam to Mercury Use
+
+and Environmental Pollution 1
+
+1.3 The UK Regulations for Implementation of the EU Legislation on Mercury 2
+
+1.4 Scope 2
+
+1.5 Development of the Advice 3
+
+1.6 Supporting Tools 3
+
+1.7 Statement of Intent 3
+
+2 Approaches to Phasing-down the Use of Dental Amalgam 4
+
+2.1 National Policy Approaches 4
+
+2.2 Clinical Approaches 4
+
+3 Advice on the Restrictions on the Use of Dental Amalgam 7
+
+4 Summary of Evidence and Rationale 9
+
+4.1 Safety of Dental Amalgam and Alternative Restorative Materials 9
+
+4.2 Effectiveness of Caries Prevention Approaches 10
+
+4.3 Effectiveness of Alternative Approaches and Materials 11
+
+4.4 Rationale for the Advice 12
+
+Appendix 1 Development of this Implementation Advice 14
+
+References 17
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+1 Introduction
+
+
+
+The phasing down of dental amalgam use in specified patient groups is a legal requirement in the UK from 1 July 2018 in compliance with European Union (EU) and global agreements to reduce the use of mercury and mercury containing products on environmental grounds.
+
+
+
+1.1 The Minamata Convention on Mercury
+
+Mercury is a naturally occurring element that can be released into the environment both from natural sources and as a result of human activity. The released mercury persists in the environment and can accumulate to toxic levels in fish and other marine life, entering the food chain. Worldwide recognition of the serious impact of mercury pollution led the United Nations Environmental Programme (UNEP) to develop policies for a global reduction in mercury use. This became the Minamata Convention on Mercury,1 named after Minamata city in Japan where major industrial release of mercury waste took place during the 1930s to 1960s. The Convention was adopted in 2013, has been agreed and signed by almost 130 countries, including the UK, and entered into force in August 2017. The aim of the Convention is to reduce the trade and supply of mercury by preventing its unnecessary use in products and manufacturing processes, with the overall objective of reducing environmental mercury pollution and the risk to human health.
+
+
+
+1.2 The Contribution of Dental Amalgam to Mercury Use and
+
+Environmental Pollution
+
+The main source of exposure to mercury for the general population is through the consumption of fish and other marine species contaminated with organic methylmercury, the most toxic and bioaccumulative form of mercury. The elemental mercury contained in dental amalgam is a more stable form and there is no evidence that it presents a direct health risk to individuals who have amalgam restorations.2,3 However, non-organic forms of mercury, such as in dental amalgam, released into the environment can undergo conversion to methylmercury by aquatic microorganisms and become concentrated in the human food chain. Therefore, dental amalgam can contribute indirectly to the risk to human health from mercury.
+
+Dental amalgam remains one of the most durable and cost-effective dental restorative materials and was estimated to account for 20-30% of the demand for mercury in the EU in 2010, with predictions that it will become the largest use as the mercury-cell based chlor-alkali industry is phased out.4,5 The trade and supply of mercury for the manufacture of dental amalgam, the placing and removal of amalgam restorations and the disposal of amalgam, including via landfill, waste water and following cremation or burial of individuals with amalgam restorations, all contribute to environmental pollution by mercury. It has been estimated that globally around two-thirds of the mercury in dental amalgam is eventually released into the atmosphere, soil, surface and groundwater.6
+
+
+
+1
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+1 Introduction
+
+
+
+1.3 The UK Regulations for Implementation of the EU Legislation on
+
+Mercury
+
+The Minamata Convention on Mercury requires that participating countries phase-down their use of dental amalgam. The European Commission Regulation (EU) 2017/852 on Mercury was adopted by Member States on 17 May 2017 to ratify and enforce the Minamata Convention.7 The regulation covers the use, storage and trade in mercury, mercury compounds and mixtures of mercury, the use of and trade in mercury-added products, and the management of mercury waste.
+
+Regulation (EU) 2017/852 contains the following provisions relating to dental amalgam:
+
+• Article 10(1): from 1 January 2019, dental amalgam shall only be used in pre-dosed
+
+encapsulated form.
+
+• Article 10(2): from 1 July 2018, dental amalgam shall not be used for dental treatment
+
+of deciduous teeth, of children under 15 years and of pregnant or breastfeeding women, except when deemed strictly necessary by the dental practitioner based on the specific medical needs of the patient.
+
+• Article 10(3): a requirement for a national plan, by 1 July 2019, on measures to phase
+
+down the use of amalgam.
+
+• Article 10(4): from 1 January 2019 a requirement for dental facilities to be equipped
+
+with an amalgam separator.
+
+The aims and provisions of the EU Regulation on Mercury are fully supported by the UK government and are directly applicable in UK law.8 The UK approach to implementing these requirements is through the Control of Mercury (Enforcement) Regulations 2017 which came into force on 1 January 2018 and designate the competent authorities for the enforcement of the Regulation’s provisions, offences and penalties.9 A consultation on the proposed UK regulations was carried out in 2017 by the Department for Environment, Food and Rural Affairs (DEFRA) and the Department for Business, Energy and Industrial Strategy (BEIS) on behalf of England and the devolved nations.10,11 The UK government departments involved in the consultation indicated that the existing regulatory systems for dental services should be responsible for enforcing the restrictions on the use of dental amalgam.10
+
+
+
+1.4 Scope
+
+The scope of this document is limited to providing advice relating to Article 10(2):
+
+From 1 July 2018, dental amalgam shall not be used for dental treatment of deciduous teeth, of children under 15 years and of pregnant or breastfeeding women, except when deemed strictly necessary by the dental practitioner based on the specific medical needs of the patient.
+
+
+
+2
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+1 Introduction
+
+
+
+Therefore, this advice is only applicable to the treatment of:
+
+• deciduous (primary) teeth in any patient;
+
+• patients who are under 15 years of age (primary and permanent teeth); and
+
+• patients who are pregnant or breastfeeding.
+
+This advice is primarily directed at dental professionals in any setting in the UK. It will also be of relevance to those involved in dental education, undergraduate training and responsible for commissioning, planning and providing dental services.
+
+
+
+1.5 Development of the Advice
+
+To facilitate the implementation of Article 10(2) of Regulation (EU) 2017/852 on Mercury and following a request from the UK Chief Dental Officers, the Scottish Dental Clinical Effectiveness Programme (SDCEP) convened a short-life working group to develop national advice for the dental profession. Further details about SDCEP and the development of this implementation
+
+advice are given in Appendix 1 and at www.sdcep.org.uk.
+
+
+
+1.6 Supporting Tools
+
+Other resources to support this advice, including patient information, can be accessed at
+
+www.sdcep.org.uk.
+
+
+
+1.7 Statement of Intent
+
+The aim of this advice document is to support dental professionals in interpreting and implementing the restrictions on dental amalgam use. As with all SDCEP publications, the information presented does not override the healthcare professional’s right, and duty, to make decisions appropriate to each patient, with their valid consent. It is advised that significant departures from this implementation advice, and the reasons for this, are documented in the patient’s clinical record.
+
+
+
+3
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+2 Approaches to Phasing-down the Use of Dental
+
+Amalgam
+
+
+
+2.1 National Policy Approaches
+
+The UK Government is committed to phasing-down the use of dental amalgam through the restrictions specified in Article 10(2) of the Regulation (EU) 2017/852 on Mercury. Article 10(3) requires a national plan on future measures for the phase-down of the use of dental amalgam.
+
+Several European countries had already phased-down or completely phased-out the use of dental amalgam prior to the Minamata Convention and EU regulations. Norway initiated a phase-down in the use of dental amalgam more than 15 years ago, with a national clinical guideline recommending that amalgam should not normally be the first choice for dental restorations and promoting preventive treatment and the use of alternative materials.12 A temporary exemption applied allowing dental amalgam in special cases, including for restorations carried out under general anaesthetic and for those with allergies to mercury-free materials. Since 2011 however, there has been a complete ban on dental amalgam in Norway. It has also been banned in Sweden since 2009.13
+
+Other countries including Finland, Denmark and the Netherlands have phased down dental amalgam usage to 1-5% of restorations.13 The approach taken initially by the Danish National Board of Health was to advise against the use of dental amalgam in the restoration of anterior teeth or primary teeth or for general use in children. A later guideline recommended that alternatives to dental amalgam should be the first choice for all new restorations, with exceptions for permanent teeth in situations where there are difficulties with moisture control or accessibility, for particularly large cavities or where the distance to the proximate tooth is too great.14 A number of countries took a step-wise approach to phasing down dental amalgam by initially restricting its use in children and pregnant women.
+
+While it is understood that the extent of dental disease varies in countries across Europe, several key factors are likely to have contributed to the successful reduction in dental amalgam use in the countries discussed. These include public and practitioner awareness of the environmental impact of dental amalgam, changes to the balance of financial provision for amalgam versus mercury-free restorations, dental education focussing on alternative approaches and restorative materials and an emphasis on preventive policies.13 These facilitators are reflected in the Minamata Convention which advocates dental caries prevention and oral health promotion, the promotion of mercury-free alternatives, research and development of these, and education and training on their use, as some of the provisions to be selected for adoption by participating countries.
+
+
+
+2.2 Clinical Approaches
+
+The dental profession already has at its disposal a range of procedures and materials that can provide alternatives to the use of dental amalgam depending on the circumstances. These alternative approaches include caries prevention, procedures aimed at arresting caries, and the
+
+
+
+4
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+2 Approaches to Phasing-down the Use of Dental
+
+Amalgam
+
+
+
+use of mercury-free restorative materials including resin composites and glass polyalkenoate materials (glass-ionomers). While a major contribution to the phase-down of dental amalgam use will be to continue and extend caries prevention and national oral health promotion programmes,15-19 there is still a significant burden of disease and it is apparent that for the foreseeable future there will be a need to manage carious teeth and teeth with failing restorations.
+
+Current UK guidelines relating to the prevention of caries in children make evidence based recommendations that include behaviour change, dietary and toothbrushing advice and recommendations for the use of fluoride varnish and sealants.20,21 There is a substantial body of evidence that indicates that fluoride varnish and fissure sealants are effective in reducing
+
+caries22-26 (see Section 4.2 for an evidence summary) and their use in children is promoted through national oral health initiatives and advice.15,16,18 Sealants or varnishes can also be used to limit the progression of caries in early non-cavitated lesions.25,27
+
+There are several options for managing caries in primary teeth, including complete, selective or stepwise caries removal and restoration, sealing over caries using the Hall Technique,28 sealant or infiltration and preventive only interventions. These are described in detail in SDCEP’s Prevention and Management of Dental Caries in Children guidance21 with recommendations on the preferred
+
+approaches (see Section 4.3 for an evidence summary). In general, the least invasive approaches are preferable, avoid the use of dental amalgam, and in children in particular, are more likely to be tolerated. The placement of preformed metal crowns using the Hall Technique, for example, requires no or minimal tooth preparation and is associated with less discomfort compared to direct restorations.29 The Hall Technique is widely used by specialist paediatric dentists in the UK and is now taught in all UK dental schools.30 Where caries excavation is indicated, the use of selective rather than complete removal is supported by evidence that selective caries removal reduces the risk of pulp exposure in primary and permanent teeth.31
+
+Many of the same approaches and principles are applicable to caries management in permanent teeth, with the obvious additional considerations around the long-term effectiveness of the treatment. For both primary and permanent teeth, the preference for one restorative material over another will depend on a variety of patient and clinical factors. While there is evidence suggesting that dental amalgam restorations in posterior permanent teeth have higher survival rates than resin composite restorations,32,33 it is known that posterior resin composite restorations
+
+can have acceptable survival rates and are capable of lasting for decades (see Section 4.3 for an evidence summary).34 Resin composite placement is most effective in patients with good oral hygiene and where moisture control is optimal (including saliva control and gingival exudates). Glass-ionomers may be less resistant to wear than dental amalgam but they offer advantages in terms of adhesive properties and the ability to release fluoride ions.35 Evidence suggests that glass-ionomers can have superior caries-prevention outcomes.36 The preference of some patients for tooth-coloured and tooth-conserving restorations also favours the use of alternatives to dental amalgam.
+
+
+
+5
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+2 Approaches to Phasing-down the Use of Dental
+
+Amalgam
+
+
+
+Extraction should not be considered as an alternative to the use of dental amalgam. However, when deciding the best option for management of permanent teeth of poor prognosis (whether because of the size of the lesion or the ability to provide a satisfactory restoration), the possibility of interceptive orthodontic extractions should be considered. This may require referral to an orthodontist or specialist paediatric dentist.
+
+A major contribution to the phase down of dental amalgam will be the wider use of minimum intervention dentistry (MID). MID is an approach that aims to prevent and control oral disease and encompasses oral health promotion, prevention and minimally invasive operative interventions.37 The principles of MID are entirely supportive of dental amalgam phase-down, through the emphasis on caries prevention or arrest and by taking advantage of the superior adhesive properties of alternative materials for minimally invasive restorations.38
+
+The implementation of these approaches may require a culture change in the delivery of oral healthcare towards more widespread use of minimum intervention and prevention orientated care pathways. It may also require contractual reform across the four UK nations and further emphasis on undergraduate and professional training in the use of alternative approaches and materials.
+
+
+
+6
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+3 Advice on the Restrictions on the Use of Dental
+
+Amalgam
+
+
+
+Regulation (EU) 2017/852, Article 10(2):
+
+Dental amalgam shall not be used for dental treatment of deciduous teeth, of children under
+
+15 years and of pregnant or breastfeeding women, except when deemed strictly necessary by
+
+the dental practitioner based on the specific medical needs of the patient.
+
+
+
+The focusing of the restrictions on the use of dental amalgam on children and pregnant women reflects the initial approach taken by some European countries13 and also longstanding precautionary advice on the avoidance of placing or removing amalgam restorations in pregnant women issued previously by the Department of Health.39 Although dental amalgam restorations can release low levels of mercury vapour, particularly during placement or removal, there is no evidence to suggest that exposure to mercury from amalgam fillings has an adverse effect on patient health.2,3,40 Similarly, there is also no evidence that dental professionals are adversely affected, despite higher levels of exposure.2 While not explained in the EU regulation, since developing foetuses, infants and children are more susceptible to the toxic effects of other forms of mercury, it is likely that the targeting of children, pregnant and breastfeeding women in Article 10(2) reflects the precautionary principle of avoiding even theoretical risk. Restricting dental amalgam use in children will also contribute to future generations of amalgam-free patients.
+
+The avoidance of dental amalgam use in children, pregnant and breastfeeding women as specified in the regulations should not be interpreted as advice to remove or replace existing amalgam restorations. The opinion of the European Commission’s Scientific Committee on Emerging and Newly Identified Health Risks (SCENIHR) is that “there is no justification for removing clinically satisfactory amalgam restorations as a precaution, except in those patients diagnosed as having allergic reactions to amalgam constituents”.2
+
+While the new EU regulations that apply in the UK place restrictions on dental amalgam use, they also acknowledge that there may be exceptional circumstances where dental amalgam is the most appropriate restorative material. The regulation allows dental amalgam use “when deemed strictly necessary by the dental practitioner based on the specific medical needs of the patient.” This should be interpreted as including the specific dental needs of the patient. Therefore, the individual clinician may use dental amalgam in the best interests of the patient, but that decision must be justified, communicated to the patient, accompanied by the usual valid consent and the justification documented in the patient’s record. In making a decision to use dental amalgam, a dentist may be subject to scrutiny by the regulatory bodies10 and must be able to show that the decision not to use an alternative approach is justified by the specific clinical needs of the patient.
+
+
+
+7
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+3 Advice on the Restrictions on the Use of Dental
+
+Amalgam
+
+
+
+Advice points:
+
+
+
+Ensure all patients, parents and carers receive oral health advice, including advice on
+
+effective toothbrushing with fluoride toothpaste and a healthy diet, to reduce the need for
+
+future restorations.15-21
+
+• Fluoride varnish and fissure sealants are also recommended as preventive measures for
+
+children and young people.16,21
+
+• In many cases, preventive and caries-arrest measures might avoid the need for
+
+restorations.
+
+When treating primary teeth, avoid using dental amalgam.
+
+• There are no indications for the use of dental amalgam in primary teeth.a
+
+• Alternative approaches and materials are widely used and include selective caries
+
+removal, fluoride varnish, sealants, preformed crowns, resin composites and glass-ionomer restorative materials.b
+
+When treating permanent teeth in a patient under 15 years old, avoid using dental amalgam
+
+unless justified by the specific clinical circumstances or needs of the patient.
+
+• Alternative approaches and materials are widely used and include selective caries
+
+removal, sealants, resin composites and glass-ionomer restorative materials.b
+
+• Exceptions for the use of dental amalgam may include but are not restricted to:
+
+o an allergy or local adverse reaction to a component of glass-ionomer or resin
+
+composite materials.
+
+o when moisture control or patient cooperation is insufficient to allow the use of an
+
+alternative to dental amalgam, even as a medium-term restoration.a
+
+When treating a pregnant or breastfeeding patient, avoid using dental amalgam.
+
+• During pregnancy, as a precaution, unnecessary clinical interventions should be
+
+avoided39 and therefore non-urgent restorative treatment or the removal of dental amalgam restorations should be postponed.a
+
+• Otherwise, for pregnant or breastfeeding patients, management decisions will depend
+
+on individual circumstances and the values and preferences of the patient.a
+
+When the use of dental amalgam is justified, ensure that this is communicated to the
+
+patient, accompanied by the usual valid consent and that the justification is documented in
+
+the patient’s record.
+
+
+
+a Further information on the rationale behind the advice is provided in Section 4.4.
+
+b The SDCEP Prevention and Management of Caries in Children guidance provides more detailed advice
+
+on preventive interventions and caries management decision making and techniques.21
+
+
+
+8
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+4 Summary of Evidence and Rationale
+
+
+
+Evidence and information to contextualise and support the advice presented in Section 3 is
+
+summarised below. Further details are provided in Appendix 1.
+
+
+
+4.1 Safety of Dental Amalgam and Alternative Restorative Materials
+
+Evidence reviews from the UK government’s Committee on Toxicity of Chemicals in Food, Consumer Products and the Environment (COT), the European Commission’s Scientific Committee on Emerging and Newly Identified Health Risks (SCENIHR) and the US Food and Drug Administration (FDA) all concluded that there is no evidence to suggest that exposure to mercury from dental amalgam restorations has an adverse effect on patient health.2,3,40 The reviews included studies on children, pregnant and breastfeeding women.
+
+Studies have indicated that the placement and removal of dental amalgam restorations leads to transiently elevated plasma levels of mercury but there is no evidence that this affects health.2 The COT statement specifically concluded that there is no evidence that the placement or removal of dental amalgam restorations during pregnancy is harmful, although both SCENIHR and COT recommend avoiding the use of dental amalgam in pregnant women where possible, to avoid unnecessarily exposing the developing foetus. Since mercury transfer across the placenta results in higher exposure than from breast milk it is likely that any potential risk to a developing infant is lower during breastfeeding than during pregnancy.41 The FDA concluded that infants are not at risk of adverse effects from breast milk of women exposed to mercury vapour from dental amalgam.42
+
+The alternative restorative materials are generally chemically complex with multiple organic and inorganic components and placement can require bonding systems adding to that complexity. Furthermore, the composition of different materials varies between manufacturers. Components can be released into the oral cavity through incomplete polymerisation during curing, through leaching over time and through the release of ions, and some of the components can undergo further conversions.2 In vitro studies have demonstrated that some of the monomers used in resins can exhibit cytotoxicity, although the clinical significance of this is not clear. There is generally a lack of toxicology data on the alternative materials.
+
+One of the components, Bisphenol A (BPA), has been under scrutiny because of its oestrogen-mimicking properties. BPA can be released from resin-based composites and sealants containing bisphenol A dimethacrylate and related compounds and it is also commonly found in food packaging and thermal paper. SCENIHR recently carried out a risk assessment of exposure from medical devices that potentially release BPA and concluded that long-term oral exposure to BPA from dental materials poses a negligible risk to health.43
+
+Regarding the overall safety of alternative restorative materials, and in light of the limited data, SCENIHR were unable to draw any conclusions to suggest associations between exposure to these materials and the potential for health risks.2 Clinical experience has not revealed evidence of clinically significant adverse events. However, as for dental amalgam, SCENIHR recommend that
+
+9
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+4 Summary of Evidence and Rationale
+
+
+
+use of the alternative materials is discouraged in pregnant women. It should also be noted that some of the components found in alternative dental materials are associated with local allergic reactions, although the incidence of this is not clear.
+
+
+
+4.2 Effectiveness of Caries Prevention Approaches
+
+Evidence relating to the effectiveness of oral health advice, toothbrushing and dietary advice for children is reviewed in SDCEP’s Prevention and Management of Dental Caries in Children guidance21 and the SIGN guideline, Dental Interventions to Prevent Caries in Children.20 Evidence based preventive approaches are also encouraged by Public Health England (PHE) in Delivering Better Oral Health: an evidence-based toolkit for prevention.16 Briefly, evidence from systematic reviews suggests that brief interventions to promote good oral health behaviours, including toothbrushing, can be effective,44,45 with the theoretically based strategy of motivational interviewing having the potential for behaviour change.46 There is moderate quality evidence showing that dental caries is lower when free sugar intake is less than 10 percent of calorie intake47 and a Cochrane review found some evidence that one-to-one dietary interventions in a dental setting can change behaviour.48 High quality evidence from systematic reviews indicates that toothbrushing with fluoride toothpaste is effective in preventing caries and that there is a dose-response relationship between toothpaste fluoride concentration and the extent of caries reduction.49-56 Toothbrushing with fluoride toothpaste can also arrest early carious lesions.27
+
+A Cochrane review found moderate quality evidence that fluoride varnish is effective in preventing caries in both primary and permanent teeth, consistent with evidence based recommendations made in an earlier guideline.22,23 There is also evidence that fluoride gel has a large caries-inhibiting effect in primary and permanent teeth although it is less clear what the background level of toothpaste use was in the studies considered.57 Similarly, fluoride mouthwash can have an anti-caries effect in permanent teeth, although the extent of the effect may be influenced by exposure to fluoride from other sources.58,59
+
+Fissure sealants have been shown to substantially reduce the risk of developing caries in the occlusal surfaces of permanent teeth, although there is insufficient evidence to conclude whether any particular sealant material is more effective than another.24,25 Low quality evidence on comparisons of fissure sealant with fluoride varnish suggested that sealants are more effective.25,26 However, a recent randomised trial carried out through a community oral health programme targeted at high caries risk children, found that fluoride varnish was as effective in caries prevention as resin-based sealant and was associated with lower costs.60
+
+The SDCEP, SIGN and PHE guidelines provide more detailed evidence reviews and recommendations on fissure sealants and topical fluorides, including fluoride varnish, for caries prevention in children.16,20,21
+
+
+
+10
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+4 Summary of Evidence and Rationale
+
+
+
+4.3 Effectiveness of Alternative Approaches and Materials
+
+The evidence for the effectiveness of various approaches for the treatment or management of caries in primary and permanent teeth was reviewed in recent SDCEP guidance21 and is summarised here. Evidence in relation to the advantages and limitations of the established alternative restorative materials to inform and support their use is also included, however, the rapid pace of development of new materials means that the published research may not be applicable for all current treatment options.
+
+Six systematic reviews address various aspects of operative management of caries in primary and permanent teeth.29,31,61-64 In those that examined the extent of caries removal before restoration, much of the evidence is considered to be of low quality. However, the Cochrane systematic review,31 which included studies assessed as of moderate quality, concluded that stepwise and selective/partial caries removal are preferred to complete caries removal in vital symptom-free primary or permanent teeth. This is consistent with other systematic reviews.61,63,64
+
+There is low quality evidence that suggests that resin composite restorations in permanent posterior teeth have higher failure rates and risk of secondary caries than dental amalgam.32 Nonetheless, the evidence indicates that resin composite restorations can exhibit substantial longevity, with failure rates of less than 10 percent after 10 years.34,65
+
+Other evidence suggests that glass-ionomer cement has a higher caries-preventive effect for single surface restorations in permanent teeth after six years compared to dental amalgam, although no difference was found for primary teeth.36 There is also low quality evidence that the failure rate of high viscosity glass-ionomer cement-based atraumatic restorative treatment (ART) is comparable with that of conventional dental amalgam restorations after six years.66 However, for conventional cavity preparations, there is a lack of evidence of sufficient quality to directly compare the failure rates of high viscosity glass-ionomers with either dental amalgam or resin composite restorations.67,68 A systematic review focussing specifically on restorations using high viscosity glass-ionomer with a resin coating in permanent teeth found low quality evidence that they have similar survival rates to either conventional glass-ionomer cement or resin composite after four years, although the rates were lower for class II cavities in each case.69 Conventional glass-ionomer cements are not recommended for class II restorations in primary teeth, however, there is low quality evidence that resin-modified glass-ionomer cements are more effective.70
+
+For other alternative approaches, there is moderate quality evidence that preformed crowns placed on primary molar teeth with carious lesions or following pulp treatment reduce the risk of pain or infection in the long term compared to direct restorations.29
+
+There is growing evidence in support of non-operative approaches. A systematic review that focussed on non-surgical caries prevention methods to arrest or reverse the progression of non-cavitated carious lesions in primary and permanent teeth found low quality evidence to suggest that fluoride interventions (varnishes, gels, and toothpaste) have the most consistent benefit.27
+
+
+
+11
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+4 Summary of Evidence and Rationale
+
+
+
+While there is some evidence that casein phosphopeptide-amorphous calcium phosphate has a remineralising effect on early caries lesions, it is unclear whether it offers any additional benefit over fluoride toothpaste.71 The earlier systematic review also supports the use of sealants to slow the progress of, or reverse non-cavitated carious lesions.27 In a more recent guideline, based on evidence from a systematic review, the American Dental Association recommended the use of fissure sealants on non-cavitated occlusal lesions to prevent their progression in both children and young people.25,72 In addition, although limited, the available evidence does support no caries removal and sealing with a stainless steel crown in primary teeth.29,31
+
+A recent Cochrane systematic review examined the effectiveness of microinvasive interventions (lesion sealing or infiltration) for managing proximal enamel and initial dentinal caries lesions and found moderate quality evidence that these techniques are more effective in reducing lesion progression than non-invasive methods or no treatment.73 Although there is insufficient evidence to favour a particular technique, this review is supportive of the consideration of these emerging techniques when managing non-cavitated proximal lesions in permanent and primary teeth, taking into account clinical indications and the feasibility of different techniques.
+
+
+
+4.4 Rationale for the Advice
+
+As described in Sections 4.2 and 4.3 there is evidence to support the use of caries prevention and caries arrest measures and the use of alternatives to amalgam restorations suitable for primary or permanent teeth in various clinical circumstances. It is recognised that the different approaches and materials have different advantages and limitations and that not all will be suitable in each case. It is also recognised that in some situations, for some of the patients specified in Article 10(2) of the EU regulation, the use of dental amalgam will be the only feasible treatment option.
+
+In considering these situations it was judged that the main limitations for the placement of alternative restorations are when it is not possible to obtain adequate moisture control or patient cooperation for the treatment required. For example, in the absence of these limitations, it should be feasible to use alternative materials including resin composites or high viscosity glass-ionomer restorative materials to effectively restore a large cavity or extensive cavities in primary or permanent teeth. However, if the patient is unlikely to be able to cope or cooperate with the extent of treatment, or the necessary moisture control for each of the other options is not achievable, then the use of dental amalgam for these restorations might be justifiable. Factors to take into consideration include the patient’s age, the prognosis of the teeth, any additional needs and the likelihood of attendance for further treatment.
+
+For the treatment of primary teeth, while the same issues of cooperation or moisture control might apply for an individual patient, the availability of other treatment options, such as preformed metal crowns, and the likely longevity of the tooth to be treated make it more difficult to justify the use of dental amalgam. Consequently, the working group considered that there are no indications for the use of dental amalgam in primary teeth.
+
+
+
+12
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+4 Summary of Evidence and Rationale
+
+
+
+There is no evidence that the placement or removal of dental amalgam during pregnancy is harmful to the developing foetus.2 However, the precautionary principle warrants the avoidance of unnecessary clinical intervention of any type during pregnancy and, accordingly, longstanding advice from the Department of Health39 advises against the use of dental amalgam or of alternative restorations in pregnant women where clinically reasonable. Therefore, during pregnancy, any restorative treatment or the removal of dental amalgam restorations should be postponed except where urgent treatment is required, for example, for the relief of pain or infection. There is insufficient evidence relating to the safety of alternative materials to inform advice on the most appropriate restorative material to use when urgent treatment that cannot be postponed is required for a pregnant or breastfeeding patient. The choice of treatment will depend on an assessment of the individual risk for the foetus or infant and take into account a number of factors including the stage of pregnancy or intended length of breastfeeding and the patient’s values and preferences.
+
+
+
+13
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+Appendix 1 Development of this Implementation Advice
+
+
+
+The Scottish Dental Clinical Effectiveness Programme (SDCEP) operates within NHS Education for Scotland and aims to develop guidance that supports dental teams to provide quality dental care. For the majority of SDCEP guidance publications, the recommendations are informed by a systematic literature search and quality appraisal of the available evidence. This advice document aims to facilitate the implementation of Article 10(2) of the Regulation (EU) 2017/852 on Mercury. The restrictions specified for the phase-down of dental amalgam use are a predefined legal requirement in the UK. Consequently, a consideration of the evidence on which these restrictions are based and their appropriateness are not within the scope of this work. However, evidence and other relevant information to support the advice on implementing the restrictions on dental
+
+amalgam use was considered and is summarised in Section 4.
+
+The evidence relating to caries prevention and management was largely derived from SDCEP’s updated Prevention and Management of Dental Caries in Children guidance21 and mainly comprises quality appraised systematic reviews and guidelines. Information relating to the safety of dental restorative materials and dental amalgam phase-down was extracted from government sources or other authoritative publications.
+
+A short-life working group was convened to provide the implementation advice based on a consensus of expert opinion after consideration of the available information and evidence. The advice was subject to open consultation for which a wide range of individuals and organisations with an interest in the topic were given advance notice. The three-week open consultation was initiated in March 2018. During this period the draft advice was available on the SDCEP website for comment. All comments received through the consultation process were reviewed, the feedback was considered by the working group, and the advice was amended accordingly prior to publication.
+
+An assessment of the potential impact of this advice on equality target groups was conducted.
+
+All contributors to SDCEP are required to declare their financial, intellectual and other relevant interests. At each group meeting, participants are asked to confirm whether there are any changes to these. Should any potential conflicts of interest arise, these are discussed and actions for their management agreed. All declarations of interest and decisions about potential conflicts of interest are available on request.
+
+SDCEP is funded by NHS Education for Scotland (NES). The views and opinions of NES have not in any way influenced the advice given in this document.
+
+
+
+14
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+Appendix 1 Development of this Implementation Advice
+
+
+
+Short-life Working Group
+
+The working group (below) included individuals from a range of relevant branches of the dental profession.
+
+Emeritus Professor of Oral and Maxillofacial Pathology,
+
+Paul Speight (Chair)
+
+University of Sheffield
+
+Reader and Honorary Consultant in Paediatric Dentistry;
+
+Sondos Albadri Deputy Head of School, School of Dentistry, University of
+
+Liverpool; British Society of Paediatric Dentistry Representative
+
+Professor of Cariology and Operative Dentistry; Honorary
+
+Avijit Banerjee Consultant and Clinical Lead for Restorative Dentistry, King’s
+
+College London Dental Institute at Guy’s Hospital, London
+
+General Dental Practitioner, Aberdeen; Honorary Senior Clinical
+
+Steve Bonsor Lecturer and Senior Clinical Teaching Fellow (Applied Dental
+
+Materials and Restorative Dentistry), University of Aberdeen
+
+Professor and Honorary Consultant in Dental Public Health; Clinical Director, University Dental Hospital, Cardiff and Vale
+
+Ivor Chestnutt
+
+University Health Board; Director Postgraduate Studies, Cardiff University Dental School
+
+Professor and Honorary Consultant in Paediatric Dentistry;
+
+Chris Deery
+
+Dean, School of Clinical Dentistry, University of Sheffield
+
+Heather MacRitchie Deputy Clinical Dental Director, NHS Tayside
+
+Specialist and Honorary Consultant in Special Care Dentistry;
+
+Angela Magee
+
+Head of School of Dentistry, University of Central Lancashire
+
+General Dental Practitioner, Coupar Angus; Assistant Director of
+
+Gillian Nevin General Dental Practice Postgraduate Education (CPD), NHS
+
+Education for Scotland
+
+Specialist Paediatric Dentist in Community Dental Service;
+
+Jayne Owen Chairperson Specialist Branch, British Society of Paediatric
+
+Dentistry
+
+Richard Rawcliffe General Dental Practitioner, Kirkcaldy
+
+Professor of Cariology and Conservative Dentistry; Honorary
+
+David Ricketts Consultant in Restorative Dentistry, School of Dentistry,
+
+University of Dundee
+
+Susie Sanderson British Dental Association President, representing the BDA
+
+
+
+15
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+Appendix 1 Development of this Implementation Advice
+
+
+
+Programme Development Team
+
+SDCEP’s Programme Development Team (PDT) operates within NHS Education for Scotland and is responsible for the methodology used for development of implementation advice and guidance. Working with members of the Short-life Working Group, the team facilitates all aspects of the development of the advice. The following PDT members were directly involved in the development of this implementation advice. A list of all members of the PDT can be found at www.sdcep.org.uk.
+
+
+
+Jan Clarkson Programme Director; Professor of Clinical Effectiveness,
+
+University of Dundee
+
+Douglas Stirling Programme Manager, Guidance and Programme Development
+
+Michele West Research and Development Manager, Guidance Development
+
+Margaret Mooney Programme Administrator
+
+Elizabeth Payne Programme Administrator
+
+
+
+16
+
+
+
+
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+
+References
+
+
+
+1. United Nations Environment Programme. Minamata Convention on Mercury. Text and
+
+annexes. 2013;
+
+http://mercuryconvention.org/Portals/11/documents/Booklets/Minamata%20Convention
+
+%20on%20Mercury_booklet_English.pdf. Accessed 19 December 2017.
+
+2. European Commission Scientific Committee on Emerging and Newly Identified Health
+
+Risks. Opinion on the safety of dental amalgam and alternative dental restoration
+
+materials for patients and users. 2015;
+
+https://ec.europa.eu/health/sites/health/files/scientific_committees/emerging/docs/scen
+
+ihr_o_046.pdf. Accessed 19 December 2017.
+
+3. U.S. Food & Drug Administration. White Paper: FDA Update/Review of Potential Adverse
+
+Health Risks Associated with Exposure to Mercury in Dental Amalgam. 2009;
+
+https://www.fda.gov/MedicalDevices/ProductsandMedicalProcedures/DentalProducts/De
+
+ntalAmalgam/ucm171117.htm. Accessed 4 January 2018.
+
+4. European Parliamentary Research Service. Mercury - Aligning EU legislation with
+
+Minamata. 2017;
+
+www.europarl.europa.eu/RegData/etudes/BRIE/2017/595887/EPRS_BRI(2017)595887_EN.
+
+pdf. Accessed 21 December 2017.
+
+5. BIO Intelligence Service. Study on the potential for reducing mercury pollution from
+
+dental amalgam and batteries. Final report prepared for the European Commission - DG
+
+ENV. 2012;
+
+http://ec.europa.eu/environment/chemicals/mercury/pdf/final_report_110712.pdf.
+
+Accessed 10 April 2018.
+
+6. World Health Organization. Future Use of Materials for Dental Restoration. 2011;
+
+www.who.int/oral_health/publications/dental_material_2011.pdf. Accessed 17 April 2018.
+
+7. Regulation (EU) 2017/852 of the European Parliament and of the Council of 17 May 2017 on
+
+mercury, and repealing Regulation (EC) No 1102/2008. 2017; http://eur-
+
+lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32017R0852&from=EN. Accessed 18
+
+December 2017.
+
+8. UK Government. Explanatory Memorandum to the Control of Mercury (Enforcement)
+
+Regulations 2017.
+
+www.legislation.gov.uk/uksi/2017/1200/pdfs/uksiem_20171200_en.pdf. Accessed 5
+
+January 2018.
+
+9. UK Government. The Control of Mercury (Enforcement) Regulations 2017.
+
+www.legislation.gov.uk/uksi/2017/1200/contents/made. Accessed 4 Jan 2018.
+
+10. Department for Environment, Food & Rural Affairs, Department for Business, Energy &
+
+Industrial Strategy. A consultation on the proposed Control of Mercury (Enforcement)
+
+Regulations 2017. https://consult.defra.gov.uk/environmental-quality/control-of-
+
+mercury-enforcement-regulations-2017/. Accessed 22 December 2017.
+
+11. Department for Environment, Food & Rural Affairs, Department of Health and Social Care,
+
+Department for Business, Energy & Industrial Strategy, Welsh Government, The Scottish
+
+17
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+References
+
+
+
+Government, Department of Health (Northern Ireland), and Department of Agriculture,
+
+Environment and Rural Affairs (Northern Ireland). Consultation on the proposed Control of
+
+Mercury (Enforcement) Regulations 2017- Summary of responses and government
+
+response. 2017; www.gov.uk/government/consultations/proposed-control-of-mercury-
+
+enforcement-regulations-2017. Accessed 22 December 2017.
+
+12. Directorate for Health and Social Affairs, Norway. A National Clinical Guideline for the Use
+
+of Dental Filling Materials. 2003; www.keytoxins.com/hgbiblio-
+
+files/Norwegian%20dental%20guidelines%20July%201%202003.pdf. Accessed 20
+
+December 2017.
+
+13. United Nations Environment Programme. Lessons from Countries Phasing Down Dental
+
+Amalgam Use. 2016;
+
+https://wedocs.unep.org/bitstream/handle/20.500.11822/11624/Dental.Amalgam.10mar2
+
+016.pages.WEB.pdf?sequence=1&isAllowed=y. Accessed 20 December 2017.
+
+14. Danish National Board of Health guidance on dental filling materials (Vejledning om
+
+anvendelse af tandfyldningsmaterialer). 2008;
+
+www.retsinformation.dk/Forms/R0710.aspx?id=121490 Accessed 20 December 2017.
+
+15. Childsmile – improving the oral health of children in Scotland. www.child-smile.org.uk/.
+
+Accessed 8 January 2018.
+
+16. Public Health England. Delivering better oral health: an evidence-based toolkit for
+
+prevention. 2017; www.gov.uk/government/publications/delivering-better-oral-health-an-
+
+evidence-based-toolkit-for-prevention. Accessed 16 January 2018.
+
+17. NHS England. Starting Well: A Smile4Life Initiative.
+
+www.england.nhs.uk/commissioning/primary-care/dental/starting-well/. Accessed 2
+
+March 2018.
+
+18. Designed to smile. National child oral health improvement programme in Wales.
+
+www.designedtosmile.org/. Accessed 22 January 2018.
+
+19. Health and Social Care Board Northern Ireland. Happy Smiles Pre-School Oral Health
+
+Programme. www.hscboard.hscni.net/our-work/integrated-care/dental-services/happy-
+
+smiles/. Accessed 2 March 2018.
+
+20. Scottish Intercollegiate Guidelines Network. Dental interventions to prevent caries in
+
+children. 2014; www.sign.ac.uk/sign-138-dental-interventions-to-prevent-caries-in-
+
+children.html. Accessed 17 January 2018.
+
+21. Scottish Dental Clinical Effectiveness Programme. Prevention and Management of Dental
+
+Caries in Children. Dental Clinical Guidance. 2nd Edition. 2018;
+
+www.sdcep.org.uk/published-guidance/caries-in-children/. Accessed 30 May 2018.
+
+22. Marinho VCC, Worthington HV, Walsh T, Clarkson JE. Fluoride varnishes for preventing
+
+dental caries in children and adolescents. Cochrane Database of Systematic Reviews.
+
+2013(7):CD002279.
+
+
+
+18
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+References
+
+
+
+23. Weyant RJ, Tracy SL, Anselmo T, et al. Topical fluoride for caries prevention. The Journal of
+
+the American Dental Association. 2013;144(11):1279-1291.
+
+24. Ahovuo-Saloranta A, Forss H, Walsh T, Nordblad A, Makela M, Worthington HV. Pit and
+
+fissure sealants for preventing dental decay in permanent teeth. Cochrane Database of
+
+Systematic Reviews. 2017;7:CD001830.
+
+25. Wright JT, Tampi MP, Graham L, et al. Sealants for preventing and arresting pit-and-fissure
+
+occlusal caries in primary and permanent molars: A systematic review of randomized
+
+controlled trials-a report of the American Dental Association and the American Academy of
+
+Pediatric Dentistry. The Journal of the American Dental Association. 2016;147(8):631-645
+
+e618.
+
+26. Ahovuo-Saloranta A, Forss H, Hiiri A, Nordblad A, Mäkelä M. Pit and fissure sealants versus
+
+fluoride varnishes for preventing dental decay in the permanent teeth of children and
+
+adolescents. Cochrane Database of Systematic Reviews. 2016(1):CD003067.
+
+27. Tellez M, Gomez J, Kaur S, Pretty IA, Ellwood R, Ismail AI. Non-surgical management
+
+methods of noncavitated carious lesions. Community Dentistry and Oral Epidemiology.
+
+2013;41(1):79-96.
+
+28. Innes N ED, Stewart M, Keightley A. The Hall Technique: A minimal intervention, child
+
+centred approach to managing the carious primary molar. 2015;
+
+https://en.wikipedia.org/wiki/File:HallTechGuide_V4.pdf. Accessed 12 January 2018.
+
+29. Innes NPT, Ricketts D, Chong LY, Keightley AJ, Lamont T, Santamaria RM. Preformed
+
+crowns for decayed primary molar teeth. Cochrane Database of Systematic Reviews.
+
+2015(12):CD005512.
+
+30. Roberts A, McKay A, Albadri S. The use of Hall technique preformed metal crowns by
+
+specialist paediatric dentists in the UK. British Dental Journal. 2018;224(1):48-52.
+
+31. Ricketts D, Lamont T, Innes NPT, Kidd E, Clarkson JE. Operative caries management in
+
+adults and children. Cochrane Database of Systematic Reviews. 2013(3):CD003808.
+
+32. Rasines Alcaraz MG, Veitz-Keenan A, Sahrmann P, Schmidlin PR, Davis D, Iheozor-Ejiofor Z.
+
+Direct composite resin fillings versus amalgam fillings for permanent or adult posterior
+
+teeth. Cochrane Database of Systematic Reviews. 2014(3):CD005620.
+
+33. Antony K, Genser D, Hiebinger C, Windisch F. Longevity of dental amalgam in comparison
+
+to composite materials. GMS Health Technology Assessment. 2008;4:Doc12.
+
+34. Opdam NJ, van de Sande FH, Bronkhorst E, et al. Longevity of posterior composite
+
+restorations: a systematic review and meta-analysis. Journal of Dental Research.
+
+2014;93(10):943-949.
+
+35. American Academy of Pediatric Dentistry. Pediatric Restorative Dentistry. 2016;
+
+www.aapd.org/media/Policies_Guidelines/BP_RestorativeDent.pdf. Accessed 18
+
+December 2017.
+
+
+
+19
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+References
+
+
+
+36. Mickenautsch S, Yengopal V. Absence of carious lesions at margins of glass-ionomer
+
+cement and amalgam restorations: An update of systematic review evidence. BMC
+
+Research Notes. 2011;4:58.
+
+37. Banerjee A. 'Minimum intervention' - MI inspiring future oral healthcare? British Dental
+
+Journal. 2017;223(3):133-135.
+
+38. Mackenzie L, Banerjee A. Minimally invasive direct restorations: a practical guide. British
+
+Dental Journal. 2017;223(3):163-171.
+
+39. Department of Health. Dental Amalgam. 1998;
+
+http://webarchive.nationalarchives.gov.uk/+/http://www.dh.gov.uk/en/Publicationsandst
+
+atistics/Lettersandcirculars/Professionalletters/Chiefdentalofficerletters/DH_4004486.
+
+Accessed 17 January 2018.
+
+40. Committee on Toxicity of Chemicals in Food, Consumer Products and the Environment.
+
+Statement on the toxicity of dental amalgam. 1997;
+
+https://cot.food.gov.uk/cotstatements/cotstatementsyrs/cotstatements1997/cotstateme
+
+ntdentalamalgam97. Accessed 17 January 2018.
+
+41. UK Medicines Information (UKMi) Medicines Q&As. Is it safe to have amalgam fillings
+
+placed or removed if breastfeeding? 2015;
+
+www.sps.nhs.uk/qa74_5_amalgam_breastfeeding2014-doc/. Accessed 17 January 2018.
+
+42. U.S. Food & Drug Administration. Dental Amalgam, Medical Devices. 2017;
+
+www.fda.gov/MedicalDevices/ProductsandMedicalProcedures/DentalProducts/DentalAm
+
+algam/ucm171094.htm. Accessed 3 Jan 2018.
+
+43. European Commission Scientific Committee on Emerging and Newly Identified Health
+
+Risks. Opinion on the safety of the use of bisphenol A in medical devices. 2015;
+
+https://ec.europa.eu/health/sites/health/files/scientific_committees/emerging/docs/scen
+
+ihr_o_040.pdf. Accessed 18 January 2018.
+
+44. Kay E, Locker D. A systematic review of the effectiveness of health promotion aimed at
+
+improving oral health. Community Dental Health. 1998;15(3):132-144.
+
+45. Gray D, McIntyre G. Does oral health promotion influence the oral hygiene and gingival
+
+health of patients undergoing fixed appliance orthodontic treatment? A systematic
+
+literature review. Journal of Orthodontics. 2008;35(4):262-269.
+
+46. Gao X, Lo EC, Kot SC, Chan KC. Motivational interviewing in improving oral health: a
+
+systematic review of randomized controlled trials. Journal of Periodontology.
+
+2014;85(3):426-437.
+
+47. Moynihan PJ, Kelly SA. Effect on caries of restricting sugars intake: systematic review to
+
+inform WHO guidelines. Journal of Dental Research. 2014;93(1):8-18.
+
+48. Harris R, Gamboa A, Dailey Y, Ashcroft A. One-to-one dietary interventions undertaken in a
+
+dental setting to change dietary behaviour. Cochrane Database of Systematic Reviews.
+
+2012(3):CD006540.
+
+
+
+20
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+References
+
+
+
+49. Marinho VCC, Higgins J, Logan S, Sheiham A. Fluoride toothpastes for preventing dental
+
+caries in children and adolescents. Cochrane Database of Systematic Reviews.
+
+2003(1):CD002278.
+
+50. Marinho VCC, Higgins JPT, Logan S, Sheiham A. Topical fluoride (toothpastes,
+
+mouthrinses, gels or varnishes) for preventing dental caries in children and adolescents.
+
+Cochrane Database of Systematic Reviews. 2003(4):CD002782.
+
+51. Twetman S, Axelsson S, Dahlgren H, et al. Caries-preventive effect of fluoride toothpaste: a
+
+systematic review. Acta Odontologica Scandinavica. 2003;61(6):347-355.
+
+52. Twetman S. Prevention of early childhood caries (ECC)-review of literature published
+
+1998-2007. European Archives of Paediatric Dentistry. 2008;9(1):12-18.
+
+53. Twetman S. Caries prevention with fluoride toothpaste in children: an update. European
+
+Archives of Paediatric Dentistry. 2009;10(3):162-167.
+
+54. dos Santos AP, Nadanovsky P, de Oliveira BH. A systematic review and meta-analysis of
+
+the effects of fluoride toothpastes on the prevention of dental caries in the primary
+
+dentition of preschool children. Community Dentistry and Oral Epidemiology. 2013;41(1):1-
+
+12.
+
+55. Walsh T, Worthington HV, Glenny A-M, Appelbe P, Marinho VCC, Shi X. Fluoride toothpastes
+
+of different concentrations for preventing dental caries in children and adolescents.
+
+Cochrane Database of Systematic Reviews. 2010(1):CD007868.
+
+56. Steiner M, Helfenstein U, Menghini G. Effect of 1000 ppm relative to 250 ppm fluoride
+
+toothpaste. A meta-analysis. American Journal of Dentistry. 2004;17(2):85-88.
+
+57. Marinho VCC, Worthington HV, Walsh T, Chong LY. Fluoride gels for preventing dental
+
+caries in children and adolescents. Cochrane Database of Systematic Reviews.
+
+2015(6):CD002280.
+
+58. Twetman S, Petersson LG, Axelsson S, et al. Caries‐preventive effect of sodium fluoride
+
+mouthrinses: a systematic review of controlled clinical trials. Acta Odontologica
+
+Scandinavica. 2004;62(4):223-230.
+
+59. Marinho VC, Chong LY, Worthington HV, Walsh T. Fluoride mouthrinses for preventing
+
+dental caries in children and adolescents. Cochrane Database of Systematic Reviews.
+
+2016;7:CD002284.
+
+60. Chestnutt IG, Hutchings S, Playle R, et al. Seal or Varnish? A randomised controlled trial to
+
+determine the relative cost and effectiveness of pit and fissure sealant and fluoride varnish
+
+in preventing dental decay. Health Technology Assessment. 2017;21(21):1-256.
+
+61. Ferreira JM, Pinheiro SL, Sampaio FC, de Menezes VA. Caries removal in primary teeth-a
+
+systematic review. Quintessence International. 2012;43(1):e9-15.
+
+62. Schwendicke F, Meyer-Lueckel H, Dorfer C, Paris S. Failure of incompletely excavated teeth
+
+- a systematic review. Journal of Dentistry. 2013;41(7):569-580.
+
+
+
+21
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups
+
+
+
+References
+
+
+
+63. Schwendicke F, Dorfer CE, Paris S. Incomplete caries removal: a systematic review and
+
+meta-analysis. Journal of Dental Research. 2013;92(4):306-314.
+
+64. Hoefler V, Nagaoka H, Miller CS. Long-term survival and vitality outcomes of permanent
+
+teeth following deep caries treatment with step-wise and partial-caries-removal: A
+
+Systematic Review. Journal of Dentistry. 2016;54:25-32.
+
+65. Heintze SD, Rousson V. Clinical effectiveness of direct class II restorations - a meta-
+
+analysis. Journal of Adhesive Dentistry. 2012;14(5):407-431.
+
+66. Mickenautsch S, Yengopal V. Failure rate of high-viscosity GIC based ART compared with
+
+that of conventional amalgam restorations - evidence from an update of a systematic
+
+review. South African Dental Journal. 2012;67(7):329-331.
+
+67. Mickenautsch S. High-viscosity glass-ionomer cements for direct posterior tooth
+
+restorations in permanent teeth: The evidence in brief. Journal of Dentistry. 2016;55:121-
+
+123.
+
+68. Mickenautsch S, Yengopal V. Failure Rate of Direct High-Viscosity Glass-Ionomer Versus
+
+Hybrid Resin Composite Restorations in Posterior Permanent Teeth - a Systematic Review.
+
+The Open Dentistry Journal. 2015;9:438-448.
+
+69. Kielbassa AM, Glockner G, Wolgin M, Glockner K. Systematic review on highly viscous
+
+glass-ionomer cement/resin coating restorations (Part I): Do they merge Minamata
+
+Convention and minimum intervention dentistry? Quintessence International.
+
+2016;47(10):813-823.
+
+70. Chadwick BL, Evans DJ. Restoration of class II cavities in primary molar teeth with
+
+conventional and resin modified glass ionomer cements: a systematic review of the
+
+literature. European Archives of Paediatric Dentistry. 2007;8(1):14-21.
+
+71. Li J, Xie X, Wang Y, et al. Long-term remineralizing effect of casein phosphopeptide-
+
+amorphous calcium phosphate (CPP-ACP) on early caries lesions in vivo: a systematic
+
+review. Journal of Dentistry. 2014;42(7):769-777.
+
+72. Wright JT, Crall JJ, Fontana M, et al. Evidence-based clinical practice guideline for the use
+
+of pit-and-fissure sealants: A report of the American Dental Association and the American
+
+Academy of Pediatric Dentistry. Journal of the American Dental Association.
+
+2016;147(8):672-682 e612.
+
+73. Dorri M, Dunne SM, Walsh T, Schwendicke F. Micro-invasive interventions for managing
+
+proximal dental decay in primary and permanent teeth. Cochrane Database of Systematic
+
+Reviews. 2015(11):CD010431.
+
+
+
+22
+
+
+
+The Scottish Dental Clinical Effectiveness Programme is an initiative of the National Dental
+
+Advisory Committee and operates within NHS Education for Scotland. The Programme
+
+provides user-friendly, evidence-based guidance and implementation advice on topics
+
+identified as priorities for oral health care.
+
+SDCEP implementation advice aims to interpret and clarify changes in legislation,
+
+professional regulations or other developments relevant to patient care, and to provide
+
+practical advice to help dental teams implement any necessary changes to practice.
+
+Restricting the Use of Dental Amalgam in Specific Patient Groups has been developed to
+
+facilitate the implementation of Article 10(2) of Regulation (EU) 2017/852 on Mercury. The
+
+advice aims to support dental professionals in applying these environmentally-driven legal
+
+requirements and provides information on caries prevention, alternative caries
+
+management approaches and restorative materials to inform practitioners’ clinical
+
+decision making.
+
+
+
+©Scottish Dental Clinical Effectiveness Programme
+
+SDCEP operates within NHS Education for Scotland. You may copy or reproduce the information in
+
+this document for use within NHSScotland and for non-commercial educational purposes. Use of
+
+this document for commercial purposes is permitted only with written permission.
+
+This resource may be made available, in full or summary form, in alternative formats and community
+
+languages. Please contact NHS Education for Scotland on 0131 656 3200
+
+or email altformats@nes.scot.nhs.uk to discuss how we can best meet your requirements.
+
+
+
+Scottish Dental Clinical Effectiveness Programme
+
+Dundee Dental Education Centre, Frankland Building, Small’s Wynd, Dundee DD1 4HN
+
+Email: scottishdental.cep@nes.scot.nhs.uk | Tel: 01382425751 / 425771
+
+Website: www.sdcep.org.uk
+
+
+
+
+

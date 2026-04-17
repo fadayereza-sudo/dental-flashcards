@@ -9,13 +9,28 @@ for flashcard generation — one reference becomes one or more flashcards.
 ```
 references/
   <book-short-name>/
-    <ref-id>.md        # verbatim text + metadata
-  images/              # shared image store (copied from source-material)
+    <ref-id>.md          # verbatim text + metadata
+  guidelines/
+    <source>/
+      <ref-id>.md        # one recommendation per file
+    progress.json        # combined progress across all guideline sources
+  images/                # shared image store (copied from source-material PDFs)
 ```
 
 Book short names match source-material folders:
 - `oxford-handbook`
 - `biopsychosocial`
+
+Guideline source slugs (subfolders of `references/guidelines/`):
+- `dboh` — Delivering Better Oral Health (PHE/OHID)
+- `sdcep-antibiotic-prophylaxis`
+- `sdcep-child-caries`
+- `sdcep-dental-prescribing`
+- `sdcep-amalgam`
+- `sdcep-anticoagulants`
+- `sdcep-mronj`
+- `bsp` — BSP good practitioners guide + treatment flow chart
+- `fgdp` — FGDP radiography selection criteria
 
 ## Reference file format
 
@@ -47,6 +62,29 @@ Use one or more of:
 - `holistic-care` — biopsychosocial, patient-centred, behaviour change
 - `professional` — ethics, law, safeguarding, record keeping
 - `recognise-and-refer` — conditions beyond GDP scope
+- `pharmacology` — drug mechanisms, contraindications, interactions
+- `prescribing` — antibiotic stewardship, analgesic ladders, doses, intervals
+- `radiography` — image selection, justification, dose, quality
+- `infection-control` — cross-infection, decontamination, sharps, PPE
+
+## Body templates
+
+The body format depends on the source category:
+
+### Oxford Handbook — verbatim
+Copy text from `full-text.txt` exactly, stripped of `[index][style]` prefixes. Paragraph breaks preserved. Nothing paraphrased.
+
+### Biopsychosocial — applied
+Three sections: **The principle**, **What the book says**, **How this applies in dental practice**. The body is not verbatim — it teaches a principle drawn from the source, applied to dental scenarios.
+
+### Guidelines — recommendation + rationale
+Three sections, one recommendation per file:
+
+1. **The recommendation** — one sentence, exact wording from the guideline. Preserve doses, intervals, numerical thresholds verbatim — these are what get tested.
+2. **Why** — the evidence, mechanism, or risk that drives the rule. 2–4 sentences. This is what makes the matching cards pass/fail-able on reasoning rather than rote recall.
+3. **How this applies in practice** — concrete clinical scenarios where the GDP must act on the rule. Drugs, doses, intervals, decision points, red flags. Bullet points fine for branching rules.
+
+Guideline references use `sourceLines: [start, end]` (line range in the source `.txt`/`.md`) instead of `paragraphs`, since guideline sources have no paragraph index.
 
 ## Flashcard generation
 

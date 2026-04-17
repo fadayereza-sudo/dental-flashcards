@@ -44,17 +44,20 @@ Focus on content with the highest clinical yield. A paragraph explaining *why* a
 
 ## Source material
 
-Two preprocessed books in `source-material/`:
+Three categories of source in `source-material/`:
 
 | Short name | Full title | Structure | Extraction approach |
 |---|---|---|---|
 | `oxford-handbook` | Oxford Handbook of Clinical Dentistry 7e | Topic-based chapters with sections | **Verbatim** — line-by-line scan, copy text as-is |
 | `biopsychosocial` | The Biopsychosocial Model of Health and Disease 2019 | Theoretical chapters on the BPS model | **Applied** — read for principles, write dental applications |
+| `guidelines/<body>` | UK dental guidelines (DBOH, SDCEP, BSP, FGDP) | Decision rules + rationale | **Recommendation + rationale** — one reference per recommendation |
 
-Each has:
+The two textbooks each have:
 - **`full-text.txt`** — every paragraph, one per line, tagged `[index][style] text`
 - **`image-map.json`** — extracted images mapped to paragraph indices
 - **`images/`** — extracted image files
+
+Guidelines have a different layout — see "Guidelines — recommendation + rationale" below.
 
 ## Book-specific approaches
 
@@ -91,6 +94,134 @@ The biopsychosocial book is academic theory (philosophy, systems theory, epistem
 - Research framework design (RDoC, grid models)
 - Psychiatry-specific content
 - Historical context that doesn't yield a clinical lesson
+
+### Guidelines — recommendation + rationale
+
+The four UK guideline bodies (DBOH, SDCEP, BSP, FGDP) publish decision rules with an evidence rationale. They are neither narrative prose nor academic theory — they are *rules a GDP applies*. Verbatim copy would bury the rule in evidence-grading scaffolding; pure paraphrase would lose the exact wording the GDP needs to recall.
+
+#### Approach
+
+1. **Read the source `.txt` / `.md`** for the guideline.
+2. **Identify each recommendation** — a discrete decision rule the GDP needs to know (e.g. "Apply fluoride varnish 22,600 ppm twice yearly to all children from 3 years upwards"; "For low-bleeding-risk procedures, do not interrupt warfarin if INR is below 4").
+3. **For each recommendation, write a reference** with three sections:
+   - **The recommendation** — one sentence, exactly as the guideline states it (preserve doses, intervals, thresholds verbatim — these are what get tested).
+   - **Why** — the evidence, mechanism, or risk that drives the rule. This is the "because" the user fails the card on if they can't recall it.
+   - **How this applies in practice** — the specific clinical scenario where the GDP must act on it. Drugs, doses, intervals, decision points, red flags. Concrete, not abstract.
+4. **One reference = one recommendation.** A short guideline (e.g. SDCEP antibiotic prophylaxis) might yield 8–15 references; a long one (DBOH) might yield 60+.
+
+#### Source layout
+
+```
+source-material/guidelines/
+  delivering-better-oral-health/
+    delivering-better-oral-health.md      # web crawl
+  SDCEP/
+    sdcep-antibiotic-prophylaxis.md       # web crawl
+    sdcep-child-caries.md                 # web crawl
+    sdcep-dental-prescribing.md           # web crawl
+    sdcep-dental-amalgam-implementation-advice - SDCEP.txt
+    SDCEP Management of Dental Patients Taking - SDCEP.txt
+    SDCEP MRONJ guidance - extant 2024 - SDCEP.txt
+    *.pdf                                 # kept for image extraction only
+  BSP/
+    good practitioners guide 2016 - Unknown.txt
+    good_practitioners_guide_2016.pdf     # for images
+    BSP_Treatment_Flow_Chart_..._ytube_link.pdf  # single-page flowchart, image source only
+  FGDP/
+    FGDP-SCDR-ALL-Web.txt
+    FGDP-SCDR-ALL-Web.pdf                 # for images
+```
+
+**Text from `.txt`/`.md` only.** The PDFs are kept solely for on-demand image extraction (see "Image extraction from guideline PDFs" below). Do not read PDFs as text — they are 100× more expensive than the matching `.txt`.
+
+Calibre's `.txt` will mangle tables (DBOH summary tables, MRONJ risk strata, FGDP frequency-of-recall, BSP staging+grading). That's expected — those tables are captured as images instead.
+
+#### Per-guideline 80/20 — what to skip
+
+- **DBOH** — Ch 13 evidence base, appendix case studies, acknowledgements, endorsements, ToC.
+- **SDCEP (all)** — methodology, contributors, full evidence-table appendices, "about this advice" pages, navigation/footer crawl artefacts (anything that looks like a website nav menu).
+- **BSP good practitioners guide** — historical context, evidence grading methodology.
+- **FGDP** — equipment specification minutiae, dose-calculation appendices.
+
+#### Reference file path and ID
+
+```
+references/guidelines/<source>/<source>-<NNN>.md
+```
+
+`<source>` matches the subfolder slug, e.g.:
+- `dboh` (delivering better oral health)
+- `sdcep-antibiotic-prophylaxis`
+- `sdcep-child-caries`
+- `sdcep-dental-prescribing`
+- `sdcep-amalgam`
+- `sdcep-anticoagulants`
+- `sdcep-mronj`
+- `bsp` (good practitioners guide + treatment flow chart together)
+- `fgdp`
+
+Example: `references/guidelines/sdcep-mronj/sdcep-mronj-007.md`.
+
+#### Frontmatter for guidelines
+
+```yaml
+---
+id: sdcep-mronj-007
+book: "SDCEP Oral Health Management of Patients at Risk of MRONJ (2024)"
+section: "SDCEP MRONJ – Risk stratification of patients on anti-resorptives"
+paragraphs: []          # not used for guidelines (no paragraph-indexed source)
+sourceLines: [120, 178] # line range in the .txt/.md for traceback
+images:
+  - sdcep-mronj-007-risk-strata.png
+tags:
+  - prescribing
+  - medical-history
+  - recognise-and-refer
+---
+```
+
+- `book` — full title of the guideline (year included for SDCEP/BSP since they revise).
+- `section` — `"<Body short name> <topic> – <subtopic>"`. Lets the in-app folder tree read naturally.
+- `paragraphs` — leave as `[]` for guidelines; the source has no paragraph index.
+- `sourceLines` — `[start, end]` line range in the `.txt`/`.md` so the user can trace it back. Use `Read` line numbers (not paragraph indices).
+- `images` — image filenames pulled from the matching PDF (see below). Saved into `references/images/`.
+- `tags` — see `references/README.md` for the full list (includes guideline-specific tags `pharmacology`, `prescribing`, `radiography`, `infection-control`).
+
+#### Body template
+
+```markdown
+## The recommendation
+
+<One sentence, exact wording from the guideline. Preserve doses, intervals, numerical thresholds. Quote with quotation marks if the wording is non-obvious or load-bearing.>
+
+## Why
+
+<The evidence, mechanism, or risk that drives the rule. 2–4 sentences. This is what makes the matching flashcards pass/fail-able on reasoning rather than rote.>
+
+## How this applies in practice
+
+<The specific clinical scenario where the GDP must act on this. Concrete: drug names, doses, intervals, decision thresholds, red-flag features. Bullet points are fine if the rule has multiple branches.>
+```
+
+#### Image extraction from guideline PDFs
+
+Most guidelines have at least one decision-critical chart or table that the `.txt` either lost or mangled:
+
+- BSP — staging + grading table; step-by-step treatment flow chart (single-page A3 PDF, full image)
+- SDCEP MRONJ — risk-strata table
+- SDCEP anticoagulants — bleeding-risk decision flowchart
+- FGDP — recommended frequency of radiographs table
+
+Workflow:
+
+1. Use a one-shot Python script with `pymupdf` (or fall back to `pdfimages` from poppler) to render specific PDF pages as PNG, OR to dump all embedded images at once.
+2. Triage by opening each candidate with `Read` (only the candidates enter context — image bytes are skipped during extraction itself).
+3. Save the keepers to `references/images/<reference-id>-<descriptor>.png`.
+4. List them in the reference frontmatter `images` array.
+
+For the BSP single-page treatment flowchart PDF (`BSP_Treatment_Flow_Chart_..._ytube_link.pdf`): just render page 1 at 200–300 dpi. There's no reason to extract anything else from that file.
+
+**Do not** read PDFs through the `Read` tool to find the page number for a chart — read the matching `.txt` and grep for the table title or surrounding text, then map that to a PDF page number heuristically (the `.txt` from Calibre often preserves rough page order). If unclear, render a couple of candidate pages and triage.
 
 ## How headings work in the Oxford Handbook text
 
@@ -223,11 +354,22 @@ A reference should be **self-contained enough to generate 1–5 flashcards** fro
 
 ## Running order
 
-Process books in this order (highest clinical yield first):
+Process sources in this order (highest clinical yield first):
 1. **`oxford-handbook`** — broadest coverage of GDP-relevant topics (COMPLETE)
 2. **`biopsychosocial`** — principles applied to dental practice (see "Book-specific approaches")
+3. **`guidelines/`** — UK dental guidelines, in this sub-order:
+   1. **DBOH** — broadest preventive coverage
+   2. **SDCEP antibiotic prophylaxis** — sharp safety topic, smallest file
+   3. **SDCEP MRONJ** — high-stakes prescribing/extraction safety; pull risk-strata image
+   4. **SDCEP anticoagulants** — common GDP dilemma; pull decision flowchart image
+   5. **SDCEP dental prescribing** — drug-by-drug reference
+   6. **SDCEP child caries** — preventive + operative blend
+   7. **SDCEP amalgam phase-down** — narrower regulatory scope
+   8. **BSP good practitioners guide** — perio fundamentals
+   9. **BSP treatment flow chart** — single-page image; one or two reference files that embed it
+   10. **FGDP radiography** — narrowest scope; pull frequency-of-recall image
 
-For the Oxford Handbook, work sequentially from line 1 to the end. For the biopsychosocial book, read thematically to understand each principle, then write the applied reference.
+For the Oxford Handbook, work sequentially from line 1 to the end. For the biopsychosocial book, read thematically to understand each principle, then write the applied reference. For guidelines, identify discrete recommendations and write one reference per recommendation (see "Guidelines — recommendation + rationale").
 
 ## Inputs
 

@@ -1,0 +1,2947 @@
+The Good Practitioner’s
+
+
+
+Guide to Periodontology
+
+
+
+
+
+We’re a 1000+
+
+
+
+strong membership
+
+
+
+organisation. Join us.
+
+
+
+We are a forward-thinking group of people with a passion
+
+for perio. Join us and benefit from a whole range of useful
+
+and educational benefits. We’re also part of the European
+
+Federation of Periodontology.
+
+How can you help?
+
+
+
+4 A full calendar of events, seminars, webinars and meetings
+
+Enjoy early notification and lower rates
+
+4 Benefit from our Early Career Group - a vibrant, supportive
+
+sub-group of the BSP
+
+4 Receive the Journal of Clinical Periodontology every month
+
+4 Join as a full or associate member
+
+4 Our registration fees are low and reduce as the year progresses
+
+4 Access more of our website
+
+4 Annual printed newsletter, monthly e-newsletters
+
+4 Enter our prestigious prizes and awards initiatives
+
+4 Network at every level
+
+4 High number of non-specialist dentist and hygienist members
+
+
+
+www.bsperio.org.uk
+
+
+
+Membership contact: Helen Cobley
+
+admin@bsperio.org.uk
+
+Reg charity number: 265815
+
+
+
+
+
+2 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+CONTENTS
+
+
+
+
+Foreword .............................................................................................................................................................................4
+
+
+
+Introduction .....................................................................................................................................................................5
+
+
+
+Risk factors .........................................................................................................................................................................6
+
+
+
+Periodontal screening ........................................................................................................................................ 10
+
+
+
+Radiographs ................................................................................................................................................................. 15
+
+
+
+Classification of periodontal disease .................................................................................................. 18
+
+
+
+Diagnosis .......................................................................................................................................................................... 21
+
+
+
+Patient behaviour change ............................................................................................................................. 24
+
+
+
+Non-surgical therapy ........................................................................................................................................... 26
+
+
+
+The role of the hygienist ................................................................................................................................. 29
+
+
+
+Antimicrobials ............................................................................................................................................................ 30
+
+
+
+Periodontal surgery .............................................................................................................................................. 31
+
+
+
+Implants and peri-implant disease ........................................................................................................ 35
+
+
+
+Supportive periodontal therapy ............................................................................................................. 37
+
+
+
+Dento-legal considerations .......................................................................................................................... 38
+
+
+
+Referral .............................................................................................................................................................................. 41
+
+
+
+Referral proforma .................................................................................................................................................. 45
+
+
+
+Revised March 2016, 3rd version
+
+Copyright © 2016 British Society of Periodontology 3
+
+
+
+
+
+FOREWORD
+
+
+Welcome to the third version of the Good Practitioner’s Guide. We hope that you will find it a helpful companion to your clinical practice. Of the previous editions, 9,000 print copies have been distributed and, in just 12 months last year, the PDF was downloaded a staggering 41,664 times. It has also been translated by the Austrian Society of Periodontology. The GPG has certainly proven highly popular and the interest in periodontics has never been greater. This is not surprising since periodontics has so much to offer both patients and clinicians.
+
+
+
+This new edition marks a major change for the guide. Firstly, the name. We changed ‘Young’ to ‘Good’ on your advice. We received so many comments that the guide was valued and used widely by practitioners regardless of years since qualification that we have made this small change. What is a huge change is the move from paper to digital. Fiona Clarke of Atlas Education, BSP member and an expert in the field of e-learning has done a wonderful job in transforming the guide to a digital and interactive format. We believe that this transformation will greatly increase its educational value. At the same time, we have taken the opportunity to revise the text to address changes in research and clinical practice. However, we have tried to remain faithful to the original concept that it should be a well-thumbed, useable guide and not a textbook. The digital version will allow us to make the GPG a more responsive resource reflecting new developments. For instance, at the time of writing, the European Federation of Periodontology and the American Academy of Periodontology are working on a joint World Workshop (the BSP is well represented) to review periodontal disease classification. The results should be available in early 2018 and we will incorporate any changes.
+
+
+
+Periodontal diseases remain very common. Whilst early stages may be symptom-free, the impact on peoples’ lives of later stages is very serious. This is movingly told in the film that we made with the European Federation of Periodontology, The Sound of Periodontitis (you can download or view the film at www.efp.org/public). The need for us to work together to treat the large numbers of people with the condition has never been more acute. Even more important is to prevent our patients from developing the condition. We can achieve this by integrating into clinical practice what we know about health behaviour change and the complexity of causes and modifiers of the disease including plaque, tobacco use, diabetes and many others. You may be interested in other current guidance which is also available on the BSP website (www.bsperio.org.uk).
+
+
+
+I would like to thank the BSP Early Career Group members, Praveen Sharma and Manoj Tank for their superb work in helping to revise the text and to Dental Protection and Michaela O’Neill of the BSDHT for their input to the section on dental-legal aspects and working with hygienists. Much of the text is based on the work of the original authors who are listed in the previous editions. Thanks also to 2016 BSP President, Phil Ower who has been hugely supportive of the project and provided many figures. If you have found the guide useful and would like to see what else membership of the British Society of Periodontology can offer, do visit our website and contact us (www.bsperio.org.uk).
+
+Let us know if you have any comments or suggestions for future updates.
+
+
+
+
+
+Prof. Ian Needleman
+
+Editor in Chief, Good Practitioner’s Guide
+
+
+
+4 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+INTRODUCTION
+
+
+Periodontal diseases are considered by the World Health Organisation (WHO) as one of two significant global burdens of oral disease, with the other being dental caries. Severe periodontitis is now recognised as being the sixth most prevalent disease of mankind.
+
+
+
+Periodontitis is a chronic inflammatory disease of bacterial aetiology that affects the supporting tissues around the teeth. The host has an important role in susceptibility to the disease. In the early stages of periodontitis, some patients are not aware of any problems. However, as the disease progresses, patients may complain of bleeding gums, awareness of a bad taste in their mouth and, in later stages, become aware of loose teeth. If periodontitis is not treated, it can result in both loss of teeth and function which can negatively impact a patient’s quality of life.
+
+
+
+According to the latest prevalence data from the 2009 UK Adult Dental Health Survey, 37% of the adult population suffer from moderate levels of chronic periodontitis (with 4-6mm pocketing), while 8% of the population suffer from severe periodontitis (with pocketing exceeding 6mm). Severe periodontitis has been found to affect 11% of adults worldwide.
+
+
+
+Various risk factors have been highlighted for periodontal disease including poor oral hygiene, tobacco use, diabetes, genetics, poor nutrition and stress. It is important to consider these factors when managing patients with periodontitis, in order to aid successful treatment. Thoroughly assessing and diagnosing the type of periodontal disease using the current classification system is essential.
+
+
+
+The aim of this guide is to review each step of the periodontal assessment and treatment process using an evidence based approach to the management of patients in practice.
+
+
+
+Key references
+
+Steele J & O’Sullivan I. (2011), Adult Dental Health Survey 2009. The Health and Social Care Information Centre. Kassebaum NJ, Bernabé E, Dahiya M. (2014), Global burden of severe periodontitis in 1990-2010: a systematic review and meta-regression. J Dent Res 93 (11):1045-1053.
+
+
+
+Copyright © 2016 British Society of Periodontology 5
+
+
+
+
+
+RISK FACTORS
+
+
+The pathogenesis of periodontal disease is complex and evidence indicates that it is the patient’s response to the bacterial challenge which is the major determinant of susceptibility. Identifying the various inherited and acquired factors influencing susceptibility is thus an important part of the periodontal assessment.
+
+Risk factors are those factors that influence the likelihood of periodontitis developing in an individual and how fast the disease progresses.
+
+
+
+Risk factors
+
+
+
+Modifiable factors Non-modifiable factors
+
+
+
+Acquired: Anatomical:
+
+s Plaque & calculus Malpositioned teeth
+
+Partial dentures Furcations Open contacts Root grooves & concavities Overhanging & poorly Enamel pearls
+
+Local factor contoured restorations
+
+
+
+Smoking Socioeconomic status
+
+s Diabetes Genetics
+
+Poor diet Adolescence Certain medications Pregnancy Stress Age Emerging evidence: Leukaemia
+
+Systemic factor Nutrition
+
+Alcohol
+
+Obesity/ overweight
+
+
+
+Table 1 Risk factors for periodontal disease divided into modifiable and non-modifiable factors.
+
+
+
+Local risk factors
+
+Local risk factors can either be acquired (such as plaque and calculus, overhanging and poorly contoured restorations) or anatomical (such as malpositioned teeth, enamel pearls, root grooves, concavities and furcations). During an examination visit, it is essential to identify these factors and plan to either try to correct them (such as deficient restorations) or educate the patient about local oral hygiene measures (such as using single tufted brushes around malpositioned teeth).
+
+
+
+
+
+Figure 1 Instanding LR1 showing localised plaque and calculus accumulation on the interproximal, buccal and lingual aspect.
+
+
+
+
+
+Systemic risk factors
+
+
+
+A number of systemic diseases, states or conditions can affect the periodontium in a generalised manner. These are known as systemic risk factors. These can be modifiable, such as smoking, or non-modifiable, such as ageing or genetic risk factors.
+
+
+
+Tobacco use
+
+The most important known risk factor for periodontitis is cigarette smoking. Smoking has a profound impact on periodontitis development, treatment response and likelihood of relapse. It will be discussed in further detail later in this topic.
+
+
+
+6 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+RISK FACTORS
+
+
+Diabetes
+
+Poorly controlled diabetes increases the risk of periodontal diseases. Wound healing is adversely affected by diabetes, especially if poorly controlled. This can make treatment of diabetic patients more difficult. Assessment of diabetic control is important and communication with the patient’s doctor should be considered. Diabetes control is best assessed using HbA1c (glycated haemoglobin) values. People with diabetes are advised to maintain levels of HbA1c of 6.5% (48mmol/ mol) or lower. Requesting recent test results from the managing physician can be helpful to understand diabetes risk to periodontal health. However, control can vary substantially over time. Patients with undiagnosed diabetes may present with multiple, lateral periodontal abscesses in which case liaising with the patient’s GP to confirm the diabetic status of the patient is advised.
+
+
+
+Stress
+
+Stress is known to affect both the general and periodontal health of patients. There are a few mechanisms by which this might happen. Prolonged or intense periods of stress can cause suppression of the immune system which might tip the host-bacterial interaction in favour of bacteria causing increased attachment loss. Stress also affects how well people look after themselves and might lead to less effective daily plaque removal, increased tobacco-use and poor nutrition. Asking patients about their stress levels and recording this in their notes is important. Making patients aware of the potential effects of stress on their general and oral health may be sufficient for patients to think about stress management or adopting coping strategies. Clearly, managing periodontal health in people undergoing significant stress requires recognition of this factor. Discussion with the patient about the implications is important and consideration should be given to modifying the treatment plan to provide additional supportive care or delaying complex treatment.
+
+
+
+Medication
+
+Certain medications are known to cause gingival overgrowth. If drug-related gingival overgrowth is suspected, it is prudent to liaise with medical colleagues to determine if alternative drug therapies are available and appropriate, especially if overgrowth is severe or not reducing despite the patient’s best efforts at good plaque control and effective professional debridement. The drugs implicated are discussed further on page 19.
+
+
+
+Other considerations
+
+Hormonal changes are known to affect the gingivae, most notably during pregnancy. During this time, a greater emphasis on daily effective plaque removal and professional debridement should control periodontal health.
+
+Socioeconomic status is strongly associated with risk of developing chronic diseases such as cardiovascular disease, diabetes and increasingly with periodontitis. Currently, it is not clear whether this is because of shared risk factors for each such as tobacco use or poor nutrition, for example, or whether it is due to specific risk factors for periodontitis.
+
+
+
+Emerging evidence
+
+Although the evidence is not conclusive for alcohol abuse, obesity, lack of physical activity and poor nutrition, they may be important and are recommended to be included in overall periodontal health advice.
+
+As healthcare professionals, it is vital that we identify and make patients aware of the risk factors that might affect their health. A thorough history and examination should allow you to identify and document these risk factors so they can be considered in the treatment planning stage.
+
+
+
+Tobacco and periodontal health
+
+
+
+Tobacco use is directly related to a number of medical problems including cancer, low birth weight babies, pulmonary and cardiovascular problems. As health care professionals, we should be prepared to take any opportunity to encourage patients to quit smoking. The provision of periodontal care can provide an ideal opportunity to provide this sort of health care message, as you and your team will be interacting with your patients over several appointments and often over an extended period of time.
+
+Smoking is one of the most significant risk factors in the development and progression of periodontal diseases. Smokers are up to six times more likely to show periodontal destruction than non-smokers, show a poorer response to treatment and are at increased risk of recurrence. This is thought to be due to a reduction in gingival blood flow, impaired white cell function, impaired wound healing and an increased production of inflammatory cytokines enhancing tissue breakdown.
+
+Many studies have shown that persistent smoking leads to greater tooth loss and reduced response to periodontal therapy in a dose-dependent fashion. Therefore, patients should be advised that even smoking 1-4 cigarettes a day increases their risk of developing periodontitis by almost 50%.
+
+
+
+Copyright © 2016 British Society of Periodontology 7
+
+
+
+
+
+RISK FACTORS
+
+
+Smokers often display:
+
+• Greater calculus formation
+
+• Higher mean probing pocket depths and more sites with deep pockets
+
+• Greater gingival recession
+
+• Greater alveolar bone loss and furcation involvement
+
+• Less bleeding on probing.
+
+Smoking cigars, cannabis and other smokeless tobacco products regularly carries a similar risk to that of cigarettes. The recent development of e-cigarettes means that the relative effect of these, compared to traditional cigarettes has yet to be investigated. Although they are likely to be less harmful to the periodontal tissues than traditional cigarettes, they are unlikely to be as good for periodontal health as not smoking. There is currently both a knowledge and research gap regarding e-cigarettes and patients should be made aware of this.
+
+A number of studies have shown that smokers do not show as good a response to periodontal treatment (even in the presence of good oral hygiene) as non-smokers. Smokers are also twice as likely to lose teeth in the longer term. If a patient does manage to stop smoking there is a benefit to treatment response.
+
+
+
+Setting patient expectations
+
+It is your responsibility to make your patients fully aware of the effects that smoking will have on their periodontal health, response to treatment, risk of relapse and eventually, risk of tooth loss.
+
+
+
+Smoking cessation advice
+
+How you and your team approach this will depend on whether your patient is a contented smoker, is contemplating quitting or whether they have tried and failed to quit in the past. You should ask about tobacco use and document it. For people considering quitting, the current guidance (Delivering Better Oral Health 2014) is to refer to specialist quit smoking services such as NHS Smokefree (www.nhs.uk/smokefree). For people who are unwilling to take up such a service, you or someone delegated by you should provide brief tobacco cessation advice.
+
+Stopping smoking is a process, not a single event and may require several serious attempts before success. On average, it takes seven serious attempts to quit smoking. Therefore, every ‘failed’ attempt should be viewed as another milestone on what may be a lengthy journey. It is also important to warn patients of a possible transient increase in bleeding from the gingivae on smoking cessation as the oral vascular supply returns to normal and the masking effects of smoking are removed.
+
+You should note down your patient’s current self-reported smoking status at every regular recall appointment. It is also important to make note of the historic burden of smoking for instance in pack-years*.
+
+
+
+Periodontal treatment for smokers
+
+The mainstay remains good daily plaque control and regular, high quality supra- and subgingival debridement with adjunctive local anaesthesia as required. Remember, smokers with gingival recession are at increased risk of developing root caries, so careful monitoring of diet and the caries status together with the provision of appropriate fluoride adjuncts may also be important for this group of patients.
+
+Given the reduced healing capacity of the periodontal tissues in smokers, periodontal management of these patients tends to avoid any surgical intervention and in particular any form of hard or soft tissue grafting. You should consider referral for non-responding patients who smoke.
+
+* Pack-year is calculated by multiplying the number of packs of cigarettes smoked per day by the number of years the person has smoked.
+
+
+
+Systemic disease and periodontal health
+
+
+
+In the previous section, we explored how systemic conditions can impact on periodontal health. In this section, we will examine the growing body of evidence that demonstrates that periodontal conditions might influence the systemic health of patients.
+
+The link between periodontitis and systemic diseases comes from a variety of sources including observational studies showing associations between systemic diseases (most notably cardiovascular disease and diabetes) and periodontitis. Evidence has also been gathered from interventional studies showing a possible beneficial impact of treating periodontitis on the systemic health of patients with certain chronic, non-communicable diseases or conditions.
+
+These associations were discussed in a joint workshop between the European Federation of Periodontology (EFP) and the American Academy of Periodontology (AAP). The papers from this workshop are freely available online and summarize the knowledge in this field very well.
+
+8 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+RISK FACTORS
+
+
+The biological mechanisms by which periodontitis might influence systemic health are linked to the fact that periodontitis causes gingival inflammation which compromises the barrier function of the gingival epithelium leading to an ingress of bacteria or bacterial products or inflammatory products into the systemic circulation. In severe cases, the wound area from periodontal inflammation can be as large as the palm of the hand. This area of inflammation, being present for decades in some cases, could have an impact on systemic health.
+
+
+
+
+
+Table 2 Established and emerging associations with periodontitis.
+
+
+
+
+
+Although it is established that periodontitis is associated with systemic diseases, such as cardiovascular disease and diabetes, there are challenges in establishing ‘causality’. There are many reasons why this is challenging. Firstly, periodontitis and other common, chronic, non-communicable diseases share common risk factors such as smoking, obesity, diabetes, lack of exercise/a sedentary lifestyle, poor diet and increasing age. Secondly, the impact of periodontitis on these disease processes is likely to be small hence large-scale trials are needed to demonstrate this effect or lack of effect conclusively. Finally, there is a lack of consensus in the research community on a standard definition or criteria for periodontitis. This makes meta-analyses and amalgamation of data from individual trials more challenging.
+
+Consequently, people can be advised that periodontal disease is associated with other diseases but it is unclear if it actually causes them. However, what is important for general health is likely also to be protective for periodontal health.
+
+
+
+Key references
+
+Chapple, ILC., et al. (2013), Diabetes and periodontal diseases: consensus report of the Joint EFP/AAP Workshop on Periodontitis and Systemic Diseases. Journal of Clinical Periodontology 40: S106-S112. European Federation of Periodontology http://www.efp.org/ Joint workshop between the European Federation of Periodontology (EFP) and the American Academy of Periodontology (AAP) (2013) Journal of Clinical Periodontology 40: S1-214.
+
+http://onlinelibrary.wiley.com/doi/10.1111/jcpe.2013.40.issue-s14/issuetoc Public Health England. Delivering Better Oral Health 3rd Ed (2014) Section 7: 51-62. https://www.gov.uk/government/publications/delivering-better-oral-health-an-evidence-based-toolkit-for-prevention Rosa EF. (2011), A prospective 12-month study of the effect of smoking cessation on periodontal clinical parameters. Journal of Clinical Periodontology 38 (6):562-71.
+
+Tonetti, MS., et al. (2013). Periodontitis and atherosclerotic cardiovascular disease: consensus report of the Joint EFP/AAP Workshop on Periodontitis and Systemic Diseases. Journal of Clinical Periodontology 40: S24-S29. Van Dyke, TE. and van Winkelhoff AJ. (2013), Infection and inflammatory mechanisms. Journal of Clinical Periodontology 40: S1-S7.
+
+
+
+Copyright © 2016 British Society of Periodontology 9
+
+
+
+
+
+PERIODONTAL SCREENING
+
+
+Dental practitioners have a key role to play in the early recognition and diagnosis of periodontal conditions. Careful assessment of the periodontal tissues is an essential component of patient management. The BPE is a simple and rapid screening tool that is used to indicate the level of further examination needed and provide basic guidance on treatment needed. The BPE guidelines are not prescriptive but represent a minimum standard of care for initial periodontal assessment. BPE should be used for screening only and should not be used for diagnosis.
+
+Whilst probing is crucial for detection of disease, don’t forget to assess and record tissue health visually. Look at the gingival tissues for health and signs of disease such as redness, loss of stippling etc. Recording the location of these changes (e.g. lingual or interproximal) helps to individualise and focus oral hygiene instruction.
+
+The Basic Periodontal Examination (BPE) was first developed by the British Society of Periodontology in 1986 and has recently been revised. Screening involves probing of the periodontal tissues to assess the presence of bleeding on probing, plaque and calculus deposits and the depth of any periodontal pockets which may be present.
+
+
+
+How to record the BPE for adults
+
+
+
+1 The dentition is divided into 6 sextants:
+
+Upper right (17 to 14), upper anterior (13 to 23), upper left (24 to 27)
+
+Lower right (47 to 44), lower anterior (43 to 33), lower left (34 to 37)
+
+
+
+
+
+Figure 2 Division of the dentition into 6 sextants for screening.
+
+
+
+2 All teeth in each sextant are examined
+
+(with the exception of 3rd molars unless 1st and/or 2nd molars are missing).
+
+• For a sextant to qualify for recording, it must contain at least 2 teeth.
+
+
+
+3 The probe should be “walked around” the sulcus/pockets in each sextant, and the
+
+highest score recorded for each sextant
+
+• The WHO probe (often called a BPE probe) has a ball end 0.5mm in diameter, and a black band
+
+from 3.5 to 5.5mm. A light probing force of between 20-25 grams should be used.
+
+
+
+
+
+Figure 3 The BPE probe is walked around each tooth.
+
+
+
+All sites should be examined to ensure that the highest score in the sextant is recorded before moving on to the next sextant. If a code 4 is identified in a sextant, continue to examine all sites in the sextant. This will help to gain a fuller understanding of the periodontal condition and will make sure that furcation involvements are not missed.
+
+10 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+PERIODONTAL SCREENING
+
+
+
+
+
+Figure 4 The WHO 621 probe has a 0.5mm diameter ball end and black banding between 3.5 and 5.5mm and between 8.5 and 11.5mm.
+
+
+
+A light probing force equivalent to the force required to blanch a fingernail is used when performing the BPE.
+
+The clinician should use their skill, knowledge and judgement when interpreting BPE scores, taking into account factors that may be unique to each patient. Deviation from these guidelines may be appropriate in individual cases, for example where there is a lack of patient engagement. General guidance on the implications of BPE scores is indicated in table 4. The BPE scores should be considered together with other factors when making decisions about referral see page 41.
+
+
+
+4 An example BPE score: 3 3*
+
+
+
+- 2 4* the score for a sextant could be 3* (e.g. indicating probing depth 3.5-5.5mm Both the number and the * should be recorded if a furcation is detected e.g.
+
+PLUS furcation involvement in the sextant).
+
+
+
+BPE code Probing depth Observation
+
+Healthy periodontal
+
+Pockets < 3.5mm tissues
+
+
+
+0 First black band No calculus/overhangs completely visible No bleeding on probing
+
+(Note the
+
+
+
+Pockets < 3.5mm in this Bleeding on probing recession
+
+1 image is completely visible First black band not No calculus/overhangs accounted
+
+for in the
+
+BPE)
+
+
+
+Pockets < 3.5mm Supra or subgingival
+
+2 calculus or plaque
+
+First black band retention factor
+
+completely visible (overhang)
+
+
+
+First black band
+
+3 Probing depth partially visible,
+
+3.5 - 5.5mm indicating pocket of
+
+4-5mm
+
+
+
+First black band entirely
+
+4 within the pocket, Probing depth > 5.5mm
+
+indicating pocket of
+
+6mm or more
+
+
+
+
+
+* Furcation involvement Detection of a furcation
+
+
+
+
+
+Table 3 Scoring codes for the BPE.
+
+
+
+
+
+Copyright © 2016 British Society of Periodontology 11
+
+
+
+
+
+PERIODONTAL SCREENING
+
+
+
+
+Recording the BPE for children
+
+
+
+The British Society of Periodontology (BSP) and the British Society of Paediatric Dentistry (BSPD) have jointly produced guidelines for the periodontal screening and management of children and adolescents under 18 years of age in the primary dental care setting. These guidelines aim to outline a method of screening children and adolescents for periodontal diseases during routine examination and provide guidance on when it is appropriate to treat in practice or refer to specialist services.
+
+Periodontal screening for children and adolescents assesses six index teeth (UR6, UR1, UL6, LL6, LL1 and LR6) using a simplified BPE to avoid the problem of false pockets. The ideal probe for this examination is a WHO 621 style probe, the second black at 8.5 – 11.5mm being useful if there is false pocketing.
+
+BPE codes 0 - 2 are used in 7 to 11 year-olds (during the mixed dentition phase) while the full range of codes 0, 1, 2, 3, 4 and * can be used in 12 to 17 year-olds (when the permanent teeth erupt).
+
+
+
+
+
+0 Healthy
+
+1 Bleeding after gentle probing
+
+2 Calculus or plaque retention factor
+
+3 Shallow pocket 4mm – 5mm
+
+4 Deep pocket 6mm or more
+
+* Furcation
+
+
+
+Figure 5 The simplified BPE for under 18 year olds. Examination of 6 index using BPE codes 0-2 for 7-11 year olds and the full set of codes for 12-17 year olds.
+
+
+
+Examples of BPE scores:
+
+
+
+8-year old 15-year old
+
+
+
+1 1 2 2 2 3
+
+1 2 2 2 2 2
+
+
+
+Implants and the BPE
+
+Similar to teeth, implants are susceptible to bacterial plaque leading to an inflammatory response in the peri-implant tissues. However, the tissues surrounding implants are not connected to the implant surface in the same way as those surrounding teeth and are less resistant to probing. This in combination with the anatomical position of the implant in relation to the bone and soft tissues may lead to deeper probing depths in healthy sites. For this reason, the BPE is not appropriate for the assessment of implants. Detailed probing (four or six points) and the presence of any bleeding or suppuration should be measured around each implant.
+
+
+
+12 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+PERIODONTAL SCREENING
+
+
+
+
+
+Figure 6 Unlike natural teeth implants do not have a periodontal ligament connecting them to the underlying bone.
+
+
+
+When to record the BPE
+
+• All new patients should have a BPE recorded (both children and adults)
+
+• For patients with codes 0, 1 or 2 on a previous BPE recording, the BPE should be recorded at every
+
+routine examination
+
+• For patients with BPE codes of 3 or 4, more detailed periodontal charting is required.
+
+- Code 3: initial therapy including self-care advice (oral hygiene instruction and risk factor control) then post-initial
+
+therapy, record a 6-point pocket chart in that sextant only.
+
+- Code 4: if a code 4 is found in any sextant, then detailed probing depths (6 sites per tooth) should be recorded
+
+for the entire dentition.
+
+BPE cannot be used to monitor the response to periodontal therapy because it does not provide information about how sites within a sextant change after treatment. To assess the response to treatment, a 6-point pocket chart should be recorded pre and post-treatment.
+
+Once these patients reach the maintenance phase of care, then full probing depths throughout the entire dentition should be repeated and recorded at least annually. Your hygienist may be providing care for the patient at this stage, so it is important to check that the periodontal chart is kept up to date so that any persistent sites can be re-instrumented if needed.
+
+
+
+Radiographs
+
+Radiographs should be available for all Code 3 and Code 4 sextants. The type of radiograph used is a matter of clinical judgement but crestal bone levels should be visible. Many clinicians would regard periapical views as essential for Code 4 sextants to allow assessment of bone loss as a percentage of root length and visualisation of the periapical tissues.
+
+
+
+Guidance on interpretation of BPE scores
+
+Interpreting the BPE score depends on many factors that are unique to each patient. As a general rule however, radiographs to assess alveolar bone levels should be obtained for teeth or sextants where BPE codes 3 or 4 are found. Information from the radiographs must be considered along with the BPE scores, to determine the level of attachment loss. The clinician should use their skill, knowledge and judgement when interpreting BPE scores.
+
+
+
+Detailed periodontal charting
+
+When a 6-point pocket chart is indicated it is only necessary to record sites of 4mm and above (although 6 sites per tooth should be measured). Bleeding on probing should always be recorded in conjunction with a 6-point pocket chart.
+
+The BPE scores should be considered together with other factors when making decisions about whether to refer see page 41.
+
+
+
+Copyright © 2016 British Society of Periodontology 13
+
+
+
+
+
+PERIODONTAL SCREENING
+
+
+
+
+Code Guidance Special investigations Periodontal reassessment
+
+
+
+0 No need for periodontal Repeat BPE at next check up None indicated treatment appointment
+
+
+
+1 Oral hygiene instruction Repeat BPE at next check up Plaque and bleeding charts (OHI) appointment
+
+As for code 1, plus removal
+
+
+
+2 of plaque retentive factors, Repeat BPE at next check up including all supra and Plaque and bleeding charts appointment
+
+subgingival calculus
+
+
+
+3 As for code 2 and OHI, root • Plaque and bleeding charts Periodontal charting of sextants surface debridement (RSD) • Radiographs should be considered (in order scoring 3, after initial therapy if required to establish if there is attachment loss)
+
+OHI, RSD. Access the
+
+4 need for more complex • Plaque and bleeding charts Full periodontal charting before and
+
+treatment; referral to a after treatment • Radiographs should be taken specialist may be indicated
+
+Treat according to BPE code
+
+
+
+* (0-4). Assess the need for • Plaque and bleeding charts Full periodontal charting before and more complex treatment; after treatment • Radiographs should be considered referral to a specialist may
+
+be indicated
+
+
+
+Table 4 Guidance on interpretation of BPE scores.
+
+In patients under 18 years old, cases that warrant referral for specialist care are shown below.
+
+
+
+Indications for referring a child to a specialist include:
+
+Diagnosis of aggressive periodontitis
+
+Incipient chronic periodontitis not responding to treatment
+
+Systemic medical condition associated with periodontal destruction
+
+Medical history that significantly affects periodontal treatment or requiring multi-disciplinary care
+
+Genetic conditions predisposing to periodontal destruction
+
+Root morphology adversely affecting prognosis
+
+Non-plaque induced conditions requiring complex or specialist care
+
+Cases requiring diagnosis/management or rare/complex clinical pathology
+
+Drug-induced gingival overgrowth
+
+Cases requiring evaluation for periodontal surgery
+
+
+
+Key references
+
+Ainamo J, Nordblad A and Kallio P. (1984) Use of the CPITN in populations under 20 years of age. International Dental Journal 34: 285-291.
+
+British Society of Periodontology. Basic Periodontal Examination (BPE), revised March 2016 http://www.bsperio.org.uk/publications/downloads/39_150345_bpe-2016-po-v5-final.pdf
+
+Clerehugh V. (2008) Periodontal diseases in children and adolescents. British Dental Journal 204:469-471. Guidelines for Periodontal Screening and Management of Children and Adolescents Under 18 Years of Age - Executive Summary
+
+http://www.bsperio.org.uk/publications/downloads/53_085556_executive-summary-bsp_bspd-perio-guidelines-for-the-under-18s.pdf
+
+
+
+14 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+RADIOGRAPHS
+
+
+Appropriate radiographs form an essential part of a periodontal assessment and the patient’s clinical record, but remember like many indicators of disease, they only provide retrospective evidence of the disease process.
+
+
+
+When to take radiographs?
+
+
+
+Radiographs can be used to aid diagnosis and help determine the likely prognosis of specific teeth when taken together with a comprehensive clinical examination and patient history. By permitting assessment of the morphology of the affected teeth and the pattern and degree of alveolar bone loss they can also be invaluable for treatment planning and in monitoring the long-term stability of periodontal health. By providing information on other pathologies, such as periapical pathology, pulpal/furcation involvements and caries, radiographs also provide a guide to the overall prognosis of teeth.
+
+This guide does not aim to dictate the choice of radiographs as each patient will have their own unique clinical presentation but care should be taken to ensure that each exposure is clinically justified, of suitable quality to be useful and provide clear benefit to the patient.
+
+
+
+Initial presentation
+
+The number and type of radiographs required will depend on your findings during the clinical examination. You may choose to take radiographs as part of your special investigations on completion of the BPE. Although if a detailed periodontal chart is required you may decide to wait and use this additional information to help decide which views would be most appropriate. As a general guide, radiographs for periodontal assessment will be needed with BPE codes 3, 4 and * to assess the extent of bone loss.
+
+
+
+Supportive periodontal therapy
+
+Radiographs can also be useful to track changes in bone levels over time, for example in areas of furcation involvement or in patients where there is uncertainty as to the aggressiveness of the disease process. Clinical need should determine the frequency of repeat radiographs. Bone loss is slow to become apparent on sequential radiographs. However, this needs to be balanced with the need for adequate monitoring of sites that may not be stable or if you are considering more complex periodontal or other types of treatment. Currently there is no clear evidence to support any recommendations regarding frequency of radiographs taken for periodontal reasons.
+
+
+
+Which radiographs?
+
+
+
+Horizontal bitewings
+
+Bitewing radiographs are likely to be taken routinely for assessing caries. They may also give early warning of localised bone loss, the presence of poorly contoured restorations and subgingival calculus. The normal positioning of the film should automatically ensure a non-distorted view of bone levels in relation to the cemento-enamel junction (CEJ).
+
+
+
+
+
+Figure 7 Radiographic features of the periodontium on a horizontal bitewing film. In health the alveolar crest is roughly horizontal,
+
+about 2-3mm apical to and parallel to a line joining adjacent CEJs.
+
+
+
+Vertical bitewings
+
+Correctly positioned, this type of radiograph provides a non-distorted view of bone levels in relation to CEJs, in opposing arches. Vertical bitewings can provide better visualisation of the bone level than horizontal bitewings. However, they can be difficult to position accurately in patients especially those with more shallow palates. Selected periapicals may be more appropriate where assessment of apical status could be important.
+
+Copyright © 2016 British Society of Periodontology 15
+
+
+
+
+
+RADIOGRAPHS
+
+
+Periapicals
+
+The gold standard radiograph for periodontal assessment is a periapical radiograph taken using a long-cone paralleling technique. Correctly positioning this radiograph will give an accurate, non-distorted two dimensional picture of bone levels in relation to both CEJs and total root length. This technique involves the use of a beam aiming device which helps achieve better and more consistent results.
+
+Visualising root anatomy in its entirety can be very useful in assessing bone levels in relation to total root length in:
+
+• Assessing prognosis
+
+• Helping to assess furcation involvements
+
+• Identifying possible endodontic complications.
+
+
+
+
+
+Figure 8 Periapical radiograph showing both horizontal and angular bony defects.
+
+
+
+
+
+A B
+
+
+
+Figure 9 A: Extensive furcation involvement of the distal root of the UL6. B: Perio-endo lesion (LL6).
+
+
+
+Dental panoramic tomographs (DPTs)
+
+There is no case for routine screening with panoramic films. The yield of information is low for screening given the radiation dosage. In complex cases where there are a variety of dental concerns a DPT could be considered.
+
+
+
+
+
+Figure 10 A DPT can be useful for bone level assessment in complex cases where there are a variety of dental concerns.
+
+
+
+16 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+RADIOGRAPHS
+
+
+Periapical vs panoramic radiographs
+
+The choice of panoramic vs. intra-oral periapical radiographs may depend on a range of factors including preference and availability. In general, full mouth periapical radiographs using a paralleling technique, give more accurate and detailed assessment of periodontal bony defects. In contrast, a good quality panoramic radiograph is quicker, less uncomfortable, and may provide useful assessment of bone levels and other pathologies. Panoramic radiographs might need to be supplemented with periapical views especially in the anterior sextants due to the likelihood of image distortion in these regions. With both techniques appropriate collimation must be considered in order to reduce the patient received radiation dose to a minimum. Ideally this involves using some form of rectangular collimation for periapical radiographs and field size collimation for DPTs, designed specifically to reduce the dosage to the orbits and parotid glands.
+
+
+
+Radiographic periodontal assessment
+
+
+
+Medico-legally it is important that you report your radiographic findings in the clinical notes and this should include an assessment of the image quality.
+
+Periodontally, radiographs should be assessed for:
+
+• Degree of bone loss: if the apex is visible then bone loss should be measured and reported as a
+
+percentage
+
+• Pattern or type of bone loss: e.g. horizontal bone loss or angular (vertical) defects
+
+• Presence of furcation defects
+
+• Presence of subgingival calculus
+
+• Other features: e.g. perio-endo lesions; widened periodontal ligament spaces; abnormal root
+
+length or root morphology; overhanging restorations.
+
+
+
+
+
+Figure 11 Calculating percentage bone loss.
+
+Radiographs can also be helpful for assessing expectations of treatment. For example:
+
+• If there are angular defects more than 3mm deep you should not expect dramatic pocket
+
+reductions with simple non-surgical therapy
+
+• Multiple angular defects and furcation involvement suggest a complex treatment need and
+
+consideration for referral.
+
+
+
+Key references
+
+For detailed guidance on which radiographs to take see: Faculty of General Dental Practice (UK). Selection Criteria for Dental Radiography, 3rd ed, London: Faculty of General Dental Practice (UK) 2015.
+
+Available via open access: http://www.fgdp.org.uk/OSI/open-standards-initiative.ashx
+
+
+
+Copyright © 2016 British Society of Periodontology 17
+
+
+
+
+
+CLASSIFICATION OF PERIODONTAL DISEASE
+
+
+The current classification system was devised at the International Workshop for Classification of Periodontal Conditions in 1999* and was based upon a review of the literature. Having a classification system provides a framework to study periodontal disease and help guide treatment.
+
+The current classification is based on the following eight categories:
+
+
+
+I Gingival disease
+
+
+
+II Chronic periodontitis
+
+III Aggressive periodontitis
+
+IV Periodontitis as a manifestation of systemic disease
+
+V Necrotising periodontal disease
+
+VI Abscesses of the periodontium
+
+VII Periodontitis associated with endodontic lesions
+
+
+
+VIII Developmental or acquired deformities and conditions
+
+
+
+Table 5 The main disease categories in the current periodontal classification (1999). * A new classification workshop is planned for late 2017 and might lead to changes to this current classification.
+
+
+
+Some of the more common conditions will be described.
+
+
+
+Gingivitis
+
+Gingivitis is a reversible plaque-induced inflammation of the gingivae. It is recognised by erythema, oedema and bleeding on brushing or probing. Gingivitis is common with gingival bleeding affecting 55% of adults. Persistent gingivitis can lead to irreversible periodontitis.
+
+
+
+
+
+Figure 12 Plaque induced gingivitis. Figure 13 Gingivitis aggravated by mouth breathing.
+
+
+
+
+
+The hormonal changes associated with pregnancy
+
+
+
+produce an increase in inflammatory signs, resulting
+
+in increased bleeding that may then bring it to the
+
+attention of the patient. Sometimes an individual
+
+papilla may swell sufficiently to become a pregnancy
+
+epulis. The severity of pregnancy gingivitis reduces
+
+after parturition and reverts to the previous low level
+
+of inflammation.
+
+
+
+Figure 14 Pregnancy gingivitis with pregnancy epulis buccal to UR2/3 area.
+
+
+
+18 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+CLASSIFICATION OF PERIODONTAL DISEASE
+
+
+Gingival overgrowth
+
+Gingival overgrowth can be induced by irritation, plaque, calculus, repeated friction or trauma, and by an increasing number of medications. Examples of such medications include; calcium channel blockers used in the treatment of hypertension (e.g. amlodipine, nifedipine), ciclosporin (used as an anti-rejection agent for organ transplant patients) and phenytoin (used to control epilepsy). Mouth breathing can also lead to gingivitis and gingival overgrowth as a result of drying and loss of salivary protection.
+
+
+
+
+
+Figure 15 Gingival overgrowth pre and post-treatment.
+
+
+
+Chronic periodontitis
+
+Gingivitis does not always progress beyond the gingival margins. However, almost half the adult population are susceptible to an irreversible destructive process called chronic periodontitis and approximately 10-15% of people will experience a severe form. Susceptibility is thought to be partly genetically determined, which explains why periodontitis can affect members of the same family, although shared lifestyle, health behaviours and socio-economic risk factors are also likely to be common. In chronic periodontitis plaque left near the gingival margins causes gingivitis. This becomes periodontitis as it destroys the junctional epithelium, causes bone destruction and the formation of periodontal pockets. These pockets harbour plaque that is inaccessible to a toothbrush and interdental cleaning aids. This process usually progresses slowly and is related to the amount of dental plaque present.
+
+
+
+
+
+Figure 16 Chronic periodontitis pre and post non-surgical therapy.
+
+
+
+Aggressive periodontitis
+
+Approximately 1 in every 1000 patients suffer more rapid attachment loss. This is known as aggressive periodontitis. It may be localised to some of the teeth, or generalised, involving all the teeth. Aggressive periodontitis is diagnosed from its rapid rate of progress or as a result of severe disease in individuals usually under 35 years of age who are otherwise medically healthy (with absence of other risk factors such as tobacco use) and with evidence of other close family members affected. It is often characterised by vertical bone defects on radiographs (although not necessarily in all cases) and there may be little plaque or calculus present.
+
+
+
+
+
+Figure 17 Aggressive periodontitis.
+
+
+
+Copyright © 2016 British Society of Periodontology 19
+
+
+
+
+
+CLASSIFICATION OF PERIODONTAL DISEASE
+
+
+Periodontal abscess
+
+An acute infection in a periodontal pocket is a common occurrence. It is important to distinguish between a periapical and periodontal abscess and this may be difficult if both conditions are present at the same time. Abscesses can be acute or chronic and asymptomatic if freely draining. If there is no endodontic component, the tooth will be vital.
+
+
+
+
+
+Figure 18 Periodontal abscess requiring incision and drainage.
+
+
+
+
+
+Periodontitis associated with endodontic lesions
+
+
+
+These lesions may be independent or coalescing, and may originate either from the gingiva or the apex.
+
+
+
+
+
+Figure 19 Buccal sinus related to the UR2 with extensive periapical radiolucency present on PA.
+
+
+
+
+
+Necrotising ulcerative gingivitis (NUG) and periodontitis (NUP)
+
+Necrotising ulcerative gingivitis is a painful ulceration of the interdental papillae with grey necrotic tissue visible on the surface of the ulcers. This may cause loss of papillae. There is a characteristic halitosis and submandibular lymph nodes may be tender and palpable. NUG is common among smokers and patients with poor oral hygiene, stress might also be a predisposing cause. NUP is diagnosed in the presence of attachment loss.
+
+
+
+
+
+Figure 20 NUG in a patient who smokes 20 cigarettes per day.
+
+
+
+Key references
+
+Armitage GC. (1999), Development of a Classification system for periodontal diseases and conditions. Ann Periodontology 4 (1) 1-6. Lang N et al (1999) Consensus Report: Aggressive Periodontitis. Annals of Periodontology 4 (1) 53.
+
+Moffitt, Bencivenni, Cohen (2013), Drug-induced gingival enlargement: an overview. Compend Contin Educ Dent 34 (5):330-6.
+
+
+
+20 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+DIAGNOSIS
+
+
+
+
+History taking
+
+Arriving at a periodontal diagnosis is a process of accumulating information from the moment you first meet the patient. Listening to the patient is key. Most of the time they will tell you what’s wrong with them. Start by asking open ended questions, ones that begin with what, when, where, why and how.
+
+Then just to be sure, ask more specific questions in order to understand as much as you can about their condition.
+
+
+
+1. Do your gums bleed on brushing or overnight?
+
+
+
+2. Are any of your teeth loose?
+
+
+
+3. Can you chew everything you want to?
+
+
+
+4. Do you have a bad taste or smell from your mouth?
+
+
+
+5. Do you suffer from pain, swelling, gumboils or blisters?
+
+
+
+6. Do you smoke?
+
+
+
+7. Is there anything else you would like to tell me?
+
+
+
+Use your listening skills, such as observing non-verbal cues, together with attention signals and verbal indications of understanding, such as affirmatory noises, nodding, back-tracking, clarifying, and restating to gain rapport with the patient.
+
+
+
+Risk assessment
+
+There are a number of risk factors for periodontal disease (which have been reviewed on page 6) and the information collected during the history taking phase starts your periodontal risk assessment of the patient. On completing the periodontal screening, you should have a summary of the likely factors playing a role in their disease and together with their BPE score you can determine what further investigations are necessary.
+
+
+
+Visual inspection of gingival soft tissues
+
+Prior to probing, you should assess and record the visual status of the gingival tissues for inflammation. Redness or change in contour of the gingival margins or interdental papillae indicates gingivitis and a need for oral hygiene modification.
+
+
+
+Interpretation of BPE scores
+
+Code Special investigations Periodontal reassessment
+
+0 None indicated Repeat BPE at next routine examination
+
+1 Plaque and bleeding charts, risk factor assessment Repeat BPE at next routine examination
+
+2 Plaque and bleeding charts, risk factor assessment Repeat BPE at next routine examination
+
+Plaque and bleeding charts, risk factor assessment
+
+3 • Radiographs should be considered (in order to Detailed periodontal charting of sextants scoring 3,
+
+after treatment
+
+establish if there is attachment loss)
+
+Plaque and bleeding charts, risk factor assessment
+
+4 Full detailed periodontal charting before and after treatment
+
+• Radiographs should be taken
+
+Plaque and bleeding charts, risk factor assessment
+
+* Treat according to BPE code (0-4)
+
+• Radiographs should be considered
+
+
+
+Detailed periodontal charting
+
+Codes of 3, 4 and * require further investigation and detailed periodontal charting should be performed. The following can be recorded; probing depth, bleeding on probing (recession, mobility and furcation involvement). The minimum requirement is to record all sites ≥ 4mm and bleeding on probing. Periodontal charting forms an important part of your record keeping and should be accurate and kept up to date.
+
+A standard periodontal probe is necessary for the detailed data collection you need to enable you to monitor the progress of specific sites. Popular probes include the 10mm Williams probe and the 15mm UNC probe.
+
+Copyright © 2016 British Society of Periodontology 21
+
+
+
+
+
+DIAGNOSIS
+
+
+
+
+
+The probing depth at any site dictates the patient’s ability to maintain soft tissue health by optimal plaque control. Probing depths of 4mm or more are considered to be too deep to be controlled by tooth brushing and interdental cleaning alone. These sites should be considered for active periodontal therapy.
+
+
+
+Figure 21 BPE probe, William’s probe (1, 2, 3, 5,
+
+7, 8, 9 and 10mm markings) and UNC 15 probe
+
+(1, 2, 3, 4-5, 6, 7, 8, 9-10, 11, 12, 13, 14-15).
+
+
+
+The periodontal probe answers two questions:
+
+1. Where is the base of the gingival crevice?
+
+i.e. how far below the gingival margin and how far from the CEJ? The latter is a measure of periodontal attachment loss, but remember that the recession is added to the probing depth to give the total clinical attachment loss (CAL). CAL is a better parameter for long-term monitoring but it is often difficult to measure due to the difficulties associated with identifying the position of the CEJ.
+
+
+
+Enamel
+
+CEJ
+
+GM Recession
+
+Pocket Loss of attachment
+
+JE
+
+Key
+
+CEJ Cemento-enamel junction GM Gingival margin JE Junctional epithelium
+
+A
+
+
+
+
+
+Figure 22 Pocket depth is measured from the base of the periodontal pocket to the CEJ (reproduced with permission from Elsevier*) B: A healthy gingival crevice (measures 0-3mm) C: True pockets have increased probing depths due to bone loss. D: False pockets are the result of the gingival
+
+margin being above the level of the CEJ. E: Total clinical attachment loss takes account of pocket depth and recession.
+
+
+
+2. Does the tissue bleed on probing (BOP)?
+
+This is a measure of inflammation, not necessarily active tissue destruction. No bleeding on probing means health (except in smokers, where it is hidden). Bleeding from the gingival margin is an indicator of gingivitis and will respond quickly to improvements in daily plaque removal. Bleeding from the base of the pocket represents periodontitis and is more reflective of the response to periodontal treatment such as root debridement. Bleeding should be recorded on the periodontal chart pre and post-treatment to guide your therapy to the affected sites and monitor treatment. An absence of bleeding on probing (BOP) from the bottom of the pocket predicts periodontal stability and is a useful indicator at the reassessment stage.
+
+
+
+22 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+DIAGNOSIS
+
+
+
+
+
+Figure 23 Examples of a digital and conventional periodontal chart, both with BOP indicated.
+
+
+
+
+
+Elements of a full diagnosis
+
+The first question we need to ask is whether there is any attachment loss. If there is no attachment loss the patient is given a diagnosis of health or gingivitis (if there is inflammation present). If there is attachment loss and no other systemic condition, then the diagnosis will either be chronic or aggressive periodontitis. The patient’s level of risk is important here. If the level of plaque is consistent with the level of attachment loss the most likely diagnosis is chronic periodontitis. However, if the level of plaque is inconsistent with the amount of attachment loss then a diagnosis of aggressive periodontitis should be considered.
+
+Once the type of periodontal disease has been established, the next consideration is the pattern of the disease. Using the periodontal chart, if more than 30% of sites are involved then a diagnosis of generalised disease is given. If less than 30% of sites are involved, then a diagnosis of localised disease is given.
+
+The final element of the diagnosis is an indication of the extent of the disease. This is deemed mild (1-2mm), moderate (3-4mm) or severe (≥ 5mm) depending on the amount of attachment loss present.
+
+Taking all this information together will permit you to provide a comprehensive diagnosis for your patient. Only once the diagnosis is formulated can the prognosis and treatment plan be considered.
+
+
+
+
+
+Figure 24 Diagnosis: Moderate generalised chronic periodontitis (smoking associated).
+
+
+
+Key references
+
+Baker P & Needleman IG. (2010) Risk management in clinical practice. Part 10. Periodontology. British Dental Journal 209: 557–565.
+
+*Eaton KA & Ower P. (2015) Practical Periodontics. UK Elsevier.
+
+
+
+Copyright © 2016 British Society of Periodontology 23
+
+
+
+
+
+PATIENT BEHAVIOUR CHANGE
+
+
+Both the prevention of periodontal diseases and the maintenance of the periodontal tissues following treatment rely on the ability and willingness of the patient to perform and maintain effective plaque removal. This may require a change in the patient’s behaviour in terms of brushing, interdental cleaning and other oral hygiene techniques as well as lifestyle behaviours such as tobacco use and diet.
+
+Prevention and treatment of periodontal disease is dependent on excellent co-operation from the patient. It is our role to ensure that patients become actively involved in the therapy rather than just being passive receivers of treatment. As periodontal treatment can involve a number of appointments over a period of months or years it provides a unique opportunity to provide advice and monitor progress.
+
+Behavioural science research has demonstrated that lifestyle behaviour change occurs from within the patient, not externally from the practitioner. Motivation is not something that can be given or taught. The key is patient activation and encouragement, using communication techniques that stimulate or engage the patient to appreciate the required information or skills needed to reach the desired goal.
+
+
+
+You might like to incorporate these techniques into your approach:
+
+1 Use of open questions to place the patient in control of the interaction
+
+Closed Question: How often have you managed to use the interdental brushes?
+
+Open Question: Tell me about how you managed with the interdental brushes?
+
+An open question approach is complimentary and positive, it is non-judgmental as you have asked for any
+
+information about how they are doing, giving the patient the freedom to share their perspective. Usually, they will
+
+give the information you are looking for.
+
+
+
+2 Listening, then delivering information or instruction in small doses according to patient
+
+requests or interest
+
+Giving a patient all the information at once can be overwhelming. Ensure your message and approach are tailored
+
+to your individual patient. Consider introducing small modifications to their oral hygiene routine over the course of
+
+their visits, adding in extra tips as treatment progresses. So, for example, with a patient who starts treatment with
+
+poor oral hygiene you may just focus on the brushing technique during the first appointment. Once an effective
+
+brushing technique is achieved then additional aids can be demonstrated in later visits. By using plaque charts each
+
+visit both you and the patient can see what added advantage each change is having.
+
+
+
+3 The use of reflective listening to assist a patient in realising any discrepancy between
+
+their current behaviour and that necessary to reach a goal they agree on
+
+Some patients may mention that they are too tired to complete the entire recommended oral hygiene routine
+
+at the end of each day. Using reflective listening recognises their situation and presents us with an opportunity
+
+to work with our patients to explore potential solutions with them. You might like to suggest that they consider
+
+alternative times in the day when they may have more time to focus upon themselves, or perhaps splitting the oral
+
+hygiene routine across the day.
+
+
+
+4 Use a guiding approach rather than directing
+
+A patient has admitted to irregular interdental cleaning and this has been confirmed by your clinical examination.
+
+
+
+A directing statement:
+
+“In order to decrease the bleeding and stop the gum disease, it will be necessary to use dental floss or interdental
+
+brushes regularly”.
+
+
+
+A guiding statement:
+
+“With the use of dental floss or interdental brushes you would have the possibility of significantly decreasing the
+
+inflammation in your gums. Are you familiar with both of these devices? …What has been your experience in the
+
+past with these aids? …Did you find one more convenient or easier than the other?”
+
+There are many words or statements that can be used. The importance is that a directing approach is one sided
+
+with no allowance for choice from the patient while a guiding approach allows the patient the opportunity to
+
+express a preference.
+
+
+
+5 Maintain an adult to adult conversation, avoiding adult to child interaction styles
+
+Our role in these interactions is that of a coach not lecturer.
+
+24 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+PATIENT BEHAVIOUR CHANGE
+
+
+
+
+6 Position patients upright during discussions at or just above your eye level
+
+
+
+A few key points to remember about behaviour change are:
+
+• Learning a skill can take minutes or hours, however, changing a habit takes weeks
+
+or months
+
+• Instruction is meaningless and easily forgotten without understanding the context in
+
+which it fits
+
+• A few appropriately selected and delivered words are more effective than a full
+
+lecture delivered with the hope the patient will grasp the relevant details
+
+• Repeating instructions multiple times will not increase motivation, in fact, it may
+
+offend and decrease motivation
+
+• Offering assistance, and seeking permission to give knowledge or teach skills
+
+facilitates patient ownership of the task. Remember the natural response to force is resistance
+
+• Motivation is not static but can vary as an individual is affected by other life related
+
+factors and stresses
+
+
+
+Oral hygiene tools
+
+
+
+Oral Hygiene TIPPS is a strategy developed by The Scottish Dental Clinical Effectiveness Programme and is based on behavioural theory. The aim is to make patients feel more confident in their ability to perform effective plaque removal and help them plan how and when they look after their teeth and gums.
+
+
+
+
+
+The goal of the intervention is to:
+
+TALK – with the patient about the causes of periodontal disease and discuss any barriers to effective plaque removal
+
+INSTRUCT – the patient on the best ways to perform effective plaque removal
+
+Ask the patient to PRACTISE cleaning his/her teeth and to use the interdental cleaning aids whilst in the dental surgery. Check
+
+their confidence in being able to do this as confidence is one of the
+
+strongest predictors of success
+
+Agree a PLAN which specifies how the patient will incorporate oral hygiene into daily life but with clear goals set by the patient
+
+Provide SUPPORT to the patient by following up at subsequent visits
+
+
+
+* Further guidance and a video of this technique is available on the SDCEP website.
+
+Above all, remember that delivering a plaque control message, or any message directed at lifestyle behaviour, is not a procedure but an ongoing conversation between you and your patient throughout the time they are with you in your practice and under your care.
+
+
+
+Key references
+
+Delivering Better Oral Health: an evidence-based toolkit for prevention. 3rd edition. Public Health England (2014). https://www.gov. uk/government/uploads/system/uploads/attachment_data/file/367563/DBOHv32014OCTMainDocument_3.pdf
+
+Drisko CL. (2013), Periodontal self-care: evidence-based support. Periodontology 2000. 62: 243-255.
+
+SDCEP (2014) Prevention and Treatment of Periodontal Disease in Primary Care: Dental Clinical Guidance http://www.sdcep.org.uk. The process used by SDCEP to produce this guidance has been accredited by NICE.
+
+
+
+Copyright © 2016 British Society of Periodontology 25
+
+
+
+
+
+NON-SURGICAL THERAPY
+
+
+Non-surgical therapy is usually the initial approach for managing patients with periodontal disease. Following periodontal assessment, diagnosis and treatment planning, this phase includes behaviour change including oral hygiene instruction and advice, control of other risk factors such as smoking and root surface debridement. The final phase of the non-surgical therapy is reassessment (where decisions about further treatment, maintenance or surgical therapy are considered).
+
+
+
+
+
+Figure 25 Flowchart outlining main stages of periodontal assessment and treatment.
+
+
+
+Modern concepts of non-surgical therapy suggest:
+
+Effective patient performed oral hygiene is critical to success
+
+• The effects of oral hygiene advice are short-term and regular advice and encouragement is needed
+
+to achieve long-term change
+
+• Attached plaque biofilms and non-attached microflora in the gingival sulcus and periodontal
+
+pockets should be regularly removed
+
+• Plaque retentive factors such as calculus and restoration overhangs should be eliminated.
+
+Through this, we are able to:
+
+• Control the bacterial challenge characteristic of gingivitis or periodontitis
+
+• Address local risk factors
+
+• Minimise the effect of systemic risk factors.
+
+This is achieved by:
+
+• An alteration or elimination of putative periodontal pathogens
+
+• Resolution of inflammation
+
+• The creation of periodontal health.
+
+This will ultimately decrease the likelihood of disease progression.
+
+Non-surgical therapy is highly effective for most patients with early to moderate disease. Many studies have shown that disease progression is arrested so that probing depths may decrease through resolution of inflammation, often accompanied by recession. This tends to take place over the first six-month period following treatment. Obviously, these results are only achieved along with patient co-operation, particularly with good home care and where applicable, control of other local and systemic risk factors.
+
+
+
+26 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+NON-SURGICAL THERAPY
+
+
+Non-surgical root surface debridement may appear easy, but is a difficult skill to master due to the complexities of access to root anatomy, grooves and furcations. Some studies have found few differences in effectiveness between hand instruments or powered scalers (ultrasonic or sonic) when provided by experienced clinicians.
+
+
+
+The key elements to achieving good results are:
+
+Good scaling skills
+
+Next time you take out a periodontally involved tooth with plenty of subgingival calculus on the root surface, try to scale it clean and smooth and see how well you do, both in terms of how much you remove and how long it takes. It’s far harder to do this in the mouth, blind! You could make up some models like these for you and your team to practice debridement.
+
+
+
+
+
+Figure 26 Root surface debridement technqiues can be practised on extracted teeth.
+
+
+
+
+
+Good, well maintained instruments
+
+Universal and Gracey curettes are excellent but to use them you will need to be skilled in sharpening them and have a knowledge of which instrument works best in which area.
+
+Most instrument manufacturers can help you with this. A wide variety of sonic and ultrasonic tips are available for access to deep pockets and furcations. You will need to keep the device tuned for optimum efficiency and monitor tip wear.
+
+
+
+
+
+Figure 27 Manufacturers provide pictorial guides to monitor tip wear which can be used to ensure tips are working optimally (image courtesy of Dentsply).
+
+
+
+
+
+Time
+
+
+
+It can take several minutes of instrumentation to effectively debride the root surface within the deep pockets around a single tooth, whether anterior or posterior. Furcation involvements, root grooves and infrabony pockets will make debridement more difficult. Whether using ultrasonic or hand instruments, carrying out all the necessary debridement in one or two long appointments can be as effective as spreading the treatment over 4 appointments, although operator and patient fatigue need to be considered.
+
+
+
+Copyright © 2016 British Society of Periodontology 27
+
+
+
+
+
+NON-SURGICAL THERAPY
+
+
+
+
+Side effects and management
+
+
+
+As part of informed consent, patients should be made aware of any potential side effects of periodontal treatment. These might include; increased gingival recession, longer-looking teeth (especially if there are deep pockets anteriorly), increasing gaps between the teeth (black triangles), increased sensitivity, soreness and food packing. One must also be aware that excessive and aggressive debridement of the root surface can lead to prolonged sensitivity. The expected cost of the treatment should also be included in the overall treatment plan.
+
+
+
+Hypersensitivity
+
+Some patients may experience increased sensitivity following root surface instrumentation. There are a large number of over-the-counter products available for patients that can reduce dentine sensitivity, such as toothpastes containing potassium salts, oxalates or arginine.
+
+
+
+Chemotherapeutics
+
+Antiplaque agents like chlorhexidine are useful for managing acute periods when cleaning is difficult but are not needed as a routine. Remember that 0.2% chlorhexidine digluconate mouthrinse itself is only licensed for 30 days of use. Also, studies have shown that subgingival irrigation with chlorhexidine does not appear to have any clinical benefit.
+
+Effective subgingival debridement is the mainstay of active periodontal therapy and can produce reliably good results in patients who practice good plaque control.
+
+
+
+Key references
+
+Cobb, C. M. (2002) Clinical Significance of non-surgical periodontal therapy: an evidence-based perspective of scaling and root planing. J Clin Periodontol. 29 Suppl 2: 6-16.
+
+Heitz-Mayfield LJA & Lang NP. (2013), Surgical and nonsurgical periodontal therapy. Learned and unlearned concepts. Periodontology 2000. 62: 218–231.
+
+Bonito AJ, Lux L & Lohr KN. (2005) Impact of local adjuncts to scaling and root planning in periodontal disease therapy: A systematic review. J Periodontology 76: 1227-1236.
+
+
+
+28 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+THE ROLE OF THE HYGIENIST
+
+
+A team approach to periodontal treatment can be very successful. To achieve the best clinical outcomes, good lines of communication need to be established between the dentist and the hygienist otherwise the objectives of any therapy may not be realised. It is essential that as a team you are providing a consistent message to patients and communicating with each other to ensure the patient gains the best of your combined efforts.
+
+The patient should also understand why he/she has been referred to the hygienist. The benefits that might reasonably be expected from the treatment e.g. less bleeding on brushing, reduction in halitosis, reduction in tooth mobility and an appreciation of why good oral hygiene is important to maintain periodontal health.
+
+In May 2013, Direct Access was introduced which gives patients the option of seeing a dental hygienist or therapist without having to see their general dental practitioner first. This permits diagnosis and provision of treatment within their scope of practice without the need for a treatment prescription from a dentist. Hygienists and therapists are free to decide for themselves whether or not they wish to provide their services under Direct Access. They can see and treat any patient within their scope as long as they are trained and competent in the procedures they carry out. However, the current NHS dental contract requires that each course of treatment must be opened by a dentist with an examination. It is likely that there will be changes to this and it is advised that you refer to the local NHS contract regulations where you work.
+
+Clearly then, it will be important for each practice to decide and agree how the team will work whether by detailed prescription from the dentist or by referral to the hygienist to carry-out the assessment, diagnosis, treatment plan and periodontal care. When working as a team an important part of clear communication is good record keeping. An entry in the notes saying ‘scale and polish’ does not tell the dentist anything about the level of oral hygiene, or the health of the gingival/periodontal tissues. Likewise, simply asking the hygienist to “please carry out RSD” is not enough for them to work with any focus. A periodontal prescription is a simple pro-forma which can be used by dentists and hygienists to ensure a clear structured plan and outlines how the treatment objectives will be achieved.
+
+
+
+Example periodontal team care pro-forma
+
+
+
+Diagnosis Localised severe chronic periodontitis
+
+General prognosis Overall fair (with improved oral hygiene and smoking cessation). Upper molars questionable due to
+
+furcation involvement
+
+Risk factors Smoking 15 / day, 10 packs / year
+
+Oral hygiene advice Single tuft interspace tb, subgingivally to all 5mm + pd. Electric toothbrush. Appropriate sized
+
+interproximal tb
+
+Preventative advice Twice daily use of desensitising toothpastes with occluding agents to reduce dentine hypersensitivity and
+
+reduction of soft acidic drinks
+
+Smoking cessation Yes (pt is keen to quit). Smoking cessation advice & referral encouragement
+
+Debridement Full mouth subgingival debride all pd 5mm or greater with LA. Ultrasonics for molar furcations. Root
+
+grooves mesial UR4, UL4. 4 appointments not more than 3 weeks apart
+
+Reassessment 6 weeks (oral hygiene), 12 weeks post RSD (to repeat periodontal charting)
+
+
+
+If both you and your hygienist are measuring pocket depths then be aware that any change up to 2mm could be due to measurement error. However, the consequence of a 2mm loss of attachment could affect the management of a patient if a furcation is involved, or if attachment loss is already advanced. So it is preferable for the same clinician to repeat the charting at the reassessment appointment.
+
+
+
+Key references
+
+GDC Direct Access Statement: www.gdc-uk.org/Dentalprofessionals/Standards/Pages/Direct-Access.aspx
+
+The British Society of Dental Hygiene and Therapy: www.bsdht.org.uk
+
+
+
+Copyright © 2016 British Society of Periodontology 29
+
+
+
+
+
+ANTIMICROBIALS
+
+
+Antimicrobials have very little place in routine periodontal therapy. It is important to be aware that antibiotic resistance has been increasing in the population over the last few decades. As prescribing clinicians it is essential that we limit the use of antibiotics to situations where a clear evidence base exists, so that patients with specific conditions will benefit. Apart from the risk of microbial resistance, there may be a small but serious risk of anaphylaxis.
+
+Wherever possible the old principles of ‘drainage of infection’ and ‘removal of cause’ are still pertinent, and if this can be achieved then the use of antibiotics can be avoided in the management of patients that are systemically well.
+
+In terms of periodontal disease there are relatively few indications for using systemic or locally delivery antibiotics. However, there are certain limited circumstances where their use is appropriate and will assist in periodontal disease management.
+
+
+
+Systemic antibiotics
+
+
+
+Chronic periodontitis: There is no indication for the use of systemic antibiotics when managing chronic periodontitis.
+
+Aggressive periodontitis: Where a diagnosis of aggressive periodontitis has been made systemic antibiotics may be indicated. However, the research remains unclear whether the benefits outweigh risks. One approach that can be considered is to provide initial non-surgical treatment without antibiotics and only to consider using them if the results are poor despite excellent oral hygiene and effective root surface debridement. However, we would recommend that you refer a patient diagnosed with suspected aggressive periodontitis for specialist care if available.
+
+Antibiotics should be prescribed at the end of a thorough course of conventional subgingival debridement carried out in as short a time-frame as possible, usually 7-10 days. A number of antibiotic regimes have been proposed for treatment of aggressive periodontitis however the combination of choice according to current research is amoxicillin 250 mg t.d.s with metronidazole 200 mg t.d.s for 7 days starting on the day of the final debridement. In the UK, changes in the recommended dosages of amoxicillin means that the dose of amoxicillin is 500 mg t.d.s for 7 days. For patients allergic to penicillin, doxycycline 100 mg OD for 21 days (with a 200 mg “loading dose” on the first day) is recommended. It should also be appreciated that a longer course of antibiotics is likely to be met with greater non-compliance than a shorter course.
+
+Systemic antibiotics should only ever be used as an adjunct to professionally-administered mechanical therapy, and not in isolation.
+
+Necrotising periodontal diseases: These conditions are relatively rare, but when diagnosed part of the management regime should include the use of metronidazole 200 mg t.d.s for 3 days. Metronidazole is used for its spectrum of action against the fuso-spirochaetal anaerobes associated with this disease. In addition, addressing risk factors associated with the disease (smoking, stress, poor oral hygiene and poor diet) is key to treatment success.
+
+Periodontal abscess: A single periodontal abscess should be managed by drainage of the abscess, either by instrumentation during subgingival debridement or incision, and not by use of antibiotics. However, if there is systemic involvement (sign of fever/ malaise) and facial swelling, antibiotics may be helpful in initial management but only when combined with debridement. In cases of multiple lateral periodontal abscesses, involvement of an underlying systemic condition such as undiagnosed diabetes should be considered, and the patient referred for relevant tests.
+
+
+
+Local delivery antibiotics
+
+There are a range of local delivery antibiotic systems available. However, their indications for use are limited. Use of these systems should only be considered after a course of non-surgical treatment, and certainly not as a first-line periodontal treatment. Local delivery antimicrobials are an adjunct to conventional subgingival debridement and not a substitute for it.
+
+Their use can be considered in cases where isolated periodontal pockets have failed to respond to conventional non-surgical treatment on a number of occasions, where there is no detectable calculus at the site, and where the patient is maintaining good levels of plaque control. However, the benefit resulting from their use appears modest. If isolated site(s) are not responding despite good plaque control, referral should be considered.
+
+
+
+Key references
+
+Faculty of General Dental Practitioners. Antimicrobial Prescribing for General Dental Practitioners: 2nd edition, (2014) http://www. fgdp.org.uk/publications/antimicrobial-prescribing-standards/periodontal-disease.ashx. This is currently public access via the Standards in Dentistry online initiative of the FGDP: http://www.fgdp.org.uk/publications/standardsindentistryonline.ashx Herrera, D., et al. (2002), A systematic review on the effect of systemic antimicrobials as an adjunct to scaling and root planing in periodontitis patients. Journal of Clinical Periodontology 29: 136-159. Herrera, D., et al. (2008), Antimicrobial therapy in periodontitis: the use of systemic antimicrobials against the subgingival biofilm. Journal of Clinical Periodontology 35: 45-66.
+
+SDCEP (2014) Prevention and Treatment of Periodontal Disease in Primary Care: Dental Clinical Guidance http://www.sdcep.org.uk
+
+
+
+30 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+PERIODONTAL SURGERY
+
+
+The principles of management of chronic periodontitis revolve around the control of bacterial plaque. The two key aspects of this are effective supragingival plaque removal undertaken by the patient and thorough subgingival debridement performed by the dental professional. Periodontal surgery is another tool in the armamentarium of the clinician in achieving such aims.
+
+Periodontal flap surgery is almost invariably performed after a course of thorough non-surgical treatment. It should only be considered in highly motivated patients and the presence of optimal plaque and risk factor control. Following a course of non-surgical treatment in cases of moderate to advanced disease, and despite good plaque control, there may still be residual increased pockets and bleeding on probing. Most patients requiring periodontal surgery should be referred for specialist care unless you have the relevant expertise and experience.
+
+
+
+The principle aims of periodontal flap surgery are:
+
+
+
+1 Access for debridement
+
+Removal of subgingival root surface deposits may be difficult where the pockets are deep or where access is
+
+poor, in particular molar teeth with complex root anatomy or furcation involvement. With a periodontal flap
+
+raised, the root surface can be visualised and cleaned until free of deposits. There may also be scope for pocket
+
+reduction or elimination by means of reshaping the bone and soft tissues during surgery. The aim is to achieve
+
+both shallow pockets and gingival tissues that are easier to access and clean, both by the patient and professional
+
+during maintenance.
+
+
+
+
+
+A B
+
+
+
+
+
+C D
+
+
+
+Figure 28 A: Periapical indicating an infrabony defect mesial LR6. B: The defect mesial to LR6 after thorough open flap debridement.
+
+
+
+C: Surgery complete and sutures placed. D: Two months post surgery.
+
+
+
+2 Regenerative surgery
+
+Conventional periodontal flap surgery heals primarily with the formation of a long junctional epithelium. It is
+
+thought that this occurs as a result of epithelial cells being first to grow into the void left around the root surface
+
+following surgery. Regenerative surgical procedures, in contrast, aim to promote the regeneration of the periodontal
+
+tissues that have been lost through the disease process. The aim is thus to promote re-growth of cementum,
+
+periodontal ligament (PDL) and alveolar bone. Such treatment can be more effective in achieving shallow pockets
+
+than conventional periodontal surgery in certain situations, such as deep narrow vertical bone defects.
+
+Several regenerative approaches are currently in use and are termed Guided Periodontal Tissue Regeneration
+
+(GPTR). The aim is to prevent the rapid down growth of epithelial cells into the void after periodontal surgery
+
+by introducing a membrane (resorbable or non-resorbable) and hence allowing a protected area for the slower
+
+turnover tissues, such as bone and PDL, to form. The use of enamel matrix protein based regenerative materials,
+
+such as Emdogain®, may also be advantageous in terms of attachment gain and probing depth reduction. When
+
+applied to a defect, after open flap debridement and surface treatment, enamel matrix proteins aggregate to form
+
+a scaffold which promotes bone formation in the defect. Alternatively, the defect can also be directly filled with
+
+filler materials to ‘graft’ the defect (as illustrated below). These fillers may either be bone grafts from the patient
+
+or from human, animal or artificial sources.
+
+
+
+Copyright © 2016 British Society of Periodontology 31
+
+
+
+
+
+PERIODONTAL SURGERY
+
+
+
+
+
+A B
+
+
+
+Figure 29 Intrabony defect mesial to LR6 after thorough open flap debridement. B: Filler covered with a membrane.
+
+
+
+
+
+A B
+
+
+
+Figure 30 Before and after radiographs of a regeneration surgery.
+
+
+
+3 Crown lengthening
+
+Crown lengthening surgery involves the removal of the periodontal tissues to increase the clinical crown height for
+
+aesthetic reasons or to provide adequate sound tooth tissue for restoration. Crown lengthening surgery may be
+
+limited to the soft tissue when the thickness of the tissues are excessive. In such cases this can be performed using
+
+a scalpel, electrosurgery or soft tissue lasers. However, the dento-gingival anatomy and the position of the soft
+
+tissue are, to a large degree, dictated by the position of the underlying bone. In these cases, following removal of
+
+soft tissue alone, the gingival margin will rebound during healing to re-establish the soft tissue height above the
+
+bone crest, with loss of the amount of crown that was surgically exposed. In such cases a stable position can only
+
+be achieved by shifting the entire dento-gingival complex apically. This requires bone removal, and to access the
+
+bone a periodontal flap must be raised.
+
+Crown lengthening can be performed to facilitate restorative dentistry and allow access to subgingival restoration
+
+margins. Subgingival margins may result from oblique vertical fracture of a cusp or from the removal of extensive
+
+caries. In some cases, such as severe toothwear, there may not be adequate coronal tissue for mechanical retention
+
+of extracoronal restorations. Crown lengthening is a way to increase this.
+
+
+
+
+
+Figure 31 Failing bridgework UR2/3 and UL1 retainers for missing UR1. Crown lengthening to improve gingival height and increase tooth tissue to improve
+
+
+
+retention of indirect restorations. Definitive restoration with single unit crowns UR2/3 and conventional cantilever from UL1 replacing UR1.
+
+
+
+
+
+32 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+PERIODONTAL SURGERY
+
+
+Aesthetic crown lengthening uses the same techniques but applied to a different situation. In patients with a high
+
+smile line and where the anatomical crown is still partially hidden by an excess of soft tissues (as in cases with
+
+delayed passive eruption) a simple gingivectomy may be enough to achieve the desired result.
+
+In patients where there is an excess of both soft and hard tissue (as in cases of tooth wear with compensatory over
+
+eruption) careful planning with diagnostic wax ups and a periodontal flap procedure with appropriate bone removal
+
+may be required to achieve correct tooth and gingival dimensions. If crowns or veneers are required as part of this
+
+treatment you will need to wait four to six months for the new gingival contour to stabilise before placement.
+
+
+
+
+
+Figure 32 Aesthetic recontouring of upper centrals and laterals. Alveolar bone at normal level. Apically repositioned flap.
+
+
+
+
+
+4 Management of recession (Mucogingival surgery)
+
+There are a number of reliable periodontal surgical techniques available to manage mucogingival problems such
+
+as gingival recession. The key indication for such surgery is aesthetics. Whilst other complications of recession can
+
+include temperature sensitivity and root caries, these would normally be managed conservatively by appropriate
+
+care including dietary analysis, tailored oral hygiene instruction and use of high concentration fluoride preparations.
+
+This type of surgery is technically demanding but can improve aesthetics and long-term stability. The likely extent of
+
+coverage can be assessed using the Miller’s classification of the initial recession defect (Table 6). As a rule surgical root
+
+coverage procedures should only be considered for Miller class I and II defects (i.e. periodontally healthy patients).
+
+
+
+
+
+A B
+
+
+
+Figure 33 A: Class I recession defect on UL3. B: Defect following mucogingival surgery.
+
+
+
+Copyright © 2016 British Society of Periodontology 33
+
+
+
+
+
+PERIODONTAL SURGERY
+
+
+
+
+Class I
+
+
+
+• Recession not extending to the mucogingival junction
+
+• No loss of interdental bone or soft tissue
+
+MGJ
+
+
+
+Class II
+
+
+
+• Recession extending to or beyond the
+
+mucogingival junction
+
+• No loss of interdental bone or soft tissue
+
+MGJ
+
+
+
+Class III
+
+
+
+• Recession extending to or beyond the
+
+mucogingival junction
+
+• Loss of interdental bone or soft tissue coronal to the
+
+MGJ apical extent of the marginal tissue recession
+
+
+
+Class IV
+
+
+
+• Recession extending to or beyond the
+
+mucogingival junction
+
+• Loss of interdental bone or soft tissue level with or
+
+MGJ apical to the extent of the marginal tissue recession
+
+
+
+Key reference
+
+Miller PD Jr. A classification of marginal tissue recession. Int J Periodontics Restorative Dent 1985; 5(2): 8-13
+
+
+
+Recommended textbook
+
+Bateman G, Saha S, & Chapple ILC. (2008) Contemporary periodontal surgery: an illustrated guide to the art behind the science. UK: Quintessence.
+
+
+
+34 Copyright © 2016 British Society of Periodontology
+
+
+
+hsed045-07-16 Good Practitioner.indd 34 12/09/2016 14:05 IMPLANTS & PERI-IMPLANT DISEASE
+
+
+
+Teeth versus implants in periodontal patients
+
+If the ultimate consequence of chronic periodontitis is tooth loss, then the aim of periodontal therapy must be to maintain a healthy and functional dentition for as long as possible. It is desirable, both physiologically and psychologically, to maintain the patient’s own natural teeth to function throughout their life. High quality non-surgical and surgical treatment should be attempted first where possible.
+
+However, where teeth are not treatable, dental implants are one of a few replacement options. The decision as to when to make the transition from periodontal treatment and maintenance to implant treatment is a complex one as the prognosis of individual teeth is difficult to gauge even from relatively objective measures such as percentage of bony support. Remember an implant is not a substitute for a tooth, it is simply a substitute for no tooth.
+
+
+
+Patient selection
+
+Motivating patients to maintain the required degree of oral hygiene is still one of the great challenges in modern dentistry. Patients unable or unwilling to maintain their oral hygiene when they have natural teeth present are unlikely to consistently improve their oral hygiene habits in the presence of implants. Implants are as susceptible to peri-implant inflammation and tissue breakdown as teeth are to periodontal inflammation. The transition to implants in these patients is unlikely to meet with long-term success if plaque-induced inflammation cannot be controlled. In addition if any non-modifiable risk factors, such as genetics, have played a part in the periodontal breakdown of an individual, these factors are likely to continue in the peri-implant tissue breakdown. Hence, the placement of implants in patients who have lost teeth due to periodontal disease is extremely challenging. Implant integration failures and long-term bone loss are higher in patients with uncontrolled periodontal disease around remaining teeth. Peri-implant complications are also significantly more common in periodontally-susceptible but stabilised patients and such patients should be fully informed of these risks. Generally, even periodontally-involved teeth can be more successful in the long-term than dental implants.
+
+In patients with good oral hygiene and regular attendance the following may be considered as reasons to replace teeth:
+
+
+
+Individual teeth where periodontal treatment and regeneration techniques are impossible
+
+These might include deeper pockets with complex anatomy e.g. furcations, deep infrabony defects which are showing progressive attachment loss and symptoms. Clinically this may be seen as increasing bone loss on radiographs, increasing mobility, fremitus in function, or progression to a perio-endo lesion. Be aware that in cases where there has already been periodontal bone loss, grafting techniques to improve alveolar bone volume, may be required to allow implant placement later.
+
+
+
+Posterior bite collapse with loss of posterior teeth or loss of anterior guidance through migration of incisors and canines
+
+In such cases implants can provide a solid occlusal platform and guidance mechanism. Timing in these cases is important but difficult. Periodontal splinting after therapy is usually a first line of treatment in such cases but medium to long-term instability might call for replacement of the posterior teeth to maintain a stable occlusal scheme.
+
+
+
+Extensive bone loss throughout the whole dentition requiring a clearance
+
+This may be seen in cases of advanced or aggressive periodontitis. In young adult patients showing extensive bone loss early, specialist-level comprehensive periodontal treatment should be carried out first. Refractory forms of periodontitis can pose a difficult decision where clearance and hence elimination of the pocket flora coupled with maintenance of remaining bone for future implants may be the correct early treatment in extreme cases. However, it should be remembered that implants and their superstructures may not last forever, especially in patients who have had severe forms of periodontitis.
+
+
+
+Peri-implant disease
+
+
+
+Peri-implant disease is the umbrella term encompassing two common complications following implant placement, namely peri-implant mucositis and peri-implantitis. For the vast majority of cases, bacterial accumulation in the form of a biofilm, is the primary aetiological agent for both of these disease processes.
+
+Although the exact definitions of these diseases vary, peri-implant mucositis can be likened to gingivitis. It involves inflammation of the peri-implant tissues, manifesting in swelling, redness, tenderness and bleeding on probing without any concurrent bone loss. Peri-implantitis, on the other hand, can be likened to periodontitis. It involves progressive loss of alveolar bone support around the implant. However, peri-implantitis is different from periodontitis and can progress more rapidly. Hence, detection and management are important.
+
+
+
+Copyright © 2016 British Society of Periodontology 35
+
+IMPLANTS & PERI-IMPLANT DISEASE
+
+Peri-implant mucositis is thought to affect approximately 45% of patients and peri-implantitis around 20% of patients and therefore, both conditions should be viewed as common. Given the increasing numbers of patients with implants, the long survival of such treatments and the high prevalence of peri-implant disease related complications, it is likely that you will encounter such patients.
+
+
+
+
+
+Figure 34 Buccal views of UR3 at presentation. Note the gingival inflammation (redness and swelling) in comparison to other teeth.
+
+
+
+PA views of UR3 showing bone loss associated with implant UR3.
+
+
+
+The management of such patients is an evolving field, however, some basic principles apply:
+
+
+
+• Prevention is paramount: Recognise that the aetiological agent is bacterial and hence
+
+meticulous peri-implant oral hygiene is a must. This includes the use of single tufted brushes, interdental brushes and floss/super-floss. If the restoration is not amenable to good plaque control, the risk of disease will be high
+
+• In addition to oral hygiene improvements, as in periodontitis management, the
+
+control of risk factors (smoking, diabetes, stress, etc.) is critical
+
+• Regular monitoring of peri-implant health is essential and includes both clinical
+
+assessment (probing depth, bleeding on probing and signs of suppuration) and radiographs. Protocols for both aspects are not rigid but you should take into account all the aspects of your patients oral and general health that you routinely use. Probing assessments around the implant superstructures should be recorded at least annually. Probing around an implant with a periodontal probe will not damage the implant or the soft tissues
+
+• Similarly, radiographs should be taken at the time of implant placement and
+
+superstructure placement. The decision on follow-up radiographs should be guided by your clinical examination of peri-implant health, as for teeth
+
+• Patients should be counselled that implants with peri-implant disease are more likely
+
+to be lost (even if the disease is controlled they may still be lost if disease recurs, which is likely)
+
+• Peri-implantitis is difficult to treat and a referral to a specialist is strongly advised.
+
+Patients should be advised that treatment may take the form of non-surgical or surgical debridement of implant surfaces with or without adjunctive therapy
+
+
+
+Key references
+
+Jepsen S, Berglundh T, Genco R et al. (2015), Primary prevention of peri-implantitis: Managing peri-implant mucositis. Consensus report, Proceedings of the 11th European Workshop on Periodontology. Journal of Clinical Periodontology. 42: S152-157. Esposito M, Hirsch JM, Lekholm U, Thomsen P. (1998), Biological factors contributing to failures of osseointegrated oral implants (I). Success criteria and epidemiology. European Journal of Oral Sciences. 106 (1):527-51.
+
+Esposito M, Hirsch JM, Lekholm U, Thomsen P. (1998) Biological factors contributing to failures of osseointegrated oral implants - (II). Etiopathogenesis. European Journal of Oral Sciences. 106 (3):721-64.
+
+
+
+36 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+SUPPORTIVE PERIODONTAL THERAPY
+
+
+The key to successful prevention and treatment of periodontal diseases is low periodontal inflammation levels and good oral hygiene. Our role is to support patients in their efforts to maintain low inflammation levels with effective plaque control. In general practice you should expect that many of your patients without periodontitis (BPE 0 – 2) could remain periodontally stable and healthy with a visit to the hygienist once every 1 – 2 years. Although approximately 50% of these patients may develop some form of periodontitis if causative and risk factors are not controlled. The lower the inflammation levels, the lower the risk of periodontitis. For those patients whom you have diagnosed with periodontitis, regular maintenance after the initial periodontal therapy can be crucially important in maintaining periodontal stability, and we term this maintenance regime supportive periodontal therapy (SPT).
+
+Evidence shows that even with good home care, a potentially pathogenic bacterial flora can re-establish itself at the base of a 5mm + pocket three months after a thorough subgingival debridement. This is one of the reasons for the three monthly recall interval for periodontitis patients. Another reason is the need for continuous oral hygiene coaching and patient motivation. However, the evidence for informing the recall interval is limited and it should be based on each patient’s clinical history, an assessment of periodontal health, stability and risk as well as the needs and wishes of the patient. The recall interval should be reviewed at each visit and will typically vary from between 2-4 months initially.
+
+Over time, in patients with good compliance and with demonstrably stable supra- and subgingival environments, maintenance intervals may be extended. This implies that you, in consultation with your hygienist, are monitoring both the patient (have they stopped smoking, what have the general plaque levels been like over a series of appointments), and specific sites of concern (has there been repeated bleeding on probing at a specific site, has the probing depth increased by 2mm at a specific site).
+
+
+
+Remember that certain sites will be more difficult to manage than others:
+
+• Furcations
+
+• Pockets associated with infrabony defects
+
+• Pockets associated with root grooves, enamel projections, sites of chronic
+
+food impaction
+
+
+
+Ensure, from the onset of treatment, that the patient understands the long-term implications of periodontitis, both in terms of treatment effects and the risks of non-treatment. Patients should be made aware that once the active phase of treatment is completed, they will require regular maintenance appointments to keep their periodontal condition stable. Such appointments can be carried out either by the dentist, hygienist or therapist.
+
+A typical SPT appointment includes oral examination with recording of oral hygiene compliance (plaque and gingival inflammation, including redness and bleeding). This can be used to aid re-motivation of oral hygiene in the required areas. Probing depths can then be checked and any bleeding from the pocket noted. Ultrasonic and hand scaling should be carried out both supra- and subgingivally to remove any plaque or calculus deposits. More rigorous root surface debridement will be needed for pockets deeper than 4mm, especially those with bleeding on probing. Local anaesthetic may be required at times when debriding deep residual pockets (by referring to the last periodontal charting). Periodontal charting should be repeated annually for these patients.
+
+Studies have shown the beneficial impact of regular supportive periodontal therapy. There is very strong evidence that structured maintenance and good oral hygiene is successful in maintaining periodontal attachment levels and preventing tooth loss.
+
+
+
+Key references
+
+Axelsson P & Lindhe J. (1981) The significance of maintenance care in the treatment of periodontal disease. Journal of Clinical Periodontology. 8: 281-294.
+
+Ramfjord SP, Morrison EB, Burgett FG, et al. (1982), Oral hygiene and maintenance of periodontal support. J Periodontal. 53:26-30.
+
+SDCEP (2014) Prevention and Treatment of Periodontal Disease in Primary Care: Dental Clinical Guidance. http://www.sdcep.org.uk
+
+
+
+Copyright © 2016 British Society of Periodontology 37
+
+
+
+
+
+DENTO-LEGAL CONSIDERATIONS
+
+
+Good records are essential for effective periodontal care and record keeping should be designed primarily to facilitate patient management. An additional benefit of such documentation will be compliance with regulatory and dento-legal standards. Failure to diagnose and treat periodontal disease is a common and rapidly increasing source of complaints, claims and regulatory challenges for the dental team.
+
+Currently there is a level of patient expectation that tooth loss is avoidable and there can be strong emotional implications to losing teeth.
+
+
+
+Inadvertent criticism
+
+Legal problems often occur when a patient, who has regularly attended the same dentist over many years, for one reason or another, sees a second dentist. Sometimes the second dentist may make an inadvertent comment such as “It must have been present for years”. This might be taken as a judgement on previous care even when the new dentist is not aware of all the facts. Unless you are in possession of all the information, framing the description of your patient’s current condition in a more circumspect way might avoid future problems.
+
+
+
+Some examples of what you might say instead:
+
+• “It’s very difficult to say how long you have had gum problems as they progress at different rates
+
+in different people. When gum disease first appears and how fast it progresses can depend on factors such as your general health, smoking habits and genetic predisposition. We can talk about your current oral and general health right now based on my own thorough examination and diagnosis. Then we can talk about the best way to manage your gum health moving forward.”
+
+• “Of course you want to be sure that you have had proper dental care in the past. However, gum
+
+disease appears at different times in different people and progresses at different rates over a person’s lifespan. But it’s impossible for me to say when your gum disease may have first become apparent. However, what I can tell you is what I see today and what we can do about it to achieve the best dental health possible for you.”
+
+Whilst it is important to relate the realities of presenting conditions to patients honestly and openly, it is equally important not to be judgemental or comment inappropriately about care and treatment you have not directly provided.
+
+In your own practice there are a number of ways in which you can reduce the risk of having to face allegations of sub-standard periodontal care in the future.
+
+
+
+Clinical records
+
+It is vital to be able to demonstrate from the patient’s records and radiographs that any periodontal disease present in their mouth has been identified, recorded and monitored appropriately. In addition, the records should show clearly that the patient has been informed of the nature and extent of their periodontal problems. If some of the teeth have a doubtful prognosis, this should be explained carefully to the patient in language they can understand and this fact recorded in the notes.
+
+Options for care and their benefits, costs and risks should be discussed and documented. It can be useful to document discussions that periodontitis risk remains throughout life and, as such, repeated episodes of treatment and maintenance are often required.
+
+The extent and content of the records should reflect the severity of the case as discussed in the section on diagnosis. Documentation should be designed to allow adequate monitoring of periodontal health and oral hygiene needs and responses.
+
+
+
+It should include specific details:
+
+• Including exactly what oral hygiene advice you have provided (simply recording “OHI
+
+given” is insufficient)
+
+• Evidence you have assessed the outcome of any treatment
+
+• Plan for how you are going to move forward (such as further non-surgical
+
+periodontal therapy, referral or maintenance care)
+
+
+
+38 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+DENTO-LEGAL CONSIDERATION
+
+
+Identifying and recording risk factors
+
+There are a number of well-known risk factors that can affect the progression of periodontal disease; notably smoking and diabetes. It is important that these are recorded in a comprehensive medical and social history and monitored over time – remember that there is a dynamic interplay between these factors.
+
+When risk factors are identified, the record also needs to show that they were discussed with the patient and appropriate advice given. For example, smokers should certainly be given appropriate smoking cessation advice, and diabetics should be advised about the importance of good long-term control of their diabetes. It may even be appropriate to advise some severe periodontitis patients who may report to be fit and well that they should consider seeing their general medical practitioner to have a routine screen for diabetes.
+
+
+
+Working with a dental hygienist or therapist
+
+Periodontal therapy can be provided by hygienists or therapists within their scope of care. It is important that it is clear to the dental team, the patient and in the clinical record, who is responsible for the care, whether by direct access or prescription from the dentist (see page 29 for more detail). If you are responsible for care, then it will be essential to assess and record the outcome and progress of the periodontal treatment at your routine examinations, even if this is simply evaluating the work undertaken by the hygienist.
+
+
+
+Referrals
+
+The guidance for which types of patients should be considered for referral can be found on page 41.
+
+Clearly, careful diagnosis and assessment (or reassessment of treatment response) is key to recognising where referral is indicated. Once this recognition has been made:
+
+
+
+• You should inform your patient of the reasons for referral and options
+
+• Offer referral, and arrange if requested, in a timely manner including sending details
+
+of the patient’s clinical conditions, treatment received to date and radiographs if available. Most NHS referrals will require a minimum amount of information for acceptance of the referral and these are usually detailed on providers’ websites
+
+• Record the discussion in the notes whether the patient wishes to proceed or not.
+
+You should also record details of conversations with referral practitioners and retain copies of related correspondence including emails
+
+
+
+Implant maintenance
+
+With an increasing number of dental implants being placed, you must ensure you are monitoring and maintaining them correctly. If you do not feel comfortable maintaining implants, you must either refer to a colleague with more experience in the field, or ask for guidance from your local implant dentist or periodontist. Peri-implantitis is becoming increasingly common. Even if you have not placed the implant, hygienists, therapists and dentists who subsequently see that patient would be expected to assess for this condition and record their findings accordingly. The management of peri-implantitis is a rapidly changing area and keeping up to date is an imperative for all dentists by accessing relevant CPD. To say that you did not know what you were looking for would be no excuse.
+
+
+
+Expectations and responsibilities
+
+Whilst periodontal treatment is usually highly successful in the long-term for mild to moderate disease, some localised recurrence is not unusual. In advanced disease, despite the best efforts of all concerned, significant tooth loss is common. Furthermore, accurate determination of prognosis is often unreliable at initial presentation. The limitations and uncertainties of periodontal therapy should be communicated to your patient and accurately recorded to realistically manage expectations. In addition, where appropriate, your patient should be advised of the less welcome effects of achieving periodontal health including recession, aesthetic issues (e.g. black triangles), sensitivity and food packing.
+
+Some patients show poor compliance in either attending appointments or maintaining adequate standards of oral hygiene and it is important to note this fact in the patient’s dental record. In many cases, this helps to demonstrate that the periodontal disease has arisen or progressed because of failings on the part of the patient, rather than the dentist.
+
+
+
+Copyright © 2016 British Society of Periodontology 39
+
+
+
+
+
+DENTO-LEGAL CONSIDERATION
+
+
+Summary
+
+
+
+• Record information appropriate to your patient’s presenting problems, periodontal
+
+condition, treatment options, risk factors and responsibilities
+
+• Summarise discussions with patients and other team members involved
+
+• Recognise promptly the potential need for referral: offer (and arrange if requested)
+
+in a timely manner
+
+• As with all dental care, advise patients of benefits, limitations and side effects of
+
+periodontal treatment
+
+
+
+
+
+Produced with the support of Dental Protection
+
+www.dentalprotection.org
+
+
+
+Key references
+
+General Dental Council. Standards for the Dental Team – 2013.
+
+www.gdc.uk.org/Newsandpublications/Publications/Publications/Standards%20for%20the%20Dental%20Team.pdf
+
+
+
+40 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+REFERRAL
+
+
+General Practitioners have a responsibility to screen patients for periodontal diseases, to make a diagnosis and institute a treatment plan with defined therapeutic goals.
+
+However, there will be occasions when, due to the extent and complexity of the case, in terms of patient management, you may feel that you do not have the experience to achieve predictable outcomes. For medicolegal reasons, you should consider referring such patients.
+
+
+
+When to refer patients
+
+The BSP has created guidelines for referring patients based on a simple assessment of case complexity based on the Basic Periodontal Examination (BPE). This is for use as guidance and not considered prescriptive. New guidance from the Department of Health (NHS Commissioning Guide) is in development and may change some aspects.
+
+Referral of patients with periodontal problems depends on several factors including:
+
+
+
+• The severity of disease and complexity of treatment required
+
+• The patient’s desire to see a specialist or undergo specialist treatment
+
+• The GDP’s knowledge, experience and training to treat patients with a range of
+
+periodontal problems
+
+• The presence of other complicating factors such as a patient’s medical history or
+
+other comorbidity
+
+
+
+Level 1 complexity
+
+Diagnosis and management of patients with uncomplicated periodontal diseases, including but not limited to:
+
+• Evaluation of periodontal risk, diagnosis of periodontal condition and design of
+
+initial care plan within the context of overall oral health needs
+
+• Measurement and accurate recording of periodontal indices
+
+• Communication of nature of condition, clinical findings, risks and outcomes
+
+• Designing care plan and providing treatment
+
+• Assessment of patient understanding, willingness and capacity to adhere to advice
+
+and care plan
+
+• Evaluation of outcome of periodontal care and provision of supportive periodontal
+
+care programme
+
+• On-going motivation and risk factor management including plaque biofilm control
+
+• Avoidance of antibiotic use except in specific conditions (necrotising periodontal
+
+diseases or acute abscess with systemic complications) unless recommended by specialist as part of comprehensive care plan
+
+• Preventive and supportive care for patients with implants
+
+• Palliative periodontal care and periodontal maintenance
+
+• Any other treatment not covered by level 2 or 3 complexity
+
+
+
+Copyright © 2016 British Society of Periodontology 41
+
+
+
+
+
+REFERRAL
+
+
+
+
+Level 2 complexity
+
+Management of patients:
+
+• Who, following primary care periodontal therapy, have residual chronic moderate
+
+(30-50% horizontal bone loss) periodontitis and residual true pocketing of 6mm and above
+
+• With certain non-plaque-induced periodontal diseases e.g. virally induced
+
+diseases, auto-immune diseases, abnormal pigmentation, vesiculo-bullous disease, periodontal manifestations of gastrointestinal and other systemic diseases and syndromes, under specialist guidance
+
+• With aggressive periodontitis as determined by a specialist at referral
+
+• With furcation defects and other complex root morphologies when affected teeth
+
+are strategically important
+
+• With gingival enlargement non-surgically, in collaboration with medical colleagues
+
+• Who require pocket reduction surgery when delegated by a specialist
+
+• With peri-implant mucositis where implants have been placed under NHS contract
+
+
+
+Level 3 complexity
+
+Triage and management of patients:
+
+• With severe (> 50% horizontal bone loss) periodontitis, aggressive periodontitis and
+
+true pocketing of 6mm or more
+
+• Requiring periodontal surgery
+
+• Furcation defects and other complex root morphologies not suitable for delegation
+
+• With non-plaque induced periodontal diseases not suitable for delegation to a
+
+practitioner with enhanced skills
+
+• Peri-implantitis where it is the responsibility of the NHS to manage the disease when
+
+implants have been placed under an NHS contract
+
+• Patients who require multi-disciplinary specialist care (level 3)
+
+• Where patients of level 2 complexity do not respond to treatment
+
+• Non-plaque induced periodontal diseases including periodontal manifestations of
+
+systemic diseases, in order to establish a differential diagnosis, joint care pathways with relevant medical colleagues and where necessary, manage conditions collaboratively with practitioners with enhanced skills if appropriate and provide advice and treatment planning to colleagues
+
+
+
+Modifying factors
+
+
+
+The presence of a relevant modifying factor The presence of a relevant modifying factor increases the complexity by 1 increment, and is increases the complexity by 1 increment, and is not cumulative: not cumulative:
+
+• Modifying factors that are relevant to • Medical history that significantly affects
+
+periodontal treatment clinical management • Co-ordinated medical or dental multi-disciplinary care • Patients with a history of head / neck • Medical history that significantly affects clinical radiotherapy or intravenous bisphosphonate therapy
+
+management (see right) • Patients who are significantly immuno-compromised
+
+• Special needs for the acceptance or provision of or immunosuppressed
+
+dental treatment • Patients with a significant bleeding dyscrasia / disorder
+
+• Concurrent mucogingival disease (e.g. erosive • Patients with a potential drug interaction
+
+lichen planus)
+
+
+
+42 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+REFERRAL
+
+
+Patients with aggressive periodontitis should be offered referral after initial preventive advice on risk factor management and oral hygiene instruction. All patients with chronic periodontitis should have initial care (including treatment) in general practice and if unsuccessful referral may then be indicated. Patients with modifying factors may require movement to the next level of care, including those where behaviour change is challenging. Evidence for the latter will be required to accompany referral letters.
+
+As a general guide, patients with level 1 complexity should normally be treated in general practice, those with level 2 treated in general practice if the clinician has the relevant skills or referred if not and the majority of patients with level 3 complexity referred.
+
+In cases where an onward referral has been made, initial non-surgical periodontal therapy should still be commenced within general practice as part of the GDP’s duty of care to the patient. Also ensure that any other primary dental pathology, such as caries or endodontic lesions, are addressed. Control of other modifiable risk factors where indicated, particularly smoking, should also be instigated by the GDP, if necessary by referral to smoking cessation services.
+
+
+
+Where to refer patients
+
+NHS referral will vary depending on your location in the UK. With the advent of managed clinical networks (MCNs) in England, referral will be to a consultant-led service. The referral will be triaged for level of care which might include a return to primary care and the referring dentist with an outlined treatment plan to follow, or to primary care for more complex treatment (level 2) with a suitably qualified practitioner, or within secondary care (management by a specialist or consultant) for level 3 cases.
+
+If you work in Wales, Scotland or Northern Ireland, MCNs will not apply and you must arrange your onward referral directly to a clinician (see below) or via a local central referral system. Please ensure you check with your local area as to the referral pathways and criteria, otherwise your referral may be rejected.
+
+
+
+Dentists with a special interest in Periodontology (DWSI)
+
+Who are they?
+
+DWSI is a job title rather than a qualification or designation and is a term likely to disappear under the new dental contract (2016-2017). They were general dentists who had a contract with local area teams of your Care Commissioning Groups (CCGs) to provide periodontal services to NHS patients. DWSIs may have had some extra training in periodontology beyond BDS level and should have presented evidence of competency in basic periodontal treatments to the CCGs in question. They may have been trained in more complex periodontal management or surgical procedures. Under the MCNs, the cases formerly treated by DWSIs would be level 2 complexity cases and the MCN will be responsible for managing such cases using a “skill mix” approach, however this pathway is still in development at the time of this publication.
+
+How can I contact them?
+
+Some CCGs have contracts with DWSIs, but most areas are establishing MCNs with Consultants in Restorative Dentistry taking responsibility for managing the MCN. You should enquire with your local area team of your CCG. As mentioned already, contact your local area team to confirm the appropriate referral pathway and criteria.
+
+
+
+Specialists in Periodontology
+
+Who are they?
+
+These practitioners are dentists who have been recognised by the General Dental Council as specialists in Periodontology. They will have achieved this either by following a recognised formal training programme in the UK or in Europe, or by virtue of their experience and previous training.
+
+They generally work at a secondary care level, taking referrals from other dentists.
+
+How can I contact them?
+
+• BSP or GDC websites - you can search for registered specialists in your area
+
+• Some CCGs may have contracts with specialists or know who they are
+
+• Through local MCNs that are managed by a Consultant in Restorative Dentistry
+
+• Recommendations from colleagues
+
+
+
+Copyright © 2016 British Society of Periodontology 43
+
+
+
+
+
+REFERRAL
+
+
+
+
+Consultants in Restorative Dentistry
+
+Who are they?
+
+These are dentists who have gone through a formal 5-year training programme in restorative dentistry, including periodontology within a teaching hospital. Consultants are NHS employees who work within the salaried services, often dealing with patients with complex needs. Most are based in hospitals and while some will have the resources to provide treatment, others will only be able to provide advice and detailed treatment planning. There are a small number of Consultants in Periodontics who have undertaken a 3-year periodontal training programme (such as MClinDent) plus additional training in NHS management and leadership or equivalent and who work alongside a Consultant in Restorative Dentistry in an academic hospital setting. They generally work at a secondary care level, taking referrals from other dentists.
+
+How can I contact them?
+
+• CCGs
+
+• Local teaching hospital
+
+• MCN in Restorative Dentistry
+
+
+
+The BSP also has a significant number of general practitioner members who have a special interest in periodontology, and these people may be able and happy to help you if you cannot identify or access any of the other groups above.
+
+
+
+How to refer patients
+
+Whilst an initial telephone call to a hospital or practice may be helpful, referrals should be made formally in writing. It is wise to keep a copy of the referral letter with the patient’s notes, and to make a dated entry in the notes that the patient has been referred, and why.
+
+The referral letter should contain:
+
+
+
+• Patient’s name, date of birth and contact details
+
+• Reason for referral, any patient concerns, and any emergency problems
+
+• Relevant medical history including smoking history and all medications being taken
+
+• Details of any periodontal treatment already carried out
+
+• Relevant radiographs (particularly old ones) and charts
+
+
+
+Many NHS funded services have a high demand for care, and patients may have a better chance of being accepted in some teaching hospitals if as much relevant information as possible is provided. An example referral proforma has been included on page 45.
+
+
+
+What if my patient declines to be referred?
+
+Listen to their reason for declining a referral. If there are any misunderstandings which have led them to this decision, you should discuss these. Ensure the patient is aware of the consequences of not accepting referral and that the details are documented in the clinical notes. Also ensure you continue monitoring their periodontal condition. At recall examinations provide the best preventive advice and treatment you can and ask the patient if they wish to discuss referral again.
+
+
+
+44 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+PROFORMA
+
+
+
+
+Please include as much information as you can and enclose most recent radiographs
+
+
+
+PATIENT DETAILS REFERRER DETAILS
+
+
+
+Title: Forename: Title: Forename:
+
+
+
+Surname: Surname:
+
+
+
+Date of birth: Practice Name, Address & Post Code (or stamp)
+
+
+
+Address: Address:
+
+
+
+Post Code: Work Tel:
+
+Home Tel: Email:
+
+Mobile Tel:
+
+
+
+Email:
+
+
+
+RELEVANT MEDICAL HISTORY
+
+
+
+Please give a brief indication of selected medical issues, or attach your completed medical history form
+
+
+
+Cardiovascular Disease Respiratory Disease Epilepsy Rheumatoid Disease Pregnant
+
+
+
+Details
+
+
+
+Medications
+
+
+
+Smoking Status
+
+
+
+Current Smoker Ex-Smoker Non-Smoker
+
+
+
+Copyright © 2016 British Society of Periodontology 45
+
+
+
+
+
+CLINICAL DETAILS
+
+
+
+
+BPE Score
+
+
+
+Provisional Diagnosis:
+
+
+
+Specific Conerns:
+
+
+
+Bleeding Gums Recurrent Infection Recession Sensitivity Loose Teeth Drifting
+
+
+
+Halitosis Aesthetics Other
+
+
+
+Previous Periodontal Treatment
+
+
+
+Treated by Hygienist Treated by Dentist Treated by a Specialist Periodontist
+
+
+
+Other clinical details:
+
+
+
+Radiographs enclosed? Yes No
+
+
+
+Details of recent radiographs (date, type, findings)
+
+
+
+Signature
+
+Date of Referral
+
+
+
+46 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+NOTES
+
+
+
+
+Copyright © 2016 British Society of Periodontology 47
+
+
+
+
+
+NOTES
+
+
+
+
+48 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+NOTES
+
+
+
+
+Copyright © 2016 British Society of Periodontology 49
+
+
+
+
+
+NOTES
+
+
+
+
+50 Copyright © 2016 British Society of Periodontology
+
+
+
+
+
+www.bsperio.org.uk
+
+
+
+admin@bsperio.org.uk
+
+0844 335 1915
+
+
+
+Registered charity number: 265815
+
+
+
+
+

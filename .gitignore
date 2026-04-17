@@ -49,3 +49,6 @@ next-env.d.ts
 !/flashcards-import/.gitkeep
 !/flashcards-import/README.md
 
+# source-material PDFs — kept locally only (image extraction); never commit (dev server OOMs on large binaries)
+/source-material/**/*.pdf
+
