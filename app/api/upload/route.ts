@@ -46,10 +46,9 @@ export async function POST(req: NextRequest) {
   const hash = createHash("sha256").update(buf).digest("hex").slice(0, 16);
   const key = `cards/${hash}-${randomUUID().slice(0, 8)}.${ext}`;
 
-  const { bucket, publicUrl } = r2Config();
-  const client = getR2Client();
-
   try {
+    const { bucket, publicUrl } = r2Config();
+    const client = getR2Client();
     await client.send(
       new PutObjectCommand({
         Bucket: bucket,
@@ -59,13 +58,12 @@ export async function POST(req: NextRequest) {
         CacheControl: "public, max-age=31536000, immutable",
       }),
     );
+    const url = `${publicUrl}/${key}`;
+    return NextResponse.json({ filename: url, path: url, key });
   } catch (e) {
     return NextResponse.json(
       { error: e instanceof Error ? e.message : "upload failed" },
       { status: 500 },
     );
   }
-
-  const url = `${publicUrl}/${key}`;
-  return NextResponse.json({ filename: url, path: url, key });
 }

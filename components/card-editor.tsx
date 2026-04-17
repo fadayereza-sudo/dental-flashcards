@@ -186,16 +186,6 @@ export function CardEditor({
               />
             </Field>
 
-            <Field label="Source (optional)">
-              <input
-                type="text"
-                value={value.source}
-                onChange={(e) => update("source", e.target.value)}
-                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-2.5 text-[15px] text-ink focus:outline-none focus:border-ink-soft"
-                placeholder="e.g. Oxford Handbook, Ch 2"
-              />
-            </Field>
-
             <Field label="Image (optional)">
               <ImageUpload
                 value={value.image}
@@ -204,13 +194,13 @@ export function CardEditor({
               />
             </Field>
 
-            <Field label="Reference section (optional)">
+            <Field label="Source (optional)">
               <input
                 type="text"
                 value={value.referenceSection}
                 onChange={(e) => update("referenceSection", e.target.value)}
                 className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-2.5 text-[15px] text-ink focus:outline-none focus:border-ink-soft"
-                placeholder="e.g. Periodontal assessment"
+                placeholder="e.g. Oxford Ch 2, or Dr Smith's advice"
               />
             </Field>
 
@@ -324,8 +314,18 @@ function ImageUpload({
       const fd = new FormData();
       fd.append("file", file);
       const res = await fetch("/api/upload", { method: "POST", body: fd });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data?.error ?? `${res.status}`);
+      const text = await res.text();
+      let data: { filename?: string; error?: string } = {};
+      try {
+        data = text ? JSON.parse(text) : {};
+      } catch {
+        // Non-JSON response (e.g. server crash) — surface the status
+      }
+      if (!res.ok || !data.filename) {
+        throw new Error(
+          data.error ?? `Upload failed (${res.status} ${res.statusText})`,
+        );
+      }
       onChange(data.filename);
     } catch (e) {
       onError(e instanceof Error ? e.message : String(e));
