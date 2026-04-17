@@ -10,7 +10,9 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx scripts/migrate.ts",
     "db:studio": "drizzle-kit studio",
-    "import": "tsx scripts/import-flashcards.ts"
+    "import": "tsx scripts/import-flashcards.ts",
+    "backup": "tsx scripts/backup-db.ts",
+    "telegram:setup": "tsx scripts/setup-telegram.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
