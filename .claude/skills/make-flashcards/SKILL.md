@@ -18,7 +18,7 @@ The user is a GDP returning after a 2+ year career break. Focus on: clinical rea
    - A book folder: `references/odells/` (all references from that book)
    - A tag filter: all references tagged `clinical-reasoning`
    - `all` — every reference in `references/`
-2. **Card count** — for test batches, default to 3-5 per reference. Ask before assuming large counts.
+2. **Card count** — make as many cards as there are **distinct testable ideas** in the reference. No more, no less. A short reference might yield 1 card; a long one might yield 8. Never pad to hit a number.
 
 ## Reading references
 
@@ -53,6 +53,7 @@ Picture explaining this to a friend who knows nothing about dentistry. Write the
 - **Plain syntax.** Short sentences. Active voice. One clause per comma at most.
 - **No jargon** unless the term is itself the thing being learned. "Saliva washes sugar off the teeth" beats "salivary clearance". If a technical word has to appear, use it plainly — don't dress it up.
 - **No flourishes.** Cut em-dashed asides, parenthetical stacks, semicolons, and "not X but Y" constructions. Nobody speaks like that.
+- **Em dashes: use sparingly.** Reach for a full stop or comma first. Only use an em dash when the aside genuinely interrupts the sentence and no other punctuation fits. If a card has more than one em dash, rewrite.
 - Prefer the everyday word: "talk" over "verbalise", "stop talking" over "lapse into silence", "how often" over "the frequency of".
 - **Test out loud.** Read the card as if you're saying it to someone. If you wouldn't phrase it that way in conversation, rewrite it.
 
@@ -62,6 +63,7 @@ Picture explaining this to a friend who knows nothing about dentistry. Write the
 - **Answer form:** fact → mechanism → consequence, linked with "because", "so", "therefore". Strip anything that isn't one of those three.
 - **Reformulate, don't quote.** Verbatim text lets the user pattern-match instead of reasoning. Paraphrase tightly.
 - **One idea per card.** Two "becauses" joined by "and" = two cards.
+- **No overlapping cards.** Before writing a card, check: would knowing the answer to any other card in this batch give away this answer? If yes, one of them is redundant — cut it. Two cards that test different angles of the same fact are still duplicates.
 - **Capture the reference, not just the easy parts.** Cover mechanisms, exceptions, and clinically loaded "small" details — the textbook's value-add over a fact list.
 
 ### Self-check before writing
@@ -70,6 +72,7 @@ For each card, ask:
 1. Could this answer be cut by 30% without losing the reasoning? If yes, cut it.
 2. Does the first sentence already carry the mechanism? If not, rewrite.
 3. If the user recalls only the fact (not the "because"), does the card fail? If not, the card is too shallow.
+4. Does this card test something genuinely different from every other card in the batch? If knowing card A's answer helps you guess card B's answer, cut one of them.
 
 ## Image handling
 
