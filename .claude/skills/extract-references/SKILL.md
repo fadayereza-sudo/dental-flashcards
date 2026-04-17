@@ -51,6 +51,7 @@ Three categories of source in `source-material/`:
 | `oxford-handbook` | Oxford Handbook of Clinical Dentistry 7e | Topic-based chapters with sections | **Verbatim** — line-by-line scan, copy text as-is |
 | `biopsychosocial` | The Biopsychosocial Model of Health and Disease 2019 | Theoretical chapters on the BPS model | **Applied** — read for principles, write dental applications |
 | `guidelines/<body>` | UK dental guidelines (DBOH, SDCEP, BSP, FGDP) | Decision rules + rationale | **Recommendation + rationale** — one reference per recommendation |
+| `university handbooks/` (sources for `paed-handbook`, `restorative-handbook`) | Leeds University clinical handbooks (Paediatric, Restorative) | Plain Calibre `.txt`, procedural how-to | **Procedural verbatim** — one reference per procedure, decision, or tool/method block |
 
 The two textbooks each have:
 - **`full-text.txt`** — every paragraph, one per line, tagged `[index][style] text`
@@ -94,6 +95,90 @@ The biopsychosocial book is academic theory (philosophy, systems theory, epistem
 - Research framework design (RDoC, grid models)
 - Psychiatry-specific content
 - Historical context that doesn't yield a clinical lesson
+
+### University handbooks — procedural verbatim
+
+The Leeds Paediatric and Restorative clinical handbooks are written *for student dentists doing the procedure*. They are dense with the practical detail that disappears from textbooks: which instrument to pick, how to position the patient, what bonding regime to follow, when to abandon a treatment plan and refer. **This is the highest-value content in the repo for clinical bedside competence — extract it carefully.**
+
+#### Source layout
+
+```
+source-material/university handbooks/
+  Paediatric dentistry clinical handbook - denjt.txt        # ~5,300 lines
+  RESTORATIVE HANDBOOK 2018-min-compressed c - Unknown.txt   # ~13,000 lines
+  *.pdf                                                       # ignored — text only
+```
+
+The `.txt` files are plain Calibre output. There are no `[Para NNN]` tags. Use **file line numbers** (the numbers shown by `Read`) for traceback.
+
+Calibre artefacts to expect:
+- Paragraphs are spread across multiple lines with blank lines between every line of text. Treat any block of consecutive non-blank lines (allowing for these blank-line breaks) as one paragraph when extracting.
+- Page-header repetitions like `PAEDIATRIC DENTISTRY CLINICAL HANDBOOK` or `Department of Restorative Dentistry / Clinical Handbook` reappear every few pages — skip them.
+- Numbered lists may be split across lines. Reconstruct them in the reference body so they read as a list.
+- Tables are mangled. Most can still be reconstructed by reading the surrounding prose — do that, since we are not extracting images.
+
+#### Approach
+
+1. **Read the file in batches** of ~1,500 lines (similar to Oxford Handbook).
+2. **Identify procedural / decision blocks** — a section that teaches *how to do something* or *when to do which option*. Examples: "Local anaesthetic technique in children", "Rubber dam placement on a primary molar", "Composite layering on an anterior tooth", "Vitality testing — interpreting a non-responder".
+3. **One reference = one procedure or one decision** — sized for 1–5 flashcards. If a section covers ten distinct procedures (e.g. an entire chapter on caries management), split it into ten references.
+4. **Body is verbatim from the source**, with light cleanup only:
+   - Strip Calibre's blank-line bloat between lines of the same paragraph.
+   - Strip repeated page-header lines (`PAEDIATRIC DENTISTRY CLINICAL HANDBOOK`, etc.).
+   - Reconstruct broken numbered lists as proper lists.
+   - **Do not** paraphrase, summarise, or "improve" the wording. The student-handbook voice is the value — it is already at the right level of detail.
+5. **Skip non-procedural content**:
+   - Front matter, contributor lists, acknowledgements, ToC.
+   - "Welcome to the clinic / your role as a student" admin pages.
+   - Department logistics (clinic hours, attendance policies, dress code, the lockers, dispensary opening times).
+   - Assessment criteria pages, exam structures (Jackson Prize, Annual Review).
+   - Marketing or branding text (BSPD membership, society endorsements).
+   - Legal disclaimers and copyright pages.
+   - Repeated chapter cover pages and section dividers with no content.
+
+#### Reference file path and ID
+
+```
+references/<short-name>/<short-name>-<NNN>.md
+```
+
+Where `<short-name>` is:
+- `paed-handbook` (Paediatric Dentistry Clinical Handbook, Leeds, 2017)
+- `restorative-handbook` (Restorative Dentistry Clinical Handbook, Leeds, 2018)
+
+Example: `references/paed-handbook/paed-handbook-007.md`.
+
+#### Frontmatter
+
+```yaml
+---
+id: paed-handbook-007
+book: "Paediatric Dentistry Clinical Handbook (Leeds, 2017)"
+section: "Local Anaesthetic – Topical anaesthesia in children"
+paragraphs: []          # not used — no paragraph index in source
+sourceLines: [1834, 1902]   # inclusive Read line range
+images: []              # text-only extraction; leave empty
+tags:
+  - operative
+  - patient-communication
+---
+```
+
+- `book` — full title with year/institution.
+- `section` — `"<Chapter title> – <Specific procedure or decision>"`.
+- `paragraphs` — leave as `[]`.
+- `sourceLines` — `[start, end]` line range from the `Read` tool's line numbers.
+- `images` — leave as `[]`. We are not extracting images from these handbooks.
+- `tags` — see `references/README.md`.
+
+#### Body template
+
+No fixed sub-headings. Just the verbatim procedural text from the source, cleaned of Calibre artefacts. If the source itself uses sub-headings (e.g. "Indications", "Technique", "Complications"), preserve them.
+
+#### Per-handbook 80/20 — what to skip
+
+- **Paed handbook** — Jackson Prize details, BSPD membership pitch, contributor lists, the introductory "objectives of the curriculum" page, lecture timetables.
+- **Restorative handbook** — clinic equipment cabinetry layouts, attendance policies, dispensary lists, professional conduct admin, equipment failure phone numbers, blank annotation pages.
 
 ### Guidelines — recommendation + rationale
 
@@ -357,7 +442,9 @@ A reference should be **self-contained enough to generate 1–5 flashcards** fro
 Process sources in this order (highest clinical yield first):
 1. **`oxford-handbook`** — broadest coverage of GDP-relevant topics (COMPLETE)
 2. **`biopsychosocial`** — principles applied to dental practice (see "Book-specific approaches")
-3. **`guidelines/`** — UK dental guidelines, in this sub-order:
+3. **`paed-handbook`** — Paediatric Dentistry Clinical Handbook (Leeds, 2017) — procedural how-to for paediatric care
+4. **`restorative-handbook`** — Restorative Dentistry Clinical Handbook (Leeds, 2018) — procedural how-to for adult restorative work
+5. **`guidelines/`** — UK dental guidelines, in this sub-order:
    1. **DBOH** — broadest preventive coverage
    2. **SDCEP antibiotic prophylaxis** — sharp safety topic, smallest file
    3. **SDCEP MRONJ** — high-stakes prescribing/extraction safety; pull risk-strata image

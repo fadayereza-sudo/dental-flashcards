@@ -20,6 +20,8 @@ references/
 Book short names match source-material folders:
 - `oxford-handbook`
 - `biopsychosocial`
+- `paed-handbook` — Paediatric Dentistry Clinical Handbook (Leeds, 2017), source in `source-material/university handbooks/`
+- `restorative-handbook` — Restorative Dentistry Clinical Handbook (Leeds, 2018), source in `source-material/university handbooks/`
 
 Guideline source slugs (subfolders of `references/guidelines/`):
 - `dboh` — Delivering Better Oral Health (PHE/OHID)
@@ -76,6 +78,9 @@ Copy text from `full-text.txt` exactly, stripped of `[index][style]` prefixes. P
 
 ### Biopsychosocial — applied
 Three sections: **The principle**, **What the book says**, **How this applies in dental practice**. The body is not verbatim — it teaches a principle drawn from the source, applied to dental scenarios.
+
+### University handbooks — procedural verbatim
+Verbatim text from the source `.txt`, lightly cleaned of Calibre artefacts (blank-line bloat between paragraph lines, repeated page-header strings). One reference per procedure or decision. Uses `sourceLines: [start, end]` (file line range from the `Read` tool) instead of `paragraphs`. Image field stays empty — text only.
 
 ### Guidelines — recommendation + rationale
 Three sections, one recommendation per file:

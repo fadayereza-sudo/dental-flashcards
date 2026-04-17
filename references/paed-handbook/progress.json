@@ -1,0 +1,15 @@
+{
+  "book": "paed-handbook",
+  "totalLines": 5303,
+  "lastLineProcessed": 2278,
+  "lastChapter": "Local Anaesthetics",
+  "referencesCreated": ["paed-handbook-001", "paed-handbook-002", "paed-handbook-003", "paed-handbook-004"],
+  "sectionsSkipped": [
+    {
+      "lines": [1, 2178],
+      "reason": "Pilot batch only — front matter, behaviour management, and prevention sections not yet processed; will revisit."
+    }
+  ],
+  "complete": false,
+  "notes": "Pilot batch — Local Anaesthetic chapter only (lines 2179-2278), so the user can review the procedural-verbatim format before scaling."
+}

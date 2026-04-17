@@ -65,6 +65,7 @@ Picture explaining this to a friend who knows nothing about dentistry. Write the
 - **One idea per card.** Two "becauses" joined by "and" = two cards.
 - **No overlapping cards.** Before writing a card, check: would knowing the answer to any other card in this batch give away this answer? If yes, one of them is redundant — cut it. Two cards that test different angles of the same fact are still duplicates.
 - **Capture the reference, not just the easy parts.** Cover mechanisms, exceptions, and clinically loaded "small" details — the textbook's value-add over a fact list.
+- **Never extrapolate beyond the source.** The "why" in every answer must come from the reference body. Do not supply outside reasoning, however well-known the clinical rationale, and do not derive new claims by arithmetic across the source's facts. If the source states a clinically load-bearing rule (a threshold, dose, interval, or procedural step) with no rationale, **keep the card as a bare "what" recall card** — the user is studying for practical clinical skill, so a rule worth remembering is worth a card even without a why. Just never fabricate a rationale to dress it up. The user wants a faithful study tool for *this* source — invented rationale contaminates the review loop because they cannot tell what came from the textbook and what came from you.
 
 ### Self-check before writing
 
@@ -73,6 +74,7 @@ For each card, ask:
 2. Does the first sentence already carry the mechanism? If not, rewrite.
 3. If the user recalls only the fact (not the "because"), does the card fail? If not, the card is too shallow.
 4. Does this card test something genuinely different from every other card in the batch? If knowing card A's answer helps you guess card B's answer, cut one of them.
+5. **Is the "why" actually in the reference body?** If you can't underline the source sentence that supports it, you're extrapolating — strip the invented rationale (and either keep it as a bare "what" card if the rule itself is clinically essential, or drop the card entirely if not).
 
 ## Image handling
 
