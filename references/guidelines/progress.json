@@ -1,0 +1,33 @@
+{
+  "sources": {
+    "dboh": {
+      "fullTitle": "Delivering Better Oral Health: an evidence-based toolkit for prevention (DHSC/NHS England, updated 2025)",
+      "sourceFile": "source-material/guidelines/delivering-better-oral-health/delivering-better-oral-health.md",
+      "totalLines": 5412,
+      "referencesCreated": [
+        "dboh-001",
+        "dboh-002",
+        "dboh-003",
+        "dboh-004",
+        "dboh-005"
+      ],
+      "chaptersCovered": [
+        {
+          "chapter": "Ch 9 Fluoride",
+          "lines": [2997, 3240],
+          "complete": false,
+          "notes": "Pilot batch — toothpaste concentration (001), brushing technique (002), varnish protocol (003), varnish contraindications (004), toothpaste quantity by age/fluorosis (005). Skipped for later: water/milk fluoridation (low GDP actionability), Rx 2,800/5,000 ppm pastes (cover under prescribing), fluoride mouthwashes, novel/SDF (low evidence)."
+        }
+      ],
+      "complete": false
+    },
+    "sdcep-antibiotic-prophylaxis": { "complete": false, "referencesCreated": [] },
+    "sdcep-child-caries": { "complete": false, "referencesCreated": [] },
+    "sdcep-dental-prescribing": { "complete": false, "referencesCreated": [] },
+    "sdcep-amalgam": { "complete": false, "referencesCreated": [] },
+    "sdcep-anticoagulants": { "complete": false, "referencesCreated": [] },
+    "sdcep-mronj": { "complete": false, "referencesCreated": [] },
+    "bsp": { "complete": false, "referencesCreated": [] },
+    "fgdp": { "complete": false, "referencesCreated": [] }
+  }
+}
