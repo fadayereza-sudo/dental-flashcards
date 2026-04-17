@@ -194,64 +194,42 @@ function StateBreakdown({
 }) {
   const items: Array<{
     label: string;
-    sub: string;
     value: number;
-    accent: string;
+    bar: string;
     text: string;
   }> = [
-    {
-      label: "New",
-      sub: "never studied",
-      value: data.new,
-      accent: "bg-ink-muted/40",
-      text: "text-ink-muted",
-    },
-    {
-      label: "Learning",
-      sub: "first grasp",
-      value: data.learning,
-      accent: "bg-bronze/70",
-      text: "text-bronze",
-    },
-    {
-      label: "Review",
-      sub: "held in memory",
-      value: data.review,
-      accent: "bg-accent-green/70",
-      text: "text-accent-green",
-    },
-    {
-      label: "Relearning",
-      sub: "forgotten, rebuilding",
-      value: data.relearning,
-      accent: "bg-accent-red/70",
-      text: "text-accent-red",
-    },
+    { label: "New", value: data.new, bar: "bg-ink-muted/50", text: "text-ink-muted" },
+    { label: "Learning", value: data.learning, bar: "bg-bronze/80", text: "text-bronze" },
+    { label: "Review", value: data.review, bar: "bg-accent-green/80", text: "text-accent-green" },
+    { label: "Relearning", value: data.relearning, bar: "bg-accent-red/80", text: "text-accent-red" },
   ];
   return (
-    <div>
-      <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-3 px-1">
+    <div className="rounded-2xl border border-rule bg-paper-sunk p-4">
+      <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-3">
         Card state
       </p>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="space-y-3">
         {items.map((it) => {
-          const pct = total > 0 ? Math.round((it.value / total) * 100) : 0;
+          const pct = total > 0 ? (it.value / total) * 100 : 0;
+          const pctLabel = total > 0 ? Math.round(pct) : 0;
           return (
-            <div
-              key={it.label}
-              className="relative rounded-2xl border border-rule bg-paper-sunk px-4 py-3 pl-5 overflow-hidden"
-            >
-              <span
-                aria-hidden
-                className={`absolute left-0 top-0 bottom-0 w-1 ${it.accent}`}
-              />
-              <p className={`text-[10px] tracking-[0.18em] uppercase ${it.text}`}>
-                {it.label}
-              </p>
-              <p className="font-serif text-3xl text-ink mt-1">{it.value}</p>
-              <p className="text-[11px] text-ink-muted mt-0.5">
-                {pct}% · {it.sub}
-              </p>
+            <div key={it.label}>
+              <div className="flex items-baseline justify-between mb-1">
+                <span className={`text-[11px] tracking-[0.18em] uppercase ${it.text}`}>
+                  {it.label}
+                </span>
+                <span className="text-[12px] text-ink-soft">
+                  <span className="font-mono text-ink">{it.value}</span>
+                  <span className="text-ink-muted"> · {pctLabel}%</span>
+                </span>
+              </div>
+              <div className="h-2.5 w-full rounded-full bg-rule/50 overflow-hidden">
+                <div
+                  className={`h-full rounded-full ${it.bar} transition-[width] duration-500`}
+                  style={{ width: `${pct}%` }}
+                  aria-label={`${it.label}: ${it.value} (${pctLabel}%)`}
+                />
+              </div>
             </div>
           );
         })}
