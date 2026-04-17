@@ -263,6 +263,7 @@ export function ReviewFeed() {
         onClose={() => setEditorOpen(false)}
         onSaved={onEditorSaved}
         onDeleted={onEditorDeleted}
+        onTreeChanged={refreshTree}
       />
     </div>
   );

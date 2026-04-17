@@ -15,6 +15,7 @@
     "telegram:setup": "tsx scripts/setup-telegram.ts"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.1032.0",
     "@neondatabase/serverless": "^1.0.2",
     "drizzle-orm": "^0.45.2",
     "next": "16.2.3",

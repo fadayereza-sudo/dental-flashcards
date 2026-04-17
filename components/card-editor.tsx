@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type Tree = Array<{
   id: number;
@@ -27,6 +27,7 @@ type Props = {
   onClose: () => void;
   onSaved: (card: { id: number }) => void;
   onDeleted?: (id: number) => void;
+  onTreeChanged?: () => void | Promise<void>;
 };
 
 const EMPTY: CardEditorValue = {
@@ -47,6 +48,7 @@ export function CardEditor({
   onClose,
   onSaved,
   onDeleted,
+  onTreeChanged,
 }: Props) {
   const [value, setValue] = useState<CardEditorValue>(EMPTY);
   const [saving, setSaving] = useState(false);
@@ -160,6 +162,7 @@ export function CardEditor({
                 tree={tree}
                 value={value.folderId}
                 onChange={(id) => update("folderId", id)}
+                onTreeChanged={onTreeChanged}
               />
             </Field>
 
@@ -169,7 +172,7 @@ export function CardEditor({
                 onChange={(e) => update("question", e.target.value)}
                 rows={3}
                 className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-[15px] text-ink focus:outline-none focus:border-ink-soft resize-y"
-                placeholder="What's the question?"
+                placeholder="Write the question here."
               />
             </Field>
 
@@ -179,7 +182,7 @@ export function CardEditor({
                 onChange={(e) => update("answer", e.target.value)}
                 rows={5}
                 className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-[15px] text-ink focus:outline-none focus:border-ink-soft resize-y"
-                placeholder="Fact → mechanism → consequence."
+                placeholder="Write the answer here."
               />
             </Field>
 
@@ -193,13 +196,11 @@ export function CardEditor({
               />
             </Field>
 
-            <Field label="Image filename (optional)">
-              <input
-                type="text"
+            <Field label="Image (optional)">
+              <ImageUpload
                 value={value.image}
-                onChange={(e) => update("image", e.target.value)}
-                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-2.5 text-[15px] text-ink focus:outline-none focus:border-ink-soft"
-                placeholder="served from /card-images/"
+                onChange={(v) => update("image", v)}
+                onError={setError}
               />
             </Field>
 
@@ -219,7 +220,7 @@ export function CardEditor({
                 onChange={(e) => update("reference", e.target.value)}
                 rows={4}
                 className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-[14px] text-ink focus:outline-none focus:border-ink-soft resize-y"
-                placeholder="Verbatim source extract shown in the card overlay"
+                placeholder="Paste the source text here."
               />
             </Field>
 
@@ -298,14 +299,99 @@ function Field({
   );
 }
 
+function ImageUpload({
+  value,
+  onChange,
+  onError,
+}: {
+  value: string;
+  onChange: (v: string) => void;
+  onError: (msg: string | null) => void;
+}) {
+  const inputRef = useRef<HTMLInputElement>(null);
+  const [uploading, setUploading] = useState(false);
+
+  const preview = value
+    ? value.startsWith("/") || value.startsWith("http")
+      ? value
+      : `/card-images/${value}`
+    : null;
+
+  const upload = async (file: File) => {
+    setUploading(true);
+    onError(null);
+    try {
+      const fd = new FormData();
+      fd.append("file", file);
+      const res = await fetch("/api/upload", { method: "POST", body: fd });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data?.error ?? `${res.status}`);
+      onChange(data.filename);
+    } catch (e) {
+      onError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setUploading(false);
+      if (inputRef.current) inputRef.current.value = "";
+    }
+  };
+
+  return (
+    <div className="space-y-2">
+      {preview ? (
+        <div className="relative rounded-xl border border-rule bg-paper-sunk overflow-hidden">
+          <img
+            src={preview}
+            alt=""
+            className="w-full max-h-48 object-contain bg-paper"
+          />
+          <div className="flex items-center justify-between px-3 py-2 text-[11px] text-ink-muted border-t border-rule/60">
+            <span className="truncate pr-3">{value}</span>
+            <button
+              type="button"
+              onClick={() => onChange("")}
+              className="text-accent-red hover:underline"
+            >
+              Remove
+            </button>
+          </div>
+        </div>
+      ) : (
+        <button
+          type="button"
+          onClick={() => inputRef.current?.click()}
+          disabled={uploading}
+          className="w-full flex flex-col items-center justify-center gap-2 rounded-xl border border-dashed border-rule bg-paper-sunk px-4 py-6 text-[13px] text-ink-soft hover:border-ink-soft hover:text-ink disabled:opacity-50"
+        >
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
+            <path d="M10 3v10M5 8l5-5 5 5M3 16h14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          {uploading ? "Uploading…" : "Add image"}
+        </button>
+      )}
+      <input
+        ref={inputRef}
+        type="file"
+        accept="image/*"
+        className="hidden"
+        onChange={(e) => {
+          const f = e.target.files?.[0];
+          if (f) upload(f);
+        }}
+      />
+    </div>
+  );
+}
+
 function FolderPicker({
   tree,
   value,
   onChange,
+  onTreeChanged,
 }: {
   tree: Tree;
   value: number | null;
   onChange: (id: number) => void;
+  onTreeChanged?: () => void | Promise<void>;
 }) {
   const [expandedRoot, setExpandedRoot] = useState<number | null>(() => {
     if (value === null) return null;
@@ -314,6 +400,16 @@ function FolderPicker({
     }
     return null;
   });
+
+  useEffect(() => {
+    if (value === null) return;
+    for (const root of tree) {
+      if (root.children.some((c) => c.id === value)) {
+        setExpandedRoot(root.id);
+        return;
+      }
+    }
+  }, [value, tree]);
 
   const currentName = (() => {
     if (value === null) return null;
@@ -325,6 +421,18 @@ function FolderPicker({
     return null;
   })();
 
+  const createFolder = async (name: string, parentId: number | null) => {
+    const res = await fetch("/api/folders", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, parentId }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data?.error ?? `${res.status}`);
+    await onTreeChanged?.();
+    return data.folder as { id: number; name: string; parentId: number | null };
+  };
+
   return (
     <div className="rounded-xl border border-rule bg-paper-sunk overflow-hidden">
       {currentName && (
@@ -332,7 +440,7 @@ function FolderPicker({
           {currentName}
         </div>
       )}
-      <div className="max-h-60 overflow-y-auto">
+      <div className="max-h-72 overflow-y-auto">
         {tree.map((root) => {
           const isOpen = expandedRoot === root.id;
           return (
@@ -358,21 +466,134 @@ function FolderPicker({
                 </svg>
                 <span className="text-[14px] text-ink flex-1">{root.name}</span>
               </button>
-              {isOpen &&
-                root.children.map((c) => (
-                  <button
-                    key={c.id}
-                    type="button"
-                    onClick={() => onChange(c.id)}
-                    className={`w-full flex items-center gap-2 pl-10 pr-4 py-2 text-left text-[13px] hover:bg-paper ${value === c.id ? "bg-paper text-ink" : "text-ink-soft"}`}
-                  >
-                    {c.name}
-                  </button>
-                ))}
+              {isOpen && (
+                <>
+                  {root.children.map((c) => (
+                    <button
+                      key={c.id}
+                      type="button"
+                      onClick={() => onChange(c.id)}
+                      className={`w-full flex items-center gap-2 pl-10 pr-4 py-2 text-left text-[13px] hover:bg-paper ${value === c.id ? "bg-paper text-ink" : "text-ink-soft"}`}
+                    >
+                      {c.name}
+                    </button>
+                  ))}
+                  <InlineCreate
+                    placeholder={`New chapter in ${root.name}`}
+                    indent
+                    onCreate={async (name) => {
+                      const folder = await createFolder(name, root.id);
+                      onChange(folder.id);
+                    }}
+                  />
+                </>
+              )}
             </div>
           );
         })}
+        <InlineCreate
+          placeholder="New book"
+          onCreate={async (name) => {
+            const folder = await createFolder(name, null);
+            setExpandedRoot(folder.id);
+          }}
+        />
       </div>
+    </div>
+  );
+}
+
+function InlineCreate({
+  placeholder,
+  indent,
+  onCreate,
+}: {
+  placeholder: string;
+  indent?: boolean;
+  onCreate: (name: string) => Promise<void>;
+}) {
+  const [active, setActive] = useState(false);
+  const [name, setName] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState<string | null>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (active) inputRef.current?.focus();
+  }, [active]);
+
+  const submit = async () => {
+    const trimmed = name.trim();
+    if (!trimmed) return;
+    setBusy(true);
+    setErr(null);
+    try {
+      await onCreate(trimmed);
+      setName("");
+      setActive(false);
+    } catch (e) {
+      setErr(e instanceof Error ? e.message : String(e));
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  if (!active) {
+    return (
+      <button
+        type="button"
+        onClick={() => setActive(true)}
+        className={`w-full flex items-center gap-2 px-4 py-2 text-left text-[12px] text-bronze hover:text-ink hover:bg-paper ${indent ? "pl-10" : ""}`}
+      >
+        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden>
+          <path d="M5 2v6M2 5h6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        </svg>
+        {placeholder}
+      </button>
+    );
+  }
+
+  return (
+    <div className={`px-4 py-2 ${indent ? "pl-10" : ""}`}>
+      <div className="flex items-center gap-2">
+        <input
+          ref={inputRef}
+          type="text"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") submit();
+            if (e.key === "Escape") {
+              setActive(false);
+              setName("");
+              setErr(null);
+            }
+          }}
+          placeholder={placeholder}
+          className="flex-1 rounded-lg border border-rule bg-paper px-2.5 py-1.5 text-[13px] text-ink focus:outline-none focus:border-ink-soft"
+          disabled={busy}
+        />
+        <button
+          type="button"
+          onClick={submit}
+          disabled={busy || !name.trim()}
+          className="rounded-full bg-ink text-paper px-3 py-1 text-[11px] tracking-wide uppercase disabled:opacity-50"
+        >
+          {busy ? "…" : "Add"}
+        </button>
+        <button
+          type="button"
+          onClick={() => {
+            setActive(false);
+            setName("");
+            setErr(null);
+          }}
+          className="text-[11px] tracking-wide uppercase text-ink-muted hover:text-ink"
+        >
+          Cancel
+        </button>
+      </div>
+      {err && <p className="text-[11px] text-accent-red mt-1">{err}</p>}
     </div>
   );
 }

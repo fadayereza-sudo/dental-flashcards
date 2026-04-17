@@ -1,5 +1,5 @@
-import { NextResponse } from "next/server";
-import { asc, eq, sql } from "drizzle-orm";
+import { NextRequest, NextResponse } from "next/server";
+import { and, asc, eq, isNull, sql } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
 
 export const runtime = "nodejs";
@@ -40,4 +40,68 @@ export async function GET() {
   }));
 
   return NextResponse.json({ tree });
+}
+
+type CreateBody = {
+  name?: string;
+  parentId?: number | null;
+};
+
+export async function POST(req: NextRequest) {
+  const body = (await req.json().catch(() => null)) as CreateBody | null;
+  const name = body?.name?.trim();
+  if (!name) {
+    return NextResponse.json({ error: "name required" }, { status: 400 });
+  }
+  const parentId =
+    body?.parentId === null || body?.parentId === undefined
+      ? null
+      : Number.isFinite(body.parentId)
+        ? Number(body.parentId)
+        : NaN;
+  if (Number.isNaN(parentId)) {
+    return NextResponse.json({ error: "bad parentId" }, { status: 400 });
+  }
+
+  if (parentId !== null) {
+    const [parent] = await db
+      .select({ id: schema.folders.id, parentId: schema.folders.parentId })
+      .from(schema.folders)
+      .where(eq(schema.folders.id, parentId))
+      .limit(1);
+    if (!parent) {
+      return NextResponse.json({ error: "parent not found" }, { status: 404 });
+    }
+    if (parent.parentId !== null) {
+      return NextResponse.json(
+        { error: "folders are only two levels deep" },
+        { status: 400 },
+      );
+    }
+  }
+
+  const dup = await db
+    .select({ id: schema.folders.id })
+    .from(schema.folders)
+    .where(
+      and(
+        eq(schema.folders.name, name),
+        parentId === null
+          ? isNull(schema.folders.parentId)
+          : eq(schema.folders.parentId, parentId),
+      ),
+    )
+    .limit(1);
+  if (dup.length > 0) {
+    return NextResponse.json(
+      { error: "folder with that name already exists here" },
+      { status: 409 },
+    );
+  }
+
+  const [row] = await db
+    .insert(schema.folders)
+    .values({ name, parentId })
+    .returning();
+  return NextResponse.json({ folder: row });
 }
