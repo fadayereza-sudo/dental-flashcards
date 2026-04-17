@@ -170,7 +170,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
             className="group flex flex-col items-center justify-center gap-0.5 rounded-2xl bg-paper-sunk border border-rule hover:border-ink-soft active:scale-[0.97] transition py-3"
           >
             <span className={`text-base font-medium ${r.accent}`}>{r.label}</span>
-            <span className="text-[10px] tracking-[0.18em] uppercase text-ink-muted">
+            <span className="text-[10px] tracking-[0.08em] uppercase text-ink-muted">
               {r.sub}
             </span>
           </button>
