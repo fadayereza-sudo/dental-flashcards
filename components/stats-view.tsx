@@ -197,16 +197,45 @@ function StateBreakdown({
     value: number;
     bar: string;
     text: string;
+    desc: string;
   }> = [
-    { label: "New", value: data.new, bar: "bg-ink-muted/50", text: "text-ink-muted" },
-    { label: "Learning", value: data.learning, bar: "bg-bronze/80", text: "text-bronze" },
-    { label: "Review", value: data.review, bar: "bg-accent-green/80", text: "text-accent-green" },
-    { label: "Relearning", value: data.relearning, bar: "bg-accent-red/80", text: "text-accent-red" },
+    {
+      label: "New",
+      value: data.new,
+      bar: "bg-ink-muted/50",
+      text: "text-ink-muted",
+      desc: "Never studied. FSRS hasn't scheduled these yet.",
+    },
+    {
+      label: "Learning",
+      value: data.learning,
+      bar: "bg-bronze/80",
+      text: "text-bronze",
+      desc: "Just introduced — short intervals until recall is reliable.",
+    },
+    {
+      label: "Review",
+      value: data.review,
+      bar: "bg-accent-green/80",
+      text: "text-accent-green",
+      desc: "Held in memory. Intervals grow each time you recall it.",
+    },
+    {
+      label: "Relearning",
+      value: data.relearning,
+      bar: "bg-accent-red/80",
+      text: "text-accent-red",
+      desc: "You recently forgot it. Back to short intervals until it sticks.",
+    },
   ];
   return (
     <div className="rounded-2xl border border-rule bg-paper-sunk p-4">
-      <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-3">
+      <p className="text-[10px] tracking-[0.22em] uppercase text-bronze mb-1">
         Card state
+      </p>
+      <p className="text-[12px] text-ink-muted mb-4">
+        FSRS moves each card through these stages as you rate your recall
+        (Again, Hard, Good, Easy).
       </p>
       <div className="space-y-3">
         {items.map((it) => {
@@ -230,6 +259,7 @@ function StateBreakdown({
                   aria-label={`${it.label}: ${it.value} (${pctLabel}%)`}
                 />
               </div>
+              <p className="text-[11px] text-ink-muted mt-1">{it.desc}</p>
             </div>
           );
         })}
