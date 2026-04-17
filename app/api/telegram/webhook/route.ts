@@ -83,15 +83,14 @@ function statusText(
 }
 
 function mainKeyboard(
-  settings: typeof schema.settings.$inferSelect,
+  _settings: typeof schema.settings.$inferSelect,
 ): object {
-  const muted = !!(settings.mutedUntil && settings.mutedUntil > new Date());
   return {
     inline_keyboard: [
-      muted
-        ? [{ text: "🔔 Unmute", callback_data: "unmute" }]
-        : [{ text: "🔕 Mute", callback_data: "menu:mute" }],
-      [{ text: "📊 Status", callback_data: "menu:main" }],
+      [
+        { text: "🔕 Mute", callback_data: "menu:mute" },
+        { text: "🔔 Unmute", callback_data: "unmute" },
+      ],
     ],
   };
 }
