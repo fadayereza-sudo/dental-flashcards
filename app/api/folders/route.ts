@@ -21,12 +21,21 @@ export async function GET() {
     .groupBy(schema.folders.id)
     .orderBy(asc(schema.folders.parentId), asc(schema.folders.name));
 
+  const chapterNumber = (name: string) => {
+    const m = name.match(/^Ch\s+(\d+)\b/);
+    return m ? parseInt(m[1], 10) : Number.POSITIVE_INFINITY;
+  };
+
   const roots = rows.filter((r) => r.parentId === null);
   const tree = roots.map((root) => ({
     id: root.id,
     name: root.name,
     children: rows
       .filter((r) => r.parentId === root.id)
+      .sort((a, b) => {
+        const diff = chapterNumber(a.name) - chapterNumber(b.name);
+        return diff !== 0 ? diff : a.name.localeCompare(b.name);
+      })
       .map((c) => ({ id: c.id, name: c.name, cardCount: c.cardCount })),
   }));
 
