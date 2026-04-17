@@ -52,3 +52,7 @@ next-env.d.ts
 # source-material PDFs — kept locally only (image extraction); never commit (dev server OOMs on large binaries)
 /source-material/**/*.pdf
 
+# database backups — contain all card content; keep local only
+/backups/
+/.cache/
+
