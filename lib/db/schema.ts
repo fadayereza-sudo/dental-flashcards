@@ -21,10 +21,14 @@ export const folders = pgTable(
     createdAt: timestamp("created_at", { withTimezone: true })
       .notNull()
       .defaultNow(),
+    deletedAt: timestamp("deleted_at", { withTimezone: true }),
   },
   (t) => [
-    uniqueIndex("folders_parent_name_uniq").on(t.parentId, t.name),
+    uniqueIndex("folders_parent_name_active_uniq")
+      .on(t.parentId, t.name)
+      .where(sql`${t.deletedAt} IS NULL`),
     index("folders_parent_idx").on(t.parentId),
+    index("folders_deleted_at_idx").on(t.deletedAt),
   ],
 );
 
@@ -49,10 +53,14 @@ export const cards = pgTable(
     updatedAt: timestamp("updated_at", { withTimezone: true })
       .notNull()
       .defaultNow(),
+    deletedAt: timestamp("deleted_at", { withTimezone: true }),
   },
   (t) => [
-    uniqueIndex("cards_folder_hash_uniq").on(t.folderId, t.contentHash),
+    uniqueIndex("cards_folder_hash_active_uniq")
+      .on(t.folderId, t.contentHash)
+      .where(sql`${t.deletedAt} IS NULL`),
     index("cards_folder_idx").on(t.folderId),
+    index("cards_deleted_at_idx").on(t.deletedAt),
   ],
 );
 

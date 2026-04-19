@@ -5,7 +5,13 @@ import { useEffect, useRef, useState } from "react";
 type Tree = Array<{
   id: number;
   name: string;
-  children: Array<{ id: number; name: string; cardCount: number }>;
+  deletedAt?: string | null;
+  children: Array<{
+    id: number;
+    name: string;
+    cardCount: number;
+    deletedAt?: string | null;
+  }>;
 }>;
 
 export type CardEditorValue = {
@@ -222,9 +228,12 @@ export function CardEditor({
               <div className="pt-2 border-t border-rule/60">
                 {confirmDelete ? (
                   <div className="flex items-center gap-3">
-                    <p className="text-sm text-ink-soft flex-1">
-                      Delete this card permanently?
-                    </p>
+                    <div className="flex-1">
+                      <p className="text-sm text-ink-soft">Move card to trash?</p>
+                      <p className="text-[11px] text-ink-muted mt-0.5">
+                        You can restore it from Show trash.
+                      </p>
+                    </div>
                     <button
                       onClick={() => setConfirmDelete(false)}
                       className="text-xs tracking-wide uppercase text-ink-muted"
@@ -383,7 +392,7 @@ function ImageUpload({
 }
 
 function FolderPicker({
-  tree,
+  tree: rawTree,
   value,
   onChange,
   onTreeChanged,
@@ -393,6 +402,11 @@ function FolderPicker({
   onChange: (id: number) => void;
   onTreeChanged?: () => void | Promise<void>;
 }) {
+  // Defensive: never show soft-deleted folders or chapters in the picker.
+  const tree: Tree = rawTree
+    .filter((r) => !r.deletedAt)
+    .map((r) => ({ ...r, children: r.children.filter((c) => !c.deletedAt) }));
+
   const [expandedRoot, setExpandedRoot] = useState<number | null>(() => {
     if (value === null) return null;
     for (const root of tree) {

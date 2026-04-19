@@ -26,7 +26,13 @@ type FolderTree = {
   tree: Array<{
     id: number;
     name: string;
-    children: Array<{ id: number; name: string; cardCount: number }>;
+    deletedAt?: string | null;
+    children: Array<{
+      id: number;
+      name: string;
+      cardCount: number;
+      deletedAt?: string | null;
+    }>;
   }>;
 };
 
@@ -58,6 +64,8 @@ export function ReviewFeed() {
   const [noteDraft, setNoteDraft] = useState("");
   const [noteSaving, setNoteSaving] = useState(false);
   const [noteError, setNoteError] = useState<string | null>(null);
+  const [undoCardId, setUndoCardId] = useState<number | null>(null);
+  const undoTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const scrollerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -99,6 +107,24 @@ export function ReviewFeed() {
   useEffect(() => {
     refreshTree();
   }, [refreshTree]);
+
+  // Prune any selected chapter ids that no longer exist in the active tree
+  // (happens when a chapter is soft-deleted elsewhere).
+  useEffect(() => {
+    if (!initialized || tree.length === 0) return;
+    const active = new Set<number>();
+    for (const root of tree) {
+      if (root.deletedAt) continue;
+      for (const c of root.children) {
+        if (!c.deletedAt) active.add(c.id);
+      }
+    }
+    const pruned = selected.filter((id) => active.has(id));
+    if (pruned.length !== selected.length) {
+      setSelected(pruned);
+      localStorage.setItem("selectedFolders", JSON.stringify(pruned));
+    }
+  }, [tree, initialized, selected]);
 
   const onRate = useCallback(
     async (cardId: number, rating: number, index: number) => {
@@ -171,9 +197,42 @@ export function ReviewFeed() {
       setEditorOpen(false);
       setCards((prev) => prev.filter((c) => c.id !== id));
       refreshTree();
+      if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
+      setUndoCardId(id);
+      undoTimerRef.current = setTimeout(() => {
+        setUndoCardId((curr) => (curr === id ? null : curr));
+      }, 6000);
     },
     [refreshTree],
   );
+
+  const dismissUndo = useCallback(() => {
+    if (undoTimerRef.current) {
+      clearTimeout(undoTimerRef.current);
+      undoTimerRef.current = null;
+    }
+    setUndoCardId(null);
+  }, []);
+
+  const undoDelete = useCallback(async () => {
+    if (undoCardId === null) return;
+    const id = undoCardId;
+    dismissUndo();
+    try {
+      const res = await fetch(`/api/cards/${id}/restore`, { method: "POST" });
+      if (!res.ok) return;
+      refreshTree();
+      await fetchCards();
+    } catch {
+      // silent; user can still recover from trash view
+    }
+  }, [undoCardId, dismissUndo, refreshTree, fetchCards]);
+
+  useEffect(() => {
+    return () => {
+      if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
+    };
+  }, []);
 
   const openNote = useCallback((card: Card) => {
     setNoteCardId(card.id);
@@ -365,6 +424,10 @@ export function ReviewFeed() {
         tree={tree}
         selected={selected}
         onApply={onApplyFilters}
+        onTreeChanged={async () => {
+          refreshTree();
+          await fetchCards();
+        }}
       />
       <CardEditor
         open={editorOpen}
@@ -376,6 +439,34 @@ export function ReviewFeed() {
         onDeleted={onEditorDeleted}
         onTreeChanged={refreshTree}
       />
+
+      {undoCardId !== null && (
+        <div className="fixed left-0 right-0 z-50 flex justify-center pointer-events-none bottom-[calc(env(safe-area-inset-bottom)+1rem)]">
+          <div className="pointer-events-auto flex items-center gap-3 rounded-full bg-ink text-paper px-4 py-2.5 shadow-[0_8px_24px_rgba(0,0,0,0.25)]">
+            <span className="text-xs tracking-wide uppercase">Card deleted</span>
+            <button
+              onClick={undoDelete}
+              className="rounded-full border border-paper/40 px-3 py-1 text-[11px] tracking-wide uppercase hover:bg-paper/10"
+            >
+              Undo
+            </button>
+            <button
+              onClick={dismissUndo}
+              className="text-paper/60 hover:text-paper"
+              aria-label="Dismiss"
+            >
+              <svg width="12" height="12" viewBox="0 0 10 10" fill="none" aria-hidden>
+                <path
+                  d="M1 1l8 8M9 1l-8 8"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
 
       {noteCard && (
         <div

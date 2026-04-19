@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { and, asc, eq, inArray, lte, or, SQL } from "drizzle-orm";
+import { and, asc, eq, inArray, isNull, lte, or, SQL } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
 
 export const runtime = "nodejs";
@@ -26,10 +26,15 @@ export async function GET(req: NextRequest) {
     eq(schema.cardState.state, 0),
   )!;
 
+  const activeFilter = and(
+    isNull(schema.cards.deletedAt),
+    isNull(schema.folders.deletedAt),
+  )!;
+
   const where: SQL =
     folderIds && folderIds.length > 0
-      ? and(dueOrNew, inArray(schema.cards.folderId, folderIds))!
-      : dueOrNew;
+      ? and(dueOrNew, activeFilter, inArray(schema.cards.folderId, folderIds))!
+      : and(dueOrNew, activeFilter)!;
 
   const rows = await db
     .select({
@@ -51,6 +56,7 @@ export async function GET(req: NextRequest) {
       schema.cardState,
       eq(schema.cardState.cardId, schema.cards.id),
     )
+    .innerJoin(schema.folders, eq(schema.folders.id, schema.cards.folderId))
     .where(where)
     .orderBy(asc(schema.cardState.due))
     .limit(limit);

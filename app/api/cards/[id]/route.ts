@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createHash } from "node:crypto";
-import { and, eq, ne } from "drizzle-orm";
+import { and, eq, isNull, ne } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
 
 export const runtime = "nodejs";
@@ -26,7 +26,7 @@ async function loadCard(id: number) {
   const [row] = await db
     .select()
     .from(schema.cards)
-    .where(eq(schema.cards.id, id))
+    .where(and(eq(schema.cards.id, id), isNull(schema.cards.deletedAt)))
     .limit(1);
   return row ?? null;
 }
@@ -86,16 +86,24 @@ export async function PATCH(
     const [folder] = await db
       .select({ id: schema.folders.id })
       .from(schema.folders)
-      .where(eq(schema.folders.id, nextFolderId))
+      .where(
+        and(
+          eq(schema.folders.id, nextFolderId),
+          isNull(schema.folders.deletedAt),
+        ),
+      )
       .limit(1);
     if (!folder) {
-      return NextResponse.json({ error: "folder not found" }, { status: 404 });
+      return NextResponse.json(
+        { error: "folder not found or deleted" },
+        { status: 404 },
+      );
     }
   }
 
   const contentHash = hashContent(nextQuestion, nextAnswer);
 
-  // Duplicate check if content/folder changed
+  // Duplicate check if content/folder changed (ignore soft-deleted duplicates)
   if (
     contentHash !== existing.contentHash ||
     nextFolderId !== existing.folderId
@@ -108,6 +116,7 @@ export async function PATCH(
           eq(schema.cards.folderId, nextFolderId),
           eq(schema.cards.contentHash, contentHash),
           ne(schema.cards.id, id),
+          isNull(schema.cards.deletedAt),
         ),
       )
       .limit(1);
@@ -155,11 +164,12 @@ export async function DELETE(
     return NextResponse.json({ error: "bad id" }, { status: 400 });
   }
   const result = await db
-    .delete(schema.cards)
-    .where(eq(schema.cards.id, id))
+    .update(schema.cards)
+    .set({ deletedAt: new Date() })
+    .where(and(eq(schema.cards.id, id), isNull(schema.cards.deletedAt)))
     .returning({ id: schema.cards.id });
   if (result.length === 0) {
     return NextResponse.json({ error: "not found" }, { status: 404 });
   }
-  return NextResponse.json({ ok: true });
+  return NextResponse.json({ ok: true, restorable: true });
 }

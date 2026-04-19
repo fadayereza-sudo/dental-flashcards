@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createHash } from "node:crypto";
-import { and, eq } from "drizzle-orm";
+import { and, eq, isNull } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
 import { emptyState, fromFsrsCard } from "@/lib/fsrs";
 
@@ -41,17 +41,28 @@ export async function POST(req: NextRequest) {
   const [folder] = await db
     .select({ id: schema.folders.id })
     .from(schema.folders)
-    .where(eq(schema.folders.id, body.folderId))
+    .where(
+      and(
+        eq(schema.folders.id, body.folderId),
+        isNull(schema.folders.deletedAt),
+      ),
+    )
     .limit(1);
 
   if (!folder) {
-    return NextResponse.json({ error: "folder not found" }, { status: 404 });
+    return NextResponse.json(
+      { error: "folder not found or deleted" },
+      { status: 404 },
+    );
   }
 
   const contentHash = hashContent(body.question, body.answer);
 
-  const existing = await db
-    .select({ id: schema.cards.id })
+  const [existing] = await db
+    .select({
+      id: schema.cards.id,
+      deletedAt: schema.cards.deletedAt,
+    })
     .from(schema.cards)
     .where(
       and(
@@ -61,7 +72,22 @@ export async function POST(req: NextRequest) {
     )
     .limit(1);
 
-  if (existing.length > 0) {
+  if (existing) {
+    if (existing.deletedAt !== null) {
+      const [restored] = await db
+        .update(schema.cards)
+        .set({
+          deletedAt: null,
+          source: body.source?.trim() || null,
+          image: body.image?.trim() || null,
+          reference: body.reference?.trim() || null,
+          referenceSection: body.referenceSection?.trim() || null,
+          updatedAt: new Date(),
+        })
+        .where(eq(schema.cards.id, existing.id))
+        .returning();
+      return NextResponse.json({ card: restored, restored: true });
+    }
     return NextResponse.json(
       { error: "duplicate card in this folder" },
       { status: 409 },

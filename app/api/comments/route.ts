@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { and, desc, eq, isNotNull, ne } from "drizzle-orm";
+import { and, desc, eq, isNotNull, isNull, ne } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
 
 export const runtime = "nodejs";
@@ -18,7 +18,14 @@ export async function GET() {
     })
     .from(schema.cards)
     .innerJoin(schema.folders, eq(schema.folders.id, schema.cards.folderId))
-    .where(and(isNotNull(schema.cards.note), ne(schema.cards.note, "")))
+    .where(
+      and(
+        isNotNull(schema.cards.note),
+        ne(schema.cards.note, ""),
+        isNull(schema.cards.deletedAt),
+        isNull(schema.folders.deletedAt),
+      ),
+    )
     .orderBy(desc(schema.cards.updatedAt));
 
   const parentIds = Array.from(

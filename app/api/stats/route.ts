@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { gte, sql } from "drizzle-orm";
+import { and, eq, gte, isNull, sql } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
 
 export const runtime = "nodejs";
@@ -10,6 +10,11 @@ export async function GET() {
   const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
   const in24h = new Date(now.getTime() + 24 * 60 * 60 * 1000);
 
+  const activeFilter = and(
+    isNull(schema.cards.deletedAt),
+    isNull(schema.folders.deletedAt),
+  );
+
   const [totals] = await db
     .select({
       total: sql<number>`COUNT(*)::int`,
@@ -18,14 +23,20 @@ export async function GET() {
       reviewCount: sql<number>`COUNT(*) FILTER (WHERE ${schema.cardState.state} = 2)::int`,
       relearningCount: sql<number>`COUNT(*) FILTER (WHERE ${schema.cardState.state} = 3)::int`,
     })
-    .from(schema.cardState);
+    .from(schema.cardState)
+    .innerJoin(schema.cards, eq(schema.cards.id, schema.cardState.cardId))
+    .innerJoin(schema.folders, eq(schema.folders.id, schema.cards.folderId))
+    .where(activeFilter);
 
   const [dueBuckets] = await db
     .select({
       dueNow: sql<number>`COUNT(*) FILTER (WHERE ${schema.cardState.due} <= NOW())::int`,
       dueIn24h: sql<number>`COUNT(*) FILTER (WHERE ${schema.cardState.due} BETWEEN NOW() AND ${in24h.toISOString()})::int`,
     })
-    .from(schema.cardState);
+    .from(schema.cardState)
+    .innerJoin(schema.cards, eq(schema.cards.id, schema.cardState.cardId))
+    .innerJoin(schema.folders, eq(schema.folders.id, schema.cards.folderId))
+    .where(activeFilter);
 
   const reviewsByDayRaw = await db
     .select({

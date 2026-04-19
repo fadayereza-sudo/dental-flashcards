@@ -43,8 +43,11 @@ async function upsertFolder(
   name: string,
   parentId: number | null,
 ): Promise<number> {
-  const existing = await db
-    .select({ id: schema.folders.id })
+  const [existing] = await db
+    .select({
+      id: schema.folders.id,
+      deletedAt: schema.folders.deletedAt,
+    })
     .from(schema.folders)
     .where(
       and(
@@ -55,7 +58,15 @@ async function upsertFolder(
       ),
     )
     .limit(1);
-  if (existing[0]) return existing[0].id;
+  if (existing) {
+    if (existing.deletedAt !== null) {
+      await db
+        .update(schema.folders)
+        .set({ deletedAt: null })
+        .where(eq(schema.folders.id, existing.id));
+    }
+    return existing.id;
+  }
   const [row] = await db
     .insert(schema.folders)
     .values({ name, parentId })
@@ -71,6 +82,7 @@ async function run() {
   }
 
   let totalInserted = 0;
+  let totalRestored = 0;
   let totalSkipped = 0;
 
   for (const file of files) {
@@ -87,8 +99,11 @@ async function run() {
 
     for (const c of payload.cards) {
       const contentHash = hash(c.question, c.answer);
-      const dup = await db
-        .select({ id: schema.cards.id })
+      const [dup] = await db
+        .select({
+          id: schema.cards.id,
+          deletedAt: schema.cards.deletedAt,
+        })
         .from(schema.cards)
         .where(
           and(
@@ -97,8 +112,16 @@ async function run() {
           ),
         )
         .limit(1);
-      if (dup[0]) {
-        totalSkipped++;
+      if (dup) {
+        if (dup.deletedAt !== null) {
+          await db
+            .update(schema.cards)
+            .set({ deletedAt: null })
+            .where(eq(schema.cards.id, dup.id));
+          totalRestored++;
+        } else {
+          totalSkipped++;
+        }
         continue;
       }
       const [card] = await db
@@ -121,7 +144,9 @@ async function run() {
     console.log(`Imported ${file} → ${payload.folder} / ${payload.subfolder}`);
   }
 
-  console.log(`\nDone. Inserted ${totalInserted}, skipped ${totalSkipped}.`);
+  console.log(
+    `\nDone. Inserted ${totalInserted}, restored ${totalRestored}, skipped ${totalSkipped}.`,
+  );
 }
 
 run().catch((err) => {
