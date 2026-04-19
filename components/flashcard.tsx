@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { useBackClose } from "@/lib/use-back-close";
+import { useAnimatedSheet } from "@/lib/use-animated-sheet";
 
 type Props = {
   card: {
@@ -30,8 +30,11 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
   const [flipped, setFlipped] = useState(false);
   const [rated, setRated] = useState(false);
   const [refOpen, setRefOpen] = useState(false);
-  const closeRef = useCallback(() => setRefOpen(false), []);
-  useBackClose(refOpen, closeRef);
+  const resetRef = useCallback(() => setRefOpen(false), []);
+  const { closing: refClosing, close: closeRef } = useAnimatedSheet(
+    refOpen,
+    resetRef,
+  );
 
   const stateLabel =
     card.state === 0
@@ -189,11 +192,13 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
       {refOpen && (card.reference || card.referenceSection) && (
         <div
           className="fixed inset-0 z-50 flex items-end justify-center"
-          onClick={() => setRefOpen(false)}
+          onClick={closeRef}
         >
-          <div className="absolute inset-0 bg-ink/40 backdrop-blur-sm" />
           <div
-            className="relative w-full max-w-lg max-h-[85dvh] rounded-t-2xl bg-paper border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden animate-slide-up"
+            className={`absolute inset-0 bg-ink/40 backdrop-blur-sm ${refClosing ? "animate-fade-out" : "animate-fade-in"}`}
+          />
+          <div
+            className={`relative w-full max-w-lg max-h-[85dvh] rounded-t-2xl bg-paper border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden ${refClosing ? "animate-slide-down" : "animate-slide-up"}`}
             onClick={(e) => e.stopPropagation()}
           >
             {/* Handle */}
@@ -218,7 +223,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
               </div>
               <button
                 type="button"
-                onClick={() => setRefOpen(false)}
+                onClick={closeRef}
                 className="shrink-0 mt-1 w-7 h-7 rounded-full bg-paper-sunk border border-rule flex items-center justify-center text-ink-muted hover:text-ink transition-colors"
                 aria-label="Close"
               >

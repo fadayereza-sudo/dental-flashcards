@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Flashcard } from "./flashcard";
 import { FilterDrawer } from "./filter-drawer";
 import { CardEditor, type CardEditorValue } from "./card-editor";
-import { useBackClose } from "@/lib/use-back-close";
+import { useAnimatedSheet } from "@/lib/use-animated-sheet";
 
 type Card = {
   id: number;
@@ -173,12 +173,17 @@ export function ReviewFeed() {
     setNoteError(null);
   }, []);
 
-  const closeNote = useCallback(() => {
+  const resetNote = useCallback(() => {
     setNoteCardId(null);
     setNoteDraft("");
     setNoteError(null);
     setNoteSaving(false);
   }, []);
+
+  const { closing: noteClosing, close: closeNote } = useAnimatedSheet(
+    noteCardId !== null,
+    resetNote,
+  );
 
   const saveNote = useCallback(async () => {
     if (noteCardId === null) return;
@@ -206,8 +211,6 @@ export function ReviewFeed() {
 
   const noteCard =
     noteCardId === null ? null : cards.find((c) => c.id === noteCardId) ?? null;
-
-  useBackClose(noteCardId !== null, closeNote);
 
   const dueCount = cards.filter((c) => new Date(c.due) <= new Date()).length;
 
@@ -367,9 +370,11 @@ export function ReviewFeed() {
           className="fixed inset-0 z-50 flex items-end justify-center"
           onClick={closeNote}
         >
-          <div className="absolute inset-0 bg-ink/40 backdrop-blur-sm" />
           <div
-            className="relative w-full max-w-lg max-h-[85dvh] rounded-t-2xl bg-paper border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden animate-slide-up"
+            className={`absolute inset-0 bg-ink/40 backdrop-blur-sm ${noteClosing ? "animate-fade-out" : "animate-fade-in"}`}
+          />
+          <div
+            className={`relative w-full max-w-lg max-h-[85dvh] rounded-t-2xl bg-paper border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden ${noteClosing ? "animate-slide-down" : "animate-slide-up"}`}
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex justify-center pt-3 pb-1">
