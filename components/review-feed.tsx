@@ -44,6 +44,7 @@ function loadSelectedFolders(): number[] {
 
 export function ReviewFeed() {
   const [cards, setCards] = useState<Card[]>([]);
+  const [reviewedIds, setReviewedIds] = useState<Set<number>>(new Set());
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState<string | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -67,13 +68,14 @@ export function ReviewFeed() {
   const fetchCards = useCallback(async () => {
     setLoading(true);
     setFetchError(null);
-    const qs =
-      selected.length > 0 ? `?folders=${selected.join(",")}` : "";
+    const params = new URLSearchParams({ limit: "500" });
+    if (selected.length > 0) params.set("folders", selected.join(","));
     try {
-      const res = await fetch(`/api/cards/due${qs}`, { cache: "no-store" });
+      const res = await fetch(`/api/cards/due?${params}`, { cache: "no-store" });
       if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
       const data = await res.json();
       setCards(data.cards ?? []);
+      setReviewedIds(new Set());
     } catch (err) {
       setFetchError(err instanceof Error ? err.message : String(err));
       setCards([]);
@@ -104,6 +106,12 @@ export function ReviewFeed() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ cardId, rating }),
+      });
+      setReviewedIds((prev) => {
+        if (prev.has(cardId)) return prev;
+        const updated = new Set(prev);
+        updated.add(cardId);
+        return updated;
       });
       // Advance to the next card visually
       const next = scrollerRef.current?.children[index + 1] as
@@ -212,7 +220,8 @@ export function ReviewFeed() {
   const noteCard =
     noteCardId === null ? null : cards.find((c) => c.id === noteCardId) ?? null;
 
-  const dueCount = cards.filter((c) => new Date(c.due) <= new Date()).length;
+  const sessionTotal = cards.length;
+  const sessionDone = reviewedIds.size;
 
   const selectedCardCount = (() => {
     if (selected.length === 0) return 0;
@@ -274,9 +283,12 @@ export function ReviewFeed() {
               <path d="M2 12V6M6 12V2M10 12V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
             </svg>
           </Link>
-          <div className="pointer-events-auto inline-flex items-center gap-1.5 rounded-full bg-paper/80 backdrop-blur-md px-3.5 py-2 text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm">
-            <span className="font-mono text-ink">{dueCount}</span>
-            <span>due</span>
+          <div
+            className="pointer-events-auto inline-flex items-center gap-1.5 rounded-full bg-paper/80 backdrop-blur-md px-3.5 py-2 text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm"
+            aria-label={`${sessionDone} of ${sessionTotal} reviewed`}
+          >
+            <span className="font-mono text-ink">{sessionDone}</span>
+            <span className="font-mono text-ink-muted">/ {sessionTotal}</span>
           </div>
         </div>
       </header>

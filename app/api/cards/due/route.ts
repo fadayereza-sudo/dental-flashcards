@@ -16,7 +16,7 @@ export async function GET(req: NextRequest) {
     : null;
   const limit = Math.min(
     parseInt(url.searchParams.get("limit") ?? "50", 10) || 50,
-    200,
+    500,
   );
 
   const now = new Date();
