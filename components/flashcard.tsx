@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useState } from "react";
+import { useBackClose } from "@/lib/use-back-close";
 
 type Props = {
   card: {
@@ -29,6 +30,8 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
   const [flipped, setFlipped] = useState(false);
   const [rated, setRated] = useState(false);
   const [refOpen, setRefOpen] = useState(false);
+  const closeRef = useCallback(() => setRefOpen(false), []);
+  useBackClose(refOpen, closeRef);
 
   const stateLabel =
     card.state === 0

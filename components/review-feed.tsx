@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Flashcard } from "./flashcard";
 import { FilterDrawer } from "./filter-drawer";
 import { CardEditor, type CardEditorValue } from "./card-editor";
+import { useBackClose } from "@/lib/use-back-close";
 
 type Card = {
   id: number;
@@ -205,6 +206,8 @@ export function ReviewFeed() {
 
   const noteCard =
     noteCardId === null ? null : cards.find((c) => c.id === noteCardId) ?? null;
+
+  useBackClose(noteCardId !== null, closeNote);
 
   const dueCount = cards.filter((c) => new Date(c.due) <= new Date()).length;
 
