@@ -1,0 +1,54 @@
+{
+  "description": "Curated 32-episode shortlist from the Protrusive Dental Podcast, selected against Ali's criteria: clinical judgment in practice, patient communication, stress/mindset, system/business insider knowledge, risk/legal, when-things-go-wrong, team dynamics, what separates great dentists. Ranked via title + full-description keyword scoring then pruned with judgment. Processed in waves of 5.",
+  "buckets": {
+    "when_wrong_medicolegal": [
+      {"videoId": "1CSE9J1w-Pw", "title": "Implant Failed After 6 Months - Surgeon vs Restorative Medicolegal"},
+      {"videoId": "bf24wpgiv3Q", "title": "Pain after Crown Fit - Tough Scenarios - PDP167"},
+      {"videoId": "BvB3hDESYDY", "title": "Managing Extractions Complications - Nekky Jamal - PDP210"},
+      {"videoId": "xkxX7Ww-QFY", "title": "Relapse, Retention, Compliance - Ortho Medico-Legal - GF023"},
+      {"videoId": "VxKaeCYav0E", "title": "Don't Get Sued - PDP018"},
+      {"videoId": "dRlvlGUyQQQ", "title": "Audio Recording Your Consultations - IC039"},
+      {"videoId": "5OI8oJ8Pha8", "title": "Cosmetic Dental Failures - Veneer Patients Change Minds"},
+      {"videoId": "0MhOC-LLxbI", "title": "10 Commandments for Staying Out of Trouble - PDP131"}
+    ],
+    "emergencies": [
+      {"videoId": "7b2oG4g12q0", "title": "Medical Emergencies for Dentists Part 1 - PDP241"},
+      {"videoId": "fyIIsT0dlIc", "title": "Medical Emergencies for Dentists Part 2 - PDP242"}
+    ],
+    "patient_craft": [
+      {"videoId": "Wtugp1t-IrM", "title": "Building Trust, Consent and EQ - Colin Campbell"},
+      {"videoId": "vapDrnVqHRw", "title": "Communicating Fees, Treatment Plans and More - PS015"},
+      {"videoId": "_8O5CqoYIS4", "title": "Consent Is Like An Onion - PDP113"},
+      {"videoId": "dkMByGXwI1A", "title": "Managing Dental Anxiety - PDP050"},
+      {"videoId": "L38Hhu855Ro", "title": "AI Auditing Communication and Conversion - IC069"}
+    ],
+    "stress_mindset": [
+      {"videoId": "BftumzpytJI", "title": "Before the Breaking Point - Mental Health - IC071"},
+      {"videoId": "3JKwoO_nEeo", "title": "Mental Health In Dentistry - PDP185"},
+      {"videoId": "rH7PtjFTOpk", "title": "Health is Wealth (Wellbeing) - IC055"},
+      {"videoId": "jRbgvgSpqLk", "title": "Stop Being a Perfectionist - PDP184"},
+      {"videoId": "XDxlUFeEpbw", "title": "Fall in Love with Dentistry Again - IC060"},
+      {"videoId": "wsiENbuIXcE", "title": "Pursuit of Clinical Excellence, Anxiety - IC053"}
+    ],
+    "what_makes_great": [
+      {"videoId": "NJeMUF05T18", "title": "10 Habits of Highly Successful Dentists - PDP042"},
+      {"videoId": "vIEYEA9Y61s", "title": "Trusting Your Gut Instinct for Treatment Planning - PDP171"}
+    ],
+    "system_business_career": [
+      {"videoId": "lC_POxlmL_U", "title": "Associate Contracts FINALLY Made Sense - IC051"},
+      {"videoId": "Tf1bgOWMA2A", "title": "Is Practice Ownership Right For You? - PDP237"},
+      {"videoId": "BW_TZ5iZ-B8", "title": "Expense Claiming for Dentists (Accountant) - PDP261"},
+      {"videoId": "4OXruGIdb_g", "title": "Personal Finances for Dentists - IC068"},
+      {"videoId": "5N0kj2YuFtA", "title": "How to Find a Mentor - IC058"},
+      {"videoId": "gJNUM6JSLfE", "title": "2 Years Out of Dental School - IC066"}
+    ],
+    "team_operations": [
+      {"videoId": "-ua1PAB6A90", "title": "Principals vs Associates - Positive Relationships - IC054"},
+      {"videoId": "4p5iLCX-mgA", "title": "Treatment Co-Ordinators - IC043"},
+      {"videoId": "G5ebbUl0sDg", "title": "Treatment Planning Bridges vs Dentures - PDP198"}
+    ]
+  },
+  "completed": [
+    {"videoId": "SmLM5cr4mzo", "title": "Dental Indemnity vs Insurance 2023 - GF019"}
+  ]
+}
