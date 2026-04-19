@@ -13,6 +13,7 @@ type PatchBody = {
   image?: string | null;
   reference?: string | null;
   referenceSection?: string | null;
+  note?: string | null;
 };
 
 function hashContent(question: string, answer: string) {
@@ -134,6 +135,7 @@ export async function PATCH(
         body.referenceSection,
         existing.referenceSection,
       ),
+      note: pickNullable(body.note, existing.note),
       contentHash,
       updatedAt: new Date(),
     })

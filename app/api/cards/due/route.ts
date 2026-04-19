@@ -40,6 +40,7 @@ export async function GET(req: NextRequest) {
       image: schema.cards.image,
       reference: schema.cards.reference,
       referenceSection: schema.cards.referenceSection,
+      note: schema.cards.note,
       folderId: schema.cards.folderId,
       due: schema.cardState.due,
       state: schema.cardState.state,
