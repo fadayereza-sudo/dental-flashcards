@@ -136,6 +136,23 @@ Schema (matches [scripts/import-flashcards.ts](../../../scripts/import-flashcard
 - `reference` — the verbatim text from the reference file that this specific card was derived from. Copy the relevant passage(s) exactly. This appears in a "View Reference" popup on the card back.
 - `referenceSection` — the section/chapter heading the text comes from (e.g. "First impressions", "Should You Ensure Removal of All Carious Tissue?").
 
+### YouTube-podcast sources (Protrusive etc.)
+
+For cards derived from a YouTube podcast transcript reference (source type `protrusive-podcast` and similar), the `reference` body must be pre-formatted so the popup renders a clickable, timestamped link back to the moment of the quote:
+
+```
+[<Video title>](https://www.youtube.com/watch?v=<videoId>&t=<seconds>s)
+Published <DD Mon YYYY>
+
+[<mm:ss>] <verbatim transcript quote with speaker labels preserved>
+```
+
+- The first line is a markdown link. The renderer in [components/flashcard.tsx](../../../components/flashcard.tsx) detects `[text](url)` and emits an anchor tag.
+- Pull `<Video title>`, `<videoId>`, and `<DD Mon YYYY>` (formatted from `publishedDate`) from the transcript `.txt` header in `source-material/protrusive-podcast/<slug>.txt`.
+- The seconds in the URL must match the `[mm:ss]` anchor of the quoted passage (compute: `mm*60 + ss`).
+- **Never include the podcast's internal episode code** (e.g. "GF019", "PDP177", "IC051") in `folder`, `subfolder`, `source`, `referenceSection`, or inside the reference body. Those codes are Jaz Gulati's internal catalogue and mean nothing to the user. Use the episode's topic instead: `subfolder: "Dental Indemnity vs Insurance"`, `source: "Protrusive Dental Podcast (<host + guest names>)"`, `referenceSection: "<episode topic> – <specific subtopic>"`.
+- The reference `.md` file from [extract-references](../extract-references/SKILL.md) holds the raw transcript quote (no title header). This skill is responsible for building the linked-title header at card-generation time.
+
 ## Do NOT
 
 - Run `npm run import` yourself. Show the user the file path and let them run it. The import is one-way and dedupe is by content hash — a typo in a generated card sticks until manually deleted.

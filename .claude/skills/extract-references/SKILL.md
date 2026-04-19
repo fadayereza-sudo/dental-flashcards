@@ -52,6 +52,7 @@ Three categories of source in `source-material/`:
 | `biopsychosocial` | The Biopsychosocial Model of Health and Disease 2019 | Theoretical chapters on the BPS model | **Applied** — read for principles, write dental applications |
 | `guidelines/<body>` | UK dental guidelines (DBOH, SDCEP, BSP, FGDP) | Decision rules + rationale | **Recommendation + rationale** — one reference per recommendation |
 | `university handbooks/` (sources for `paed-handbook`, `restorative-handbook`) | Leeds University clinical handbooks (Paediatric, Restorative) | Plain Calibre `.txt`, procedural how-to | **Procedural verbatim** — one reference per procedure, decision, or tool/method block |
+| `protrusive-podcast/` | Jaz Gulati's Protrusive Dental Podcast YouTube channel transcripts | Per-episode `.txt` with header block + `[mm:ss]`-anchored paragraphs | **Verbatim quote + reasoning filter** — one reference per teachable "claim + why" unit |
 
 The two textbooks each have:
 - **`full-text.txt`** — every paragraph, one per line, tagged `[index][style] text`
@@ -179,6 +180,76 @@ No fixed sub-headings. Just the verbatim procedural text from the source, cleane
 
 - **Paed handbook** — Jackson Prize details, BSPD membership pitch, contributor lists, the introductory "objectives of the curriculum" page, lecture timetables.
 - **Restorative handbook** — clinic equipment cabinetry layouts, attendance policies, dispensary lists, professional conduct admin, equipment failure phone numbers, blank annotation pages.
+
+### YouTube podcast transcripts — verbatim quote + reasoning filter
+
+YouTube podcast transcripts (currently: Jaz Gulati's Protrusive Dental Podcast) are a dense source of tacit, insider GDP knowledge that never makes it into textbooks — UK system quirks, indemnity/GDC realities, patient-communication craft, workflow efficiency.
+
+#### Source layout
+
+```
+source-material/protrusive-podcast/
+  channel-index.json                   # all uploads with videoId, title, description snippet, duration
+  <video-slug>.txt                      # per-episode transcript with header block:
+                                        #   # <Episode title>
+                                        #   videoId: <id>
+                                        #   url: https://www.youtube.com/watch?v=<id>
+                                        #   duration: <mm:ss>
+                                        #   publishedDate: <YYYY-MM-DD>     (absolute date, fetched by scripts/fetch-youtube-transcripts.py)
+                                        #
+                                        #   [mm:ss] <transcript body with speaker labels [Jaz]/[Neel]/... preserved>
+```
+
+Transcripts are produced by [scripts/fetch-youtube-transcripts.py](../../../scripts/fetch-youtube-transcripts.py).
+
+#### Approach
+
+1. **Read the transcript `.txt`.** It's usually 50–150 `[mm:ss]`-anchored chunks.
+2. **Scan for "claim + why" units** — any passage where the speaker states a rule or insight AND gives reasoning (mechanism, consequence, concrete example, historical context). Podcast transcripts are chatty; be ruthless.
+3. **Skip** ads (the teaser ad read, the mid-episode sponsor break), banter, intro/outro, and anything where a rule is stated without reasoning (per `feedback_no_extrapolation_in_cards.md` — we don't backfill rationale).
+4. **One reference = one claim + why unit.** Sized for 1–4 flashcards.
+5. **Body is a verbatim transcript quote**, preserving the `[mm:ss]` anchor at the start and speaker labels inside. Contiguous passage only — no ellipsis stitching. If a concept spans a Q&A exchange, keep the whole exchange.
+
+#### Reference file path and ID
+
+```
+references/protrusive-podcast/<podcast-code>-<NNN>.md
+```
+
+Where `<podcast-code>` is a short slug derived from the episode (the internal code like `gf019` or, if absent, a topical short slug — this appears only in the filename, never in user-facing fields).
+
+Example: `references/protrusive-podcast/protrusive-gf019-007.md`.
+
+#### Frontmatter
+
+```yaml
+---
+id: protrusive-gf019-007
+book: "Protrusive Dental Podcast"
+section: "Dental Indemnity vs Insurance – Claims occurred: each year banked in perpetuity"
+sourceLines: [83, 89]
+images: []
+tags:
+  - indemnity
+  - medico-legal
+---
+```
+
+- `book` — always `"Protrusive Dental Podcast"` (no episode code, no episode title here — that lives in the body's hyperlinked first line at card-generation time).
+- `section` — `"<Episode topic> – <Specific subtopic>"`. **Never include the episode's internal code** (e.g. "GF019", "PDP177", "IC051"). Those codes are the podcast's private catalogue and mean nothing to the user.
+- `sourceLines` — inclusive line range in the `.txt`.
+- `images` — always `[]` (no images in transcripts).
+- `tags` — add `uk-system`, `indemnity`, `medico-legal`, `career`, `communication` as new tags alongside existing ones where they fit.
+
+#### Body template
+
+Raw verbatim transcript passage:
+
+```markdown
+[9:36] And if I can give an example, which happened yesterday, don't want to mention any names again, but this dentist has been left without cover. Because he took a vertically impacting wisdom tooth out... [Jaz] Wait, you didn't ask him that if he does wisdom teeth, you said implants, but you meant wisdom teeth, right? [Neel] No, well, he's covered for implant...
+```
+
+Do **not** pre-build the linked-title header here — the `make-flashcards` skill adds that when generating cards (it needs the exact `[mm:ss]` of the quote to build the timestamped URL).
 
 ### Guidelines — recommendation + rationale
 

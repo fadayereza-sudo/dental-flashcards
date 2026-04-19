@@ -1,7 +1,33 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { Fragment, useCallback, useState, type ReactNode } from "react";
 import { useAnimatedSheet } from "@/lib/use-animated-sheet";
+
+const MD_LINK = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
+
+function renderWithLinks(text: string): ReactNode {
+  const parts: ReactNode[] = [];
+  let last = 0;
+  let key = 0;
+  for (const match of text.matchAll(MD_LINK)) {
+    const start = match.index ?? 0;
+    if (start > last) parts.push(text.slice(last, start));
+    parts.push(
+      <a
+        key={key++}
+        href={match[2]}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-bronze underline underline-offset-2 hover:no-underline break-words"
+      >
+        {match[1]}
+      </a>,
+    );
+    last = start + match[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts.map((p, i) => <Fragment key={i}>{p}</Fragment>);
+}
 
 type Props = {
   card: {
@@ -237,7 +263,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
             <div className="flex-1 overflow-y-auto px-6 py-5">
               {card.reference ? (
                 <blockquote className="text-[15px] leading-[1.7] text-ink whitespace-pre-line border-l-2 border-bronze/40 pl-4">
-                  {card.reference}
+                  {renderWithLinks(card.reference)}
                 </blockquote>
               ) : (
                 <p className="text-sm text-ink-muted italic">

@@ -12,7 +12,28 @@ import re
 import sys
 from pathlib import Path
 
+import requests
 from youtube_transcript_api import YouTubeTranscriptApi
+
+
+_DATE_RE = re.compile(r'"(?:publishDate|uploadDate)":"([^"]+)"')
+
+
+def fetch_publish_date(video_id):
+    """Fetch the absolute publish date for a YouTube video. Returns YYYY-MM-DD or None."""
+    try:
+        r = requests.get(
+            f"https://www.youtube.com/watch?v={video_id}",
+            headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US,en"},
+            cookies={"SOCS": "CAI"},
+            timeout=10,
+        )
+        m = _DATE_RE.search(r.text)
+        if not m:
+            return None
+        return m.group(1)[:10]
+    except Exception:
+        return None
 
 
 def slugify(title):
@@ -80,6 +101,7 @@ def main():
             continue
         chunks = chunk_snippets(fetched.snippets)
 
+        publish_date = fetch_publish_date(vid) or ""
         slug = slugify(meta["title"])
         out_path = out_dir / f"{slug}.txt"
         lines = [
@@ -87,6 +109,7 @@ def main():
             f"videoId: {vid}",
             f"url: https://www.youtube.com/watch?v={vid}",
             f"duration: {meta.get('lengthText', '')}",
+            f"publishedDate: {publish_date}",
             f"publishedTimeText: {meta.get('publishedTimeText', '')}",
             "",
         ]
