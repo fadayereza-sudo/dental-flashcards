@@ -97,11 +97,14 @@ export function ReviewFeed() {
     fetchCards();
   }, [initialized, fetchCards]);
 
-  const refreshTree = useCallback(() => {
-    fetch("/api/folders")
-      .then((r) => r.json())
-      .then((d: FolderTree) => setTree(d.tree ?? []))
-      .catch(() => {});
+  const refreshTree = useCallback(async () => {
+    try {
+      const res = await fetch("/api/folders");
+      const data: FolderTree = await res.json();
+      setTree(data.tree ?? []);
+    } catch {
+      // swallow — caller keeps using the stale tree
+    }
   }, []);
 
   useEffect(() => {

@@ -414,6 +414,10 @@ function FolderPicker({
     }
     return null;
   });
+  // When a book is freshly created, flip this on so the chapter input auto-opens.
+  const [autoOpenChapterFor, setAutoOpenChapterFor] = useState<number | null>(
+    null,
+  );
 
   useEffect(() => {
     if (value === null) return;
@@ -425,15 +429,26 @@ function FolderPicker({
     }
   }, [value, tree]);
 
-  const currentName = (() => {
+  const expandedRootName = (() => {
+    if (expandedRoot === null) return null;
+    return tree.find((r) => r.id === expandedRoot)?.name ?? null;
+  })();
+
+  const selectedChapterName = (() => {
     if (value === null) return null;
     for (const root of tree) {
       for (const c of root.children) {
-        if (c.id === value) return `${root.name} · ${c.name}`;
+        if (c.id === value) return { book: root.name, chapter: c.name };
       }
     }
     return null;
   })();
+
+  const breadcrumb = selectedChapterName
+    ? `${selectedChapterName.book} · ${selectedChapterName.chapter}`
+    : expandedRootName
+      ? `${expandedRootName} · pick a chapter`
+      : null;
 
   const createFolder = async (name: string, parentId: number | null) => {
     const res = await fetch("/api/folders", {
@@ -449,20 +464,28 @@ function FolderPicker({
 
   return (
     <div className="rounded-xl border border-rule bg-paper-sunk overflow-hidden">
-      {currentName && (
-        <div className="px-4 py-2.5 text-[13px] text-ink border-b border-rule/60 bg-paper">
-          {currentName}
+      {breadcrumb && (
+        <div className="px-4 py-2.5 text-[13px] border-b border-rule/60 bg-paper">
+          <span className={selectedChapterName ? "text-ink" : "text-ink-muted"}>
+            {breadcrumb}
+          </span>
         </div>
       )}
       <div className="max-h-72 overflow-y-auto">
         {tree.map((root) => {
           const isOpen = expandedRoot === root.id;
           return (
-            <div key={root.id}>
+            <div
+              key={root.id}
+              className={isOpen ? "bg-paper/60" : ""}
+            >
               <button
                 type="button"
-                onClick={() => setExpandedRoot(isOpen ? null : root.id)}
-                className="w-full flex items-center gap-2 px-4 py-2.5 text-left hover:bg-paper"
+                onClick={() => {
+                  setExpandedRoot(isOpen ? null : root.id);
+                  if (isOpen) setAutoOpenChapterFor(null);
+                }}
+                className={`w-full flex items-center gap-2 px-4 py-2.5 text-left hover:bg-paper transition-colors ${isOpen ? "border-l-2 border-bronze" : "border-l-2 border-transparent"}`}
               >
                 <svg
                   width="10"
@@ -478,7 +501,11 @@ function FolderPicker({
                     strokeLinecap="round"
                   />
                 </svg>
-                <span className="text-[14px] text-ink flex-1">{root.name}</span>
+                <span
+                  className={`text-[14px] flex-1 ${isOpen ? "text-ink font-medium" : "text-ink"}`}
+                >
+                  {root.name}
+                </span>
               </button>
               {isOpen && (
                 <>
@@ -487,14 +514,33 @@ function FolderPicker({
                       key={c.id}
                       type="button"
                       onClick={() => onChange(c.id)}
-                      className={`w-full flex items-center gap-2 pl-10 pr-4 py-2 text-left text-[13px] hover:bg-paper ${value === c.id ? "bg-paper text-ink" : "text-ink-soft"}`}
+                      className={`w-full flex items-center gap-2 pl-10 pr-4 py-2 text-left text-[13px] hover:bg-paper ${value === c.id ? "bg-ink/5 text-ink font-medium" : "text-ink-soft"}`}
                     >
-                      {c.name}
+                      {value === c.id && (
+                        <svg
+                          width="10"
+                          height="10"
+                          viewBox="0 0 11 11"
+                          fill="none"
+                          aria-hidden
+                        >
+                          <path
+                            d="M2 5.5l2.2 2.2L9 3"
+                            stroke="currentColor"
+                            strokeWidth="1.8"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                      )}
+                      <span className="flex-1">{c.name}</span>
                     </button>
                   ))}
                   <InlineCreate
                     placeholder={`New chapter in ${root.name}`}
                     indent
+                    autoOpen={autoOpenChapterFor === root.id}
+                    onOpened={() => setAutoOpenChapterFor(null)}
                     onCreate={async (name) => {
                       const folder = await createFolder(name, root.id);
                       onChange(folder.id);
@@ -510,6 +556,7 @@ function FolderPicker({
           onCreate={async (name) => {
             const folder = await createFolder(name, null);
             setExpandedRoot(folder.id);
+            setAutoOpenChapterFor(folder.id);
           }}
         />
       </div>
@@ -521,16 +568,27 @@ function InlineCreate({
   placeholder,
   indent,
   onCreate,
+  autoOpen,
+  onOpened,
 }: {
   placeholder: string;
   indent?: boolean;
   onCreate: (name: string) => Promise<void>;
+  autoOpen?: boolean;
+  onOpened?: () => void;
 }) {
   const [active, setActive] = useState(false);
   const [name, setName] = useState("");
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (autoOpen && !active) {
+      setActive(true);
+      onOpened?.();
+    }
+  }, [autoOpen, active, onOpened]);
 
   useEffect(() => {
     if (active) inputRef.current?.focus();
