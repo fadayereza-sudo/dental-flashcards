@@ -419,11 +419,21 @@ function FolderPicker({
     null,
   );
 
+  // Auto-expand the root that owns `value` once — e.g. on initial load when
+  // the tree arrives async, or when `value` changes externally. A ref tracks
+  // the last value we synced so that later user clicks on other roots aren't
+  // snapped back by this effect.
+  const lastSyncedValueRef = useRef<number | null | undefined>(undefined);
   useEffect(() => {
-    if (value === null) return;
+    if (lastSyncedValueRef.current === value) return;
+    if (value === null) {
+      lastSyncedValueRef.current = null;
+      return;
+    }
     for (const root of tree) {
       if (root.children.some((c) => c.id === value)) {
         setExpandedRoot(root.id);
+        lastSyncedValueRef.current = value;
         return;
       }
     }
