@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 type Tree = Array<{
   id: number;
@@ -403,9 +403,17 @@ function FolderPicker({
   onTreeChanged?: () => void | Promise<void>;
 }) {
   // Defensive: never show soft-deleted folders or chapters in the picker.
-  const tree: Tree = rawTree
-    .filter((r) => !r.deletedAt)
-    .map((r) => ({ ...r, children: r.children.filter((c) => !c.deletedAt) }));
+  // Memoize so child components don't get new prop references each render.
+  const tree: Tree = useMemo(
+    () =>
+      rawTree
+        .filter((r) => !r.deletedAt)
+        .map((r) => ({
+          ...r,
+          children: r.children.filter((c) => !c.deletedAt),
+        })),
+    [rawTree],
+  );
 
   const [expandedRoot, setExpandedRoot] = useState<number | null>(() => {
     if (value === null) return null;
@@ -439,51 +447,90 @@ function FolderPicker({
     }
   }, [value, tree]);
 
-  const expandedRootName = (() => {
+  const expandedRootName = useMemo(() => {
     if (expandedRoot === null) return null;
     return tree.find((r) => r.id === expandedRoot)?.name ?? null;
-  })();
+  }, [expandedRoot, tree]);
 
-  const selectedChapterName = (() => {
+  const selection = useMemo(() => {
     if (value === null) return null;
     for (const root of tree) {
       for (const c of root.children) {
-        if (c.id === value) return { book: root.name, chapter: c.name };
+        if (c.id === value) {
+          return { bookId: root.id, book: root.name, chapter: c.name };
+        }
       }
     }
     return null;
-  })();
+  }, [value, tree]);
 
-  const breadcrumb = selectedChapterName
-    ? `${selectedChapterName.book} · ${selectedChapterName.chapter}`
-    : expandedRootName
-      ? `${expandedRootName} · pick a chapter`
-      : null;
+  // Breadcrumb reflects what the user is *currently* looking at.
+  // - If user is browsing the book that owns the selection → show both
+  // - If user has another book expanded → show that book (and hint that the
+  //   previously-selected chapter is still the picked one, if different)
+  // - Nothing expanded, chapter selected → show the selection
+  const browsingSameBook =
+    selection !== null && expandedRoot === selection.bookId;
 
-  const createFolder = async (name: string, parentId: number | null) => {
-    const res = await fetch("/api/folders", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name, parentId }),
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data?.error ?? `${res.status}`);
-    await onTreeChanged?.();
-    return data.folder as { id: number; name: string; parentId: number | null };
-  };
+  let breadcrumb: React.ReactNode = null;
+  if (browsingSameBook && selection) {
+    breadcrumb = (
+      <span className="text-ink">
+        {selection.book} · {selection.chapter}
+      </span>
+    );
+  } else if (expandedRootName) {
+    breadcrumb = (
+      <>
+        <span className="text-ink">{expandedRootName}</span>
+        <span className="text-ink-muted"> · pick a chapter</span>
+        {selection && (
+          <span className="text-ink-muted">
+            {" "}
+            — currently saved:{" "}
+            <span className="text-ink-soft">
+              {selection.book} / {selection.chapter}
+            </span>
+          </span>
+        )}
+      </>
+    );
+  } else if (selection) {
+    breadcrumb = (
+      <span className="text-ink">
+        {selection.book} · {selection.chapter}
+      </span>
+    );
+  }
+
+  const createFolder = useCallback(
+    async (name: string, parentId: number | null) => {
+      const res = await fetch("/api/folders", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, parentId }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data?.error ?? `${res.status}`);
+      await onTreeChanged?.();
+      return data.folder as { id: number; name: string; parentId: number | null };
+    },
+    [onTreeChanged],
+  );
+
+  const clearAutoOpen = useCallback(() => setAutoOpenChapterFor(null), []);
 
   return (
     <div className="rounded-xl border border-rule bg-paper-sunk overflow-hidden">
       {breadcrumb && (
         <div className="px-4 py-2.5 text-[13px] border-b border-rule/60 bg-paper">
-          <span className={selectedChapterName ? "text-ink" : "text-ink-muted"}>
-            {breadcrumb}
-          </span>
+          {breadcrumb}
         </div>
       )}
       <div className="max-h-72 overflow-y-auto">
         {tree.map((root) => {
           const isOpen = expandedRoot === root.id;
+          const ownsSelection = selection?.bookId === root.id;
           return (
             <div
               key={root.id}
@@ -516,6 +563,12 @@ function FolderPicker({
                 >
                   {root.name}
                 </span>
+                {ownsSelection && !isOpen && (
+                  <span
+                    className="inline-block w-1.5 h-1.5 rounded-full bg-bronze"
+                    aria-label="Contains the currently selected chapter"
+                  />
+                )}
               </button>
               {isOpen && (
                 <>
@@ -550,7 +603,7 @@ function FolderPicker({
                     placeholder={`New chapter in ${root.name}`}
                     indent
                     autoOpen={autoOpenChapterFor === root.id}
-                    onOpened={() => setAutoOpenChapterFor(null)}
+                    onOpened={clearAutoOpen}
                     onCreate={async (name) => {
                       const folder = await createFolder(name, root.id);
                       onChange(folder.id);
@@ -593,12 +646,19 @@ function InlineCreate({
   const [err, setErr] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
+  // Stable ref so the autoOpen effect doesn't re-run every time the parent
+  // passes a fresh onOpened closure.
+  const onOpenedRef = useRef(onOpened);
   useEffect(() => {
-    if (autoOpen && !active) {
+    onOpenedRef.current = onOpened;
+  }, [onOpened]);
+
+  useEffect(() => {
+    if (autoOpen) {
       setActive(true);
-      onOpened?.();
+      onOpenedRef.current?.();
     }
-  }, [autoOpen, active, onOpened]);
+  }, [autoOpen]);
 
   useEffect(() => {
     if (active) inputRef.current?.focus();
