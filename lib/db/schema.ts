@@ -46,6 +46,7 @@ export const cards = pgTable(
     reference: text("reference"),
     referenceSection: text("reference_section"),
     note: text("note"),
+    tag: text("tag"),
     contentHash: text("content_hash").notNull(),
     createdAt: timestamp("created_at", { withTimezone: true })
       .notNull()
@@ -61,6 +62,11 @@ export const cards = pgTable(
       .where(sql`${t.deletedAt} IS NULL`),
     index("cards_folder_idx").on(t.folderId),
     index("cards_deleted_at_idx").on(t.deletedAt),
+    index("cards_tag_idx").on(t.tag),
+    check(
+      "cards_tag_allowed",
+      sql`${t.tag} IS NULL OR ${t.tag} IN ('diagnosis', 'treatment-planning', 'safety-and-compliance', 'patient-best-interests')`,
+    ),
   ],
 );
 

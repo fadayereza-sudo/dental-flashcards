@@ -43,7 +43,7 @@ Curated extracts live in `references/<book>/`. Each `.md` file has YAML frontmat
 
 ## Workflow
 
-After every successful code update, commit the changes immediately. Don't wait to be asked.
+After every successful code update, commit the changes immediately. Don't wait to be asked. Don't push to remote unless prompted. 
 
 ## Data model
 

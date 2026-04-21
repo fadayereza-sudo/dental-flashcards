@@ -56,3 +56,8 @@ next-env.d.ts
 /backups/
 /.cache/
 
+# tagging scaffolding — card content in working batches, keep local only
+/tmp-pilot-cards.json
+/tmp-tag-batches/
+/tmp-tag-results/
+
