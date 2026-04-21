@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { TAG_VALUES, TAG_LABELS, type Tag } from "@/lib/tags";
 
 type Tree = Array<{
   id: number;
@@ -23,6 +24,7 @@ export type CardEditorValue = {
   image: string;
   reference: string;
   referenceSection: string;
+  tag: Tag | null;
 };
 
 type Props = {
@@ -44,6 +46,7 @@ const EMPTY: CardEditorValue = {
   image: "",
   reference: "",
   referenceSection: "",
+  tag: null,
 };
 
 export function CardEditor({
@@ -95,6 +98,7 @@ export function CardEditor({
         image: value.image || null,
         reference: value.reference || null,
         referenceSection: value.referenceSection || null,
+        tag: value.tag,
       };
       const url =
         mode === "edit" && value.id
@@ -170,6 +174,37 @@ export function CardEditor({
                 onChange={(id) => update("folderId", id)}
                 onTreeChanged={onTreeChanged}
               />
+            </Field>
+
+            <Field label="Theme">
+              <div className="flex flex-wrap gap-1.5">
+                {TAG_VALUES.map((t) => {
+                  const active = value.tag === t;
+                  return (
+                    <button
+                      key={t}
+                      type="button"
+                      onClick={() => update("tag", active ? null : t)}
+                      className={`rounded-full px-3 py-1.5 text-xs tracking-wide transition-colors ${
+                        active
+                          ? "bg-ink text-paper"
+                          : "bg-paper-sunk text-ink-soft border border-rule hover:text-ink"
+                      }`}
+                    >
+                      {TAG_LABELS[t]}
+                    </button>
+                  );
+                })}
+                {value.tag !== null && (
+                  <button
+                    type="button"
+                    onClick={() => update("tag", null)}
+                    className="rounded-full px-3 py-1.5 text-xs tracking-wide text-ink-muted hover:text-ink"
+                  >
+                    Clear
+                  </button>
+                )}
+              </div>
             </Field>
 
             <Field label="Question">

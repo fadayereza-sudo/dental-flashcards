@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createHash } from "node:crypto";
 import { and, eq, isNull, ne } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
+import { isTag, type Tag } from "@/lib/tags";
 
 export const runtime = "nodejs";
 
@@ -14,6 +15,7 @@ type PatchBody = {
   reference?: string | null;
   referenceSection?: string | null;
   note?: string | null;
+  tag?: Tag | null;
 };
 
 function hashContent(question: string, answer: string) {
@@ -131,6 +133,20 @@ export async function PATCH(
   const pickNullable = (v: string | null | undefined, fallback: string | null) =>
     v === undefined ? fallback : typeof v === "string" ? v.trim() || null : null;
 
+  let nextTag: string | null = existing.tag;
+  if (body.tag !== undefined) {
+    if (body.tag === null) {
+      nextTag = null;
+    } else if (isTag(body.tag)) {
+      nextTag = body.tag;
+    } else {
+      return NextResponse.json(
+        { error: "invalid tag" },
+        { status: 400 },
+      );
+    }
+  }
+
   const [updated] = await db
     .update(schema.cards)
     .set({
@@ -145,6 +161,7 @@ export async function PATCH(
         existing.referenceSection,
       ),
       note: pickNullable(body.note, existing.note),
+      tag: nextTag,
       contentHash,
       updatedAt: new Date(),
     })

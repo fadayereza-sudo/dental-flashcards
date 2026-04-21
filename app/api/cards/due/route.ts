@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { and, asc, eq, inArray, isNull, lte, or, SQL } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
+import { isTag, UNTAGGED, type Tag } from "@/lib/tags";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -14,6 +15,13 @@ export async function GET(req: NextRequest) {
         .map((s) => parseInt(s, 10))
         .filter((n) => Number.isFinite(n))
     : null;
+  const tagParam = url.searchParams.get("tags");
+  const tagValues = tagParam
+    ? tagParam.split(",").filter((s) => isTag(s) || s === UNTAGGED)
+    : [];
+  const tagSet = tagValues.filter(isTag) as Tag[];
+  const includeUntagged = tagValues.includes(UNTAGGED);
+
   const limit = Math.min(
     parseInt(url.searchParams.get("limit") ?? "50", 10) || 50,
     500,
@@ -31,10 +39,21 @@ export async function GET(req: NextRequest) {
     isNull(schema.folders.deletedAt),
   )!;
 
-  const where: SQL =
-    folderIds && folderIds.length > 0
-      ? and(dueOrNew, activeFilter, inArray(schema.cards.folderId, folderIds))!
-      : and(dueOrNew, activeFilter)!;
+  const tagFilter: SQL | null =
+    tagSet.length > 0 && includeUntagged
+      ? or(inArray(schema.cards.tag, tagSet), isNull(schema.cards.tag))!
+      : tagSet.length > 0
+        ? inArray(schema.cards.tag, tagSet)
+        : includeUntagged
+          ? isNull(schema.cards.tag)
+          : null;
+
+  const parts: SQL[] = [dueOrNew, activeFilter];
+  if (folderIds && folderIds.length > 0) {
+    parts.push(inArray(schema.cards.folderId, folderIds));
+  }
+  if (tagFilter) parts.push(tagFilter);
+  const where: SQL = and(...parts)!;
 
   const rows = await db
     .select({
@@ -46,6 +65,7 @@ export async function GET(req: NextRequest) {
       reference: schema.cards.reference,
       referenceSection: schema.cards.referenceSection,
       note: schema.cards.note,
+      tag: schema.cards.tag,
       folderId: schema.cards.folderId,
       due: schema.cardState.due,
       state: schema.cardState.state,

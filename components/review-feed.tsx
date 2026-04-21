@@ -6,6 +6,7 @@ import { Flashcard } from "./flashcard";
 import { FilterDrawer } from "./filter-drawer";
 import { CardEditor, type CardEditorValue } from "./card-editor";
 import { useAnimatedSheet } from "@/lib/use-animated-sheet";
+import { isTag, UNTAGGED } from "@/lib/tags";
 
 type Card = {
   id: number;
@@ -16,6 +17,7 @@ type Card = {
   reference: string | null;
   referenceSection: string | null;
   note: string | null;
+  tag: string | null;
   folderId: number;
   due: string;
   state: number;
@@ -48,6 +50,20 @@ function loadSelectedFolders(): number[] {
   }
 }
 
+function loadSelectedTags(): string[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = localStorage.getItem("selectedTags");
+    if (!raw) return [];
+    const arr = JSON.parse(raw);
+    return Array.isArray(arr)
+      ? arr.filter((v): v is string => isTag(v) || v === UNTAGGED)
+      : [];
+  } catch {
+    return [];
+  }
+}
+
 export function ReviewFeed() {
   const [cards, setCards] = useState<Card[]>([]);
   const [reviewedIds, setReviewedIds] = useState<Set<number>>(new Set());
@@ -56,6 +72,7 @@ export function ReviewFeed() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [tree, setTree] = useState<FolderTree["tree"]>([]);
   const [selected, setSelected] = useState<number[]>([]);
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [initialized, setInitialized] = useState(false);
   const [editorOpen, setEditorOpen] = useState(false);
   const [editorMode, setEditorMode] = useState<"create" | "edit">("create");
@@ -70,6 +87,7 @@ export function ReviewFeed() {
 
   useEffect(() => {
     setSelected(loadSelectedFolders());
+    setSelectedTags(loadSelectedTags());
     setInitialized(true);
   }, []);
 
@@ -78,6 +96,7 @@ export function ReviewFeed() {
     setFetchError(null);
     const params = new URLSearchParams({ limit: "500" });
     if (selected.length > 0) params.set("folders", selected.join(","));
+    if (selectedTags.length > 0) params.set("tags", selectedTags.join(","));
     try {
       const res = await fetch(`/api/cards/due?${params}`, { cache: "no-store" });
       if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
@@ -90,7 +109,7 @@ export function ReviewFeed() {
     } finally {
       setLoading(false);
     }
-  }, [selected]);
+  }, [selected, selectedTags]);
 
   useEffect(() => {
     if (!initialized) return;
@@ -151,11 +170,16 @@ export function ReviewFeed() {
     [],
   );
 
-  const onApplyFilters = useCallback((next: number[]) => {
-    setSelected(next);
-    localStorage.setItem("selectedFolders", JSON.stringify(next));
-    setDrawerOpen(false);
-  }, []);
+  const onApplyFilters = useCallback(
+    (next: { folders: number[]; tags: string[] }) => {
+      setSelected(next.folders);
+      setSelectedTags(next.tags);
+      localStorage.setItem("selectedFolders", JSON.stringify(next.folders));
+      localStorage.setItem("selectedTags", JSON.stringify(next.tags));
+      setDrawerOpen(false);
+    },
+    [],
+  );
 
   const openCreate = useCallback(() => {
     setEditorMode("create");
@@ -167,6 +191,7 @@ export function ReviewFeed() {
       image: "",
       reference: "",
       referenceSection: "",
+      tag: null,
     });
     setEditorOpen(true);
   }, []);
@@ -182,6 +207,7 @@ export function ReviewFeed() {
       image: card.image ?? "",
       reference: card.reference ?? "",
       referenceSection: card.referenceSection ?? "",
+      tag: isTag(card.tag) ? card.tag : null,
     });
     setEditorOpen(true);
   }, []);
@@ -308,8 +334,12 @@ export function ReviewFeed() {
             <path d="M1 2h10M3 6h6M5 10h2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
           </svg>
           Filter
-          {selected.length > 0 && (
-            <span className="text-bronze">· {selectedCardCount}</span>
+          {(selected.length > 0 || selectedTags.length > 0) && (
+            <span className="text-bronze">
+              ·{selected.length > 0 && ` ${selectedCardCount}`}
+              {selectedTags.length > 0 &&
+                ` ${selectedTags.length} theme${selectedTags.length === 1 ? "" : "s"}`}
+            </span>
           )}
         </button>
         <div className="flex items-center gap-2">
@@ -426,6 +456,7 @@ export function ReviewFeed() {
         onClose={() => setDrawerOpen(false)}
         tree={tree}
         selected={selected}
+        selectedTags={selectedTags}
         onApply={onApplyFilters}
         onTreeChanged={async () => {
           refreshTree();

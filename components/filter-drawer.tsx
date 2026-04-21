@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { TAG_VALUES, TAG_LABELS, UNTAGGED, type Tag } from "@/lib/tags";
 
 type Chapter = {
   id: number;
@@ -32,19 +33,27 @@ type Props = {
   onClose: () => void;
   tree: Tree;
   selected: number[];
-  onApply: (next: number[]) => void;
+  selectedTags: string[];
+  onApply: (next: { folders: number[]; tags: string[] }) => void;
   onTreeChanged?: () => void | Promise<void>;
 };
+
+const TAG_CHIPS: Array<{ value: Tag | typeof UNTAGGED; label: string }> = [
+  ...TAG_VALUES.map((t) => ({ value: t, label: TAG_LABELS[t] })),
+  { value: UNTAGGED, label: "Untagged" },
+];
 
 export function FilterDrawer({
   open,
   onClose,
   tree,
   selected,
+  selectedTags,
   onApply,
   onTreeChanged,
 }: Props) {
   const [local, setLocal] = useState<Set<number>>(new Set(selected));
+  const [localTags, setLocalTags] = useState<Set<string>>(new Set(selectedTags));
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
 
   const [showTrash, setShowTrash] = useState(false);
@@ -69,6 +78,7 @@ export function FilterDrawer({
   useEffect(() => {
     if (open) {
       setLocal(new Set(selected));
+      setLocalTags(new Set(selectedTags));
       setExpanded(new Set());
       setEditingId(null);
       setEditDraft("");
@@ -77,7 +87,7 @@ export function FilterDrawer({
       setConfirmPurgeFolderId(null);
       setConfirmPurgeCardId(null);
     }
-  }, [open, selected, tree]);
+  }, [open, selected, selectedTags, tree]);
 
   const fetchTrash = useCallback(async () => {
     setTrashLoading(true);
@@ -125,6 +135,13 @@ export function FilterDrawer({
     if (next.has(id)) next.delete(id);
     else next.add(id);
     setExpanded(next);
+  };
+
+  const toggleTag = (value: string) => {
+    const next = new Set(localTags);
+    if (next.has(value)) next.delete(value);
+    else next.add(value);
+    setLocalTags(next);
   };
 
   const startEdit = (id: number, currentName: string) => {
@@ -289,7 +306,10 @@ export function FilterDrawer({
                 {showTrash ? "Hide trash" : "Show trash"}
               </button>
               <button
-                onClick={() => setLocal(new Set())}
+                onClick={() => {
+                  setLocal(new Set());
+                  setLocalTags(new Set());
+                }}
                 className="text-xs tracking-wide uppercase text-ink-muted hover:text-ink"
               >
                 Clear
@@ -298,6 +318,29 @@ export function FilterDrawer({
           </div>
 
           <div className="flex-1 overflow-y-auto px-3 pb-2">
+            <div className="px-3 pt-2 pb-3">
+              <p className="text-[11px] tracking-[0.12em] uppercase text-ink-muted mb-2">
+                Themes
+              </p>
+              <div className="flex flex-wrap gap-1.5">
+                {TAG_CHIPS.map((chip) => {
+                  const active = localTags.has(chip.value);
+                  return (
+                    <button
+                      key={chip.value}
+                      onClick={() => toggleTag(chip.value)}
+                      className={`rounded-full px-3 py-1.5 text-xs tracking-wide transition-colors ${
+                        active
+                          ? "bg-ink text-paper"
+                          : "bg-paper-sunk text-ink-soft border border-rule hover:text-ink"
+                      }`}
+                    >
+                      {chip.label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
             {tree.length === 0 ? (
               <p className="px-3 py-8 text-center text-sm text-ink-muted">
                 No folders yet. Import cards to populate.
@@ -487,7 +530,9 @@ export function FilterDrawer({
               Cancel
             </button>
             <button
-              onClick={() => onApply([...local])}
+              onClick={() =>
+                onApply({ folders: [...local], tags: [...localTags] })
+              }
               className="flex-1 rounded-full bg-ink text-paper py-3 text-sm tracking-wide uppercase"
             >
               Apply
