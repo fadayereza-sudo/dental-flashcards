@@ -66,6 +66,7 @@ function loadSelectedTags(): string[] {
 
 export function ReviewFeed() {
   const [cards, setCards] = useState<Card[]>([]);
+  const [total, setTotal] = useState(0);
   const [reviewedIds, setReviewedIds] = useState<Set<number>>(new Set());
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState<string | null>(null);
@@ -94,18 +95,23 @@ export function ReviewFeed() {
   const fetchCards = useCallback(async () => {
     setLoading(true);
     setFetchError(null);
-    const params = new URLSearchParams({ limit: "500" });
+    const params = new URLSearchParams({ limit: "5000" });
     if (selected.length > 0) params.set("folders", selected.join(","));
     if (selectedTags.length > 0) params.set("tags", selectedTags.join(","));
     try {
       const res = await fetch(`/api/cards/due?${params}`, { cache: "no-store" });
       if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
       const data = await res.json();
-      setCards(data.cards ?? []);
+      const nextCards: Card[] = data.cards ?? [];
+      setCards(nextCards);
+      setTotal(
+        typeof data.total === "number" ? data.total : nextCards.length,
+      );
       setReviewedIds(new Set());
     } catch (err) {
       setFetchError(err instanceof Error ? err.message : String(err));
       setCards([]);
+      setTotal(0);
     } finally {
       setLoading(false);
     }
@@ -308,7 +314,7 @@ export function ReviewFeed() {
   const noteCard =
     noteCardId === null ? null : cards.find((c) => c.id === noteCardId) ?? null;
 
-  const sessionTotal = cards.length;
+  const sessionTotal = total;
   const sessionDone = reviewedIds.size;
 
   const selectedCardCount = (() => {
