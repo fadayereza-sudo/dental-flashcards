@@ -19,7 +19,6 @@ references/
 
 Book short names match source-material folders:
 - `oxford-handbook`
-- `biopsychosocial`
 - `paed-handbook` — Paediatric Dentistry Clinical Handbook (Leeds, 2017), source in `source-material/university handbooks/`
 - `restorative-handbook` — Restorative Dentistry Clinical Handbook (Leeds, 2018), source in `source-material/university handbooks/`
 
@@ -61,7 +60,7 @@ Use one or more of:
 - `operative` — restorative, endodontics, extractions, perio treatment
 - `medical-history` — systemic conditions, drug interactions, red flags
 - `emergency` — collapse, anaphylaxis, haemorrhage, acute pain
-- `holistic-care` — biopsychosocial, patient-centred, behaviour change
+- `holistic-care` — patient-centred, behaviour change
 - `professional` — ethics, law, safeguarding, record keeping
 - `recognise-and-refer` — conditions beyond GDP scope
 - `pharmacology` — drug mechanisms, contraindications, interactions
@@ -75,9 +74,6 @@ The body format depends on the source category:
 
 ### Oxford Handbook — verbatim
 Copy text from `full-text.txt` exactly, stripped of `[index][style]` prefixes. Paragraph breaks preserved. Nothing paraphrased.
-
-### Biopsychosocial — applied
-Three sections: **The principle**, **What the book says**, **How this applies in dental practice**. The body is not verbatim — it teaches a principle drawn from the source, applied to dental scenarios.
 
 ### University handbooks — procedural verbatim
 Verbatim text from the source `.txt`, lightly cleaned of Calibre artefacts (blank-line bloat between paragraph lines, repeated page-header strings). One reference per procedure or decision. Uses `sourceLines: [start, end]` (file line range from the `Read` tool) instead of `paragraphs`. Image field stays empty — text only.
