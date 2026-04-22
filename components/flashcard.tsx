@@ -77,21 +77,22 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
     onRate(rating);
   };
 
+  const metaRow = (
+    <div className="flex items-center justify-between text-[10px] tracking-[0.08em] uppercase text-ink-muted mb-4">
+      <span>{stateLabel}</span>
+      {(card.source || card.referenceSection) && (
+        <span className="truncate max-w-[60%] text-right">
+          {card.source || card.referenceSection}
+        </span>
+      )}
+    </div>
+  );
+
   return (
     <div
       className="relative w-full max-w-md"
       style={{ perspective: "1400px" }}
     >
-      {/* Card meta above */}
-      <div className="flex items-center justify-between px-1 pb-3 text-[10px] tracking-[0.08em] uppercase text-ink-muted">
-        <span>{stateLabel}</span>
-        {(card.source || card.referenceSection) && (
-          <span className="truncate max-w-[60%] text-right">
-            {card.source || card.referenceSection}
-          </span>
-        )}
-      </div>
-
       <div
         role="button"
         tabIndex={0}
@@ -111,6 +112,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
           {/* Front */}
           <div className="flip-face absolute inset-0 p-8 flex flex-col justify-between">
             <div className="overflow-y-auto pr-1">
+              {metaRow}
               <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-6">
                 Question
               </p>
@@ -134,6 +136,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
           {/* Back */}
           <div className="flip-face flip-back absolute inset-0 p-8 flex flex-col justify-between">
             <div className="overflow-y-auto pr-1">
+              {metaRow}
               <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-6">
                 Answer &amp; Reasoning
               </p>
