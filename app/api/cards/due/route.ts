@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { and, asc, eq, inArray, isNull, lte, or, sql, SQL } from "drizzle-orm";
+import { and, asc, eq, inArray, isNull, lte, not, or, sql, SQL } from "drizzle-orm";
 import { db, schema } from "@/lib/db";
 import { isTag, UNTAGGED, type Tag } from "@/lib/tags";
 
@@ -27,6 +27,14 @@ export async function GET(req: NextRequest) {
     5000,
   );
 
+  const excludeParam = url.searchParams.get("exclude");
+  const excludeIds = excludeParam
+    ? excludeParam
+        .split(",")
+        .map((s) => parseInt(s, 10))
+        .filter((n) => Number.isFinite(n))
+    : [];
+
   const now = new Date();
 
   const dueOrNew = or(
@@ -48,12 +56,21 @@ export async function GET(req: NextRequest) {
           ? isNull(schema.cards.tag)
           : null;
 
-  const parts: SQL[] = [dueOrNew, activeFilter];
+  // Shared filter (ignores the exclude list) — used for the total count
+  // so the client sees the true size of the due set regardless of
+  // pagination progress.
+  const baseParts: SQL[] = [dueOrNew, activeFilter];
   if (folderIds && folderIds.length > 0) {
-    parts.push(inArray(schema.cards.folderId, folderIds));
+    baseParts.push(inArray(schema.cards.folderId, folderIds));
   }
-  if (tagFilter) parts.push(tagFilter);
-  const where: SQL = and(...parts)!;
+  if (tagFilter) baseParts.push(tagFilter);
+  const baseWhere: SQL = and(...baseParts)!;
+
+  const pageParts: SQL[] = [...baseParts];
+  if (excludeIds.length > 0) {
+    pageParts.push(not(inArray(schema.cards.id, excludeIds)));
+  }
+  const pageWhere: SQL = and(...pageParts)!;
 
   const [rows, totalRow] = await Promise.all([
     db
@@ -78,7 +95,7 @@ export async function GET(req: NextRequest) {
         eq(schema.cardState.cardId, schema.cards.id),
       )
       .innerJoin(schema.folders, eq(schema.folders.id, schema.cards.folderId))
-      .where(where)
+      .where(pageWhere)
       .orderBy(asc(schema.cardState.due))
       .limit(limit),
     db
@@ -89,7 +106,7 @@ export async function GET(req: NextRequest) {
         eq(schema.cardState.cardId, schema.cards.id),
       )
       .innerJoin(schema.folders, eq(schema.folders.id, schema.cards.folderId))
-      .where(where),
+      .where(baseWhere),
   ]);
 
   const total = totalRow[0]?.count ?? rows.length;

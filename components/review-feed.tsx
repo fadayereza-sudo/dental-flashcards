@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Flashcard } from "./flashcard";
 import { FilterDrawer } from "./filter-drawer";
 import { CardEditor, type CardEditorValue } from "./card-editor";
+import { SearchOverlay, type SearchCard } from "./search-overlay";
 import { useAnimatedSheet } from "@/lib/use-animated-sheet";
 import { useDragToClose } from "@/lib/use-drag-to-close";
 import { isTag, UNTAGGED } from "@/lib/tags";
@@ -79,6 +80,13 @@ export function ReviewFeed() {
   const [editorOpen, setEditorOpen] = useState(false);
   const [editorMode, setEditorMode] = useState<"create" | "edit">("create");
   const [editorInitial, setEditorInitial] = useState<CardEditorValue | null>(null);
+  const [searchOpen, setSearchOpen] = useState(false);
+  // Bumped per-card when the user picks a card via search so the Flashcard
+  // remounts fresh (resets local `rated`/`flipped` state) even if it was
+  // already in the list.
+  const [revivedVersion, setRevivedVersion] = useState<Record<number, number>>(
+    {},
+  );
   const [noteCardId, setNoteCardId] = useState<number | null>(null);
   const [noteDraft, setNoteDraft] = useState("");
   const [noteSaving, setNoteSaving] = useState(false);
@@ -93,10 +101,18 @@ export function ReviewFeed() {
     setInitialized(true);
   }, []);
 
+  const PAGE_SIZE = 50;
+  // Buffer triggers the next fetch before the user hits the end of the
+  // current window, so they rarely see an empty state while loading.
+  const PREFETCH_BUFFER = 5;
+
+  const [loadingMore, setLoadingMore] = useState(false);
+  const loadingMoreRef = useRef(false);
+
   const fetchCards = useCallback(async () => {
     setLoading(true);
     setFetchError(null);
-    const params = new URLSearchParams({ limit: "5000" });
+    const params = new URLSearchParams({ limit: String(PAGE_SIZE) });
     if (selected.length > 0) params.set("folders", selected.join(","));
     if (selectedTags.length > 0) params.set("tags", selectedTags.join(","));
     try {
@@ -118,10 +134,54 @@ export function ReviewFeed() {
     }
   }, [selected, selectedTags]);
 
+  const fetchMore = useCallback(async () => {
+    if (loadingMoreRef.current) return;
+    loadingMoreRef.current = true;
+    setLoadingMore(true);
+    try {
+      const params = new URLSearchParams({ limit: String(PAGE_SIZE) });
+      if (selected.length > 0) params.set("folders", selected.join(","));
+      if (selectedTags.length > 0) params.set("tags", selectedTags.join(","));
+      // Exclude whatever is already on screen so the server returns the
+      // *next* slice of the due set — cards the user has already rated
+      // fall out naturally because their next due is in the future.
+      const excludeIds = cards.map((c) => c.id);
+      if (excludeIds.length > 0) params.set("exclude", excludeIds.join(","));
+      const res = await fetch(`/api/cards/due?${params}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+      const data = await res.json();
+      const more: Card[] = data.cards ?? [];
+      if (more.length > 0) {
+        setCards((prev) => {
+          const seen = new Set(prev.map((c) => c.id));
+          const fresh = more.filter((c) => !seen.has(c.id));
+          return fresh.length === 0 ? prev : [...prev, ...fresh];
+        });
+      }
+      if (typeof data.total === "number") setTotal(data.total);
+    } catch {
+      // silent — user can keep reviewing what's loaded
+    } finally {
+      setLoadingMore(false);
+      loadingMoreRef.current = false;
+    }
+  }, [selected, selectedTags, cards]);
+
   useEffect(() => {
     if (!initialized) return;
     fetchCards();
   }, [initialized, fetchCards]);
+
+  // Prefetch the next 50 once the user has rated enough of the current
+  // window that they're about to run out. The ref guard inside fetchMore
+  // prevents double-fires if this effect re-runs mid-request.
+  useEffect(() => {
+    if (loading || loadingMore) return;
+    if (cards.length === 0) return;
+    if (cards.length >= total) return;
+    if (reviewedIds.size < cards.length - PREFETCH_BUFFER) return;
+    fetchMore();
+  }, [reviewedIds, cards.length, total, loading, loadingMore, fetchMore]);
 
   const refreshTree = useCallback(async () => {
     try {
@@ -187,6 +247,30 @@ export function ReviewFeed() {
     },
     [],
   );
+
+  const onPickSearch = useCallback((card: SearchCard) => {
+    setSearchOpen(false);
+    setCards((prev) => {
+      const idx = prev.findIndex((c) => c.id === card.id);
+      if (idx === -1) return [card, ...prev];
+      const copy = [...prev];
+      const [found] = copy.splice(idx, 1);
+      return [found, ...copy];
+    });
+    setReviewedIds((prev) => {
+      if (!prev.has(card.id)) return prev;
+      const next = new Set(prev);
+      next.delete(card.id);
+      return next;
+    });
+    setRevivedVersion((prev) => ({
+      ...prev,
+      [card.id]: (prev[card.id] ?? 0) + 1,
+    }));
+    requestAnimationFrame(() => {
+      scrollerRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }, []);
 
   const openCreate = useCallback(() => {
     setEditorMode("create");
@@ -337,29 +421,41 @@ export function ReviewFeed() {
   return (
     <div className="fixed inset-0 overflow-hidden">
       <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-3 sm:px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-3 pointer-events-none">
-        <button
-          onClick={() => setDrawerOpen(true)}
-          aria-label="Filter"
-          className="pointer-events-auto relative inline-flex items-center justify-center sm:justify-start sm:gap-2 rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 sm:w-auto sm:h-auto sm:px-3.5 sm:py-2 text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm"
-        >
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden>
-            <path d="M1 2h10M3 6h6M5 10h2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-          </svg>
-          <span className="hidden sm:inline">Filter</span>
-          {(selected.length > 0 || selectedTags.length > 0) && (
-            <>
-              <span
-                className="sm:hidden absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-bronze"
-                aria-hidden
-              />
-              <span className="hidden sm:inline text-bronze whitespace-nowrap">
-                ·{selected.length > 0 && ` ${selectedCardCount}`}
-                {selectedTags.length > 0 &&
-                  ` ${selectedTags.length} theme${selectedTags.length === 1 ? "" : "s"}`}
-              </span>
-            </>
-          )}
-        </button>
+        <div className="flex items-center gap-1.5 sm:gap-2">
+          <button
+            onClick={() => setDrawerOpen(true)}
+            aria-label="Filter"
+            className="pointer-events-auto relative inline-flex items-center justify-center sm:justify-start sm:gap-2 rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 sm:w-auto sm:h-auto sm:px-3.5 sm:py-2 text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm"
+          >
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden>
+              <path d="M1 2h10M3 6h6M5 10h2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+            </svg>
+            <span className="hidden sm:inline">Filter</span>
+            {(selected.length > 0 || selectedTags.length > 0) && (
+              <>
+                <span
+                  className="sm:hidden absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-bronze"
+                  aria-hidden
+                />
+                <span className="hidden sm:inline text-bronze whitespace-nowrap">
+                  ·{selected.length > 0 && ` ${selectedCardCount}`}
+                  {selectedTags.length > 0 &&
+                    ` ${selectedTags.length} theme${selectedTags.length === 1 ? "" : "s"}`}
+                </span>
+              </>
+            )}
+          </button>
+          <button
+            onClick={() => setSearchOpen(true)}
+            aria-label="Search"
+            className="pointer-events-auto inline-flex items-center justify-center rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 text-ink-soft border border-rule/60 shadow-sm hover:text-ink"
+          >
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden>
+              <circle cx="7" cy="7" r="5" stroke="currentColor" strokeWidth="1.5" />
+              <path d="M11 11l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+            </svg>
+          </button>
+        </div>
         <div className="flex items-center gap-1.5 sm:gap-2">
           <button
             onClick={openCreate}
@@ -431,7 +527,7 @@ export function ReviewFeed() {
         >
           {cards.map((c, i) => (
             <div
-              key={c.id}
+              key={`${c.id}-${revivedVersion[c.id] ?? 0}`}
               className="snap-item h-[100dvh] w-full flex flex-col items-center justify-center gap-3 px-5 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+4rem)]"
             >
               <Flashcard
@@ -464,7 +560,11 @@ export function ReviewFeed() {
             </div>
           ))}
           <div className="snap-item h-[100dvh] w-full flex items-center justify-center px-5 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+4rem)]">
-            <EndOfFeed onRefresh={fetchCards} />
+            {cards.length < total ? (
+              <LoadingNextBatch />
+            ) : (
+              <EndOfFeed onRefresh={fetchCards} />
+            )}
           </div>
         </div>
       )}
@@ -490,6 +590,11 @@ export function ReviewFeed() {
         onSaved={onEditorSaved}
         onDeleted={onEditorDeleted}
         onTreeChanged={refreshTree}
+      />
+      <SearchOverlay
+        open={searchOpen}
+        onClose={() => setSearchOpen(false)}
+        onPick={onPickSearch}
       />
 
       {undoCardId !== null && (
@@ -614,6 +719,16 @@ function EmptyState({ selectedCount }: { selectedCount: number }) {
           ? "No cards match your selected folders, or all of them are scheduled for later."
           : "Every card in the deck is scheduled for later. Come back when you're notified."}
       </p>
+    </div>
+  );
+}
+
+function LoadingNextBatch() {
+  return (
+    <div className="flex flex-col items-center gap-3 text-center">
+      <span className="text-ink-muted text-sm tracking-wide uppercase">
+        Loading more…
+      </span>
     </div>
   );
 }
