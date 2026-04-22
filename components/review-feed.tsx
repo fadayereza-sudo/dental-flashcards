@@ -6,6 +6,7 @@ import { Flashcard } from "./flashcard";
 import { FilterDrawer } from "./filter-drawer";
 import { CardEditor, type CardEditorValue } from "./card-editor";
 import { useAnimatedSheet } from "@/lib/use-animated-sheet";
+import { useDragToClose } from "@/lib/use-drag-to-close";
 import { isTag, UNTAGGED } from "@/lib/tags";
 
 type Card = {
@@ -286,6 +287,10 @@ export function ReviewFeed() {
     noteCardId !== null,
     resetNote,
   );
+  // Drag uses resetNote (no animation) because useDragToClose runs its own
+  // finish transition; routing through closeNote would double-animate.
+  const { sheetRef: noteSheetRef, handleProps: noteDragHandle } =
+    useDragToClose(resetNote);
 
   const saveNote = useCallback(async () => {
     if (noteCardId === null) return;
@@ -524,10 +529,14 @@ export function ReviewFeed() {
             className={`absolute inset-0 bg-ink/40 backdrop-blur-sm ${noteClosing ? "animate-fade-out" : "animate-fade-in"}`}
           />
           <div
+            ref={noteSheetRef}
             className={`relative w-full max-w-lg max-h-[85dvh] rounded-t-2xl bg-paper border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden ${noteClosing ? "animate-slide-down" : "animate-slide-up"}`}
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex justify-center pt-3 pb-1">
+            <div
+              {...noteDragHandle}
+              className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"
+            >
               <div className="w-10 h-1 rounded-full bg-ink-muted/30" />
             </div>
 

@@ -2,6 +2,8 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { TAG_VALUES, TAG_LABELS, type Tag } from "@/lib/tags";
+import { useBackClose } from "@/lib/use-back-close";
+import { useDragToClose } from "@/lib/use-drag-to-close";
 
 type Tree = Array<{
   id: number;
@@ -140,6 +142,9 @@ export function CardEditor({
     }
   };
 
+  useBackClose(open, onClose);
+  const { sheetRef, handleProps } = useDragToClose(onClose);
+
   return (
     <>
       <div
@@ -147,11 +152,15 @@ export function CardEditor({
         className={`fixed inset-0 bg-ink/30 backdrop-blur-sm z-30 transition-opacity duration-300 ${open ? "opacity-100" : "opacity-0 pointer-events-none"}`}
       />
       <div
+        ref={sheetRef}
         className={`fixed left-0 right-0 bottom-0 z-40 bg-paper rounded-t-[28px] border-t border-rule shadow-[0_-20px_40px_-20px_rgba(28,25,23,0.25)] transition-transform duration-350 ease-[cubic-bezier(0.22,1,0.36,1)] ${open ? "translate-y-0" : "translate-y-full"}`}
         style={{ maxHeight: "92dvh" }}
       >
         <div className="flex flex-col max-h-[92dvh]">
-          <div className="flex justify-center pt-3 pb-1">
+          <div
+            {...handleProps}
+            className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"
+          >
             <div className="w-10 h-1 rounded-full bg-rule" />
           </div>
           <div className="px-6 pt-3 pb-4 flex items-baseline justify-between">
