@@ -331,24 +331,31 @@ export function ReviewFeed() {
 
   return (
     <div className="fixed inset-0 overflow-hidden">
-      <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-3 pointer-events-none">
+      <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-3 sm:px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-3 pointer-events-none">
         <button
           onClick={() => setDrawerOpen(true)}
-          className="pointer-events-auto inline-flex items-center gap-2 rounded-full bg-paper/80 backdrop-blur-md px-3.5 py-2 text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm"
+          aria-label="Filter"
+          className="pointer-events-auto relative inline-flex items-center justify-center sm:justify-start sm:gap-2 rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 sm:w-auto sm:h-auto sm:px-3.5 sm:py-2 text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm"
         >
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden>
             <path d="M1 2h10M3 6h6M5 10h2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
           </svg>
-          Filter
+          <span className="hidden sm:inline">Filter</span>
           {(selected.length > 0 || selectedTags.length > 0) && (
-            <span className="text-bronze">
-              ·{selected.length > 0 && ` ${selectedCardCount}`}
-              {selectedTags.length > 0 &&
-                ` ${selectedTags.length} theme${selectedTags.length === 1 ? "" : "s"}`}
-            </span>
+            <>
+              <span
+                className="sm:hidden absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-bronze"
+                aria-hidden
+              />
+              <span className="hidden sm:inline text-bronze whitespace-nowrap">
+                ·{selected.length > 0 && ` ${selectedCardCount}`}
+                {selectedTags.length > 0 &&
+                  ` ${selectedTags.length} theme${selectedTags.length === 1 ? "" : "s"}`}
+              </span>
+            </>
           )}
         </button>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2">
           <button
             onClick={openCreate}
             className="pointer-events-auto inline-flex items-center justify-center rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 text-ink-soft border border-rule/60 shadow-sm hover:text-ink"
@@ -382,7 +389,7 @@ export function ReviewFeed() {
             </svg>
           </Link>
           <div
-            className="pointer-events-auto inline-flex items-center gap-1.5 rounded-full bg-paper/80 backdrop-blur-md px-3.5 py-2 text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm"
+            className="pointer-events-auto inline-flex items-center gap-1 sm:gap-1.5 rounded-full bg-paper/80 backdrop-blur-md px-2.5 sm:px-3.5 py-1.5 sm:py-2 text-[11px] sm:text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm whitespace-nowrap"
             aria-label={`${sessionDone} of ${sessionTotal} reviewed`}
           >
             <span className="font-mono text-ink">{sessionDone}</span>
