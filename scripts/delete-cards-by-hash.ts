@@ -12,12 +12,16 @@ function hash(q: string, a: string) {
 
 const pairs: Array<[string, string]> = [
   [
-    "Why is articaine 4% never used for an inferior dental block?",
-    "Because at 4% it is twice the concentration of lignocaine, and the IDB needle passes close to the lingual and inferior alveolar nerves. The higher concentration carries a much greater risk of persistent paraesthesia if the needle traumatises the nerve. Reserve articaine for infiltration.",
+    "In the McGuire and Nunn cohort, how accurate was the clinician's prognosis call at predicting tooth survival, and where did it fall down?",
+    "Overall, clinicians predicted 5- and 8-year tooth survival correctly about 81% of the time. But when 'good' prognosis teeth were excluded, accuracy dropped to around 50% (chance). In other words, we reliably spot a good tooth, but calls of 'fair', 'poor', or 'questionable' are close to coin flips. That argues for conservative management and reassessment rather than pre-emptive extraction.",
   ],
   [
-    "Why doesn't the '1/10 cartridge per kg' rule of thumb safely apply to articaine?",
-    "Because articaine is 4% (40 mg/ml) with a max of 7 mg/kg, giving only 0.175 ml/kg — closer to 1/12 of a cartridge per kg. Treating articaine like lignocaine by volume would push the child past the toxic dose.",
+    "Quantitatively, how much does smoking worsen the response to periodontal treatment, and is the effect reversible?",
+    "Smokers get roughly 50 to 75% less clinical improvement (probing depth reduction, attachment gain) than non-smokers from both non-surgical and surgical perio therapy, dose-dependent with pack-years. The deficit is partly reversible after cessation, which is why every perio plan needs a documented smoking cessation conversation. Smoking is the single biggest modifiable risk factor the GDP controls in perio.",
+  ],
+  [
+    "In periodontally compromised patients, how does 20-year implant outcome compare with retaining compromised but treated teeth?",
+    "In Roccuzzo's 20-year Italian cohort, patients with a history of severe periodontitis lost on average 1.9 teeth over 20 years while their implants survived around 93%. But 47% of severe-PCP implants needed antibiotic or surgical retreatment for peri-implantitis, and non-compliance with supportive care raised the odds of implant loss roughly 14-fold. Strategic extraction for pre-emptive implants in a perio patient isn't supported: treated teeth last well over a decade, and implants in the same patient fail more often when the patient drops out of recall.",
   ],
 ];
 
