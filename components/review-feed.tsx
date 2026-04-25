@@ -419,7 +419,7 @@ export function ReviewFeed() {
   })();
 
   return (
-    <div className="fixed inset-0 overflow-hidden">
+    <div className="absolute inset-0 overflow-hidden">
       <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-3 sm:px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-3 pointer-events-none">
         <div className="flex items-center gap-1.5 sm:gap-2">
           <button
