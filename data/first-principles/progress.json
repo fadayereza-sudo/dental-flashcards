@@ -1,0 +1,29 @@
+{
+  "completed": [
+    "history-and-examination",
+    "preventive-and-community-dentistry",
+    "paediatric-dentistry",
+    "orthodontics",
+    "periodontology",
+    "repairing-teeth",
+    "replacing-teeth",
+    "endodontics",
+    "dental-implants",
+    "oral-surgery",
+    "oral-medicine",
+    "maxillofacial-surgery",
+    "medicine-relevant-to-dentistry",
+    "therapeutics",
+    "analgesia-anaesthesia-and-sedation",
+    "dental-materials",
+    "law-and-ethics",
+    "professionalism-and-communication",
+    "practice-management",
+    "syndromes-of-the-head-and-neck",
+    "useful-information-and-addresses"
+  ],
+  "in_progress": null,
+  "total_chapters": 21,
+  "last_updated": "2026-04-26",
+  "notes": "Full handbook extracted in one overnight pass via 18 parallel subagents (Ch 5 was the gold standard from earlier; Ch 2 and Ch 3 redone to match new format). 116 core truths total across 21 chapters. Empty arrays accepted: useful-information-and-addresses (Ch 21, appendix/index material). Sparse: syndromes-of-the-head-and-neck (1 truth, encyclopaedic chapter)."
+}

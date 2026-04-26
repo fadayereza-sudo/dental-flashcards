@@ -1,1 +1,23 @@
-[]
+[
+  { "slug": "history-and-examination", "chapter": "History and examination", "order": 1 },
+  { "slug": "preventive-and-community-dentistry", "chapter": "Preventive and community dentistry", "order": 2 },
+  { "slug": "paediatric-dentistry", "chapter": "Paediatric dentistry", "order": 3 },
+  { "slug": "orthodontics", "chapter": "Orthodontics", "order": 4 },
+  { "slug": "periodontology", "chapter": "Periodontology", "order": 5 },
+  { "slug": "repairing-teeth", "chapter": "Repairing teeth", "order": 6 },
+  { "slug": "replacing-teeth", "chapter": "Replacing teeth", "order": 7 },
+  { "slug": "endodontics", "chapter": "Endodontics", "order": 8 },
+  { "slug": "dental-implants", "chapter": "Dental implants", "order": 9 },
+  { "slug": "oral-surgery", "chapter": "Oral surgery", "order": 10 },
+  { "slug": "oral-medicine", "chapter": "Oral medicine", "order": 11 },
+  { "slug": "maxillofacial-surgery", "chapter": "Maxillofacial surgery", "order": 12 },
+  { "slug": "medicine-relevant-to-dentistry", "chapter": "Medicine relevant to dentistry", "order": 13 },
+  { "slug": "therapeutics", "chapter": "Therapeutics", "order": 14 },
+  { "slug": "analgesia-anaesthesia-and-sedation", "chapter": "Analgesia, anaesthesia, and sedation", "order": 15 },
+  { "slug": "dental-materials", "chapter": "Dental materials", "order": 16 },
+  { "slug": "law-and-ethics", "chapter": "Law and ethics", "order": 17 },
+  { "slug": "professionalism-and-communication", "chapter": "Professionalism and communication", "order": 18 },
+  { "slug": "practice-management", "chapter": "Practice management", "order": 19 },
+  { "slug": "syndromes-of-the-head-and-neck", "chapter": "Syndromes of the head and neck", "order": 20 },
+  { "slug": "useful-information-and-addresses", "chapter": "Useful information and addresses", "order": 21 }
+]
