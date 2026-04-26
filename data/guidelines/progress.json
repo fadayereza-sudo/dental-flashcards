@@ -4,9 +4,10 @@
   "total_categories": 6,
   "last_updated": "2026-04-26",
   "totals": {
+    "subjects": 30,
     "workflows": 75,
     "first_principles": 86,
     "test_slides": 1075
   },
-  "notes": "Full v2 extraction across all 6 categories. SDCEP done as 5 parallel per-source extracts (mronj, anticoagulants, amalgam, child-caries, prescribing) merged with the existing antibiotic-prophylaxis content."
+  "notes": "Full v2 extraction across all 6 categories, then reorganised into a subjects[] hierarchy (30 subjects total). Each <slug>.json is now { ..., subjects: [{ slug, title, order, workflows, firstPrinciples }] }."
 }

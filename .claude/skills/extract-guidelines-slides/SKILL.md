@@ -2,12 +2,14 @@
 
 ## Goal
 
-For each guideline organisation (SDCEP, DBOH, BSP, FGDP), extract two parallel artefacts from its source material:
+For each guideline category (SDCEP, DBOH, BSP, FGDP, IADT, orthodontic referral), extract content from its source material and organise it into **subjects**. Every subject holds two parallel artefacts:
 
 1. **Workflows** — practical, step-by-step clinical procedures someone could follow at the chair to GET THINGS DONE. Each workflow is a logical flowchart-in-text. Many source documents already contain decision flowcharts; convert those flowcharts into ordered workflow steps. Each workflow is paired with a slide-based "Test" mode that walks the user through recall in leading statements.
-2. **First Principles** — fundamental, scientifically sound truths that the entire organisation's guidance rests on. Same notebook style and rules as the `extract-first-principles` skill. Pooled across every source document inside the category.
+2. **First Principles** — fundamental, scientifically sound truths that the entire subject rests on. Same notebook style and rules as the `extract-first-principles` skill.
 
-Both are bundled into a single `data/guidelines/<slug>.json` per category.
+A **subject** is one clinical theme inside a category — usually one source document (SDCEP's six guidance PDFs map to six subjects), or a clinical theme when one source covers several (DBOH → caries-prevention, periodontal, smoking-alcohol, oral-cancer, tooth-wear). Subjects keep the user's mental model clean: when they're looking up MRONJ they shouldn't have to scroll past anticoagulants and child caries to find it.
+
+All subjects for a category are bundled into a single `data/guidelines/<slug>.json` file.
 
 ## Input
 
@@ -42,9 +44,9 @@ Source files in `source-material/guidelines/`, grouped by category:
 
 ## Output
 
-For each category `<slug>` ∈ {`sdcep`, `dboh`, `bsp`, `fgdp`}:
+For each category `<slug>` ∈ {`sdcep`, `dboh`, `bsp`, `fgdp`, `iadt`, `orthodontic-referral`}:
 
-- `data/guidelines/<slug>.json` — full category file (workflows + firstPrinciples)
+- `data/guidelines/<slug>.json` — full category file (subjects with their workflows + firstPrinciples)
 - `data/guidelines/index.json` — category index (already scaffolded; only update if metadata changes)
 - `data/guidelines/progress.json` — track extraction progress
 
@@ -57,38 +59,65 @@ For each category `<slug>` ∈ {`sdcep`, `dboh`, `bsp`, `fgdp`}:
   "organisation": "SDCEP",
   "order": 1,
   "description": "…",
-  "workflows": [
+  "subjects": [
     {
-      "id": "sdcep-antibiotic-prophylaxis-decision",
-      "title": "Antibiotic prophylaxis decision for infective endocarditis",
-      "overview": "## 1. Establish IE risk category\n\nBefore any procedure planning, confirm the group the patient sits in. If unclear, contact the cardiac team or GP.\n\n### High risk\n- Previous IE\n- Surgically implanted prosthetic valves or repair material\n- Transcatheter aortic or pulmonary valve prostheses\n- Untreated cyanotic CHD\n- Palliated cyanotic CHD with residual defects\n- Ventricular assist devices\n\n### Moderate risk\n- Rheumatic heart disease\n- Non-rheumatic degenerative valve disease\n- Congenital valve abnormalities (incl. bicuspid aortic valve)\n- CIEDs\n- Hypertrophic cardiomyopathy\n\n## 2. Branch by procedure (high risk only)\n\n1. **Extractions or oral surgery** → **offer** prophylaxis\n2. **Gingival or periapical manipulation** → **consider**; weigh oral health\n3. **Anything else** → **not required**",
-      "slides": [
-        { "id": 1, "title": "Step 1: where to start", "body": "Antibiotic prophylaxis against IE is not given routinely. The first thing to settle is the patient's IE risk category. The high risk group includes…" },
-        { "id": 2, "title": "High risk conditions", "body": "…previous IE, surgically implanted prosthetic valves, transcatheter aortic or pulmonary prostheses, untreated cyanotic CHD, palliated cyanotic CHD, and ventricular assist devices. Moving down a tier, the moderate risk group includes…" }
+      "slug": "antibiotic-prophylaxis",
+      "title": "Antibiotic prophylaxis",
+      "order": 1,
+      "workflows": [
+        {
+          "id": "sdcep-antibiotic-prophylaxis-decision",
+          "title": "Antibiotic prophylaxis decision for infective endocarditis",
+          "overview": "## 1. Establish IE risk category\n\nBefore any procedure planning, confirm the group the patient sits in. If unclear, contact the cardiac team or GP.\n\n### High risk\n- Previous IE\n- Surgically implanted prosthetic valves or repair material\n\n### Moderate risk\n- Rheumatic heart disease\n- Non-rheumatic degenerative valve disease\n\n## 2. Branch by procedure (high risk only)\n\n1. **Extractions or oral surgery** → **offer** prophylaxis\n2. **Gingival or periapical manipulation** → **consider**; weigh oral health\n3. **Anything else** → **not required**",
+          "slides": [
+            { "id": 1, "title": "Step 1: where to start", "body": "Antibiotic prophylaxis against IE is not given routinely. The first thing to settle is the patient's IE risk category. The high risk group includes…" },
+            { "id": 2, "title": "High risk conditions", "body": "…previous IE, surgically implanted prosthetic valves, transcatheter aortic or pulmonary prostheses, untreated cyanotic CHD, palliated cyanotic CHD, and ventricular assist devices. Moving down a tier, the moderate risk group includes…" }
+          ]
+        }
+      ],
+      "firstPrinciples": [
+        {
+          "id": "sdcep-001",
+          "title": "Most IE bacteraemia comes from daily oral activity",
+          "broaderContext": "≤30 words placing the truth in the bigger picture.",
+          "body": "## Heading\n\nParagraph that develops the heading, with [1] inline citations.",
+          "citations": [
+            { "id": 1, "quote": "Verbatim quote from the source.", "source": "SDCEP Antibiotic Prophylaxis (2018), Introduction" }
+          ]
+        }
       ]
-    }
-  ],
-  "firstPrinciples": [
+    },
     {
-      "id": "sdcep-001",
-      "title": "Core truth title",
-      "broaderContext": "≤30 words placing the truth in the bigger picture.",
-      "body": "## Heading\n\nParagraph that develops the heading, with [1] inline citations.",
-      "citations": [
-        { "id": 1, "quote": "Verbatim quote from the source.", "source": "SDCEP MRONJ guidance, p.12" }
-      ]
+      "slug": "mronj",
+      "title": "MRONJ",
+      "order": 2,
+      "workflows": [],
+      "firstPrinciples": []
     }
   ]
 }
 ```
 
+**First principle IDs are unique across the whole file**, not per subject. Use a single zero-padded counter (`<slug>-001`, `<slug>-002`, …) regardless of which subject the principle ends up in. Workflow IDs follow the same rule.
+
 ## Process
 
 ### 1. Pick a category and read every source file in it
 
-For SDCEP, that means reading all six files end to end. For DBOH, BSP, FGDP, just the one file each. Do not skip pages, sections, or appendices that look administrative — flowcharts and decision aids often live there.
+For SDCEP, that means reading all six files end to end. For DBOH, BSP, FGDP, just the one file each. For IADT, four files. For orthodontic referral, two. Do not skip pages, sections, or appendices that look administrative — flowcharts and decision aids often live there.
 
-### 2. Extract workflows
+### 2. Decide the subjects
+
+Before extracting workflows, decide how to partition the category into subjects. Two patterns:
+
+- **One source per subject.** SDCEP has six guidance PDFs → six subjects (`antibiotic-prophylaxis`, `mronj`, `anticoagulants`, `amalgam`, `child-caries`, `prescribing`). IADT's four documents map to subjects by injury type.
+- **One source covers many themes.** DBOH covers caries, periodontal, smoking, oral cancer and tooth wear → split by clinical theme (`caries-prevention`, `periodontal`, `smoking-alcohol`, `oral-cancer`, `tooth-wear`). BSP and FGDP follow this pattern too.
+
+Subject `slug`s are short kebab-case (e.g. `mronj`, `child-caries`, `nhs-process`); subject `title`s are short, human-readable, and don't repeat the category name. Order them in the way a clinician would naturally encounter them (general principles first, edge cases last).
+
+Aim for 3–6 subjects per category. Fewer makes the toggle hierarchy pointless; more fragments the user's mental model. Don't create empty subjects — every subject must have at least one workflow OR at least one first principle.
+
+### 3. Extract workflows
 
 Identify each distinct **decision workflow** or **clinical SOP** that the organisation's guidance defines. A single source document can yield multiple workflows. The SDCEP child-caries guideline alone may produce many: caries risk assessment, prevention regimen, treatment of occlusal lesion in a primary molar, treatment of approximal lesion, behaviour management, etc.
 
@@ -205,9 +234,9 @@ Each slide:
 - Globally unique inside the category file
 - Examples: `sdcep-antibiotic-prophylaxis-decision`, `sdcep-child-caries-risk-assessment`, `sdcep-mronj-extraction-decision`
 
-### 3. Extract first principles
+### 4. Extract first principles
 
-Pool all source documents in the category and identify **fundamental, scientifically sound truths** that the entire organisation's guidance rests on. Use the **exact same rules** as the `extract-first-principles` skill (in `.claude/skills/extract-first-principles/SKILL.md`). Specifically:
+Identify **fundamental, scientifically sound truths** that the guidance rests on, and assign each one to the most natural subject. Use the **exact same rules** as the `extract-first-principles` skill (in `.claude/skills/extract-first-principles/SKILL.md`). Specifically:
 
 - **Core truths** are facts you could defend in a room of scientists, not protocols or opinions
 - **broaderContext** ≤ 30 words, no citations, third person
@@ -216,11 +245,11 @@ Pool all source documents in the category and identify **fundamental, scientific
 - **Inline citations** `[N]` after concrete claims; citations must be **verbatim** quotes
 - For guidelines, the citation `source` field is a free-text reference (e.g. `"SDCEP MRONJ guidance, section 3.2"` or `"Delivering Better Oral Health, p.84"`). The Oxford Handbook `paragraph` field is not used here.
 
-**ID convention for first principles:** `<slug>-NNN` (zero-padded, e.g. `sdcep-001`, `sdcep-002`).
+**ID convention for first principles:** `<category-slug>-NNN`, zero-padded, **unique across the whole file** regardless of subject. Number them sequentially as you write them; the subject that owns each principle is determined by which subject array you put it in, not the ID.
 
-Aim for as many truths as the source genuinely supports. Cross-document truths are fine: if multiple SDCEP documents reinforce the same principle, write it once and cite the strongest source.
+Aim for as many truths as the source genuinely supports. Each principle goes in exactly one subject — the one where a clinician would naturally look for it. Cross-document truths are fine: if multiple sources reinforce the same principle, write it once, cite the strongest source, and put it in the subject where it's most actionable.
 
-### 4. Update the index and progress
+### 5. Update the index and progress
 
 `data/guidelines/index.json` is already scaffolded. Only edit it if you need to refine the `description` field after reading the source. Do not change `slug` or `order`.
 
@@ -230,14 +259,17 @@ Update `data/guidelines/progress.json` after each category:
 {
   "completed": ["sdcep"],
   "in_progress": "dboh",
-  "total_categories": 4,
+  "total_categories": 6,
   "last_updated": "2026-04-26"
 }
 ```
 
 ## Rules
 
-- One file per category (`<slug>.json`). Do not split workflows into separate files.
+- One file per category (`<slug>.json`). Do not split subjects into separate files.
+- Every category has a `subjects[]` array. Workflows and firstPrinciples live **inside** their owning subject, never at the top level.
+- 3–6 subjects per category. Subject `slug`s are short kebab-case; subject `title`s don't repeat the category name. Drop subjects that have no workflows AND no first principles.
+- Workflow IDs and first-principle IDs are **globally unique within the file** (e.g. `sdcep-001` … `sdcep-026` across all subjects), not numbered per subject.
 - `overview` is a **clinical manual in markdown**, not a prose summary. Lead with numbered stages; use bullets, sub-headings, bold and italic. Visually scannable in 30 seconds.
 - `slides` are **incremental recall tests**, not paragraph explainers. Each slide is one chunk, ends with a dangling prompt (`…`), and the next slide picks up after the dangle. 18–35 slides per workflow.
 - No em dashes in slide titles. Use `:` or parentheses instead.

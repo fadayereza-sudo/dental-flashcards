@@ -30,19 +30,27 @@ type Workflow = {
   slides: Slide[];
 };
 
+type Subject = {
+  slug: string;
+  title: string;
+  order: number;
+  description?: string;
+  workflows: Workflow[];
+  firstPrinciples: CoreTruth[];
+};
+
 type GuidelineDetail = {
   slug: string;
   title: string;
   organisation: string;
   order: number;
   description: string;
-  referenceText?: string;
-  workflows: Workflow[];
-  firstPrinciples: CoreTruth[];
+  subjects: Subject[];
 };
 
 type PlayerState = {
   categorySlug: string;
+  subjectSlug: string;
   workflow: Workflow;
 };
 
@@ -55,12 +63,12 @@ export function GuidelinesPage() {
   const [loading, setLoading] = useState(true);
 
   // Toggle hierarchy state — a single Set of expanded toggle IDs.
-  //   cat:<slug>                       — category open
-  //   cat:<slug>:section:workflows     — workflows sub-toggle open
-  //   cat:<slug>:section:principles    — principles sub-toggle open
-  //   cat:<slug>:wf:<id>               — individual workflow open
-  //   cat:<slug>:wf:<id>:overview      — workflow overview open
-  //   cat:<slug>:fp:<id>               — first-principle open (handled by PrincipleToggleList)
+  //   cat:<slug>                                       — category open
+  //   cat:<slug>:subj:<subjSlug>                       — subject open
+  //   cat:<slug>:subj:<subjSlug>:section:workflows     — workflows sub-toggle
+  //   cat:<slug>:subj:<subjSlug>:section:principles    — principles sub-toggle
+  //   cat:<slug>:subj:<subjSlug>:wf:<id>               — workflow open
+  //   cat:<slug>:subj:<subjSlug>:wf:<id>:overview      — workflow overview open
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
 
   // Player state — set when user taps "Test" on a workflow
@@ -77,8 +85,10 @@ export function GuidelinesPage() {
   const { sheetRef: overviewSheetRef, handleProps: overviewDragHandle } =
     useDragToClose(resetOverview);
 
-  // Track which first-principle toggle is open per category
-  const [openTruthByCat, setOpenTruthByCat] = useState<Record<string, string | null>>({});
+  // Track which first-principle toggle is open per (category, subject)
+  const [openTruthBySubj, setOpenTruthBySubj] = useState<
+    Record<string, string | null>
+  >({});
 
   useEffect(() => {
     fetchGuidelines();
@@ -123,16 +133,21 @@ export function GuidelinesPage() {
     }
   };
 
-  const toggleTruth = (catSlug: string) => (id: string) => {
-    setOpenTruthByCat((prev) => ({
+  const toggleTruth = (catSlug: string, subjSlug: string) => (id: string) => {
+    const key = `${catSlug}:${subjSlug}`;
+    setOpenTruthBySubj((prev) => ({
       ...prev,
-      [catSlug]: prev[catSlug] === id ? null : id,
+      [key]: prev[key] === id ? null : id,
     }));
   };
 
-  const startTest = (categorySlug: string, workflow: Workflow) => {
+  const startTest = (
+    categorySlug: string,
+    subjectSlug: string,
+    workflow: Workflow,
+  ) => {
     if (workflow.slides.length === 0) return;
-    setPlayer({ categorySlug, workflow });
+    setPlayer({ categorySlug, subjectSlug, workflow });
     setCurrentSlide(0);
     setView("player");
   };
@@ -315,10 +330,6 @@ export function GuidelinesPage() {
             const catId = `cat:${cat.slug}`;
             const catOpen = isExpanded(catId);
             const data = categoryData[cat.slug];
-            const wfSectionId = `${catId}:section:workflows`;
-            const fpSectionId = `${catId}:section:principles`;
-            const wfSectionOpen = isExpanded(wfSectionId);
-            const fpSectionOpen = isExpanded(fpSectionId);
 
             return (
               <div key={cat.slug} className="space-y-0">
@@ -352,59 +363,55 @@ export function GuidelinesPage() {
 
                 {catOpen && data && (
                   <div className="pt-2 pl-3 border-l-2 border-[#2d2d2d] space-y-2">
-                    {/* Level 2: Workflows */}
-                    <div>
-                      <button
-                        onClick={() => toggle(wfSectionId)}
-                        className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
-                      >
-                        <span className="text-sm text-ink font-medium tracking-wide">
-                          Workflows
-                          {data.workflows.length > 0 && (
-                            <span className="ml-2 text-[11px] text-ink-muted font-normal">
-                              {data.workflows.length}
+                    {data.subjects.map((subj) => {
+                      const subjId = `${catId}:subj:${subj.slug}`;
+                      const subjOpen = isExpanded(subjId);
+                      const wfSectionId = `${subjId}:section:workflows`;
+                      const fpSectionId = `${subjId}:section:principles`;
+                      const wfSectionOpen = isExpanded(wfSectionId);
+                      const fpSectionOpen = isExpanded(fpSectionId);
+
+                      return (
+                        <div key={subj.slug}>
+                          {/* Level 2: Subject */}
+                          <button
+                            onClick={() => toggle(subjId)}
+                            className="w-full text-left rounded-lg bg-[#5a5a5a] hover:bg-[#6a6a6a] text-white px-3 py-2.5 transition-colors flex items-center justify-between"
+                          >
+                            <span className="font-medium text-sm tracking-wide">
+                              {subj.title}
                             </span>
-                          )}
-                        </span>
-                        <svg
-                          className={`w-4 h-4 transition-transform ${
-                            wfSectionOpen ? "rotate-90" : ""
-                          }`}
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                        >
-                          <path d="M9 6l6 6-6 6" />
-                        </svg>
-                      </button>
+                            <svg
+                              className={`w-4 h-4 transition-transform flex-shrink-0 ml-3 ${
+                                subjOpen ? "rotate-90" : ""
+                              }`}
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                            >
+                              <path d="M9 6l6 6-6 6" />
+                            </svg>
+                          </button>
 
-                      {wfSectionOpen && (
-                        <div className="pt-2 pl-3 border-l border-rule space-y-2">
-                          {data.workflows.length === 0 ? (
-                            <p className="text-xs text-ink-muted italic px-2 py-2">
-                              No workflows extracted yet.
-                            </p>
-                          ) : (
-                            data.workflows.map((wf) => {
-                              const wfId = `${catId}:wf:${wf.id}`;
-                              const wfOpen = isExpanded(wfId);
-                              const overviewId = `${wfId}:overview`;
-                              const overviewOpen = isExpanded(overviewId);
-
-                              return (
-                                <div key={wf.id}>
-                                  {/* Level 3: individual workflow */}
+                          {subjOpen && (
+                            <div className="pt-2 pl-3 border-l border-[#5a5a5a] space-y-2">
+                              {/* Level 3a: Workflows */}
+                              {subj.workflows.length > 0 && (
+                                <div>
                                   <button
-                                    onClick={() => toggle(wfId)}
-                                    className="w-full text-left rounded-lg bg-paper hover:bg-paper-sunk transition-colors border border-rule px-3 py-2 flex items-start justify-between gap-3"
+                                    onClick={() => toggle(wfSectionId)}
+                                    className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
                                   >
-                                    <span className="text-sm text-ink flex-1">
-                                      {wf.title}
+                                    <span className="text-sm text-ink font-medium tracking-wide">
+                                      Workflows
+                                      <span className="ml-2 text-[11px] text-ink-muted font-normal">
+                                        {subj.workflows.length}
+                                      </span>
                                     </span>
                                     <svg
-                                      className={`w-4 h-4 flex-shrink-0 mt-0.5 transition-transform ${
-                                        wfOpen ? "rotate-90" : ""
+                                      className={`w-4 h-4 transition-transform ${
+                                        wfSectionOpen ? "rotate-90" : ""
                                       }`}
                                       viewBox="0 0 24 24"
                                       fill="none"
@@ -415,115 +422,168 @@ export function GuidelinesPage() {
                                     </svg>
                                   </button>
 
-                                  {wfOpen && (
-                                    <div className="pt-2 pl-3 border-l border-rule/60 space-y-2">
-                                      {/* Level 4a: Overview */}
-                                      <div>
-                                        <button
-                                          onClick={() => toggle(overviewId)}
-                                          className="w-full text-left rounded-md bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
-                                        >
-                                          <span className="text-xs text-ink uppercase tracking-[0.12em]">
-                                            Overview
-                                          </span>
-                                          <svg
-                                            className={`w-3.5 h-3.5 transition-transform ${
-                                              overviewOpen ? "rotate-90" : ""
-                                            }`}
-                                            viewBox="0 0 24 24"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            strokeWidth="2"
-                                          >
-                                            <path d="M9 6l6 6-6 6" />
-                                          </svg>
-                                        </button>
-                                        {overviewOpen && (
-                                          <div className="mt-2 px-3 py-3 bg-paper rounded-md">
-                                            <ManualMarkdown source={wf.overview} />
-                                          </div>
-                                        )}
-                                      </div>
+                                  {wfSectionOpen && (
+                                    <div className="pt-2 pl-3 border-l border-rule space-y-2">
+                                      {subj.workflows.map((wf) => {
+                                        const wfId = `${subjId}:wf:${wf.id}`;
+                                        const wfOpen = isExpanded(wfId);
+                                        const overviewId = `${wfId}:overview`;
+                                        const overviewOpen = isExpanded(
+                                          overviewId,
+                                        );
 
-                                      {/* Level 4b: Test (button — launches slideshow) */}
-                                      <button
-                                        onClick={() => startTest(cat.slug, wf)}
-                                        disabled={wf.slides.length === 0}
-                                        className="w-full text-left rounded-md bg-ink text-paper hover:bg-ink-soft transition-colors px-3 py-2 flex items-center justify-between disabled:opacity-40 disabled:cursor-not-allowed"
-                                      >
-                                        <span className="text-xs uppercase tracking-[0.12em] font-medium">
-                                          Test
-                                          {wf.slides.length > 0 && (
-                                            <span className="ml-2 text-[11px] opacity-70 font-normal">
-                                              {wf.slides.length} slides
-                                            </span>
-                                          )}
-                                        </span>
-                                        <svg
-                                          width="14"
-                                          height="14"
-                                          viewBox="0 0 24 24"
-                                          fill="none"
-                                          stroke="currentColor"
-                                          strokeWidth="2"
-                                        >
-                                          <path d="M9 6l6 6-6 6" />
-                                        </svg>
-                                      </button>
+                                        return (
+                                          <div key={wf.id}>
+                                            {/* Level 4: individual workflow */}
+                                            <button
+                                              onClick={() => toggle(wfId)}
+                                              className="w-full text-left rounded-lg bg-paper hover:bg-paper-sunk transition-colors border border-rule px-3 py-2 flex items-start justify-between gap-3"
+                                            >
+                                              <span className="text-sm text-ink flex-1">
+                                                {wf.title}
+                                              </span>
+                                              <svg
+                                                className={`w-4 h-4 flex-shrink-0 mt-0.5 transition-transform ${
+                                                  wfOpen ? "rotate-90" : ""
+                                                }`}
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                              >
+                                                <path d="M9 6l6 6-6 6" />
+                                              </svg>
+                                            </button>
+
+                                            {wfOpen && (
+                                              <div className="pt-2 pl-3 border-l border-rule/60 space-y-2">
+                                                {/* Level 5a: Overview */}
+                                                <div>
+                                                  <button
+                                                    onClick={() =>
+                                                      toggle(overviewId)
+                                                    }
+                                                    className="w-full text-left rounded-md bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
+                                                  >
+                                                    <span className="text-xs text-ink uppercase tracking-[0.12em]">
+                                                      Overview
+                                                    </span>
+                                                    <svg
+                                                      className={`w-3.5 h-3.5 transition-transform ${
+                                                        overviewOpen
+                                                          ? "rotate-90"
+                                                          : ""
+                                                      }`}
+                                                      viewBox="0 0 24 24"
+                                                      fill="none"
+                                                      stroke="currentColor"
+                                                      strokeWidth="2"
+                                                    >
+                                                      <path d="M9 6l6 6-6 6" />
+                                                    </svg>
+                                                  </button>
+                                                  {overviewOpen && (
+                                                    <div className="mt-2 px-3 py-3 bg-paper rounded-md">
+                                                      <ManualMarkdown
+                                                        source={wf.overview}
+                                                      />
+                                                    </div>
+                                                  )}
+                                                </div>
+
+                                                {/* Level 5b: Test (button — launches slideshow) */}
+                                                <button
+                                                  onClick={() =>
+                                                    startTest(
+                                                      cat.slug,
+                                                      subj.slug,
+                                                      wf,
+                                                    )
+                                                  }
+                                                  disabled={
+                                                    wf.slides.length === 0
+                                                  }
+                                                  className="w-full text-left rounded-md bg-ink text-paper hover:bg-ink-soft transition-colors px-3 py-2 flex items-center justify-between disabled:opacity-40 disabled:cursor-not-allowed"
+                                                >
+                                                  <span className="text-xs uppercase tracking-[0.12em] font-medium">
+                                                    Test
+                                                    {wf.slides.length > 0 && (
+                                                      <span className="ml-2 text-[11px] opacity-70 font-normal">
+                                                        {wf.slides.length} slides
+                                                      </span>
+                                                    )}
+                                                  </span>
+                                                  <svg
+                                                    width="14"
+                                                    height="14"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    strokeWidth="2"
+                                                  >
+                                                    <path d="M9 6l6 6-6 6" />
+                                                  </svg>
+                                                </button>
+                                              </div>
+                                            )}
+                                          </div>
+                                        );
+                                      })}
                                     </div>
                                   )}
                                 </div>
-                              );
-                            })
+                              )}
+
+                              {/* Level 3b: First Principles */}
+                              {subj.firstPrinciples.length > 0 && (
+                                <div>
+                                  <button
+                                    onClick={() => toggle(fpSectionId)}
+                                    className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
+                                  >
+                                    <span className="text-sm text-ink font-medium tracking-wide">
+                                      First Principles
+                                      <span className="ml-2 text-[11px] text-ink-muted font-normal">
+                                        {subj.firstPrinciples.length}
+                                      </span>
+                                    </span>
+                                    <svg
+                                      className={`w-4 h-4 transition-transform ${
+                                        fpSectionOpen ? "rotate-90" : ""
+                                      }`}
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth="2"
+                                    >
+                                      <path d="M9 6l6 6-6 6" />
+                                    </svg>
+                                  </button>
+
+                                  {fpSectionOpen && (
+                                    <div className="pt-2 pl-3 border-l border-rule">
+                                      <PrincipleToggleList
+                                        truths={subj.firstPrinciples}
+                                        category={`${cat.title} · ${subj.title}`}
+                                        openTruthId={
+                                          openTruthBySubj[
+                                            `${cat.slug}:${subj.slug}`
+                                          ] ?? null
+                                        }
+                                        onToggle={toggleTruth(
+                                          cat.slug,
+                                          subj.slug,
+                                        )}
+                                      />
+                                    </div>
+                                  )}
+                                </div>
+                              )}
+                            </div>
                           )}
                         </div>
-                      )}
-                    </div>
-
-                    {/* Level 2: First Principles */}
-                    <div>
-                      <button
-                        onClick={() => toggle(fpSectionId)}
-                        className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
-                      >
-                        <span className="text-sm text-ink font-medium tracking-wide">
-                          First Principles
-                          {data.firstPrinciples.length > 0 && (
-                            <span className="ml-2 text-[11px] text-ink-muted font-normal">
-                              {data.firstPrinciples.length}
-                            </span>
-                          )}
-                        </span>
-                        <svg
-                          className={`w-4 h-4 transition-transform ${
-                            fpSectionOpen ? "rotate-90" : ""
-                          }`}
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                        >
-                          <path d="M9 6l6 6-6 6" />
-                        </svg>
-                      </button>
-
-                      {fpSectionOpen && (
-                        <div className="pt-2 pl-3 border-l border-rule">
-                          {data.firstPrinciples.length === 0 ? (
-                            <p className="text-xs text-ink-muted italic px-2 py-2">
-                              No first principles extracted yet.
-                            </p>
-                          ) : (
-                            <PrincipleToggleList
-                              truths={data.firstPrinciples}
-                              category={cat.title}
-                              openTruthId={openTruthByCat[cat.slug] ?? null}
-                              onToggle={toggleTruth(cat.slug)}
-                            />
-                          )}
-                        </div>
-                      )}
-                    </div>
+                      );
+                    })}
                   </div>
                 )}
               </div>
