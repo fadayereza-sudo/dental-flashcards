@@ -5,9 +5,9 @@
   "last_updated": "2026-04-26",
   "totals": {
     "subjects": 30,
-    "workflows": 77,
+    "workflows": 75,
     "first_principles": 89,
-    "test_slides": 1142
+    "test_slides": 1103
   },
-  "notes": "Full v2 extraction across all 6 categories, then reorganised into a subjects[] hierarchy (30 subjects total). Each <slug>.json is now { ..., subjects: [{ slug, title, order, workflows, firstPrinciples }] }. BSP later gained two canonical flowchart workflows (bsp-2018-classification-pathway, bsp-s3-stepwise-treatment) and three first principles (bsp-013, bsp-014, bsp-015) sourced from the BSP 2018 classification flowchart and the BSP S3 stepwise treatment flowchart."
+  "notes": "Full v2 extraction across all 6 categories, then reorganised into a subjects[] hierarchy (30 subjects total). Each <slug>.json is now { ..., subjects: [{ slug, title, order, workflows, firstPrinciples }] }. BSP gained two canonical flowchart workflows (bsp-2018-classification-pathway, bsp-s3-stepwise-treatment) and three first principles (bsp-013, bsp-014, bsp-015), then was aligned with the latest BSP guidance: bsp-full-diagnosis (1999 classification) and bsp-non-surgical-therapy (2016 framework) were deleted; bsp-bpe-screening-adult, bsp-bpe-screening-children, bsp-antimicrobials-perio, bsp-supportive-periodontal-therapy, bsp-referral-decision and bsp-012 were rewritten to use 2018 stage/grade/status terminology and the S3 stepwise framework."
 }
