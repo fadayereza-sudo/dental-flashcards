@@ -1,7 +1,7 @@
 {
-  "completed": [],
+  "completed": ["sdcep-sample"],
   "in_progress": null,
   "total_categories": 4,
   "last_updated": "2026-04-26",
-  "notes": "Scaffold only — empty workflows[] and firstPrinciples[] in each category. Run extract-guidelines-slides skill to populate."
+  "notes": "v2 sample: workflow overview rewritten as a structured clinical manual in markdown (numbered stages, bullets, bold decision terms) and slides rewritten as 36 incremental dangling-prompt recall tests. Each slide ends with a leading phrase and the next slide picks up with an ellipsis. firstPrinciples (3) unchanged from v1. Other SDCEP source files (child-caries, dental-prescribing, MRONJ, anticoagulants, amalgam) and other categories (dboh, bsp, fgdp) are still empty scaffolds."
 }
