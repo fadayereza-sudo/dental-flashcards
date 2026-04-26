@@ -226,28 +226,28 @@
         },
         {
           "id": "bsp-bpe-screening-children",
-          "title": "Periodontal screening for under-18s",
-          "overview": "Children and adolescents are screened with a **simplified BPE on six index teeth** to avoid the false-pocket problem of erupting permanent teeth. The codes available depend on the age band.\n\n## 1. Identify the index teeth\n\nProbe only six teeth:\n\n- **UR6, UR1, UL6**\n- **LL6, LL1, LR6**\n\nUse the **WHO 621** probe; the second black band at 8.5 to 11.5 mm is useful where false pocketing is present.\n\n## 2. Choose the code set by age\n\n### 7 to 11 years (mixed dentition)\n- Use **codes 0, 1, 2 only**\n- This avoids the pseudopockets associated with erupting permanent teeth\n\n### 12 to 17 years (permanent dentition)\n- Use the **full set: 0, 1, 2, 3, 4 and \\***\n\n## 3. Code definitions for under-18s\n\n- **0** Healthy\n- **1** Bleeding after gentle probing\n- **2** Calculus or plaque retention factor\n- **3** Shallow pocket 4 to 5 mm\n- **4** Deep pocket 6 mm or more\n- **\\*** Furcation\n\n## 4. Refer when any of the following apply\n\n1. **Periodontitis with rapid progression (Grade C)** or a **molar-incisor pattern** (the 2018 categories that replace what was historically called aggressive periodontitis)\n2. **Periodontitis not responding** to initial treatment despite good plaque control\n3. Systemic medical condition associated with periodontal destruction\n4. Medical history that significantly affects periodontal treatment, or requiring multi-disciplinary care\n5. Genetic conditions predisposing to periodontal destruction\n6. Root morphology adversely affecting prognosis\n7. Non-plaque-induced conditions requiring complex care\n8. Cases requiring diagnosis or management of rare or complex pathology\n9. **Drug-induced gingival overgrowth**\n10. Cases requiring evaluation for periodontal surgery",
+          "title": "Periodontal screening for under-18s (sBPE)",
+          "overview": "Children and adolescents are screened with a **simplified BPE (sBPE) on six index teeth** to avoid the false-pocket problem of erupting permanent teeth. Joint BSP and BSPD guidance updated 2021 retains the six-index-tooth method but updates the action mapping and referral list to reflect the 2017 classification.\n\n## 1. Identify the index teeth\n\nProbe only six teeth:\n\n- **Upper:** UR6, UR1, UL6\n- **Lower:** LR6, LL1, LL6\n\nUse the **WHO probe** with a 0.5 mm ball end and black band at 3.5 to 5.5 mm. Assess 6 points per tooth.\n\n## 2. Choose the code set by age\n\n### 7 to 11 years (mixed dentition)\n- Use **codes 0, 1, 2 only**\n- This avoids the pseudopockets associated with erupting permanent teeth\n\n### 12 to 17 years (permanent dentition)\n- Use the **full set: 0, 1, 2, 3, 4 and \\***\n\n## 3. sBPE code definitions\n\n- **0** Healthy\n- **1** Bleeding after gentle probing — **black band fully visible**\n- **2** Calculus or plaque retention factor — **black band fully visible**\n- **3** Shallow pocket of 4 to 5 mm — **black band partly visible**\n- **4** Deep pocket of 6 mm or more — **black band disappears**\n- **\\*** Furcation involvement\n\n## 4. Act on the score (Table 1, BSP/BSPD 2021)\n\n### Code 0\n- No periodontal treatment\n- Screen again at routine recall or within **1 year**, whichever sooner\n\n### Code 1\n- **Oral hygiene instruction (OHI)**\n- Screen again at routine recall or within **6 months**, whichever sooner\n\n### Code 2\n- OHI as for Code 1\n- **Supragingival/subgingival PMPR** plus removal of plaque retention factors\n- Screen again at routine recall or within **6 months**, whichever sooner\n\n### Code 3\n- OHI as for Codes 1 and 2\n- **Supragingival/subgingival PMPR** with particular emphasis on **subgingival PMPR in shallow 4 to 5 mm pockets**\n- Remove/manage plaque retention factors\n- **After 3 months**, do a full periodontal assessment including **6-point PPD chart in the affected sextants**\n\n### Code 4 or \\*\n- **Unusual in young patients**\n- Do a full periodontal assessment including a 6-point PPD chart **throughout the entire dentition**\n- **Consider specialist referral** while doing initial therapy as for Code 3\n\n## 5. Refer to specialist services when any of the following apply (Table 2, BSP/BSPD 2021)\n\n1. **Stage II or III periodontitis not responding to treatment**\n2. **Grade C or Stage IV periodontitis**\n3. Medical history that significantly affects periodontal treatment, or requiring multi-disciplinary care\n4. **Periodontitis as a direct manifestation of systemic disease**\n5. Systemic or genetic diseases that can affect the periodontal supporting tissues\n6. Root morphology or furcation defects adversely affecting prognosis on key teeth\n7. Non-plaque-induced conditions requiring complex or specialist care\n8. Cases requiring diagnosis or management of rare or complex clinical pathology\n9. **Drug-induced gingival overgrowth needing surgery**\n10. Cases requiring evaluation for periodontal surgery",
           "slides": [
             {
               "id": 1,
               "title": "Why a different protocol",
-              "body": "Under-18s get a simplified BPE on a fixed set of teeth, designed to avoid the false-pocket problem of erupting permanent teeth. The number of index teeth examined is…"
+              "body": "Under-18s get a simplified BPE on a fixed set of teeth, designed to avoid the false-pocket problem of erupting permanent teeth. Joint BSP and BSPD guidance updated in 2021 retains the six-index-tooth method but updates the action mapping and referral list to reflect the 2017 classification. The number of index teeth examined is…"
             },
             {
               "id": 2,
               "title": "Six index teeth",
-              "body": "…six. The teeth probed are UR6, UR1, UL6, LL6, LL1 and LR6. The probe used is…"
+              "body": "…six. The teeth probed are UR6, UR1, UL6, LR6, LL1 and LL6. The probe used is…"
             },
             {
               "id": 3,
               "title": "Probe of choice",
-              "body": "…the WHO 621, with the second black band at 8.5 to 11.5 mm being useful where there is false pocketing. The codes available depend on the child's age. From 7 to 11 years, only…"
+              "body": "…the WHO probe, with a 0.5 mm ball end and a black band at 3.5 to 5.5 mm. Six points are assessed per tooth. The codes available depend on the child's age. From 7 to 11 years, only…"
             },
             {
               "id": 4,
               "title": "Codes 7 to 11 years",
-              "body": "…codes 0, 1 and 2 are used. This is during the mixed dentition phase. The reason for excluding 3 and 4 in this age band is…"
+              "body": "…codes 0, 1 and 2 are used, on the index teeth only. This is the mixed dentition phase. The reason for excluding 3 and 4 in this age band is…"
             },
             {
               "id": 5,
@@ -257,17 +257,77 @@
             {
               "id": 6,
               "title": "Codes 12 to 17 years",
-              "body": "…the full set: 0, 1, 2, 3, 4 and *. The under-18 code definitions are slightly cleaner: code 0 is healthy, code 1 is bleeding after gentle probing, code 2 is…"
+              "body": "…the full set: 0, 1, 2, 3, 4 and *, still on the index teeth only. Code 0 is healthy. Code 1 is bleeding after gentle probing with the black band fully visible. Code 2 is…"
             },
             {
               "id": 7,
-              "title": "Codes 2 to 4 in under-18s",
-              "body": "…calculus or plaque retention factor; code 3 is a shallow pocket of 4 to 5 mm; code 4 is a deep pocket of 6 mm or more; and * indicates a furcation. The first specialist referral indication is periodontitis with…"
+              "title": "Code 2",
+              "body": "…calculus or a plaque retention factor, with the black band still fully visible. Code 3 indicates a shallow pocket of 4 to 5 mm where the black band is…"
             },
             {
               "id": 8,
-              "title": "Referral indications",
-              "body": "…rapid progression (Grade C) or a molar-incisor pattern, which are the 2018 categories that replace what used to be called aggressive periodontitis. Other referral indications include periodontitis not responding to treatment, systemic medical conditions associated with periodontal destruction, genetic conditions predisposing to destruction, root morphology adversely affecting prognosis, drug-induced gingival overgrowth, non-plaque-induced conditions, and any case where periodontal surgery may be needed."
+              "title": "Code 3 and 4 black-band cues",
+              "body": "…partly visible. Code 4 indicates a deep pocket of 6 mm or more, where the black band disappears entirely into the pocket. The asterisk denotes a furcation, recorded alongside the number. Once the codes are recorded, each one drives a specific action. Code 0 means…"
+            },
+            {
+              "id": 9,
+              "title": "Action: Code 0",
+              "body": "…no periodontal treatment, with a rescreen at routine recall or within 1 year, whichever is sooner. Code 1 adds…"
+            },
+            {
+              "id": 10,
+              "title": "Action: Code 1",
+              "body": "…oral hygiene instruction, with a rescreen at routine recall or within 6 months. Code 2 builds further by adding…"
+            },
+            {
+              "id": 11,
+              "title": "Action: Code 2",
+              "body": "…supragingival and subgingival professional mechanical plaque removal, plus removal of plaque retention factors, on top of the OHI. The rescreen interval matches Code 1 at routine recall or within 6 months. Code 3 escalates to…"
+            },
+            {
+              "id": 12,
+              "title": "Action: Code 3",
+              "body": "…OHI as for Codes 1 and 2, plus supra and subgingival PMPR with particular emphasis on subgingival PMPR in the shallow 4 to 5 mm pockets, plus removal of plaque retention factors. After 3 months, a 6-point pocket chart is recorded in…"
+            },
+            {
+              "id": 13,
+              "title": "Code 3 review",
+              "body": "…the affected sextants only. Code 4 or an asterisk in an under-18 is unusual, and the action steps up to…"
+            },
+            {
+              "id": 14,
+              "title": "Action: Code 4 or asterisk",
+              "body": "…a full periodontal assessment with a 6-point pocket chart throughout the entire dentition, plus consideration of specialist referral while initial therapy proceeds as for Code 3. Beyond the score-driven actions, certain cases warrant referral regardless of code. The first referral indication is periodontitis that is…"
+            },
+            {
+              "id": 15,
+              "title": "Refer: not responding",
+              "body": "…Stage II or III periodontitis not responding to treatment. Higher up the stage and grade ladder, referral is also warranted for…"
+            },
+            {
+              "id": 16,
+              "title": "Refer: Grade C or Stage IV",
+              "body": "…Grade C or Stage IV periodontitis. The next group of indications relates to the medical and systemic picture, namely…"
+            },
+            {
+              "id": 17,
+              "title": "Refer: medical and systemic",
+              "body": "…a medical history that significantly affects periodontal treatment or requires multi-disciplinary care, periodontitis as a direct manifestation of systemic disease, and systemic or genetic diseases that affect the periodontal supporting tissues. Anatomy can also drive referral, specifically when…"
+            },
+            {
+              "id": 18,
+              "title": "Refer: anatomy",
+              "body": "…there are root morphology or furcation defects adversely affecting the prognosis of key teeth. The remaining referral indications cover…"
+            },
+            {
+              "id": 19,
+              "title": "Refer: rare and complex",
+              "body": "…non-plaque-induced conditions requiring complex or specialist care, and cases requiring diagnosis or management of rare or complex clinical pathology. Two final indications complete the list, namely…"
+            },
+            {
+              "id": 20,
+              "title": "Refer: gingival overgrowth and surgery",
+              "body": "…drug-induced gingival overgrowth needing surgery, and any case requiring evaluation for periodontal surgery."
             }
           ]
         },
