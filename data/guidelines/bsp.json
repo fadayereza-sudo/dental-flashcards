@@ -528,8 +528,8 @@
         {
           "id": "bsp-005",
           "title": "Probing depth above 4 mm is the threshold for active intervention",
-          "broaderContext": "Once a pocket is too deep for a brush and floss to reach the bottom, host hygiene alone cannot maintain it. The 4 mm rule is what divides maintenance from active care.",
-          "body": "## What 4 mm means biologically\n\nThe probing depth at any site dictates the patient's ability to maintain soft tissue health by optimal plaque control. **Probing depths of 4 mm or more are considered to be too deep to be controlled by tooth brushing and interdental cleaning alone**, and these sites should be considered for active periodontal therapy [1].\n\n## Why this drives the post-treatment workflow\n\nThis is also why the SPT appointment escalates instrumentation when pockets exceed 4 mm: more rigorous root surface debridement is needed for pockets deeper than 4 mm, especially those with bleeding on probing [2].",
+          "broaderContext": "Once a pocket is too deep for a brush and floss to reach the bottom, host hygiene alone cannot maintain it. The 4 mm rule is what divides stable from unstable.",
+          "body": "## What 4 mm means biologically\n\nThe probing depth at any site dictates the patient's ability to maintain soft tissue health by optimal plaque control. **Probing depths of 4 mm or more are considered to be too deep to be controlled by tooth brushing and interdental cleaning alone**, and these sites should be considered for active periodontal therapy [1].\n\n## Why this drives the stability definition\n\nThe 2018 classification turns this biology into the operational line between maintenance and active therapy. A patient is **currently unstable** when there is a probing depth of **5 mm or more, or a probing depth of 4 mm with bleeding on probing** [2]. Either trigger ends maintenance and re-routes the patient into active therapy at S3 Step 3. A 4 mm pocket without BoP, by contrast, is compatible with stability.",
           "citations": [
             {
               "id": 1,
@@ -538,8 +538,8 @@
             },
             {
               "id": 2,
-              "quote": "More rigorous root surface debridement will be needed for pockets deeper than 4mm, especially those with bleeding on probing.",
-              "source": "BSP Good Practitioners Guide (2016), Supportive periodontal therapy"
+              "quote": "Currently Unstable: PPD ≥5mm or PPD ≥4mm & BoP",
+              "source": "BSP Implementing the 2018 Classification (2024)"
             }
           ]
         },
@@ -1304,7 +1304,7 @@
           "id": "bsp-010",
           "title": "Periodontitis is associated with systemic disease, but causality is not established",
           "broaderContext": "Periodontitis sits alongside cardiovascular disease and diabetes as common chronic non-communicable diseases. The link is real, but its direction and weight are still uncertain.",
-          "body": "## What the link looks like\n\nGingival inflammation in periodontitis compromises the barrier function of the gingival epithelium, allowing bacteria, bacterial products and inflammatory products into the systemic circulation. In severe cases the wound area from periodontal inflammation can be as large as the palm of the hand, and this inflammation may be present for decades [1].\n\n## Why causality is hard to nail down\n\nPeriodontitis and other common chronic non-communicable diseases share risk factors (smoking, obesity, diabetes, sedentary lifestyle, poor diet, increasing age). The impact of periodontitis on these disease processes is likely to be small, requiring large trials to demonstrate. There is also no consensus definition of periodontitis, which makes meta-analysis difficult [2].\n\n## The clinically defensible message\n\nPatients can be told periodontal disease is associated with other diseases, but it is not clear if it actually causes them. What is important for general health is also likely to be protective for periodontal health [3].",
+          "body": "## What the link looks like\n\nGingival inflammation in periodontitis compromises the barrier function of the gingival epithelium, allowing bacteria, bacterial products and inflammatory products into the systemic circulation. In severe cases the wound area from periodontal inflammation can be as large as the palm of the hand, and this inflammation may be present for decades [1].\n\n## Why causality is hard to nail down\n\nPeriodontitis and other common chronic non-communicable diseases share risk factors (smoking, obesity, diabetes, sedentary lifestyle, poor diet, increasing age). The impact of periodontitis on these disease processes is likely to be small, requiring large trials to demonstrate [2].\n\n## The clinically defensible message\n\nPatients can be told periodontal disease is associated with other diseases, but it is not clear if it actually causes them. What is important for general health is also likely to be protective for periodontal health [3].",
           "citations": [
             {
               "id": 1,
@@ -1313,7 +1313,7 @@
             },
             {
               "id": 2,
-              "quote": "Firstly, periodontitis and other common, chronic, non-communicable diseases share common risk factors such as smoking, obesity, diabetes, lack of exercise/a sedentary lifestyle, poor diet and increasing age. Secondly, the impact of periodontitis on these disease processes is likely to be small hence large-scale trials are needed to demonstrate this effect or lack of effect conclusively. Finally, there is a lack of consensus in the research community on a standard definition or criteria for periodontitis.",
+              "quote": "Periodontitis and other common, chronic, non-communicable diseases share common risk factors such as smoking, obesity, diabetes, lack of exercise/a sedentary lifestyle, poor diet and increasing age. Secondly, the impact of periodontitis on these disease processes is likely to be small hence large-scale trials are needed to demonstrate this effect or lack of effect conclusively.",
               "source": "BSP Good Practitioners Guide (2016), Systemic disease and periodontal health"
             },
             {
