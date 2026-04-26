@@ -1,30 +1,20 @@
 import { useEffect, useRef } from "react";
+import { pushEntry, removeEntry } from "./back-stack";
 
 /**
  * Dismiss an overlay when the user hits the OS/browser back button.
- * Pushes a history entry on open; pops it on programmatic close so the
- * stack stays balanced.
+ * Multiple instances nest correctly via the shared back-stack — only
+ * the topmost entry's onClose fires per back press.
  */
 export function useBackClose(isOpen: boolean, onClose: () => void) {
   const onCloseRef = useRef(onClose);
   onCloseRef.current = onClose;
-  const pushedRef = useRef(false);
 
   useEffect(() => {
     if (!isOpen) return;
-    window.history.pushState({ __modal: true }, "");
-    pushedRef.current = true;
-    const handler = () => {
-      pushedRef.current = false;
-      onCloseRef.current();
-    };
-    window.addEventListener("popstate", handler);
+    const id = pushEntry(() => onCloseRef.current());
     return () => {
-      window.removeEventListener("popstate", handler);
-      if (pushedRef.current) {
-        pushedRef.current = false;
-        window.history.back();
-      }
+      removeEntry(id);
     };
   }, [isOpen]);
 }

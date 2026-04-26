@@ -3,6 +3,7 @@
 import { ReactNode, useCallback, useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { useBackClose } from "@/lib/use-back-close";
+import { useDragToClose } from "@/lib/use-drag-to-close";
 
 export type Citation = {
   id: number;
@@ -221,6 +222,7 @@ function CitationSheet({
   }, [requestClose]);
 
   useBackClose(mounted && !closing, requestClose);
+  const { sheetRef, handleProps } = useDragToClose(requestClose);
 
   if (!mounted) return null;
 
@@ -241,12 +243,16 @@ function CitationSheet({
         }`}
       />
       <div
+        ref={sheetRef}
         onClick={(e) => e.stopPropagation()}
         className={`relative w-full max-w-[32rem] max-h-[65dvh] bg-paper rounded-t-2xl border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden pb-[env(safe-area-inset-bottom)] ${
           closing ? "animate-slide-down" : "animate-slide-up"
         }`}
       >
-        <div className="flex justify-center pt-3 pb-2">
+        <div
+          {...handleProps}
+          className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"
+        >
           <div className="w-10 h-1 rounded-full bg-ink-muted/30" />
         </div>
 

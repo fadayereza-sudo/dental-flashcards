@@ -1,7 +1,10 @@
 "use client";
 
-import { Fragment, useCallback, useState, type ReactNode } from "react";
+import { Fragment, useCallback, useRef, useState, type ReactNode } from "react";
+import { createPortal } from "react-dom";
 import { useAnimatedSheet } from "@/lib/use-animated-sheet";
+import { useDragToClose } from "@/lib/use-drag-to-close";
+import { useFitText } from "@/lib/use-fit-text";
 
 const MD_LINK = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
 
@@ -61,6 +64,12 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
     refOpen,
     resetRef,
   );
+  const { sheetRef: refSheetRef, handleProps: refDragHandle } =
+    useDragToClose(resetRef);
+
+  const questionFitRef = useRef<HTMLDivElement>(null);
+  const questionTextRef = useRef<HTMLParagraphElement>(null);
+  useFitText(questionTextRef, questionFitRef, card.question + (card.image ?? ""), 24, 12);
 
   const stateLabel =
     card.state === 0
@@ -110,24 +119,33 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
           className={`flip-3d relative w-full min-h-[50dvh] rounded-[20px] border border-rule bg-paper-sunk shadow-[0_1px_0_rgba(255,255,255,0.6)_inset,0_20px_40px_-28px_rgba(28,25,23,0.35)] ${flipped ? "flipped" : ""}`}
         >
           {/* Front */}
-          <div className="flip-face absolute inset-0 p-8 flex flex-col justify-between">
-            <div className="overflow-y-auto pr-1">
+          <div className="flip-face absolute inset-0 p-8 flex flex-col">
+            <div className="flex-shrink-0">
               {metaRow}
               <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-6">
                 Question
               </p>
-              <p className="text-[24px] leading-[1.3] text-ink">
+            </div>
+            <div
+              ref={questionFitRef}
+              className="flex-1 min-h-0 flex flex-col justify-center overflow-hidden"
+            >
+              <p
+                ref={questionTextRef}
+                className="leading-[1.3] text-ink"
+                style={{ fontSize: "24px" }}
+              >
                 {card.question}
               </p>
               {card.image && (
                 <img
                   src={card.image}
                   alt=""
-                  className="mt-4 w-full rounded-lg border border-rule/50"
+                  className="mt-4 w-full rounded-lg border border-rule/50 object-contain max-h-[40%]"
                 />
               )}
             </div>
-            <div className="flex items-center justify-between text-[10px] tracking-[0.08em] uppercase text-ink-muted pt-6 border-t border-rule/70">
+            <div className="flex-shrink-0 flex items-center justify-between text-[10px] tracking-[0.08em] uppercase text-ink-muted pt-6 border-t border-rule/70">
               <span>Tap to reveal</span>
               <span aria-hidden>▾</span>
             </div>
@@ -218,20 +236,24 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
       )}
 
       {/* Reference overlay */}
-      {refOpen && (card.reference || card.referenceSection) && (
+      {refOpen && (card.reference || card.referenceSection) && typeof document !== "undefined" && createPortal(
         <div
-          className="fixed inset-0 z-50 flex items-end justify-center"
+          className="fixed inset-0 z-[100] flex items-end justify-center"
           onClick={closeRef}
         >
           <div
             className={`absolute inset-0 bg-ink/40 backdrop-blur-sm ${refClosing ? "animate-fade-out" : "animate-fade-in"}`}
           />
           <div
-            className={`relative w-full max-w-lg max-h-[85dvh] rounded-t-2xl bg-paper border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden ${refClosing ? "animate-slide-down" : "animate-slide-up"}`}
+            ref={refSheetRef}
+            className={`relative w-full max-w-lg max-h-[65dvh] rounded-t-2xl bg-paper border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden pb-[env(safe-area-inset-bottom)] ${refClosing ? "animate-slide-down" : "animate-slide-up"}`}
             onClick={(e) => e.stopPropagation()}
           >
             {/* Handle */}
-            <div className="flex justify-center pt-3 pb-1">
+            <div
+              {...refDragHandle}
+              className="flex justify-center pt-3 pb-1 touch-none cursor-grab active:cursor-grabbing"
+            >
               <div className="w-10 h-1 rounded-full bg-ink-muted/30" />
             </div>
 
@@ -275,7 +297,8 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
               )}
             </div>
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </div>
   );

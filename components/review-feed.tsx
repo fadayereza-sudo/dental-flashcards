@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { Flashcard } from "./flashcard";
 import { FilterDrawer } from "./filter-drawer";
@@ -625,9 +626,9 @@ export function ReviewFeed() {
         </div>
       )}
 
-      {noteCard && (
+      {noteCard && typeof document !== "undefined" && createPortal(
         <div
-          className="fixed inset-0 z-50 flex items-end justify-center"
+          className="fixed inset-0 z-[100] flex items-end justify-center"
           onClick={closeNote}
         >
           <div
@@ -635,7 +636,7 @@ export function ReviewFeed() {
           />
           <div
             ref={noteSheetRef}
-            className={`relative w-full max-w-lg max-h-[85dvh] rounded-t-2xl bg-paper border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden ${noteClosing ? "animate-slide-down" : "animate-slide-up"}`}
+            className={`relative w-full max-w-lg max-h-[80dvh] rounded-t-2xl bg-paper border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden pb-[env(safe-area-inset-bottom)] ${noteClosing ? "animate-slide-down" : "animate-slide-up"}`}
             onClick={(e) => e.stopPropagation()}
           >
             <div
@@ -704,7 +705,8 @@ export function ReviewFeed() {
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </div>
   );

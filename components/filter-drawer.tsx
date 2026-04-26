@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { TAG_VALUES, TAG_LABELS, UNTAGGED, type Tag } from "@/lib/tags";
 import { useBackClose } from "@/lib/use-back-close";
 import { useDragToClose } from "@/lib/use-drag-to-close";
@@ -285,7 +286,11 @@ export function FilterDrawer({
   useBackClose(open, onClose);
   const { sheetRef, handleProps } = useDragToClose(onClose);
 
-  return (
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
+
+  return createPortal(
     <>
       {/* Backdrop */}
       <div
@@ -552,7 +557,8 @@ export function FilterDrawer({
           </div>
         </div>
       </div>
-    </>
+    </>,
+    document.body,
   );
 }
 

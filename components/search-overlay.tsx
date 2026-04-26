@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { useBackClose } from "@/lib/use-back-close";
 import { useDragToClose } from "@/lib/use-drag-to-close";
 
@@ -78,18 +79,25 @@ export function SearchOverlay({ open, onClose, onPick }: Props) {
     return () => window.clearTimeout(timer);
   }, [q, open]);
 
-  return (
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
+
+  return createPortal(
     <>
       <div
         onClick={onClose}
-        className={`fixed inset-0 bg-ink/30 backdrop-blur-sm z-30 transition-opacity duration-300 ${open ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+        className={`fixed inset-0 bg-ink/30 backdrop-blur-sm z-[90] transition-opacity duration-300 ${open ? "opacity-100" : "opacity-0 pointer-events-none"}`}
       />
       <div
         ref={sheetRef}
-        className={`fixed left-0 right-0 bottom-0 z-40 bg-paper rounded-t-[28px] border-t border-rule shadow-[0_-20px_40px_-20px_rgba(28,25,23,0.25)] transition-transform duration-350 ease-[cubic-bezier(0.22,1,0.36,1)] ${open ? "translate-y-0" : "translate-y-full"}`}
+        className={`fixed left-0 right-0 bottom-0 z-[95] bg-paper rounded-t-[28px] border-t border-rule shadow-[0_-20px_40px_-20px_rgba(28,25,23,0.25)] transition-transform duration-350 ease-[cubic-bezier(0.22,1,0.36,1)] ${open ? "translate-y-0" : "translate-y-full"}`}
         style={{ maxHeight: "92dvh" }}
       >
-        <div className="flex flex-col max-h-[92dvh]">
+        <div
+          className="flex flex-col max-h-[92dvh]"
+          style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+        >
           <div
             {...handleProps}
             className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"
@@ -166,6 +174,7 @@ export function SearchOverlay({ open, onClose, onPick }: Props) {
           </div>
         </div>
       </div>
-    </>
+    </>,
+    document.body,
   );
 }

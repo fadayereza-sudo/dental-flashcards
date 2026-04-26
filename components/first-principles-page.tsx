@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
+import { useBackClose } from "@/lib/use-back-close";
 import {
   PrincipleToggleList,
   type CoreTruth,
@@ -65,6 +66,14 @@ export function FirstPrinciplesPage() {
   const toggleTruth = (id: string) => {
     setOpenTruth((prev) => (prev === id ? null : id));
   };
+
+  const closeChapter = useCallback(() => {
+    setOpenChapter(null);
+    setOpenTruth(null);
+  }, []);
+  const closeTruth = useCallback(() => setOpenTruth(null), []);
+  useBackClose(openChapter !== null, closeChapter);
+  useBackClose(openTruth !== null, closeTruth);
 
   if (loading) {
     return (

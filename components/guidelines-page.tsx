@@ -1,8 +1,11 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { useDragToClose } from "@/lib/use-drag-to-close";
 import { useAnimatedSheet } from "@/lib/use-animated-sheet";
+import { useBackCount } from "@/lib/use-back-count";
+import { useBackClose } from "@/lib/use-back-close";
 import {
   PrincipleToggleList,
   type CoreTruth,
@@ -118,6 +121,25 @@ export function GuidelinesPage() {
     });
   };
 
+  // Pop one toggle on a hardware back press: removes the most-recently
+  // inserted entry from the Set (Sets preserve insertion order in JS).
+  const popLastToggle = useCallback(() => {
+    setExpanded((prev) => {
+      if (prev.size === 0) return prev;
+      const arr = [...prev];
+      const next = new Set(arr);
+      next.delete(arr[arr.length - 1]);
+      return next;
+    });
+  }, []);
+  useBackCount(view === "list" ? expanded.size : 0, popLastToggle);
+  useBackClose(view === "player", () => {
+    setView("list");
+    setPlayer(null);
+    setCurrentSlide(0);
+    setOverviewOpen(false);
+  });
+
   const toggleCategory = async (slug: string) => {
     const id = `cat:${slug}`;
     toggle(id);
@@ -215,7 +237,20 @@ export function GuidelinesPage() {
           </button>
         </header>
 
-        <div className="flex-1 flex flex-col items-center justify-center px-6 pt-[calc(env(safe-area-inset-top)+4.5rem)] pb-[calc(env(safe-area-inset-bottom)+9rem)] text-center overflow-hidden">
+        {!isLastSlide && (
+          <div className="absolute left-0 right-0 z-10 px-6 top-[calc(env(safe-area-inset-top)+3.75rem)]">
+            <div className="w-full bg-rule/30 rounded-full h-1">
+              <div
+                className="h-full bg-bronze rounded-full transition-all"
+                style={{
+                  width: `${((currentSlide + 1) / workflow.slides.length) * 100}%`,
+                }}
+              />
+            </div>
+          </div>
+        )}
+
+        <div className="flex-1 flex flex-col items-center justify-center px-6 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+10rem)] text-center overflow-hidden">
           {isLastSlide ? (
             <div className="space-y-4">
               <div className="font-serif text-2xl text-ink">Complete</div>
@@ -231,14 +266,6 @@ export function GuidelinesPage() {
             </div>
           ) : (
             <>
-              <div className="mb-6 w-full bg-rule/30 rounded-full h-1">
-                <div
-                  className="h-full bg-bronze rounded-full transition-all"
-                  style={{
-                    width: `${((currentSlide + 1) / workflow.slides.length) * 100}%`,
-                  }}
-                />
-              </div>
               <h3 className="font-serif text-lg text-ink mb-4 leading-relaxed max-w-lg">
                 {slide.title}
               </h3>
@@ -249,7 +276,7 @@ export function GuidelinesPage() {
           )}
         </div>
 
-        <div className="absolute inset-x-0 flex items-center justify-between px-4 gap-3 bottom-[calc(env(safe-area-inset-bottom)+4.25rem)]">
+        <div className="absolute inset-x-0 flex items-center justify-between px-4 gap-3 bottom-[calc(env(safe-area-inset-bottom)+5.75rem)]">
           <button
             onClick={prevSlide}
             disabled={currentSlide === 0}
@@ -269,39 +296,44 @@ export function GuidelinesPage() {
           </button>
         </div>
 
-        {(overviewOpen || overviewClosing) && (
-          <>
-            <div
-              className={`fixed inset-0 bg-ink/30 backdrop-blur-sm z-30 ${
-                overviewClosing ? "animate-fade-out" : "animate-fade-in"
-              }`}
-              onClick={closeOverview}
-            />
-            <div
-              ref={overviewSheetRef}
-              className={`fixed left-0 right-0 bottom-0 z-40 bg-paper rounded-t-[28px] border-t border-rule shadow-[0_-20px_40px_-20px_rgba(28,25,23,0.25)] ${
-                overviewClosing ? "animate-slide-down" : "animate-slide-up"
-              }`}
-              style={{ maxHeight: "82dvh" }}
-            >
+        {(overviewOpen || overviewClosing) &&
+          typeof document !== "undefined" &&
+          createPortal(
+            <>
               <div
-                className="flex flex-col max-h-[82dvh]"
-                style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+                className={`fixed inset-0 bg-ink/30 backdrop-blur-sm z-[90] ${
+                  overviewClosing ? "animate-fade-out" : "animate-fade-in"
+                }`}
+                onClick={closeOverview}
+              />
+              <div
+                ref={overviewSheetRef}
+                className={`fixed left-0 right-0 bottom-0 z-[95] bg-paper rounded-t-[28px] border-t border-rule shadow-[0_-20px_40px_-20px_rgba(28,25,23,0.25)] ${
+                  overviewClosing ? "animate-slide-down" : "animate-slide-up"
+                }`}
+                style={{ maxHeight: "82dvh" }}
               >
                 <div
-                  {...overviewDragHandle}
-                  className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"
+                  className="flex flex-col max-h-[82dvh]"
+                  style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
                 >
-                  <div className="w-10 h-1 rounded-full bg-rule" />
-                </div>
-                <div className="flex-1 overflow-y-auto px-6 py-4">
-                  <h3 className="font-serif text-lg text-ink mb-4">Overview</h3>
-                  <ManualMarkdown source={workflow.overview} />
+                  <div
+                    {...overviewDragHandle}
+                    className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"
+                  >
+                    <div className="w-10 h-1 rounded-full bg-rule" />
+                  </div>
+                  <div className="flex-1 overflow-y-auto px-6 py-4">
+                    <h3 className="font-serif text-lg text-ink mb-4">
+                      Overview
+                    </h3>
+                    <ManualMarkdown source={workflow.overview} />
+                  </div>
                 </div>
               </div>
-            </div>
-          </>
-        )}
+            </>,
+            document.body,
+          )}
       </div>
     );
   }
