@@ -30,6 +30,16 @@ Source files in `source-material/guidelines/`, grouped by category:
 **FGDP** (`source-material/guidelines/FGDP/`):
 - `FGDP-SCDR-ALL-Web.txt` — Calibre export of FGDP competency framework
 
+**IADT** (`source-material/guidelines/IADT/`):
+- `01-general-introduction.md` — examination, diagnosis, follow-up, principles
+- `02-fractures-luxations.md` — crown/root fractures, luxation injuries
+- `03-avulsion-permanent.md` — avulsion of permanent teeth
+- `04-primary-dentition.md` — injuries in the primary dentition
+
+**Orthodontic referral** (`source-material/guidelines/orthodontic-referral/`):
+- `bos-when-to-refer.md` — BOS guidance on when to refer (deciduous, mixed, permanent)
+- `manchester-ortho-guidance.md` — Greater Manchester NHS e-referral process and IOTN/MOCDO criteria
+
 ## Output
 
 For each category `<slug>` ∈ {`sdcep`, `dboh`, `bsp`, `fgdp`}:

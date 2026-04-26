@@ -26,5 +26,19 @@
     "organisation": "FGDP",
     "order": 4,
     "description": "Faculty of General Dental Practice — Standards in Dentistry / competency framework"
+  },
+  {
+    "slug": "iadt",
+    "title": "IADT Dental Trauma",
+    "organisation": "IADT",
+    "order": 5,
+    "description": "International Association of Dental Traumatology 2020 guidelines — fractures, luxations, avulsion, primary dentition"
+  },
+  {
+    "slug": "orthodontic-referral",
+    "title": "Orthodontic Referral",
+    "organisation": "BOS / NHS",
+    "order": 6,
+    "description": "When and how to refer for orthodontic assessment — BOS guidance and Greater Manchester NHS e-referral guidance"
   }
 ]
