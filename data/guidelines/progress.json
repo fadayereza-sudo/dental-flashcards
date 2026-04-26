@@ -1,7 +1,12 @@
 {
-  "completed": ["sdcep-sample"],
+  "completed": ["sdcep", "dboh", "bsp", "fgdp", "iadt", "orthodontic-referral"],
   "in_progress": null,
-  "total_categories": 4,
+  "total_categories": 6,
   "last_updated": "2026-04-26",
-  "notes": "v2 sample: workflow overview rewritten as a structured clinical manual in markdown (numbered stages, bullets, bold decision terms) and slides rewritten as 36 incremental dangling-prompt recall tests. Each slide ends with a leading phrase and the next slide picks up with an ellipsis. firstPrinciples (3) unchanged from v1. Other SDCEP source files (child-caries, dental-prescribing, MRONJ, anticoagulants, amalgam) and other categories (dboh, bsp, fgdp) are still empty scaffolds."
+  "totals": {
+    "workflows": 75,
+    "first_principles": 86,
+    "test_slides": 1075
+  },
+  "notes": "Full v2 extraction across all 6 categories. SDCEP done as 5 parallel per-source extracts (mronj, anticoagulants, amalgam, child-caries, prescribing) merged with the existing antibiotic-prophylaxis content."
 }

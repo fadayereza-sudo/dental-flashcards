@@ -3,7 +3,1054 @@
   "title": "FGDP",
   "organisation": "FGDP",
   "order": 4,
-  "description": "Faculty of General Dental Practice — Standards in Dentistry / competency framework",
-  "workflows": [],
-  "firstPrinciples": []
+  "description": "Faculty of General Dental Practice — Selection Criteria for Dental Radiography (3rd edition, 2018 update)",
+  "workflows": [
+    {
+      "id": "fgdp-justify-radiograph",
+      "title": "Justifying any dental radiograph before exposure",
+      "overview": "Every dental x-ray exposure is both an ethical and a legal decision. The clinician's job is to show the radiograph offers a net benefit to the patient, weighing diagnostic yield against radiation detriment, before pressing the button. Routine or screening radiography is not acceptable.\n\n## 1. Take the history and clinical examination first\n\nThe radiograph follows the clinical encounter. It is **never the first investigation**. Selection must be based on the individual patient's history and a clinical examination.\n\n- A 'routine' or 'screening' radiograph (taken regardless of signs and symptoms) is **unacceptable**\n- The result must be capable of changing diagnosis, prognosis, or management\n\n## 2. Ask the four justification questions\n\n1. **Will the result change patient management?** If management is the same with or without the image, the exposure is not justified.\n2. **Has this image already been taken?** Seek originals or copies of radiographs taken elsewhere (NHS PACS allows electronic transfer).\n3. **Is there a lower-dose alternative?** Intraoral always before panoramic. Panoramic before CBCT. Consider non-ionising methods (FOTI, MRI) where appropriate.\n4. **Is the dose optimised?** Lowest dose that answers the clinical question, not the highest-quality image.\n\n## 3. Account for the carer or comforter\n\nUnder IRMER 2017, exposures to **carers and comforters** must also be justified. The classic dental example is a parent supporting a child during the x-ray. Consider their dose and gain informed consent.\n\n## 4. Special situations\n\n### Pregnancy\n- For all routine dental views (intraoral, panoramic, CBCT) the foetus is **not in the primary beam**\n- No requirement to delay radiography until after birth\n- However, *offer* the option of delaying non-urgent radiography because the topic is emotive\n- Use abdominal lead protection only if the foetus would lie in the primary beam (e.g. vertex occlusal)\n\n### Children\n- Two to three times more radiosensitive than adults in their thirties for the same effective dose\n- Use specific paediatric exposure protocols\n\n### Contentious decisions (e.g. ortho child, pregnant patient)\n- Document the discussion and the agreed plan in the notes\n- A dentist who chooses *not* to expose, leaving it to the specialist, must record that\n\n## 5. Document the decision\n\nFor every exposure, the notes should record:\n- **Justification** (clinical reason)\n- **Grade** of the resulting image\n- **Report** of the findings\n\nFailure to record means failure to defend the decision later.",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Default position",
+          "body": "An x-ray is never the first investigation. Before any exposure the dentist has to settle one thing about whether the image is justified, which is…"
+        },
+        {
+          "id": 2,
+          "title": "What justification means",
+          "body": "…that the image must show a potential net benefit to the patient, weighing total diagnostic benefit against the detriment that radiation might cause. This is both an ethical and a legal requirement under…"
+        },
+        {
+          "id": 3,
+          "title": "Legal basis",
+          "body": "…the Ionising Radiation (Medical Exposure) Regulations 2017 (IRMER). Justification cannot be a generic gesture: it has to be based on…"
+        },
+        {
+          "id": 4,
+          "title": "Per-patient basis",
+          "body": "…the individual patient's history and clinical examination. A radiograph taken regardless of clinical signs and symptoms is called a routine or screening exposure, and the verdict on it is…"
+        },
+        {
+          "id": 5,
+          "title": "Routine radiography verdict",
+          "body": "…unacceptable. With history and exam complete, four questions have to be answered before pressing the button. The first question is…"
+        },
+        {
+          "id": 6,
+          "title": "Justification question 1",
+          "body": "…will the result change patient management? If management would be the same with or without the image, the exposure cannot be justified. The second question is…"
+        },
+        {
+          "id": 7,
+          "title": "Justification question 2",
+          "body": "…has this image already been taken? Originals or copies of relevant radiographs taken elsewhere should be sought first. NHS hospitals now share images electronically through…"
+        },
+        {
+          "id": 8,
+          "title": "PACS for prior images",
+          "body": "…the Picture Archiving and Communications System (PACS), which transmits radiographs between NHS providers. The third justification question is…"
+        },
+        {
+          "id": 9,
+          "title": "Justification question 3",
+          "body": "…is there a lower-dose alternative? The default order is intraoral first, panoramic only when intraoral cannot answer the question, and CBCT only when 2D imaging is inadequate. The fourth question is…"
+        },
+        {
+          "id": 10,
+          "title": "Justification question 4",
+          "body": "…is the dose optimised? The aim is the lowest-dose examination that answers the clinical question, not the highest-quality image. Beyond the patient, IRMER 2017 also requires consideration of dose to…"
+        },
+        {
+          "id": 11,
+          "title": "Carers and comforters",
+          "body": "…carers and comforters. The classic dental example is a parent supporting a child during an x-ray. Their dose has to be considered and their informed consent gained. Special situations include pregnancy, where the rule is…"
+        },
+        {
+          "id": 12,
+          "title": "Pregnancy: routine views",
+          "body": "…intraoral, panoramic, and CBCT views do not place the foetus in the primary beam, so there is no requirement to delay radiography until after birth. The pragmatic move is still to…"
+        },
+        {
+          "id": 13,
+          "title": "Pregnancy: emotional reality",
+          "body": "…offer the patient the option of delaying non-urgent radiography, because the subject is emotive. Abdominal lead protection is only required when the foetus would lie in the primary beam, which is essentially only with…"
+        },
+        {
+          "id": 14,
+          "title": "Pregnancy: lead apron exception",
+          "body": "…vertex occlusal radiographs, which are rarely indicated. Children are another special group because compared to adults in their thirties they are…"
+        },
+        {
+          "id": 15,
+          "title": "Paediatric radiosensitivity",
+          "body": "…two to three times more radiosensitive for the same effective dose. Their tissues are growing and their prospective lifespan exceeds the latency period for cancer, so paediatric exposure protocols must be used. For contentious decisions, such as the ortho referral where you choose not to expose, the necessary action is…"
+        },
+        {
+          "id": 16,
+          "title": "Contentious decisions: documentation",
+          "body": "…to document the discussion and the agreed plan in the notes. A dentist who chooses not to expose and leaves the decision to the specialist must record that explicitly, otherwise they may be criticised later for missing, for example…"
+        },
+        {
+          "id": 17,
+          "title": "What gets missed without records",
+          "body": "…ectopic teeth or other developmental findings the radiograph would have shown. For every exposure that does go ahead, three things have to be recorded in the notes, namely…"
+        },
+        {
+          "id": 18,
+          "title": "Records for every exposure",
+          "body": "…the justification (clinical reason), the grade of the resulting image, and a report of the findings. Without these three items, the decision cannot be defended, audited, or used to drive practice improvement."
+        }
+      ]
+    },
+    {
+      "id": "fgdp-panoramic-selection",
+      "title": "Deciding when a panoramic radiograph is justified",
+      "overview": "Panoramic radiography is widely available and tempting to use as a screen, but the evidence places it as a niche technique with **lower diagnostic yield than intraorals** for the common dental diseases. The guidance reframes it as a problem-solving tool for specific clinical situations, not a routine view.\n\n## 1. Default position: do not screen with a panoramic\n\n- Routine panoramic radiography of new adult patients is **not justified**\n- Bitewing and periapical radiographs are superior for caries, periodontal and periapical disease\n- Asymptomatic pathology has low prevalence — screening for it cannot be justified\n\n## 2. Confirm a specific clinical indication\n\nA panoramic is appropriate only when one of the following is present:\n\n### Indication 1: bony lesion or unerupted tooth too large for intraorals\n- A lesion or unerupted tooth whose **size or position** precludes complete demonstration on intraoral films\n\n### Indication 2: grossly neglected dentition\n- Multiple clinically determined caries lesions, periapical pathology, **established periodontal disease**\n- Likelihood of multiple extractions\n- Use the panoramic to identify which teeth need detailed intraoral views\n\n### Indication 3: third molars before planned surgery\n- *Not* at the initial examination — only when surgical removal is planned\n- Routine radiography of unerupted third molars is **not recommended**\n- Panoramic does not accurately demonstrate the IDC relationship; if the relationship looks close, add a second projection or a localised CBCT (only if it changes management)\n\n### Indication 4: orthodontic assessment with a clinical need\n- Used only when there is a clinical need to know the state of the dentition or the presence/absence of teeth\n- Selection by clinical criteria — **not routine screening of children**\n\n### Indication 5: mandibular fracture (trauma)\n- First-choice imaging for mandibular fractures\n- High condylar fractures often need supplementary views\n- Mid-facial fractures: panoramic has limited value — refer to hospital\n\n## 3. Clinical situations where panoramic is *not* indicated\n\n- **Edentulous patient** with no signs or symptoms (unless implants planned)\n- **TMJ clicks** with no other signs or symptoms\n- **Apicectomy, root removal, small cyst enucleation** — intraoral suffices\n- **Review at arbitrary intervals** — there is no justification for periodic panoramic\n\n## 4. Quality assurance\n\n- A statutory requirement of IRR 2017\n- Routine monitoring of panoramic image quality is **essential**\n- Pay close attention to patient positioning and processing\n- Poor panoramic image quality is well documented in primary care\n\n## 5. If proceeding\n\n- Take the history and clinical examination first\n- Where intraorals would suffice, prefer them: **better detail, lower dose**\n- Send adequate clinical information when referring for the radiograph (a request like 'panoramic for diagnosis' is not enough)",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Default position",
+          "body": "Panoramic radiography looks tempting as a screen, but the guidance is firm: routine panoramic of new adult patients cannot be justified. The reason it loses to intraorals for everyday disease is…"
+        },
+        {
+          "id": 2,
+          "title": "Why panoramic loses to intraorals",
+          "body": "…that bitewing and periapical radiographs are superior for the diagnosis of caries, periodontal and periapical pathology. So a panoramic is only appropriate when one of a small list of specific indications applies. The first indication is…"
+        },
+        {
+          "id": 3,
+          "title": "Indication 1: large lesion or tooth",
+          "body": "…a bony lesion or an unerupted tooth whose size or position prevents it from being shown completely on intraoral films. The second indication is…"
+        },
+        {
+          "id": 4,
+          "title": "Indication 2: grossly neglected dentition",
+          "body": "…the grossly neglected dentition, with multiple caries, periapical pathology and established periodontal disease, where multiple extractions are likely. The panoramic is then used as a roadmap to identify…"
+        },
+        {
+          "id": 5,
+          "title": "Roadmap role",
+          "body": "…which teeth need detailed intraoral views. The third indication is third molars, but with a key restriction, namely that…"
+        },
+        {
+          "id": 6,
+          "title": "Indication 3: third molars",
+          "body": "…it is only appropriate when surgical removal is being planned, not at the initial exam. Routine radiography of unerupted third molars is not recommended. A specific limitation of panoramic for lower thirds is that…"
+        },
+        {
+          "id": 7,
+          "title": "Panoramic and the IDC",
+          "body": "…it does not provide an accurate indication of a close relationship between the root apices and the inferior dental canal. When the relationship looks close, the next move is…"
+        },
+        {
+          "id": 8,
+          "title": "Close IDC: next step",
+          "body": "…either a second radiograph using different projection geometry, or a localised CBCT, but only if either is likely to result in a change in surgical management. The fourth indication is orthodontic, with the rule that…"
+        },
+        {
+          "id": 9,
+          "title": "Indication 4: orthodontic",
+          "body": "…clinical criteria, not routine screening of children, must drive selection. The view is appropriate when there is a clinical need to know the state of the dentition or the presence or absence of teeth. The fifth indication is trauma, where panoramic is…"
+        },
+        {
+          "id": 10,
+          "title": "Indication 5: trauma",
+          "body": "…the first-choice imaging method for mandibular fractures. High condylar fractures often need supplementary imaging, and for mid-facial fractures the move is to…"
+        },
+        {
+          "id": 11,
+          "title": "Mid-facial fractures",
+          "body": "…refer the patient to the hospital where treatment will be performed. Outside those five indications, several common situations get the panoramic ruled out, starting with the edentulous patient, where the rule is…"
+        },
+        {
+          "id": 12,
+          "title": "Not indicated: edentulous",
+          "body": "…in the absence of clinical signs and symptoms there is no justification for any radiographic examination, unless implant treatment is planned. If the exam suggests a retained root, the right view is an intraoral of that site. Another non-indication is TMJ symptoms, where the rule is…"
+        },
+        {
+          "id": 13,
+          "title": "Not indicated: TMJ clicks",
+          "body": "…radiography is not recommended for patients with joint sounds, such as clicking, in the absence of other signs or symptoms. Radiographic examination only becomes indicated when there is recent evidence of progressive pathology, such as…"
+        },
+        {
+          "id": 14,
+          "title": "TMJ: when imaging is justified",
+          "body": "…recent trauma, change in occlusion, mandibular shift, sensory or motor alteration, or change in range of movement. For routine oral surgery situations like apicectomy, root removal or enucleation of small cysts, the right view is…"
+        },
+        {
+          "id": 15,
+          "title": "Not indicated: small surgery",
+          "body": "…an intraoral radiograph alone, with no need for panoramic. The final non-indication is the review panoramic at arbitrary intervals, which is ruled out because…"
+        },
+        {
+          "id": 16,
+          "title": "Not indicated: routine review",
+          "body": "…there is no justification for review panoramic radiography at arbitrary time intervals. Panoramic radiographs should only be taken in the presence of specific signs and symptoms. If a panoramic does go ahead, a statutory requirement under IRR 2017 is…"
+        },
+        {
+          "id": 17,
+          "title": "Statutory QA requirement",
+          "body": "…routine monitoring of panoramic image quality. Poor image quality is well documented in primary care, and faults reduce diagnostic value, so close attention is needed to patient positioning and processing. Where intraorals could answer the question, the reasons to prefer them are…"
+        },
+        {
+          "id": 18,
+          "title": "Why intraorals are still optimal",
+          "body": "…better detail and lower radiation dose. When referring a patient elsewhere for a panoramic, the request must include adequate clinical information; a request such as 'please take a panoramic for diagnosis' is not enough."
+        }
+      ]
+    },
+    {
+      "id": "fgdp-developing-dentition",
+      "title": "Selecting radiographs in the early and late mixed dentition",
+      "overview": "Children are particularly susceptible to ionising radiation, so each exposure in the developing dentition needs a sound clinical indication. **Default to the lowest-dose view**: intraoral first, panoramic only when intraoral can't answer the question, CBCT only as a last resort referred to a specialist.\n\n## 1. General principles\n\n- A careful clinical examination drives the choice of radiograph\n- Check **previous radiographs** (e.g. bitewings) before exposing again\n- An intraoral gives the lowest dose — use whenever practicable\n- A panoramic may follow a finding on the intraoral, not the other way round\n- For a comprehensive ortho radiographic examination, **refer to a specialist orthodontist**\n- CBCT in the developing dentition: only after specialist orthodontic review and only with formal selection criteria (e.g. EC RP172)\n\n## 2. Early mixed dentition\n\n### Upper central incisor\n- **Cross bite** with lower incisors → orthodontic correction, often **no radiograph needed**\n- **Failed eruption / retained deciduous incisor / gross rotation / large median diastema** → suspect supernumerary or trauma → **intraoral radiograph**\n\n### Upper lateral incisor\n- **Failed eruption** (suspect developmental absence) → **intraoral radiograph**\n- **If laterally absent**: also screen for other missing successional teeth → **panoramic radiograph**\n- **Peg-shaped or abnormal morphology** in a child whose dental development age is *over 9 years* → **intraoral** (associated with misplaced canine; palpate first)\n\n### Lower labial segment\n- Minor irregularity of alignment → **no radiograph** (parental concern only)\n- Significant delay in eruption with retained deciduous predecessor → **intraoral radiograph**\n\n### Posterior cross bite\n- Unilateral with displacing activity, no other adverse signs → **no radiograph**, simple appliance\n\n### First permanent molar with doubtful prognosis (high caries)\n- Plan for possible loss of all four first molars → **panoramic radiograph** (assess other 6s and presence of second premolars)\n- Consider specialist orthodontic opinion\n\n### Impaction of upper 6 into the second deciduous molar\n- **Intraoral** to check for the second premolar\n- If second premolar is absent → **panoramic** (other developmentally missing teeth?)\n\n## 3. Late mixed dentition\n\n### Unerupted maxillary canines (the critical assessment)\n- Palpate the buccal sulcus at every late-mixed-dentition exam\n- If patient is **≥11 years old** and canine cannot be palpated buccally or palatally → **intraoral radiograph**\n- Early diagnosis of a misplaced canine matters for outcome\n- Peg-shaped lateral or unilateral delayed loss of a deciduous canine → also intraoral, same association\n- Lower canines: don't forget them; delayed eruption merits investigation\n\n### Lateral incisor resorption by misplaced canine\n- Identified on conventional radiography → **CBCT may be indicated**\n- Only after careful examination of existing radiographic images\n- **Limited field-of-view** to reduce dose\n- Specialist orthodontist decision\n\n### Retained deciduous molar (suspect missing 2nd premolar)\n- Existing bitewings may already answer the question — check them first\n- If multiple second deciduous molars retained when other successionals erupted → **panoramic**\n- If only a single second deciduous molar retained → **intraoral**\n- Submerging deciduous molars → review clinically; intraoral only if noticeable deterioration\n\n### Grossly carious first permanent molar\n- **Field-limited panoramic** to assess the other 6s and successional teeth\n- Orthodontic opinion if loss of one or more 6s is needed\n\n## 4. Orthodontic referral\n\n- If the routine exam suggests an ortho opinion is needed, **leave the choice of radiographs to the specialist**\n- If a radiograph has already been taken for another reason, send it with the referral letter",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Default position",
+          "body": "Children are particularly susceptible to ionising radiation, so every exposure in the developing dentition needs a sound clinical indication. The lowest-dose view to start with is always…"
+        },
+        {
+          "id": 2,
+          "title": "Which view first",
+          "body": "…the intraoral. A panoramic is reserved for situations where the intraoral cannot answer the question, and CBCT only for specific cases referred to a specialist. Before exposing anything, the first action is…"
+        },
+        {
+          "id": 3,
+          "title": "Check existing images",
+          "body": "…to look at any previous radiographs, especially bitewings, to see if the information is already available. Once that is done, the decision tree for the early mixed dentition starts at the upper central incisor. A central incisor in cross bite usually needs…"
+        },
+        {
+          "id": 4,
+          "title": "Cross bite of upper central",
+          "body": "…orthodontic correction, often without any radiograph. The picture changes if the central has failed to erupt, or the deciduous incisor is retained, or there is gross rotation, or a large median diastema, because then the suspicion is…"
+        },
+        {
+          "id": 5,
+          "title": "Suspected supernumerary",
+          "body": "…an unerupted supernumerary, or a history of trauma, and the next step is an intraoral radiograph. Moving to the upper lateral incisor, failed eruption raises the question of developmental absence, and the appropriate first view is…"
+        },
+        {
+          "id": 6,
+          "title": "Missing upper lateral",
+          "body": "…an intraoral. If that confirms the lateral is missing, the next move is a panoramic, because the question becomes whether…"
+        },
+        {
+          "id": 7,
+          "title": "Other missing successionals",
+          "body": "…other successional teeth are also developmentally absent. A peg-shaped lateral or one of abnormal morphology has a separate association, namely…"
+        },
+        {
+          "id": 8,
+          "title": "Peg lateral and the canine",
+          "body": "…with an unerupted, misplaced canine. After palpation, if the patient's dental development age is clinically over nine years, the appropriate view is an intraoral. Lower labial irregularities in this age group, by contrast, usually need…"
+        },
+        {
+          "id": 9,
+          "title": "Lower labial segment",
+          "body": "…no radiograph, as long as eruption is on time. Significant delay in eruption with retained deciduous predecessors does need an intraoral. For the posterior segment, a unilateral cross bite with displacement and no other adverse signs needs…"
+        },
+        {
+          "id": 10,
+          "title": "Posterior cross bite",
+          "body": "…no radiograph; a simple appliance corrects it. The first permanent molar of doubtful prognosis is a more demanding situation, because the question is whether to plan…"
+        },
+        {
+          "id": 11,
+          "title": "Doubtful first molars",
+          "body": "…balanced loss of all four first permanent molars to allow normal occlusal development. The view that answers that question is…"
+        },
+        {
+          "id": 12,
+          "title": "Panoramic for first molars",
+          "body": "…a panoramic, to assess the other 6s and confirm that successional teeth are present. A specialist orthodontic opinion may then be indicated. If an upper 6 has impacted into the second deciduous molar, the first view is…"
+        },
+        {
+          "id": 13,
+          "title": "Impacted upper 6",
+          "body": "…an intraoral, to check the presence of the second premolar. If that premolar is absent, the next view is a panoramic, in case other teeth are also developmentally missing. Moving to the late mixed dentition, the single most important clinical finding to watch for is…"
+        },
+        {
+          "id": 14,
+          "title": "Late mixed: canine palpation",
+          "body": "…the position of the unerupted maxillary canines, palpated in the buccal sulcus. The threshold for imaging in this assessment is…"
+        },
+        {
+          "id": 15,
+          "title": "Canine threshold",
+          "body": "…age 11 or over with canines not palpable buccally or palatally, in which case an intraoral is appropriate, because early diagnosis of a misplaced canine is critical to outcome. Two associated clinical findings that may also justify the same intraoral are…"
+        },
+        {
+          "id": 16,
+          "title": "Other canine warning signs",
+          "body": "…a peg-shaped lateral incisor, and unilateral delayed loss of a deciduous canine, both linked to canine displacement. If the lateral incisor's viability is in doubt because of resorption from the misplaced canine, the next view that may be indicated is…"
+        },
+        {
+          "id": 17,
+          "title": "CBCT for canine resorption",
+          "body": "…a limited field-of-view CBCT, only after careful review of existing images, and only as a specialist orthodontic decision. For a retained second deciduous molar in the late mixed dentition, the first thing to do is…"
+        },
+        {
+          "id": 18,
+          "title": "Retained deciduous molar",
+          "body": "…check the existing bitewings, which may already show whether the second premolar is present. If multiple second deciduous molars are retained while other successional teeth have erupted, the appropriate view becomes…"
+        },
+        {
+          "id": 19,
+          "title": "Multiple retained Ds",
+          "body": "…a field-limited panoramic. If only a single second deciduous molar is retained, an intraoral suffices. The grossly carious first permanent molar usually needs a field-limited panoramic for the same reason as before, namely…"
+        },
+        {
+          "id": 20,
+          "title": "Carious first molar",
+          "body": "…to assess the other 6s and confirm successional teeth, with an orthodontic opinion if loss of one or more 6s is necessary. For any case where a routine exam suggests orthodontic input, the GDP's job for radiographs is…"
+        },
+        {
+          "id": 21,
+          "title": "Refer ortho radiograph choice",
+          "body": "…to leave the choice to the specialist. If a radiograph has already been taken for another reason, send it with the referral letter so the specialist does not duplicate the exposure."
+        }
+      ]
+    },
+    {
+      "id": "fgdp-caries-bitewing-interval",
+      "title": "Bitewing interval based on caries risk (children and adults)",
+      "overview": "Posterior bitewings are an essential adjunct to the visual exam, picking up many lesions clinical inspection misses. The interval between exposures is set by **caries risk, not by time elapsed**, and risk has to be reassessed each visit because patients move between categories.\n\n## 1. Pre-radiograph clinical work\n\n- Examine **clean, dry teeth** with a meticulous visual technique (e.g. ICDAS criteria)\n- Consider transillumination, flossing, temporary tooth separation\n- Classify the patient by caries risk: **high, moderate, low**\n- Past caries experience is by far the **strongest predictor** at all ages\n\n## 2. Branch on caries risk (children)\n\n### High caries risk\n- **Posterior bitewings every 6 months** until no new or active lesions are apparent and the patient has moved into another risk category\n- Bitewings should *not* be taken more frequently\n- **Reassess risk each interval** before justifying the next exposure\n\n### Moderate caries risk\n- **Annual posterior bitewings** until no new or active lesions are apparent and risk category changes\n\n### Low caries risk\n- **Primary dentition: 12-18 month intervals**\n- **Permanent dentition: ~2-yearly intervals**\n- Extended intervals only if there is **specific evidence of continuing low risk**\n- Selective bitewings on clinically suspicious surfaces are still appropriate\n\n## 3. Branch on caries risk (adults)\n\nSame intervals apply, with these caveats:\n- Caries can present late in adults (slow progression with low overall prevalence)\n- Reassess regularly for **lifestyle changes**: reduced manual dexterity, xerostomia from medication or Sjögren's, dietary shifts after retirement, bereavement\n- Bitewings have additional value in adults for finding **defective restoration margins** and caries adjacent to existing restorations\n\n### Adult thresholds\n- **High risk: 6-monthly bitewings**\n- **Moderate risk: annual bitewings**\n- **Low risk: ~2-yearly bitewings**\n\n## 4. What the bitewing tells you\n\nLesion depth drives management:\n- **Outer half of enamel** → record location, periodic review, **prevention**\n- **Inner half of enamel** → prevention plus monitor response\n- **Outer-half lesion progressing** → prevention plus monitor\n- **High-risk patient with approximal lesion into dentine** → high likelihood of cavitation\n- **Radiographic occlusal dentinal lesion** → significantly associated with heavily infected dentine; bitewing should drive operative care\n\nIn low-risk groups, approximal enamel lesions take **6-8 years on average** to reach dentine; restorative decisions reflect the slow progression.\n\n## 5. CBCT and caries\n\n- **Not** indicated as a routine method\n- Beam-hardening artefacts from metallic restorations create caries-like dark streaks and can mask real lesions\n\n## 6. Adjunctive non-ionising methods\n\n- **FOTI** (0.5 mm tip, training required) — useful as an adjunct to bitewing, less sensitive on its own\n- **Elective tooth separation** (orthodontic elastics, 1-7 days) — useful where cavitation is in doubt\n- **Electrical methods** (e.g. CarieScan) — promising, follow developments\n- **Laser fluorescence** (DIAGNOdent) — beware false positives → over-treatment risk",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Pre-radiograph clinical work",
+          "body": "Before any caries radiograph the visual exam must be done first on clean, dry teeth, ideally with criteria such as ICDAS. The most important output of that exam, before exposure, is…"
+        },
+        {
+          "id": 2,
+          "title": "Risk classification",
+          "body": "…to classify the patient as high, moderate, or low caries risk. The single strongest predictor across all ages, by far, is…"
+        },
+        {
+          "id": 3,
+          "title": "Strongest risk predictor",
+          "body": "…past caries experience. Once the patient is in a category, the bitewing interval is set, and crucially it must be reassessed at each visit because patients move between categories. For a high-risk child, the interval is…"
+        },
+        {
+          "id": 4,
+          "title": "High-risk child interval",
+          "body": "…posterior bitewings every six months, continued until no new or active lesions are apparent and the child has moved to another risk category. Two important constraints on this six-monthly interval are…"
+        },
+        {
+          "id": 5,
+          "title": "Constraints on six-monthly",
+          "body": "…that bitewings should not be taken more frequently than six-monthly, and risk must be reassessed each time before the next interval is justified. For a moderate-risk child, the interval steps down to…"
+        },
+        {
+          "id": 6,
+          "title": "Moderate-risk child interval",
+          "body": "…annual posterior bitewings, again until no new or active lesions appear and the patient enters another category. For a low-risk child, the intervals get longer and depend on the dentition: in the primary dentition the recommendation is…"
+        },
+        {
+          "id": 7,
+          "title": "Low-risk: primary dentition",
+          "body": "…approximately 12 to 18-month intervals, and in the permanent dentition approximately two-year intervals. More extended intervals are appropriate only if there is specific evidence of continuing low caries risk. The same risk-based intervals apply to adults, with the caveat that the rate of caries progression in adults is…"
+        },
+        {
+          "id": 8,
+          "title": "Adult progression",
+          "body": "…often slower than in children, so radiographic findings must be interpreted with that in mind. Lifestyle factors that change adult caries risk include…"
+        },
+        {
+          "id": 9,
+          "title": "Adult risk shifts",
+          "body": "…reduced manual dexterity, reduced saliva from medications or Sjögren's syndrome, and dietary or social changes after events such as retirement or bereavement. A specific extra value of bitewings in heavily restored adults is…"
+        },
+        {
+          "id": 10,
+          "title": "Adult bitewing extras",
+          "body": "…detecting defective or overhanging restoration margins, and caries adjacent to existing restorations on tooth surfaces obscured to the eye. Once a bitewing is taken, the management of an outer-half-of-enamel approximal lesion is…"
+        },
+        {
+          "id": 11,
+          "title": "Outer-half enamel lesion",
+          "body": "…to record the location, arrange periodic review, and instigate preventive therapy. If the lesion extends into the inner half of enamel, or an outer-half lesion is seen to progress, the management is…"
+        },
+        {
+          "id": 12,
+          "title": "Inner-half or progressing",
+          "body": "…still preventive therapy, with periodic monitoring of the response. The picture changes when an approximal lesion in a high-caries-risk individual extends into dentine, because at that stage…"
+        },
+        {
+          "id": 13,
+          "title": "Dentine lesion in high risk",
+          "body": "…there is a great likelihood of cavitation, which usually triggers operative care. For a low-risk patient, the contrast is striking, because approximal enamel lesions in permanent teeth take on average more than…"
+        },
+        {
+          "id": 14,
+          "title": "Low-risk progression rate",
+          "body": "…six to eight years to progress through to dentine. Restorative decisions in low-risk adults must reflect this very slow progression, so a small enamel-only finding does not automatically mean a filling. CBCT for caries diagnosis is…"
+        },
+        {
+          "id": 15,
+          "title": "CBCT for caries",
+          "body": "…not indicated as a routine method. Beam-hardening artefacts from metallic restorations create dark streaks that look like caries and can also mask real lesions. Among the non-ionising adjuncts, fibreoptic transillumination is best used…"
+        },
+        {
+          "id": 16,
+          "title": "FOTI as adjunct",
+          "body": "…as an adjunct to bitewing, with a 0.5 mm tip and operator training, since it has considerable diagnostic value for approximal dentinal lesions but cannot replace the bitewing. Where cavitation is in doubt, the technique to consider is…"
+        },
+        {
+          "id": 17,
+          "title": "Elective tooth separation",
+          "body": "…elective temporary tooth separation, using orthodontic elastics between teeth for one to seven days, after which the surfaces can be inspected directly. Two more recent adjuncts to be aware of are…"
+        },
+        {
+          "id": 18,
+          "title": "Electrical and laser fluorescence",
+          "body": "…electrical methods, such as CarieScan, where progress is anticipated, and laser fluorescence devices like DIAGNOdent, which require careful interpretation because their main weakness is…"
+        },
+        {
+          "id": 19,
+          "title": "Laser fluorescence weakness",
+          "body": "…poor specificity, meaning false positives are common and can lead to over-treatment. Caries detection devices should never replace clinical and radiographic methods until further evidence emerges."
+        }
+      ]
+    },
+    {
+      "id": "fgdp-periodontal-radiograph-selection",
+      "title": "Choosing radiographs in periodontal assessment by BPE",
+      "overview": "Radiographs are **secondary to the clinical periodontal exam**. They confirm a diagnosis, refine prognosis, or change management; they don't lead it. Existing radiographs (especially bitewings taken for caries) should always be the first source. The BPE drives the radiographic selection.\n\n## 1. Use existing radiographs first\n\n- Always check radiographs taken for caries (especially **bitewings**) — they show the periodontal hard tissues at no extra dose\n- Previous radiographs help judge the **rate of progression**\n- The decision to take *new* radiographs for periodontal monitoring is **case-by-case**, not at fixed intervals\n\n## 2. Branch on the BPE finding\n\n### BPE codes 0-2 (no pocketing > 3.5 mm)\n- No specific periodontal radiograph indicated by these guidelines\n- Use existing bitewings for bone-level information\n\n### BPE code 3 (max 4-5 mm pocketing) with little or no recession\n- **Horizontal bitewings** are recommended\n- May be supplemented by **intraoral periapicals for selected anterior teeth**, only if it will change management\n\n### BPE code 4 (≥6 mm pocketing)\n- **Vertical bitewing radiographs** are recommended\n- Supplemented by **periapicals using the paralleling technique** at sites where alveolar bone is not included on the bitewing\n- Selected anterior periapicals may be added, again only if they change management\n\n## 3. When to use a panoramic, full-mouth periapicals, or both\n\nAssessment of *all* teeth and their periodontal support can be achieved by:\n- An optimal-quality **panoramic alone**, *or*\n- A **panoramic with supplementary periapicals**, *or*\n- A **complete series of periapical radiographs**\n\nDecide based on:\n- Clinical presentation\n- Required image quality\n- Relative dose-benefit with the equipment available\n\nA panoramic + supplementary periapicals may save dose vs. a full-mouth periapical series — but if PAs can be limited to *affected teeth only*, they may give the lower dose.\n\n## 4. Suspected perio-endo lesion\n\n- **Periapical using the paralleling technique** at the suspected site\n\n## 5. Long-term monitoring\n\n- Reproducible intraoral periapicals (using **holders and paralleling**) improve serial comparison\n- Digital sensors give better measurement accuracy and inter-observer agreement than film\n\n## 6. CBCT and periodontology\n\n- **Not indicated** as a routine method of imaging periodontal bone support\n- May give better imaging of bony defects and furcations than 2D, but the dose and limited evidence rule it out for routine use\n- Where a CBCT is *already* available (taken for another reason), the report should include alveolar bone-level findings",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Default position",
+          "body": "The diagnosis of periodontal disease depends on a thorough clinical examination, with radiographs supplementing it only where they may change management or prognosis. Before exposing anything new the action is…"
+        },
+        {
+          "id": 2,
+          "title": "Use existing first",
+          "body": "…to look at any radiographs already in the records, especially bitewings taken for caries, because they show the periodontal hard tissues at no extra dose. Previous radiographs are also useful for judging…"
+        },
+        {
+          "id": 3,
+          "title": "Rate of progression",
+          "body": "…the rate of disease progression. The decision to take new radiographs for periodontal monitoring is case-by-case, never at fixed intervals. The view selection is then driven by…"
+        },
+        {
+          "id": 4,
+          "title": "BPE drives selection",
+          "body": "…the BPE finding. For codes 0 to 2, with no pocketing greater than 3.5 mm, no specific periodontal radiograph is indicated by these guidelines, and existing bitewings cover the bone-level question. For BPE code 3, with maximum pocketing of 4 to 5 mm and little or no recession, the recommended view is…"
+        },
+        {
+          "id": 5,
+          "title": "BPE 3: horizontal bitewings",
+          "body": "…horizontal bitewings, which give optimal geometry for that level of disease. They may be supplemented by intraoral periapicals for selected anterior teeth, but only when…"
+        },
+        {
+          "id": 6,
+          "title": "When to add anterior PAs",
+          "body": "…this is likely to change management of the patient. For a BPE code 4, with pocketing of 6 mm or more, the recommended view changes to…"
+        },
+        {
+          "id": 7,
+          "title": "BPE 4: vertical bitewings",
+          "body": "…vertical bitewing radiographs, which capture more crestal bone height. These should be supplemented by intraoral periapicals using the paralleling technique at any sites where…"
+        },
+        {
+          "id": 8,
+          "title": "When BPE 4 needs PAs",
+          "body": "…the alveolar bone image is not included on the bitewing, plus selected anterior periapicals if these will change management. When the question is whole-mouth periodontal support, three options are available, namely…"
+        },
+        {
+          "id": 9,
+          "title": "Whole-mouth options",
+          "body": "…an optimal-quality panoramic alone, a panoramic with supplementary periapicals, or a complete series of periapical radiographs. The choice between them is based on…"
+        },
+        {
+          "id": 10,
+          "title": "Choice criteria",
+          "body": "…the clinical presentation, the image quality required, and the relative dose-benefit using the equipment available. A pragmatic note on dose is that…"
+        },
+        {
+          "id": 11,
+          "title": "Dose pragmatics",
+          "body": "…a panoramic with supplementary periapicals may save dose compared with a full-mouth periapical series, but periapicals limited to affected teeth alone may give the lowest dose. For a suspected perio-endo lesion, the appropriate single view is…"
+        },
+        {
+          "id": 12,
+          "title": "Suspected perio-endo",
+          "body": "…a periapical taken with the paralleling technique at the affected site. For long-term monitoring of bone-level changes over time, the technique recommendation is…"
+        },
+        {
+          "id": 13,
+          "title": "Reproducible monitoring",
+          "body": "…reproducible intraoral periapicals using holders and the paralleling technique, so the geometry can be compared from visit to visit. Digital sensors offer an additional advantage over film, namely…"
+        },
+        {
+          "id": 14,
+          "title": "Digital advantage",
+          "body": "…better measurement accuracy and greater inter-observer agreement when assessing alveolar bone levels. The verdict on CBCT in routine periodontology is…"
+        },
+        {
+          "id": 15,
+          "title": "CBCT for periodontology",
+          "body": "…it is not indicated as a routine method of imaging periodontal bone support. CBCT may give better imaging of bony defects and furcations than 2D, but its dose and the limited evidence base rule it out for routine use. If a CBCT is already available for another reason, the periodontal action is…"
+        },
+        {
+          "id": 16,
+          "title": "Existing CBCT",
+          "body": "…to take care to check for periodontal bone levels when performing the clinical evaluation and report, so the existing dose is not wasted."
+        }
+      ]
+    },
+    {
+      "id": "fgdp-endodontic-radiographs",
+      "title": "Radiograph sequence through endodontic treatment",
+      "overview": "Endodontics needs imaging at every stage. Diagnosis without a pre-op view is rarely safe; mechanical treatment without prior knowledge of canal anatomy is not feasible. The classical sequence is **pre-op → working length → mid-fill (if needed) → immediate post-op → 1-year follow-up**.\n\n## 1. Diagnosis stage\n\n- A pre-op **periapical radiograph** is essential — at least one good-quality view\n- A second view at a **different vertical or horizontal angle** may be needed (e.g. parallax to separate canals or roots)\n- Radiology cannot provide a definitive diagnosis of pulpal or periradicular state\n- Consider CBCT only when conventional views give insufficient information (see Stage 7)\n\n## 2. Treatment planning information from the pre-op\n\nReview the pre-op for:\n- Form and extent of the pulp (tertiary dentine, pulp stones, sclerosis)\n- Number of roots and root angulation\n- Approximate **tooth length** and crown-root ratio\n- Shape of the root and **configuration of any curvature** (apical curve harder than mid-root)\n- Proximity of antrum, IDC, mental foramen\n- Supporting bone\n- Size, shape, position of any periradicular lesion\n- Existing root canal treatment, coronal restoration quality, posts, pins, overhangs, recurrent caries\n\n## 3. Working length\n\n- The aim is to disinfect to the **apical constriction**, which is *not* at the radiological apex\n- Use the pre-op to estimate working length\n- After coronal preparation, take a **working length radiograph** with file in place\n- If the file is more than **3 mm** from the proposed working length → adjust and retake\n- In molars, multiple files of different configuration (e.g. Flexofile + Hedstrom) help distinguish canals in the same plane (e.g. MB and ML in lower molars)\n- An **electronic apex locator** can replace the working length radiograph if reliable; modern impedance-based locators are accurate when used correctly\n\n### When the apex locator is unreliable\n- Large amounts of fluid in the canal\n- Metal coronal restorations\n- Large apical foramen\n- → Confirm length **radiographically** with file in place\n\n## 4. Mid-fill / cone-fit\n\n- A 'master' GP cone radiograph with the cone seated may be taken before final compaction\n- Indicated when:\n  - There is doubt about the integrity of the apical constriction or the resistance taper\n  - Open apex or compromised constriction with a heated obturation technique\n\n## 5. Immediate post-operative radiograph\n\n- One **mandatory** view immediately after obturation\n- Molar teeth may need more than one view\n- Process and report **before the patient leaves**\n- Provides:\n  - 2D assessment of obturation quality (length, voids, extrusion)\n  - Baseline for future review\n  - Detection of complications (zipping, transportation, perforation, areas of weakness)\n  - Information about restorability (post length, diameter, remaining tooth structure)\n\n## 6. Follow-up\n\n- **One-year follow-up radiograph** is recommended for all completed RCTs\n- If the lesion has reduced → no further radiographic review needed\n- If incomplete healing → recall annually until healed\n- Symptomatic teeth: more frequent review\n- Follow-up uses **clinical assessment + radiograph**; radiograph alone is insufficient (low sensitivity, ~2% scar formation rather than bone)\n- Surgical cases: a peri-suturing radiograph may be reasonable if there was previous overfill or extrusion\n\n## 7. CBCT in endodontics\n\nCBCT is **not** routine. Limited-volume, high-resolution CBCT may be indicated only when:\n- Conventional images give equivocal or inadequate information about **root canal anatomy** (most often multi-rooted teeth)\n- **Surgical endodontics** is being planned and complicating factors (e.g. proximity of important anatomy) need 3D visualisation\n- **External or internal resorption** is suspected and 3D info will alter management or prognosis\n- **Concurrent complicating factors**: combined perio-endo lesion, suspected perforation, planning for periapical microsurgery, atypical root canal anatomy\n\nMetallic restorations and posts produce significant artefacts that can profoundly reduce CBCT image quality.\n\n## 8. Vital pulp procedures and dental trauma\n\n- **Vital pulp** (pulp cap, pulpotomy): baseline radiograph at initial treatment; periodic radiographic review combined with clinical exam; further imaging if symptomatic or signs of failure\n- **Dental trauma**: baseline intraoral radiograph mandatory after all but minor trauma; multiple angles often needed; small-FOV CBCT may help with luxation injuries; follow-up at 6 months then annually until root formation complete",
+      "slides": [
+        {
+          "id": 1,
+          "title": "First view in endodontics",
+          "body": "Endodontics needs imaging at every stage. The diagnosis stage opens with a pre-operative periapical radiograph, of which at least one good-quality view is essential. Sometimes a second pre-op view is needed, with the role of…"
+        },
+        {
+          "id": 2,
+          "title": "Second pre-op view",
+          "body": "…providing a different vertical or horizontal angle, for example to apply parallax and separate canals or roots. A key conceptual limit on the diagnosis stage is that radiology cannot provide…"
+        },
+        {
+          "id": 3,
+          "title": "Limit of radiology in endo",
+          "body": "…a definitive diagnosis of the state of either the pulp or the periradicular tissues. The pre-op view is then used to plan treatment, and the structural information it provides includes the form and extent of the pulp, the number of roots, the approximate tooth length, and crucially…"
+        },
+        {
+          "id": 4,
+          "title": "Curvature on pre-op",
+          "body": "…the shape of the root and the configuration of any curvature, because a curve in the apical portion is more difficult to manage than one halfway down. The pre-op also tells you about adjacent anatomy, namely…"
+        },
+        {
+          "id": 5,
+          "title": "Adjacent anatomy on pre-op",
+          "body": "…proximity to the maxillary antrum, the inferior dental canal, and the mental foramen, plus the supporting bone, and the size and position of any periradicular lesion. With planning done, the next stage is establishing working length, where the conceptual point is that the goal is to disinfect to the apical constriction, which radiographically is…"
+        },
+        {
+          "id": 6,
+          "title": "Apex locator vs apex",
+          "body": "…not at the radiological apex of the tooth. After coronal preparation, the working length is checked either with an electronic apex locator, which is reliable in modern impedance-based units when used correctly, or radiographically with a file in place. If the diagnostic file is more than…"
+        },
+        {
+          "id": 7,
+          "title": "Working length tolerance",
+          "body": "…three millimetres from the proposed working length, the length must be adjusted and a further radiograph taken. In molars, distinguishing two canals lying in the same plane of the beam, like MB and ML in the lower, can be helped by…"
+        },
+        {
+          "id": 8,
+          "title": "Distinguishing molar canals",
+          "body": "…using files of different configuration, such as a Flexofile in one canal and a Hedstrom in another. The conditions that make an electronic apex locator unreliable, and so demand a radiograph for confirmation, include…"
+        },
+        {
+          "id": 9,
+          "title": "Apex locator unreliability",
+          "body": "…large amounts of fluid in the canal system, metal coronal restorations, and a large apical foramen. The next imaging stage, the mid-fill or cone-fit radiograph, is taken when there is doubt about…"
+        },
+        {
+          "id": 10,
+          "title": "Mid-fill indication",
+          "body": "…the integrity of the apical constriction or the resistance taper of the prepared canal, especially with a heated obturation technique in a tooth with an open apex or compromised constriction. After obturation, the mandatory next view is…"
+        },
+        {
+          "id": 11,
+          "title": "Immediate post-op",
+          "body": "…the immediate post-operative radiograph, taken once obturation is complete. It should be processed and reported before the patient leaves the surgery. Molar teeth may need more than one view. The four roles of this image are…"
+        },
+        {
+          "id": 12,
+          "title": "Roles of the post-op",
+          "body": "…a 2D assessment of obturation quality including length, voids, and extrusion, a baseline for future review, detection of complications such as zipping, transportation, or perforation, and information about restorability such as remaining tooth structure and likely post length. The recommended follow-up after that is…"
+        },
+        {
+          "id": 13,
+          "title": "One-year follow-up",
+          "body": "…a further radiograph at one year, combined with a careful clinical assessment, because radiology alone has low sensitivity for periapical disease. If the periapical lesion has reduced at one year, the next action is…"
+        },
+        {
+          "id": 14,
+          "title": "Reduced lesion at 1 year",
+          "body": "…no further radiographic review is needed; the case is healing. If healing is incomplete at one year, the patient is recalled annually until healed. CBCT in endodontics is not used routinely; the first situation in which a limited-volume, high-resolution CBCT may be indicated is…"
+        },
+        {
+          "id": 15,
+          "title": "CBCT endo indication 1",
+          "body": "…cases where conventional intraoral radiographs give equivocal or inadequate information on root canal anatomy, most often in multi-rooted teeth. The second indication is…"
+        },
+        {
+          "id": 16,
+          "title": "CBCT endo indication 2",
+          "body": "…planning surgical endodontic procedures, where 3D information about complicating anatomy may alter the surgical approach. The third indication is suspected or established…"
+        },
+        {
+          "id": 17,
+          "title": "CBCT endo indication 3",
+          "body": "…external or internal resorption, where 3D information is likely to alter management or prognosis. The fourth indication groups together the complex cases, including combined perio-endo lesions, suspected perforations, and planning prior to periapical microsurgery. A key limitation of CBCT in endodontics is…"
+        },
+        {
+          "id": 18,
+          "title": "CBCT artefact limit",
+          "body": "…that significant artefacts are produced by metallic dental restorations, which can profoundly reduce image quality, particularly when the tooth or adjacent teeth contain metal posts or implants. For vital pulp procedures, a baseline radiograph is required at initial treatment, with periodic radiographic review only…"
+        },
+        {
+          "id": 19,
+          "title": "Vital pulp follow-up",
+          "body": "…combined with a full clinical examination. For dental trauma, a baseline intraoral radiograph is mandatory after all but minor injuries, with multiple intraoral angles often needed and a small-FOV CBCT considered for luxation injuries. The recommended follow-up after dental trauma is…"
+        },
+        {
+          "id": 20,
+          "title": "Trauma follow-up",
+          "body": "…at six months after treatment, then annually until root formation is complete, although there is no evidence to support a particular frequency or duration of review beyond that pattern."
+        }
+      ]
+    },
+    {
+      "id": "fgdp-implant-imaging-strategy",
+      "title": "Imaging selection for dental implant placement",
+      "overview": "Implant imaging has to balance the surgeon's need for adequate 3D information against radiation dose. The base case is **2D for simple sites, sectional for anatomically challenging or multiple-implant cases**. Routine 2D + cross-sectional for every implant is not justified.\n\n## 1. Pre-operative work-up: stage by site\n\n### Single tooth, anterior maxilla\n- **Periapical** as default\n- Add **limited-volume CBCT** only if cross-sectional information needed\n\n### Single tooth, posterior maxilla\n- **Periapical and/or panoramic**\n- Limited-volume CBCT if cross-sectional information needed (especially to visualise antral floor in molar maxilla)\n\n### Single tooth, anterior mandible\n- **Periapical** as default\n- Limited-volume CBCT to show lingual fossae if needed\n\n### Single tooth, post-foraminal mandible\n- **Periapical and/or panoramic**\n- Add limited-volume CBCT to show 3D position of the IDC and lingual concavities\n\n### Multiple implants\n- A good **panoramic with magnification markers** often gives excellent information\n- For cross-sectional information: **CBCT** (limited or full volume) or CT, only if it will improve outcome\n- **MRI** is an option (no ionising radiation)\n- Multiple periapicals can become unwieldy and carry significant cumulative dose\n\n## 2. Periapicals: paralleling technique mandatory\n\n- Image receptor holder + paralleling technique\n- Magnification limited if used correctly\n- A reference object of known size (e.g. metal ball bearing) in the same plane as the alveolus allows accurate distance calculation\n- Even with paralleling, accuracy may be **±2.5 mm**\n- **Rectangular collimation** in all dental periapical radiography\n\n## 3. Panoramic: positioning, magnification, IDC\n\n- Magnification up to **30%** and varies along the arch\n- Vertical measurements are less affected than horizontal\n- Use reference objects (ball bearings) close to the proposed implant site\n- Posterior mandible: panoramic adequate **only if a 2 mm (preferably 4 mm) safety margin** to the IDC is achievable, and bone width is clinically sufficient\n- Patient positioning in the focal trough is critical\n\n## 4. CBCT vs CT\n\n- CBCT now established for implant planning; lower dose than CT, smaller footprint\n- CT not justified for repeated examinations because of high dose\n- **Limited-volume CBCT** for single or adjacent sites\n- **Full-volume CBCT** for multiple sites in different regions\n- Full-volume scans often include the skull base — must be reported by a **suitably qualified radiologist** to exclude unexpected lesions\n- Hounsfield Unit measurements are **not reproducible** on CBCT (unlike CT)\n\n## 5. Surgery and immediate post-op\n\n- **Periapicals during surgery**, with measurement markers, when needed\n- Digital systems preferred for ease of use during surgery\n- Routine immediate post-op is not required\n- Take an immediate post-op only if there is doubt about implant position relative to anatomy, or unexpected complications during surgery, or postoperative signs/symptoms\n\n## 6. Long-term review\n\n- **Baseline** radiograph at completion of the prosthodontic phase\n- **12-month review**\n- Then intervals of up to **5 years**\n- Single implants: periapicals (paralleling technique)\n- Multiple implants: multiple PAs or panoramic, balancing detail against dose\n- Where posterior implant marginal bone is visible on routine bitewings (caries review), this may **reduce the need** for additional views\n- Additional or more frequent imaging if marginal bone loss exceeds expectations\n- 3D imaging at follow-up: **rare**, only when signs or symptoms warrant it",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Implant imaging principle",
+          "body": "Implant imaging balances the surgeon's need for 3D information against radiation dose. Cross-sectional imaging for every implant is not justified, so the choice depends on site complexity and the number of implants. For a single anterior maxillary implant the default view is…"
+        },
+        {
+          "id": 2,
+          "title": "Anterior maxilla single",
+          "body": "…a periapical, with limited-volume CBCT added only if cross-sectional information is genuinely needed. For a single posterior maxillary implant the default is…"
+        },
+        {
+          "id": 3,
+          "title": "Posterior maxilla single",
+          "body": "…a periapical and/or panoramic, with limited-volume CBCT added if cross-sectional information is needed, particularly in the molar maxilla, where the specific structure to visualise is…"
+        },
+        {
+          "id": 4,
+          "title": "Why CBCT in molar maxilla",
+          "body": "…the antral floor, since the maxillary sinus is the limiting anatomy. For a single anterior mandibular implant the default is a periapical, with limited-volume CBCT considered to show…"
+        },
+        {
+          "id": 5,
+          "title": "Anterior mandible CBCT role",
+          "body": "…the lingual fossae, which can carry concavities the periapical cannot reveal. For a single post-foraminal mandibular implant the default is periapical and/or panoramic, with CBCT considered to show…"
+        },
+        {
+          "id": 6,
+          "title": "Post-foraminal mandible",
+          "body": "…the 3D position of the inferior dental canal, plus lingual or submandibular fossa concavities. For multiple implants, the practical default that often gives excellent information is…"
+        },
+        {
+          "id": 7,
+          "title": "Multiple implants default",
+          "body": "…a good panoramic radiograph with magnification markers. Where cross-sectional information is required for multiple sites, the modality of choice is…"
+        },
+        {
+          "id": 8,
+          "title": "Multiple implants 3D",
+          "body": "…CBCT, either limited or full volume, with MRI considered as a non-ionising alternative for soft tissue or where dose is a major concern. Multiple periapicals across multiple sites have a problem, namely that they…"
+        },
+        {
+          "id": 9,
+          "title": "Multiple PAs problem",
+          "body": "…become unwieldy and carry significant cumulative radiation exposure. For periapical implant imaging, the technique requirement is image receptor holders combined with…"
+        },
+        {
+          "id": 10,
+          "title": "Periapical technique",
+          "body": "…the paralleling technique, with rectangular collimation. Even with this, the realistic accuracy of periapical measurement is…"
+        },
+        {
+          "id": 11,
+          "title": "Periapical accuracy",
+          "body": "…within a ±2.5 mm range. To improve length measurement, a reference object of known size, such as a metal ball bearing in the same plane as the alveolus, allows…"
+        },
+        {
+          "id": 12,
+          "title": "Reference object",
+          "body": "…accurate distances to be calculated. Panoramic radiography for implants has its own limitation, which is that magnification can reach…"
+        },
+        {
+          "id": 13,
+          "title": "Panoramic magnification",
+          "body": "…up to 30%, and varies significantly at different points along the arch. Vertical measurements are affected less than horizontal ones. For posterior mandibular implants, panoramic alone is acceptable provided that the safety margin to the IDC is…"
+        },
+        {
+          "id": 14,
+          "title": "IDC safety margin",
+          "body": "…at least 2 mm and preferably 4 mm, and bone width is judged to be clinically sufficient. For full-volume CBCT scans there is an additional reporting requirement, which is that they…"
+        },
+        {
+          "id": 15,
+          "title": "Full-volume CBCT reporting",
+          "body": "…need to be viewed by a suitably qualified radiologist to exclude unexpected lesions, because they often include the skull base. CT scanning is generally not justified for repeated examinations because…"
+        },
+        {
+          "id": 16,
+          "title": "CT for implants",
+          "body": "…the radiation dose is considerable. CBCT, with its lower dose and smaller footprint, has become the radiation-based sectional modality of choice. Hounsfield Unit measurements on CBCT, unlike CT, are…"
+        },
+        {
+          "id": 17,
+          "title": "Hounsfield on CBCT",
+          "body": "…not reproducible, so bone density assessment in HU is unreliable. An immediate post-operative radiograph is not routinely required, and is justified only when…"
+        },
+        {
+          "id": 18,
+          "title": "Immediate post-op",
+          "body": "…there is doubt about implant position relative to anatomy, or unexpected complications occurred during surgery, or postoperative signs and symptoms have appeared. The recommended baseline radiograph for long-term review is taken at…"
+        },
+        {
+          "id": 19,
+          "title": "Baseline timing",
+          "body": "…the completion of the prosthodontic phase. Follow-up views are then recommended at 12 months and at intervals of up to five years. For single implants the default follow-up view is…"
+        },
+        {
+          "id": 20,
+          "title": "Single implant follow-up",
+          "body": "…paralleled periapicals, with multiple periapicals or a panoramic for multi-implant cases. A practical opportunity to reduce the number of views is that posterior implant marginal bone may be visible on…"
+        },
+        {
+          "id": 21,
+          "title": "Bitewings as bonus",
+          "body": "…routine bitewing radiographs taken for caries review, which can reduce the need for additional implant follow-up views. 3D imaging at follow-up is reserved for rare cases, namely those with…"
+        },
+        {
+          "id": 22,
+          "title": "Follow-up 3D rare cases",
+          "body": "…signs or symptoms or marginal bone loss exceeding what is expected, since otherwise the routine 2D follow-up sequence covers the question without adding the dose of CBCT."
+        }
+      ]
+    },
+    {
+      "id": "fgdp-new-adult-imaging",
+      "title": "Imaging strategy for the new adult patient",
+      "overview": "The new adult patient pathway is built on the premise that **history and clinical exam come first**, and the radiograph is selected to answer a specific question that will change management. There is no routine x-ray protocol for new adults — neither panoramic nor CBCT.\n\n## 1. Take history and clinical exam first\n\n- Always. The radiograph follows the encounter\n- The information typically needed in a dentate patient: caries, restoration condition, alveolar bone levels, root morphology, pulp chamber morphology, periapical signs, unerupted teeth or roots, other jaw pathology\n- For implant planning: edentulous ridge form, underlying bone, neighbouring anatomy\n- If management would be the same with or without the radiograph → **do not expose**\n\n## 2. Select the fewest radiographs that answer the question\n\nUsually a combination of:\n- **Periapical** views\n- **Horizontal bitewing** views (default for posterior approximal caries, optimal geometry)\n- **Vertical bitewing** views (when alveolar bone needs assessment as well)\n\nA panoramic is *not* routinely justified.\n\n## 3. Specific clinical situations\n\n### Extraction\n- **No convincing evidence** for routine pre-extraction radiography in adults\n- A pre-extraction view *is* judicious when:\n  - Previous difficult extractions in the history\n  - Clinical suspicion of unusual anatomy\n  - Medical history places the patient at special risk\n  - Prior to **orthodontic extractions**\n  - Tooth or root impacted, buried, or close to important anatomy\n- The view is normally a **periapical** (third molars excepted)\n\n### Heavily restored or root-filled teeth\n- Apical periodontitis can develop without symptoms\n- The strongest predictor of apical periodontitis is **the presence of root fillings**\n- Another predictor: **three or more inadequate coronal restorations**\n- For the new adult patient, select periapicals for all teeth that are root-filled, or heavily restored (direct or indirect)\n- 'Heavily restored' for direct fillings is a matter of judgement\n- Follow-up frequency is also a judgement based on signs and symptoms\n\n### Toothwear\n- 99% of severely worn teeth do *not* have apical pathology\n- Periapical screening is therefore *not* recommended for typical severe wear\n- Only **extreme** toothwear merits periapical investigation, unless other indicators apply\n- Periodic follow-up radiographs of worn teeth are unnecessary unless signs or symptoms emerge\n\n### Endodontic working length\n- A reliable electronic apex locator can replace the radiographic working length view in many cases\n- Take a radiograph with file in place when the locator's reliability is in doubt\n- A master GP cone radiograph is also acceptable\n\n## 4. Long-term review\n\n### Caries\n- Bitewing interval set by **risk** (high 6-monthly, moderate annual, low ~2-yearly)\n- Default to **horizontal** bitewings unless there is a clinical indication to assess alveolar bone (then vertical)\n\n### Periodontal\n- Case-by-case, secondary to clinical exam, only when result will change management\n\n### Endodontic follow-up\n- Immediate post-op view\n- 1-year follow-up; further annual reviews if incomplete healing\n- Large lesions monitored more frequently\n\n### Implants\n- Periapicals at completion of prosthodontic phase, then at 12 months, then up to 5-yearly\n- Posterior bitewings already taken for caries review may show implant marginal bone and reduce the need for extra views\n\n## 5. CBCT in new adult assessment\n\n- **Not** for routine prescription in caries, periodontal disease, or endodontic therapy\n- Where CBCT is *already* available, check it for caries, alveolar bone, and periapical disease\n- May be appropriate for implant planning (Section 7)",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Default position",
+          "body": "The new adult patient's imaging plan is built on the premise that history and clinical examination come first, and any radiograph is selected to answer a specific question that will change management. The first thing the prescription is never based on is…"
+        },
+        {
+          "id": 2,
+          "title": "Not a generic protocol",
+          "body": "…a generalised approach rather than individual prescription, which is unacceptable. The prescription should always be based on a thorough history and oral examination. The information typically needed in a dentate adult includes the presence of caries, the condition of restorations, alveolar bone levels, root and pulp chamber morphology, signs of periapical pathology, and…"
+        },
+        {
+          "id": 3,
+          "title": "Information sought in dentate adult",
+          "body": "…the position of unerupted teeth or retained roots, plus other jaw pathology. The acid test for any planned exposure is whether…"
+        },
+        {
+          "id": 4,
+          "title": "Acid test for exposure",
+          "body": "…the result will potentially affect patient management. Where management is known in advance to be the same with or without the image, the exposure cannot be justified. The view selection that usually answers the new-adult question is a combination of…"
+        },
+        {
+          "id": 5,
+          "title": "View combination",
+          "body": "…periapicals, horizontal bitewings, and where alveolar bone also needs assessment, vertical bitewings. A horizontal bitewing is preferred for posterior approximal caries because it offers…"
+        },
+        {
+          "id": 6,
+          "title": "Bitewing geometry",
+          "body": "…optimal geometry for that question. Routine panoramic radiography of new adult patients is not justified; it remains a niche tool. Moving to specific situations, for routine adult extractions the rule is…"
+        },
+        {
+          "id": 7,
+          "title": "Routine extraction rule",
+          "body": "…there is no convincing evidence for routine radiography prior to extractions in adults. A pre-extraction view becomes judicious only when one of a small list of factors applies, beginning with…"
+        },
+        {
+          "id": 8,
+          "title": "Pre-extraction factor 1",
+          "body": "…a history of previous difficult extractions, or a clinical suspicion of unusual anatomy. Two further factors are…"
+        },
+        {
+          "id": 9,
+          "title": "Pre-extraction factors 2 and 3",
+          "body": "…a medical history that places the patient at special risk if complications were encountered, and the planning of orthodontic extractions. The final factor is…"
+        },
+        {
+          "id": 10,
+          "title": "Pre-extraction factor 4",
+          "body": "…teeth or roots that are impacted, buried, or likely to lie close to important anatomical structures, in which case the appropriate view, third molars excepted, is a periapical. For heavily restored or root-filled teeth, the rationale for routine periapicals at the new patient visit is that apical periodontitis can…"
+        },
+        {
+          "id": 11,
+          "title": "Apical periodontitis quietness",
+          "body": "…develop without any symptoms, so symptom-only screening will miss it. The strongest single predictor of apical periodontitis identified in the literature is…"
+        },
+        {
+          "id": 12,
+          "title": "Strongest predictor",
+          "body": "…the presence of root fillings, with another important predictor being three or more inadequate coronal restorations in the mouth. The recommendation that follows for the new adult patient is to take periapicals of…"
+        },
+        {
+          "id": 13,
+          "title": "Heavily restored selection",
+          "body": "…all teeth which are root-filled, or heavily restored, with either direct or indirect restorations. Where direct restorations are involved, the definition of 'heavily restored' has to remain a matter of judgement. For toothwear, the surprising finding from the evidence is that…"
+        },
+        {
+          "id": 14,
+          "title": "Toothwear and apical pathology",
+          "body": "…99% of severely worn teeth do not have apical pathology, so routine periapical screening of worn teeth is not justified. The recommendation that follows is that only those teeth with…"
+        },
+        {
+          "id": 15,
+          "title": "Toothwear cut-off",
+          "body": "…extreme toothwear should be further investigated with periapical radiography, unless they fall into another category such as the presence of symptoms. Periodic follow-up radiographs of worn teeth are unnecessary unless signs or symptoms appear. For endodontic working length on a new adult, the principle is that a reliable…"
+        },
+        {
+          "id": 16,
+          "title": "Apex locator role",
+          "body": "…electronic apex locator can replace the radiographic working length view in many cases. A radiograph with file in place is taken only when the reliability of the electronic measurement is in doubt. Long-term review of caries in adults follows the risk-based bitewing schedule, with the default geometry being…"
+        },
+        {
+          "id": 17,
+          "title": "Caries review default",
+          "body": "…horizontal bitewings, switching to vertical only when there is a clinical indication to re-assess alveolar bone levels. Long-term periodontal review is on a case-by-case basis, with radiographs only where they have potential to…"
+        },
+        {
+          "id": 18,
+          "title": "Perio long-term review",
+          "body": "…change patient management, secondary to the clinical examination. Endodontic follow-up uses an immediate post-op radiograph plus a one-year review, with further annual reviews if healing is incomplete and more frequent monitoring of large lesions. The verdict on routine CBCT in new adult assessment is…"
+        },
+        {
+          "id": 19,
+          "title": "CBCT for new adult",
+          "body": "…the presently available evidence does not support its routine prescription for the diagnosis of dental caries or periodontal disease, or in endodontic therapy. CBCT may be appropriate for implant planning, but where a CBCT image is already available for another reason, the action is…"
+        },
+        {
+          "id": 20,
+          "title": "Existing CBCT",
+          "body": "…to check it for dental caries, alveolar bone levels, and periapical disease, so the dose already taken is not wasted."
+        }
+      ]
+    }
+  ],
+  "firstPrinciples": [
+    {
+      "id": "fgdp-001",
+      "title": "There is no safe threshold for radiation-induced cancer; risk scales with dose",
+      "broaderContext": "The whole rationale for selection criteria rests on a stochastic model of radiation damage. If there were a safe dose, screening would be defensible. Because there isn't, every exposure has to earn its place.",
+      "body": "## Stochastic effects have no threshold\n\nDamage to DNA from x-ray photons is mostly repaired, but rare unrepaired damage can produce mutations that lead, after a latent period of years, to a tumour. The probability of this happening scales with dose. There is no clear evidence of a safe level of dose [1] — the working assumption is that any dose carries some non-zero risk.\n\n## What this means at the chair\n\nDose decisions for individual patients are quantitatively small. The lifetime cancer induction risk for a 30-39-year-old is roughly 1 in 15,000 per mSv in men, 1 in 18,000 in women [2]. A periapical equates to about three to four days of background radiation, a panoramic to under six days [3]. None of these are large numbers in isolation. They become large in two situations: when the same patient accumulates many exposures over a lifetime, and when the population dose from millions of unnecessary radiographs adds up.\n\n## Why the principle drives behaviour\n\nThe consequence is that no patient should receive additional dose unless they are likely to benefit, and the lowest-dose examination that answers the clinical question should be chosen [4]. This is the highest-grade recommendation in the FGDP document despite no RCT support, because such a study could not be done ethically.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "For these effects there is no clear evidence of the existence of a safe level of radiation dose, ie. it is currently assumed that any level of dose could lead to tumour induction.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 2.1.2 Radiation damage"
+        },
+        {
+          "id": 2,
+          "quote": "Another way of expressing this is to say that there is a 1 in 15,000 (for men) and 1 in 18,000 (for women) risk of a cancer being induced for every 1mSv effective dose received from dental radiography.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 2.1.5 The risks"
+        },
+        {
+          "id": 3,
+          "quote": "With this in mind a periapical radiograph may be associated with an effective dose up to three and a half days' background radiation and a panoramic radiograph equivalent to no more than six days' background radiation.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 2.1.7 Doses and risks in context"
+        },
+        {
+          "id": 4,
+          "quote": "No patient should be expected to receive additional radiation dose and risk as part of a course of dental treatment unless they are likely to benefit from dental radiography. Notwithstanding the already low individual risk, every effort should be made to undertake the radiography at minimum dose to the patient. The lowest-dose examination that will answer the clinical question should always be undertaken.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 2.1.7 Doses and risks in context"
+        }
+      ]
+    },
+    {
+      "id": "fgdp-002",
+      "title": "Children are 2-3 times more radiosensitive than adults for the same dose",
+      "broaderContext": "Risk is not uniform across patients. Tissue radiosensitivity and remaining lifespan both shift the calculus, and they shift hardest for paediatric patients. Selection criteria for children are stricter for that reason.",
+      "body": "## Two factors compound the paediatric risk\n\nYounger tissues are more radiosensitive than older tissues because dividing cells are more vulnerable to DNA damage. On top of that, a child's prospective lifespan is long enough to exceed the latent period for radiation-induced cancers, which can be five years upwards [1]. An elderly patient, by contrast, may not live long enough for a low-dose-induced tumour to manifest. Combining the two effects, young children carry roughly two to three times the risk of developing radiation-induced cancer compared with adults in their thirties for the same effective dose [2].\n\n## What this changes in clinic\n\nThe practical consequence is that paediatric exposures need a stricter justification threshold, paediatric exposure protocols (lower mA, shorter time, smaller field), and consistent use of the lowest-dose view that answers the question [3]. The FGDP guidance on the developing dentition reflects this directly: intraoral first, panoramic only when an intraoral cannot answer the question, CBCT only after specialist referral and only with formal selection criteria.\n\n## Why this also matters for ortho referrals\n\nFor a child who needs orthodontic input, the GDP's job for radiographic prescription is to leave the choice to the specialist, because a misjudged screening exposure carries amplified risk and a specialist is better placed to take only the views that will change the orthodontic plan.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Risk is age-dependent, being highest for the young and lowest for the elderly. The tissues of younger people are more radiosensitive and their prospective life span is likely to exceed the latent period.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 2.1.5 The risks"
+        },
+        {
+          "id": 2,
+          "quote": "In general, young children are at about two to three times the risk of develop radiation-induced cancer than adults in their thirties for the same effective dose, hence the importance of using specific paediatric exposure protocols when radiographing children to ensure that the dose is minimised.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 2.1.5 The risks"
+        },
+        {
+          "id": 3,
+          "quote": "The need to expose children to dental radiographs must be carefully considered as they are particularly susceptible to the effects of ionising radiation. There must be a sound clinical indication to justify exposure.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 3.1 Introduction (Developing dentition)"
+        }
+      ]
+    },
+    {
+      "id": "fgdp-003",
+      "title": "A useful diagnostic test must change management; routine radiography fails this test",
+      "broaderContext": "The justification framework distinguishes useful tests from rituals. The criterion is operational: would the result change what you do? If not, the test is wasted dose.",
+      "body": "## Operational definition of usefulness\n\nA useful diagnostic investigation is one where the result, positive or negative, will alter or add confidence to a clinician's diagnosis or treatment plan [1]. By that definition, a 'routine' or 'screening' radiograph — taken regardless of clinical signs and symptoms — fails the test and is unacceptable [2]. There is wide variation in primary care practice in which radiographs are exposed and when, and a measurable problem of repeated, duplicated, or inappropriate exposures.\n\n## Why screening is hard to justify in dentistry\n\nAsymptomatic pathology in the jaws is rare. Routine panoramic radiography of new adult patients to find unsuspected pathology cannot be justified because the prevalence is too low to outweigh the dose. Medical radiology came to the same conclusion long ago and stopped screening except where a strong evidence base, like the breast screening programme, exists [3].\n\n## What this looks like at the chair\n\nBefore exposing, ask whether the result will change what you do. If a heavily worn tooth is asymptomatic and you would not restore it whatever the periapical showed, the periapical is unjustified. If a parent expects a panoramic at a new-patient visit but the clinical exam reveals no relevant finding, the panoramic is unjustified. The justification must be recorded against each exposure so that the decision can be defended later [4].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A useful diagnostic investigation is one where the result – positive or negative – will alter or add confidence to a clinician's diagnosis and/or treatment planning.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 1.3 Why are guidelines needed?"
+        },
+        {
+          "id": 2,
+          "quote": "The routine use of x-rays for diagnosis based on a generalised approach rather than individual prescription is unacceptable. A 'routine' (or 'screening') examination is one in which a radiograph is taken regardless of the presence or absence of clinical signs and symptoms.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 1.2 Justification in radiology"
+        },
+        {
+          "id": 3,
+          "quote": "This standpoint, however, ignores the low prevalence of asymptomatic pathology. Routine radiography without the presence of clinical signs or symptoms cannot be justified. This has long been recognised in medical radiological practice, resulting in the cessation of screening practices, except for those national screening programmes with a strong evidence base, such as the Breast Screening Programme.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 2.2.1 The new patient to the practice"
+        },
+        {
+          "id": 4,
+          "quote": "Furthermore, where decisions are made with patients to expose (or not to expose) a radiograph which may ultimately be contentious, a record should be made of that discussion and decision in the notes.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 1.2 Justification in radiology"
+        }
+      ]
+    },
+    {
+      "id": "fgdp-004",
+      "title": "Bitewings beat panoramics for the common dental diseases",
+      "broaderContext": "Diagnostic accuracy is not just about resolution; it is about geometry, dose, and whether the technique reaches the surface that hosts the disease. For everyday caries, periodontal and periapical work, the intraoral wins.",
+      "body": "## Geometry and detail\n\nIntraoral radiographs put a small detector close to the tooth in a defined geometric relationship to the beam. That gives sharper detail than the moving slit geometry of a panoramic. Studies have consistently shown intraoral radiographs are superior to panoramic radiographs for the diagnosis of caries, periodontal and periapical pathology [1]. The bitewing in particular has optimal geometry for posterior approximal surfaces — the surfaces that host most occult caries.\n\n## A bitewing also reads bone level\n\nFor BPE 3 cases (4-5 mm pocketing), horizontal bitewings are recommended because they show alveolar bone height accurately at the surfaces also being assessed for caries [2]. For more advanced disease, vertical bitewings extend the bone-level view. The same exposure that pays for the caries assessment pays for the periodontal assessment, which makes them dose-efficient.\n\n## When the intraoral genuinely cannot answer\n\nPanoramic stays useful for grossly neglected dentitions, large lesions or unerupted teeth too big for an intraoral, third molars before planned surgery, and mandibular fractures [3]. The clinical decision is not panoramic versus bitewing in general; it is whether the intraoral can answer the specific question, with panoramic reserved for the cases where it cannot.\n\n## A practical consequence\n\nPanoramic radiographs have up to 30% magnification with positional variation along the arch, which means quantitative assessments — like implant planning measurements — need correction or a reference object [4]. Vertical measurements suffer less than horizontal, but neither is reliable enough for fine implant planning without a magnification marker.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Research has shown that intraoral (bitewing and periapical) radiographs are superior to panoramic radiographs for the diagnosis of common dental pathosis (caries, periodontal and periapical pathology).",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 2.2.1 The new patient to the practice"
+        },
+        {
+          "id": 2,
+          "quote": "If a patient has generalised pocketing of 4–5 mm (BPE scores of maximum Code 3 in any sextant) and little or no recession, horizontal bitewings are recommended.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 5.2 Recommendations"
+        },
+        {
+          "id": 3,
+          "quote": "Where radiographs are clinically indicated in dental practice, intraoral radiography should be considered the optimal radiographic examination because of better detail and lower radiation doses.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 2.2.7 Conclusions"
+        },
+        {
+          "id": 4,
+          "quote": "It is extremely important to remember that panoramic images are magnified by up to 30%, and that such magnification may vary significantly at different locations within the same radiograph, depending upon the equipment used.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 7.2.3 Panoramic radiography"
+        }
+      ]
+    },
+    {
+      "id": "fgdp-005",
+      "title": "Past caries experience is by far the strongest caries risk predictor",
+      "broaderContext": "Caries risk assessment is what drives bitewing intervals. The literature is dense with risk indicators of varying weight, but one variable dominates the rest, and it shapes the whole interval-setting framework.",
+      "body": "## Weighting the indicators\n\nMultiple risk factors and indicators carry a range of weightings, and the strength of evidence varies between children and adults. For all ages, by far the most important factor is past caries experience [1]. Diet, social factors, plaque control, fluoride exposure and saliva flow all add information at the individual level, but none come close to the predictive power of how many lesions the patient has had before.\n\n## What this means for radiograph timing\n\nBecause past caries experience is the dominant risk variable, the bitewing interval is in effect set by the patient's caries history. High-risk patients (active disease, recent restorations, multiple lesions) get six-monthly bitewings until the disease quietens; moderate-risk patients get annual bitewings; low-risk patients get bitewings every two years or longer [2,3].\n\n## Risk is not static\n\nA patient does not stay in their category. Caries risk can change quickly with reduced manual dexterity, xerostomia from medication or Sjögren's, dietary changes after retirement or bereavement, and changes in social environment [4]. Because of this, the FGDP guidance emphasises that risk status must be reassessed at every visit before the next bitewing interval can be justified — taking 'routine' radiographs based on time elapsed since the last view is not supportable.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "There are multiple risk factors and indicators which carry a range of weightings. The strength of evidence varies between children and adults. For all ages, by far the most important factor is past caries experience.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 4.2.1 Caries risk assessment"
+        },
+        {
+          "id": 2,
+          "quote": "It is recommended that all children at high caries risk have six-monthly posterior bitewing radiographs taken until no new or active lesions are apparent and the individual has entered another risk category.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 4.2.2 High caries risk"
+        },
+        {
+          "id": 3,
+          "quote": "The taking of 'routine' radiographs based solely on time elapsed since the last examination is not supportable. Intervals between subsequent radiographic examinations must be reassessed for each new period as individuals can move in and out of caries risk categories over time.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 4.2 Children"
+        },
+        {
+          "id": 4,
+          "quote": "Changes in caries risk may follow the patient becoming less dextrous in plaque removal, a reduction in saliva following the use of some medications or the onset of Sjögren's syndrome, and/or dietary changes following events such as retirement, bereavement or a change in social environment.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 4.3 Adults"
+        }
+      ]
+    },
+    {
+      "id": "fgdp-006",
+      "title": "The radiographic apex of a tooth is not the apical constriction",
+      "broaderContext": "Endodontic working length is one of the few areas of clinical dentistry where the radiograph is structurally limited from giving the answer. Understanding why drives the use of apex locators and the way radiographs are still used.",
+      "body": "## Anatomy and image do not coincide\n\nDuring root canal treatment, the goal is to clean and obturate up to the apical constriction, defined as the point where pulp tissue meets periodontal tissue. Material placed at or beyond this level is associated with severe inflammation, even when the patient is asymptomatic [1]. The classical method has been to take a radiograph with a file in place to determine the working length, but this method has a structural problem: the apical constriction is rarely at the radiological apex of the tooth [2].\n\n## Why electronic apex locators became standard\n\nElectronic apex locators measure impedance between an instrument in the canal and an electrode on the oral mucosa, exploiting the fact that two AC currents at different sine-wave frequencies have measurable impedances that can be compared. Modern impedance-based locators are reliable for determining working length when used correctly [3], and crucially they are measuring the constriction itself rather than the radiological apex.\n\n## What this changes in practice\n\nThe FGDP position is that a reliable electronic apex locator can replace the radiographic working length view in many cases. A radiograph with file in place is taken when the locator's reliability is in doubt — for example with large amounts of fluid in the canal, metal coronal restorations, or a large apical foramen. A mid-fill view with a master GP cone is taken when there is doubt about the integrity of the apical constriction or the resistance taper of the prepared canal [4]. Working length is therefore a multi-modal decision, not a one-radiograph decision.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Obturation material placed at or beyond this level has been shown to be associated with severe inflammation, even in the absence of clinical symptoms.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 6.4 Root canal treatment"
+        },
+        {
+          "id": 2,
+          "quote": "However, it is not possible to determine the position of the apical constriction accurately using traditional radiological techniques. This is because the constriction is rarely at the radiological apex of the tooth.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 6.4 Root canal treatment"
+        },
+        {
+          "id": 3,
+          "quote": "These instruments are self-calibrating, using a ratio method. This works on the principle that two electric currents with different sine wave frequencies will have measureable impedances that can be compared. The advantage of these instruments is that they can be used in the presence of electrolyte… and they have been shown to be reliable for the determination of working length when used correctly.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 6.4.1 Electronic apex locators"
+        },
+        {
+          "id": 4,
+          "quote": "If there are any doubts about the integrity of the apical constriction or resistance taper of the prepared root canal, a mid-fill radiograph should be taken to confirm the position of the root filling before final compaction is carried out.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 6.4.1 Electronic apex locators"
+        }
+      ]
+    },
+    {
+      "id": "fgdp-007",
+      "title": "Apical periodontitis is silent in heavily restored and root-filled teeth, so radiographs replace symptoms",
+      "broaderContext": "For most pathology, symptoms drive imaging decisions. The pulp space is an exception. Once a tooth is heavily restored or root-filled, symptoms become unreliable, and the radiograph has to do the work of detection.",
+      "body": "## How common asymptomatic apical disease is\n\nA meta-analysis of 28,881 endodontically treated teeth found 36% had periapical radiolucencies [1]. In a Scottish adult sub-population, 19% of all non-root-filled, crowned teeth had evidence of periapical periodontitis [2]. The depth of restorations is significantly associated with periapical pathology. The disease is common, and most cases would be missed on symptoms alone because apical periodontitis can develop without any symptoms.\n\n## The strongest predictors\n\nA study of 1,199 adults identified the best predictors of when an extra radiographic image is worth taking. The strongest single predictor was the presence of root fillings [3]. The next was three or more inadequate coronal restorations in the mouth. Notably, apical periodontitis can also develop in teeth with well-placed restorations, so a 'good' restoration does not exclude it.\n\n## What this turns into clinically\n\nFor the new adult patient, the FGDP recommendation is to select periapical views for all teeth which are root-filled or heavily restored, with either direct or indirect restorations [4]. 'Heavily restored' for direct fillings is a judgement call, but the overall principle is that in this group of teeth, the radiograph is doing screening work because the symptoms are unreliable. Frequency of follow-up radiographs is then a clinical judgement based on signs and symptoms emerging on review.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "For example, in a meta-analysis of 28,881 endodontically treated teeth, Pak et al found that 36% had periapical radiolucencies.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 8.3.2 Heavily restored teeth"
+        },
+        {
+          "id": 2,
+          "quote": "Saunders and Saunders found that 19% of all non-root-filled, crowned teeth had evidence of periapical periodontitis. Brooks and Cho found a significant association between the depth of restorations and periapical pathology.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 8.3.2 Heavily restored teeth"
+        },
+        {
+          "id": 3,
+          "quote": "The strongest predictor was the presence of root fillings. Another important predictor was the presence of three or more inadequate coronal restorations in the mouth. Nevertheless, apical periodontitis can also develop in teeth with well-placed restorations.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 8.3.2 Heavily restored teeth"
+        },
+        {
+          "id": 4,
+          "quote": "It is prudent, for the new adult patient, to select periapical views for all teeth which are root-filled, or heavily restored, with either direct or indirect restorations.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 8.3.2 Heavily restored teeth"
+        }
+      ]
+    },
+    {
+      "id": "fgdp-008",
+      "title": "CBCT artefacts from metallic restorations can mimic and mask disease",
+      "broaderContext": "CBCT is the most significant advance in dental imaging in decades, but it has a structural failure mode that limits its routine use, especially in caries and endodontics. Understanding the artefact behaviour is what stops clinicians from over-relying on it.",
+      "body": "## What the artefacts look like\n\nMetallic restorations sitting in the path of an x-ray beam during CBCT acquisition produce beam-hardening artefacts. These typically appear as dark streaks that pass through the crowns of adjacent teeth. The streaks introduce artefactual radiolucencies, which can produce a caries-like appearance on the image, or, just as dangerously, mask real carious lesions [1].\n\n## Why this rules CBCT out as a routine caries tool\n\nThe whole point of imaging for caries is to either confirm or rule out a lesion. A modality that creates fake lesions and hides real ones cannot be a routine caries tool. The FGDP position is unambiguous: CBCT should not be used as a routine method of caries diagnosis [2]. The same applies to routine periodontal imaging — CBCT may show bony defects and furcations better in principle, but the dose, the limited evidence, and the artefact problem rule it out for everyday use [3].\n\n## Where CBCT still wins\n\nCBCT remains valuable when 3D information will alter management and the artefact risk is manageable. Implant planning in anatomically challenging sites, suspected resorption lesions, surgical endodontics, and atypical root canal anatomy in multi-rooted teeth are the principal indications [4]. Limited-volume, high-resolution acquisition reduces both dose and the volume in which artefacts can interfere. The decision to use CBCT is therefore always against this background: image quality can be profoundly reduced when the area of interest contains metal posts, amalgams, or implants.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "There are significant problems with CBCT related to artefacts, principally from metallic restorations in the path of the x-ray beam. These artefacts introduce dark streaks that pass through the crowns of other teeth, leading to artefactual radiolucencies which can produce a caries-like appearance, or even mask real carious lesions.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 4.5.1 Cone beam computed tomography"
+        },
+        {
+          "id": 2,
+          "quote": "CBCT should not be used as a routine method of caries diagnosis.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 4.5.1 Cone beam computed tomography"
+        },
+        {
+          "id": 3,
+          "quote": "CBCT is not indicated as a routine method of imaging periodontal bone support.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 5.2 Recommendations"
+        },
+        {
+          "id": 4,
+          "quote": "Significant artefacts are produced by metallic dental restorations that can profoundly reduce image quality… In an endodontic context, the final bullet point is of particular importance where a tooth, or nearby teeth, contain metal posts or there are adjacent implants.",
+          "source": "FGDP Selection Criteria for Dental Radiography (2018), Section 6.7 Cone beam computed tomography"
+        }
+      ]
+    }
+  ]
 }

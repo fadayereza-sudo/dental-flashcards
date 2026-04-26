@@ -4,6 +4,196 @@
   "organisation": "BOS / NHS",
   "order": 6,
   "description": "When and how to refer for orthodontic assessment — BOS guidance and Greater Manchester NHS e-referral guidance",
-  "workflows": [],
-  "firstPrinciples": []
+  "workflows": [
+    {
+      "id": "orthodontic-referral-deciduous-dentition",
+      "title": "When to refer in the deciduous dentition",
+      "overview": "## 1. Default position\n\nMost children do **not** need an orthodontic referral while still in the deciduous dentition. The default is to wait until the permanent teeth are first established.\n\nReferral at this stage is reserved for problems that need either multidisciplinary planning from infancy or skeletal management before any further development.\n\n## 2. Refer if any of these are present\n\n### Cleft and craniofacial\n- Cleft lip and/or palate\n- Other craniofacial anomalies\n\n### Severe skeletal disproportion\n- Severe maxillary/mandibular disproportion **with parental concern**\n- If the parents are not concerned, it is acceptable to **wait until the mixed dentition stage**\n\n## 3. If none of the above apply\n\nReassure and review. Plan to reassess at the mixed dentition stage, around the time the permanent incisors and first molars erupt.",
+      "slides": [
+        { "id": 1, "title": "Default timing of referral", "body": "Most patients can be referred when the permanent teeth are first established. For a child still in the deciduous dentition, the rule is normally to wait. The two scenarios that override that rule are…" },
+        { "id": 2, "title": "First exception (cleft and craniofacial)", "body": "…children with cleft lip and/or palate, or other craniofacial anomalies. These need early multidisciplinary planning, not a wait-and-see approach. The other exception is…" },
+        { "id": 3, "title": "Second exception (skeletal disproportion)", "body": "…severe maxillary or mandibular disproportion. Even then, you only refer in the deciduous dentition if…" },
+        { "id": 4, "title": "Role of parental concern", "body": "…the parents themselves are concerned about the appearance or jaw relationship. If the parents are not concerned, the appropriate plan is to…" },
+        { "id": 5, "title": "Default management of skeletal cases", "body": "…wait until the mixed dentition and reassess then. So, in summary, in the deciduous dentition you only refer for cleft, craniofacial syndromes, or skeletal disproportion with parental concern. Everything else gets…" },
+        { "id": 6, "title": "Plan for everyone else", "body": "…reassurance and a planned review around the time the permanent incisors and first molars erupt." }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-mixed-dentition",
+      "title": "When to refer in the mixed dentition",
+      "overview": "## 1. Why timing matters here\n\nThe mixed dentition is the window where many problems can be **intercepted** before they become harder to treat in the permanent dentition. Some interventions (functional appliances, eruption-guidance, cross-bite correction) work best while growth and tooth eruption are still ongoing.\n\nReferral is therefore indication-driven, not age-driven.\n\n## 2. Skeletal and growth-related problems\n\n- **Anterior or posterior crossbites** with associated **mandibular displacement**\n- **Class III** malocclusion in the mixed dentition\n- **Class II/I** malocclusion with an underlying **skeletal II pattern** — refer **without delay** as the child enters the pubertal growth spurt, because most functional appliances are easiest to wear once the upper first premolars are fully erupted\n\n## 3. Eruption and dental development problems\n\n- **Asymmetry** in the pattern of tooth eruption (especially upper central incisors)\n- **Lack of palpable canine bulges** buccally at **10–12 years** — indicates possible palatal impaction\n- **Submerged deciduous molars**\n- **Impacted first permanent molars**\n- **Hypodontia** (missing teeth) and **supernumerary teeth**\n\n## 4. Tooth-prognosis problems\n\n- **Severely hypoplastic or carious first permanent molars** of poor long-term prognosis (timing of extraction matters for the rest of the bite)\n\n## 5. Crowding and soft-tissue consequences\n\n- **Severe crowding of incisors**\n- **Periodontal problems caused by severely ectopic tooth position**\n\n## 6. If none of the above are present\n\nDefer referral until the permanent dentition is established and reassess.",
+      "slides": [
+        { "id": 1, "title": "Why mixed dentition referrals matter", "body": "The mixed dentition is when many problems can be intercepted before they become harder. Referrals here are driven by specific indications, not by age. The first group is…" },
+        { "id": 2, "title": "Crossbites with displacement", "body": "…anterior or posterior crossbites that come with an associated mandibular displacement. The next skeletal indication is…" },
+        { "id": 3, "title": "Class III in the mixed dentition", "body": "…any Class III malocclusion presenting in the mixed dentition. The third skeletal indication is…" },
+        { "id": 4, "title": "Class II div 1 with skeletal pattern", "body": "…a Class II division 1 malocclusion where there is an underlying skeletal II pattern. The reason this one is time-critical is…" },
+        { "id": 5, "title": "Why functional appliance timing matters", "body": "…most functional appliances are easiest to wear when the upper first premolars are fully erupted, and they work with the pubertal growth spurt. So a child entering puberty with this pattern should be seen…" },
+        { "id": 6, "title": "Urgency for skeletal Class II", "body": "…without delay. Moving on from skeletal problems to eruption problems, the first eruption indication is…" },
+        { "id": 7, "title": "Eruption asymmetry", "body": "…asymmetry in the pattern of tooth eruption, especially of the upper central incisors. The next eruption indication relates to the canines…" },
+        { "id": 8, "title": "Canine palpation rule", "body": "…lack of palpable canine bulges buccally at 10 to 12 years of age, which indicates possible palatal impaction. Two more eruption-related indications are…" },
+        { "id": 9, "title": "Submerged and impacted molars", "body": "…submerged deciduous molars, and impacted first permanent molars. Beyond eruption problems, missing or extra teeth are also indications, specifically…" },
+        { "id": 10, "title": "Hypodontia and supernumeraries", "body": "…hypodontia, meaning missing permanent teeth, and supernumerary teeth. Tooth-prognosis problems are also a referral trigger when…" },
+        { "id": 11, "title": "Hypoplastic or carious first molars", "body": "…the first permanent molars are severely hypoplastic or carious with a poor long-term prognosis, because the timing of any planned extraction affects the rest of the developing bite. The remaining indications relate to crowding and soft tissues, namely…" },
+        { "id": 12, "title": "Severe incisor crowding", "body": "…severe crowding of the incisors. And finally, an ectopic tooth can cause…" },
+        { "id": 13, "title": "Periodontal consequences of ectopic teeth", "body": "…periodontal problems if the position is severe enough. If none of these indications are present, the plan is…" },
+        { "id": 14, "title": "Default plan in mixed dentition", "body": "…to defer referral until the permanent dentition is established, then reassess." }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-permanent-dentition",
+      "title": "When to refer in the permanent dentition",
+      "overview": "## 1. Default rule\n\nOnce the permanent teeth are established, **all other malocclusions** that warrant treatment can be referred. This is the standard window for orthodontic referral.\n\n## 2. Practical timing notes\n\n- The majority of orthodontic treatment can commence in the **late mixed / early permanent dentition**\n- Refer based on **clinical findings**, not as a tactic to skip waiting lists — early-but-unjustified referrals will be returned\n- Aim to refer **before the patient is 17 years old** so they have time to move through the waiting list\n- If referring after age 17, document the **reason for the delay**\n\n## 3. Pre-referral readiness check\n\nBefore submitting any referral, make sure the patient is ready for treatment:\n\n1. **Motivation** — patient is committed to wearing the appliance\n2. **Dental fitness** — no active caries lesions\n3. **Oral hygiene** — good to excellent plaque control\n4. **Realistic expectations** — patient and parents know they may not be eligible for NHS treatment\n5. **Counselling** — discussed nature, duration, discomfort and commitment of orthodontic treatment\n\nPatients with poor oral hygiene or active caries should **not** be referred until they have demonstrated appropriate plaque control and motivation.\n\n## 4. Caries-risk add-on\n\nOrthodontic patients are considered at increased caries risk. Apply *Delivering Better Oral Health* preventive advice and consider:\n\n- **2800 ppm** fluoride toothpaste, or\n- **5000 ppm** for older children",
+      "slides": [
+        { "id": 1, "title": "Default rule for permanent dentition", "body": "Once the permanent teeth are established, all other malocclusions that warrant treatment can be referred. The majority of orthodontic treatment actually commences in…" },
+        { "id": 2, "title": "Usual starting window", "body": "…the late mixed or early permanent dentition. The trigger for the referral should be…" },
+        { "id": 3, "title": "Indication-driven referral", "body": "…the clinical findings, not an attempt to circumvent the long waiting lists. Patients referred too early without justification will be…" },
+        { "id": 4, "title": "Consequence of premature referral", "body": "…sent back to the referring practitioner. There is also a recommended upper age limit, which is…" },
+        { "id": 5, "title": "Recommended upper age limit", "body": "…to refer before the patient is 17, so they have time to move through the waiting lists. If referral is made later than 17, you should…" },
+        { "id": 6, "title": "Late-referral documentation", "body": "…document the reasons or indications for the delay. Even when the timing is right, the patient still needs to be ready, which means checking…" },
+        { "id": 7, "title": "Readiness check 1: motivation", "body": "…that the patient is motivated to wear the appliance. The next readiness check is…" },
+        { "id": 8, "title": "Readiness check 2: dental fitness", "body": "…that the patient is dentally fit, with no active caries lesions. The next readiness check is…" },
+        { "id": 9, "title": "Readiness check 3: oral hygiene", "body": "…that oral hygiene is good to excellent. The next readiness check is…" },
+        { "id": 10, "title": "Readiness check 4: NHS eligibility expectations", "body": "…that the patient and parents have been advised they may not be eligible for NHS treatment. The final readiness check is…" },
+        { "id": 11, "title": "Readiness check 5: counselling", "body": "…that you have discussed the nature, duration, discomfort and commitment involved in orthodontic treatment. If oral hygiene or caries control are inadequate, the appropriate action is…" },
+        { "id": 12, "title": "Action when patient not ready", "body": "…to delay referral until the patient demonstrates appropriate plaque control and motivation. Once treatment starts, the patient is also at increased risk of…" },
+        { "id": 13, "title": "Caries risk under appliances", "body": "…caries, so practitioners should apply Delivering Better Oral Health preventive advice. Specifically, for orthodontic patients you may consider…" },
+        { "id": 14, "title": "High-fluoride toothpaste", "body": "…2800 ppm fluoride toothpaste, or 5000 ppm for older children." }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-iotn-mocdo-assessment",
+      "title": "IOTN/MOCDO assessment for NHS eligibility",
+      "overview": "## 1. Why this exists\n\nNHS orthodontic care is rationed by the **Index of Orthodontic Treatment Need (IOTN)**. The Greater Manchester e-referral form uses the **MOCDO method** to capture the features that determine the IOTN grade and decide whether the case meets the threshold for NHS treatment, and whether it should sit in primary or secondary care.\n\nThe online form has a built-in **algorithm** that directs the referral to secondary care only if the severity reaches hospital-based thresholds.\n\n## 2. The MOCDO mnemonic\n\nRecord, in order:\n\n1. **M** — **Missing teeth**: hypodontia, impactions, unerupted teeth out of normal sequence (NOT 8s)\n2. **O** — **Overjet**: positive and negative measurements in mm\n3. **C** — **Crossbites**: anterior (number of incisors) and posterior, with or without RCP–ICP displacement\n4. **D** — **Displacements of contact points** (crowding)\n5. **O** — **Overbite**: deep bites (with or without trauma), anterior open bites, or lateral open bites > 2 mm\n\nThen capture **Additional features**: submerged deciduous teeth, supernumerary teeth, etc.\n\n## 3. Thresholds that drive eligibility (form values)\n\n### Missing teeth\n- More than one tooth absent per quadrant (not 8s) — IOPA/DPT required\n- Only one tooth missing per quadrant (not 8s) — IOPA/DPT required\n- Unerupted maxillary central incisor at > 8 yrs — IOPA required\n\n### Canines\n- Age **under 10 yrs**\n- Age **10+ yrs** if not palpable buccally / line of arch — take **parallax** radiographs\n- Buccally placed or in line of arch with sufficient space\n- Buccally placed or in line of arch with **< 4 mm** space\n- Palatally placed\n\n### Overjet\n- **> 9 mm** at age 10+\n- **> 9 mm** under age 10\n- **6–9 mm** at age 11+\n- **6–9 mm** under age 11\n- **< 6 mm** any age\n\n### Reverse overjet\n- **1–3.5 mm** age < 18\n- **> 3.5 mm** age < 18\n\n### Crossbite\n- Anterior: 1–2 incisors in crossbite, or 3–4 incisors\n- Posterior: with RCP–ICP displacement **> 1 mm** or **< 1 mm**\n\n### Crowding (displacement)\n- More than four deciduous molars still present\n- Four or fewer with: marked crowding/irregularity; mild crowding with marked aesthetic detriment; mild crowding with little aesthetic detriment; severe spacing with marked aesthetic detriment\n\n### Open and overbites\n- Lateral or anterior open bite **2–4 mm**\n- Lateral or anterior open bite **> 4 mm**\n- Overbite **complete and potentially traumatic**\n\n## 4. Tertiary-care triggers\n\nBefore the MOCDO section, declare any of:\n\n- Cleft lip and/or palate\n- Craniofacial syndrome\n- Other complex or congenital medical conditions (under 18s only)\n\nThese route the case via tertiary/multidisciplinary services.\n\n## 5. Adults (> 18) special rule\n\n- Patients **over 18** with **routine** malocclusions that do not need hospital care will **not** be accepted for NHS referral\n- Only **complex malocclusions requiring multidisciplinary input** are accepted into the hospital service for over-18s\n- Even when routed via *“problems likely to need specialist multidisciplinary input”*, cases must still meet **IOTN DHC ≥ 3 with aesthetic component > 6**, and will be screened by a Consultant",
+      "slides": [
+        { "id": 1, "title": "Why IOTN exists", "body": "NHS orthodontic care is rationed using the Index of Orthodontic Treatment Need, or IOTN. To capture the data that drives that grade, the Greater Manchester e-referral form uses an assessment method called…" },
+        { "id": 2, "title": "MOCDO method", "body": "…MOCDO. The form has a built-in algorithm that directs referrals to secondary care only if severity reaches hospital thresholds. The MOCDO letters stand for, in order…" },
+        { "id": 3, "title": "M of MOCDO", "body": "…M for Missing teeth, including hypodontia, impactions, and unerupted teeth out of normal sequence, but not 8s. The next letter is…" },
+        { "id": 4, "title": "First O of MOCDO", "body": "…O for Overjet, recorded as positive and negative measurements in millimetres. The next letter is…" },
+        { "id": 5, "title": "C of MOCDO", "body": "…C for Crossbites: anterior (with the number of incisors involved) and posterior, noting whether there is a displacement between retruded contact and intercuspal position. The next letter is…" },
+        { "id": 6, "title": "D of MOCDO", "body": "…D for Displacements of contact points, which is the way the form records crowding. The final letter is…" },
+        { "id": 7, "title": "Second O of MOCDO", "body": "…O for Overbite: deep bites with or without trauma, anterior open bites, or lateral open bites greater than 2 mm. After MOCDO, you also capture…" },
+        { "id": 8, "title": "Additional features section", "body": "…additional features such as submerged deciduous teeth and supernumerary teeth. Looking at thresholds, for an unerupted maxillary central incisor the trigger age is…" },
+        { "id": 9, "title": "Unerupted central incisor age trigger", "body": "…older than 8 years, with an IOPA radiograph required. For canines, the rules begin to apply by age…" },
+        { "id": 10, "title": "Canine palpation age trigger", "body": "…10 years and over if they are not palpable buccally or in the line of the arch, in which case you take parallax radiographs. Canine space matters too: a buccally placed canine is flagged when there is…" },
+        { "id": 11, "title": "Canine space threshold", "body": "…less than 4 mm of space available. For the overjet thresholds, the highest tier is…" },
+        { "id": 12, "title": "Overjet > 9 mm thresholds", "body": "…greater than 9 mm, recorded by whether the patient is age 10 plus or under 10. The next overjet tier is…" },
+        { "id": 13, "title": "Overjet 6 to 9 mm thresholds", "body": "…6 to 9 mm, again split by age 11 plus and under 11. Reverse overjet has its own thresholds, namely…" },
+        { "id": 14, "title": "Reverse overjet thresholds", "body": "…1 to 3.5 mm, and greater than 3.5 mm, both for under-18s. Anterior crossbites are recorded by…" },
+        { "id": 15, "title": "Anterior crossbite recording", "body": "…the number of incisors in crossbite, split as 1 to 2 incisors or 3 to 4 incisors. Posterior crossbites are recorded by…" },
+        { "id": 16, "title": "Posterior crossbite recording", "body": "…whether the RCP to ICP displacement is greater than 1 mm or less than 1 mm. For open bites, the thresholds are…" },
+        { "id": 17, "title": "Open bite thresholds", "body": "…lateral or anterior open bite of 2 to 4 mm, and greater than 4 mm. The flag for a deep overbite is when it is…" },
+        { "id": 18, "title": "Traumatic overbite", "body": "…complete and potentially traumatic. Before the MOCDO section, the form also asks you to declare any tertiary-care indications, which are…" },
+        { "id": 19, "title": "Tertiary care declarations", "body": "…cleft lip and/or palate, craniofacial syndrome, or other complex or congenital medical conditions in under-18s. For adults over 18, the special rule is…" },
+        { "id": 20, "title": "Over-18s rule", "body": "…that routine malocclusions not requiring hospital care will not be accepted for NHS referral, and only complex malocclusions requiring multidisciplinary input get into the hospital service. Even those cases must still meet…" },
+        { "id": 21, "title": "Multidisciplinary IOTN floor", "body": "…IOTN Dental Health Component of at least 3 with an aesthetic component greater than 6, and they are screened by a Consultant." }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-eform-process",
+      "title": "Greater Manchester NHS e-referral process (filling the form)",
+      "overview": "## 1. Where to start\n\nAll NHS orthodontic referrals in Greater Manchester are managed through the online **Orthodontic Assessment and Treatment Interactive Form** at **http://www.dental-referrals.org**.\n\nLog in and select *Orthodontic Assessment and Treatment Interactive Form*.\n\n## 2. Patient details\n\nComplete patient demographics, **including GMP details**.\n\nFor patients **over 18**, the form first asks for the specific reason for **multidisciplinary care** before continuing.\n\n## 3. Clinical information\n\n- Select either **opinion / treatment if appropriate**, or **transfer case** if patient already in appliances\n- Complete medical history\n- Confirm: motivation, dental fitness, oral hygiene, NHS eligibility counselling, previous orthodontic treatment\n\n## 4. Presenting problem (MOCDO)\n\nIdentify the **main** presenting problem, then tick all MOCDO boxes that apply (Missing, Overjet, Crossbites, Displacements/Crowding, Overbite/Openbite).\n\nAttach radiographs where the form requires them (IOPA/DPT for hypodontia, IOPA for unerupted upper centrals, parallax for unpalpable canines).\n\n## 5. Additional features\n\nTick if appropriate: submerged deciduous teeth, supernumeraries, problems likely to require hospital assessment, other (e.g. assessment of 6s, other impactions). Provide details when asked.\n\n## 6. Referral priority\n\nDefault is **routine**. Mark **urgent** only if one of these applies:\n\n1. Unerupted maxillary central incisor markedly delayed (IOPA required)\n2. Impacted permanent canines placing incisor roots at risk (radiograph required)\n3. Significant Class II skeletal discrepancy with overjet > 9 mm approaching age 13\n4. Patient needing opinion before GA extraction of an acutely symptomatic first molar\n\nIf urgency cannot be justified, the patient is placed back on the routine list.\n\n## 7. Provider and uploads\n\n- Select preferred provider, or **leave blank** for closest to patient\n- Upload supporting materials (radiographs, study models, photos)\n- The algorithm decides primary vs secondary care from the data entered\n\n## 8. Submit\n\nOn submission you receive an **acknowledgement and a URN** to track the referral. Available providers are then identified based on the clinical information.\n\n## 9. Out-of-region transfers\n\n- NHS transfer cases are **likely to be accepted from outside** the region\n- Transfers **within** Greater Manchester will **not** be considered",
+      "slides": [
+        { "id": 1, "title": "Where the process starts", "body": "All NHS orthodontic referrals in Greater Manchester are managed through one online portal. After logging in to dental-referrals.org, the first thing you select is…" },
+        { "id": 2, "title": "Form to select", "body": "…the Orthodontic Assessment and Treatment Interactive Form. The first section to complete is…" },
+        { "id": 3, "title": "Patient details section", "body": "…Patient Details, including GMP details. For patients over 18, before clinical information you have to declare…" },
+        { "id": 4, "title": "Over-18 multidisciplinary section", "body": "…the specific reason for multidisciplinary care, because routine adult cases do not get accepted. Once that is done, the next section is…" },
+        { "id": 5, "title": "Clinical information section", "body": "…Clinical Information, where you choose between opinion or treatment if appropriate, or transfer case if the patient is already in appliances. You also complete the medical history and confirm…" },
+        { "id": 6, "title": "Patient readiness confirmations", "body": "…that the patient is motivated, dentally fit, has good to excellent oral hygiene, has been advised about NHS eligibility, and any history of previous orthodontic treatment. The next section is…" },
+        { "id": 7, "title": "Presenting Problem section", "body": "…the Presenting Problem, which uses the MOCDO framework. You identify the main presenting problem and then tick all the boxes relevant to the malocclusion. After MOCDO comes…" },
+        { "id": 8, "title": "Additional features section", "body": "…the Additional Features section: submerged deciduous teeth, supernumerary teeth, problems likely to require hospital assessment, or other items like assessment of 6s. Then you choose the…" },
+        { "id": 9, "title": "Referral Type section", "body": "…Referral Type, which defaults to routine. You only mark it urgent if one of four specific scenarios applies, the first being…" },
+        { "id": 10, "title": "Urgent reason 1", "body": "…an unerupted maxillary central incisor that is markedly delayed, with an IOPA radiograph required. The second urgent reason is…" },
+        { "id": 11, "title": "Urgent reason 2", "body": "…impacted permanent canines that are placing the incisor roots at risk, with a radiograph required. The third urgent reason is…" },
+        { "id": 12, "title": "Urgent reason 3", "body": "…a significant Class II skeletal discrepancy with an overjet greater than 9 mm in a patient approaching 13 years old. The fourth urgent reason is…" },
+        { "id": 13, "title": "Urgent reason 4", "body": "…a patient who needs an opinion prior to GA extraction of an acutely symptomatic first molar. If you flag urgency without one of these, the patient will be…" },
+        { "id": 14, "title": "Inappropriate urgency consequence", "body": "…placed back on the routine list. After referral type comes the upload step, where you can…" },
+        { "id": 15, "title": "Provider selection", "body": "…select a preferred provider, or leave it blank to default to the closest provider to the patient. You then upload supporting materials and submit. On submission you receive…" },
+        { "id": 16, "title": "Acknowledgement and tracking", "body": "…an acknowledgement and a unique reference number, or URN, to track the referral. The form's algorithm then decides whether the case goes to…" },
+        { "id": 17, "title": "Algorithm routing", "body": "…primary or secondary care, based on the clinical information you entered. Finally, for out-of-region cases, the rule is that transfers from outside Greater Manchester are…" },
+        { "id": 18, "title": "Out-of-region transfers", "body": "…likely to be accepted, but transfers within Greater Manchester itself will not be considered." }
+      ]
+    }
+  ],
+  "firstPrinciples": [
+    {
+      "id": "orthodontic-referral-001",
+      "title": "Referral timing follows dental development, not chronological age",
+      "broaderContext": "Orthodontic problems present in different windows depending on when the relevant teeth erupt. Referral timing is driven by what is biologically present, not by birthdays.",
+      "body": "## Match the referral to the dentition stage\n\nThe BOS guidance frames referral timing around three stages: deciduous, mixed, and permanent dentition. Most patients can be referred when the permanent teeth are first established [1]. The exceptions exist precisely because the underlying problem can only be addressed while specific teeth or growth processes are still in play.\n\n## Implication for practice\n\nWhen a parent asks if a child is \"too young\" or \"too old\", the answer is rarely about age alone. It is about whether the relevant teeth have erupted, whether the relevant growth is still available, and whether the malocclusion is one that benefits from interception now. Manchester reinforces this from the other direction: patients referred too early in an attempt to circumvent waiting lists will be sent back to the referring practitioner [2].",
+      "citations": [
+        { "id": 1, "quote": "Most patients can be referred when the permanent teeth are first established.", "source": "BOS Guidance, When Should I Refer for an Orthodontic Assessment?" },
+        { "id": 2, "quote": "Patients should be referred based on the clinical findings and not referred early in an attempt to circumvent the long waiting lists. Patients referred too early will be sent back to the referring practitioner.", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.1" }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-002",
+      "title": "Functional appliances depend on the pubertal growth spurt",
+      "broaderContext": "Skeletal Class II correction relies on biological growth potential. Once growth slows, the same appliance produces mostly dental change rather than skeletal change.",
+      "body": "## Why timing is non-negotiable for skeletal II patients\n\nFunctional appliances exploit residual mandibular growth to correct a skeletal Class II pattern. The window where they work best is the pubertal growth spurt, and they are physically easiest to wear once the upper first premolars are fully erupted [1]. Refer too late and the skeletal lever is gone; refer too early and the appliance does not fit.\n\n## Implication for practice\n\nA child with a skeletal Class II/I malocclusion entering puberty should be seen without delay. This is one of the few BOS indications where the words \"without delay\" appear, and it sits in the mixed dentition list rather than the permanent dentition list for exactly this reason.",
+      "citations": [
+        { "id": 1, "quote": "Class II/I malocclusion where there is an underlying skeletal II pattern. Most functional appliances are easiest to wear when the upper first premolars are fully erupted. Such a patient entering his or her pubertal growth spurt should be seen without delay", "source": "BOS Guidance, Mixed dentition section" }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-003",
+      "title": "Palpable canine bulges between 10 and 12 years are a screening test",
+      "broaderContext": "Maxillary canines have the longest, most tortuous eruption path of any permanent tooth. Their position can be inferred clinically before any radiograph.",
+      "body": "## A simple chairside test\n\nBy 10 to 12 years of age, the buccal canine bulge should be palpable in a child whose canines are erupting normally. If it is not palpable, the canine is suspect for palatal impaction [1]. The Manchester form makes the same screening test operational by triggering parallax radiographs at this age if the canine cannot be felt buccally or in the line of the arch [2].\n\n## Implication for practice\n\nPalpating the canine region at every routine paediatric exam between 10 and 12 is a free, fast intercept. Catching a palatally displaced canine early opens up options like extraction of the deciduous canine to redirect eruption, before the permanent canine becomes truly impacted and resorbs the lateral incisor root.",
+      "citations": [
+        { "id": 1, "quote": "Lack of palpable canine bulges buccally at 10-12 years of age indicating palatal impaction", "source": "BOS Guidance, Mixed dentition section" },
+        { "id": 2, "quote": "Age 10+yrs if not palpable buccally/ line or arch - take parallax radiographs", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.4" }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-004",
+      "title": "IOTN exists to ration finite NHS treatment capacity",
+      "broaderContext": "Orthodontic resources are limited and demand outstrips supply. An objective index lets the system prioritise need over want.",
+      "body": "## What IOTN does\n\nThe Index of Orthodontic Treatment Need grades a malocclusion against a defined set of features so that NHS care can be targeted at cases that genuinely warrant it. The Manchester e-referral system encodes this directly: a built-in algorithm only directs referrals to secondary care if the severity of the malocclusion reaches hospital-based thresholds [1].\n\n## Implication for practice\n\nMOCDO (Missing teeth, Overjet, Crossbites, Displacements, Overbite) is the data-collection scaffold that produces the IOTN grade [2]. Recording these features carefully on referral is not bureaucracy — it is what determines whether the patient is offered NHS treatment at all, and whether they are seen in primary or hospital care.",
+      "citations": [
+        { "id": 1, "quote": "The online referral form has a built in algorithm that will direct the referral to secondary care only if the severity of the malocclusion reaches thresholds for hospital-based care.", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.1" },
+        { "id": 2, "quote": "Clinically, the information required is based on the MOCDO method of assessment related to the index of orthodontic treatment need (IOTN).", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.1" }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-005",
+      "title": "Fixed appliances increase caries risk; oral hygiene must be sorted before referral",
+      "broaderContext": "Brackets and archwires create plaque-retentive niches that the patient cannot easily access. A motivated, plaque-controlled patient is the precondition for safe treatment.",
+      "body": "## Why pre-treatment hygiene matters\n\nOrthodontic patients are considered at increased risk for caries, and Manchester explicitly invokes Delivering Better Oral Health for preventive advice [1]. The recommended preventive add-ons for these patients are 2800 ppm fluoride toothpaste, or 5000 ppm for older children [1].\n\n## Implication for practice\n\nA patient with poor oral hygiene or active caries lesions should not be referred until they demonstrate appropriate plaque control and motivation [2]. Sending a high-risk patient straight into fixed appliances effectively guarantees decalcification and white-spot lesions around every bracket. The pre-referral hygiene phase is part of the treatment, not a delay to it.",
+      "citations": [
+        { "id": 1, "quote": "Orthodontic patients should be considered at risk for caries and practitioners should consider Delivering Better Oral Health when prescribing preventative advice and therapies. The use of high fluoride toothpaste may be indicated (2800ppm or for older children 5000ppm).", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.1" },
+        { "id": 2, "quote": "Patients with poor oral hygiene or active caries lesions should not be referred until they demonstrate appropriate levels of plaque control and motivation.", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.1" }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-006",
+      "title": "Crossbites with mandibular displacement are a development concern, not just an occlusal one",
+      "broaderContext": "When the bite forces the mandible to shift to find intercuspation, the dentition develops around the displaced position. Left untreated, asymmetric growth can follow.",
+      "body": "## Why displacement matters\n\nBOS singles out anterior or posterior crossbites with associated mandibular displacement as an indication to refer in the mixed dentition [1]. Manchester records the same feature in detail: posterior crossbites are graded by whether the displacement between retruded contact and intercuspal position is greater than or less than 1 mm [2].\n\n## Implication for practice\n\nA crossbite without displacement may be cosmetic; a crossbite with a displacement is functional and progressive. Picking up the displacement at routine exam and referring in the mixed dentition allows simple interception (e.g. a URA) before the asymmetry becomes embedded in the developing skeletal pattern.",
+      "citations": [
+        { "id": 1, "quote": "Anterior or posterior crossbites with associated mandibular displacement", "source": "BOS Guidance, Mixed dentition section" },
+        { "id": 2, "quote": "Posterior With RCP-ICP displacement >1mm / With RCP-ICP displacement <1mm", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.5" }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-007",
+      "title": "Adult NHS orthodontic eligibility is restricted to multidisciplinary cases",
+      "broaderContext": "Adult demand for cosmetic orthodontics is enormous, while NHS capacity is finite. Eligibility narrows sharply at 18 to keep resources for patients who cannot be treated otherwise.",
+      "body": "## What changes at 18\n\nFor over-18s, only complex malocclusions requiring multidisciplinary input are accepted into the hospital service [1]. Patients over 18 with routine malocclusions not requiring hospital care will not be accepted for NHS referral [2]. Even when routed via the multidisciplinary pathway, cases must still meet IOTN DHC at least 3 with an aesthetic component greater than 6, and are screened by a Consultant [3].\n\n## Implication for practice\n\nWhen counselling adult patients, set expectations early. Routine adult crowding or mild Class II is private-care territory in Greater Manchester. Reserve the NHS pathway for genuine restorative-orthodontic, surgical-orthodontic, or special-care cases, with sufficient information attached to justify the route.",
+      "citations": [
+        { "id": 1, "quote": "Only complex malocclusions requiring multidisciplinary input will be accepted into the hospital service for patients aged over 18 years", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.3" },
+        { "id": 2, "quote": "Patients over the age of 18-years-old with routine malocclusions not requiring hospital care will not be accepted for NHS referral.", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.1" },
+        { "id": 3, "quote": "malocclusions referred by this route should still meet the eligibility criteria for NHS orthodontic treatment (IOTN DHC at least 3 with aesthetic component >6) and that all referrals made by this route will be screened by a Consultant", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.1" }
+      ]
+    },
+    {
+      "id": "orthodontic-referral-008",
+      "title": "Treatment success depends on patient commitment as much as biology",
+      "broaderContext": "Orthodontic appliances only work if the patient wears them and keeps them clean. Motivation is a clinical variable, not a soft one.",
+      "body": "## Commitment as eligibility\n\nThe Manchester referral form opens its clinical section by asking whether the patient is motivated to undergo orthodontic treatment, whether they are dentally fit, and whether oral hygiene is good to excellent [1]. The guidance reinforces this with a plain warning: orthodontic treatment is time-consuming, sometimes uncomfortable, and requires commitment from patient and family [2].\n\n## Implication for practice\n\nThe pre-referral conversation is not a formality. Discuss the duration, the wear schedule, the discomfort, and the dietary and hygiene constraints before submitting the referral. A patient who declines that conversation, or who cannot demonstrate plaque control, is not yet ready, regardless of how high their IOTN grade is.",
+      "citations": [
+        { "id": 1, "quote": "Is the patient motivated to undergo orthodontic treatment (wear appliance)? * Is the patient dentally fit at the time of referral? * Is oral hygiene 'good' to 'excellent'? *", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, Orthodontic Assessment and Treatment Form" },
+        { "id": 2, "quote": "Orthodontic treatment is time consuming, sometimes uncomfortable and requires the commitment of the patient and family.", "source": "Greater Manchester NHS Orthodontic E-referral Guidance, p.1" }
+      ]
+    }
+  ]
 }
