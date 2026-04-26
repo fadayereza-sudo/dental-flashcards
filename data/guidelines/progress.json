@@ -1,0 +1,7 @@
+{
+  "completed": [],
+  "in_progress": null,
+  "total_categories": 4,
+  "last_updated": "2026-04-26",
+  "notes": "Scaffold only — empty workflows[] and firstPrinciples[] in each category. Run extract-guidelines-slides skill to populate."
+}

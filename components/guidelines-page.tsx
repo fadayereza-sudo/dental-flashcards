@@ -1,14 +1,18 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useDragToClose } from "@/lib/use-drag-to-close";
 import { useAnimatedSheet } from "@/lib/use-animated-sheet";
+import {
+  PrincipleToggleList,
+  type CoreTruth,
+} from "@/components/principle-toggles";
 
-type Guideline = {
-  id: string;
+type GuidelineIndex = {
+  slug: string;
   title: string;
   organisation: string;
-  year: number;
+  order: number;
   description: string;
 };
 
@@ -18,34 +22,66 @@ type Slide = {
   body: string;
 };
 
-type GuidelineDetail = {
+type Workflow = {
   id: string;
   title: string;
-  organisation: string;
-  year: number;
-  referenceText: string;
+  overview: string;
   slides: Slide[];
+};
+
+type GuidelineDetail = {
+  slug: string;
+  title: string;
+  organisation: string;
+  order: number;
+  description: string;
+  referenceText?: string;
+  workflows: Workflow[];
+  firstPrinciples: CoreTruth[];
+};
+
+type PlayerState = {
+  categorySlug: string;
+  workflow: Workflow;
 };
 
 export function GuidelinesPage() {
   const [view, setView] = useState<"list" | "player">("list");
-  const [guidelines, setGuidelines] = useState<Guideline[]>([]);
-  const [currentGuideline, setCurrentGuideline] = useState<GuidelineDetail | null>(
-    null
-  );
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [guidelines, setGuidelines] = useState<GuidelineIndex[]>([]);
+  const [categoryData, setCategoryData] = useState<
+    Record<string, GuidelineDetail>
+  >({});
   const [loading, setLoading] = useState(true);
-  const [referenceOpen, setReferenceOpen] = useState(false);
-  const dragRef = useRef<HTMLDivElement>(null);
-  const { isOpen: refOpen, setIsOpen: setRefOpen } = useAnimatedSheet();
 
-  const progressKey = (id: string) => `guideline-progress-${id}`;
+  // Toggle hierarchy state — a single Set of expanded toggle IDs.
+  //   cat:<slug>                       — category open
+  //   cat:<slug>:section:workflows     — workflows sub-toggle open
+  //   cat:<slug>:section:principles    — principles sub-toggle open
+  //   cat:<slug>:wf:<id>               — individual workflow open
+  //   cat:<slug>:wf:<id>:overview      — workflow overview open
+  //   cat:<slug>:fp:<id>               — first-principle open (handled by PrincipleToggleList)
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
+
+  // Player state — set when user taps "Test" on a workflow
+  const [player, setPlayer] = useState<PlayerState | null>(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  // Overview bottom sheet (player view) — animated open/close + drag-to-dismiss
+  const [overviewOpen, setOverviewOpen] = useState(false);
+  const resetOverview = useCallback(() => setOverviewOpen(false), []);
+  const { closing: overviewClosing, close: closeOverview } = useAnimatedSheet(
+    overviewOpen,
+    resetOverview,
+  );
+  const { sheetRef: overviewSheetRef, handleProps: overviewDragHandle } =
+    useDragToClose(resetOverview);
+
+  // Track which first-principle toggle is open per category
+  const [openTruthByCat, setOpenTruthByCat] = useState<Record<string, string | null>>({});
 
   useEffect(() => {
     fetchGuidelines();
   }, []);
-
-  useDragToClose(dragRef, () => setReferenceOpen(false));
 
   const fetchGuidelines = async () => {
     try {
@@ -60,60 +96,65 @@ export function GuidelinesPage() {
     }
   };
 
-  const openGuideline = async (guideline: Guideline) => {
-    try {
-      const res = await fetch(`/api/guidelines/${guideline.id}`);
-      const data: GuidelineDetail = await res.json();
+  const isExpanded = (id: string) => expanded.has(id);
 
-      const savedProgress = sessionStorage.getItem(progressKey(guideline.id));
-      const savedSlide = savedProgress
-        ? JSON.parse(savedProgress).slideIndex
-        : 0;
+  const toggle = (id: string) => {
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  };
 
-      setCurrentGuideline(data);
-      setCurrentSlide(savedSlide);
-      setView("player");
-    } catch (err) {
-      console.error("Failed to load guideline:", err);
+  const toggleCategory = async (slug: string) => {
+    const id = `cat:${slug}`;
+    toggle(id);
+    if (!categoryData[slug]) {
+      try {
+        const res = await fetch(`/api/guidelines/${slug}`);
+        if (!res.ok) return;
+        const data: GuidelineDetail = await res.json();
+        setCategoryData((prev) => ({ ...prev, [slug]: data }));
+      } catch (err) {
+        console.error(`Failed to load guideline ${slug}`, err);
+      }
     }
   };
 
+  const toggleTruth = (catSlug: string) => (id: string) => {
+    setOpenTruthByCat((prev) => ({
+      ...prev,
+      [catSlug]: prev[catSlug] === id ? null : id,
+    }));
+  };
+
+  const startTest = (categorySlug: string, workflow: Workflow) => {
+    if (workflow.slides.length === 0) return;
+    setPlayer({ categorySlug, workflow });
+    setCurrentSlide(0);
+    setView("player");
+  };
+
+  const exitPlayer = () => {
+    setView("list");
+    setPlayer(null);
+    setCurrentSlide(0);
+    setOverviewOpen(false);
+  };
+
   const nextSlide = () => {
-    if (!currentGuideline) return;
-    if (currentSlide < currentGuideline.slides.length - 1) {
-      const newIdx = currentSlide + 1;
-      setCurrentSlide(newIdx);
-      saveProgress(newIdx);
+    if (!player) return;
+    if (currentSlide < player.workflow.slides.length - 1) {
+      setCurrentSlide(currentSlide + 1);
     }
   };
 
   const prevSlide = () => {
-    if (currentSlide > 0) {
-      const newIdx = currentSlide - 1;
-      setCurrentSlide(newIdx);
-      saveProgress(newIdx);
-    }
+    if (currentSlide > 0) setCurrentSlide(currentSlide - 1);
   };
 
-  const saveProgress = (idx: number) => {
-    if (!currentGuideline) return;
-    sessionStorage.setItem(
-      progressKey(currentGuideline.id),
-      JSON.stringify({ slideIndex: idx })
-    );
-  };
-
-  const backToList = () => {
-    setView("list");
-    setCurrentGuideline(null);
-    setCurrentSlide(0);
-    setReferenceOpen(false);
-  };
-
-  const restartGuideline = () => {
-    setCurrentSlide(0);
-    saveProgress(0);
-  };
+  const restart = () => setCurrentSlide(0);
 
   if (loading) {
     return (
@@ -125,49 +166,189 @@ export function GuidelinesPage() {
     );
   }
 
-  if (view === "list") {
+  if (view === "player" && player) {
+    const { workflow } = player;
+    const isLastSlide = currentSlide === workflow.slides.length - 1;
+    const slide = workflow.slides[currentSlide];
+
     return (
-      <div className="absolute inset-0 overflow-y-auto pb-[calc(env(safe-area-inset-bottom)+5.5rem)] px-4">
-        <header className="max-w-2xl mx-auto pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-5">
-          <h1 className="font-serif text-2xl text-ink">Guidelines</h1>
-          <p className="text-xs text-ink-muted mt-1 tracking-wide">
-            Decision workflows from SDCEP, BSP, FGDP, DBOH
-          </p>
-        </header>
-        {guidelines.length === 0 ? (
-          <div className="flex items-center justify-center h-96">
-            <div className="text-center px-8">
-              <p className="text-sm text-ink-muted">
-                No content yet. Run the{" "}
-                <code className="text-xs bg-paper-sunk px-2 py-1 rounded">
-                  extract-guidelines-slides
-                </code>{" "}
-                skill to generate.
-              </p>
-            </div>
+      <div className="absolute inset-0 flex flex-col overflow-hidden">
+        <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-3 sm:px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-3 pointer-events-none bg-gradient-to-b from-paper via-paper to-transparent">
+          <button
+            onClick={exitPlayer}
+            className="pointer-events-auto inline-flex items-center justify-center rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 text-ink-soft border border-rule/60 shadow-sm hover:text-ink transition-colors"
+            aria-label="Back"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M15 18l-6-6 6-6" />
+            </svg>
+          </button>
+          <div className="flex-1 flex justify-center px-2">
+            <h2 className="font-serif text-sm text-ink text-center truncate">
+              {workflow.title}
+            </h2>
           </div>
-        ) : (
-          <div className="max-w-2xl mx-auto space-y-3">
-            {guidelines.map((guideline) => (
+          <button
+            onClick={() => setOverviewOpen(true)}
+            className="pointer-events-auto inline-flex items-center justify-center rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 text-ink-soft border border-rule/60 shadow-sm hover:text-ink transition-colors"
+            aria-label="Overview"
+          >
+            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path d="M2 3h12v8H6l-3 3v-3H2V3z" strokeLinejoin="round" />
+            </svg>
+          </button>
+        </header>
+
+        <div className="flex-1 flex flex-col items-center justify-center px-6 pt-[calc(env(safe-area-inset-top)+4.5rem)] pb-[calc(env(safe-area-inset-bottom)+9rem)] text-center overflow-hidden">
+          {isLastSlide ? (
+            <div className="space-y-4">
+              <div className="font-serif text-2xl text-ink">Complete</div>
+              <p className="text-sm text-ink-muted">
+                You've worked through every step of this workflow.
+              </p>
               <button
-                key={guideline.id}
-                onClick={() => openGuideline(guideline)}
-                className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper/80 transition-colors border border-rule px-4 py-3"
+                onClick={restart}
+                className="mt-6 rounded-full bg-ink text-paper px-5 py-2.5 text-sm tracking-wide uppercase font-medium hover:bg-ink-soft transition-colors"
               >
-                <div className="flex items-start justify-between gap-3">
-                  <div className="flex-1">
-                    <h3 className="font-medium text-sm text-ink mb-1">
-                      {guideline.title}
-                    </h3>
-                    <div className="flex items-center gap-2 text-xs text-ink-muted">
-                      <span className="bg-ink/10 rounded px-2 py-1">
-                        {guideline.organisation}
+                Restart
+              </button>
+            </div>
+          ) : (
+            <>
+              <div className="mb-6 w-full bg-rule/30 rounded-full h-1">
+                <div
+                  className="h-full bg-bronze rounded-full transition-all"
+                  style={{
+                    width: `${((currentSlide + 1) / workflow.slides.length) * 100}%`,
+                  }}
+                />
+              </div>
+              <h3 className="font-serif text-lg text-ink mb-4 leading-relaxed max-w-lg">
+                {slide.title}
+              </h3>
+              <p className="text-sm text-ink leading-relaxed max-w-lg mb-6">
+                {slide.body}
+              </p>
+            </>
+          )}
+        </div>
+
+        <div className="absolute inset-x-0 flex items-center justify-between px-4 gap-3 bottom-[calc(env(safe-area-inset-bottom)+4.25rem)]">
+          <button
+            onClick={prevSlide}
+            disabled={currentSlide === 0}
+            className="inline-flex items-center justify-center rounded-full bg-paper-sunk border border-rule px-4 py-2.5 text-sm tracking-wide uppercase disabled:opacity-40 disabled:cursor-not-allowed hover:bg-paper transition-colors"
+          >
+            Back
+          </button>
+          <div className="text-xs text-ink-muted tracking-wide">
+            {currentSlide + 1} / {workflow.slides.length}
+          </div>
+          <button
+            onClick={nextSlide}
+            disabled={isLastSlide}
+            className="inline-flex items-center justify-center rounded-full bg-ink text-paper px-4 py-2.5 text-sm tracking-wide uppercase disabled:opacity-40 disabled:cursor-not-allowed hover:bg-ink-soft transition-colors"
+          >
+            Next
+          </button>
+        </div>
+
+        {(overviewOpen || overviewClosing) && (
+          <>
+            <div
+              className={`fixed inset-0 bg-ink/30 backdrop-blur-sm z-30 ${
+                overviewClosing ? "animate-fade-out" : "animate-fade-in"
+              }`}
+              onClick={closeOverview}
+            />
+            <div
+              ref={overviewSheetRef}
+              className={`fixed left-0 right-0 bottom-0 z-40 bg-paper rounded-t-[28px] border-t border-rule shadow-[0_-20px_40px_-20px_rgba(28,25,23,0.25)] ${
+                overviewClosing ? "animate-slide-down" : "animate-slide-up"
+              }`}
+              style={{ maxHeight: "82dvh" }}
+            >
+              <div className="flex flex-col max-h-[82dvh]">
+                <div
+                  {...overviewDragHandle}
+                  className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"
+                >
+                  <div className="w-10 h-1 rounded-full bg-rule" />
+                </div>
+                <div className="flex-1 overflow-y-auto px-6 py-4">
+                  <h3 className="font-serif text-lg text-ink mb-4">Overview</h3>
+                  <div className="prose prose-sm text-ink space-y-3">
+                    {workflow.overview
+                      .split("\n\n")
+                      .filter((p) => p.trim())
+                      .map((para, i) => (
+                        <p key={i} className="text-sm leading-relaxed">
+                          {para.trim()}
+                        </p>
+                      ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
+        )}
+      </div>
+    );
+  }
+
+  return (
+    <div className="absolute inset-0 overflow-y-auto pb-[calc(env(safe-area-inset-bottom)+5.5rem)] px-4">
+      <header className="max-w-2xl mx-auto pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-5">
+        <h1 className="font-serif text-2xl text-ink">Guidelines</h1>
+        <p className="text-xs text-ink-muted mt-1 tracking-wide">
+          Workflows and first principles from SDCEP, BSP, FGDP, DBOH
+        </p>
+      </header>
+
+      {guidelines.length === 0 ? (
+        <div className="flex items-center justify-center h-96">
+          <div className="text-center px-8">
+            <p className="text-sm text-ink-muted">
+              No content yet. Run the{" "}
+              <code className="text-xs bg-paper-sunk px-2 py-1 rounded">
+                extract-guidelines-slides
+              </code>{" "}
+              skill to generate.
+            </p>
+          </div>
+        </div>
+      ) : (
+        <div className="max-w-2xl mx-auto space-y-3">
+          {guidelines.map((cat) => {
+            const catId = `cat:${cat.slug}`;
+            const catOpen = isExpanded(catId);
+            const data = categoryData[cat.slug];
+            const wfSectionId = `${catId}:section:workflows`;
+            const fpSectionId = `${catId}:section:principles`;
+            const wfSectionOpen = isExpanded(wfSectionId);
+            const fpSectionOpen = isExpanded(fpSectionId);
+
+            return (
+              <div key={cat.slug} className="space-y-0">
+                {/* Level 1: Category */}
+                <button
+                  onClick={() => toggleCategory(cat.slug)}
+                  className="w-full text-left rounded-lg bg-[#2d2d2d] hover:bg-[#3a3a3a] text-white px-4 py-3 transition-colors flex items-center justify-between"
+                >
+                  <div className="flex flex-col">
+                    <span className="font-medium text-sm tracking-wide">
+                      {cat.title}
+                    </span>
+                    {cat.description && (
+                      <span className="text-[11px] text-white/60 mt-0.5">
+                        {cat.description}
                       </span>
-                      <span>{guideline.year}</span>
-                    </div>
+                    )}
                   </div>
                   <svg
-                    className="w-4 h-4 flex-shrink-0 mt-1 text-ink-muted"
+                    className={`w-4 h-4 transition-transform flex-shrink-0 ml-3 ${
+                      catOpen ? "rotate-90" : ""
+                    }`}
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -175,131 +356,192 @@ export function GuidelinesPage() {
                   >
                     <path d="M9 6l6 6-6 6" />
                   </svg>
-                </div>
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  }
+                </button>
 
-  if (!currentGuideline) return null;
+                {catOpen && data && (
+                  <div className="pt-2 pl-3 border-l-2 border-[#2d2d2d] space-y-2">
+                    {/* Level 2: Workflows */}
+                    <div>
+                      <button
+                        onClick={() => toggle(wfSectionId)}
+                        className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
+                      >
+                        <span className="text-sm text-ink font-medium tracking-wide">
+                          Workflows
+                          {data.workflows.length > 0 && (
+                            <span className="ml-2 text-[11px] text-ink-muted font-normal">
+                              {data.workflows.length}
+                            </span>
+                          )}
+                        </span>
+                        <svg
+                          className={`w-4 h-4 transition-transform ${
+                            wfSectionOpen ? "rotate-90" : ""
+                          }`}
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                        >
+                          <path d="M9 6l6 6-6 6" />
+                        </svg>
+                      </button>
 
-  const isLastSlide = currentSlide === currentGuideline.slides.length - 1;
-  const slide = currentGuideline.slides[currentSlide];
+                      {wfSectionOpen && (
+                        <div className="pt-2 pl-3 border-l border-rule space-y-2">
+                          {data.workflows.length === 0 ? (
+                            <p className="text-xs text-ink-muted italic px-2 py-2">
+                              No workflows extracted yet.
+                            </p>
+                          ) : (
+                            data.workflows.map((wf) => {
+                              const wfId = `${catId}:wf:${wf.id}`;
+                              const wfOpen = isExpanded(wfId);
+                              const overviewId = `${wfId}:overview`;
+                              const overviewOpen = isExpanded(overviewId);
 
-  return (
-    <div className="absolute inset-0 flex flex-col overflow-hidden">
-      <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-3 sm:px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-3 pointer-events-none bg-gradient-to-b from-paper via-paper to-transparent">
-        <button
-          onClick={backToList}
-          className="pointer-events-auto inline-flex items-center justify-center rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 text-ink-soft border border-rule/60 shadow-sm hover:text-ink transition-colors"
-          aria-label="Back"
-        >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M15 18l-6-6 6-6" />
-          </svg>
-        </button>
-        <div className="flex-1 flex justify-center px-2">
-          <h2 className="font-serif text-sm text-ink text-center truncate">
-            {currentGuideline.title}
-          </h2>
-        </div>
-        <button
-          onClick={() => {
-            setReferenceOpen(true);
-            setRefOpen(true);
-          }}
-          className="pointer-events-auto inline-flex items-center justify-center rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 text-ink-soft border border-rule/60 shadow-sm hover:text-ink transition-colors"
-          aria-label="Reference"
-        >
-          <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
-            <path d="M2 3h12v8H6l-3 3v-3H2V3z" strokeLinejoin="round" />
-          </svg>
-        </button>
-      </header>
+                              return (
+                                <div key={wf.id}>
+                                  {/* Level 3: individual workflow */}
+                                  <button
+                                    onClick={() => toggle(wfId)}
+                                    className="w-full text-left rounded-lg bg-paper hover:bg-paper-sunk transition-colors border border-rule px-3 py-2 flex items-start justify-between gap-3"
+                                  >
+                                    <span className="text-sm text-ink flex-1">
+                                      {wf.title}
+                                    </span>
+                                    <svg
+                                      className={`w-4 h-4 flex-shrink-0 mt-0.5 transition-transform ${
+                                        wfOpen ? "rotate-90" : ""
+                                      }`}
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth="2"
+                                    >
+                                      <path d="M9 6l6 6-6 6" />
+                                    </svg>
+                                  </button>
 
-      <div className="flex-1 flex flex-col items-center justify-center px-6 pt-[calc(env(safe-area-inset-top)+4.5rem)] pb-[calc(env(safe-area-inset-bottom)+9rem)] text-center overflow-hidden">
-        {isLastSlide ? (
-          <div className="space-y-4">
-            <div className="font-serif text-2xl text-ink">Complete</div>
-            <p className="text-sm text-ink-muted">
-              You've reviewed all slides for this guideline.
-            </p>
-            <button
-              onClick={restartGuideline}
-              className="mt-6 rounded-full bg-ink text-paper px-5 py-2.5 text-sm tracking-wide uppercase font-medium hover:bg-ink-soft transition-colors"
-            >
-              Restart
-            </button>
-          </div>
-        ) : (
-          <>
-            <div className="mb-6 w-full bg-rule/30 rounded-full h-1">
-              <div
-                className="h-full bg-bronze rounded-full transition-all"
-                style={{
-                  width: `${((currentSlide + 1) / currentGuideline.slides.length) * 100}%`,
-                }}
-              />
-            </div>
-            <h3 className="font-serif text-lg text-ink mb-4 leading-relaxed max-w-lg">
-              {slide.title}
-            </h3>
-            <p className="text-sm text-ink leading-relaxed max-w-lg mb-6">
-              {slide.body}
-            </p>
-          </>
-        )}
-      </div>
+                                  {wfOpen && (
+                                    <div className="pt-2 pl-3 border-l border-rule/60 space-y-2">
+                                      {/* Level 4a: Overview */}
+                                      <div>
+                                        <button
+                                          onClick={() => toggle(overviewId)}
+                                          className="w-full text-left rounded-md bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
+                                        >
+                                          <span className="text-xs text-ink uppercase tracking-[0.12em]">
+                                            Overview
+                                          </span>
+                                          <svg
+                                            className={`w-3.5 h-3.5 transition-transform ${
+                                              overviewOpen ? "rotate-90" : ""
+                                            }`}
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                          >
+                                            <path d="M9 6l6 6-6 6" />
+                                          </svg>
+                                        </button>
+                                        {overviewOpen && (
+                                          <div className="mt-2 px-3 py-3 bg-paper rounded-md text-[14px] text-ink leading-[1.65] space-y-3">
+                                            {wf.overview
+                                              .split("\n\n")
+                                              .filter((p) => p.trim())
+                                              .map((p, i) => (
+                                                <p key={i}>{p.trim()}</p>
+                                              ))}
+                                          </div>
+                                        )}
+                                      </div>
 
-      <div className="absolute inset-x-0 flex items-center justify-between px-4 gap-3 bottom-[calc(env(safe-area-inset-bottom)+4.25rem)]">
-        <button
-          onClick={prevSlide}
-          disabled={currentSlide === 0}
-          className="inline-flex items-center justify-center rounded-full bg-paper-sunk border border-rule px-4 py-2.5 text-sm tracking-wide uppercase disabled:opacity-40 disabled:cursor-not-allowed hover:bg-paper transition-colors"
-        >
-          Back
-        </button>
-        <div className="text-xs text-ink-muted tracking-wide">
-          {currentSlide + 1} / {currentGuideline.slides.length}
-        </div>
-        <button
-          onClick={nextSlide}
-          disabled={isLastSlide}
-          className="inline-flex items-center justify-center rounded-full bg-ink text-paper px-4 py-2.5 text-sm tracking-wide uppercase disabled:opacity-40 disabled:cursor-not-allowed hover:bg-ink-soft transition-colors"
-        >
-          Next
-        </button>
-      </div>
+                                      {/* Level 4b: Test (button — launches slideshow) */}
+                                      <button
+                                        onClick={() => startTest(cat.slug, wf)}
+                                        disabled={wf.slides.length === 0}
+                                        className="w-full text-left rounded-md bg-ink text-paper hover:bg-ink-soft transition-colors px-3 py-2 flex items-center justify-between disabled:opacity-40 disabled:cursor-not-allowed"
+                                      >
+                                        <span className="text-xs uppercase tracking-[0.12em] font-medium">
+                                          Test
+                                          {wf.slides.length > 0 && (
+                                            <span className="ml-2 text-[11px] opacity-70 font-normal">
+                                              {wf.slides.length} slides
+                                            </span>
+                                          )}
+                                        </span>
+                                        <svg
+                                          width="14"
+                                          height="14"
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          stroke="currentColor"
+                                          strokeWidth="2"
+                                        >
+                                          <path d="M9 6l6 6-6 6" />
+                                        </svg>
+                                      </button>
+                                    </div>
+                                  )}
+                                </div>
+                              );
+                            })
+                          )}
+                        </div>
+                      )}
+                    </div>
 
-      {referenceOpen && refOpen && (
-        <div className="fixed inset-0 bg-ink/30 backdrop-blur-sm z-30 transition-opacity duration-300 pointer-events-auto" />
-      )}
-      {refOpen && (
-        <div className="fixed left-0 right-0 bottom-0 z-40 bg-paper rounded-t-[28px] border-t border-rule shadow-[0_-20px_40px_-20px_rgba(28,25,23,0.25)] transition-transform duration-350 ease-[cubic-bezier(0.22,1,0.36,1)]" style={{ maxHeight: "82dvh" }}>
-          <div className="flex flex-col max-h-[82dvh]">
-            <div
-              ref={dragRef}
-              className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"
-            >
-              <div className="w-10 h-1 rounded-full bg-rule" />
-            </div>
-            <div className="flex-1 overflow-y-auto px-6 py-4">
-              <h3 className="font-serif text-lg text-ink mb-4">Reference</h3>
-              <div className="prose prose-sm text-ink space-y-3">
-                {currentGuideline.referenceText
-                  .split("\n\n")
-                  .filter((p) => p.trim())
-                  .map((para, i) => (
-                    <p key={i} className="text-sm leading-relaxed">
-                      {para.trim()}
-                    </p>
-                  ))}
+                    {/* Level 2: First Principles */}
+                    <div>
+                      <button
+                        onClick={() => toggle(fpSectionId)}
+                        className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
+                      >
+                        <span className="text-sm text-ink font-medium tracking-wide">
+                          First Principles
+                          {data.firstPrinciples.length > 0 && (
+                            <span className="ml-2 text-[11px] text-ink-muted font-normal">
+                              {data.firstPrinciples.length}
+                            </span>
+                          )}
+                        </span>
+                        <svg
+                          className={`w-4 h-4 transition-transform ${
+                            fpSectionOpen ? "rotate-90" : ""
+                          }`}
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                        >
+                          <path d="M9 6l6 6-6 6" />
+                        </svg>
+                      </button>
+
+                      {fpSectionOpen && (
+                        <div className="pt-2 pl-3 border-l border-rule">
+                          {data.firstPrinciples.length === 0 ? (
+                            <p className="text-xs text-ink-muted italic px-2 py-2">
+                              No first principles extracted yet.
+                            </p>
+                          ) : (
+                            <PrincipleToggleList
+                              truths={data.firstPrinciples}
+                              category={cat.title}
+                              openTruthId={openTruthByCat[cat.slug] ?? null}
+                              onToggle={toggleTruth(cat.slug)}
+                            />
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
               </div>
-            </div>
-          </div>
+            );
+          })}
         </div>
       )}
     </div>

@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "slug": "sdcep",
+    "title": "SDCEP",
+    "organisation": "SDCEP",
+    "order": 1,
+    "description": "Scottish Dental Clinical Effectiveness Programme — antibiotic prophylaxis, child caries, prescribing, MRONJ, anticoagulants, amalgam"
+  },
+  {
+    "slug": "dboh",
+    "title": "Delivering Better Oral Health",
+    "organisation": "DBOH",
+    "order": 2,
+    "description": "Public Health England evidence-based toolkit for prevention in primary care"
+  },
+  {
+    "slug": "bsp",
+    "title": "BSP",
+    "organisation": "BSP",
+    "order": 3,
+    "description": "British Society of Periodontology — Good Practitioners Guide"
+  },
+  {
+    "slug": "fgdp",
+    "title": "FGDP",
+    "organisation": "FGDP",
+    "order": 4,
+    "description": "Faculty of General Dental Practice — Standards in Dentistry / competency framework"
+  }
+]
