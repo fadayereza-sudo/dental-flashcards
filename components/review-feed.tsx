@@ -420,7 +420,7 @@ export function ReviewFeed() {
 
   return (
     <div className="absolute inset-0 overflow-hidden">
-      <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-3 sm:px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-3 pointer-events-none">
+      <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-3 sm:px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-4 pointer-events-none bg-gradient-to-b from-paper via-paper/85 to-transparent">
         <div className="flex items-center gap-1.5 sm:gap-2">
           <button
             onClick={() => setDrawerOpen(true)}
@@ -528,7 +528,7 @@ export function ReviewFeed() {
           {cards.map((c, i) => (
             <div
               key={`${c.id}-${revivedVersion[c.id] ?? 0}`}
-              className="snap-item h-[100dvh] w-full flex flex-col items-center justify-center gap-3 px-5 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+4rem)]"
+              className="snap-item h-[100dvh] w-full flex flex-col items-center justify-center gap-3 px-5 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+8rem)]"
             >
               <Flashcard
                 card={c}
@@ -559,7 +559,7 @@ export function ReviewFeed() {
               </button>
             </div>
           ))}
-          <div className="snap-item h-[100dvh] w-full flex items-center justify-center px-5 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+4rem)]">
+          <div className="snap-item h-[100dvh] w-full flex items-center justify-center px-5 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+8rem)]">
             {cards.length < total ? (
               <LoadingNextBatch />
             ) : (
@@ -598,7 +598,7 @@ export function ReviewFeed() {
       />
 
       {undoCardId !== null && (
-        <div className="fixed left-0 right-0 z-50 flex justify-center pointer-events-none bottom-[calc(env(safe-area-inset-bottom)+1rem)]">
+        <div className="fixed left-0 right-0 z-50 flex justify-center pointer-events-none bottom-[calc(env(safe-area-inset-bottom)+5rem)]">
           <div className="pointer-events-auto flex items-center gap-3 rounded-full bg-ink text-paper px-4 py-2.5 shadow-[0_8px_24px_rgba(0,0,0,0.25)]">
             <span className="text-xs tracking-wide uppercase">Card deleted</span>
             <button

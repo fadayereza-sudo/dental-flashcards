@@ -127,11 +127,16 @@ export function GuidelinesPage() {
 
   if (view === "list") {
     return (
-      <div className="absolute inset-0 overflow-y-auto pt-[calc(env(safe-area-inset-top)+3.5rem)] pb-8 px-4">
+      <div className="absolute inset-0 overflow-y-auto pb-[calc(env(safe-area-inset-bottom)+5.5rem)] px-4">
+        <header className="max-w-2xl mx-auto pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-5">
+          <h1 className="font-serif text-2xl text-ink">Guidelines</h1>
+          <p className="text-xs text-ink-muted mt-1 tracking-wide">
+            Decision workflows from SDCEP, BSP, FGDP, DBOH
+          </p>
+        </header>
         {guidelines.length === 0 ? (
           <div className="flex items-center justify-center h-96">
             <div className="text-center px-8">
-              <p className="font-serif text-2xl text-ink mb-2">Guidelines</p>
               <p className="text-sm text-ink-muted">
                 No content yet. Run the{" "}
                 <code className="text-xs bg-paper-sunk px-2 py-1 rounded">
@@ -215,7 +220,7 @@ export function GuidelinesPage() {
         </button>
       </header>
 
-      <div className="flex-1 flex flex-col items-center justify-center px-6 pt-[calc(env(safe-area-inset-top)+4.5rem)] pb-24 text-center overflow-hidden">
+      <div className="flex-1 flex flex-col items-center justify-center px-6 pt-[calc(env(safe-area-inset-top)+4.5rem)] pb-[calc(env(safe-area-inset-bottom)+9rem)] text-center overflow-hidden">
         {isLastSlide ? (
           <div className="space-y-4">
             <div className="font-serif text-2xl text-ink">Complete</div>
@@ -249,7 +254,7 @@ export function GuidelinesPage() {
         )}
       </div>
 
-      <div className="absolute bottom-0 inset-x-0 flex items-center justify-between px-4 pb-[max(env(safe-area-inset-bottom),1rem)] gap-3">
+      <div className="absolute inset-x-0 flex items-center justify-between px-4 gap-3 bottom-[calc(env(safe-area-inset-bottom)+4.25rem)]">
         <button
           onClick={prevSlide}
           disabled={currentSlide === 0}

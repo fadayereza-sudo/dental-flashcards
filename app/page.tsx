@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 import { ReviewFeed } from "@/components/review-feed";
 import { FirstPrinciplesPage } from "@/components/first-principles-page";
 import { GuidelinesPage } from "@/components/guidelines-page";
-import { PillSwitch } from "@/components/pill-switch";
+import { BottomTabs } from "@/components/bottom-tabs";
 
 export default function Home() {
   const panelRef = useRef<HTMLDivElement>(null);
@@ -30,7 +30,6 @@ export default function Home() {
 
   return (
     <>
-      <PillSwitch active={activePanel} onSelect={scrollTo} />
       <div
         ref={panelRef}
         className="panel-container fixed inset-0"
@@ -45,6 +44,7 @@ export default function Home() {
           <GuidelinesPage />
         </div>
       </div>
+      <BottomTabs active={activePanel} onSelect={scrollTo} />
     </>
   );
 }
