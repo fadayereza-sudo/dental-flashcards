@@ -112,11 +112,44 @@ export function GuidelinesPage() {
 
   const isExpanded = (id: string) => expanded.has(id);
 
+  // Accordion: opening a toggle closes its siblings (and their descendants).
+  // Closing a toggle also collapses its descendants. Siblings are toggles
+  // sharing the same parent prefix and the same key name (e.g. "subj", "wf"),
+  // so a workflow does not count as a sibling of a section toggle.
   const toggle = (id: string) => {
     setExpanded((prev) => {
       const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
+
+      if (prev.has(id)) {
+        next.delete(id);
+        for (const other of prev) {
+          if (other.startsWith(id + ":")) next.delete(other);
+        }
+        return next;
+      }
+
+      const parts = id.split(":");
+      if (parts.length >= 2 && parts.length % 2 === 0) {
+        parts.pop();
+        const myKey = parts.pop()!;
+        const myParent = parts.join(":");
+        for (const existing of prev) {
+          if (existing === id) continue;
+          const eParts = existing.split(":");
+          if (eParts.length < 2 || eParts.length % 2 !== 0) continue;
+          eParts.pop();
+          const eKey = eParts.pop()!;
+          const eParent = eParts.join(":");
+          if (eKey === myKey && eParent === myParent) {
+            next.delete(existing);
+            for (const other of prev) {
+              if (other.startsWith(existing + ":")) next.delete(other);
+            }
+          }
+        }
+      }
+
+      next.add(id);
       return next;
     });
   };
