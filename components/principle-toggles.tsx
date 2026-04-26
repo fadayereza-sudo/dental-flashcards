@@ -2,6 +2,7 @@
 
 import { ReactNode, useCallback, useEffect, useState } from "react";
 import { createPortal } from "react-dom";
+import { useBackClose } from "@/lib/use-back-close";
 
 export type Citation = {
   id: number;
@@ -219,6 +220,8 @@ function CitationSheet({
     return () => window.removeEventListener("keydown", onKey);
   }, [requestClose]);
 
+  useBackClose(mounted && !closing, requestClose);
+
   if (!mounted) return null;
 
   const sourceLabel = active.citation.source
@@ -228,27 +231,20 @@ function CitationSheet({
     : null;
 
   const sheet = (
-    <>
+    <div
+      className="fixed inset-0 z-[100] flex items-end justify-center"
+      onClick={requestClose}
+    >
       <div
-        className={`fixed inset-0 z-[100] bg-ink/40 backdrop-blur-sm ${
+        className={`absolute inset-0 bg-ink/40 backdrop-blur-sm ${
           closing ? "animate-fade-out" : "animate-fade-in"
         }`}
-        onClick={requestClose}
       />
       <div
-        className={`fixed left-1/2 z-[110] bg-paper rounded-t-2xl border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] ${
+        onClick={(e) => e.stopPropagation()}
+        className={`relative w-full max-w-[32rem] max-h-[65dvh] bg-paper rounded-t-2xl border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden pb-[env(safe-area-inset-bottom)] ${
           closing ? "animate-slide-down" : "animate-slide-up"
         }`}
-        style={{
-          bottom: 0,
-          width: "100%",
-          maxWidth: "32rem",
-          height: "82dvh",
-          transform: "translateX(-50%)",
-          display: "grid",
-          gridTemplateRows: "auto auto 1fr",
-          overflow: "hidden",
-        }}
       >
         <div className="flex justify-center pt-3 pb-2">
           <div className="w-10 h-1 rounded-full bg-ink-muted/30" />
@@ -281,10 +277,8 @@ function CitationSheet({
         </div>
 
         <div
-          className="px-6 py-5"
+          className="flex-1 min-h-0 overflow-y-auto px-6 py-5"
           style={{
-            minHeight: 0,
-            overflowY: "auto",
             overscrollBehavior: "contain",
             WebkitOverflowScrolling: "touch",
           }}
@@ -299,7 +293,7 @@ function CitationSheet({
           )}
         </div>
       </div>
-    </>
+    </div>
   );
 
   return createPortal(sheet, document.body);

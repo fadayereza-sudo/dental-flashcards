@@ -4,41 +4,41 @@
     "title": "SDCEP",
     "organisation": "SDCEP",
     "order": 1,
-    "description": "Scottish Dental Clinical Effectiveness Programme — antibiotic prophylaxis, child caries, prescribing, MRONJ, anticoagulants, amalgam"
+    "description": "Scottish Dental Clinical Effectiveness Programme. Antibiotic prophylaxis, child caries, prescribing, MRONJ, anticoagulants, amalgam."
   },
   {
     "slug": "dboh",
     "title": "Delivering Better Oral Health",
     "organisation": "DBOH",
     "order": 2,
-    "description": "Public Health England evidence-based toolkit for prevention in primary care"
+    "description": "Public Health England evidence-based toolkit for prevention in primary care."
   },
   {
     "slug": "bsp",
     "title": "BSP",
     "organisation": "BSP",
     "order": 3,
-    "description": "British Society of Periodontology — Good Practitioners Guide"
+    "description": "British Society of Periodontology, Good Practitioners Guide."
   },
   {
     "slug": "fgdp",
     "title": "FGDP",
     "organisation": "FGDP",
     "order": 4,
-    "description": "Faculty of General Dental Practice — Selection Criteria for Dental Radiography (3rd ed. 2018 update): justification, panoramic, developing dentition, caries, perio, endo, implants"
+    "description": "Faculty of General Dental Practice, Selection Criteria for Dental Radiography (3rd ed. 2018 update). Justification, panoramic, developing dentition, caries, perio, endo, implants."
   },
   {
     "slug": "iadt",
     "title": "IADT Dental Trauma",
     "organisation": "IADT",
     "order": 5,
-    "description": "International Association of Dental Traumatology 2020 guidelines — fractures, luxations, avulsion, primary dentition"
+    "description": "International Association of Dental Traumatology 2020 guidelines. Fractures, luxations, avulsion, primary dentition."
   },
   {
     "slug": "orthodontic-referral",
     "title": "Orthodontic Referral",
     "organisation": "BOS / NHS",
     "order": 6,
-    "description": "When and how to refer for orthodontic assessment — BOS guidance and Greater Manchester NHS e-referral guidance"
+    "description": "When and how to refer for orthodontic assessment. BOS guidance and Greater Manchester NHS e-referral guidance."
   }
 ]

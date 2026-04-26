@@ -298,7 +298,10 @@ export function FilterDrawer({
         className={`fixed left-0 right-0 bottom-0 z-40 bg-paper rounded-t-[28px] border-t border-rule shadow-[0_-20px_40px_-20px_rgba(28,25,23,0.25)] transition-transform duration-350 ease-[cubic-bezier(0.22,1,0.36,1)] ${open ? "translate-y-0" : "translate-y-full"}`}
         style={{ maxHeight: "82dvh" }}
       >
-        <div className="flex flex-col max-h-[82dvh]">
+        <div
+          className="flex flex-col max-h-[82dvh]"
+          style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+        >
           <div
             {...handleProps}
             className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"

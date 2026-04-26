@@ -224,7 +224,7 @@ export function GuidelinesPage() {
               </p>
               <button
                 onClick={restart}
-                className="mt-6 rounded-full bg-ink text-paper px-5 py-2.5 text-sm tracking-wide uppercase font-medium hover:bg-ink-soft transition-colors"
+                className="mt-6 rounded-full bg-accent-green text-paper px-5 py-2.5 text-sm tracking-wide uppercase font-medium hover:brightness-110 transition"
               >
                 Restart
               </button>
@@ -263,7 +263,7 @@ export function GuidelinesPage() {
           <button
             onClick={nextSlide}
             disabled={isLastSlide}
-            className="inline-flex items-center justify-center rounded-full bg-ink text-paper px-4 py-2.5 text-sm tracking-wide uppercase disabled:opacity-40 disabled:cursor-not-allowed hover:bg-ink-soft transition-colors"
+            className="inline-flex items-center justify-center rounded-full bg-accent-green text-paper px-4 py-2.5 text-sm tracking-wide uppercase disabled:opacity-40 disabled:cursor-not-allowed hover:brightness-110 transition"
           >
             Next
           </button>
@@ -284,7 +284,10 @@ export function GuidelinesPage() {
               }`}
               style={{ maxHeight: "82dvh" }}
             >
-              <div className="flex flex-col max-h-[82dvh]">
+              <div
+                className="flex flex-col max-h-[82dvh]"
+                style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+              >
                 <div
                   {...overviewDragHandle}
                   className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"
@@ -503,7 +506,7 @@ export function GuidelinesPage() {
                                                   disabled={
                                                     wf.slides.length === 0
                                                   }
-                                                  className="w-full text-left rounded-md bg-ink text-paper hover:bg-ink-soft transition-colors px-3 py-2 flex items-center justify-between disabled:opacity-40 disabled:cursor-not-allowed"
+                                                  className="w-full text-left rounded-md bg-accent-green text-paper hover:brightness-110 transition px-3 py-2 flex items-center justify-between disabled:opacity-40 disabled:cursor-not-allowed"
                                                 >
                                                   <span className="text-xs uppercase tracking-[0.12em] font-medium">
                                                     Test

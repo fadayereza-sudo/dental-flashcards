@@ -107,7 +107,7 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
         aria-label={flipped ? "Show question" : "Show answer"}
       >
         <div
-          className={`flip-3d relative w-full min-h-[60vh] rounded-[20px] border border-rule bg-paper-sunk shadow-[0_1px_0_rgba(255,255,255,0.6)_inset,0_20px_40px_-28px_rgba(28,25,23,0.35)] ${flipped ? "flipped" : ""}`}
+          className={`flip-3d relative w-full min-h-[50dvh] rounded-[20px] border border-rule bg-paper-sunk shadow-[0_1px_0_rgba(255,255,255,0.6)_inset,0_20px_40px_-28px_rgba(28,25,23,0.35)] ${flipped ? "flipped" : ""}`}
         >
           {/* Front */}
           <div className="flip-face absolute inset-0 p-8 flex flex-col justify-between">

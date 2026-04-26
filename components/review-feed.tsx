@@ -528,7 +528,7 @@ export function ReviewFeed() {
           {cards.map((c, i) => (
             <div
               key={`${c.id}-${revivedVersion[c.id] ?? 0}`}
-              className="snap-item h-[100dvh] w-full flex flex-col items-center justify-center gap-3 px-5 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+8rem)]"
+              className="snap-item h-[100dvh] w-full flex flex-col items-center justify-center gap-2 px-5 pt-[calc(env(safe-area-inset-top)+4.25rem)] pb-[calc(env(safe-area-inset-bottom)+5.25rem)]"
             >
               <Flashcard
                 card={c}
@@ -559,7 +559,7 @@ export function ReviewFeed() {
               </button>
             </div>
           ))}
-          <div className="snap-item h-[100dvh] w-full flex items-center justify-center px-5 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+8rem)]">
+          <div className="snap-item h-[100dvh] w-full flex items-center justify-center px-5 pt-[calc(env(safe-area-inset-top)+4.25rem)] pb-[calc(env(safe-area-inset-bottom)+5.25rem)]">
             {cards.length < total ? (
               <LoadingNextBatch />
             ) : (
