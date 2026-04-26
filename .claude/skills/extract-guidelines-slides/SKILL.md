@@ -51,9 +51,10 @@ For each category `<slug>` ∈ {`sdcep`, `dboh`, `bsp`, `fgdp`}:
     {
       "id": "sdcep-antibiotic-prophylaxis-decision",
       "title": "Antibiotic prophylaxis decision for infective endocarditis",
-      "overview": "Plain-prose walkthrough of the workflow as a paragraph or two. No diagrams, no bullet lists, no slide structure. This is what the user reads when they want to refresh on the workflow without being tested.",
+      "overview": "## 1. Establish IE risk category\n\nBefore any procedure planning, confirm the group the patient sits in. If unclear, contact the cardiac team or GP.\n\n### High risk\n- Previous IE\n- Surgically implanted prosthetic valves or repair material\n- Transcatheter aortic or pulmonary valve prostheses\n- Untreated cyanotic CHD\n- Palliated cyanotic CHD with residual defects\n- Ventricular assist devices\n\n### Moderate risk\n- Rheumatic heart disease\n- Non-rheumatic degenerative valve disease\n- Congenital valve abnormalities (incl. bicuspid aortic valve)\n- CIEDs\n- Hypertrophic cardiomyopathy\n\n## 2. Branch by procedure (high risk only)\n\n1. **Extractions or oral surgery** → **offer** prophylaxis\n2. **Gingival or periapical manipulation** → **consider**; weigh oral health\n3. **Anything else** → **not required**",
       "slides": [
-        { "id": 1, "title": "First decision point", "body": "Leading statement that ends in a way that prompts the next slide." }
+        { "id": 1, "title": "Step 1: where to start", "body": "Antibiotic prophylaxis against IE is not given routinely. The first thing to settle is the patient's IE risk category. The high risk group includes…" },
+        { "id": 2, "title": "High risk conditions", "body": "…previous IE, surgically implanted prosthetic valves, transcatheter aortic or pulmonary prostheses, untreated cyanotic CHD, palliated cyanotic CHD, and ventricular assist devices. Moving down a tier, the moderate risk group includes…" }
       ]
     }
   ],
@@ -90,21 +91,104 @@ When the source contains a flowchart diagram, **transcribe it into prose steps**
 
 For each workflow, write **two pieces**:
 
-#### a) `overview` (plain prose)
-A paragraph or two of natural-language explanation of the whole workflow. No diagrams, no bullet lists, no slide structure. The reader should be able to read it and have the whole flowchart in their head. Use `\n\n` between paragraphs.
+#### a) `overview` (clinical manual, structured markdown)
 
-#### b) `slides` (test mode)
-Convert the same workflow into 5–15 slides. Each slide is one decision point or step.
+The overview is a **clinical manual**, not a summary. The reader is a dentist about to think strategically through a problem at the chair, who wants the workflow organised into clear stages they can scan visually. They are NOT looking for prose; they are looking for a manual.
 
-```json
-{ "id": 1, "title": "First decision point", "body": "Leading statement…" }
+Write it as **structured markdown** using this subset (the renderer supports nothing else):
+
+- `## Heading` — top-level stage of the workflow (e.g. "1. Establish IE risk category")
+- `### Subheading` — sub-stage (e.g. branch labels like "High risk")
+- `- item` or `* item` — unordered list (criteria, drugs, branches)
+- `1. item`, `2. item`, … — numbered list (sequential steps, decision branches in order)
+- `**bold**` — for key decision terms or thresholds
+- `*italic*` — sparingly, for emphasis
+- Plain paragraphs — short, between blocks
+
+**Structure expectations:**
+- Lead with the stages of clinical reasoning. Number them.
+- Inside each stage, give the criteria/options as bullets or a numbered list, not prose.
+- Use bold for the words the clinician would search for at the chair (e.g. **offer**, **consider**, **not recommended**, drug names, dose thresholds).
+- A short intro paragraph per stage is fine when context is needed; a long paragraph is not.
+- The whole overview should be visually scannable in under 30 seconds.
+
+**Example shape (abbreviated):**
+
+```markdown
+## 1. Establish IE risk category
+
+Before any procedure planning, confirm which group the patient is in. If unclear, contact the cardiac team or GP.
+
+### High risk
+- Previous IE
+- Surgically implanted prosthetic valves or repair material
+- Transcatheter aortic or pulmonary valve prostheses
+- Untreated cyanotic CHD
+- Palliated cyanotic CHD with residual defects
+- Ventricular assist devices
+
+### Moderate risk
+- Rheumatic heart disease
+- Non-rheumatic degenerative valve disease
+- Congenital valve abnormalities (incl. bicuspid aortic valve)
+- Cardiovascular implanted electronic devices (CIEDs)
+- Hypertrophic cardiomyopathy
+
+### Not at increased risk
+- Stents
+- Conditions on neither list above
+
+## 2. Branch by risk group
+
+### Moderate risk
+- Prophylaxis is **not recommended**
+- *Exception:* cardiac team has explicitly requested it → treat on high-risk pathway
+
+### High risk
+- Continue to procedure decision (Stage 3)
+
+## 3. Branch by procedure
+
+1. **Extractions or oral surgery** (incl. I&D abscess, perio/endo surgery, implant placement) → **offer** prophylaxis
+2. **Gingival or periapical manipulation** (PMPR, BPE, pocket charting, subgingival restorations, PMCs, subgingival rubber dam clamps, ortho separators/bands, endo before apical stop) → **consider** prophylaxis; weigh oral health status
+3. **Anything else** (infiltration LA, supragingival restorations, suture removal, radiographs, mucosal trauma) → **not required**
 ```
 
-**Writing style for slide bodies:**
-- Each `body` is a leading statement that walks the user through the thinking
-- End the body in a way that prompts the next concept ("Now that we know X, the next question is Y…")
-- Write for a practising dentist; avoid academic phrasing
-- Quote from the source when the phrasing is particularly clear; paraphrase otherwise
+#### b) `slides` (incremental test mode)
+
+Convert the same workflow into a sequence of slides that **incrementally tests recall** of the manual. The reader is forced to remember the next stage from a leading prompt.
+
+**Each slide is a small chunk** — one fact, one criterion, one drug, one decision point. Not a paragraph of background.
+
+**Each slide ends with a dangling prompt** that names what comes next without revealing it. Use an ellipsis `…` to mark the dangle.
+
+**Example flow:**
+
+```
+Slide 1: "Antibiotic prophylaxis against IE is not given routinely. The first thing to settle is which IE risk group the patient sits in. The high risk group includes…"
+Slide 2: "…previous IE, surgically implanted prosthetic valves, transcatheter aortic or pulmonary prostheses, untreated cyanotic CHD, palliated cyanotic CHD, and ventricular assist devices. Moving down a tier, the moderate risk group includes…"
+Slide 3: "…rheumatic heart disease, non-rheumatic degenerative valve disease, bicuspid aortic valve and other congenital valve abnormalities, CIEDs, and hypertrophic cardiomyopathy. For a moderate-risk patient, the recommendation is…"
+Slide 4: "…prophylaxis is not recommended, unless the patient's own cardiac team has specifically asked for it. For a high-risk patient, the next branch is…"
+Slide 5: "…the procedure itself. The strongest tier — extractions and oral surgery — gets…"
+```
+
+Each slide:
+- 1–3 sentences max. Often one.
+- Ends with a leading phrase that names the next concept.
+- Uses `…` at the end to mark the dangle, and `…` at the start of the next slide to receive it.
+- Picks up immediately where the previous slide left off, so the reader effectively recites the manual back to themselves.
+
+**Slide count:** 18–35 slides for a typical workflow. Each stage of the manual produces several slides. A workflow with three stages and several branches per stage will land around 25 slides.
+
+**Forbidden in slides:**
+- Em dashes in slide titles (use `:` or `(qualifier)` instead — em dashes read machine-typical)
+- Self-contained paragraph-style bodies that don't dangle
+- Background or motivation text that doesn't belong in a recall test
+- Repeating information from earlier slides
+
+**Slide title rules:**
+- Short, neutral labels of what's being tested at this slide (e.g. `"High risk cardiac conditions"`, `"Moderate risk: management"`, `"Adult oral regimen"`)
+- Plain punctuation: `:` or parentheses, not em dashes
 
 **Workflow `id` rules:**
 - Lowercase, hyphenated, prefixed with category slug
@@ -144,9 +228,12 @@ Update `data/guidelines/progress.json` after each category:
 ## Rules
 
 - One file per category (`<slug>.json`). Do not split workflows into separate files.
-- Workflow `slides` and `overview` must describe the same workflow from different angles — `overview` is the calm read; `slides` are the recall test.
-- First principles in the guidelines section follow the same notebook rules as the Oxford Handbook first principles. Keep voice consistent.
+- `overview` is a **clinical manual in markdown**, not a prose summary. Lead with numbered stages; use bullets, sub-headings, bold and italic. Visually scannable in 30 seconds.
+- `slides` are **incremental recall tests**, not paragraph explainers. Each slide is one chunk, ends with a dangling prompt (`…`), and the next slide picks up after the dangle. 18–35 slides per workflow.
+- No em dashes in slide titles. Use `:` or parentheses instead.
+- First principles follow the same notebook rules as the Oxford Handbook first principles. Keep voice consistent.
 - Citations on first principles must be verbatim. Preserve original symbols (`↑`, `1°`, `≤`).
+- `broaderContext` ≤ 30 words.
 - Do not include workflows that are merely lists ("here are the antibiotics for X"). A workflow needs a decision shape.
 - Do not include first principles that are just protocol summaries ("rinse with chlorhexidine before extraction"). A first principle is a verifiable truth about how the body or the disease behaves.
 

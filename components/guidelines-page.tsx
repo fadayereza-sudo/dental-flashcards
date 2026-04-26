@@ -7,6 +7,7 @@ import {
   PrincipleToggleList,
   type CoreTruth,
 } from "@/components/principle-toggles";
+import { ManualMarkdown } from "@/components/manual-markdown";
 
 type GuidelineIndex = {
   slug: string;
@@ -277,16 +278,7 @@ export function GuidelinesPage() {
                 </div>
                 <div className="flex-1 overflow-y-auto px-6 py-4">
                   <h3 className="font-serif text-lg text-ink mb-4">Overview</h3>
-                  <div className="prose prose-sm text-ink space-y-3">
-                    {workflow.overview
-                      .split("\n\n")
-                      .filter((p) => p.trim())
-                      .map((para, i) => (
-                        <p key={i} className="text-sm leading-relaxed">
-                          {para.trim()}
-                        </p>
-                      ))}
-                  </div>
+                  <ManualMarkdown source={workflow.overview} />
                 </div>
               </div>
             </div>
@@ -447,13 +439,8 @@ export function GuidelinesPage() {
                                           </svg>
                                         </button>
                                         {overviewOpen && (
-                                          <div className="mt-2 px-3 py-3 bg-paper rounded-md text-[14px] text-ink leading-[1.65] space-y-3">
-                                            {wf.overview
-                                              .split("\n\n")
-                                              .filter((p) => p.trim())
-                                              .map((p, i) => (
-                                                <p key={i}>{p.trim()}</p>
-                                              ))}
+                                          <div className="mt-2 px-3 py-3 bg-paper rounded-md">
+                                            <ManualMarkdown source={wf.overview} />
                                           </div>
                                         )}
                                       </div>
