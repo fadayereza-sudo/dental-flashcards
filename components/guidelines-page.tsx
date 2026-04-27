@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
 import { useDragToClose } from "@/lib/use-drag-to-close";
 import { useAnimatedSheet } from "@/lib/use-animated-sheet";
@@ -11,6 +11,12 @@ import {
   type CoreTruth,
 } from "@/components/principle-toggles";
 import { ManualMarkdown } from "@/components/manual-markdown";
+import { SearchBar } from "@/components/search-bar";
+import {
+  matchScore,
+  normalizeQuery,
+  useSearchIndex,
+} from "@/lib/use-search-index";
 
 type GuidelineIndex = {
   slug: string;
@@ -93,6 +99,13 @@ export function GuidelinesPage() {
     Record<string, string | null>
   >({});
 
+  // Search state
+  const [query, setQuery] = useState("");
+  const isSearching = normalizeQuery(query).length > 0;
+  const searchIndex = useSearchIndex(isSearching);
+  const [openSearchWf, setOpenSearchWf] = useState<string | null>(null);
+  const [openSearchTruth, setOpenSearchTruth] = useState<string | null>(null);
+
   useEffect(() => {
     fetchGuidelines();
   }, []);
@@ -165,13 +178,120 @@ export function GuidelinesPage() {
       return next;
     });
   }, []);
-  useBackCount(view === "list" ? expanded.size : 0, popLastToggle);
+  useBackCount(view === "list" && !isSearching ? expanded.size : 0, popLastToggle);
   useBackClose(view === "player", () => {
     setView("list");
     setPlayer(null);
     setCurrentSlide(0);
     setOverviewOpen(false);
   });
+  const clearSearch = useCallback(() => {
+    setQuery("");
+    setOpenSearchWf(null);
+    setOpenSearchTruth(null);
+  }, []);
+  useBackClose(isSearching && view === "list", clearSearch);
+
+  // Group matching workflows + first principles by subject so the user sees
+  // clusters of related hits.
+  type SearchSubjectGroup = {
+    key: string;
+    categorySlug: string;
+    categoryTitle: string;
+    subjectSlug: string;
+    subjectTitle: string;
+    workflows: { workflow: Workflow; score: number }[];
+    truths: { truth: CoreTruth; score: number }[];
+    bestScore: number;
+  };
+  const searchGroups: SearchSubjectGroup[] = useMemo(() => {
+    if (!isSearching || !searchIndex) return [];
+    const q = normalizeQuery(query);
+    const groups = new Map<string, SearchSubjectGroup>();
+    const ensure = (item: {
+      categorySlug: string;
+      categoryTitle: string;
+      subjectSlug: string;
+      subjectTitle: string;
+    }) => {
+      const key = `${item.categorySlug}::${item.subjectSlug}`;
+      let g = groups.get(key);
+      if (!g) {
+        g = {
+          key,
+          categorySlug: item.categorySlug,
+          categoryTitle: item.categoryTitle,
+          subjectSlug: item.subjectSlug,
+          subjectTitle: item.subjectTitle,
+          workflows: [],
+          truths: [],
+          bestScore: 0,
+        };
+        groups.set(key, g);
+      }
+      return g;
+    };
+    for (const item of searchIndex.guidelines) {
+      if (item.kind === "workflow") {
+        const wf = item.workflow;
+        const slideText = (wf.slides || [])
+          .map((s) => `${s.title} ${s.body}`)
+          .join(" ");
+        const score = matchScore(
+          q,
+          wf.title,
+          item.subjectTitle,
+          item.categoryTitle,
+          wf.overview,
+          slideText,
+        );
+        if (score === null) continue;
+        const g = ensure(item);
+        g.workflows.push({ workflow: wf, score });
+        if (score > g.bestScore) g.bestScore = score;
+      } else {
+        const t = item.truth;
+        const citationText = (t.citations || []).map((c) => c.quote).join(" ");
+        const score = matchScore(
+          q,
+          t.title,
+          item.subjectTitle,
+          item.categoryTitle,
+          t.broaderContext,
+          t.body,
+          citationText,
+        );
+        if (score === null) continue;
+        const g = ensure(item);
+        g.truths.push({ truth: t, score });
+        if (score > g.bestScore) g.bestScore = score;
+      }
+    }
+    for (const g of groups.values()) {
+      g.workflows.sort((a, b) => b.score - a.score);
+      g.truths.sort((a, b) => b.score - a.score);
+    }
+    return [...groups.values()].sort((a, b) => b.bestScore - a.bestScore);
+  }, [isSearching, searchIndex, query]);
+
+  const totalMatches = useMemo(
+    () =>
+      searchGroups.reduce(
+        (n, g) => n + g.workflows.length + g.truths.length,
+        0,
+      ),
+    [searchGroups],
+  );
+
+  const startTestFromSearch = useCallback(
+    (categorySlug: string, subjectSlug: string, workflow: Workflow) => {
+      if (workflow.slides.length === 0) return;
+      setPlayer({ categorySlug, subjectSlug, workflow });
+      setCurrentSlide(0);
+      setView("player");
+    },
+    [],
+  );
 
   const toggleCategory = async (slug: string) => {
     const id = `cat:${slug}`;
@@ -373,14 +493,139 @@ export function GuidelinesPage() {
 
   return (
     <div className="absolute inset-0 overflow-y-auto pb-[calc(env(safe-area-inset-bottom)+5.5rem)] px-4">
-      <header className="max-w-2xl mx-auto pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-5">
+      <header className="max-w-2xl mx-auto pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-4">
         <h1 className="font-serif text-2xl text-ink">Guidelines</h1>
         <p className="text-xs text-ink-muted mt-1 tracking-wide">
           Workflows and first principles from SDCEP, BSP, FGDP, DBOH
         </p>
       </header>
 
-      {guidelines.length === 0 ? (
+      <div className="max-w-2xl mx-auto mb-4">
+        <SearchBar
+          value={query}
+          onChange={setQuery}
+          placeholder="Search workflows and principles…"
+        />
+      </div>
+
+      {isSearching ? (
+        <div className="max-w-2xl mx-auto">
+          {searchIndex === null ? (
+            <p className="text-xs text-ink-muted px-1">Loading search index…</p>
+          ) : totalMatches === 0 ? (
+            <p className="text-sm text-ink-muted px-1 py-6 text-center">
+              No matches for &ldquo;{query.trim()}&rdquo;.
+            </p>
+          ) : (
+            <>
+              <p className="text-[11px] text-ink-muted tracking-wide uppercase mb-3 px-1">
+                {totalMatches} match{totalMatches === 1 ? "" : "es"}
+              </p>
+              <div className="space-y-5">
+                {searchGroups.map((group) => (
+                  <div key={group.key}>
+                    <p className="text-[11px] text-ink-muted tracking-[0.12em] uppercase mb-2 px-1">
+                      {group.categoryTitle} · {group.subjectTitle}
+                    </p>
+
+                    {group.workflows.length > 0 && (
+                      <div className="space-y-2">
+                        {group.workflows.map(({ workflow }) => {
+                          const wfKey = `${group.key}::wf::${workflow.id}`;
+                          const wfOpen = openSearchWf === wfKey;
+                          return (
+                            <div key={wfKey}>
+                              <button
+                                onClick={() =>
+                                  setOpenSearchWf((prev) =>
+                                    prev === wfKey ? null : wfKey,
+                                  )
+                                }
+                                className="w-full text-left rounded-lg bg-paper hover:bg-paper-sunk transition-colors border border-rule px-3 py-2 flex items-start justify-between gap-3"
+                              >
+                                <span className="text-sm text-ink flex-1">
+                                  {workflow.title}
+                                </span>
+                                <svg
+                                  className={`w-4 h-4 flex-shrink-0 mt-0.5 transition-transform ${
+                                    wfOpen ? "rotate-90" : ""
+                                  }`}
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth="2"
+                                >
+                                  <path d="M9 6l6 6-6 6" />
+                                </svg>
+                              </button>
+                              {wfOpen && (
+                                <div className="mt-2 pl-3 border-l border-rule/60 space-y-2">
+                                  <div className="px-3 py-3 bg-paper rounded-md">
+                                    <ManualMarkdown source={workflow.overview} />
+                                  </div>
+                                  <button
+                                    onClick={() =>
+                                      startTestFromSearch(
+                                        group.categorySlug,
+                                        group.subjectSlug,
+                                        workflow,
+                                      )
+                                    }
+                                    disabled={workflow.slides.length === 0}
+                                    className="w-full text-left rounded-md bg-accent-green text-paper hover:brightness-110 transition px-3 py-2 flex items-center justify-between disabled:opacity-40 disabled:cursor-not-allowed"
+                                  >
+                                    <span className="text-xs uppercase tracking-[0.12em] font-medium">
+                                      Test
+                                      {workflow.slides.length > 0 && (
+                                        <span className="ml-2 text-[11px] opacity-70 font-normal">
+                                          {workflow.slides.length} slides
+                                        </span>
+                                      )}
+                                    </span>
+                                    <svg
+                                      width="14"
+                                      height="14"
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      strokeWidth="2"
+                                    >
+                                      <path d="M9 6l6 6-6 6" />
+                                    </svg>
+                                  </button>
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    )}
+
+                    {group.truths.length > 0 && (
+                      <div
+                        className={
+                          group.workflows.length > 0 ? "mt-2" : undefined
+                        }
+                      >
+                        <PrincipleToggleList
+                          truths={group.truths.map((t) => t.truth)}
+                          category={`${group.categoryTitle} · ${group.subjectTitle}`}
+                          openTruthId={openSearchTruth}
+                          onToggle={(id) =>
+                            setOpenSearchTruth((prev) =>
+                              prev === id ? null : id,
+                            )
+                          }
+                        />
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
+        </div>
+      ) : guidelines.length === 0 ? (
         <div className="flex items-center justify-center h-96">
           <div className="text-center px-8">
             <p className="text-sm text-ink-muted">
