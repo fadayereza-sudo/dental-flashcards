@@ -2784,6 +2784,333 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "emergency-care",
+      "title": "Emergency dental care",
+      "order": 7,
+      "workflows": [
+        {
+          "id": "sdcep-emergency-care-triage-and-advice",
+          "title": "Telephone triage and patient self-help advice",
+          "overview": "When a patient phones in distress, the job is to sort them into one of three care categories and, while they wait, give them safe self-help advice. Most calls are not true emergencies. Roughly **1%** are Emergency, **75%** Urgent, and **25%** Advice/Self-help/Routine.\n\n## 1. Take the call and record details\n\n- Record patient details (name, contact number, registration status)\n- Treat the telephone contact itself as an opportunity to reassure and give advice, not just to book a slot\n- Train any staff member who answers these calls; receptionists and triage nurses need specific instruction on common analgesic preparations\n\n## 2. Triage on swelling first\n\nThe single most time-critical question is whether there is **oro-facial swelling**.\n\n### If swelling is present\n- Ask whether the swelling **restricts swallowing** or **extends to the eye**\n- **Yes** to either → **Emergency Care** (clinician contact within **60 minutes**)\n- **No** → still treat as a swelling that needs to be seen, give self-help on pain relief if required\n\n### If no swelling, ask the three sorting questions\n1. Is the patient in pain?\n2. Has the patient suffered trauma to the teeth?\n3. Is there bleeding following an extraction?\n\nIf the answer to all three is no, the call is for **Routine Care** and self-help advice.\n\n## 3. Sort into the three categories\n\n### Emergency Care (≈1% of calls, contact within 60 min)\n- Trauma including facial/oral laceration or dentoalveolar injuries (e.g. **avulsion of a permanent tooth**)\n- Oro-facial swelling that is **significant and worsening**\n- Post-extraction bleeding the patient **cannot control** with local measures\n- Acute systemic illness or raised temperature from dental infection\n- **Severe trismus**\n- Oro-dental conditions likely to exacerbate systemic disease (e.g. diabetes)\n\n### Urgent Care (≈75%, treat within 24 h)\n- Dental and soft-tissue infection **without** systemic effect\n- Severe dental or facial pain not controlled by self-help advice\n- Fractured teeth or tooth with **pulpal exposure**\n- **Avulsed primary tooth** (urgent assessment of permanent successor)\n- Severe pain or dentine exposed by trauma\n\n### Advice, Self-help and Routine Care (≈25%, access within 7 days)\n- Mild or moderate pain that responds to pain relief\n- Minor dental trauma (no dentine exposed)\n- Post-extraction bleeding the patient **can** control with self-help\n- Loose or displaced crowns, bridges, veneers\n- Fractured or loose-fitting dentures, fractured posts, fractured fillings\n- Bleeding gums\n\n## 4. Give self-help advice while they wait\n\n### Dental pain (Section 2.3.1)\n- Avoid hot, cold or cold-air stimuli\n- Holding cooled water or crushed ice around the tooth can help\n- Lying propped up may ease pain that worsens when flat\n- Use painkillers that have worked for the patient in the past without side effects\n- **Avoid aspirin if there is bleeding**\n- Patients with **asthma should avoid ibuprofen**; remind them to read the packet\n\n### Analgesic doses (only after confirming the drug has been used safely before)\n\n**Adult, moderate pain**, either:\n- Ibuprofen **1 × 400 mg**, 4–6 hourly (max 3 × 400 mg in 24 h), or\n- Paracetamol **2 × 500 mg**, 4–6 hourly (max 8 × 500 mg in 24 h)\n\n**Adult, severe pain**, either:\n- **Alternate** ibuprofen 400 mg and paracetamol 2 × 500 mg every 2 hours (without exceeding daily max for either), or\n- Ibuprofen **2 × 400 mg 8-hourly**, max 2.4 g in 24 h\n\n**Child**, either:\n- Ibuprofen 100 mg/5 ml suspension, **50–200 mg** (by age) three times daily, or\n- Paracetamol 120 mg/5 ml or 250 mg/5 ml suspension, **60–500 mg** (by age) four times daily\n- Always tell the parent to **follow the bottle instructions**\n\n### Dental trauma (Section 2.3.2)\n\n- **Fractured tooth, dentine exposed** (pain or thermal sensitivity) → **Urgent** appointment to avoid pulpal infection\n- **Fractured tooth, dentine not exposed** → routine, may need restoration for aesthetics or sharp edges\n- **Avulsed permanent tooth** → Emergency. Replantation is best **within 30 minutes**. Tell the patient: handle by the **crown only**, do not touch the root, store **moist** (preferably **fresh or long-life milk**)\n- **Avulsed primary tooth** → **do not replant**. Urgent appointment to assess the developing permanent successor; give pain advice\n\n### Post-extraction bleeding (Section 2.3.3)\n\n1. Confirm the patient is **not on anticoagulant medication**\n2. Reassure that **blood-stained saliva is normal** after an extraction\n3. Make a small pad from a clean cotton handkerchief or kitchen towel, dampen slightly with water\n4. Rinse the mouth **once only** with **warm (not hot)** water to clear blood\n5. Place the damp pad over the socket and **bite firmly for 20 minutes sitting upright quietly**, then check; repeat once if needed (hold the pad on the socket if no opposing teeth)\n6. After bleeding stops: stay **upright and rested**, **no alcohol**, **do not disturb the clot**\n7. Tell the patient to call back if self-help fails\n\n## 5. Close the call\n\n- Confirm the patient understands the timescale (60 min / 24 h / 7 days)\n- **Always** advise the patient to call back if their condition deteriorates\n- Document advice given\n- Out of hours, redirect to the agreed local triage provider (NHS 24 or local out-of-hours dental access clinic)",
+          "slides": [
+            {
+              "id": 1,
+              "title": "Three care categories",
+              "body": "Every emergency dental call sorts into one of three categories: Emergency, Urgent, or Advice and Routine. The rough volume split across calls is…"
+            },
+            {
+              "id": 2,
+              "title": "Volume split across calls",
+              "body": "…about 1% Emergency, 75% Urgent, and 25% Advice, Self-help and Routine. Before any sorting, the very first action of the call is…"
+            },
+            {
+              "id": 3,
+              "title": "Open the call",
+              "body": "…record the patient details and recognise that the telephone contact itself is a chance to reassure and advise, not just to book a slot. The first triage question is…"
+            },
+            {
+              "id": 4,
+              "title": "Triage question 1: swelling",
+              "body": "…is there oro-facial swelling. Swelling is the most time-critical sign. If the patient has swelling, the next thing to ask is whether the swelling…"
+            },
+            {
+              "id": 5,
+              "title": "Swelling: red flags",
+              "body": "…restricts swallowing or extends to the eye. Either of those answers means the call is…"
+            },
+            {
+              "id": 6,
+              "title": "Swelling with red flags",
+              "body": "…Emergency Care, with clinician contact needed within 60 minutes. Other conditions that meet the Emergency Care threshold include…"
+            },
+            {
+              "id": 7,
+              "title": "Other Emergency conditions",
+              "body": "…trauma including facial or oral lacerations and dentoalveolar injuries such as an avulsed permanent tooth, oro-facial swelling that is significant and worsening, post-extraction bleeding the patient cannot control, dental conditions causing acute systemic illness or raised temperature, severe trismus, and oro-dental conditions likely to exacerbate systemic disease such as diabetes. If there is no swelling, the next three sorting questions are…"
+            },
+            {
+              "id": 8,
+              "title": "Triage questions 2 to 4",
+              "body": "…is the patient in pain, has the patient suffered trauma to the teeth, and is there bleeding after an extraction. Conditions that fall into Urgent Care include…"
+            },
+            {
+              "id": 9,
+              "title": "Urgent Care: infection and pain",
+              "body": "…dental and soft-tissue infections without a systemic effect, and severe dental or facial pain that the patient cannot control with self-help advice. The other two Urgent triggers are…"
+            },
+            {
+              "id": 10,
+              "title": "Urgent Care: trauma triggers",
+              "body": "…fractured teeth or a tooth with pulpal exposure, and dentine exposed by trauma or an avulsed primary tooth. The Urgent Care timescale is…"
+            },
+            {
+              "id": 11,
+              "title": "Urgent timescale",
+              "body": "…self-help advice now and treatment within 24 hours, with the patient told to call back if the condition deteriorates. Anything that does not reach Emergency or Urgent goes into Routine, which covers…"
+            },
+            {
+              "id": 12,
+              "title": "Routine Care: typical conditions",
+              "body": "…mild or moderate pain that responds to pain relief, minor dental trauma without dentine exposure, post-extraction bleeding the patient can control, loose or displaced crowns, bridges, veneers and fillings, fractured posts, fractured or loose-fitting dentures, and bleeding gums. The Routine timescale is…"
+            },
+            {
+              "id": 13,
+              "title": "Routine timescale",
+              "body": "…patient self-help and access to an appropriate service within 7 days if needed, with a call-back instruction if things deteriorate. With the category set, the next job is to give self-help advice. For dental pain the general non-drug measures are…"
+            },
+            {
+              "id": 14,
+              "title": "Pain self-help: non-drug",
+              "body": "…avoid hot, cold and cold-air stimuli, hold cooled water or crushed ice around the tooth which helps some types of pain, and try lying propped up because severe dental pain often feels worse when lying flat. Two important warnings about painkillers are…"
+            },
+            {
+              "id": 15,
+              "title": "Painkiller warnings",
+              "body": "…avoid aspirin as a painkiller if there is any bleeding, and patients with asthma should avoid ibuprofen. Always tell them to follow the directions on the packet. The adult moderate-pain regimen is…"
+            },
+            {
+              "id": 16,
+              "title": "Adult moderate pain",
+              "body": "…either ibuprofen 1 by 400 mg 4 to 6 hourly, or paracetamol 2 by 500 mg 4 to 6 hourly. The 24-hour ceilings are…"
+            },
+            {
+              "id": 17,
+              "title": "Adult moderate: 24-hour ceilings",
+              "body": "…no more than 3 by 400 mg ibuprofen or 8 by 500 mg paracetamol in 24 hours. For severe adult pain there are two recommended regimens, namely…"
+            },
+            {
+              "id": 18,
+              "title": "Adult severe pain",
+              "body": "…ibuprofen and paracetamol alternately, for example ibuprofen 400 mg followed two hours later by paracetamol 2 by 500 mg and so on without exceeding either daily maximum, or ibuprofen 2 by 400 mg 8-hourly up to 2.4 g in 24 hours. For paediatric pain the suspensions and doses are…"
+            },
+            {
+              "id": 19,
+              "title": "Paediatric pain doses",
+              "body": "…ibuprofen 100 mg per 5 ml oral suspension at 50 to 200 mg by age three times daily, or paracetamol 120 mg per 5 ml or 250 mg per 5 ml oral suspension at 60 to 500 mg by age four times daily, with the parent told to follow the bottle instructions. The first trauma branch is fractured teeth, where the deciding question is…"
+            },
+            {
+              "id": 20,
+              "title": "Fractured tooth: dentine exposed?",
+              "body": "…whether dentine has been exposed, asked as is the patient in pain or sensitive to heat or cold. If yes, the action is…"
+            },
+            {
+              "id": 21,
+              "title": "Fractured tooth: dentine exposed",
+              "body": "…arrange an Urgent appointment to help avoid pulpal infection. If dentine has not been exposed, the advice is…"
+            },
+            {
+              "id": 22,
+              "title": "Fractured tooth: dentine intact",
+              "body": "…this does not require Emergency care, but a routine appointment may be needed to restore aesthetics or remove sharp edges. For an avulsed permanent tooth, the time window for replantation is…"
+            },
+            {
+              "id": 23,
+              "title": "Avulsed permanent tooth: timing",
+              "body": "…ideally within 30 minutes, with the patient sent to a dentist as an Emergency case as soon as possible. The handling and storage instructions you give over the phone are…"
+            },
+            {
+              "id": 24,
+              "title": "Avulsed permanent tooth: storage",
+              "body": "…handle the tooth by the crown only, avoid touching the root, and store the tooth moist, preferably in fresh or long-life milk. For an avulsed primary tooth the rule is different, namely…"
+            },
+            {
+              "id": 25,
+              "title": "Avulsed primary tooth",
+              "body": "…the tooth should not be replanted. Arrange an Urgent appointment to assess potential trauma to the developing permanent teeth and give pain advice. For post-extraction bleeding, the very first thing to confirm is…"
+            },
+            {
+              "id": 26,
+              "title": "Post-extraction bleeding: first check",
+              "body": "…that no anticoagulant medication is currently being taken. Then reassure the patient that blood-stained saliva is normal, and walk them through the pad technique, which is…"
+            },
+            {
+              "id": 27,
+              "title": "Post-extraction pad technique",
+              "body": "…make a small pad from a clean cotton handkerchief or kitchen towel and dampen slightly with water, rinse the mouth once only with warm (not hot) water to clear blood, then place the damp pad over the socket and bite firmly for 20 minutes sitting upright quietly, repeating once if necessary. After the bleeding stops, the aftercare is…"
+            },
+            {
+              "id": 28,
+              "title": "Post-extraction aftercare",
+              "body": "…remain rested and as upright as possible, do not drink alcohol, and do not disturb the blood clot in the socket. Whatever the category, every emergency call must close with one final instruction, which is…"
+            },
+            {
+              "id": 29,
+              "title": "Closing every call",
+              "body": "…advise the patient to call back if the advice or self-help measures prove inadequate or if the condition deteriorates, document the advice given, and out of hours redirect to the agreed local triage provider such as NHS 24 or the local out-of-hours dental access clinic."
+            }
+          ]
+        }
+      ],
+      "firstPrinciples": [
+        {
+          "id": "sdcep-027",
+          "title": "Most emergency dental calls are not true emergencies",
+          "broaderContext": "How a practice handles unscheduled dental contact depends on the realistic distribution of urgency, not on the worst case. Misclassifying every call as urgent floods the chair and leaves true emergencies waiting.",
+          "body": "## The 1, 75, 25 split\n\nThe SDCEP guidance gives concrete proportions for emergency telephone contacts. Roughly **1%** of calls fall into the Emergency Care category, around **75%** into Urgent Care, and about **25%** into Advice, Self-help and Routine Care [1][2][3]. The implication for a practice is that the rare Emergency call has to be reliably picked out of a much larger Urgent and Routine background.\n\n## What the Urgent and Routine groups have in common\n\nMost callers are in pain or distressed but do not have a condition that threatens the airway, eye, or systemic state. They benefit more from clear self-help advice and a definite appointment than from same-hour treatment. The guidance treats the telephone contact itself as therapeutic: it is an opportunity to reassure the patient and give advice, not just a booking step [4].\n\n## Practical consequence\n\nA practice that defaults every caller to a same-day slot wastes capacity and dilutes the response to the 1% who genuinely need a clinician within 60 minutes. The triage question structure (swelling first, then pain, trauma, bleeding) is the rationing tool that protects that 1%.",
+          "citations": [
+            {
+              "id": 1,
+              "quote": "Approximately 1% of 'emergency' telephone calls are likely to fall into the 'Emergency Care' category.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.1.1"
+            },
+            {
+              "id": 2,
+              "quote": "Approximately 75% of 'emergency' telephone calls are likely to fall into the 'Urgent Care' category.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.1.2"
+            },
+            {
+              "id": 3,
+              "quote": "Approximately 25% of 'emergency' telephone calls are likely to fall into the 'Advice, Self Help and Routine Care' category.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.1.3"
+            },
+            {
+              "id": 4,
+              "quote": "Not only can it identify those patients who are the highest priority but the telephone contact itself provides an opportunity to reassure the patient and give advice.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.1"
+            }
+          ]
+        },
+        {
+          "id": "sdcep-028",
+          "title": "Swelling that restricts swallowing or extends to the eye is a true emergency, not a same-day appointment",
+          "broaderContext": "Spreading dental infection threatens the airway and the orbit. Emergency triage hinges on identifying the small subset whose swelling has crossed an anatomical line where waiting is dangerous.",
+          "body": "## The two anatomical red flags\n\nWhen a patient calls with oro-facial swelling, the SDCEP triage method asks one follow-up question: does the swelling restrict swallowing or extend to the eye [1]. A yes to either makes the call Emergency Care, regardless of how the rest of the picture looks. Difficulty swallowing implies infection tracking towards the airway; periorbital extension implies tracking towards the cavernous sinus or orbit.\n\n## What an emergency call gets in practice\n\nFor a patient triaged into Emergency Care the standard is contact with a clinician within **60 minutes** and treatment within a timescale appropriate to severity [2]. Out of hours that may mean redirecting through NHS 24 to a dental access clinic or, for severe presentations, an Oral and Maxillofacial on-call team [3].\n\n## Why this is not a routine swelling\n\nOther swellings do still need to be seen, but the patient can usually be managed with pain relief at home and a same-day or next-day slot. Crossing the swallowing or orbital line takes the case out of the practice and into emergency or hospital care, because the next deterioration step is airway compromise or orbital cellulitis, not just a worse toothache.",
+          "citations": [
+            {
+              "id": 1,
+              "quote": "Does swelling restrict swallowing or extend to the eye?",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.2 (prioritisation diagram)"
+            },
+            {
+              "id": 2,
+              "quote": "Provide contact with a clinician within 60 minutes and subsequent treatment within a timescale that is appropriate to the severity of the condition.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.1.1"
+            },
+            {
+              "id": 3,
+              "quote": "Out-of-hours: evening or weekend dental access clinic or through another agreed local provider (e.g. Oral and Maxillofacial on-call staff).",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.1.1"
+            }
+          ]
+        },
+        {
+          "id": "sdcep-029",
+          "title": "Replantation of an avulsed permanent tooth is a time-critical emergency, but a primary tooth must not be replanted",
+          "broaderContext": "Avulsion looks the same to the patient regardless of dentition, but the management is opposite. The deciding factor is whether replantation protects or threatens the developing successor.",
+          "body": "## Permanent tooth: replant fast, store moist\n\nFor an avulsed permanent tooth, the periodontal ligament cells on the root surface are the asset to protect. The SDCEP advice given over the phone is that replantation is ideally within **30 minutes**, with an Emergency appointment as soon as possible. The patient should handle the tooth by the **crown only**, avoid touching the root, and store the tooth moist, preferably in fresh or long-life milk [1].\n\n## Primary tooth: do not replant\n\nFor an avulsed primary tooth the rule is the opposite: the tooth should not be replanted, and the appointment is Urgent rather than Emergency, used to assess potential trauma to the developing permanent teeth [2]. Replanting a primary tooth risks pushing it or its associated debris into the path of the unerupted successor.\n\n## Why milk and crown-only matter\n\nMilk's tonicity and pH preserve PDL cells better than tap water; touching the root mechanically strips them. Both rules are simple enough to give over the phone in 20 seconds, and they decide whether the tooth survives. Detailed in-clinic management of avulsion sits in the IADT pathway; the EDC role is to get the right tooth, in the right state, to the chair within the right window.",
+          "citations": [
+            {
+              "id": 1,
+              "quote": "For avulsed permanent teeth, it might be possible to replant the tooth if this can be carried out soon after avulsion, ideally within 30 minutes. Arrange for the patient to see a dentist as an Emergency case as soon as possible. Advise the patient to handle the tooth by the crown only, to avoid touching the root and to store the tooth moist, preferably in fresh or long-life milk.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.2"
+            },
+            {
+              "id": 2,
+              "quote": "For avulsed primary teeth, advise the patient that the tooth should not be replanted and arrange an Urgent appointment to assess potential trauma to the developing permanent teeth.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.2"
+            }
+          ]
+        },
+        {
+          "id": "sdcep-030",
+          "title": "A fractured tooth becomes urgent the moment dentine is exposed",
+          "broaderContext": "Pulpal infection is a function of bacterial access through dentine tubules. Whether a fracture needs a same-day appointment or a routine one depends on whether that path is open.",
+          "body": "## The single deciding question\n\nWhen a patient calls with a broken tooth, the question that decides between Urgent and Routine is whether dentine has been exposed. Triage staff ask it indirectly: is the patient in pain or sensitive to heat or cold [1]. A yes implies open dentine and a need to see a dentist urgently to help avoid pulpal infection.\n\n## What a no answer means\n\nIf the patient has no thermal sensitivity, dentine is probably intact and the case does not need Emergency care. A routine appointment may still be needed to restore aesthetics or to remove a sharp edge that traumatises the tongue or lip [2]. The patient does not need to come in tonight.\n\n## Why time matters once dentine is open\n\nExposed dentine tubules transmit bacteria toward the pulp; the longer the tooth sits, the higher the chance of irreversible pulpitis or pulp necrosis, and the harder pulp preservation becomes. The Urgent timescale of 24 hours is the practical compromise that protects the pulp without claiming every fracture as an emergency.",
+          "citations": [
+            {
+              "id": 1,
+              "quote": "For broken or fractured teeth, determine whether dentine has been exposed by asking the patient if they are in pain or are sensitive to heat or cold. If they are, arrange an Urgent appointment with a dentist to help avoid pulpal infection.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.2"
+            },
+            {
+              "id": 2,
+              "quote": "If dentine has not been exposed, advise the patient that this does not require Emergency care but that a routine appointment might be necessary to restore aesthetics or to remove sharp edges.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.2"
+            }
+          ]
+        },
+        {
+          "id": "sdcep-031",
+          "title": "Most post-extraction bleeding stops with a damp pad and 20 minutes of firm bite",
+          "broaderContext": "Patients calling about ooze from a socket usually do not need a return to the chair. The clot forms reliably under sustained mechanical pressure if the patient is told what normal looks like.",
+          "body": "## The script that works\n\nSDCEP scripts the call almost word for word. Reassure that blood-stained saliva is normal after an extraction. Make a small pad from a clean cotton handkerchief or kitchen towel, dampen with water, rinse the mouth once only with warm (not hot) water to clear blood, then place the pad over the socket and bite firmly for 20 minutes sitting upright quietly, repeating once if needed [1]. After bleeding stops, the patient stays upright, avoids alcohol, and does not disturb the clot [2].\n\n## The check that comes before the script\n\nThe one thing to confirm before launching the self-help script is that the patient is not currently taking anticoagulant medication [3]. An anticoagulated patient with persistent post-extraction bleeding is a different problem (Urgent or Emergency depending on volume) and the home pad is not the answer.\n\n## When self-help is not enough\n\nIf the pad and pressure approach does not stop the bleed, or the patient cannot control bleeding with local measures, the call escalates to Emergency Care [4]. The point of the script is not to talk every patient out of being seen; it is to triage out the routine ooze and direct attention to the bleeding that genuinely cannot be controlled at home.",
+          "citations": [
+            {
+              "id": 1,
+              "quote": "Place the damp pad over the socket area and bite firmly. If there are no opposing teeth hold the pad firmly on the socket. Maintain this while sitting upright quietly for 20 minutes and then check. Repeat once if necessary.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.3"
+            },
+            {
+              "id": 2,
+              "quote": "After the bleeding has stopped, remain rested and as upright as possible. Do not drink alcohol. Do not disturb the blood clot in the socket.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.3"
+            },
+            {
+              "id": 3,
+              "quote": "Ascertain that no anticoagulant medication is currently being taken.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.3"
+            },
+            {
+              "id": 4,
+              "quote": "Post-extraction bleeding that the patient is not able to control with local measures.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.1.1"
+            }
+          ]
+        },
+        {
+          "id": "sdcep-032",
+          "title": "Telephone advice on analgesics is bounded by what the patient has used safely before",
+          "broaderContext": "Recommending a drug down a phone line, without examining the patient, sits inside narrow safety rails. Familiarity with the drug and absence of contraindications carry most of the weight.",
+          "body": "## The two gating rules\n\nSDCEP gives two explicit gates before any analgesic dose is recommended. First, advice is given only after establishing that the painkiller in question has been used successfully by the patient in the past [1]. Second, detailed dosage advice can be given only by a suitably qualified health professional [2]. A receptionist reading drug names off a card without these checks is operating outside the guidance.\n\n## The two named contraindication points\n\nTwo specific patient warnings are baked into the call. **Avoid aspirin** as a painkiller if there is any bleeding [3]. Patients with **asthma should avoid ibuprofen**, and all patients should be reminded to follow the directions on the packet for advice on precautions in some medical conditions [4].\n\n## Why this matters more than the doses themselves\n\nThe ibuprofen and paracetamol regimens (for moderate pain: ibuprofen 1 by 400 mg or paracetamol 2 by 500 mg, both 4 to 6 hourly) are safe in most adults, but the patient on the phone is unseen [5]. The harm signal in unscheduled care is not the dose getting wrong; it is the contraindication being missed. Keeping the conversation to drugs the patient has tolerated before, and explicitly excluding aspirin with bleeding and ibuprofen in asthma, takes most of the risk out.",
+          "citations": [
+            {
+              "id": 1,
+              "quote": "Analgesic advice – to be given only after establishing that the following painkillers have been used successfully by the patient in the past.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.1"
+            },
+            {
+              "id": 2,
+              "quote": "Detailed dosage advice can be given only by a suitably qualified health professional.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.1"
+            },
+            {
+              "id": 3,
+              "quote": "Avoid taking aspirin as a painkiller if there is bleeding.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.1"
+            },
+            {
+              "id": 4,
+              "quote": "Ensure patients are reminded to follow the directions on the packet for advice on precautions in some medical conditions. For example, patients with asthma should avoid ibuprofen.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.1"
+            },
+            {
+              "id": 5,
+              "quote": "For moderate pain of dental origin in adults, either: - ibuprofen, 1 x 400 mg tablets 4–6 hourly, or - paracetamol, 2 x 500 mg tablets 4–6 hourly.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.1"
+            }
+          ]
+        },
+        {
+          "id": "sdcep-033",
+          "title": "Severe dental pain is treated by alternating ibuprofen and paracetamol, not by escalating one drug",
+          "broaderContext": "Two over-the-counter analgesics with different mechanisms beat either drug alone at higher dose. Ibuprofen and paracetamol given on a staggered schedule give more cover with less ceiling-effect risk.",
+          "body": "## The alternating regimen\n\nFor severe pain of dental origin in adults, SDCEP recommends either ibuprofen and paracetamol given alternately, for example ibuprofen 400 mg followed two hours later by paracetamol 2 by 500 mg and so on without exceeding the recommended daily dose or frequency for either drug, or ibuprofen 2 by 400 mg 8-hourly up to a maximum of 2.4 g in 24 hours [1].\n\n## Why staggering helps\n\nStaggering the two drugs every two hours gives the patient overlapping cover from a non-steroidal anti-inflammatory and a centrally acting analgesic with different mechanisms of action. Each drug stays within its own 24-hour ceiling (3 by 400 mg ibuprofen or 8 by 500 mg paracetamol per 24 h for moderate pain in the same source [2]) but the gaps between peaks are filled.\n\n## What this means at the chair\n\nA patient who tells you their severe pain is not controlled by paracetamol alone often does better with the alternating schedule than with a higher single-drug dose. The schedule also reduces the temptation to chase pain with extra paracetamol or extra ibuprofen, which is where overdose risk creeps in.",
+          "citations": [
+            {
+              "id": 1,
+              "quote": "For severe pain of dental origin in adults, either: - ibuprofen and paracetamol alternately (e.g. ibuprofen 400 mg followed 2 hours later by paracetamol 2 x 500 mg and so on without exceeding the recommended daily dose or frequency for either drug), or - ibuprofen, 2 x 400 mg tablets 8 hourly, up to a maximum of 2.4 g in a 24-hour period.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.1"
+            },
+            {
+              "id": 2,
+              "quote": "No more than 3 x 400 mg ibuprofen or 8 x 500 mg paracetamol tablets in a 24-hour period.",
+              "source": "SDCEP Emergency Dental Care (2007), section 2.3.1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

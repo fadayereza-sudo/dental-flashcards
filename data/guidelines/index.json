@@ -40,5 +40,19 @@
     "organisation": "BOS / NHS",
     "order": 6,
     "description": "When and how to refer for orthodontic assessment. BOS guidance and Greater Manchester NHS e-referral guidance."
+  },
+  {
+    "slug": "nice",
+    "title": "NICE",
+    "organisation": "NICE",
+    "order": 7,
+    "description": "National Institute for Health and Care Excellence — wisdom teeth extraction (TA1)."
+  },
+  {
+    "slug": "rcs",
+    "title": "Royal College of Surgeons",
+    "organisation": "RCS Faculty of Dental Surgery",
+    "order": 8,
+    "description": "RCS England Faculty of Dental Surgery and Faculty of General Dental Practice (UK) — antimicrobial prescribing (FDS-AMP), first permanent molar extraction in children, palatally ectopic canine, unerupted maxillary incisor management."
   }
 ]
