@@ -179,7 +179,7 @@ export function GuidelinesPage() {
       return next;
     });
   }, []);
-  useBackCount(view === "list" && !isSearching ? expanded.size : 0, popLastToggle);
+  useBackCount(!isSearching ? expanded.size : 0, popLastToggle);
   useBackClose(view === "player", () => {
     setView("list");
     setPlayer(null);
