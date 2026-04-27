@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useCallback, useRef, useState, type ReactNode } from "react";
+import { Fragment, useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { useAnimatedSheet } from "@/lib/use-animated-sheet";
 import { useDragToClose } from "@/lib/use-drag-to-close";
@@ -46,6 +46,7 @@ type Props = {
   };
   onRate: (rating: number) => void;
   onEdit?: () => void;
+  onDelete?: () => void;
 };
 
 const RATINGS = [
@@ -55,10 +56,28 @@ const RATINGS = [
   { value: 4, label: "Easy",  sub: "instant",   accent: "text-accent-green" },
 ] as const;
 
-export function Flashcard({ card, onRate, onEdit }: Props) {
+export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
   const [flipped, setFlipped] = useState(false);
   const [rated, setRated] = useState(false);
   const [refOpen, setRefOpen] = useState(false);
+  const [confirmDelete, setConfirmDelete] = useState(false);
+  const confirmTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => {
+    return () => {
+      if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current);
+    };
+  }, []);
+  const handleDeleteClick = useCallback(() => {
+    if (!onDelete) return;
+    if (confirmDelete) {
+      if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current);
+      setConfirmDelete(false);
+      onDelete();
+      return;
+    }
+    setConfirmDelete(true);
+    confirmTimerRef.current = setTimeout(() => setConfirmDelete(false), 3000);
+  }, [confirmDelete, onDelete]);
   const resetRef = useCallback(() => setRefOpen(false), []);
   const { closing: refClosing, close: closeRef } = useAnimatedSheet(
     refOpen,
@@ -203,6 +222,26 @@ export function Flashcard({ card, onRate, onEdit }: Props) {
                       <path d="M11 2l3 3-8 8H3v-3l8-8z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
                     </svg>
                     Edit
+                  </button>
+                )}
+                {onDelete && (
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleDeleteClick();
+                    }}
+                    className={`flex items-center gap-1 transition-colors ${
+                      confirmDelete
+                        ? "text-accent-red"
+                        : "text-ink-muted hover:text-accent-red"
+                    }`}
+                    aria-label={confirmDelete ? "Confirm delete card" : "Delete card"}
+                  >
+                    <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden>
+                      <path d="M3 4h10M6.5 4V2.5h3V4M5 4l.5 9.5h5L11 4" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    {confirmDelete ? "Sure?" : "Delete"}
                   </button>
                 )}
                 <span aria-hidden>▴</span>

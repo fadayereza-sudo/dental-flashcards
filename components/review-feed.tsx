@@ -313,9 +313,8 @@ export function ReviewFeed() {
     [fetchCards, refreshTree],
   );
 
-  const onEditorDeleted = useCallback(
+  const removeCardFromFeed = useCallback(
     (id: number) => {
-      setEditorOpen(false);
       setCards((prev) => prev.filter((c) => c.id !== id));
       refreshTree();
       if (undoTimerRef.current) clearTimeout(undoTimerRef.current);
@@ -325,6 +324,27 @@ export function ReviewFeed() {
       }, 6000);
     },
     [refreshTree],
+  );
+
+  const onEditorDeleted = useCallback(
+    (id: number) => {
+      setEditorOpen(false);
+      removeCardFromFeed(id);
+    },
+    [removeCardFromFeed],
+  );
+
+  const deleteCard = useCallback(
+    async (id: number) => {
+      try {
+        const res = await fetch(`/api/cards/${id}`, { method: "DELETE" });
+        if (!res.ok) return;
+        removeCardFromFeed(id);
+      } catch {
+        // silent; user can retry from the editor
+      }
+    },
+    [removeCardFromFeed],
   );
 
   const dismissUndo = useCallback(() => {
@@ -535,6 +555,7 @@ export function ReviewFeed() {
                 card={c}
                 onRate={(rating) => onRate(c.id, rating, i)}
                 onEdit={() => openEdit(c)}
+                onDelete={() => deleteCard(c.id)}
               />
               <button
                 type="button"
