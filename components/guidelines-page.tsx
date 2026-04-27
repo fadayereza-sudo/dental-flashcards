@@ -12,6 +12,7 @@ import {
 } from "@/components/principle-toggles";
 import { ManualMarkdown } from "@/components/manual-markdown";
 import { SearchBar } from "@/components/search-bar";
+import { highlight } from "@/lib/highlight";
 import {
   matchScore,
   normalizeQuery,
@@ -544,7 +545,7 @@ export function GuidelinesPage() {
                                 className="w-full text-left rounded-lg bg-paper hover:bg-paper-sunk transition-colors border border-rule px-3 py-2 flex items-start justify-between gap-3"
                               >
                                 <span className="text-sm text-ink flex-1">
-                                  {workflow.title}
+                                  {highlight(workflow.title, query)}
                                 </span>
                                 <svg
                                   className={`w-4 h-4 flex-shrink-0 mt-0.5 transition-transform ${
@@ -561,7 +562,10 @@ export function GuidelinesPage() {
                               {wfOpen && (
                                 <div className="mt-2 pl-3 border-l border-rule/60 space-y-2">
                                   <div className="px-3 py-3 bg-paper rounded-md">
-                                    <ManualMarkdown source={workflow.overview} />
+                                    <ManualMarkdown
+                                      source={workflow.overview}
+                                      highlightTerm={query}
+                                    />
                                   </div>
                                   <button
                                     onClick={() =>
@@ -616,6 +620,7 @@ export function GuidelinesPage() {
                               prev === id ? null : id,
                             )
                           }
+                          highlightTerm={query}
                         />
                       </div>
                     )}

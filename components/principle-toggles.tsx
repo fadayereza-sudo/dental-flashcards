@@ -4,6 +4,7 @@ import { ReactNode, useCallback, useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { useBackClose } from "@/lib/use-back-close";
 import { useDragToClose } from "@/lib/use-drag-to-close";
+import { highlight } from "@/lib/highlight";
 
 export type Citation = {
   id: number;
@@ -31,6 +32,7 @@ interface PrincipleToggleListProps {
   category: string;
   openTruthId: string | null;
   onToggle: (id: string) => void;
+  highlightTerm?: string;
 }
 
 export function PrincipleToggleList({
@@ -38,6 +40,7 @@ export function PrincipleToggleList({
   category,
   openTruthId,
   onToggle,
+  highlightTerm,
 }: PrincipleToggleListProps) {
   const [activeCitation, setActiveCitation] = useState<ActiveCitation | null>(
     null
@@ -55,7 +58,7 @@ export function PrincipleToggleList({
                 className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors border-l-2 border-[#2563eb] px-3 py-2 flex items-start justify-between gap-3"
               >
                 <span className="text-[#2563eb] text-sm font-medium flex-1">
-                  {truth.title}
+                  {highlight(truth.title, highlightTerm)}
                 </span>
                 <svg
                   className={`w-4 h-4 flex-shrink-0 mt-0.5 transition-transform ${
@@ -78,7 +81,7 @@ export function PrincipleToggleList({
                         Broader context
                       </p>
                       <p className="text-[14px] text-ink-soft leading-[1.6] italic">
-                        {truth.broaderContext}
+                        {highlight(truth.broaderContext, highlightTerm)}
                       </p>
                     </div>
                   )}
@@ -91,7 +94,8 @@ export function PrincipleToggleList({
                           citation,
                           truthTitle: truth.title,
                           category,
-                        })
+                        }),
+                      highlightTerm
                     )}
                   </div>
                 </div>
@@ -115,7 +119,8 @@ export function PrincipleToggleList({
 function renderBody(
   body: string,
   citations: Citation[],
-  onCitation: (c: Citation) => void
+  onCitation: (c: Citation) => void,
+  highlightTerm?: string
 ): ReactNode {
   const blocks = body.split("\n\n").filter((p) => p.trim());
 
@@ -141,12 +146,12 @@ function renderBody(
     <div key={gi} className={gi > 0 ? "mt-5" : ""}>
       {group.heading && (
         <h4 className="font-serif text-[15px] text-ink font-bold leading-snug mb-1">
-          {renderParagraph(group.heading, citations, onCitation)}
+          {renderParagraph(group.heading, citations, onCitation, highlightTerm)}
         </h4>
       )}
       {group.paragraphs.map((p, pi) => (
         <p key={pi} className={pi > 0 ? "mt-3" : ""}>
-          {renderParagraph(p, citations, onCitation)}
+          {renderParagraph(p, citations, onCitation, highlightTerm)}
         </p>
       ))}
     </div>
@@ -156,15 +161,29 @@ function renderBody(
 function renderParagraph(
   para: string,
   citations: Citation[],
-  onCitation: (c: Citation) => void
+  onCitation: (c: Citation) => void,
+  highlightTerm?: string
 ): ReactNode[] {
   const parts: ReactNode[] = [];
   const regex = /\[(\d+)\]/g;
   let lastIdx = 0;
   let match: RegExpExecArray | null;
+  const pushText = (s: string, baseKey: string) => {
+    if (!s) return;
+    const hl = highlight(s, highlightTerm);
+    if (hl.length === 1 && typeof hl[0] === "string") {
+      parts.push(hl[0]);
+    } else {
+      parts.push(
+        <span key={baseKey}>
+          {hl}
+        </span>
+      );
+    }
+  };
   while ((match = regex.exec(para)) !== null) {
     if (match.index > lastIdx) {
-      parts.push(para.slice(lastIdx, match.index));
+      pushText(para.slice(lastIdx, match.index), `txt-${lastIdx}`);
     }
     const id = parseInt(match[1], 10);
     const citation = citations.find((c) => c.id === id);
@@ -186,7 +205,7 @@ function renderParagraph(
     lastIdx = match.index + match[0].length;
   }
   if (lastIdx < para.length) {
-    parts.push(para.slice(lastIdx));
+    pushText(para.slice(lastIdx), `txt-${lastIdx}`);
   }
   return parts;
 }

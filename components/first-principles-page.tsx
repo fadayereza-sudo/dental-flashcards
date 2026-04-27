@@ -209,6 +209,7 @@ export function FirstPrinciplesPage() {
                       onToggle={(id) =>
                         setOpenSearchTruth((prev) => (prev === id ? null : id))
                       }
+                      highlightTerm={query}
                     />
                   </div>
                 ))}

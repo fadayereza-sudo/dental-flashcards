@@ -157,3 +157,21 @@ body::before {
 .animate-fade-out {
   animation: fade-out 260ms ease-out forwards;
 }
+
+/* Hide native search-input decorations so our custom clear button is the only one shown */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+/* Search-result highlight */
+mark.search-hit {
+  background-color: rgba(125, 79, 29, 0.18);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}

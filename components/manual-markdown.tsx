@@ -1,6 +1,7 @@
 "use client";
 
 import { ReactNode } from "react";
+import { highlight } from "@/lib/highlight";
 
 /**
  * Tiny markdown subset renderer for the manual-style workflow overviews.
@@ -84,41 +85,51 @@ function parse(source: string): Block[] {
   return blocks;
 }
 
-function renderInline(text: string): ReactNode[] {
+function renderInline(text: string, highlightTerm?: string): ReactNode[] {
   const out: ReactNode[] = [];
   // Tokens: **bold** | *italic* | text
   const re = /(\*\*[^*]+\*\*|\*[^*\n]+\*)/g;
   let last = 0;
   let m: RegExpExecArray | null;
   let key = 0;
+  const pushPlain = (s: string) => {
+    if (!s) return;
+    const hl = highlight(s, highlightTerm);
+    if (hl.length === 1 && typeof hl[0] === "string") {
+      out.push(hl[0]);
+    } else {
+      out.push(<span key={`t-${key++}`}>{hl}</span>);
+    }
+  };
   while ((m = re.exec(text)) !== null) {
-    if (m.index > last) out.push(text.slice(last, m.index));
+    if (m.index > last) pushPlain(text.slice(last, m.index));
     const tok = m[0];
     if (tok.startsWith("**")) {
       out.push(
         <strong key={`b-${key++}`} className="font-semibold text-ink">
-          {tok.slice(2, -2)}
+          {highlight(tok.slice(2, -2), highlightTerm)}
         </strong>
       );
     } else {
       out.push(
         <em key={`i-${key++}`} className="italic">
-          {tok.slice(1, -1)}
+          {highlight(tok.slice(1, -1), highlightTerm)}
         </em>
       );
     }
     last = m.index + tok.length;
   }
-  if (last < text.length) out.push(text.slice(last));
+  if (last < text.length) pushPlain(text.slice(last));
   return out;
 }
 
 interface Props {
   source: string;
   className?: string;
+  highlightTerm?: string;
 }
 
-export function ManualMarkdown({ source, className }: Props) {
+export function ManualMarkdown({ source, className, highlightTerm }: Props) {
   const blocks = parse(source);
 
   return (
@@ -133,7 +144,7 @@ export function ManualMarkdown({ source, className }: Props) {
                   i === 0 ? "" : "mt-5"
                 } mb-2`}
               >
-                {renderInline(b.text)}
+                {renderInline(b.text, highlightTerm)}
               </h3>
             );
           case "h3":
@@ -144,7 +155,7 @@ export function ManualMarkdown({ source, className }: Props) {
                   i === 0 ? "" : "mt-4"
                 } mb-1.5`}
               >
-                {renderInline(b.text)}
+                {renderInline(b.text, highlightTerm)}
               </h4>
             );
           case "ul":
@@ -154,7 +165,7 @@ export function ManualMarkdown({ source, className }: Props) {
                 className="list-disc list-outside pl-5 space-y-1 my-2 text-[14px] leading-[1.6] text-ink"
               >
                 {b.items.map((it, j) => (
-                  <li key={j}>{renderInline(it)}</li>
+                  <li key={j}>{renderInline(it, highlightTerm)}</li>
                 ))}
               </ul>
             );
@@ -165,7 +176,7 @@ export function ManualMarkdown({ source, className }: Props) {
                 className="list-decimal list-outside pl-5 space-y-1 my-2 text-[14px] leading-[1.6] text-ink"
               >
                 {b.items.map((it, j) => (
-                  <li key={j}>{renderInline(it)}</li>
+                  <li key={j}>{renderInline(it, highlightTerm)}</li>
                 ))}
               </ol>
             );
@@ -177,7 +188,7 @@ export function ManualMarkdown({ source, className }: Props) {
                   i === 0 ? "" : "mt-3"
                 }`}
               >
-                {renderInline(b.text)}
+                {renderInline(b.text, highlightTerm)}
               </p>
             );
         }
