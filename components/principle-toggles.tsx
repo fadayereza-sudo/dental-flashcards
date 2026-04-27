@@ -241,7 +241,9 @@ function CitationSheet({
   }, [requestClose]);
 
   useBackClose(mounted && !closing, requestClose);
-  const { sheetRef, handleProps } = useDragToClose(requestClose);
+  // Drag uses onClose (no animation) because useDragToClose runs its own
+  // finish transition; routing through requestClose would double-animate.
+  const { sheetRef, handleProps } = useDragToClose(onClose);
 
   if (!mounted) return null;
 
