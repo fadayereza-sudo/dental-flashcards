@@ -38,24 +38,19 @@ export function useDragToClose(onClose: () => void, thresholdPx = 100) {
     if (!el || !state.current.dragging) return;
     state.current.dragging = false;
     const dy = state.current.lastY - state.current.startY;
+    // Sheets use CSS keyframe animations, not transitions, so we have to
+    // give the element a real transition ourselves for the slide-out /
+    // snap-back. Force a reflow between the transition and transform
+    // writes — otherwise browsers batch them into one style recalc and
+    // the transform change appears instant.
     if (dy > thresholdPx) {
-      // Sheets use CSS keyframe animations, not transitions, so we have to
-      // give the element a real transition for the slide-out and drive
-      // onClose off a timer rather than transitionend (which would never
-      // fire without an explicit transition-property on transform).
       el.style.transition = `transform ${CLOSE_MS}ms cubic-bezier(0.4, 0, 1, 1)`;
+      void el.offsetHeight;
       el.style.transform = "translateY(100%)";
-      window.setTimeout(() => {
-        onClose();
-        requestAnimationFrame(() => {
-          if (sheetRef.current) {
-            sheetRef.current.style.transform = "";
-            sheetRef.current.style.transition = "";
-          }
-        });
-      }, CLOSE_MS);
+      window.setTimeout(onClose, CLOSE_MS);
     } else {
       el.style.transition = `transform ${SNAP_BACK_MS}ms cubic-bezier(0.22, 1, 0.36, 1)`;
+      void el.offsetHeight;
       el.style.transform = "";
       window.setTimeout(() => {
         if (sheetRef.current) sheetRef.current.style.transition = "";
