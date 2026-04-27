@@ -202,7 +202,7 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
                     <path d="M2 2h8l4 4v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z" stroke="currentColor" strokeWidth="1.2" />
                     <path d="M4 9h8M4 12h5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
                   </svg>
-                  View reference
+                  Reference
                 </button>
               ) : (
                 <span>Rate your recall</span>
