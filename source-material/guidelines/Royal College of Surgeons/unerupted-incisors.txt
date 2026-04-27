@@ -1,0 +1,688 @@
+Faculty of
+Dental Surger
+
+Management of Unerupted
+Maxillary Incisors
+
+                                             2022
+
+Omar Yaqoob                                  Catherine Bryant
+BDS MFDSRCS MSc MOrthRCS                     BDS FDSRCS MSc
+FDSRCSEd FHEA                                Consultant in Oral Surgery
+Specialist Orthodontist                      Department of Oral Surgery
+Specialist Practice                          King's College Hospital Dental Institute
+                                             Denmark Hill, London SE5 9RW
+Julian O'Neill
+BDS MSc FFDRCSI MOrthRCS                     Joe Noar
+Consultant Orthodontist
+Maxillofacial Unit                           MSc BDS FDSRCS(Ed) FDSRCS(Eng)
+Kettering General Hospital                   DOrhRCS(Eng) MOrthRCS(Eng) FHEA
+Northants NN16 8UZ
+                                             Consultant/Hon. Senior Lecturer
+Shruti Patel                                 Orthodontic Unit
+BDS FDSRCS MSc MOrthRCS                      Division of Craniofacial & Development
+FDSOrthRCS                                   Sciences
+Consultant in Orthodontics
+King's College Hospital NHS Trust            Eastman Dental Hospital/Institute
+London SE5 9RS                               256 Gray's Inn Road
+
+Jadbinder Seehra                             London WC1X 8LD
+BDS(Hons) MFDSRCS MSc MOrthRCS
+FDSOrthRCS                                   Terry Gregg
+Consultant Orthodontist and Hon Clinical     FDSRCPS, FDSRCS, FFDRCSI
+Senior Lecturer, Department of Orthodontics  Consultant in Paediatric Dentistry
+King's College London Dental Institute       Barts Health Dental Hospital
+London SE1 9RT, UK                           Turner Street
+                                             London E12AD
+David Morris
+BDS FDSRCS FDSOrthRCPS MSc
+MOrthRCS
+Consultant in Orthodontics
+Department of Orthodontics
+Leeds Dental Institute
+Leeds, LS2 9LU, UK
+
+Martyn T.Cobourne
+FDSRCS, FDSOrthRCS, PhD
+Professor and Hon Consultant in
+Orthodontics
+Department of Orthodontics
+King's College London Dental Institute
+LONDON SE1 9RT
+Management of Unerupted Maxillary Incisors
+
+Contents
+Introductiol
+| Diagnosis and management
+
+    1.1 Definition
+    1.2 Causes of delayed eruptio
+2 Incidence and prevalence....
+3 Establishing the cause of eruption failure
+    3.1 Medical and dental history ...
+    3.2 Clinical examination....
+   3.3 Radiographic examination ...
+4 General principles of managemen
+    4.1 Patient factors
+    4.2 Dental factors
+5 Management options
+    5.1 Removal of a physical obstruction..
+    5.2 Removal of the obstruction only .
+    5.3 Surgical intervention(s)
+    5.4 Incisor removal ....
+    5.5 Ankylosed maxillary incisors
+    5.6 Autotransplantation
+    5.7 Monitoring of further dental development
+Recommendations
+References.....
+Management of Unerupted Maxillary Incisors
+
+Introduction                                             labial segment; previous wauma; and localised
+
+Failure of eruption associated with maxillary            pathology, which can include supernumerary teeth,
+permanent incisor teeth usually presents in the          odontomes and more rarely, cystic formation. The
+mixed dentition stage and is often noticed between       most common causes are physical obstruction due to
+the ages of 7-9 years. The maxillary incisors are        the presence of supernumerary teeth or odontomes
+vulnerable to eruption failure secondary to space        and trauma to the primary dentition, which may
+loss, obstruction or trauma. The anterior maxilla is a   contribute to dilaceration of the permanent
+common site for the development of supernumerary         successor/s.
+teeth or odontomes; whilst the developing                Other, less frequent associations include cleft lip and
+permanent maxillary incisors are also susceptible to     palate (Paradowska-Stolarz ¢t al., 2014) and systemic
+dilaceration and eruption failure following trauma       conditions, which can include the development of
+affecting the primary incisor dentition. Missing and     multiple supernumerary teeth as part of their
+unerupted maxillary incisors can be regarded as          phenotypic spectrum (such as cleidocranial
+unattractive and have a potentially negative impact      dysplasia) (Suri et al., 2004).
+on facial and dental aesthetics, which may effect self-
+esteem and social interaction (Shaw et al, 1991).        2  Incidence and prevalence
+Early diagnosis and appropriate management is
+recommended.                                             It is often stated that the maxillary central incisor is
+This guideline has been based on current evidence
+and should be continually developed, as further          the thirdmost commonly impacted tooth after third
+evidence is made available. There are currently no
+high-quality randomized controlled trials                permanent molars and maxillary canines. Failure of
+investigating ~ treatment interventions for the
+management of unerupted maxillary incisors and           eruption associated with maxillary permanent
+with the exception of one investigation, all current
+evidence is retrospective.                               incisors is more frequently seen in the presence of
+
+                                                         other inherited dental anomalies such as enamel
+                                                         hypoplasia, supernumerary teeth and ectopic teeth
+
+                                                         (Bartolo et al, 2010). However, by far the most
+                                                         frequent cause of eruption failure is the presence ofa
+
+                                                         supernumerary tooth.
+
+|  Diagnosis and management                              Variation in the reported incidence of maxillary
+                                                         permanent incisor impaction is evident within the
+
+11 Definition                                            literature. In an investigation of Caucasian skulls 5
+
+Delayed eruption of the permanent maxillary incisor      impacted central incisors were identified in a sample
+
+teeth can be considered in the following                 of 1462 (0.0034%) with only 1.95% of all the
+
+circumstances:                                           identified impacted maxillary teeth being central
+
+* eruption of the contralateral incisor occurred         incisors (Mead, 1930). In another sample population
+                                                         aged between 17-26 years, an incidence of 0.04%
+   more than 6 months earlier;
+
+* the maxillary incisors remain unerupted more           impacted maxillary central incisors was observed
+
+   than one year after the eruption of the               (Grover and Lorton, 1985). In a cohort of patients
+
+   mandibular incisors; and                              referred to regional hospitals in the United Kingdom
+                                                         and aged between 6% to 14 years, the prevalence of
+o there is a significant deviation from the normal
+
+   eruption sequence (for example, lateral incisors      supernumeraries in the premaxilla was reported as
+                                                         2.6% resulting in failed eruption of 42% of the
+   erupting prior to the central incisor)
+
+                                                         maxillary central incisor teeth (Di Biase, 1968-69).
+
+1.2 Causes of delayed eruption                           3  Establishing the cause of eruption failure
+A number of local factors have been associated with
+delayed eruption of the maxillary incisor dentition.     3.1 Medical and dental history
+These include the early extraction or loss of primary
+teeth (with or without space loss); prolonged            A detailed medical and dental history should be
+retention of primary teeth; crowding in the upper
+                                                         obtained to determine any possible hereditary or
+
+                                                         environmental factors, which may be contributing to
+Management of Unerupted Maxillary Incisors
+
+the delay in eruption. A history of trauma to the       useful to investigate impacted and ectopic teeth,
+primary dentition should be sought and documented       providing a clear three-dimensional view of these
+with approximate dates of the traumatic episod(se)
+and a description of both the magnitude and             teeth and the associated structures. CBCT is
+direction of the traumatic impact.                      associated with a greater overall effective dose than
+                                                        conventional radiography and should therefore only
+32 Clinical examination
+An intra-oral examination should be undertaken to       be prescribed when the required information cannot
+                                                        be adequately obtained using lower dose
+identify any primary teeth retained significantly       conventional radiography (SEDENTEXCT, 2012). If
+beyond their normal exfoliation dates. Clinical         dilaceration of an incisor root is suspected, CBCT
+features such as spacing and rotations and              may be valuable in treatment planning as the degree
+displacement of permanent teeth should be recorded      of aberrant crown-root angulation can be assessed
+in the upper incisor region (Tay et al, 1984; Nik-      and imaging used to plan the optimal direction of
+Hussein, 1990). Space loss due to drift of the          traction applied, ensuring that both the crown and
+adjacent lateral incisor into the central incisor       root are maintained in alveolar bone during
+position may suggest a disturbance in normal dental     alignment of the tooth.
+development. The presence of labial or palatal
+                                                        4  General principles of management
+swellings, which may indicate the site of an
+                                                        Despite the lack of definitive treatment protocols, the
+unerupted incisor, should be noted in addition to the
+angulation and inclination of adjacent teeth and        general principles of managing the delayed eruption
+availability of suitable space for eruption of the
+incisors (approximately 9 mm for a permanent            or impaction of the permanent maxillary incisor
+maxillary central incisor and 7 mm for a permanent
+maxillary lateral incisor) (Moyers et al., 1976).       teeth, include the provision of adequate space in the
+
+33 Radiographic examination                             dental arch and the removal of any obstruction to
+Failure of eruption associated with of one or more
+permanent maxillary incisor teeth or retention of the   eruption. Consideration should also be given to
+primary incisors beyond the normal age-range
+warrants further investigation. Intra-oral radiographs  further promoting eruption through surgical
+can assist in making a diagnosis (Thom and Isaacson,
+2013; Isaacson et al., 2015). Periapical views and/or   exposure of the incisor, with or without subsequent
+an upper standard occlusal radiograph can be useful
+in determining the presence and position of             orthodontic traction. Definitive treatment planning
+maxillary incisor teeth and any underlying
+developmental anomalies or pathology. These             will depend on patient factors such as patient
+radiographs can also facilitate the use of horizontal
+or vertical parallax in order to localise the bucco-    medical history, age and potential compliance; whilst
+lingual position of the unerupted tooth (Jacobs,
+1999). A cephalometric radiograph can also be of        dental factors include the presence of retained
+value in the location and assessment of unerupted,
+malformed or misplaced incisors, particularly in        primary teeth, the position and stage of development
+relation to the height of impaction and bucco-lingual
+inclination of the crown and root of the tooth.         of the impacted incisor, the nature of any physical
+Cone beam computed tomography (CBCT)
+                                                        obstruction to eruption and the presence of
+technology is now widely available for imaging the
+                                                        unfavourable root formation (dilacerations).
+maxillo-facial region and can, in selected cases, be
+                                                        The potential risks of treatment include failure of
+
+                                                        eruption, ankylosis, external root resorption and
+
+                                                        poor gingival aesthetics. These risks should be
+
+                                                        carefully explained to the patient and parent(s).
+                                                        However, in the majority of cases treatment is
+
+                                                        successful. A number of factors should be considered
+
+                                                        in treatment planning and these are detailed below.
+
+                                                        4.1 Patient factors
+                                                        4.1.1 Medical history
+                                                        A number of medical conditions can potentially
+                                                        impact on orthodontic and/or surgical treatment
+                                                        (Patel et al.,, 2009) and it is important to establish a
+                                                        comprehensive medical history for any patient before
+Management of Unerupted Maxillary Incisors
+
+embarking on treatment for an impacted maxillary conwralateral erupted maxillary incisor (Smailiene et
+
+incisor.                                                  al., 2006).
+
+412 Age                                                   4.2.3 Developmental stage of the impacted
+                                                          incisor
+The optimal age for surgical removal of a                 The stage of development of an impacted permanent
+supernumerary tooth is unknown because in most            maxillary central incisor may also influence eruption
+                                                          of this tooth. Some reports suggest that incisors with
+cases the age at removal will be influenced by the age    immature roots are more likely to erupt
+when the diagnosis was made. Retrospective analysis       spontaneously following supernumerary removal
+suggests that spontaneous eruption of an unerupted        than those with mature roots (Foley, 2004, Mason et
+permanent maxillary incisor is more likely to occur if    al., 2000). However, others have found no difference
+any associated supernumerary is removed between 8-        in the eruption of unerupted incisors in relation to
+9 years of age (Munns, 1981; Leyland et al., 2006).       their stage of root development (Di Biase, 1971).
+However, patient age has also been reported as a
+nonssignificant factor in determining spontaneous         4.2.4 Nature of any physical obstruction to
+eruption (Di Biase, 1971).                                eruption
+
+4.1.3 Compliance                                          If the cause of any obstruction is a supernumerary
+It is important to evaluate potential future
+compliance for any orthodontic patient and most           tooth, the morphology of this tooth and the resultant
+children are able to cope relatively easily with          degree of incisor displacement will both influence
+treatment for an impacted maxillary incisor.              the success of spontaneous eruption of the
+However, this problem can affect younger children         permanent maxillary incisor following surgical
+and a judgement has to be made about their ability to     removal of the supernumerary (Ashkenazi et al.,
+undergo any necessary treatment.                          2007: Bryan et al., 2005; DiBiase 1969; Foley 2004;
+
+42 Dental factors                                         Patchett et al., 2001; Smailiene et al, 2006).
+4.2.1 Retained primary teeth
+                                                          Tuberculate supernumerary teeth and odontomes
+Any retained primary tooth should be extracted.
+                                                          are more likely to obstruct permanent maxillary
+Where the permanent maxillary incisor is close to         incisor eruption with greater resultant displacement
+eruption or when there is no other obvious causative      than conical supernumerary teeth (Ashkenazi et al.,
+factor, spontaneous eruption of the successor may         2007; Foster and Taylor, 1969; Leyland et al., 2006;
+occur.                                                    Mason et al., 2000; Patchett et al., 2001). It has been
+                                                          further reported that one third of compound and
+4.2.2 Position of the impacted incisor                    one half of complex odontomes prevent eruption of
+The vertical position of the impacted permanent           teeth (Katz 1989).
+maxillary incisor has been shown to influence both
+successful spontaneous eruption and the time taken        4.2.5 Unfavourable root formation
+to erupt (Chaushu et al., 2015; Smailiene et al., 2006).  Dilaceration is defined as an acute deviation of the
+A small retrospective study demonstrated that the         long axis of the tooth, located to the crown or the
+higher the vertical position of an unerupted
+maxillary incisor, the less likely it was to erupt        root portion and originating from a traumatic non-
+spontaneously after an obstructing supernumerary          axial displacement of already formed hard tissue in
+tooth was removed. In this investigation, only 28.6%      relation to the developing soft tissue (Andreasen,
+of unilaterally impacted permanent maxillary incisors     2007). This malformation can affect the permanent
+crupted spontancously when their initial position was     maxillary incisors and is thought to be caused by
+at the level of the apical third of the root of the       environmental (trauma to primary predecessors) and
+                                                          devclopmental factors. Traumatic injurics to the
+                                                          primary dentition are relatively common, with a
+
+                                                          prevalence ranging from 11-30% (Andreasen and
+Management of Unerupted Maxillary Incisors
+
+Ravn, 1972). The potential benefits of aligning        is a large variation in the reported time taken for the
+permanent maxillary incisors with root dilacerations   incisor to erupt, which can be up to 18 months
+in adolescent patients include maintenance of dental   (Leyland et al.,, 2006). For optimal results, it would
+aesthetics, associated psychosocial benefits and       seem sensible to suggest that the supernumerary
+preservation of alveolar bone for future osscous-      tooth is removed with minimal disturbance to the
+retained restorations. Dilacerated incisors may be     follicle of the unerupted incisor, although there is no
+brought into the line of the arch following exposure   evidence with regard to this.
+and application of orthodontic traction (Nashashibi,
+1986; Sandler and Reed, 1988). An adult sample has     5.2.1 Removal of the obstruction with creation
+shown limited evidence of favourable long-term         of space
+periodontal outcomes following the orthodontic         Eruption of the maxillary incisor can be further
+eruption of dilacerated permanent maxillary incisors
+(Farronato et al., 2014). It has also been suggested   facilitated with space creation in conjunction with
+that dilacerated permanent maxillary incisors will     removal of the obstruction. Retrospective evaluation
+take longer to align successfully and have a poorer
+prognosis for successful eruption than those           has suggested that following the removal of a
+impacted due to simple obstruction (Chaushu et al.,
+2015). The use of a lateral skull radiograph or CBCT   supernumerary tooth, spontaneous eruption is more
+can be beneficial if dilaceration is suspected from    likely if space exists in the dental arch to
+standard radiographic views. The extent of the         accommodate the unerupted incisor (Bryan et al.,
+dilaceration, inclination of the crown and root and    2005; Di Biase, 1971; Howard, 1967; Leyland et al.,
+the quality and quantity of the alveolar bone at the   2006; Mitchell and Bennett, 1992; Smailiene et al.,
+site where the tooth will be moved can be assessed     2006; Witsenburg and Boering, 1981). However,
+with greater clarity in three dimensions. Ultimately,  between 30-54% of impacted incisors will still require
+the extent of the dilaceration and inclination of the  further surgical intervention (Foley, 2004; Mason et
+crown will determine whether attempting                al., 2000; Patchett et al, 2001; Witsenburg and
+orthodontic alignment is feasible.                     Boering, 1981) and some form of orthodontic
+                                                       alignment (Di Biase, 1971). Prospective analysis
+5  Management options                                  further supports space creation in facilitating
+                                                       eruption, with 82% of incisors erupting
+5.1 Removal of a physical obstruction                  spontancously when combined with maxillary
+                                                       expansion (Pavoni et al., 2013).
+The presence of a supernumerary tooth or odontome      Space can be created with a simple removable
+                                                       appliance in selected cases or fixed appliances
+is responsible for delayed eruption or impaction of    (sectional or full arch) with or without extraction of
+                                                       primary canines. Adequate space creation using fixed
+the permanent maxillary incisors in approximately      orthodontic appliances prior to any surgical
+28-60% of cases (Betts and Camilleri, 1999;            intervention has been shown to significantly reduce
+Bodenham, 1967; Di Biase, 1969; Foster and Taylor,     overall treatment time (Di Biase 1971; Lygidakis et al.,
+                                                       2015; Pavoni et al., 2013).
+1969;Gregg and Kinirons, 1991; Howard, 1967).
+                                                       53 Surgical intervention(s)
+Indeed, 90-98% of maxillary supernumerary teeth        In addition to the surgical removal of any
+develop within the midline and maxillary central       obstruction, surgical exposure of the maxillary
+                                                       incisor teeth may also be indicated. In these
+incisor region (Tay et al., 1984).                     circumstances, early orthodontic traction can
+                                                       enhance this facilitated eruption (Ashkenazi et al,
+52 Removal of the obstruction only                     2007). There is a lack of scientific evidence to
+Following the removal of a supernumerary tooth,        support the decision as to whether unerupted
+retrospective evaluation suggests that between 49
+91% of permanent maxillary incisors will erupt         permanent maxillary incisors should be surgically
+spontancously (Foley, 2004; Leyland et al, 2006;
+Mason et al., 2000; Witsenburg and Boering, 1981).
+Although these figures appear to be favourable, there
+Management of Unerupted Maxillary Incisors
+
+exposed at the time of supernumerary removal or             retained after the exposure, so that this can form a
+whether spontaneous eruption should be allowed.             healthy gingival attachment to the tooth over time
+Following the removal of a supernumerary tooth,             when it is in its final position (Becker et al., 2002;
+between 30-54% of impacted permanent maxillary              Vanarsdall and Corn, 2004). Where the vertical
+
+incisors will require further surgical intervention to      height of the unerupted incisor precludes a simple
+
+facilitate their eruption (Foley, 2004; Mason et al.        soft tissue excision over the crown of the tooth
+2000; Patchett et al., 2001; Witsenburg and Boering,        because a normal gingival attachment will not be
+1981). It is good clinical practice to avoid the need       generated, an apically repositioned flap can be used
+for repeat general anaesthesia whenever possible and        to expose the crown of the tooth, provided that it is
+so it is prudent to consider surgical exposure and          not significantly mesially or distally displaced. This
+bonding of an orthodontic attachment at the time of         technique has been associated with increased incisor
+supernumerary removal. This attachment can then             crown length and poor soft tissue aesthetics
+be used later if required, to align the incisor and         (Chaushu et al., 2009; Vanarsdall and Corn, 2004;
+therefore avoid the need for a second general
+anaesthetic (RCS UK National Guidelines in                  Vermette et al., 1995). Whilst open exposure affords
+Paediatric Dentistry, 2008). The success of surgical
+exposure combined with orthodontic traction has             the orthodontist the advantage of bonding to the
+been reported to exceed 90%, with the height of the         unerupted incisor under a dry field and planning the
+impacted incisor appearing to influence the duration        direction of traction applied, postoperative hygiene
+of such treatment (Chaushu et al., 2015). Ideally, if
+young patients have a good standard of oral hygiene,        and care following an apically repositioned flap can
+can tolerate and are compliant with fixed
+orthodontic appliances, then these represent the            be challenging for a young patient.
+appliances of choice to apply light traction to the
+exposed incisor. As the majority of patients with           5.3.2 Closed eruption technique
+unerupted maxillary incisors present in the mixed           In the closed eruption technique, a mucoperiosteal
+dentition stage, the first permanent molars, lateral        flap incorporating the attached gingiva is raised and
+incisors and the contralateral central incisor tooth        an attachment bonded to the impacted incisor before
+are usually included in the fixed appliance as these        the flap is replaced into its original position. The
+are often the only permanent teeth that have erupted        attachment should incorporate a gold chain or
+at this time. In this situation, a 2 x 4 fixed appliance    traction ligature to facilitate the application of
+
+can useful for space creation, space maintenance and        orthodontic forces (Becker et al., 1996; 2002; Noar
+                                                            and Gaukroger, 2000; Oliver and Hardy, 1986).
+the application of traction to the unerupted incisor if     Ideally, the attachment should be low profile and
+required (McKeown and Sandler, 2001).                       bonded to the palatal surface of the unerupted
+Either an open exposure or closed eruption                  incisor to allow orthodontic traction to be applied in
+procedure can be employed to promote eruption of
+unerupted maxillary incisors.                               the most favourable direction and to reduce the risk
+                                                            of fenestration of the attachment through the thin
+5.3.1 Open exposure                                         overlying alveolar mucosa as the tooth is aligned.
+The open exposure of an unerupted permanent                 Clinical photographs taken with the flap raised and
+maxillary incisor, by means of a simple elliptical          attachment bonded at the time of surgery may be
+incision of the overlying soft tissue, is rarely indicated  helpful in planning the direction of future traction,
+but may be useful when there is a soft tissue               especially if both permanent central incisors are
+impaction, with the tooth occupying a very superficial      unerupted.
+position just bencath the mucosa. The vertical
+position of the incisor and width of the attached           5.3.3 Open versus closed eruption techniques
+mucosa must allow a band of attached gingiva to be          There are only a few studies that have specifically
+                                                            compared open versus closed eruption techniques for
+
+                                                            impacted permancnt masxillary incisor tecth. Early
+
+                                                            studies demonstrated superior results for closed
+
+                                                            eruption in terms of gingival, periodontal and pulpal
+Management of Unerupted Maxillary Incisors
+
+status. Longitudinal assessment of closed versus open   * Decoronation of the incisor, if growth is still
+eruption has reported longer clinical crowns and            active, to preserve the width and vertical height of
+decreased bone support in association with open             the alveolar bone (Malmgren, 2000); and
+eruption (Chaushu et al., 2009).
+                                                        e Extraction of the ankylosed incisor followed by
+54 Incisor removal                                          replacement with conventional or implant
+When a permanent maxillary incisor has to be                prosthesis if the patient's growth is nearing
+removed due to significant dilaceration or ankylosis        completion.
+and fra-occlusion, space should be maintained for
+subsequent replacement, initially with a fixed or       There is currentl sufficient high-level evidence for
+removable prosthesis. In the longer-term, an implant-   comparing the effectiveness of different treatment
+retained prosthesis may be considered (Henry et al.,    methods relating to the ankylosed maxillary incisor
+1996; Kokich and Crabill, 2006). Prolonged absence      (de Souza et al., 2015).
+of a tooth within the dental arch can lead to
+significant loss of alveolar volume in the affected     5.6 Autotransplantation
+region. This bone loss can result in a reduction of
+both height and width of the alveolus which may         The autotransplantation of a developing premolar to
+subsequently require augmentation, thus
+complicating both implant placement and long-term       replace a missing permanent maxillary incisor has
+success. Alternative ~ management strategies,           been documented to provide a physiologically sound
+particularly in the younger child, include accepting    tooth and maintenance of the alveolar process with
+the unerupted tooth and leaving it in situ until the
+start of definitive orthodontic treatment to manage     good longterm survival rates (Czochrowska et al.,
+the malocclusion or to bring the tooth into the line
+of the arch, even though it may be sacrificed later.    2000). The most commonly selected combination is
+Other options aimed at preserving alveolar bone         autotransplantation of the lower second premolar to
+following the extraction of an unerupted central        replace a maxillary central incisor. The main
+                                                        advantage is physiological; as the process involves
+incisor include moving a reasonably sized lateral       placement of the patient's own vital tooth with a
+                                                        preserved periodontium, which is followed by
+incisor tooth into the central incisor position for     morphological alteration through coronal reshaping.
+camouflage or to accept spontaneous space closure       The main disadvantage is that the tooth can have a
+in the labial segment and then open up space with a     poor morphology and require extensive restorative
+                                                        work. In addition, there can be problems with the
+fixed appliance prior to definitive restoration in the  functional occlusion due to the presence of a palatal
+                                                        cusp. Moreover, in some cases there can be rapid
+permanent dentition (Kokich and Crabill, 2006).         external root resorption and, ultimately, premature
+                                                        loss of the transplanted tooth.
+55 Ankylosed maxillary incisors
+A potentially unfavourable complication of aligning     57 Monitoring of further dental development
+unerupted permanent maxillary incisors is ankylosis.    Patients with impacted permanent maxillary central
+The following treatment options are available for       incisors are reported to have an increased risk of
+ankylosed permanent maxillary incisors:
+® Periodical follow-up with possible composite          further disruption to normal dental development. In
+                                                        a retrospective study, the prevalence of maxillary
+    build-up for any minor infra-occlusion;             canine displacement on the same side as an
+* Repositioning of the ankylosed incisor (including     unerupted incisor was reported to be significantly
+                                                        increased compared to the contralateral side
+    surgical dislodgement and repositioning;            (Chaushu et al., 2003).
+    osteotomy and repositioning or distraction
+     ostcogenesis);                                     Recommendations
+* Extraction of the ankylosed incisor followed by
+                                                        The occurrence of uncrupted or impacted
+   orthodontic space closure;
+                                                        permanent maxillary incisors may be associated with
+                                                        both developmental and environmental factors. This
+Management of Unerupted Maxillary Incisors
+
+condition can lead to poor dental and facial             * Adilacerated permanent maxillary incisor should
+aesthetics and malocclusion, including localised             be aligned in the dental arch with the use ofa
+space loss. It is desirable for impacted maxillary           closed surgical exposure and orthodontic
+incisor teeth to be accommodated in the dental arch          traction, if at all possible; and
+if practicable, ideally at the earliest opportunity, to
+afford dental, functional, aesthetic and psychosocial    * Ideally, examination and treatment planning
+benefits to the patient.                                     should be undertaken within a multi-disciplinary
+* When treatment planning for an unerupted                   clinic. In this way, collective decisions can be
+                                                             made with paediatric dental and/or oral surgery
+    permanent maxillary incisor, it is important that        colleagues regarding the timing of treatment,
+    space is available for the impacted tooth in the         most appropriate choice of surgery and, if
+    arch and that any obstruction is removed;                necessary, the best position of any attachment in
+* Other factors that can influence spontaneous               order to optimise a favourable outcome.
+    eruption include the vertical position,
+                                                         References
+   displacement and root development of the              Andreasen JO, Andreasen FM, And
+                                                         Traumatic Injuries to the Teeth. 4" Fdition. Wiley-Blackwell;
+    impacted incisor;                                    2007.
+* The most common reason for obstructed
+                                                         Andreasen JO, Ravn JJ, 1972. Epidemiology of traumatic
+    permanent maxillary incisor eruption is the
+    presence of a supernumerary tooth. Retrospective     dental injuries to primary and permanent teeth in a Danish
+    data suggests that a significant proportion of
+    these teeth can be expected to erupt following       population sample. Tnt] Oral Surg 2007; 1: 235-239.
+    removal of the obstruction;
+e In the younger patient (<9 years of age} with an       Ashkenazi M, Greenberg BP, Chodik G e al. Postoperative
+    immature permanent maxillary incisor, it may be      prognosis of unerupted teeth after removal of
+    reasonable to allow up to 9-12 months for            supernumerary teeth or odontomas. Am J Orthod Dentofacial
+    spontaneous eruption of the incisor after the        Orthop 2007; 131: 614-619.
+    removal of an obstruction before considering
+    further intervention;                                Bartolo A, Camilleri A, Gamilleri S. Unerupted inci
+* In the older individual (>9 years of age) with a       characteristic features and associated anomalies. Fur |
+    mature permanent maxillary incisor, it is            Orthod 2010; 32: 297-301
+    reasonable to consider "open" or "closed" surgical
+    exposure with bonding of an orthodontic              Becker A, Brin I, Ben-Bassat Y et al Closed-eruption
+    attachment at the time of removal of any
+    obstruction, particularly if the unerupted incisor   surgical technique for impacted maxillary incisors: a
+    is high;
+® Itis desirable, particularly when surgical             postorthodontic periodontal evaluation. Am ] Orthod
+    treatment has to be carried out under general
+    anaesthesia, to avoid multiple procedures. If        Dentofacial Orthop 2002; 122: 9-14.
+    surgery is required to remove an obstruction, then
+    serious consideration should be given to             Becker A, Shpack N, Shteyer A. Attachment bonding to
+    simultaneous closed exposure and bonding of an       impacted teeth at the time of surgical exposure. Eur J
+    orthodontic attachment with a gold chain;            Orthod 1996 18: 457-463.
+* Patient compliance must be assessed as some
+    `younger patients may not be able to accept fixed    Betts A, Camilleri GE. A review of 47 cases of unerupted
+    appliance treatment and surgical exposure with                  y incisors. Int ] Paediatr Dent 1999; 9: 285-292.
+    traction. Each individual case must be considered
+    independently;                                       Bodenham RS. The treatment and prognosis of unerupted
+
+                                                         maxillary incisors associated with the presence of
+
+                                                         supernumerary teeth. Br De[n196t7; 123: 173-177.
+
+                                                         Bryan RA, Cole BO, Welbury RR. Retrospective analysis of
+
+                                                         factors influencing the eruption of delayed permanent
+
+                                                         incisors after supernumerary tooth removal. Eur] Paediatr
+
+                                                         Dent 2005; 6: 84-89.
+
+                                                         Chaushu 8, Recker T, Becker A. Tmpacted central incisors:
+                                                         factors affecting prognosis and treatment duration. Am J
+
+                                                         Orthod Dentofacial Orthop 2015; 147: 355-362.
+
+                                                         Chaushu 8, Dykstein N, Ben-Bassat Y ef al Periodontal
+                                                         status of impacted maxillary incisors uncovered by 2
+Management of Unerupted Maxillary Incisors
+
+different surgical techniques. | Oral Maxillofac Surg 2009;    Jacobs SG. Radiographic localization of unerupted
+67: 120-124.
+                                                               maxillary anterior teeth using the vertical tube shift
+Chaushu 8. Zilberman Y. Becker A. Maxillary incisor            technique: the history and application of the method with
+impaction and its relationship to canine displacement. Am]     some case reports. Am [ Orthod Denlofacial Orthop 1999; 116:
+Orthod Dentofacial Orthop 2003; 124: 144-150; discussion 150.  415-423.
+
+Czochrowska EM, Stenvik A, Album B et al                       Kaz RW. An analysis of compound and complex
+Autotransplantation of premolars to replace maxillary          odontomas. ASDC ] Dent Child 1989; 56: 445-449.
+incisors: a comparison with natural incisors. Am | Orthod
+                                                               Kokich VG, Crabill KE. Managing the patient with missing
+Dentofacial Orthop 2000; 118: 592-600.                         or malformed maxillary central incisors. Am ] Orthod
+                                                               Dentofacial Orthop 2006; 129: S55-63.
+de Souza RF, Travess H, Newton T et al. Interventions for
+treating traumatised ankylosed permanent front teeth.          Leyland L, Batra P, Wong F el al. A retrospective evaluation
+Cochrane Database Syst Rev. 2015: 12;CGD007820.                of the eruption of impacted permanent incisors after
+                                                               extraction of supernumerary teeth. J Clin Pediatr Deni 2006;
+Di Biase DD. Midline supernumeraries and eruption of           30: 225-231.
+maxillary central incisors. Dent Pract Dent Rec 1969;
+                                                               Lygidakis NN, Chatzidimitriou K, Theologie-Lygidakis N et
+Sep;20(1): 3540                                                al. Evaluation of a treatment protocol for unerupted
+
+Di Biase DD. Midline supernumeraries and eruption of the       maxillary central incisors: retrospective clinical study of 46
+maxillary central incisor. Dent Pract Dent Rec 1969; 20: 35-
+40.                                                            children. Eur Arch Paediatr Dent 2015; 16: 153-164.
+
+Di Biasc DD. The cffeet of variations in tooth morphology      Malmgren B. Decoronation: how, why and when? [ Calif
+and position on eruption. Dent Pract Dent Rec 1971; 22: 95-    Dent Assoc 2000; 28: 846-854.
+108.
+                                                               Mason C, Azam N, Holt RD e al. A retrospective study of
+Farronato G, Giannini L, Galbiati G e al A 5year               unerupted maxillary incisors associated with
+                                                               supernumerary teeth. BrJ Oral Maxillofac Surg 2000; 38: 62-
+longitudinal study of survival rate and periodontal            65.
+
+parameter changes at sites of dilacerated maxillary central    McKeown HF, Sandler PJ. The two by four appliance: a
+
+incisors. Prog Orthod 2014 Jan 6; 15: 3.                       versatile appliance. Dent Update 2001; 28: 496-500.
+
+Foley J. Surgical removal of supernumerary teeth and the       Mead SV. Incidence of impacted teeth. Int Orthod 1930; 16:
+fate of incisor eruption. Eur ] PaediaDternt2004;5: 35-40.     885-890.
+
+Foster TD, Taylor GS. Characteristics of supernumerery         Mitchell L, Bennett TG. Supernumerary teeth causing
+teeth in the upper central incisor region. Dent Pract Dent     delayed eruption - a retrospective study. Br ] Orthod 1990;
+Rec1969; 20: 819                                               19: 4146
+
+Gardiner JH. Supernumerary teeth. Dent Pract Denl Rec          MofoyHeurmsaRnE, Ovcacnlusdaelr DLeivnedloepnmePnGt.M,MoRnioogloraMpLh e5t, alC.raSntiaonfdaacridasl
+1961: 12: 63-73.
+                                                               Growth Series. Ann Arbor, Michigan, Center for Human
+Gregg TA, Kinirons MJ.. The effect of the position and         Growth and Development, University of Michigan, 1976
+
+orientation of unerupted premaxillary supernumerary            Munns D. Unerupted incisors. Br[ Orthod 1981; 8: 39-42.
+
+teeth on eruption and displacement of permanent incisors.
+
+Int| Paediatr Dent 1991; 1: 3-7.
+
+Grover PS, Lorton L. The incidence of unerupted Nashashibi IA. Orthodontic movement of a palatally
+permanent teeth and related clinical cases. Oral Surg Oral displaced, dilacerated, unerupted maxillary central incisor.
+
+Med Oral Pathol 1985; 59: 420-425.                             ] Pedodont 1986; 11: 83-90.
+
+Henry PJ, Laney WR, Jemt T et al. Osseointegrated implants     Nik-Hussein NN. Supernumerary teeth in the premaxillary
+for single-tooth replacement: a prospective                    region: its effects on the eruption and occlusion of the
+multicenter study. Int J Oral Maxillofac Tmplants 1996; 11:    permanent incisors. Aust Orth] 1o99d0; 11: 247-250.
+450-455.
+                                                               Noar JH, Gaukroger MJ. Customized metal coping for
+Howard RD. The unerupted incisor. A study of the               elastic traction of an ectopic maxillary central incisor. Clin
+postoperative eruptive history of incisors delayed in their
+                                                               Orthod 2000; 34: 585-589.
+eruption by supernumerary teeth. Dent Pract Dent Rec 1967;
+                                                               Oliver RG, Hardy P. Practical and theoretical aspects of a
+17: 332-341.                                                   method of orthodontic traction to unerupted teeth
+                                                               illustrated by three cases. Br] Orthod 1986; 13: 229-236.
+Isaacson KG, Thom AR, Atack NE e al Orthodontic
+Radiographs, 4th Edition. British Orthodontic Society; 2015.
+Management of Unerupted Maxillary Incisors
+
+Paradowska-Stolarz A, Dubowik M, Szelag J e al. Dental                                            Witsenburg B, Boering G. Eruption of impacted permanent
+anomalies in the incisor-canine region in patients with cleft
+lip and palate - literature review. Dev Period Med 2014; 18:                                      upper incisors after removal of supernumerary teeth. Int]
+66-69.                                                                                            Oral Surg1981; 10: 423-431.
+
+Patchett CL, Crawford PJ, Cameron AC el al The
+
+management of supernumerary teeth in childhood-a
+
+retrospective study of practice in Bristol Dental Hospital,
+
+England and Westmead Dental Hospital, Sydney, Australia.
+Int ] Paediatr Dent 2001; 11: 259-265.
+
+Patel A, Burden DJ, Sandler J. Medical disorders and
+orthodontics. [ Orthod 2009; 36: 1-21.
+
+Pavoni C, Franchi L, Lagana G et al. Management of
+impacted incisors following surgery to remove obstacles to
+
+eruption: a prospective clinical trial. Pediatr Dent 2013; 35:
+
+364-368.
+
+Davies C, Harrison M, Roberts G. Guideline for the Use of
+General Anaesthesia (GA) in Paediatric Dentistry 2008. Faculty
+of Dental Sugery, Royal College of Surgeons of England.
+hitps://www.rcseng.ac.uk/dental-
+faculties/fds/ publications-guidelines/clinicalguidelines/
+
+Sandler PJ, Recd RT. Treatment of dilaccrated incisor. ]
+
+Clin Orthod 1988; 22: 371376.
+
+SEDENTEXCT. Radiation Protection No 172: Cone Beam CT
+
+for Dental and Maxillofacial ~ Radiology. ~ Evidence-based
+guidelines.  2012,
+
+http://www.sedentexct.eu/content/guidelines-cbct-dental-
+
+and-maxillofacial-radiology
+
+Shaw WC, O'Brien KD, Richmond 8 et al1991. Quality
+control in orthodontics: risk/benefit considerations. Br
+
+Dent[ 1991; 170: 33-37.
+
+Smailiene D, Sidlauskas A, BucinskienJe. Impaction of the
+
+central maxillary incisor associated with supernumerary
+
+teeth: initial position and spontaneous eruption timing.
+
+Stomatologija 2006; 8: 103-107.
+
+Suri L, Gagari E, Vastardis H. Delayed tooth eruption:
+
+pathogenesis, diagnosis, and treatment. A literature review.
+
+Am| Orthod Dentofacial Orthop 2004; 126: 452-445.
+
+Tay F, Pang A, Yuen S. Unerupted maxillary anterior
+supernumerary teeth: report of 204 cases. ASD] DCent Child
+1984; 51: 289-994.
+
+Thom A., Isaacson K. Radiographs in the Management of the
+Developing Dentition. Selection Criteria for Dental Radiography.
+Faculty of General Dental Practice (UK); 2013, pp41-50.
+
+Vanarsdall RL, Corn H. Soft-tissue manzgement of labially
+positioned unerupted teeth. July 1977. Am J Orthod
+
+Dentofacial Orthop 2004; 125: 284-293,
+
+VlaebrimaleltytiempMacEt,edKtoekeithc:h apVicGa,llyKpeonsnietidoynedDBf.lap Uanncdovcelorsiendg-
+eruption techniques. Angle Orthod 1995; 65(1): 2332
+
+discussion 33.
+

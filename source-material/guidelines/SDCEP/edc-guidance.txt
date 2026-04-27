@@ -1,0 +1,1259 @@
+                                    Scottish Dental  SDcep
+         Clinical Effectiveness Programme
+
+         Emergency Dental Care
+              Dental Clinical Guidance
+
+Is    t
+bl
+
+Do
+ha
+
+Giv
+ app
+
+         November 2007
+                           Scottish Dental  SDcep
+Clinical Effectiveness Programme
+
+The Scottish Dental Clinical Effectiveness Programme (SDCEP) is an
+initiative of the National Dental Advisory Committee (NDAC) and is
+supported by the Scottish Government and NHS Education for Scotland.
+The Programme aims to provide user-friendly, evidence-based guidance
+for the dental profession in Scotland.
+
+SDCEP guidance is designed to help the dental team provide improved
+care for patients by bringing together, in a structured manner, the best
+available information that is relevant to priority areas in dentistry, and
+presenting this information in a form that can be interpreted easily and
+implemented.
+
+`Supporting the dental team to provide quality patient care'
+                           Scottish Dental  SDcep
+Clinical Effectiveness Programme
+
+Emergency Dental Care
+     Dental Clinical Guidance
+
+November 2007
+© Scottish Dental Clinical Effectiveness Programme
+ISBN 978 1 905829 04 0
+First published November 2007
+
+Scottish Dental Clinical Effectiveness Programme
+Dundee Dental Education Centre, Frankland Building, Small's Wynd, Dundee DD1 4HN
+
+Email scottishdental.cep@nes.scot.nhs.uk
+
+Tel  01382 425751 / 425771
+
+Website www.scottishdental.org/cep
+                                                                                 Emergency Dental Care
+
+Emergency Dental Care
+
+1 Introduction                                                                   1
+
+1.1         Scope of this Guidance                                               2
+
+1.2         Statement of Intent                                                  3
+
+2 Emergency Care in Practice                                                     4
+
+2.1         Main Elements of a Patient Pathway to Emergency Dental Care          4
+
+2.1.1       Emergency Care                                                       5
+
+2.1.2       Urgent Care                                                          6
+
+2.1.3       Advice, Self Help and Routine Care                                   7
+
+2.2         Prioritising Commonly Presenting Dental Emergencies in Primary Care  8
+
+2.3         Providing Self-help Advice on Commonly Presenting Emergency
+
+            Dental Conditions                                                    9
+
+2.3.1       Providing Advice on Managing Dental Pain                             9
+
+2.3.2       Providing Advice on Managing Dental Trauma Prior to Dental Assessment 11
+
+2.3.3       Providing Advice on Managing Post-extraction Bleeding                12
+
+3 The Organisation of Emergency Dental Services                                  13
+
+3.1         NHS Board Areas                                                      13
+
+3.2         Regional and National                                                13
+
+3.3         Out-of-hours Emergency Dental Standards                              14
+
+STANDARD 1 ~ Accessibility and Availability at First Point of Contact            15
+
+STANDARD 2 ~ Safe and Effective Care                                             16
+
+STANDARD 3 ~ Audit, Monitoring and Reporting                                     18
+
+4 Clinical Governance, CPD and Training                                          19
+
+5 Recommendations for Audit and Research                                         20
+
+5.1         Recommendations for Audit                                            20
+
+5.2         Recommendations for Research                                         20
+
+Appendix 1 Guidance Development                                                  21
+
+The Scottish Dental Clinical Effectiveness Programme                             21
+
+The Guidance Development Group                                                   22
+
+The Programme Development Team                                                   22
+
+Guidance Development Methodology                                                 23
+
+Reviewing and Updating                                                           23
+
+Steering Group                                                                   24
+
+References                                                                       25
+
+Emergency Dental Care Overview
+
+                                                                                                        iii
+Emergency Dental Care
+iv
+                Emergency Dental Care
+
+1 Introduction
+
+All dentists must ensure that patients for whom they have accepted responsibility have access to
+emergency dental care both during and outside normal working hours and that their patients are
+made aware of this and how it is achieved1,2. However, throughout Scotland and the UK there
+is great variation in the availability and consistency of advice and care for patients with a dental
+emergency3,4. Individual practices will often have policies to deal with emergency patients who
+present during the working day, either based upon fitting patients into the appointment system or
+allocating time specifically for emergency patients within the appointment system. Out-of-hours care
+is sometimes provided through a shared service offered to the patients of a group of participating
+practices, although there has been an increasing trend towards managing calls centrally on a larger,
+regional basis using decision-support software systems5.
+
+In Scotland, NHS 24 works in partnership with local NHS Boards to provide a confidential telephone
+health advice and information service throughout the country. A survey of calls received between
+1 January 2005 and 30 June 2005 was undertaken by NHS 24. Out of a total of 654,475 calls, 2%
+related to patients reporting dental problems (the vast majority of these relating to `toothache', `jaw
+pain' and `swelling'). 48% of dental calls were received on Friday, Saturday or Sunday, with peaks of
+activity at around 6 pm on weekday evenings and on Saturday and Sunday mornings (Figure 1). On
+Saturday mornings, calls reporting dental problems represented a significant proportion of the total
+NHS 24 call volume.
+
+                                    Daily Calls per Time Band 1/1/05 ­ 30/6/05
+
+                          Figure 1: Dental call volume reported by NHS 24 by day and time
+
+ Within healthcare generally, care that cannot be foreseen or planned in advance of contact with the relevant
+  healthcare professional is referred to as `unscheduled care'. However, traditionally within dental services
+  and among the general public, `emergency dental care' and `dental emergency' are broad terms used in
+  connection with unscheduled care for dental problems. Consequently, these terms are used within this
+  guidance. In addition, `Emergency Care' is used to describe the relatively rare outcome of dental triage
+  when a patient is assessed as requiring immediate treatment.
+
+                                                                                                                                                 1
+Emergency Dental Care
+
+           1 Introduction
+
+                    Many of the calls received by NHS 24 are from patients who are not registered with an NHS
+                    dentist. In Scotland, more than half of the adult population and a third of children are currently
+                    not registered6. The provision of advice and care for unregistered patients differs markedly across
+                    the country3. General dental practices may offer treatment to unregistered emergency patients but
+                    are not obliged to do so. As an alternative, treatment might be available at dental access centres
+                    run by the community or salaried general dental services. The fragmented nature of emergency
+                    dental services and dissatisfaction with the accessibility and variability of emergency dental care are
+                    likely to contribute to a low expectation of the service among patients, particularly outside normal
+                    working hours . 4,7,8 This is compounded by a general lack of clarity among the public about what
+                    actually constitutes a dental emergency. In some cases, a visit to the dentist might not be necessary
+                    if reassurance and advice is available to the patient7. In other cases, the postponement of immediate
+                    care out of hours to a guaranteed appointment on the following day is perfectly acceptable to
+                    patients and might present a more cost-effective approach5. However, to date there have been no
+                    nationally agreed standards for emergency dental care.
+
+                    The diverse manner in which emergency dental care is provided at a local level across the country
+                    will persist unless these issues are addressed. Therefore, the Scottish Dental Clinical Effectiveness
+                    Programme (SDCEP) convened a Guidance Development Group to provide guidance on the provision
+                    of emergency dental care in Scotland. This guidance is of relevance to both primary dental care
+                    providers and those responsible for organising services, and aims to improve patient safety by
+                    promoting a consistent standard of care of patients with a dental emergency. Further details about
+                    SDCEP and the development of this guidance are provided in Appendix 1.
+
+                 1.1 Scope of this Guidance
+
+                    This guidance aims to facilitate improvements in the care of patients with dental emergencies by
+                    promoting more equitable provision of emergency dental care throughout Scotland for all patients,
+                    irrespective of the time of day that their dental emergency arises or whether or not they are currently
+                    registered with a dentist.
+
+                    The systematic approach presented within this guidance focuses on the patient journey and can be
+                    applied within a variety of local circumstances. It does not constitute a formal clinical care pathway
+                    as clinical decision-making was not within the remit of the Guidance Development Group. However,
+                    a simple method for prioritising dental emergencies in primary care practice and specific self-help
+                    advice for dental staff to provide to patients are included. These are also provided as a separate
+                    `Practice Guide' for use in practice. Quality standards that specify the requirements of out-of-hours
+                    emergency dental services are presented for use by NHS Boards and all dentists. A diagram providing
+                    an overview of the guidance is provided at the end of this document.
+
+                    This guidance is directed towards all those who have a role in delivering dental care, including
+                    general dental practitioners, dental nurses, receptionists, and staff within the salaried, community
+                    and hospital dental services. It is also considered to be relevant to those responsible for organising
+                    emergency dental service provision at a local or regional level, dental policymakers in NHS Boards
+
+2
+                Emergency Dental Care
+
+1 Introduction
+
+and at a national level. The guidance applies to all patients, including adults, children and those with
+special needs, irrespective of whether they are currently registered with a dentist or not.
+
+In preparing the guidance, few studies were found that investigated the provision of unscheduled
+or emergency dental care services. As research evidence to inform the development of the guidance
+was limited, the process of development has been based largely on expert opinion (see Appendix 1
+Guidance Development).
+
+1.2 Statement of Intent
+
+This guidance has resulted from a careful consideration of current legislation, professional regulations,
+the available evidence and expert opinion. The Guidance Development Group recommends that the
+entire document be adopted as standard practice when planning or undertaking the care of patients
+with dental emergencies and in planning the delivery of emergency dental services. As guidance, it
+does not override the individual responsibility of the health professional to make decisions appropriate
+to the individual patient. However, it is advised that significant departures from this guidance are fully
+documented and that this documentation is included in the record of advice given to all patients who
+contact dental services in an emergency.
+
+                                                                                                            3
+Emergency Dental Care
+
+           2 Emergency Care in Practice
+
+   This section of the guidance is aimed primarily at dental staff directly involved in responding to
+   emergency calls within the practice setting. Information in Sections 2.2 and 2.3 is also provided as a
+   separate `Practice Guide' for use in daily dental practice.
+
+   2.1 Main Elements of a Patient Pathway to Emergency Dental Care
+
+   In 2003 the Scottish Executive Health Department issued guidance on emergency dental care that
+   identified three categories of need: dental emergencies; urgent dental conditions; and routine dental
+   problems9. Based on these three categories of need, a simple pathway to providers of care for patients
+   who contact the service with a dental emergency is presented below.
+
+   The initial patient contact is typically by telephone. The term triage describes the process of sorting
+   patients into groups based on their need for or likely benefit from immediate treatment. Telephone
+   triage is an important element in the handling of emergency contacts. Not only can it identify those
+   patients who are the highest priority but the telephone contact itself provides an opportunity to
+   reassure the patient and give advice5,7,10. The triage of large volumes of emergency telephone
+   contacts requires detailed algorithms and decision-support software packages such as those used
+   by NHS 24. The details of these are beyond the remit of this guidance. However, as dental practices
+   need to conduct a basic form of triage on a daily basis in response to telephone calls from patients
+   requesting emergency appointments, a simple method for use by primary dental care staff is given
+   in Section 2.2.
+
+   Following the initial patient contact:
+
+       Record patient details.
+       Triage to one of three care categories depending on the assessed need of the patient, as shown
+       in the diagram below (for details, see Sections 2.1.1, 2.1.2 and 2.1.3).
+
+                                                     Patient with Dental
+                                                           Emergency
+
+                                                       Initial Telephone
+                                                     Contact and Triage
+
+   Emergency Care    Urgent Care         Advice, Self Help
+      Section 2.1.1  Section 2.1.2       and Routine Care
+
+                                             Section 2.1.3
+
+4
+                              Emergency Dental Care
+
+2 Emergency Care in Practice
+
+2.1.1 Emergency Care
+
+Approximately 1% of `emergency' telephone calls are likely to fall into the `Emergency Care'
+category.
+
+Category of Need: Dental Emergencies
+
+Conditions include:
+          · Trauma including facial/oral laceration and/or dentoalveolar injuries (e.g. avulsion of
+             a permanent tooth)
+          · Oro-facial swelling that is significant and worsening
+          · Post-extraction bleeding that the patient is not able to control with local measures
+          · Dental conditions that have resulted in acute systemic illness or raised temperature
+             as a result of dental infection
+          · Severe trismus
+          · Oro-dental conditions that are likely to exacerbate systemic medical conditions
+             (e.g. diabetes)
+
+Provider:
+          · During normal working hours: dental practice where registered, dental access centre
+             or other local access clinic
+          · Out-of-hours: evening or weekend dental access clinic or through another agreed
+             local provider (e.g. Oral and Maxillofacial on-call staff)
+
+Timescale:
+    Provide contact with a clinician within 60 minutes and subsequent treatment within a timescale
+    that is appropriate to the severity of the condition.
+
+                                                                                                     5
+Emergency Dental Care
+
+           2 Emergency Care in Practice
+
+                 2.1.2 Urgent Care
+
+                     Approximately 75% of `emergency' telephone calls are likely to fall into the `Urgent Care' category.
+                     Category of Need: Urgent Dental Conditions
+                     Conditions include:
+
+                               · Dental and soft-tissue infections without a systemic effect
+                               · Severe dental and facial pain: that is, pain that cannot be controlled by the patient
+
+                                  following self-help advice (see Section 2.3.1)
+                               · Fractured teeth or tooth with pulpal exposure
+                     Provider:
+                               · During normal working hours: dental practice where registered, dental access centre
+
+                                  or other local access clinic
+                               · Out-of-hours: evening or weekend dental access clinic
+                     Timescale:
+                         Provide self-help advice and treat patient within 24 hours.
+                         Advise patient to call back if their condition deteriorates.
+
+6
+                              Emergency Dental Care
+
+2 Emergency Care in Practice
+
+2.1.3 Advice, Self Help and Routine Care
+
+Approximately 25% of `emergency' telephone calls are likely to fall into the `Advice, Self Help and
+Routine Care' category.
+
+Category of Need: Routine Dental Problems
+
+Conditions include:
+          · Mild or moderate pain: that is, pain not associated with an Urgent Care condition
+             and that responds to pain-relief measures
+              - Refer to Section 2.3.1 for guidance on providing advice to patients
+          · Minor dental trauma
+              - Refer to Section 2.3.2 for guidance on providing advice to patients
+          · Post-extraction bleeding that the patient is able to control using self-help measures
+              - Refer to Section 2.3.3 for guidance on providing advice to patients
+          · Loose or displaced crowns, bridges or veneers
+          · Fractured or loose-fitting dentures and other appliances
+          · Fractured posts
+          · Fractured, loose or displaced fillings
+          · Treatments normally associated with routine dental care
+          · Bleeding gums
+
+Provider:
+          · Patient self help and, for dental treatment, dental practice where registered or
+             dental access centre or other local access centre
+
+Timescale:
+    Provide self-help advice. Provide access to an appropriate service within 7 days if required.
+    Advise patient to call back if their condition deteriorates.
+
+                                                                                                     7
+Emergency Dental Care
+
+           2 Emergency Care in Practice
+
+   2.2 Prioritising Commonly Presenting Dental Emergencies in
+           Primary Care
+
+   The following diagram illustrates a simple method for prioritising emergency calls from patients for
+   use by dental staff in the practice setting. Note that this is not comprehensive but deals with the most
+   common presenting conditions.
+
+                           Is there swelling?
+
+                           YES                     NO
+
+   Does swelling restrict                                    1 Is patient in pain?
+   swallowing or extend                                                  or
+
+         to the eye?                                   2 Has patient suffered trauma
+                                                                  to the teeth?
+   YES         NO                                                        or
+
+                                                       3 Is there bleeding following
+                                                                 an extraction?
+
+               Provide self-help                       YES           NO
+                   advice on
+                 pain relief if
+                    required
+
+                                    Provide self-help advice on
+                                     pain relief (Section 2.3.1)
+
+                                                    or
+                                   dental trauma (Section 2.3.2)
+
+                                                    or
+                                      post-extraction bleeding
+
+                                            (Section 2.3.3)
+                                  as appropriate to the condition
+
+                                  If severe pain,        If avulsed  If mild or
+                                 avulsed primary        permanent    moderate
+                                 tooth or dentine
+                                                         tooth or     pain or
+                                    exposed by         uncontrolled    minor
+                                       trauma                          dental
+                                                         bleeding     trauma
+                           Provide
+                           URGENT                                      Provide
+                                                                      ROUTINE
+                             Care
+                                                                         Care
+      Provide
+   EMERGENCY
+
+        Care
+
+8
+                              Emergency Dental Care
+
+2 Emergency Care in Practice
+
+2.3 Providing Self-help Advice on Commonly Presenting
+        Emergency Dental Conditions
+
+Although guidance on clinical decision-making is not within the remit of this document, there is
+frequently a need for practice staff to advise patients on how to manage their symptoms prior to
+seeing a dentist. Sections 2.3.1 to 2.3.3 therefore provide guidance on managing a range of common
+emergency conditions for which self help might be beneficial to the patient.
+
+2.3.1 Providing Advice on Managing Dental Pain
+
+The delivery of advice on managing dental pain requires suitable training.
+
+Context
+Patients who are waiting for dental appointments might require basic advice on the effective
+management of their dental pain.
+
+    Give the patient the following advice on the use of self-help measures, including ibuprofen
+    and/or paracetamol to relieve pain.
+
+          · Avoid stimuli that precipitate or worsen the pain such as hot or cold foods or cold
+             air.
+
+          · Holding cooled water or crushed ice around the tooth can help some types of dental
+             pain.
+
+          · Severe pain from the mouth or teeth sometimes feels worse when lying flat;
+             therefore, try lying propped up as this might ease the pain.
+
+          · Use painkillers that have successfully provided pain relief for you in the past without
+             adverse effects. For moderate or severe pain refer to dosage advice overleaf.
+
+          · Avoid taking aspirin as a painkiller if there is bleeding.
+    Ensure patients are reminded to follow the directions on the packet for advice on precautions in
+    some medical conditions. For example, patients with asthma should avoid ibuprofen.
+    Advise the patient to call back if the advice provided proves inadequate.
+
+                                                                                                      9
+Emergency Dental Care
+
+           2 Emergency Care in Practice
+
+                    Analgesic advice ­ to be given only after establishing that the following painkillers have
+                    been used successfully by the patient in the past.
+                    Detailed dosage advice can be given only by a suitably qualified health professional.
+                    The following analgesic dosage options can be recommended for patients with no contraindications.
+
+                               · For moderate pain of dental origin in adults11, either:
+                                   - ibuprofen, 1 x 400 mg tablets 4­6 hourly,
+                                     or
+                                   - paracetamol, 2 x 500 mg tablets 4­6 hourly.
+                                     No more than 3 x 400 mg ibuprofen or 8 x 500 mg paracetamol tablets in a
+                                     24-hour period.
+
+                               · For pain of dental origin in children, either:
+                                   - ibuprofen (100 mg/5 ml oral suspension), 50­200 mg (depending on age) three
+                                      times daily,
+                                     or
+                                   - paracetamol (120 mg/5 ml or 250 mg/5 ml oral suspension), 60­500 mg
+                                      (depending on age) four times daily.
+                                     Follow the instructions on the bottle.
+
+                               · For severe pain of dental origin in adults, either:
+                                   - ibuprofen and paracetamol alternately (e.g. ibuprofen 400 mg followed 2 hours
+                                      later by paracetamol 2 x 500 mg and so on without exceeding the recommended
+                                      daily dose or frequency for either drug),
+                                     or
+                                   - ibuprofen, 2 x 400 mg tablets 8 hourly, up to a maximum of 2.4 g in a 24-hour
+                                      period.
+
+10
+                              Emergency Dental Care
+
+2 Emergency Care in Practice
+
+2.3.2 Providing Advice on Managing Dental Trauma Prior to Dental
+        Assessment
+
+Context
+
+Depending on the nature of the injury, patients who have experienced trauma to their mouth might
+require Urgent or Emergency dental attention. Dental trauma exposing the dentine requires an
+urgent appointment with a dentist. For an avulsed permanent tooth, prior to seeing a dentist, advice
+on handling and storage of the tooth to preserve the cells of the periodontal ligament might be
+required.
+
+    Provide advice on the management of pain and post-extraction bleeding as described in Sections
+    2.3.1 and 2.3.3, if required.
+
+    For broken or fractured teeth, determine whether dentine has been exposed by asking
+    the patient if they are in pain or are sensitive to heat or cold. If they are, arrange an Urgent
+    appointment with a dentist to help avoid pulpal infection.
+
+    If dentine has not been exposed, advise the patient that this does not require Emergency care but
+    that a routine appointment might be necessary to restore aesthetics or to remove sharp edges.
+
+    For avulsed permanent teeth, it might be possible to replant the tooth if this can be carried
+    out soon after avulsion, ideally within 30 minutes. Arrange for the patient to see a dentist as an
+    Emergency case as soon as possible. Advise the patient to handle the tooth by the crown only, to
+    avoid touching the root and to store the tooth moist, preferably in fresh or long-life milk.
+
+    For avulsed primary teeth, advise the patient that the tooth should not be replanted and
+    arrange an Urgent appointment to assess potential trauma to the developing permanent teeth.
+    Give advice on pain management (Section 2.3.1).
+
+                                                                                                        11
+Emergency Dental Care
+
+           2 Emergency Care in Practice
+
+                 2.3.3 Providing Advice on Managing Post-extraction Bleeding
+
+                    Context
+                    Patients who have had extractions during the past week might require basic advice on the
+                    management of bleeding from the extraction area.
+
+                         Ascertain that no anticoagulant medication is currently being taken.
+                         Give the patient the following advice on the use of self-help measures to stop the bleeding.
+
+                               · Blood-stained saliva is normal after dental extractions.
+                               · Make a small pad with a clean cotton handkerchief or kitchen towel and dampen it
+
+                                 slightly with water.
+                               · Rinse the mouth once only with warm (not hot) water to get rid of the blood.
+                               · Place the damp pad over the socket area and bite firmly. If there are no opposing
+
+                                 teeth hold the pad firmly on the socket. Maintain this while sitting upright quietly
+                                 for 20 minutes and then check. Repeat once if necessary.
+                               · After the bleeding has stopped, remain rested and as upright as possible.
+                               · Do not drink alcohol.
+                               · Do not disturb the blood clot in the socket.
+                         Advise the patient to re-contact the service if these self-help measures prove inadequate.
+
+12
+                                                                                                                Emergency Dental Care
+
+3 The Organisation of Emergency
+      Dental Services
+
+This section of the guidance describes the national organisation of emergency dental services
+and includes standards for the provision of out-of-hours services. It is directed primarily at those
+responsible for organising emergency dental services at a national, regional or local level, but is also
+of relevance to all dentists.
+
+3.1 NHS Board Areas
+
+Primary dental care providers have continuing contractual obligations to ensure that appropriate care
+is provided for their registered patients who have a dental emergency1. NHS Boards are responsible
+and accountable for planning and delivering dental services to their local populations (including
+emergency and out-of-hours dental services) and for providing information on accessing dental
+services, particularly when care is required urgently6.
+
+Guidance and successive tranches of funding from the Scottish Executive9 have resulted in the
+development of a variety of arrangements for the provision of out-of-hours emergency dental care
+across Scotland3. However, in contrast to out-of-hours primary care medical services, to date there
+have been no agreed standards for out-of-hours emergency dental services. Therefore, standards for
+out-of-hours primary emergency dental services are presented in this guidance (Section 3.3).
+
+Although the standards include all patient groups, each Board area should have specific arrangements to
+address the particular needs of patients in the following categories who have a dental emergency:
+
+          · Children with dental trauma, including clear pathways into local child protection
+             procedures (for detailed advice refer to `Child Protection and the Dental Team'12,13)
+
+          · Medically compromised patients
+          · Patients who are hospitalised
+          · Patients with specific access problems (e.g. homeless, ethnic minority, sensory
+
+             impairment)
+          · Patients in remote and rural locations
+          · Patients who require domiciliary care
+          · Patients with orthodontic appliance problems
+
+3.2 Regional and National
+
+The development of a national infra-structure for out-of-hours emergency dental services is being
+coordinated by a Scottish Emergency Dental Services (SEDS) Board, working with NHS 24.
+
+The model that has emerged from this work is that:
+
+          · NHS 24 will provide the initial telephone call handling for all patients with a dental
+             emergency;
+                                                                                                                                                  13
+Emergency Dental Care
+
+           3 The Organisation of Emergency
+                 Dental Services
+
+                               · calls will be triaged by an appropriately trained dental nurse, with those patients who
+                                 require Emergency or Urgent care being directed into local services at a regional or
+                                 NHS Board level within the recommended timescales (see Section 2).
+
+                    Adoption of this model should ensure a high degree of consistency across NHS Board areas for all
+                    patients (regardless of registration status) and the development of robust local services to provide
+                    subsequent care. It is proposed that primary care practitioners who opt in to the national emergency
+                    dental service in order to provide out-of-hours cover for their practice patients will commit to
+                    participating in a local emergency dental service staffing rota. Participation in the national emergency
+                    dental service should enable practitioners to meet the Out-of-hours Emergency Dental Standards
+                    presented in Section 3.3.
+                    The current status of the implementation of the national emergency dental service will be made
+                    available via the Scottish Dental internet portal www.scottishdental.org.
+
+                 3.3 Out-of-hours Emergency Dental Standards
+
+                    The following standards for the provision of emergency out-of-hours dental care are based on a draft
+                    prepared by the Consultants in Dental Public Health Audit Group. They have been adapted from the
+                    standards for out-of-hours primary care medical services published by NHS Quality Improvement
+                    Scotland (NHS QIS) in August 2004, entitled `The Provision of Safe and Effective Medical Services
+                    Out-of-Hours'14.
+                    After publication of the medical standards, NHS QIS conducted follow-up visits to NHS Boards and
+                    published a national overview of these services in October 200615. A similar process is recommended
+                    for the out-of-hours emergency dental service standards and a national assessment tool is being
+                    developed to enable a comprehensive assessment of compliance after the Scottish Emergency Dental
+                    Service is fully rolled out. It is recommended that all primary dental care providers participate in this
+                    national service in conjunction with their local NHS Boards.
+                    These standards apply to out-of-hours emergency dental care; however, it is also the responsibility of
+                    all primary care dental providers (including private providers) to ensure that registered patients who
+                    present with dental emergencies during the working day are prioritised and offered care within the
+                    recommended timescales (see Section 2).
+
+14
+                                                                                                                Emergency Dental Care
+
+Out-of-hours Emergency Dental Standards
+
+STANDARD 1 ~ Accessibility and Availability at First Point of
+Contact
+
+     Standard             Rationale                                  Criteria
+    Statement
+                   Oral health-related     1(a) 1. Arrangements are in place to identify the
+1(a) Out-of-       problems happen         needs of those potentially using these services.
+hours emergency    after dental practices
+dental services*   have closed.            1(a) 2. Arrangements are in place to meet
+are available                              the needs of those potentially using these
+and accessible     In order to access      services.
+to patients        care at all times,
+(irrespective      patients and their      1(a) 3. Arrangements are in place for patients
+of their dental    representatives need    or their representatives to access care by
+registration       information regarding   telephone (in the first instance).
+status).           the out-of-hours
+                   primary care dental     1(a) 4. Following triage, patients receive advice
+*`Out-of-hours'    services available in   and care from a suitably trained health
+is defined in PCA  their area and access   professional, appropriate to the degree of
+2003(D)189 as:     to these services       urgency of their condition.
+                   when necessary.
+weekdays                                   1(a) 5. Access to, and delivery of, services is not
+5.30 pm to                                 compromised by physical (including medical
+8.30 am,                                   conditions), language, cultural, social,
+                                           economic or other barriers.
+weekends from
+5.30 pm Friday                             1(a) 6. Arrangements for access should be
+to 8.30 am                                 integrated across all areas of dental out-of-hours
+Monday.                                    care (general dental practice, community,
+                                           salaried and hospital dental service), and, where
+                                           appropriate, with other primary care
+                                           emergency services.
+
+                                           1(a) 7. Information on how to access the
+                                           service should be available to all and not
+                                           compromised by physical, language, cultural,
+                                           social, economic or other barriers.
+
+                                                                                                                                       15
+Emergency Dental Care
+
+           Out-of-hours Emergency Dental Standards
+
+    STANDARD 2 ~ Safe and Effective Care
+
+    2(a) Healthcare Governance
+
+         Standard     Rationale                Criteria
+        Statement
+                      Involving patients in    Patient Focus
+    2(a) The service  their care supports
+    provider has a    their decision-          2(a) 1. Throughout the service, work is
+    comprehensive,    making and there         undertaken in partnership with individuals,
+    patient-focused   is good evidence         communities and community planning partners
+    healthcare        that outcomes are        in the design, development and review of
+    governance        improved. Safe and       services. The results of this work are acted upon
+    programme         effective care can       and feedback is provided to all those involved.
+    in place.         only be provided if:
+                                               2(a) 2. Information is made available by the
+                      · patient safety is at   provider for the patient and their representatives
+                        the core of all care   regarding any care or treatment given.
+                        and treatment, and
+                        risks are identified,  Clinical Governance
+                        managed and
+                        minimised (clinical    2(a) 3. There are clear, cohesive plans across the
+                        governance);           service that direct and support policy
+                                               development and service delivery internally
+                      · staff are competent,   and through delivery partners.
+                        supported and have
+                        ongoing training       2(a) 4. Service providers operate a system of risk
+                        (staff governance).    management to ensure that risks are identified,
+                                               assessed, controlled and minimised.
+                      Healthcare
+                      governance aims          2(a) 5. Board clinical governance committees
+                      to put in place the      receive regular reports on out-of-hours
+                      necessary clinical       emergency dental services.
+                      staffing and corporate
+                      infrastructure that      2(a) 6. Boards have systems in place to ensure
+                      informs the              that all primary dental care providers have
+                      identification of risks  satisfactory arrangements for the emergency
+                      and supports the         care of their practice patients.
+                      provision of safe and
+                      effective care.          2(a) 7. Arrangements are in place to
+                                               communicate, inform and cooperate with key
+                                               professionals, external parties and voluntary
+                                               agencies.
+
+                                               2(a) 8. Systems are in place to ensure that
+                                               secondary care dental providers have access
+                                               arrangements for their patients with dental
+                                               emergencies.
+
+                                               Staff Governance
+
+                                               2(a) 9. Staff involved in out-of-hours dental
+                                               care meet employment requirements,
+                                               including qualifications and training.
+
+16
+                                                         Emergency Dental Care
+
+Out-of-hours Emergency Dental Standards
+
+STANDARD 2 ~ Safe and Effective Care
+
+2(b) Clinical Care
+
+    Standard                Rationale                                    Criteria
+    Statement
+                     Effective patient care    2(b) 1. Procedures are in place to ensure quick
+2(b) Clinical        cannot be provided        and easy access to evidence-based clinical
+guidelines           without knowledge         guidelines to support clinical decision-making.
+are readily          of, understanding
+available to         of and access to          2(b) 2. Patients are assessed and responded to,
+support clinical     information based on      based on clinical need and professional
+decision-making      the best available        judgement.
+and facilitate       evidence.
+delivery of                                    2(b) 3. Emergency dental services have drugs
+quality services                               that are in date, and equipment that is regularly
+to patients.                                   maintained.
+
+                                               2(b) 4. Emergency dental services have effective
+                                               decontamination procedures in place.
+
+                                               2(b) 5. Protocols are in place to address the
+                                               needs of specific high-risk patient groups.
+
+2(c) Information and Communication
+
+Standard             Rationale                 Criteria
+Statement
+
+2(c) Information     Timely communication      2(c) 1. Systems are in place for the completion,
+gathered during      of clear and              use, storage and retrieval of records including
+care out of hours    appropriate               compliance with the Data Protection Act 1998.
+is recorded          information to those
+(on paper or         providing ongoing care    2(c) 2. Systems are in place for receiving and
+electronically) and  is essential to ensure    communicating information to inform the
+communicated         effective treatment       patient's ongoing care in a timely manner.
+to the patient's     or follow up.
+dentist in addition                            2(c) 3. Systems are in place to ensure that
+to any other         It is important that a    patients are aware of, and agree to, the
+professionals        range of processes        sharing of information about them and their
+involved in the      such as technology,       care with other health professionals.
+patient's ongoing    training and support
+care when            services are in place to
+appropriate.         allow effective transfer
+                     of information.
+
+                                                                                                  17
+Emergency Dental Care
+
+           Out-of-hours Emergency Dental Standards
+
+    STANDARD 3 ~ Audit, Monitoring and Reporting
+
+         Standard     Rationale               Criteria
+        Statement
+                      Monitoring of           3(a) 1. A set of key performance indicators
+    3(a) A provider-  performance helps       (patient-focused public involvement, clinical
+    specific quality  to identify and         and organisational) are in place.
+    assurance         manage risks and
+    framework is in   supports the continual  3(a) 2. Comments, complaints and
+    place to support  improvement of care.    compliments are recorded, regularly reviewed
+    routine audit,                            and action taken if appropriate.
+    monitoring and    Competent handling
+    reporting of      of comments and         3(a) 3. The service provider takes action to
+    performance.      complaints can          identify patient views and satisfaction levels.
+                      increase user
+                      satisfaction and        3(a) 4. An annual report on performance and
+                      facilitate changes in   services is available when requested
+                      practice to improve     by those contracting services.
+                      quality of care.
+
+                      Reporting of
+                      performance enables
+                      providers to account
+                      systematically for the
+                      quality of services
+                      they provide.
+
+18
+                                                                                                                 Emergency Dental Care
+
+4 Clinical Governance, CPD and Training
+
+It is a requirement of clinical governance and fundamental good clinical practice that all health
+professionals work to monitor and constantly strive to improve the quality of care that they and their
+teams provide to patients.
+The quality of service provided to patients with an emergency is often subjected to particular scrutiny
+by the patient or their relatives because of the acute pain that usually accompanies the dental
+condition.
+It is recommended that:
+
+          · all those involved in providing the first point of patient contact (such as the dental
+             receptionist and dental triage nurse) receive appropriate training and ongoing
+             professional development, including specific instruction on the use of common
+             analgesic preparations (Section 2.3.1);
+
+          · all those involved in the delivery of emergency dental services regularly seek to
+             audit their practice, and arrangements that are in place for emergency dental care
+             are examined as part of the standard dental inspections of general dental practices
+             and other primary care providers and reflect the good practice outlined in this
+             guidance;
+
+          · telephone triage services audit their performance on a regular basis and are subject
+             to external review;
+
+          · all providers of emergency dental care carry out significant event analysis (SEA)
+             as appropriate; further information is available via NHS Education for Scotland
+             (www.nes.scot.nhs.uk/dentistry/general/audit).
+
+                                                                                                                                                  19
+Emergency Dental Care
+
+           5 Recommendations for Audit and
+                 Research
+
+                 5.1 Recommendations for Audit
+
+                    Audit topics should be carefully chosen to provide information that will inform the future
+                    development and improvement of services. Examples include:
+
+                               · the appropriateness of the triage of patients accessing emergency dental care;
+                               · the appropriateness of dental treatments provided to patients accessing emergency
+
+                                 care;
+                               · patient satisfaction with the emergency dental service they receive.
+
+                 5.2 Recommendations for Research
+
+                    There has been very limited research on the provision of emergency dental services. Areas to consider
+                    for future research include:
+
+                               · whether improving public awareness of available emergency dental services improves
+                                 accessibility and appropriate use;
+
+                               · the impact of service availability on out-of-hours demand;
+                               · barriers to patient access to emergency dental care;
+                               · evaluation of the dissemination and implementation of SDCEP `Emergency Dental
+
+                                 Care' guidance.
+
+20
+                      Emergency Dental Care
+
+Appendix 1
+
+Guidance Development
+
+The Scottish Dental Clinical Effectiveness Programme
+
+The Scottish Dental Clinical Effectiveness Programme (SDCEP) is an initiative of the National Dental
+Advisory Committee (NDAC) in partnership with NHS Education for Scotland.
+
+The NDAC comprises representatives of all branches of the dental profession and acts in an advisory
+capacity to the Chief Dental Officer. It considers issues that are of national importance in Scottish
+dentistry and also provides feedback to other bodies within the Scottish Government on related,
+relevant healthcare matters. Periodically, sub-groups of the NDAC have produced publications,
+including `Emergency Dental Drugs', `Clinical Governance in Dental Primary Care' and `Dental Practice
+Advisors in Scotland'.
+
+To give a structured approach to providing clinical guidance for the dental profession, SDCEP was
+established in 2004 under the direction of the NDAC. The primary aim of the programme is to
+support dental teams throughout Scotland by providing guidance developed by the profession for
+the profession on topics identified as priorities for dentistry in Scotland. SDCEP guidance is designed
+to help the dental team provide improved care for patients by bringing together, in a structured
+manner, the best available information that is relevant to priority areas in dentistry, and presenting
+this information in a form that can be interpreted easily and implemented.
+
+The increasing emphasis within healthcare on the adoption of an evidence-based approach
+to clinical care and treatment, and changes in the regulatory framework of healthcare provision
+present significant challenges for dental teams. To help meet these challenges, SDCEP is developing
+guidance that takes a variety of forms to suit the diverse topics being addressed. Within many
+areas of dentistry there is a lack of the type of high-quality scientific evidence that usually informs
+the recommendations within conventional clinical guidelines. Despite this, there is some research
+evidence and a wealth of expertise and specialist knowledge within dentistry upon which to draw in
+order to make recommendations. In other areas, documentation, including legislation, policies and
+guidelines, is not in a readily accessible format for dental teams. A key aim of the Programme is to
+evaluate the best available information that is relevant to dentistry and to translate it into a form that
+members of the dental profession will be able to interpret easily and implement.
+
+The methodology used to develop SDCEP guidance mirrors that used to develop high-quality
+guidelines. It aims to be transparent, systematic and to adhere as far as possible to international
+standards set out by the Appraisal of Guidelines Research and Evaluation (AGREE) Collaboration
+(www.agreecollaboration.org/).
+
+SDCEP is funded by the Scottish Government Health Directorates, and through its collaboration with
+NHS Education for Scotland contributes to the implementation of the Scottish Government's Dental
+Action Plan, which aims to both modernise dental services and improve oral health in Scotland.
+
+                                                                                                            21
+Emergency Dental Care
+
+           Appendix 1
+
+              Guidance Development
+
+    The Guidance Development Group
+
+    A Guidance Development Group, comprising individuals from all branches of the dental profession
+    that have a role in the provision of emergency dental care, was convened to develop and write this
+    guidance.
+
+    Mr Graham Ball        Consultant in Dental Public Health, NHS Fife
+    (Chairman)
+    Mrs Dawn Adams        Clinical Director of Community Dental Services, Fife
+    Dr Robert Broadfoot   Dental Director Primary Care Division, NHS Greater Glasgow
+    Mr Martin Donachie    Consultant in Restorative Dentistry, Maxillofacial Unit, Aberdeen Royal
+                          Infirmary, Grampian Universities Hospital Trust, Aberdeen
+    Mrs Helen Donaghy     General Dental Practice Manager, Glasgow
+    Mr Douglas Duncan     Lead Clinician, Chalmers Dental Centre, NHS Lothian
+    Dr Gail Topping       Director of the Dental Caries Control Programme, Dental Health Services
+                          Research Unit and Honorary Consultant in Dental Public Health
+    Mr Andy Yuill         General Dental Practitioner and Dental Practice Advisor, NHS Fife and
+                          NHS Tayside
+
+    The Programme Development Team
+
+    The Guidance Development Group worked closely with the Programme Development Team, which
+    provides project management and administrative support and is responsible for the methodology
+    of guidance development. The team facilitates all aspects of guidance development by searching
+    and appraising information and evidence, conducting research, liaising with external organisations,
+    editing the guidance, and managing the publication and dissemination of guidance materials.
+
+    Dr Jan Clarkson       Director
+    Dr Douglas Stirling   Research Manager ­ Guidance and Programme Development
+    Dr Gillian MacKenzie  Guidance Development Researcher ­ Developmental Editing
+    Mrs Linda Young       Guidance Development Researcher ­ Evaluation of Implementation
+    Mrs Jill Farnham      Administrator
+
+22
+                      Emergency Dental Care
+
+Appendix 1
+
+Guidance Development
+
+Guidance Development Methodology
+
+The guiding principle for developing guidance within the Scottish Dental Clinical Effectiveness
+Programme (SDCEP) is to first source existing guidelines, policy documents, legislation or other
+recommendations. Similarly, relevant systematic reviews are also identified initially. These documents
+are appraised for their quality of development, evidence base and applicability to the remit of the
+guidance under development. In the absence of these documents or when supplementary information
+is required, published literature is searched and unpublished work is sought.
+
+For this guidance, published studies were identified by searching Medline. All consultants in dental
+public health in Scotland were contacted to identify any relevant unpublished work. Additional
+material was supplied by members of the Guidance Development Group. Few studies were found
+that investigated the provision of emergency dental services and so research evidence to inform the
+development of the guidance was limited; therefore, the process of development was based largely
+on expert opinion.
+
+Consultation was conducted prior to peer review and publication. The consultation draft was
+distributed to a range of individuals and organizations with an interest in the delivery of emergency
+dental care. In addition, dentists in Scotland were invited to comment on the draft, which was
+available on our website, www.scottishdental.org/cep, or on request. All comments received through
+the consultation were considered by the Guidance Development Group and the guidance amended
+accordingly prior to peer review. Further amendments were made in response to comments from
+peer reviewers before publication.
+
+A system for grading recommendations has been developed within SDCEP16. This draws in part
+on the levels of evidence as defined by the Scottish Intercollegiate Guidelines Network (SIGN)17.
+As this guidance is concerned with the provision of emergency dental services rather than clinical
+aspects of patient care, it was considered inappropriate to categorise individual recommendations in
+this manner. Instead, the Guidance Development Group recommends that the entire document be
+adopted as standard practice.
+
+Further information about the methodology used to develop this guidance is available on the SDCEP
+website: www.scottishdental.org/cep.
+
+Declarations of interest are made by all contributors to SDCEP. Details are available on request.
+
+Reviewing and Updating
+
+A review of all aspects of the context of this guidance (regulations, legislation, trends in working
+practices and evidence) will take place two years after publication and, if this has changed significantly,
+the guidance will be updated accordingly.
+
+                                                                                                                                                  23
+Emergency Dental Care
+
+           Appendix 1
+
+              Guidance Development
+
+    Steering Group
+
+    The Steering Group oversees all the activities of the Scottish Dental Clinical Effectiveness Programme
+    and includes representatives of each guidance development group and the dental institutions in
+    Scotland.
+
+    Prof. Jeremy Bagg       Chairman of the National Dental Advisory Committee; Head of Glasgow
+    (Chairman)              Dental School and Professor of Clinical Microbiology, University of
+                            Glasgow
+
+    Mr Graham Ball          Consultant in Dental Public Health, Fife
+
+    Dr Jan Clarkson         Director, Scottish Dental Clinical Effectiveness Programme; Programme
+                            Director, Dental Health Services Research Unit, University of Dundee
+
+    Dr Dafydd Evans         Senior Lecturer and Consultant in Paediatric Dentistry, Dundee Dental
+                            Hospital and School, University of Dundee
+
+    Prof. Richard Ibbetson  Director, Edinburgh Postgraduate Dental Institute, University of
+                            Edinburgh
+
+    Mrs Mary McCann         General Dental Practitioner, Glasgow; Deputy Chief Dental Officer until
+                            June 2006
+
+    Miss Alice Miller       General Dental Practitioner, Duns, Borders; VT Adviser, NHS Education
+                            for Scotland
+
+    Prof. Nigel Pitts       Director, Dental Health Services Research Unit, University of Dundee
+
+    Mr Derek Richards       Specialist Advisor to the Programme Development Team; Consultant in
+                            Dental Public Health, Forth Valley; Director of the Centre for Evidence-
+                            Based Dentistry, Oxford
+
+    Dr Nigel Robb           Senior Lecturer in Sedation in Relation to Dentistry, University of
+                            Glasgow Dental School
+
+    Prof. William Saunders Dean of the Dental School, University of Dundee
+
+    Mr Alan Whittet         General Dental Practitioner, Longniddry; Dental Practice Advisor, NHS
+                            Lothian
+
+    Prof. David Wray        Professor of Oral Medicine, University of Glasgow Dental School
+
+24
+                                                                      Emergency Dental Care
+
+References
+
+1  The National Health Service (General Dental Services) (Scotland) Regulations 1996. The Stationery Office
+
+   Limited (1996)
+
+   (www.opsi.gov.uk/si/si1996/Uksi_19960177_en_10.htm)
+
+2  National Standards for Dental Services. Scottish Executive (2006)
+
+   (www.scotland.gov.uk/Publications/2006/12/13143754/0)
+
+3  Audit of Emergency Dental Service Provision by NHS Trusts in Scotland. Consultants in Dental Public
+
+   Health Audit Group (unpublished) (2004)
+
+4  Anderson R, Thomas DW. Out-of-hours dental services: a survey of current provision in the United
+
+   Kingdom. British Dental Journal (2000) 188: 269-274
+
+5  Topping GV. Out-of-hours emergency dental services-evaluation of the first year of a pilot project in Fife.
+
+   British Dental Journal (2005) 198: 193-197
+
+6  An action plan for improving oral health and modernising NHS dental services in Scotland. Scottish
+
+   Executive Health Department (2005)
+
+   (www.scotland.gov.uk/Publications/2005/03/20871/54813)
+
+7  Anderson R, Thomas DW, Phillips CJ. The effectiveness of out-of-hours dental services: II. patient
+
+   satisfaction. British Dental Journal (2005) 198: 151-156
+
+8  White S. Out-of-hours dental care in Oxfordshire, Masters of Public Health Thesis, University of
+
+   Birmingham (2002)
+
+9  Emergency Dental Care Services ­ Guidance and Funding NHS. PCA(D)(2003)18 Directorate of Service
+
+   Policy & Planning, Scottish Executive Health Department (2003)
+
+   (www.show.scot.nhs.uk/sehd/pca/PCA2003(D)18.pdf)
+
+10 Horton M, Harris RV, Ireland RS. The development and use of a triage protocol for patients with dental
+         problems contacting an out-of-hours general medical practitioner cooperative. Primary Dental Care
+         (2001) 8: 93-97
+
+11 Barden J, Edwards JE, McQuay HJ, Wiffen PJ, Moore RA. Relative efficacy of oral analgesics after third
+         molar extraction. British Dental Journal (2004) 197: 407-411
+
+12 Child Protection and the Dental Team: An Addendum for Scotland. University of Glasgow Dental Hospital
+         and School and NHS Greater Glasgow (2006)
+         (www.cpdt.org.uk/f_info/dload/addendumScot06.pdf)
+
+13 Harris J, Sidebotham P, Welbury R. Child Protection and the Dental Team: an introduction to safeguarding
+         children in dental practice. Committee of Postgraduate Dental Deans and Directors (COPDEND) (2006)
+         (www.cpdt.org.uk/f_info/dload/CPDHT.pdf)
+
+14 The Provision of Safe and Effective Primary Medical Services Out-of-Hours ­ Standards. NHS Quality
+         Improvement Scotland (2004)
+         (www.nhshealthquality.org/nhsqis/files/Out-of-hours%20(Aug%202004).pdf)
+
+15 The Provision of Safe and Effective Primary Medical Services Out-of-Hours ­ National Overview. NHS
+         Quality Improvement Scotland (2006)
+         (www.nhshealthquality.org/nhsqis/3249.html)
+
+16 Conscious Sedation in Dentistry: Dental Clinical Guidance. Scottish Dental Clinical Effectiveness
+         Programme (2006)
+         (www.scottishdental.org/cep/guidance/dentalsedation.htm)
+
+17 SIGN 50: A Guideline Developer's Handbook. Scottish Intercollegiate Guidelines Network (2001;
+         updated 2004)
+         (www.sign.ac.uk/guidelines/fulltext/50/index.html)
+
+                                                                                                                25
+Emergency Dental Care
+
+           Notes
+
+26
+       Emergency Dental Care
+
+Notes
+
+                              27
+Emergency Dental Care
+28
+Emergency Dental Care ­ Overview                                                                                                                              Emergency Dental Care
+
+This diagram summarises the main elements of the                           Patient with                                      If dental practice is closed or
+provision of care recommended within this guidance.                   Dental Emergency                                   outwith working hours, redirect all
+Further details are provided within the main text of                                                                      calls to an agreed triage provider
+the guidance.                                                        Initial telephone contact
+                                                                  e.g. NHS 24 or Dental Practice
+                                          Record patient details
+                                                                               TRIAGE
+
+              Emergency Care                                                       Urgent Care                                    Advice, Self Help and
+                                                                                                                                         Routine Care
+Condition:                                                        Condition:
+TRAUMA ­ including facial/oral lacerations and/or                 DENTAL AND SOFT-TISSUE INFECTION ­ without a           Condition:
+dentoalveolar injuries                                            systemic effect                                        MILD OR MODERATE DENTAL PAIN
+                                                                                                                         · See Section 2.3.1
+ORO-FACIAL SWELLING ­ that is significant and                     SEVERE DENTAL OR FACIAL PAIN ­ not controlled by
+worsening                                                         following self-help advice                             DENTAL TRAUMA
+                                                                                                                         · See Section 2.3.2
+POST-EXTRACTION BLEEDING ­ not controlled by                      FRACTURED TEETH OR TOOTH WITH PULPAL
+advice and self help                                              EXPOSURE                                               POST-EXTRACTION BLEEDING
+                                                                                                                         · See Section 2.3.3
+DENTAL CONDITIONS ­ resulting in acute systemic                   Provider:
+illness or raised temperature as a result of dental               During normal working hours: dental practice           Provider:
+infection                                                         where registered, dental access centre or other local  Patient self help and, if required, subsequent dental
+                                                                  access clinic                                          appointment
+SEVERE TRISMUS
+                                                                  Out of hours: evening/weekend dental access clinic     Timescale:
+MEDICAL CONDITION ­ oro-dental conditions that                                                                           Provide self-help advice. Provide access to an
+are likely to exacerbate systemic medical conditions              Timescale:                                             appropriate service within 7 days if required. Advise
+(e.g. diabetes)                                                   Provide self-help advice and treat patient within 24   patient to call back if their condition deteriorates.
+                                                                  hours. Advise patient to call back if their condition
+Provider:                                                         deteriorates.
+During normal working hours: dental practice where
+registered, dental access centre or other local access            Note: Routine dental problems that fall outwith the urgent and emergency categories include: mild or moderate dental
+clinic                                                            pain not requiring intervention within 24 hours; loose or displaced crowns, bridges and veneers; fractured or loose-fitting
+                                                                  appliances; fractured posts; and fractured, loose or displaced fillings. Access to an appropriate service provider (usually
+Out of hours: usually through evening/weekend                     the dental practice where registered or local dental access clinic) should be available within 7 days if necessary.
+dental access clinic or local OMFS unit (via on-call
+staff) through an agreed pathway
+
+Timescale:
+Provide contact with a clinician within 60 minutes
+and subsequent treatment within a timescale that is
+appropriate to the severity of the condition.
+The Scottish Dental Clinical Effectiveness Programme (SDCEP) is an initiative
+of the National Dental Advisory Committee (NDAC) and is supported by the
+Scottish Government and NHS Education for Scotland. The Programme aims
+to provide user-friendly, evidence-based guidance for the dental profession
+in Scotland.
+
+SDCEP guidance is designed to help the dental team provide improved care
+for patients by bringing together, in a structured manner, the best available
+information that is relevant to priority areas in dentistry, and presenting this
+information in a form that can be interpreted easily and implemented.
+
+`Emergency Dental Care' aims to promote a systematic approach to the
+care of patients with dental emergencies and to achieve more equitable
+provision of unscheduled dental care within Scotland. It is intended to
+complement the national work on emergency dental service development
+involving NHS Boards and NHS 24.
+
+The guidance focuses on the patient journey to providers of care and
+includes specific self-help advice for dental staff to give to patients and a
+simple method for prioritising dental emergencies in primary care practice.
+It also provides quality standards that specify the requirements of out-of-
+hours emergency dental services for use by NHS Boards and all dentists.
+
+Scottish Dental Clinical Effectiveness Programme
+Dundee Dental Education Centre, Frankland Building,
+Small's Wynd, Dundee DD1 4HN
+
+Email scottishdental.cep@nes.scot.nhs.uk
+
+Tel  01382 425751 / 425771
+
+Website www.scottishdental.org/cep
+

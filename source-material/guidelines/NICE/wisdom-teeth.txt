@@ -1,0 +1,472 @@
+Guidance on the extraction
+of wisdom teeth
+
+Technology appraisal guidance
+Published: 27 March 2000
+www.nice.org.uk/guidance/ta1
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and-
+conditions#notice-of-rights).
+Guidance on the extraction of wisdom teeth (TA1)
+
+Your responsibility
+
+The recommendations in this guidance represent the view of NICE, arrived at after careful
+consideration of the evidence available. When exercising their judgement, health
+professionals are expected to take this guidance fully into account, alongside the
+individual needs, preferences and values of their patients. The application of the
+recommendations in this guidance is at the discretion of health professionals and their
+individual patients and do not override the responsibility of healthcare professionals to
+make decisions appropriate to the circumstances of the individual patient, in consultation
+with the patient and/or their carer or guardian.
+
+All problems (adverse events) related to a medicine or medical device used for treatment
+or in a procedure should be reported to the Medicines and Healthcare products Regulatory
+Agency using the Yellow Card Scheme.
+
+Commissioners and/or providers have a responsibility to provide the funding required to
+enable the guidance to be applied when individual health professionals and their patients
+wish to use it, in accordance with the NHS Constitution. They should do so in light of their
+duties to have due regard to the need to eliminate unlawful discrimination, to advance
+equality of opportunity and to reduce health inequalities.
+
+Commissioners and providers have a responsibility to promote an environmentally
+sustainable health and care system and should assess and reduce the environmental
+impact of implementing NICE recommendations wherever possible.
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 2 of
+conditions#notice-of-rights).  16
+Guidance on the extraction of wisdom teeth (TA1)
+
+Contents
+
+1 Recommendations ................................................................................................................... 4
+2 Clinical need and practice ...................................................................................................... 5
+3 Evidence .................................................................................................................................. 6
+4 Implications for the NHS......................................................................................................... 7
+5 Further research...................................................................................................................... 8
+6 Implementation........................................................................................................................ 9
+7 Clinical audit advice ................................................................................................................ 10
+8 Appraisal committee members .............................................................................................. 11
+9 Documentation and opinion available to the appraisal committee .................................... 13
+10 Wisdom teeth removal ­ patient notes................................................................................ 14
+
+  What is NICE guidance? ....................................................................................................................... 14
+  What are wisdom teeth and why are they operated on? .................................................................. 14
+  What do NICE recommend about the removal of wisdom teeth? .................................................... 15
+  What should I do?.................................................................................................................................. 16
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 3 of
+conditions#notice-of-rights).  16
+Guidance on the extraction of wisdom teeth (TA1)
+
+1 Recommendations
+
+1.1  The practice of prophylactic removal of pathology-free impacted third molars
+
+     should be discontinued in the NHS.
+
+1.2  The standard routine programme of dental care by dental practitioners and/or
+
+     paraprofessional staff need be no different, in general, for pathology-free
+
+     impacted third molars (those requiring no additional investigations or
+
+     procedures).
+
+1.3  Surgical removal of impacted third molars should be limited to patients with
+
+     evidence of pathology. Such pathology includes unrestorable caries, non-
+
+     treatable pulpal and/or periapical pathology, cellulitis, abscess and osteomyelitis,
+
+     internal/external resorption of the tooth or adjacent teeth, fracture of tooth,
+
+     disease of follicle including cyst/tumour, tooth/teeth impeding surgery or
+
+     reconstructive jaw surgery, and when a tooth is involved in or within the field of
+
+     tumour resection.
+
+1.4  Specific attention is drawn to plaque formation and pericoronitis. Plaque
+
+     formation is a risk factor but is not in itself an indication for surgery. The degree
+
+     to which the severity or recurrence rate of pericoronitis should influence the
+
+     decision for surgical removal of a third molar remains unclear. The evidence
+
+     suggests that a first episode of pericoronitis, unless particularly severe, should
+
+     not be considered an indication for surgery. Second or subsequent episodes
+
+     should be considered the appropriate indication for surgery.
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 4 of
+conditions#notice-of-rights).                                                               16
+Guidance on the extraction of wisdom teeth (TA1)
+
+2 Clinical need and practice
+
+2.1  Permanent molar teeth normally erupt from the age of 6 onwards, with the third
+
+     molars (wisdom teeth) being the last to erupt, usually between the ages of 18 and
+
+     24 years. Wisdom teeth may erupt normally into correct dental alignment and
+
+     function or conversely develop in non- or minimally functional positions.
+
+     Impaction occurs when there is prevention of complete eruption due to lack of
+
+     space, obstruction or development in an abnormal position. This may result in a
+
+     tooth erupting partially or not at all. Wisdom teeth can also be impacted, either
+
+     erupting partially or not at all. Impaction may be associated with pathological
+
+     changes including pericoronitis, an increased risk of caries and periodontal
+
+     disease in adjacent teeth, and orthodontic problems in later life.
+
+2.2  Removal of wisdom teeth is one of the most common surgical procedures
+
+     performed in the UK. Current practice includes both the removal of impacted
+
+     third molars causing pathological changes as well as the early prophylactic
+
+     removal of pathology-free impacted third molars. Wide variations in the rates of
+
+     this latter procedure across the country, which suggest that in the past, up to
+
+     44% of wisdom teeth removals and prophylactic surgery may have been
+
+     inappropriate, have been reported. However, in recent years, changes in the
+
+     practice of removal of wisdom teeth may have taken place in response to the
+
+     Faculty of Dental Surgery of the Royal College of Surgeon's guidelines on the
+
+     management of patients with third molar teeth (1997). Even so, some 22% of
+
+     procedures may still be inappropriate. In 1994/95, there were approximately
+
+     36,000 inpatient and 60,000 day-case admissions in England. More recent
+
+     figures (1998/99) for Wales indicate that there were up to 3,000 procedures. It is
+
+     estimated that the total cost to the NHS in England and Wales of wisdom teeth
+
+     extractions is up to £12 million per year.
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 5 of
+conditions#notice-of-rights).                                                           16
+Guidance on the extraction of wisdom teeth (TA1)
+
+3 Evidence
+
+3.1  There is no reliable research evidence to support a health benefit to patients from
+
+     the prophylactic removal of pathology-free impacted third molar teeth.
+
+3.2  Every procedure for the removal of an impacted third molar carries risk for the
+
+     patient, including temporary or permanent nerve damage, alveolar osteitis,
+
+     infection and haemorrhage as well as temporary local swelling, pain and
+
+     restricted mouth opening. There are also risks associated with the need for
+
+     general anaesthesia in some of these procedures, including rare and
+
+     unpredictable death. Such patients are therefore being exposed to the risk of
+
+     undertaking a surgical procedure unnecessarily.
+
+3.3  The source documentation and opinion made available to the appraisal
+
+     committee is listed in section 9.
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 6 of
+conditions#notice-of-rights).                                                         16
+Guidance on the extraction of wisdom teeth (TA1)
+
+4 Implications for the NHS
+
+4.1  Given the uncertainty in current rates of prophylactic removal of pathology-free
+
+     impacted third molars, it is difficult to precisely quantify the budget impact of
+
+     discontinuation of this practice. However, based on 1994/95 data, this could
+
+     result in an opportunity to release capacity in the specialty with a value of up to
+
+     £5 million (NHS in England and Wales).
+
+4.2  The number of patients waiting for this operation in England and Wales might
+
+     change if waiting lists are reviewed using this guidance.
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 7 of
+conditions#notice-of-rights).                                                             16
+Guidance on the extraction of wisdom teeth (TA1)
+
+5 Further research
+
+5.1  There are 2 ongoing randomised controlled trials (in the US and in Denmark)
+
+     comparing prophylactic extraction of wisdom teeth with management by
+
+     deliberate retention. The results of these trials will be reviewed by NICE to
+
+     establish whether they have a material impact on this guidance.
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 8 of
+conditions#notice-of-rights).                                                       16
+Guidance on the extraction of wisdom teeth (TA1)
+
+6 Implementation
+
+6.1  NHS trusts and dental practitioners should review their current practice against
+
+     this guidance and use the audit advice set out in section 7 to prospectively
+
+     collect data on individual practitioners' performance.
+
+6.2  The position of individual patients currently scheduled for extraction of wisdom
+
+     teeth should be reviewed. This may be possible through a case note review but
+
+     there may be circumstances in which patients will need to be invited to attend a
+
+     review clinic.
+
+6.3  The patient information included in section 10 can be drafted into local
+
+     information leaflets and could also be used to help inform patients if it is
+
+     necessary to issue invitations to attend review clinics.
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 9 of
+conditions#notice-of-rights).                                                          16
+Guidance on the extraction of wisdom teeth (TA1)
+
+7 Clinical audit advice
+
+7.1  To enable dental practitioners to audit their own compliance with this guidance, it
+
+     is recommended that all those who perform wisdom teeth extraction should
+
+     routinely record the indication for surgery and the diagnosis (see section 1.3).
+
+7.2  It is recommended that this information be incorporated into manual recording
+
+     systems and consideration given to the establishment of appropriate categories
+
+     in electronic record keeping systems in general practices and hospitals.
+
+7.3  Prospective clinical audit programmes should record the proportion of extractions
+
+     adhering to the criteria described in this guidance. Such programmes are likely to
+
+     be more effective in improving patient care when they form part of the
+
+     organisation's formal clinical governance arrangements and where they are linked
+
+     to specific post-graduate activities.
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 10
+conditions#notice-of-rights).                                                          of 16
+Guidance on the extraction of wisdom teeth (TA1)
+
+8 Appraisal committee members
+
+Professor RL Akehurst
+Dean, School of Health Related Research Sheffield University
+
+Professor David Barnett (Chairman)
+Professor of Clinical Pharmacology University of Leicester
+
+Professor Sir Colin Berry
+Professor of Morbid Anatomy St Bartholomew's and Royal London School of Medicine
+
+Professor Martin Buxton
+Director of Health Economics Research Group Brunel University
+
+Professor Yvonne Carter
+Professor of General Practice and Primary Care St Bartholomew's and Royal London
+School of Medicine
+
+Dr Karl Claxton
+Lecturer in Economics University of York
+
+Professor Duncan Colin-Jones
+Professor of Gastroenterology University of Southampton
+
+Dr Nicky Cullum
+Reader in Health Studies University of York
+
+Mr Chris Evennett
+Chief Executive Mid-Hampshire Primary Care Group
+
+Ms Jean Gaffin
+Formerly Executive Director National Council for Hospice and Specialist Palliative Care
+Service
+
+Mrs Sue Gallagher
+Chief Executive Merton, Sutton and Wandsworth Health Authority
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 11 of
+conditions#notice-of-rights).                                                            16
+Guidance on the extraction of wisdom teeth (TA1)
+
+Dr Trevor Gibbs
+International Medical Operations Director GlaxoWellcome R&D Ltd
+
+Dr Sheila Bird
+MRC Biostatistics Unit, Cambridge
+
+Mr John Goulston
+Director of Finance The Royal Free Hampstead NHS Trust
+
+Professor Philip Home
+Professor of Diabetes Medicine University of Newcastle
+
+Dr Terry John
+General Practitioner The Firs, London
+
+Dr Diane Ketley
+Clinical Governance Programme Leader, Leicester Royal Infirmary
+
+Dr Mayur Lakhani
+General Practitioner, Highgate Surgery, Leicester and Lecturer, University of Leicester
+
+Mr M Mughal
+Consultant Surgeon Chorley and South Ribble NHS Trust
+
+Mr James Partridge
+Chief Executive Changing Faces
+
+Professor Philip Routledge
+Professor of Clinical Pharmacology University of Wales
+
+Professor Andrew Stevens
+Professor of Public Health University of Birmingham
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 12
+conditions#notice-of-rights).                                                            of 16
+Guidance on the extraction of wisdom teeth (TA1)
+
+9 Documentation and opinion available to
+the appraisal committee
+
+The following documentation was made available to the appraisal committee:
+
+  · Assessment report: Song F, O'Meara S, Wilson P, et al. (1999) The effectiveness and
+     cost effectiveness of the prophylactic removal of wisdom teeth. NHS Centre for
+     Reviews and Dissemination, University of York.
+
+  · Professional/specialist group submissions: Faculty of Dental Surgery of the Royal
+     College of Surgeons of England, Birmingham Dental Hospital, British Dental
+     Association, British Medical Association Dentistry 2000, The British Dental Industry
+     Association, the Royal College of Nursing.
+
+The following experts were invited to make submissions to the committee:
+
+  · Mr David Kramer, Dental Surgeon and Principle, Marchgate Dental Practice.
+  · Professor Robin Seymour, Head of Department of Restorative Surgery, Dental School,
+
+     Newcastle upon Tyne.
+  · Mr John Lowry, the Department of Maxillofacial Surgery at the Royal Bolton Hospital.
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 13
+conditions#notice-of-rights).  of 16
+Guidance on the extraction of wisdom teeth (TA1)
+
+10 Wisdom teeth removal ­ patient notes
+
+What is NICE guidance?
+
+NICE is a part of the NHS. It has a team of experts who produce guidance for both the
+NHS and patients on medicines, medical equipment and clinical procedures.
+
+When NICE evaluates these things, it is called an appraisal. Each appraisal takes around
+12 months to complete and involves the manufacturers of the technology, patient groups
+and professional organisations.
+
+NICE was asked to look at wisdom teeth removal and provide guidance to the NHS which
+will help dentists and surgeons decide when wisdom teeth should be removed.
+
+What are wisdom teeth and why are they operated
+on?
+
+Adult teeth normally come through from the age of 6 upwards, with the wisdom teeth
+being the last to arrive (usually between the ages of 18 and 24 years).
+
+Sometimes, as wisdom teeth come through they cause problems. The term used to
+describe wisdom teeth that don't come through normally is impacted wisdom teeth. Two
+reasons for this are a lack of space or other teeth being in the way.
+
+For most people, impacted wisdom teeth cause no problems at all, but some people can
+suffer problems such as inflammation of the surrounding gum, a higher risk of tooth decay,
+gum disease in other teeth, and possibly problems with teeth in later life.
+
+Removal of wisdom teeth is one of the most common operations carried out in the UK.
+Impacted wisdom teeth have sometimes been removed whether or not they were causing
+problems. There is no reliable evidence to suggest that operating on impacted wisdom
+teeth that are not causing problems has any benefit for the patient.
+
+In fact, every operation has some risk.
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 14
+conditions#notice-of-rights).                     of 16
+Guidance on the extraction of wisdom teeth (TA1)
+
+What do NICE recommend about the removal of
+wisdom teeth?
+
+Based on the evidence, NICE has recommended to the NHS that impacted wisdom teeth
+that are free from disease (healthy) should not be operated on. There are 2 reasons for
+this:
+
+  · There is no reliable research to suggest that this practice benefits patients.
+  · Patients who do have healthy wisdom teeth removed are being exposed to the risks of
+
+     surgery.
+Risks of surgery can include:
+
+  · nerve damage
+  · damage to other teeth
+  · infection
+  · bleeding and, rarely, death.
+Also, after surgery to remove wisdom teeth, patients may:
+
+  · have swelling and pain
+  · be unable to open their mouth fully.
+NICE also recommends that patients who have impacted wisdom teeth that are not
+causing problems should visit their dentist for their usual check-ups and that only patients
+who have diseased wisdom teeth, or other problems with their mouth, should have their
+wisdom teeth removed.
+
+Your dentist or oral surgeon will be aware of the sort of disease or condition which would
+require you to have surgery. Examples include:
+
+  · untreatable tooth decay
+  · abscesses
+  · cysts or tumours
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 15
+conditions#notice-of-rights).                     of 16
+Guidance on the extraction of wisdom teeth (TA1)
+
+  · disease of the tissues around the tooth
+  · if the tooth is in the way of other surgery.
+
+What should I do?
+
+If you or a member of your family or someone you care for are having problems with their
+wisdom teeth, you should discuss this with your dentist or surgeon.
+ISBN: 978-1-4731-3148-4
+
+© NICE 2024. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and- Page 16
+conditions#notice-of-rights).  of 16
+

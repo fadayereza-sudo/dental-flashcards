@@ -1,0 +1,365 @@
+j
+
+    Management of the Palatally Ectopic
+    Maxillary Canine
+
+     2022
+                                  Management of the Palatally Ectopic Maxillary Canine                                              Management of the Palatally Ectopic Maxillary Canine
+
+Contributors                                                                                          Contents
+
+Jamil Husain MSc BDS DOrth MOrth RCSEng FDS (Orth) RCSEdin                                            Contents                      1
+
+Formerly Consultant Orthodontist                                                                      Introduction                  2
+
+Merseyside                                                                                            Diagnosis and management      3
+
+England                                                                                               Treatment                     4
+
+Donald Burden PhD MSc BDS DOrth RCS MOrth RCS FDSRCPS FFDRCSI FDSRCS                                  Explanatory Notes             6
+Formerly Professor of Orthodontics, Queen's University Belfast, and Consultant Orthodontist
+Belfast Health and Social Care Trust                                                                  Evidence and Recommendations  8
+                                                                                                      References                    9
+
+Royal Victoria Hospital
+
+School of Dentistry
+
+Belfast
+
+Northern Ireland
+
+Patrick McSherry MSc BA BDentSc MDentSc MOrth RCS FDS (Orth) RCSEdin FFDRCSI
+Regional Consultant Orthodontist
+Dublin
+Ireland
+
+Mohamed Hania MClinDent BDentSc MA MFDS RCSEdin MOrth RCSEng NDEB PGCert
+MedEd
+Post-CCST Orthodontics
+University Dental Hospital of Manchester
+Manchester
+England
+
+                                                            The Royal College of Surgeons of England  Faculty of Dental Surgery        1
+Management of the Palatally Ectopic Maxillary Canine                                                                           Management of the Palatally Ectopic Maxillary Canine
+
+Introduction                                                                                        Diagnosis and management
+
+The maxillary canine is second only to the mandibular third molar in its frequency of impaction,    History and examination
+with a prevalence of about 1.5%. Numerous sources in the literature suggest that ectopic
+canines occur palatally with a much greater frequency than they do buccally,¹ but buccal            Practitioners should suspect that a canine is ectopic if it is not palpable in the buccal sulcus by
+ectopic canines do not seem to have been studied as extensively, perhaps because a greater          the age of 10­11 years if palpation indicates an asymmetrical eruption pattern or the position
+proportion of buccal canines appear to erupt naturally without active intervention. General         of adjacent teeth implies a malposition of the permanent canine. Abnormal mobility of the
+dental practitioners and orthodontists will commonly encounter this problem and need to be          adjacent permanent teeth should also be regarded as suspicious. The patient with an ectopic
+fully aware of how to manage this situation. Failure to diagnose and manage the ectopic upper       maxillary canine must undergo a comprehensive assessment of the malocclusion, including
+canine efficiently can result in more complex remedial treatment becoming necessary, which          accurate localisation of the canine.
+would be costly in terms of clinical time for both the practitioner and the patient. There is also
+the risk of damage occurring to adjacent teeth, which may lead to litigation claims.                Radiographic examination15­20
+
+The aetiology of ectopic palatal canines remains unclear, but is likely to be polygenic.2,3 This    Radiographic procedures prior to the age of 10­11 years are usually of little benefit in terms of
+is supported by evidence that palatally ectopic canines occur more frequently than expected         the knowledge gained.1,7
+among family members. There is also a significant association with other dental anomalies that
+are often considered to have a genetic origin, such as missing, malformed or diminutive lateral     The examination to localise the position of an ectopic canine usually involves taking two
+incisors, an absence of crowding and late developing dentitions.4­6 The majority of canines         different radiographs and using the principle of parallax. Parallax is defined as the apparent
+undergoing normal eruption should be palpable in the buccal sulcus by 10­11 years of age.7          displacement of an object because of different positions of the observer. In radiography,
+Those maxillary canines erupting after approximately 12.3 years in girls and 13.1 years in boys     this involves two radiographs being taken of the ectopic canine with the x-ray tube head in
+may be considered to be late.8                                                                      two different positions. This shift in tube-head position can either be in the horizontal plane
+                                                                                                    (horizontal parallax) or in the vertical plane (vertical parallax) (Table 1).19 Research has shown
+Sequelae of ectopic canines                                                                         that the horizontal parallax technique is more reliable than vertical parallax in localising
+                                                                                                    unerupted canines.20 It has been suggested that the reliability of the latter might be improved
+The main risk from ectopic canines appears to be root resorption of adjacent teeth, usually the     by increasing the tube-head angulation.18
+incisors. There may be a higher prevalence of palatal canine impaction, as well as associated
+incisor root resorption, in patients where there has been previous impaction of an upper first      Table 1 Radiographs of the ectopic canine using the parallax principle.
+permanent molar.9 Although not always of clinical significance, one study using cone-beam
+computed tomography (CBCT) detected root resorption in 66.7% of permanent lateral incisors          Parallax    Radiographs
+adjacent to ectopic maxillary canines.10 It has been stated that root resorption of incisors        Horizontal
+by palatally ectopic canines rarely starts after 14 years of age11 and occurs most frequently                   Upper standard occlusal (midline view) and periapical (centred on the canine region)
+between 11 and 12 years.12                                                                          Vertical    or
+                                                                                                                Two periapicals (one centred on the upper central incisor and the other on the canine region)
+Other possible sequelae of ectopic canines are resorption of the canine crown, which is                         Upper standard occlusal (midline view with x-ray beam aimed downwards) and a panoramic (x-ray beam
+most likely to occur in adults, with quoted frequencies of up to 14%13 and cystic changes, the                  aimed upwards at approximately 8° to the horizontal)
+frequency of which is generally thought to be low.14                                                            or
+                                                                                                                Periapical (bisected angle technique with x-ray beam aimed downwards) and a panoramic (x-ray beam aimed
+                                                                                                                upwards at approximately 8° to the horizontal)
+
+                                                                                                    More recently, CBCT has become more widely available for imaging the maxillofacial region.
+                                                                                                    Small field of view (FOV) CBCT can be used for the localisation of ectopic canines and the
+                                                                                                    identification of root resorption in incisor teeth.10 However, this technique is typically associated
+                                                                                                    with a higher overall effective dose of ionising radiation than conventional radiography. Current
+                                                                                                    UK and European guidance, including the SEDENTEXCT guidelines, suggest that small FOV
+                                                                                                    CBCT may be appropriate for the examination of ectopic canines in selected cases where
+                                                                                                    conventional radiographs fail to provide adequate information to construct a treatment plan.16
+                                                                                                    The current British Orthodontic Society orthodontic radiographs guidelines clearly state that
+                                                                                                    there is no indication for the routine use of CBCT.15 Where there is any uncertainty about the
+                                                                                                    undertaking of CBCT imaging, the opinion of a specialist in dental and maxillofacial radiology
+                                                                                                    should be sought beforehand.
+
+2                                                     The Royal College of Surgeons of England      Faculty of Dental Surgery                                                                                            3
+Management of the Palatally Ectopic Maxillary Canine                                                                                                   Management of the Palatally Ectopic Maxillary Canine
+
+Treatment                                                                                                                   4. Transplantation29­32
+
+Radiographic examination should be carried out initially to confirm the position of the unerupted                           » Transplantation is not normally considered unless other possible active (or interceptive)
+canine. Patient and parent counselling on the various treatment options is essential to ensure                                  treatment has failed or is considered to be inappropriate.
+that fully informed consent is obtained.
+                                                                                                                            » This treatment option can be considered if the patient is unwilling to wear orthodontic
+1. Interceptive treatment by extraction of the primary canine21­26                                                              appliances, or the degree of malposition is too great for orthodontic alignment to be
+                                                                                                                                practical.
+In carefully selected cases, where the ectopic permanent canine is not severely displaced, there
+is some evidence that interceptive extraction of the adjacent primary canine can result in an                               » There should be adequate space available for the canine and sufficient alveolar bone to
+improvement in the position of an ectopic permanent canine.                                                                     accept the transplanted tooth.
+» The patient should be aged approximately 10­13 years, with better results reported in the
+                                                                                                                            » The prognosis should be good for the canine tooth to be transplanted with no evidence of
+    absence of crowding.                                                                                                        ankylosis. The best results are achieved if the ectopic canine can be removed with minimal
+» The need to maintain space (or even create additional space) requires consideration.                                          trauma and before closure of the apex.
+» If radiographic examination reveals no improvement in the ectopic canine's position 12
+                                                                                                                            » Depending on the stage of root formation (i.e. more than three-quarters of the root formed),
+    months after extraction of the primary canine, alternative treatment options should be                                      the transplanted canine may require root canal therapy to be commenced within ten days
+    considered.                                                                                                                 following transplantation.
+                                                                                                                                                                                                                                      [SIGN Grade B]
+                                                                                                            [SIGN Grade A]
+                                                                                                                            5. No active treatment/leave and observe
+2. Surgical exposure27 and orthodontic alignment
+                                                                                                                            » The patient does not want treatment or is happy with their dental appearance.
+» The case is not considered to be suitable for interceptive extraction of the primary canine.                              » There should be no evidence of root resorption of adjacent teeth or other pathology.
+» The patient should be willing to wear fixed orthodontic appliances.                                                       » Ideally, there should be good contact between the lateral incisor and first premolar, or the
+» The patient should be well motivated and have good dental health.
+» The degree of malposition of the ectopic canine should not be so great that orthodontic                                       primary canine should have a good prognosis.
+                                                                                                                            » Severely displaced palatally ectopic canines with no evidence of pathology may be left in
+    alignment is impractical (e.g. close proximity to the midline, above the apices of the adjacent
+    teeth, horizontal angulation).                                                                                              situ, particularly if the canine is remote from the dentition. If the ectopic canine is left in situ
+» The likelihood of success decreases with age in adults.28                                                                     then, as with any unerupted tooth, the practitioner providing continuing care for the patient
+                                                                                                                                should carry out a careful clinical examination of the patient on a regular basis to ensure the
+                                                                                                            [SIGN Grade C]      unerupted canine does not represent a risk to the patient's wellbeing. No guidance currently
+                                                                                                                                exists as to how frequently radiographic checks should be carried out in the absence of
+3. Surgical removal of the palatally ectopic permanent canine                                                                   relevant clinical signs or symptoms.
+
+» The surgical removal option should be considered if the patient declines active treatment                                                                                                                                           [SIGN Grade C]
+    and/or is happy with their dental appearance.
+
+» Surgical removal of the ectopic canine should be considered if there is radiographic evidence
+    of early root resorption of the adjacent incisor teeth (but exposure and alignment of the
+    ectopic canine is usually indicated in cases where severe root resorption of an incisor tooth
+    has occurred necessitating the extraction of the incisor).
+
+» The best results are achieved if there is good contact between the lateral incisor and first
+    premolar, or the patient is willing to undergo orthodontic treatment to substitute the first
+    premolar for the canine.
+
+» The possible risk of damaging the roots or the neurovascular supply of adjacent teeth during
+    the act of surgically removing the impacted canine should be assessed and discussed with
+    the patient.
+                                                                                                            [SIGN Grade C]
+
+4                                                     The Royal College of Surgeons of England                              Faculty of Dental Surgery                                                                                                 5
+Management of the Palatally Ectopic Maxillary Canine                                                                             Management of the Palatally Ectopic Maxillary Canine
+
+Explanatory Notes                                                                                     Section 3
+
+Treatment planning for patients with palatally ectopic maxillary canines is not straightforward       Surgical removal of the ectopic canine is most often considered when dental aesthetics are
+owing to the large number of patient factors and orthodontic considerations that must be taken        acceptable with good contact between the lateral incisor and the first premolar. It is also
+into account. It is strongly recommended that practitioners seek the opinion of a specialist prior    considered when the canine is severely malpositioned, when alignment and transplantation is
+to initiating any of the above treatment options.                                                     not being considered and in cases where there are pathological changes and/or its retention
+                                                                                                      would impede orthodontic tooth movement. If necessary, fixed orthodontic appliances can be
+Section 1                                                                                             used to bring the first premolar forward to simulate a canine tooth: mesiopalatal rotation of the
+                                                                                                      premolar, placement of buccal root torque and/or grinding of the palatal cusp can also help to
+Clinical inspection and buccal palpation of the alveolus in the canine region are recommended         improve aesthetics. Clinical experience would indicate that there is a large variation in the life
+annually from the age of eight years. Initial research appeared to indicate that the interceptive     expectancy of retained deciduous canines.
+isolated extraction of the associated primary canine, if successful, was a cost-effective and
+simple method of correcting ectopic permanent canines.21 This original study found that 78%           Where a prosthetic replacement tooth will need to be considered subsequently due to removal
+of palatally ectopic canines reverted to a normal path of eruption following the extraction of the    of a permanent canine (and/or the loss of a severely resorbed incisor tooth / teeth), the opinion
+primary canine, although success appeared to reduce as the degree of malposition increased.           of a restorative dentist at the outset can be invaluable. Similarly, such input can also be very
+A later investigation appeared to confirm this finding, although the success rate was found to        helpful even where space is being closed, but adjacent teeth will then need to be modified to
+be slightly lower (62%).22 Subsequently further research has been published,23,24 but systematic      improve the aesthetics. Where a dental implant is being considered as an option for a definitive
+reviews have failed to find sufficiently robust scientific evidence to support the routine            prosthetic replacement tooth, it is suggested that the clinician liaises in advance with the
+extraction of the primary maxillary canine to facilitate the eruption of an ectopic permanent         practitioner(s) who could subsequently be providing the implant-retained prosthesis.
+successor.25,26
+                                                                                                      Section 4
+Further well-reported randomised controlled trials are required to enable clinicians to fully
+assess the effectiveness of this clinical intervention. However, it seems reasonable for              Transplantation is sometimes considered for grossly displaced ectopic maxillary canines or
+clinicians to consider interceptive extraction of the primary canine, in carefully selected cases,26  when prolonged orthodontic treatment is unacceptable to the patient. Early studies revealed
+provided that the patient/parent understands that surgical exposure and orthodontic treatment         disappointing long-term results when this approach was adopted, with a high frequency of root
+may ultimately be required, and that the evidence supporting this interceptive technique is not       resorption occurring. More recent studies using a meticulous atraumatic surgical technique
+conclusive.                                                                                           and stabilisation of the transplanted tooth with a sectional archwire for six weeks have reported
+                                                                                                      better results.32 However, the long-term (longer than five years) prognosis of transplanted
+Section 2                                                                                             palatally ectopic canines has yet to be evaluated, although for other teeth it can be as high as
+                                                                                                      90%.30,31
+Much of the evidence supporting surgical exposure and orthodontic alignment as a treatment
+approach is derived from case studies. However, many years of clinical experience have                Acknowledgements
+shown that surgical exposure and orthodontic alignment of a palatally ectopic canine can be a
+highly successful treatment approach. As with all orthodontic treatment, the cooperation and          We would like to acknowledge, with grateful thanks, everyone who has helped us in the
+motivation of the patient is paramount. An additional reason to consider treatment is in cases        production of this guideline, especially the suggestions and assistance of current and past
+where there are other dental anomalies present, such as hypodontia, or there are teeth with a         chairs and members of the Clinical Standards Committee of the Faculty of Dental Surgery,
+poor long-term prognosis. Irrespectively, the general dental health should be good since the          Royal College of Surgeons of England, and related committees, and, previously, Mr Eric
+treatment time is often prolonged. When comparing open with closed exposure techniques,               Whaites in relation to the dental and maxillofacial radiology aspects.
+there is currently no clear evidence to support one surgical technique over the other in terms
+of ensuring the movement of the tooth into the correct position without the need for repeat           Further reading
+surgery, or difference in pain, discomfort, aesthetics, periodontal health, length of treatment or
+cost,33 although repeat surgery is more common with the closed exposure technique.27                  McSherry, PF. The ectopic maxillary canine: a review. British Journal of Orthodontics 1998; 25:
+                                                                                                      209­216.
+A study comparing the treatment of palatally ectopic maxillary canines in adolescents and             
+adults concluded that the prognosis for successful orthodontic resolution of an impacted canine
+in an adult is lower than that in a younger patient and that the prognosis worsens with age,
+because of the increased risk of ankylosis and/or replacement resorption of the permanent
+canine crown. Furthermore, when such treatment is undertaken, its successful completion
+should be expected to take considerably longer.28 Other sources concur that the optimal time
+for surgical exposure and orthodontic alignment is during adolescence.34­36
+
+6                                                     The Royal College of Surgeons of England        Faculty of Dental Surgery                                                                           7
+Management of the Palatally Ectopic Maxillary Canine                                                                                                                                                                                               Management of the Palatally Ectopic Maxillary Canine
+
+Evidence and Recommendations                                                                                                                             References
+
+                                                                                                                                                         1.  Ericson S, Kurol J. Radiographic examination of ectopically erupting maxillary canines. Am J Orthod Dentofacial Orthop
+
+                                                                                                                                                             1987; 91: 483­492.
+
+Levels of evidence                                                                                                                                       2.  Peck S, Peck L, Kataja M. The palatally displaced canine as a dental anomaly of genetic origin. Angle Orthod 1994; 64:
+
+                                                                                                                                                             249­256.
+
+Level  Evidence Type                                                                                                                                     3.  Peck S, Peck L, Kataja M. Concomitant occurrence of canine malposition and tooth agenesis: evidence of orofacial
+
+1++    High quality meta-analyses, systematic reviews of RCTs, or RCTs with a very low risk of bias                                                          genetic fields. Am J Orthod Dentofacial Orthop 2002; 122: 657­660.
+
+                                                                                                                                                         4.  Zilberman Y, Cohen B, Becker A. Familial trends in palatal canines, anomalous lateral incisors and related phenomena.
+
+1+     Well-conducted meta-analyses, systematic reviews, or RCTs with a low risk of bias                                                                     Eur J Orthod 1990; 12: 135­139.
+
+1­     Meta-analyses, systematic reviews, or RCTs with a high risk of bias                                                                               5.  Brin I, Becker A, Shalhav M. Position of the maxillary permanent canine in relation to anomalous or missing lateral
+
+                                                                                                                                                             incisors: A population study. Eur J Orthod 1986; 8: 12­16.
+
+2++    High-quality systematic reviews of case­control or cohort studies                                                                                 6.  Chaushu S, Sharabi S, Becker A. Dental morphologic characteristics of normal versus delayed developing dentitions with
+
+                                                                                                                                                             palatally displaced canines. Am J Orthod Dentofacial Orthop 2002; 121: 339­346.
+
+       High-quality case­control or cohort studies with a very low risk of confounding or bias and a high probability                                    7.  Ericson S, Kurol J. Longitudinal study and analysis of clinical supervision of maxillary canine eruption. Community Den
+       that the relationship is causal
+                                                                                                                                                             Oral Epidemiol 1986; 14: 172­176.
+
+2+     Case­control or cohort studies with a low risk of confounding or bias and a moderate probability that the                                         8.  Hurme VO. Ranges of normalcy in the eruption of permanent teeth. J Den Child 1949; 16: 11­15.
+
+                                                                                                                                                         9.  Bektor K, Steiniche K, Kjaer I. Association between ectopic eruption of maxillary canines and first molars. Eur J Orthod
+
+       relationship is causal                                                                                                                                2005; 27: 186­189.
+
+2­     Case­control or cohort studies with a high risk of confounding or bias and a significant risk that the                                            10. Walker L, Enciso R, Mah J. Three-dimensional localization of maxillary canines with cone-beam computed tomography.
+
+       relationship is not causal                                                                                                                            Am J Orthod Dentofacial Orthop 2005; 128: 418­423.
+
+                                                                                                                                                         11. Houston WJB, Stephens CD, Tulley WJ. A Textbook of Orthodontics. 2nd edn. Bristol: Wright; 1992.
+
+3      Non-analytic studies, eg case reports, case series                                                                                                12. Ericson S, Kurol J. Resorption of maxillary lateral incisors caused by ectopic eruption of the canines. Am J Orthod Dento-
+
+                                                                                                                                                             facial Orthop 1988; 94: 503­513.
+
+4      Expert opinion                                                                                                                                    13. Azaz B, Shteyer A. Resorption of the crown in impacted maxillary canine: a clinical, radiographic and histologic study. Int
+
+                                                                                                                                                             J Oral Surg 1978; 7: 167­171.
+
+RCT, randomised controlled trial                                                                                                                         14. Mourshed F. A roentgenographic study of dentigerous cysts I: incidence in a population sample. Oral Surg Oral Med Oral
+
+                                                                                                                                                             Pathol 1964; 18: 47­53.
+
+                                                                                                                                                         15. Isaacson KG, Thom AR, Atack NE, Horner K, Whaites E. Orthodontic Radiographs Guidelines. 4th edn. London: British
+
+Grades of recommendations                                                                                                                                    Orthodontic Society; 2015.
+
+                                                                                                                                                         16  European Commission Radiation Protection Series. Cone beam CT for dental and maxillofacial radiology - Evidence
+
+                                                                                                                                                             based guidelines. 2012; Available at: https://ec.europa.eu/energy/sites/ener/files/documents/172.pdf [Accessed: 4
+
+Grade  Evidence Type                                                                                                                                         January 2022]
+A
+       At least one meta-analysis, systematic review, or RCT rated as 1++, and directly applicable to the target                                         17. Mason C, Papadakou P, Roberts GJ. The radiographic localization of impacted maxillary canines: a comparison of
+       population
+                                                                                                                                                             methods. Eur J Orthod 2001; 23: 25­34.
+       or
+                                                                                                                                                         18. Jacobs, SG. Localisation of the unerupted maxillary canine: how to and when to. Am J Orthod and Dentofacial Orthop
+       A body of evidence consisting principally of studies rated as 1+, directly applicable to the target population, and
+       demonstrating overall consistency of results                                                                                                          1999; 115: 314­322.
+
+                                                                                                                                                         19. Southall PJ, Gravely JF. Vertical parallax radiology to localise an object in the anterior part of the maxilla. Br J Orthod
+
+                                                                                                                                                             1989; 16: 79­83.
+
+                                                                                                                                                         20. Armstrong C, Johnston C, Burden D, Stevenson M. Localizing ectopic maxillary canines: horizontal or vertical parallax?
+
+B      A body of evidence including studies rated as 2++, directly applicable to the target population, and                                                  Eur J Orthod 2003; 25: 585­589.
+
+       demonstrating overall consistency of results                                                                                                      21. Ericson S, Kurol J. Early treatment of palatally erupting maxillary canines by extraction of the primary canines. Eur J
+
+                                                                                                                                                             Orthod 1988; 10: 283­295.
+
+       or                                                                                                                                                22. Power SM, Short MBE. An investigation into the response of palatally displaced canines to the removal of deciduous
+
+       Extrapolated evidence from studies rated as 1++ or 1+                                                                                                 canines and an assessment of factors contributing to favourable eruption. Br J Orthod 1993; 20: 215­223.
+
+                                                                                                                                                         23. Naoumova J, Kurol J, Kjellberg H. Extraction of the deciduous canine as an interceptive treatment in children with
+
+C      A body of evidence including studies rated as 2+, directly applicable to the target population, and demonstrating                                     palatally displaced canines parts 1 and 11. Eur J Orthod 2015; 37: 209­218, 219­229.
+
+       overall consistency of results                                                                                                                    24. Hadler-Olsen S, Sjögren A, Steinnes J et al. Double vs single primary tooth extraction in interceptive treatment of palatal-
+
+       or                                                                                                                                                    ly displaced canines: a randomized controlled trial. Angle Orthod 2020; 90: 751­757.
+
+                                                                                                                                                         25. Naoumova J, Kurol J, Kjellberg H. A systematic review of the interceptive treatment of palatally displaced maxillary
+
+       Extrapolated evidence from studies rated as 2++                                                                                                       canines. Eur J Orthod 2011; 33: 143­149.
+
+D      Evidence level 3 or 4                                                                                                                             26. Benson PE, Atwal A, Bazargani F et al. Interventions for promoting the eruption of palatally displaced permanent canine
+
+                                                                                                                                                             teeth, without the need for surgical exposure, in children aged 9 to 14 years. Cochrane Database Syst Rev 2021; 12(12):
+
+       or                                                                                                                                                    CD012851.
+
+       Extrapolated evidence from studies rated as 2+                                                                                                    27. Burden DJ, Mullally BH, Robinson SJ. Palatally ectopic canines: closed eruption versus open eruption. Am J Orthod
+
+                                                                                                                                                             Dentofacial Orthop 1999; 115: 640­644.
+
+                                                                                                                                                         28. Becker A, Chaushu S. Success rate and duration of orthodontic treatment for adult patients with palatally impacted maxil-
+
+RCT, randomised controlled trial.                                                                                                                            lary canines. Am J Orthod Dentofacial Orthop 2003; 124: 509­514.
+
+                                                                                                                                                         29. Thomas S, Turner SR, Sandy JR. Autotransplantation of teeth: is there a role? Br J Orthod 1998; 25: 275­282.
+
+Source: Scottish Intercollegiate Network. A Guideline Developer's Handbook. SIGN 50.                                                                     30. Czochrowska EM, Stenvik A, Bjercke B, Zachrisson BU. Outcome of tooth transplantation: survival and success rates
+Edinburgh: SIGN; 2011. http://www.sign.ac.uk/guidelines/fulltext/50/index.html (cited November
+2022).                                                                                                                                                       17­41 years posttreatment. Am J Orthod Dentofacial Orthop 2002; 121: 110­119.
+
+                                                                                                                                                         31. Andreasen JO, Paulsen HU, Yu Z et al. A long-term study of 370 autotransplanted premolars. Parts I­IV. Eur J Orthod
+
+                                                                                                                                                             1990; 12: 3­50.
+
+    8                                                                                                          The Royal College of Surgeons of England  Faculty of Dental Surgery                                                                                                         9
+Management of the Palatally Ectopic Maxillary Canine
+
+32. Sagne S, Thilander B. Transalveolar transplantation of maxillary canines: a critical evaluation of a clinical procedure.
+          Acta Odontol Scand 1997; 55: 1­8.
+
+33. Parkin N, Benson PE, Thind B et al. Open versus closed surgical exposure of canine teeth that are displaced in the roof
+          of the mouth. Cochrane Database Syst Rev 2017; 8(8): CD006966.
+
+34. Galloway I, Stirrups DR. The effect of age at diagnosis on the complexity and treatment of palatally ectopic canines. Br J
+          Orthod 1989; 16: 259­263.
+
+35. Altonen M, Myllärniemi S. Results of surgical exposure of impacted cuspids and bicuspids in relation to patients' somatic
+          and dental maturation. Int J Oral Surg 1976; 5: 180­186.
+
+36. Stewart JA, Heo G, Glover KE et al. Factors that relate to treatment duration for patients with palatally impacted maxillary
+          canines. Am J Orthod Dentofacial Orthop 2001; 119: 216­225.
+
+                                                                                                                                  www.rcseng.ac.uk
+
+                                                                                                                                  The Royal College of Surgeons of England  Registered Charity No. 1073464
+
+                                                                                                                                  35-43 Lincoln's Inn Fields
+                                                                                                                                  London WC2A 3PE
+                                                                                                                                  Registered Charity No. 212808
+
+                                                                                                                                  Published: November 2022
+
+10  The Royal College of Surgeons of England
+
