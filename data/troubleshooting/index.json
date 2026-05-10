@@ -1,8 +1,14 @@
 [
   {
-    "slug": "permanent-dentition",
-    "title": "Permanent dentition",
-    "order": 11,
-    "description": "Diseases and complications of the adult dentition that a GDP diagnoses and treats."
+    "slug": "lips",
+    "title": "Lips",
+    "order": 2,
+    "description": "Conditions affecting the vermilion, the angles of the mouth, and the perioral skin."
+  },
+  {
+    "slug": "periodontal",
+    "title": "Periodontal",
+    "order": 9,
+    "description": "Diseases of the gum and the supporting structures of the teeth — gingiva, PDL, cementum, alveolar bone."
   }
 ]

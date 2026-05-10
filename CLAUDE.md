@@ -56,6 +56,7 @@ type OriginData = {
     id: string;                      // "<origin-slug>-NNN"
     description: string;             // L2 toggle label — symptom-led one-liner, never names the condition
     conditionName: string;           // revealed inside L3
+    prevalence: "very-common" | "common" | "uncommon" | "very-uncommon" | "rare";
     etiology: string;                // markdown body, may include [N] citation markers
     presentation: string;
     results: string;
@@ -68,6 +69,8 @@ type OriginData = {
 ```
 
 `citations[].source` is **mandatory** (the citation popout renders this label). `paragraph` is included when the source is paragraph-indexed (`oxford`, `odells`). Every `[N]` marker in the body must resolve to a citation entry. The seven body fields are composed into a single rendered body in [components/troubleshooting-page.tsx](components/troubleshooting-page.tsx) using `## Etiology\n\n…` blocks plus a final `## Name of condition\n\n**{conditionName}**`, so the existing `PrincipleToggleList` handles the rendering and citation popout.
+
+`prevalence` is framed by **GDP encounter frequency in a typical UK practice** (not lifetime population prevalence). Bucket definitions and assignment rules are in [.claude/skills/extract-troubleshooting/SKILL.md](.claude/skills/extract-troubleshooting/SKILL.md). The page renders a small label badge on each L2 problem toggle and a multi-select filter pill row at the top, all five buckets on by default.
 
 Body markdown supports: `##` section headings (auto-prepended by the page wrapper), paragraphs separated by `\n\n`, bullet lists (`- ` prefixed lines), and `**bold**` inline.
 

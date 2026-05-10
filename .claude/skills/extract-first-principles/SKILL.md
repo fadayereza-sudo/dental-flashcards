@@ -109,6 +109,17 @@ Each citation entry has:
 
 **Don't over-cite.** A single citation can support a claim that occupies most of a paragraph. Don't put a marker after every sentence.
 
+### 5b. Citation-quote alignment pass (mandatory)
+
+Before writing the file, walk every `[N]` marker in the body. For each one:
+
+1. Read the inline sentence the marker is attached to.
+2. Read the `quote` of citation `[N]`.
+3. Confirm the quote contains the words / phrasing / number that justify *that specific* inline claim. Topical adjacency in the source is not enough — the quote itself must carry the support.
+4. If the same `[N]` is reused for two distinct claims, the quote must literally cover both. Either extend the quote to include the additional source sentence (when the sentences are consecutive in the source), or split into a new citation with its own quote.
+
+Failure mode this catches: an inline claim says "the only definitive method is histological section [3]" but quote [3] only contains "recovery depends on blood supply, not nerve supply." Both sentences come from the same paragraph, so the citation looked harmless — but the reader taps `[3]` and sees a quote about something else. Fix: extend the quote to cover both sentences, or split into a new citation.
+
 ### 6. Output format
 
 Create `data/first-principles/<chapter-slug>.json`:
@@ -166,6 +177,7 @@ Update `data/first-principles/progress.json`:
 - Body must not refer to "the handbook", "the chapter", or "the author" — the citation system carries the provenance.
 - Every concrete claim in the body must be either common knowledge or backed by an inline `[N]` citation. The broader-context paragraph does not need citations.
 - Citations must be verbatim. No paraphrasing. Preserve original symbols (`↑`, `1°`, etc.) and original typography (curly quotes, en/em dashes inside the source).
+- Each `[N]` marker's quote must contain the words that support the specific inline claim — not just words from the same paragraph. Run the alignment pass before writing the file.
 - Em dashes sparingly in your own prose. Prefer plain punctuation (commas, periods, colons).
 
 ## Trigger

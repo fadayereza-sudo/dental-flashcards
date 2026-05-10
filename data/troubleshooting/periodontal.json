@@ -1,0 +1,92 @@
+{
+  "slug": "periodontal",
+  "title": "Periodontal",
+  "order": 9,
+  "description": "Diseases of the gum and the supporting structures of the teeth — gingiva, PDL, cementum, alveolar bone.",
+  "problems": [
+    {
+      "id": "periodontal-001",
+      "description": "Gums bleed when brushing and look puffy and red along the margins. No pain. Often the patient doesn't notice until it's pointed out.",
+      "conditionName": "Plaque-induced gingivitis",
+      "prevalence": "very-common",
+      "etiology": "The cause is plaque biofilm sitting at the gingival margin. The bugs themselves don't directly destroy tissue — they trigger an inflammatory host response, and that response is what reddens and swells the gum [1].\n\nThe relationship is dose-dependent. The more plaque at the cervical margin, the worse the inflammation. You can switch experimental gingivitis on and off by stopping and restarting brushing — the major variable in who actually progresses isn't the bacteria, it's host susceptibility [2].\n\nWhat happens is the biofilm matures over days. Cocci dominate first, then rods and filaments, and by 6–10 days vibrios and spirochaetes appear — that's when clinical gingivitis shows [3].\n\nThe key framing: gingivitis is reversible and confined to the gum. No bone loss, no attachment loss, no apical migration of the junctional epithelium [4]. It precedes periodontitis but doesn't always progress to it [5].",
+      "presentation": "What you'll typically hear:\n\n- \"My gums bleed when I brush.\" — usually the headline complaint [6].\n- No pain. Many patients don't notice until you point it out [6].\n- Halitosis often there in the background [6].\n\nWhat you'll see:\n\n- Gum margins look red, swollen, and shiny. The knife-edge contour and stippling of healthy gum disappear; the gingiva looks more rounded [6].\n- Bleeding on gentle probing. The diagnostic triad is **redness + swelling + bleeding on probing** [6].\n- Affects gingiva only — not PDL, cementum, or alveolar bone [4].",
+      "results": "- **BPE**: typically code 1 — bleeding on gentle probing, no pockets >3mm, no calculus, no plaque-retentive factors [7]. Code 2 if plaque-retentive factors are present [7].\n- **Probing depths**: <3mm in the strict 2017 World Workshop definition [8].\n- **Bleeding on probing (BOP)**: ≥10% of sites is the threshold for gingivitis [8].\n- **Radiograph**: no bone loss [8]. False pockets >3mm can occur from gingival oedema or hyperplasia, but there's no true attachment loss [4].",
+      "definingCharacteristics": "The single useful question: **is there attachment loss?**\n\n- **No** attachment loss + bleeding on probing → gingivitis [8].\n- **Yes** attachment loss + bleeding on probing → periodontitis.\n\nOther tells:\n\n- Reversible. Periodontitis isn't [5].\n- Gingiva only. PDL, cementum, alveolar bone all spared [4].\n- Pain is not usually a feature [6]. If the gum is painful with punched-out, ulcerated interdental papillae, think necrotising gingivitis instead.",
+      "treatment": "The principle is straightforward: **plaque off the teeth, every day.** The disease and the cure are both about the biofilm.\n\nStep 1 of the BSP treatment flowchart:\n\n- Explain the disease, risk factors, and what no treatment looks like [9].\n- Tailored OHI — interdental cleaning is part of this, not optional [9].\n- Reduce risk factors: remove plaque-retentive features, smoking cessation, diabetes control where relevant [9].\n- Professional mechanical plaque removal (PMPR) — supra and subgingival scaling of the clinical crown [9].\n- Set the recall period using published guidance plus the patient's risk factors [9].\n\n**Interdental cleaning**: brushes are the most effective method where the embrasure space allows them in without trauma. Floss is harder to use well and many patients do it wrong [10].\n\n**Chlorhexidine** (0.2% gluconate) is the gold-standard chemical adjunct when mechanical methods fail — lack of dexterity, disability, post-surgery. 10mL rinsed for 1 min twice a day, or 0.12% 15mL for 30 sec twice a day [11]. Causes staining and altered taste; conventional toothpaste interacts with it and reduces efficacy, so don't use them at the same time [11].\n\nRe-evaluate engagement after the patient has had time to act. **Engaging** = ≥50% improvement in plaque and marginal bleeding scores, or plaque ≤20% and bleeding ≤30%. **Non-engaging** = repeat Step 1 [12].",
+      "prognosis": "- Engage with the OH plan → gingivitis reverses. Experimental gingivitis is abolished by reintroducing OH [2].\n- Don't engage → gingivitis persists. Gingivitis precedes periodontitis, and in susceptible individuals it tips into attachment loss and bone loss — that transition is the start of periodontitis [5].\n\n**Rule of thumb**: don't accept \"my gums bleed a bit when I brush\" as normal. It's the earliest signal of disease and the easiest stage to reverse.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Plaque biofilm causes gingivitis by inducing an inflammatory host response. The inflammatory response of gingiva to the presence of initial young plaque creates gingival inflammatory changes and a minute gingival pocket which serves as an ideal environment for further bacterial colonization, providing all the nutrients required for the growth of numerous fastidious organisms.",
+          "paragraph": 2898,
+          "source": "Oxford Handbook · paragraph 2898"
+        },
+        {
+          "id": 2,
+          "quote": "There is a direct correlation between the amount of plaque at the cervical margin of teeth and the severity of gingivitis, and experimental gingivitis can be produced and abolished by suspending and reintroducing OH. It is commonly accepted that plaque accumulation causes gingivitis, the major variable being host susceptibility.",
+          "paragraph": 2932,
+          "source": "Oxford Handbook · paragraph 2932"
+        },
+        {
+          "id": 3,
+          "quote": "Cocci predominate in plaque for the first 2 days, following which rods and filamentous organisms become involved. This is associated with ↑ numbers of leucocytes at the gingival margin. Between 6 and 10 days, if no cleaning has taken place, vibrios and spirochaetes appear in plaque and this is associated with clinical gingivitis.",
+          "paragraph": 2928,
+          "source": "Oxford Handbook · paragraph 2928"
+        },
+        {
+          "id": 4,
+          "quote": "It is not associated with alveolar bone resorption or apical migration of the junctional epithelium. Probing depths >3mm can occur in chronic gingivitis due to an ↑ in gingival size because of oedema or hyperplasia (false pockets).",
+          "paragraph": 2983,
+          "source": "Oxford Handbook · paragraph 2983"
+        },
+        {
+          "id": 5,
+          "quote": "The direct association between the presence of tooth surface plaque and gingivitis has been confirmed. Gingivitis precedes periodontitis but there is no evidence to suggest that periodontitis develops in the absence of gingivitis.",
+          "paragraph": 2814,
+          "source": "Oxford Handbook · paragraph 2814"
+        },
+        {
+          "id": 6,
+          "quote": "The classic triad of redness, swelling, and bleeding on gentle probing are diagnostic and are usually associated with a complaint by the patient that their 'gums bleed on brushing'. The 'knife-edge' margins and stippled appearance associated with health disappear and are replaced by a more rounded, shiny appearance. Pain is not usually a feature. Halitosis may be present. Affects gingiva only.",
+          "paragraph": 2982,
+          "source": "Oxford Handbook · paragraph 2982"
+        },
+        {
+          "id": 7,
+          "quote": "1 = pockets <3.5mm and the first black band is completely visible. Gingival bleeding after gentle probing. No pockets >3mm. No calculus. No plaque retaining factors (e.g. overhanging restoration). Rx: OHIs. 2 = pockets <3.5mm. First black band is visible but plaque retention factors present (e.g. calculus/overhang). Rx: OHIs plus removal of plaque retentive factors including sub- and supragingival calculus.",
+          "paragraph": 2832,
+          "source": "Oxford Handbook · paragraph 2832 (BPE codes 1 and 2)"
+        },
+        {
+          "id": 8,
+          "quote": "II. Gingivitis. Probing attachment loss: no. PD: <3mm. BOP: ≥10%. Radiographic bone loss: no.",
+          "paragraph": 2998,
+          "source": "Oxford Handbook · paragraph 2998 (2017 World Workshop classification — gingivitis on an intact periodontium)"
+        },
+        {
+          "id": 9,
+          "quote": "Step 1 — Building foundations for optimal treatment outcomes. I. Explain disease, risk factors & treatment alternatives, risks & benefits including no treatment. II. Explain importance of Oral Hygiene (OH), encourage and support behaviour change for OH improvement. III. Reduce risk factors including removal of plaque retentive features, smoking cessation and diabetes control interventions. IV. Provide individually tailored OH advice including interdental cleaning, +/- adjunctive efficacious toothpaste & mouthwash, +/- Professional Mechanical Plaque Removal (PMPR) including supra and subgingival scaling of the clinical crown. V. Select recall period following published guidance and considering risk factors such as smoking and diabetes.",
+          "source": "BSP UK Clinical Practice Guidelines for the Treatment of Periodontal Diseases 2021 — Step 1"
+        },
+        {
+          "id": 10,
+          "quote": "interdental brushes are the most efficient in removing interdental plaque if there is space to accommodate them. There was a moderate evidence base noted in the European workshop that supported the use of interdental brushes as being effective in removing plaque between the teeth. These brushes are thus recommended as the method of choice for interdental cleaning where spaces between teeth allow their insertion without causing trauma.",
+          "paragraph": 3155,
+          "source": "Oxford Handbook · paragraph 3155"
+        },
+        {
+          "id": 11,
+          "quote": "The anti-septic of greatest proven antiplaque/anti-gingivitis value is chlorhexidine gluconate. It exhibits substantivity. It is commonly used in a 0.2% mouthwash or gel, although 0.12% mouthwash is also available. A standard regimen is 10mL of solution rinsed for 1min bd (or 15mL of 0.12% for 30sec bd). The gel can be used instead of toothpaste. Chlorhexidine causes staining and altered taste. NB: an interaction between conventional toothpaste and chlorhexidine reduces the antiseptic's efficacy.",
+          "paragraph": 3157,
+          "source": "Oxford Handbook · paragraph 3157"
+        },
+        {
+          "id": 12,
+          "quote": "Engaging: I. Favourable improvement in OH — indicated by ≥50% improvement in plaque and marginal bleeding scores OR II. Plaque levels ≤20% & bleeding levels ≤30% OR III. Patient has met targets outlined in their personal self-care plan as determined by their healthcare practitioner. Non-engaging: I. Insufficient improvement in OH — indicated by <50% improvement in plaque and marginal bleeding scores OR II. Plaque levels >20% & bleeding levels >30% OR III. Patient states preference to a palliative approach to periodontal care.",
+          "source": "BSP UK Clinical Practice Guidelines for the Treatment of Periodontal Diseases 2021 — Engaging vs non-engaging criteria"
+        }
+      ]
+    }
+  ]
+}

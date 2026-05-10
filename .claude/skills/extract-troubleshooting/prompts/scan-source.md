@@ -6,7 +6,7 @@ You do **not** synthesise. You do **not** group. You **only** find and tag. Phas
 
 ## Inputs (filled in per worker)
 
-- `<source-id>` — short ID: `oxford` | `odells` | `leeds-restorative` | `leeds-paediatrics` | `sdcep` | `dboh` | `bsp` | `fgdp` | `iadt` | `bes` | `nice` | `rcs` | `orthodontic-referral`
+- `<source-id>` — short ID: `oxford` | `odells` | `sdcep` | `dboh` | `bsp` | `fgdp` | `iadt` | `bes` | `nice` | `rcs` | `orthodontic-referral`
 - `<source-paths>` — exact file paths under `source-material/` you must read
 - `<output-jsonl>` — `staging/troubleshooting/<source-id>.jsonl`
 - `<scope>` — optional chapter / section restriction (used for the sample run; absent for a full scan)
@@ -59,8 +59,6 @@ Every row is a single JSON object on its own line. No wrapping array. No trailin
 
 - Oxford: `"Oxford Handbook · paragraph 4949"`
 - Odell's: `"Odell's Clinical Problem Solving · paragraph 1234"`
-- Leeds restorative: `"Leeds Restorative Handbook, §<section name>"`
-- Leeds paediatrics: `"Leeds Paediatrics Handbook, §<section name>"`
 - SDCEP: `"SDCEP <document title>, §<section>"` (e.g. `"SDCEP MRONJ Guidance 2024, §4.2"`)
 - DBOH: `"Delivering Better Oral Health 2021, §<section>"`
 - BSP: `"BSP Good Practitioners Guide 2016, §<section>"` or flowchart name

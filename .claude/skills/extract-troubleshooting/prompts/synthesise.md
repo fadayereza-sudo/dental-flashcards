@@ -34,7 +34,7 @@ A row may cite a *contrast* between two conditions; in that case, include the ro
 
 ### 3. Write the seven sections per problem
 
-For each cluster, draft a `Problem` object. Fill all seven fields plus `description`, `conditionName`, `id`. Use the prose rules from `SKILL.md`:
+For each cluster, draft a `Problem` object. Fill all seven fields plus `description`, `conditionName`, `prevalence`, `id`. Use the prose rules from `SKILL.md`:
 
 - Third person, plain spoken-style sentences
 - ≤25 words for `description`, no condition name in it
@@ -55,6 +55,7 @@ For each cluster, draft a `Problem` object. Fill all seven fields plus `descript
 | `definingCharacteristics` | The differential thinking — what distinguishes this from neighbours in the same origin.                        |
 | `treatment`               | Best typical primary-care treatment. Drug doses and materials cited verbatim. Referral threshold if relevant.  |
 | `prognosis`               | With and without treatment, where the sources speak to it. Numerical outcomes cited.                           |
+| `prevalence`              | One of `very-common` / `common` / `uncommon` / `very-uncommon` / `rare`. Framed by GDP encounter frequency in a typical UK practice. See `SKILL.md` § `prevalence` for the bucket definitions and how to assign when sources are silent. |
 
 ### 4. Build the citation array
 
@@ -83,6 +84,20 @@ Before writing the file, check:
 - Every citation has a non-empty `quote` and `source`.
 - `description` does not contain the value of `conditionName` (or any near-substring).
 - `id` is unique across the origin file: `<origin-slug>-001`, `<origin-slug>-002`, …
+- `prevalence` is set to one of the five canonical values; never left blank.
+
+#### Citation-quote alignment pass (mandatory)
+
+Walk every `[N]` marker in all seven body fields. For each one:
+
+1. Read the inline sentence the marker is attached to.
+2. Read the `quote` of citation `[N]`.
+3. Confirm the quote contains the words / phrasing / number that justify *that specific* inline claim. Topical adjacency in the source is not enough — the quote itself must carry the support.
+4. If the same `[N]` is reused for two distinct claims, the quote must literally cover both. Either extend the quote to include the additional source sentence (when the sentences are consecutive in the source), or split into a new citation with its own quote.
+
+Example of the failure mode this catches: an inline claim says "the only definitive method is histological section [3]" but quote [3] only contains "recovery depends on blood supply, not nerve supply." Both sentences come from the same source paragraph, so the citation looked harmless — but the reader taps `[3]` and sees a quote about something else. Fix: extend the quote to include the histological-section sentence, or add a separate citation.
+
+This pass exists because per-paragraph citations from staging tend to clip to one sentence even when the inline use depends on a later sentence in the same paragraph. Always check the quote directly supports the inline claim.
 
 ### 6. Write the file
 
@@ -99,6 +114,7 @@ Replace `data/troubleshooting/<origin-slug>.json` in full. The file is the canon
       "id": "permanent-dentition-001",
       "description": "Brief sharp pain on cold, settles within seconds of removing the stimulus.",
       "conditionName": "Reversible pulpitis",
+      "prevalence": "very-common",
       "etiology": "Reversible inflammation of the pulp triggered by a thermal or mechanical insult, with the dentine-pulp complex still able to recover once the stimulus is removed [1].",
       "presentation": "Patient reports a sharp pain on cold drinks that vanishes seconds after the stimulus is gone. No spontaneous pain, no pain on biting [2].",
       "results": "Vitality test exaggerated to cold but rapid recovery. Percussion negative. Radiograph shows no periapical change [3].",

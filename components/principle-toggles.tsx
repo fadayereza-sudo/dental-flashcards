@@ -19,6 +19,7 @@ export type CoreTruth = {
   broaderContext?: string;
   body: string;
   citations?: Citation[];
+  badge?: string;
 };
 
 type ActiveCitation = {
@@ -33,6 +34,7 @@ interface PrincipleToggleListProps {
   openTruthId: string | null;
   onToggle: (id: string) => void;
   highlightTerm?: string;
+  accent?: "blue" | "dark";
 }
 
 export function PrincipleToggleList({
@@ -41,10 +43,15 @@ export function PrincipleToggleList({
   openTruthId,
   onToggle,
   highlightTerm,
+  accent = "blue",
 }: PrincipleToggleListProps) {
   const [activeCitation, setActiveCitation] = useState<ActiveCitation | null>(
     null
   );
+
+  const borderClass =
+    accent === "dark" ? "border-ink-muted" : "border-[#2563eb]";
+  const titleClass = accent === "dark" ? "text-ink" : "text-[#2563eb]";
 
   return (
     <>
@@ -55,11 +62,16 @@ export function PrincipleToggleList({
             <div key={truth.id}>
               <button
                 onClick={() => onToggle(truth.id)}
-                className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors border-l-2 border-[#2563eb] px-3 py-2 flex items-start justify-between gap-3"
+                className={`w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors border-l-2 ${borderClass} px-3 py-2 flex items-start justify-between gap-3`}
               >
-                <span className="text-[#2563eb] text-sm font-medium flex-1">
+                <span className={`${titleClass} text-sm font-medium flex-1`}>
                   {highlight(truth.title, highlightTerm)}
                 </span>
+                {truth.badge && (
+                  <span className="shrink-0 mt-0.5 text-[10px] tracking-[0.14em] uppercase text-bronze font-medium whitespace-nowrap">
+                    {truth.badge}
+                  </span>
+                )}
                 <svg
                   className={`w-4 h-4 flex-shrink-0 mt-0.5 transition-transform ${
                     truthOpen ? "rotate-90" : ""
@@ -157,7 +169,7 @@ function renderBody(
   return groups.map((group, gi) => (
     <div key={gi} className={gi > 0 ? "mt-5" : ""}>
       {group.heading && (
-        <h4 className="font-serif text-[15px] text-ink font-bold leading-snug mb-1">
+        <h4 className="text-[11px] tracking-[0.16em] uppercase text-bronze font-semibold mb-2 leading-snug">
           {renderParagraph(group.heading, citations, onCitation, highlightTerm)}
         </h4>
       )}

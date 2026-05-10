@@ -1,0 +1,64 @@
+{
+  "slug": "lips",
+  "title": "Lips",
+  "order": 2,
+  "description": "Conditions affecting the vermilion, the angles of the mouth, and the perioral skin.",
+  "problems": [
+    {
+      "id": "lips-001",
+      "description": "Red, sore, cracked skin at the corners of the mouth. Often a gold crust by morning. Worse with drooling, dentures, or anaemia.",
+      "conditionName": "Angular cheilitis",
+      "prevalence": "common",
+      "etiology": "A combined infection at the corners of the mouth. Three usual organisms: **Staphylococcus aureus, β-haemolytic streptococci, and Candida** [1]. The bugs don't get there on their own — they exploit a moist, macerated angle of the mouth that's been set up by something else.\n\nThe two big setups:\n\n- **Local**: trauma, drooling, an ill-fitting denture with reduced occlusal vertical dimension that lets the upper lip fold into the lower [1].\n- **Systemic**: iron deficiency and vitamin B12 deficiency anaemia [1]. Iron-deficiency anaemia in particular is a well-recognised cause [2], and angular cheilitis is one of the textbook signs of it [3].\n\nWhat happens is moisture pools in the fold, the skin macerates, and the bug mix moves in. Without fixing the underlying setup, treatment alone runs out of steam [1].",
+      "presentation": "What you'll see at the corners:\n\n- Red, cracked, macerated skin — often with a gold crust [1].\n- Usually bilateral when the cause is denture or systemic; can be unilateral with local trauma.\n- Sore but not severely painful. Often splits when the patient yawns or eats.\n\nLook in the rest of the mouth too — angular cheilitis travels with other candidal and denture problems. Denture stomatitis on the palate, papillary hyperplasia under the upper denture, and a smooth red tongue are commonly there alongside [1].",
+      "results": "- **Swab from the commissure**: typically grows the staph–strep–Candida mix [1]; in denture-associated cases it often grows S. aureus, sensitive to fusidic acid [4]. Sensitivities steer the topical choice.\n- **FBC and haematinics**: iron, ferritin, B12, folate [1]. Microcytic hypochromic picture points hard at iron deficiency [3].\n- **Denture assessment**: occlusal vertical dimension, fit, hygiene, age. An overclosed denture sets up the fold [1].\n- **Blood glucose** if there's coexisting candidosis — diabetes predisposes to candida.",
+      "definingCharacteristics": "The thing that distinguishes angular cheilitis from look-alikes: **it's at the angles of the mouth and almost always has a candidal component.**\n\nCompare to:\n\n- **Cold sore**: vesicles on the vermilion or skin near the lip with a tingling prodrome — not strictly at the angle.\n- **Contact dermatitis**: itchy, more diffuse, history of new lipstick / toothpaste / chewing gum.\n- **Orofacial granulomatosis**: persistent firm lip swelling and cobblestone buccal mucosa; angular cheilitis can develop on top [5].\n\nThe bilateral pattern, the gold crust, and the link to a denture or anaemia are the giveaways.",
+      "treatment": "Two arms run in parallel — clear the infection, fix the cause [1].\n\n**Topical antifungal/antibacterial:**\n\n- **Miconazole cream** is first-line — covers all three usual organisms (strep, staph, Candida) [1, 6]. Apply qds [6].\n- **If swab shows S. aureus**, fusidic acid cream is appropriate [4].\n- **Mupirocin to the anterior nares** if Staph keeps coming back — clears the nasal reservoir [1].\n- Treat for at least 10 days **after** the lesion looks resolved. Short courses relapse [1].\n\n**Underlying cause:**\n\n- Replace or rebase the denture if the vertical dimension is wrong [1].\n- Correct anaemia — iron, B12, or folate replacement under the GP [1].\n- Treat coexisting denture stomatitis: leave dentures out at night, soak in chlorhexidine, miconazole gel to the fitting surface.\n\n**Watch-out**: miconazole interacts with warfarin (raises INR), antidiabetics, antiepileptics, and a few other drug classes [7]. Check the medical history before prescribing.",
+      "prognosis": "- Treat both arms (infection + cause) → resolves in 1–2 weeks and stays resolved [1].\n- Treat the infection only → comes back. The setup is still there [1].\n- Keeps recurring without an obvious local cause → think systemic. Anaemia, diabetes, immunosuppression [2, 3].\n\n**Rule of thumb**: angular cheilitis on a denture wearer is a denture problem until proven otherwise. Recurrent bilateral angular cheilitis without dentures deserves bloods.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A combined staphylococcal, β-haemolytic streptococci, and candidal infection, involving the tissues at the angle of the mouth (Fig. 11.1). Aetiology is multifactorial with local and systemic precipitating factors, e.g. trauma, inadequate vertical dimension of denture, iron deficiency, and vitamin B12 deficiency anaemia. Therefore, FBC and haematinics should be investigated. Clinically, red, cracked, macerated skin at angles of the mouth, often with a gold crust. Rx: miconazole cream, which is active against all three infecting organisms. Rx needs to be prolonged, up to 10 days after resolution of clinical lesion, and carried out in conjunction with elimination of any underlying factors. Mupirocin cream applied to the anterior nares helps eradicate sources of Staphylococcus aureus.",
+          "paragraph": 6044,
+          "source": "Oxford Handbook · paragraph 6044"
+        },
+        {
+          "id": 2,
+          "quote": "Candidosis (…… Oral candidosis (candidiasis), p. 438) may be precipitated or exacerbated by anaemia, particularly iron deficiency, and angular cheilitis is a well-recognized association. The sore, clinically normal tongue (burning tongue) is sometimes a manifestation or even precursor of anaemia.",
+          "paragraph": 6403,
+          "source": "Oxford Handbook · paragraph 6403"
+        },
+        {
+          "id": 3,
+          "quote": "These are notoriously unreliable, but may include general fatigue, heart failure, angina on effort, pallor (look at conjunctivae and palmar creases, but unreliable), brittle nails &/or spoon-shaped nails (koilonychia), oral discomfort &/or ulceration, glossitis, and classically angular cheilitis.",
+          "paragraph": 7182,
+          "source": "Oxford Handbook · paragraph 7182 (signs of iron-deficiency anaemia)"
+        },
+        {
+          "id": 4,
+          "quote": "In this case, a swab was taken from the commissure and surrounding skin. Culture revealed Staphylococcus aureus, which was sensitive to fusidic acid.",
+          "paragraph": 7932,
+          "source": "Odell's Clinical Problem Solving · paragraph 7932"
+        },
+        {
+          "id": 5,
+          "quote": "Lip swelling affects the majority of patients, with each episode lasting days to weeks. Over time, the lips may become firm and persistently swollen. The perioral skin may become red, dry, itchy or cracked, with some patients developing angular cheilitis.",
+          "paragraph": 7906,
+          "source": "Odell's Clinical Problem Solving · paragraph 7906 (orofacial granulomatosis)"
+        },
+        {
+          "id": 6,
+          "quote": "This is a useful drug, particularly in management of angular cheilitis, as it is active against streptococci, staphylococci, and Candida. Miconazole oral gel 24mg/mL is of use in chronic mucocutaneous and chronic hyperplastic candidosis. Dose: 2.5mL qds 20mg/g gel. Apply a pea-sized amount after food qds. Can be applied to dentures also. Miconazole cream is used topically for angular cheilitis.",
+          "paragraph": 8230,
+          "source": "Oxford Handbook · paragraph 8230"
+        },
+        {
+          "id": 7,
+          "quote": "There are recognized potentially serious interactions between miconazole, fluconazole, and related drugs and antibacterials, anticoagulants, antidiabetics, antiepileptics, antihistamines, anxiolytics, cisapride, ciclosporin, and theophylline. Check what your patient is currently taking.",
+          "paragraph": 8233,
+          "source": "Oxford Handbook · paragraph 8233"
+        }
+      ]
+    }
+  ]
+}

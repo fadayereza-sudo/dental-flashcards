@@ -1,6 +1,6 @@
 ---
 name: extract-troubleshooting
-description: "Compile the dental troubleshooting guide. Two-pass: (1) scan source material — Oxford Handbook, Odell's, Leeds restorative, Leeds paediatrics, all dental guidelines — and tag clinically-actionable excerpts by origin; (2) synthesise per-origin JSON of problems with etiology / presentation / results / defining characteristics / treatment / prognosis / condition name. Reads from `source-material/`. Writes to `data/troubleshooting/`. Triggered by `/extract-troubleshooting`."
+description: "Compile the dental troubleshooting guide. Two-pass: (1) scan source material — Oxford Handbook, Odell's, all dental guidelines — and tag clinically-actionable excerpts by origin; (2) synthesise per-origin JSON of problems with etiology / presentation / results / defining characteristics / treatment / prognosis / condition name. Reads from `source-material/`. Writes to `data/troubleshooting/`. Triggered by `/extract-troubleshooting`."
 ---
 
 # Extract Dental Troubleshooting Guide
@@ -11,9 +11,11 @@ Build a fast diagnostic / decision-support reference for general dental practice
 
 The level-2 label is the symptom-led description, not the condition name. Opening the toggle is a "what is this?" practice — the diagnosis is revealed inside. So the description must give the *picture* without naming the disease.
 
-Content is compiled by reading every line of the five source pillars *as if for the first time* — never the summarised versions already in the repo (`data/first-principles/`, `data/guidelines/`). Those are downstream products; this skill returns to source.
+Content is compiled by reading every line of the source pillars *as if for the first time* — never the summarised versions already in the repo (`data/first-principles/`, `data/guidelines/`). Those are downstream products; this skill returns to source.
 
-## Input — five source pillars
+The Leeds restorative and Leeds paediatric university handbooks are **excluded** from this skill. Even though they live in `source-material/university handbooks/`, do not read them — they're student lecture notes, not the credibility tier we want for a clinical decision-support guide. Stick to Oxford, Odell's, and the published guidelines.
+
+## Input — source pillars
 
 ```
 source-material/
@@ -23,9 +25,6 @@ source-material/
 ├── odells/
 │   ├── full-text.txt          # paragraph-indexed (same format as Oxford)
 │   └── chapters.json
-├── university handbooks/
-│   ├── RESTORATIVE HANDBOOK 2018-min-compressed c - Unknown.txt
-│   └── Paediatric dentistry clinical handbook - denjt.txt
 └── guidelines/
     ├── SDCEP/                 # *.md + Calibre *.txt
     ├── delivering-better-oral-health/  delivering-better-oral-health.md
@@ -41,7 +40,7 @@ source-material/
 Two source families:
 
 - **Paragraph-indexed** (Oxford, Odell's): every paragraph is `[N][style] text`. Cite by `paragraph: N`.
-- **Unstructured** (Leeds, all guidelines): plain text or markdown without paragraph indices. Cite by free-text `source: "..."` (e.g. `"Leeds Restorative Handbook, §Endodontics — diagnosis"`, `"BSP Good Practitioners Guide 2016, §3.2"`, `"BES Guidelines 2022 — Vital Pulp Therapy"`).
+- **Unstructured** (all guidelines): plain text or markdown without paragraph indices. Cite by free-text `source: "..."` (e.g. `"BSP Good Practitioners Guide 2016, §3.2"`, `"BES Guidelines 2022 — Vital Pulp Therapy"`).
 
 Never copy any of these source files into the project tree. The dev server OOMs on large binaries and large text in `node_modules`-adjacent areas; read in place from `source-material/`.
 
@@ -92,6 +91,7 @@ type OriginData = {
     id: string;                       // "<origin-slug>-NNN" zero-padded
     description: string;              // L2 label — symptom-led, no condition name
     conditionName: string;            // revealed inside L3, last section
+    prevalence: "very-common" | "common" | "uncommon" | "very-uncommon" | "rare";
     etiology: string;                 // markdown body, may include [N] citation markers
     presentation: string;
     results: string;
@@ -104,7 +104,7 @@ type OriginData = {
 
 // data/troubleshooting/progress.json
 type Progress = {
-  scanned: { oxford?: boolean; odells?: boolean; leedsRestorative?: boolean; leedsPaediatrics?: boolean; guidelines?: boolean };
+  scanned: { oxford?: boolean; odells?: boolean; guidelines?: boolean };
   synthesised: string[];   // origin slugs done
   totalOrigins: number;
   lastUpdated: string;     // ISO date
@@ -125,9 +125,9 @@ Use the **scan-source** prompt at `prompts/scan-source.md`. Each row looks like:
 
 Required keys per row:
 - `origin` — one slug from the canonical list
-- `source` — short ID (`oxford`, `odells`, `leeds-restorative`, `leeds-paediatrics`, plus one per guideline: `sdcep`, `dboh`, `bsp`, `fgdp`, `iadt`, `bes`, `nice`, `rcs`, `orthodontic-referral`)
+- `source` — short ID (`oxford`, `odells`, plus one per guideline: `sdcep`, `dboh`, `bsp`, `fgdp`, `iadt`, `bes`, `nice`, `rcs`, `orthodontic-referral`)
 - `quote` — verbatim sentence(s) from the source. No paraphrasing.
-- `sourceLabel` — the human-readable label that will end up in citation popouts (`"Oxford Handbook · paragraph 4949"`, `"Leeds Restorative Handbook, §Endodontics"`, `"BES Guidelines 2022 — Hypochlorite Accident"`)
+- `sourceLabel` — the human-readable label that will end up in citation popouts (`"Oxford Handbook · paragraph 4949"`, `"Odell's Clinical Problem Solving · paragraph 1234"`, `"BES Guidelines 2022 — Hypochlorite Accident"`)
 - `hint` — short note (≤15 words) on what this excerpt evidences (etiology / presentation / Tx / Px etc.)
 
 Optional keys:
@@ -212,6 +212,25 @@ Best typical treatment in primary care. If the condition needs referral, say to 
 
 Two halves where sources support it: with treatment, without treatment. Numerical outcomes (success rates, survival, %retention) must be cited. If sources don't speak to prognosis, write the strongest cited statement you have and leave it short — do not pad.
 
+### `prevalence`
+
+Required. One of `very-common` | `common` | `uncommon` | `very-uncommon` | `rare`. Framed by **GDP encounter frequency in a typical UK practice**, not lifetime population prevalence — the guide is a clinical decision-support tool, so what matters is pre-test probability when a patient walks in.
+
+The buckets:
+
+- **very-common** — encountered multiple times a week. Most adults will have it at some point. Bread-and-butter. (Plaque-induced gingivitis, caries, dentine hypersensitivity.)
+- **common** — encountered at least monthly. A meaningful subgroup carries it. (Angular cheilitis, RAS, denture stomatitis, stage I–II periodontitis.)
+- **uncommon** — a few times a year. Specific patient sub-populations. (NUG, geographic tongue, cracked tooth syndrome, stage III–IV periodontitis.)
+- **very-uncommon** — once every couple of years. Often referred. (Orofacial granulomatosis, erosive lichen planus, chronic hyperplastic candidosis.)
+- **rare** — career-rare or never seen by a typical GDP. (Pemphigus, certain syndromes, specific malignancies.)
+
+How to assign:
+
+- Where a source gives a hard number (population %, % in subgroup, annual incidence), that's the strongest evidence — use it and cite the figure inline in the body. Don't add a separate `prevalenceNote` field.
+- Where no number exists, assign by clinical-frequency framing using how the source itself signals frequency. Oxford and Odell's use phrases like "very common", "rare", "occasionally seen", "the commonest cause of…" — those phrases steer the bucket.
+- When two sources signal differently, lean on the more recent / more credible one.
+- For conditions that are common in a sub-population but rare overall, score by GDP encounter frequency. Denture stomatitis is **common** because GDPs see denture wearers daily, even though it's uncommon in the general adult population.
+
 ## Citation rules
 
 - **Every citation has a `source` string.** This is the label the reader sees in the popout. Do not rely on the paragraph fallback — write `source: "Oxford Handbook · paragraph 4949"` even when `paragraph: 4949` is also set.
@@ -239,7 +258,6 @@ Before scaling to all origins, run this exact sample and hand back to the user f
 1. **Scoped phase 1** — only sections of each source most likely to contain permanent-dentition material:
    - Oxford Handbook chapter 6 (Repairing teeth), chapter 7 (Endodontics), chapter 12 (Oral medicine — caries / pulpitis bits)
    - Odell's: cases on caries, pulp, fracture, sensitivity (chapters covering same)
-   - Leeds restorative — full scan (≈13k lines, manageable)
    - Guidelines: BES (all 9 sections), SDCEP child caries (only the permanent-dentition portions), DBOH (caries-prevention section), FGDP (radiography selection criteria for caries)
 2. **Phase 2** — synthesise `data/troubleshooting/permanent-dentition.json` aiming for 5–10 problems: caries (initial / cavitated), reversible pulpitis, irreversible pulpitis, apical periodontitis, periapical abscess, cracked tooth syndrome, dentine hypersensitivity, NCTSL, internal / external resorption, fluorosis. Pick the highest-value subset, not all ten.
 3. **Hand back** for user review of: schema fit, voice, citation density, level-2 description style, condition-name reveal placement.
