@@ -59,6 +59,244 @@
           "source": "Oxford Handbook · paragraph 8233"
         }
       ]
+    },
+    {
+      "id": "lips-002",
+      "description": "Recurring cluster of tiny blisters on the vermilion or the skin just above it. Burning and tingling before the blisters appear. Heals within 1–2 weeks then comes back.",
+      "conditionName": "Herpes labialis (recurrent HSV-1, cold sore)",
+      "prevalence": "common",
+      "etiology": "The virus responsible is herpes simplex virus type 1 (HSV-1). The reason labialis can keep recurring is that HSV-1 doesn't clear after the primary infection — it travels back along sensory axons to the trigeminal or geniculate ganglion and stays there as a latent infection [1]. A viral latency gene and the cell-mediated immune response keep the balance between latency and reactivation [2].\n\nWhen the balance tips toward reactivation, the virus travels back down the nerve to the skin or mucosa at the mucocutaneous junction of the lip. The reason antibodies don't prevent recurrences is that for most of its life cycle the virus is intracellular, putting it out of reach of the humoral response [2].\n\nEnvironmental triggers for reactivation include ultraviolet light, illness, and stress [2]. Trauma — for example, removal of a wisdom tooth — and immunosuppression are also recognised precipitants [3].",
+      "presentation": "The patient usually knows it's coming before you can see anything. The prodrome is a burning or tingling sensation at the site, lasting up to 24 hours [3]. Then:\n\n- Small vesicles appear at the vermilion border or the skin immediately above or below it [3].\n- Vesicles rupture quickly, leaving shallow painful erosions, which crust over.\n- Confined to one branch of the trigeminal nerve — usually recurs on the same patch of lip [3].\n- Recurrences are seen in up to 30% of patients who have had a primary HSV infection [3].",
+      "results": "Herpes labialis is a clinical diagnosis. Special investigations are rarely needed in primary care.\n\n- If there is doubt, viral swab from the lesion base can confirm HSV by PCR.\n- The prodrome + vesiculation + mucocutaneous junction site + previous history of recurrences is the defining pattern [2, 3].\n- Labial recurrences are painful and unpleasant but relatively readily treated because there is often a characteristic prodromal sensation of burning or itching and the vesicles are easily seen [4].",
+      "definingCharacteristics": "The thing that sets herpes labialis apart:\n\n- **Site**: mucocutaneous junction of the lip — not strictly at the angle (angular cheilitis), not diffusely across the mucosa (primary HSV stomatitis).\n- **Prodrome**: burning or tingling reliably precedes the vesicles [3]. Angular cheilitis has no prodrome; mucocele has no pain at all.\n- **Recurrence pattern**: same site, same nerve territory, same trigger pattern [3].\n- **Erythema multiforme connection**: recurrent HSV is a common trigger for erythema multiforme — a cold sore 1–2 weeks before the onset of lip crusting and oral erosions raises this possibility [5].",
+      "treatment": "The goal is to start treatment in the prodrome, before vesicles form — that's when antivirals make the most difference [4].\n\n- **Aciclovir 5% cream**: apply to the site of prodromal or early lesion 4-hourly for 5 days [6].\n- **Penciclovir 1% cream**: apply 2-hourly for 4 days — also prescribable for herpes labialis [7].\n- Both are most effective in the prodromal or early vesicular stage [3, 6]. Started late, they shorten duration but can't abort the episode.\n- **Systemic aciclovir** (400mg PO five times daily for 5 days) [6] should be considered in the immunocompromised or for frequent recurrences [3].\n- Sun block on the lips reduces UV-triggered recurrences.",
+      "prognosis": "- Each episode is self-limiting, resolving in about 1–2 weeks without treatment.\n- Up to 30% of people who acquire HSV go on to have recurrent cold sores [8]; many suffer only occasional lesions, and frequency tends to decrease with age.\n- In immunocompromised patients, recurrences can be more severe and more frequent — systemic antivirals are the appropriate response [3].\n- There is no cure. Latent infection in the ganglion persists for life [2].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "During infection, HSV is transported back along axons of sensory nerves to their nuclei. There, the neurones are infected but do not die, and the virus becomes latent – that is, virus persists but no infectious virions are produced.",
+          "paragraph": 3218,
+          "source": "Odell's Clinical Problem Solving · paragraph 3218"
+        },
+        {
+          "id": 2,
+          "quote": "A viral latency gene and the cell-mediated immune response contribute to the balance between latency and reactivation. If infection is reactivated, the virus travels down the nerve to cause a localized recurrent infection of the mucosa or skin – a cold sore. Because the virus is intracellular for most of this life cycle, antibodies of the humoral immune response are not effective in preventing recurrences. Environmental triggers for cold sores include ultraviolet light, illness and stress.",
+          "paragraph": 3219,
+          "source": "Odell's Clinical Problem Solving · paragraph 3219"
+        },
+        {
+          "id": 3,
+          "quote": "These are seen in up to 30% of patients affecting the mucocutaneous junction of the lips (herpes labialis, cold sore) and result from reactivation of the 1° infection which is believed to lie dormant in the dorsal root, and autonomic or cranial nerve ganglia (trigeminal or geniculate). Precipitating factors include trauma, e.g. during removal of 8 and immunosuppression and, less commonly, exposure to sunlight, stress, and febrile illness. Usually recurs on area of distribution supplied by one branch of the trigeminal nerve. Prodromal phase (burning/tingling) over 24h is followed by vesiculation and pain. Lesions may respond to 1% penciclovir or aciclovir 5% cream if used in the prodromal stage. Should consider systemic aciclovir (…… Aciclovir, p. 612) in the immunosuppressed or frequent recurrences.",
+          "paragraph": 6016,
+          "source": "Oxford Handbook · paragraph 6016"
+        },
+        {
+          "id": 4,
+          "quote": "Labial recurrences are painful and unpleasant but relatively readily treated because there is often a characteristic prodromal sensation of burning or itching and the vesicles are easily seen. Early treatment is, therefore, possible, and antiviral drugs can be very effective. Topical preparations of 5% aciclovir are available without prescription.",
+          "paragraph": 3221,
+          "source": "Odell's Clinical Problem Solving · paragraph 3221"
+        },
+        {
+          "id": 5,
+          "quote": "If the patient has had recurrent HSV infection, usually in the form of herpes labialis, then the present ulcers could not have been caused by a primary herpetic infection. Recurrent herpetic infection is sometimes a trigger for attacks of erythema multiforme and a cold sore 1–2 weeks before onset would raise this possibility.",
+          "paragraph": 3186,
+          "source": "Odell's Clinical Problem Solving · paragraph 3186"
+        },
+        {
+          "id": 6,
+          "quote": "Active against herpes simplex and zoster; relatively non-toxic and can be given systemically or topically. Dose: herpes labialis: apply 5% aciclovir cream to site of prodromal or early lesion 4-hourly for 5 days; herpetic stomatitis: 200mg PO (400mg in immunocompromised) five times daily for 5 days; herpes zoster: 800mg PO five times daily for 7 days.",
+          "paragraph": 8237,
+          "source": "Oxford Handbook · paragraph 8237"
+        },
+        {
+          "id": 7,
+          "quote": "Penciclovir as a 1% cream applied 2-hourly for 4 days is prescribable according to the DPF for herpes labialis.",
+          "paragraph": 8239,
+          "source": "Oxford Handbook · paragraph 8239"
+        },
+        {
+          "id": 8,
+          "quote": "Between 15 and 30% of individuals who come into contact with the virus develop recurrent infection. It is not clear whether those who suffer a symptomatic primary infection such as gingivostomatitis have an increased risk. Although this percentage seems high, many patients with recurrent herpes infection suffer only very occasional lesions.",
+          "paragraph": 3216,
+          "source": "Odell's Clinical Problem Solving · paragraph 3216"
+        }
+      ]
+    },
+    {
+      "id": "lips-003",
+      "description": "A smooth, soft, painless fluid-filled lump on the inner surface of the lower lip that appeared after lip-biting or minor trauma. Bluish, translucent. Recurs if not fully removed.",
+      "conditionName": "Mucocele (mucous extravasation cyst)",
+      "prevalence": "common",
+      "etiology": "The mechanism is simple: a minor salivary duct gets traumatised — most often by a bite — and saliva leaks out of the duct into the surrounding connective tissue. The spilled saliva doesn't drain away; instead it pools and is walled off by compressed connective tissue, forming a pseudocyst [1].\n\nThe reason mucoceles mostly appear on the lower lip is anatomy: the minor salivary gland ducts of the lower lip are exposed to biting trauma far more than those on the upper lip [1]. This matters clinically — a similar-looking swelling on the upper lip is much more likely to be a minor salivary gland tumour and should be treated with more suspicion [1, 2].\n\nA minority are true mucous retention cysts rather than extravasation pseudocysts [1], but the clinical distinction rarely changes management.",
+      "presentation": "- Smooth, soft, dome-shaped swelling on the inner surface of the lower lip, typically 5–10 mm in diameter.\n- Bluish or translucent in colour when superficial; flesh-coloured if it lies deeper in the tissue.\n- Painless. The patient often presents because they've noticed the lump or keep biting it.\n- History of repeated trauma or biting at the site is common.\n- May have burst spontaneously before the appointment, leaving a flat, mildly sore area — and then re-formed.",
+      "results": "Mucocele is a clinical diagnosis based on site, appearance, and history.\n\n- **Aspiration**: aspirating a thin, clear-to-slightly-viscous fluid (saliva) confirms the diagnosis and differentiates it from a vascular lesion (which would aspirate blood).\n- No imaging is required for a straightforward lower-lip mucocele.\n- **Histology** after excision is standard practice and confirms the mucous extravasation pattern — compressed connective tissue wall without a true epithelial lining.\n- Any swelling on the **upper lip** warrants biopsy and histology rather than clinical assumption: >50% of upper lip minor salivary gland tumours are malignant [2].",
+      "definingCharacteristics": "The key distinguishing features:\n\n- **Lower lip, inner surface**: this is the signature site. Upper lip swellings are a red flag for salivary tumour [1, 2].\n- **Fluctuant and translucent**: unlike a fibrous epulis or fibroma, which are firm and opaque.\n- **Bursts and recurs**: spontaneous rupture followed by re-accumulation is almost pathognomonic of mucocele.\n- Unlike a ranula (which is a mucocele of the floor of the mouth arising from the sublingual gland [3]), labial mucoceles are superficial and straightforwardly excised.",
+      "treatment": "Excision of the mucocele together with the associated damaged minor salivary gland and duct [1]. The reason the gland must come out with the cyst is that leaving it behind almost guarantees recurrence — the damaged duct continues to leak.\n\n- Performed under local anaesthesia in primary care or a minor surgery setting.\n- Send the specimen for histology — confirms diagnosis and excludes an unexpected tumour.\n- Marsupialisation alone is not recommended; the recurrence rate is high.\n- For an **upper lip** swelling: do not assume mucocele. Refer for specialist assessment — the majority of minor salivary gland tumours at this site are malignant [2].",
+      "prognosis": "- Excision with the associated gland: low recurrence rate.\n- Excision of the cyst alone without the gland: high likelihood of recurrence.\n- Natural history without treatment: some smaller mucoceles rupture and resolve spontaneously but most recur. Repeated biting of a persisting mucocele keeps the cycle going.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "These are usually mucous extravasation cysts, where saliva leaks from a traumatized duct and pools, creating a compressed connective tissue capsule. Rarely, they are mucous retention cysts. They mostly affect the lower lip—similar swellings in the upper lip are often minor salivary gland tumours (…… Salivary gland tumours, p. 513). Rx: excision with associated damaged glands and duct.",
+          "paragraph": 5788,
+          "source": "Oxford Handbook · paragraph 5788"
+        },
+        {
+          "id": 2,
+          "quote": ">50% of tumours are malignant (mostly adenoid cystic) and require extensive surgery and reconstruction similar to floor of mouth cancer. Beware the 'mucocele' of the upper lip—it is almost certainly a tumour.",
+          "paragraph": 6927,
+          "source": "Oxford Handbook · paragraph 6927"
+        },
+        {
+          "id": 3,
+          "quote": "These are mucoceles of the floor of the mouth, arising from the sublingual gland. They tend to recur if marsupialized. A plunging ranula crosses deep to the mylohyoid and appears as a neck and floor of mouth swelling. Rx: excision of cyst and associated sublingual gland; the submandibular gland may have to be excised if the duct is damaged.",
+          "paragraph": 5790,
+          "source": "Oxford Handbook · paragraph 5790"
+        }
+      ]
+    },
+    {
+      "id": "lips-004",
+      "description": "Painless, non-healing ulcer or thickened white patch on the lower lip vermilion. History of long-term sun exposure. Present for more than 3 weeks.",
+      "conditionName": "Squamous cell carcinoma of the lip",
+      "prevalence": "uncommon",
+      "etiology": "The main aetiological factor in cancer of the lip is exposure to sunlight — the same mechanism as skin cancer [1]. The risk doubles every 250 miles nearer the equator, which is the clearest statement of the dose-response relationship [1]. Actinic cheilitis — sun damage to the lower lip causing excessive keratin production and increased mitotic activity in the basal layer — is the recognised premalignant precursor [2].\n\nThe lower lip is almost exclusively affected because it receives direct ultraviolet radiation; the upper lip is shaded by the philtrum. This origin-specific pattern distinguishes lip SCC from intraoral SCC, which is driven more by tobacco and alcohol [1].\n\nTobacco, alcohol, and immunosuppression (e.g. renal transplant patients, HIV) increase overall risk, and HPV type 16 and 18 infection is now recognised as an independent risk factor for oropharyngeal SCC [1].",
+      "presentation": "The clinical picture the source describes:\n\n- A **painless ulcer** with firm raised edges, an indurated, inflamed, granular base, and fixation to surrounding tissues [3]. Pain is usually a late feature [3].\n- May present instead as a swelling, a white patch, an erythro-leucoplakia, or an erythroplakia [3].\n- Malignancy should be suspected if any such lesion persists for **more than 3 weeks** [3].\n- Lower lip vermilion is the classic site. Patient is typically male, sixth or seventh decade, outdoor worker.\n- A cervical lymph node may be the presenting complaint if there is already metastatic spread [3].",
+      "results": "- **Biopsy** is mandatory — this is the only way to confirm the diagnosis. Refer immediately via the urgent cancer pathway rather than waiting to see if the lesion resolves.\n- Histology: SCC. Characteristically shows invasion of deep tissues with cellular pleomorphism and increased nuclear staining [4].\n- Staging uses TNM classification. Prognosis for stage I (T1–N0) is >85% at 5 years; stage IV is around 10% [5]. Nodal involvement alone reduces cure rates by 50% [5].\n- Presence or absence of extracapsular spread in metastatic cervical nodes is the most important single prognostic factor [5].",
+      "definingCharacteristics": "The critical distinction from benign lower lip lesions:\n\n- **Duration >3 weeks**: any ulcer or white patch persisting beyond 3 weeks must be referred for biopsy [3]. This threshold exists because benign traumatic ulcers heal; SCC does not.\n- **Induration**: the firm, fixed base and raised edges distinguish it from aphthous ulceration (soft, mobile, heals in 2 weeks) and mucocele (fluctuant, smooth, inner surface).\n- **Actinic cheilitis** is the premalignant stage — blurred vermilion border, dry, scaled, white patches on the lower lip after years of UV exposure [2]. The transition from premalignant to malignant is the clinical worry.\n- Unlike intraoral SCC where floor of mouth and lateral tongue are the highest-risk sites, lip SCC is dominated by sun exposure rather than tobacco/alcohol.",
+      "treatment": "The goal is surgical excision, usually combined with radiotherapy for advanced disease.\n\n- **Immediate urgent referral** via the two-week-wait cancer pathway. Do not wait, do not treat empirically.\n- Management decisions are based on TNM stage and the patient's fitness for surgery [6].\n- In many instances of oral cancer, combined surgery and radiotherapy constitutes optimal treatment [6].\n- Pre-malignant actinic cheilitis: advise sun block and arrange regular follow-up [2]. If active intervention is indicated, laser excision or vermilionectomy are options.\n- Stopping smoking is part of the treatment plan for any tobacco-related risk [1].",
+      "prognosis": "- Stage I (T1–N0): >85% survival at 5 years [5].\n- Stage IV: approximately 10% survival at 5 years [5].\n- Nodal involvement reduces cure rates by 50% [5].\n- Overall oral cancer mortality rate is just over 50% despite treatment [7]. Oral cancer is preventable in 75% of cases [7].\n- Early diagnosis is the single biggest lever — the stage at presentation determines survival more than the treatment modality.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The main aetiological factor in cancer of the lip is exposure to sunlight, as with skin cancer. It is estimated that the risk of developing lip cancer doubles every 250 miles nearer the equator. Excessive alcohol and tobacco use are the important factors in the aetiology of cancer of the mouth showing a 'synergistic effect'. Perhaps the most clear-cut aetiological factor is the chewing of tobacco and paan. HPV type 16 and 18 infection is now recognized as an independent risk factor for oropharyngeal SCC. Immunosuppression, e.g. in renal transplant patients or patients with HIV, ↑ the risk of this and other tumours.",
+          "paragraph": 6209,
+          "source": "Oxford Handbook · paragraph 6209"
+        },
+        {
+          "id": 2,
+          "quote": "Sun damage to the lower lip causes excessive keratin production and ↑ mitotic activity in the basal layer. Premalignant. Advise sun blocks and regular follow-up.",
+          "paragraph": 6252,
+          "source": "Oxford Handbook · paragraph 6252 (actinic cheilitis)"
+        },
+        {
+          "id": 3,
+          "quote": "Oral cancer is most often seen as a painless ulcer, although it may present as a swelling or as an area of leucoplakia, erythroleucoplakia, or erythroplakia. Patients may present with a history of a neck lump as a result of metastatic spread to cervical lymph nodes. Malignancy should be suspected if any of these lesions persists for >3 weeks. Pain is usually a late feature. Referred otalgia is a common manifestation of pain from the tongue or oropharyngeal cancer. The ulcer is described as firm with raised edges, with an indurated, inflamed, granular base and is fixed to surrounding tissues.",
+          "paragraph": 6211,
+          "source": "Oxford Handbook · paragraph 6211"
+        },
+        {
+          "id": 4,
+          "quote": "Mostly SCC. Characteristically shows invasion of deep tissues with cellular pleomorphism and ↑ nuclear staining. The presence of a lymphocytic response may have prognostic value, as does the manner of invasion (pushing or spreading). Can spread via local infiltration or lymphatic system (cervical nodes), and late spread via bloodstream.",
+          "paragraph": 6215,
+          "source": "Oxford Handbook · paragraph 6215"
+        },
+        {
+          "id": 5,
+          "quote": "This is dependent on site and stage,3 (prognosis for stage I is >85% and for stage IV is 10% over 5yrs), and co-morbidity. The presence or absence of extracapsular spread of tumour in metastatic cervical nodes is the most important single prognostic factor. Nodal involvement ↓ cure rates by 50%.",
+          "paragraph": 6213,
+          "source": "Oxford Handbook · paragraph 6213"
+        },
+        {
+          "id": 6,
+          "quote": "Various parameters affect the choice of Rx for patients with oral cancer; not least among these, but often forgotten, are the patients themselves, their general health, understanding of their disease, geographical location, and social and domestic commitments. Classically, broad Rx principles are based on tumour staging, using the Tumour, Node, Metastasis (TNM) classification, and the patient's fitness for surgery. In many instances of oral cancer, combined surgery and radiotherapy constitutes optimal Rx.",
+          "paragraph": 6978,
+          "source": "Oxford Handbook · paragraph 6978"
+        },
+        {
+          "id": 7,
+          "quote": "Cancer of the mouth (Fig. 11.4) accounts for ~2% of all malignant tumours in northern Europe and the US, but ~30–40% in the Indian subcontinent. >90% of these are SCCs. Globally it is the sixth commonest cause of cancer-related death. >2000 new cases of oral cancer are registered per year in the UK and each year half that number die from or with the disease. Oral cancer is preventable in 75% of cases. Overall mortality rate is just over 50% despite Rx.",
+          "paragraph": 6205,
+          "source": "Oxford Handbook · paragraph 6205"
+        }
+      ]
+    },
+    {
+      "id": "lips-005",
+      "description": "Dry, peeling, or cracked lips with no specific site. The patient habitually licks or picks at them. No blistering, no commissure involvement.",
+      "conditionName": "Cheilitis simplex (lip licker's dermatitis / dry sore lips)",
+      "prevalence": "very-common",
+      "etiology": "The most common cause is a habit cycle: the lips feel dry, the patient licks them, the saliva evaporates and leaves them drier than before, so they lick again [1]. Wind exposure and sunlight cause direct drying of the vermilion, which has no sebaceous glands to maintain its moisture barrier. Viral illness can present this way too [1].\n\nThe reason the cycle perpetuates is mechanical: repeated wetting and drying of the vermilion disrupts the epithelium's barrier function. Skin around the mouth may show a faint ring of redness tracing the extent of the tongue's reach — the classic \"licker's border\".\n\nThis is distinguished from actinic cheilitis (which is premalignant, driven by UV, and shows keratotic changes) and exfoliative cheilitis (persistent crusting and scaling of unknown aetiology, more severe) by its self-sustaining habit aetiology and its benign, reversible course.",
+      "presentation": "- Dry, cracked, peeling vermilion — often worse in winter or during illness.\n- Mild soreness but no vesiculation, no ulceration, no gold crusting at the angles.\n- In children and younger adults: a visible perioral ring of slight redness or hyperpigmentation tracing the licking habit.\n- Patient often aware of the habit; may also report picking or peeling the dry skin.\n- No systemic symptoms. No lymphadenopathy.",
+      "results": "No investigations are routinely needed. This is a clinical diagnosis based on history and pattern.\n\n- If the appearance is persistent, unusual, or associated with systemic features, consider:\n  - **Patch testing** to exclude contact allergic cheilitis from toothpaste, lipstick, or food flavourings.\n  - **FBC and haematinics** if there is also angular cheilitis or a burning tongue — haematinic deficiency contributes.\n- The absence of vesicles, the absence of commissure involvement, and the licking history distinguish this from herpes labialis and angular cheilitis respectively.",
+      "definingCharacteristics": "The key framing: **this is a habit-driven condition, not an infective one.**\n\n- No vesicles (unlike herpes labialis), no commissure involvement (unlike angular cheilitis), no persistent crusting (unlike exfoliative cheilitis).\n- The perioral ring of redness from licking is specific to this condition when present.\n- Responds promptly to barrier treatment and habit interruption — that response itself helps confirm the diagnosis.\n- Exfoliative cheilitis is sometimes described as similar to actinic cheilitis but of unknown aetiology [2]; it presents with more persistent, heavier crusting than simple dry lips and does not resolve with lip salve alone.",
+      "treatment": "- **Lip salves** applied regularly — lanolin or petroleum jelly-based emollients restore the surface barrier [1]. The patient needs to understand why: salves replace the moisture barrier that licking destroys.\n- Break the licking habit. Explain the cycle — the licking is the problem, not the solution.\n- Protect against wind and sunlight with a lip balm containing SPF.\n- If a contact allergen is suspected, identify and remove it (toothpaste flavouring, lipstick, nickel in instruments).\n- Exfoliative cheilitis of unknown aetiology: manage symptomatically, consider topical steroids if inflamed, and refer if persistent.",
+      "prognosis": "- With barrier treatment and habit interruption, simple dry lips resolve completely.\n- Without habit change, the cycle continues indefinitely.\n- Exfoliative cheilitis and actinic cheilitis carry a worse prognosis: actinic cheilitis is premalignant and requires follow-up [3]; exfoliative cheilitis is persistent and of unknown aetiology [2].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Except when accompanied by frank cheilitis, this is usually entirely innocent and can be treated symptomatically. Common causes are lip licking, and exposure to wind or sunlight. It is also a manifestation of viral illness. Rx: lip salves.",
+          "paragraph": 6256,
+          "source": "Oxford Handbook · paragraph 6256"
+        },
+        {
+          "id": 2,
+          "quote": "This is similar to actinic cheilitis but of unknown aetiology.",
+          "paragraph": 6254,
+          "source": "Oxford Handbook · paragraph 6254 (exfoliative cheilitis)"
+        },
+        {
+          "id": 3,
+          "quote": "Sun damage to the lower lip causes excessive keratin production and ↑ mitotic activity in the basal layer. Premalignant. Advise sun blocks and regular follow-up.",
+          "paragraph": 6252,
+          "source": "Oxford Handbook · paragraph 6252 (actinic cheilitis)"
+        }
+      ]
+    },
+    {
+      "id": "lips-006",
+      "description": "Firm, diffuse swelling of the lips that comes and goes but never fully resolves. No urticaria, no anaphylaxis. Younger patient, often with oral soreness or ulcers alongside.",
+      "conditionName": "Orofacial granulomatosis (granulomatous cheilitis)",
+      "prevalence": "very-uncommon",
+      "etiology": "A granulomatous inflammation of the lips, cheeks, or face — histologically identical to Crohn's disease, showing non-caseating granuloma on biopsy [1]. It may be:\n\n- The initial or isolated manifestation of Crohn's disease.\n- Related to sarcoidosis.\n- A hypersensitivity response to benzoates (found in toothpaste) or other food additives such as tomatoes [1, 2].\n\nThe condition typically develops before the third decade of life [3]. The precise mechanism is unclear, but the granulomatous response suggests a dysregulated immune reaction — probably to a food or environmental antigen in genetically susceptible individuals [2].",
+      "presentation": "What you'll typically see:\n\n- **Diffuse lip swelling** that develops slowly, fluctuates, and persists — lasting days to weeks per episode, with incomplete resolution over time [3].\n- The lips progressively firm up with repeated episodes, eventually becoming persistently swollen [3].\n- Perioral skin may become red, dry, itchy, or cracked; angular cheilitis can develop [3].\n- Oral soreness, mouth ulcers, and a cobblestone buccal mucosa are common accompanying features [3, 4].\n- No urticaria, no systemic allergy features, no rapid-onset anaphylaxis — this distinguishes it from angioedema.",
+      "results": "- **Biopsy of the lip or buccal mucosa**: the defining result. Non-caseating granuloma on histology is required to confirm the diagnosis [1].\n- **Patch testing for allergens**: benzoates and other food additives [1].\n- **Exclusion of systemic disease**: Crohn's and sarcoidosis must be ruled out before diagnosing isolated orofacial granulomatosis [2]. Investigations include CXR, serum ACE, calcium, and gastroenterology referral if bowel symptoms are present.\n- The lip swelling of OFG is expected to last days to weeks before resolving; acute inflammatory causes such as angioedema resolve within 48 hours [5].",
+      "definingCharacteristics": "The useful contrasts:\n\n- **Angioedema** (allergic or hereditary): rapid onset, resolves within 24–48 hours, may be triggered by a specific allergen or medication [5]. OFG is slower and more persistent.\n- **Angular cheilitis**: confined to the commissures and infective in nature — OFG causes diffuse lip swelling and angular cheilitis can develop on top of it [3].\n- **Crohn's disease**: OFG is histologically identical — the diagnosis of isolated OFG requires exclusion of systemic Crohn's [2].\n- The cobblestone buccal mucosa and oral ulcers alongside the lip swelling are a helpful ensemble pointing to OFG rather than a purely labial condition.",
+      "treatment": "Specific to the local problem:\n\n- **Intralesional triamcinolone** injected into the affected lip — the first-line local treatment [1, 2]. 1 mL (40 mg) per injection under LA [6].\n- Identify and avoid dietary allergens, particularly benzoates and tomatoes. Elimination diet guided by patch test results [1, 2].\n- **Anti-TNF therapies** or **clofazimine 100–200 mg daily for 3–6 months** for refractory cases [1].\n- Patients with generalised Crohn's or very severe OFG may benefit from systemic sulfasalazine or infliximab [2].\n- Psychological support: lip swelling is disfiguring; ask about social impact and mood [7].",
+      "prognosis": "- The progression of OFG is unpredictable; patients need to be informed of this explicitly [7].\n- Allergen avoidance combined with intralesional steroid can achieve significant improvement in many cases.\n- In some patients, the lip swelling becomes permanently firm and disfiguring despite treatment.\n- Systemic Crohn's, if present, follows its own course independently of the oral manifestations.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "(Orofacial granulomatosis.) This is characterized by diffuse swelling of the lips, cheeks, or face and is histologically similar to Crohn's disease (non-caseating granuloma being found on biopsy). It may be the initial manifestation of Crohn's disease or related to sarcoidosis or completely isolated. It may be an allergic reaction to benzoates (toothpaste ingredient) or tomatoes. A patch test for allergens may be indicated. Intralesional steroids, e.g. triamcinolone into affected lip, anti-TNF therapies, or clofazimine 100–200mg daily for 3–6 months may help.",
+          "paragraph": 6246,
+          "source": "Oxford Handbook · paragraph 6246"
+        },
+        {
+          "id": 2,
+          "quote": "This is clinically and histologically identical to oral manifestations of Crohn's disease. ∆ of exclusion (Crohn's, sarcoid). Probable aetiology is as a hypersensitivity response to certain foods, additives such as benzoates, etc. ∆ is biopsy to demonstrate granulomata histologically and exclusion of systemic disease. Rx: specific to the local problem; e.g. lips (granulomatous cheilitis) intralesional steroid. Most beneficial Rx is to identify and avoid the irritant factors. Patients who have generalized Crohn's or very severe orofacial granulomatosis may benefit from systemic Rx with sulfasalazine or infliximab.",
+          "paragraph": 6392,
+          "source": "Oxford Handbook · paragraph 6392"
+        },
+        {
+          "id": 3,
+          "quote": "Given the patient's age, history and clinical findings, the most likely diagnosis is orofacial granulomatosis (OFG). This condition typically develops before the third decade of life and is thought to affect both genders equally. Lip swelling affects the majority of patients, with each episode lasting days to weeks. Over time, the lips may become firm and persistently swollen. The perioral skin may become red, dry, itchy or cracked, with some patients developing angular cheilitis.",
+          "paragraph": 7906,
+          "source": "Odell's Clinical Problem Solving · paragraph 7906"
+        },
+        {
+          "id": 4,
+          "quote": "The patient reports intermittent lip swelling and a sore mouth for the last 6 months.",
+          "paragraph": 7892,
+          "source": "Odell's Clinical Problem Solving · paragraph 7892"
+        },
+        {
+          "id": 5,
+          "quote": "The lip swelling of OFG would be expected to last days to weeks before resolving. Acute inflammatory causes such as angioedema resolve in 48 hours.",
+          "paragraph": 7919,
+          "source": "Odell's Clinical Problem Solving · paragraph 7919"
+        },
+        {
+          "id": 6,
+          "quote": "1mL (40mg) injected into lesion. Needs LA. Used in granulomatous cheilitis, intractable lichen planus, keloid scars, and painful postsurgical trigger spots.",
+          "paragraph": 8103,
+          "source": "Oxford Handbook · paragraph 8103 (triamcinolone intralesional injection)"
+        },
+        {
+          "id": 7,
+          "quote": "All patients need to be informed about the nature of the disease and that its progression is unpredictable. Lip swelling is disfiguring, and it is important to ask the patient about social interactions and his mood in case psychological support is needed.",
+          "paragraph": 7958,
+          "source": "Odell's Clinical Problem Solving · paragraph 7958"
+        }
+      ]
     }
   ]
 }
