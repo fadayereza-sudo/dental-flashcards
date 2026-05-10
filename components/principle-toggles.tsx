@@ -19,7 +19,7 @@ export type CoreTruth = {
   broaderContext?: string;
   body: string;
   citations?: Citation[];
-  badge?: string;
+  badge?: { label: string; className?: string };
 };
 
 type ActiveCitation = {
@@ -68,8 +68,12 @@ export function PrincipleToggleList({
                   {highlight(truth.title, highlightTerm)}
                 </span>
                 {truth.badge && (
-                  <span className="shrink-0 mt-0.5 text-[10px] tracking-[0.14em] uppercase text-bronze font-medium whitespace-nowrap">
-                    {truth.badge}
+                  <span
+                    className={`shrink-0 mt-0.5 text-[10px] tracking-[0.14em] uppercase font-medium whitespace-nowrap ${
+                      truth.badge.className ?? "text-bronze"
+                    }`}
+                  >
+                    {truth.badge.label}
                   </span>
                 )}
                 <svg

@@ -38,6 +38,37 @@ const PREVALENCE_LABEL: Record<Prevalence, string> = {
   rare: "Rare",
 };
 
+const PREVALENCE_STYLE: Record<
+  Prevalence,
+  { badge: string; pillActive: string; pillInactive: string }
+> = {
+  "very-common": {
+    badge: "text-[#3d5c3a]",
+    pillActive: "bg-[#3d5c3a] text-white",
+    pillInactive: "bg-paper-sunk text-[#3d5c3a]/70 hover:bg-paper",
+  },
+  common: {
+    badge: "text-[#6b6230]",
+    pillActive: "bg-[#6b6230] text-white",
+    pillInactive: "bg-paper-sunk text-[#6b6230]/70 hover:bg-paper",
+  },
+  uncommon: {
+    badge: "text-[#7d4f1d]",
+    pillActive: "bg-[#7d4f1d] text-white",
+    pillInactive: "bg-paper-sunk text-[#7d4f1d]/70 hover:bg-paper",
+  },
+  "very-uncommon": {
+    badge: "text-[#8d4530]",
+    pillActive: "bg-[#8d4530] text-white",
+    pillInactive: "bg-paper-sunk text-[#8d4530]/70 hover:bg-paper",
+  },
+  rare: {
+    badge: "text-[#9a3a2a]",
+    pillActive: "bg-[#9a3a2a] text-white",
+    pillInactive: "bg-paper-sunk text-[#9a3a2a]/70 hover:bg-paper",
+  },
+};
+
 type Problem = {
   id: string;
   description: string;
@@ -83,7 +114,10 @@ function problemToTruth(problem: Problem): CoreTruth {
     title: problem.description,
     body: sections.join("\n\n"),
     citations: problem.citations,
-    badge: PREVALENCE_LABEL[problem.prevalence],
+    badge: {
+      label: PREVALENCE_LABEL[problem.prevalence],
+      className: PREVALENCE_STYLE[problem.prevalence].badge,
+    },
   };
 }
 
@@ -203,14 +237,13 @@ export function TroubleshootingPage() {
         <div className="flex gap-2 overflow-x-auto -mx-4 px-4 pb-1">
           {PREVALENCE_ORDER.map((p) => {
             const active = activePrevalences.has(p);
+            const style = PREVALENCE_STYLE[p];
             return (
               <button
                 key={p}
                 onClick={() => togglePrevalence(p)}
                 className={`shrink-0 px-3 py-1.5 rounded-full text-[11px] tracking-wide transition-colors ${
-                  active
-                    ? "bg-[#2d2d2d] text-white"
-                    : "bg-paper-sunk text-ink-muted hover:bg-paper"
+                  active ? style.pillActive : style.pillInactive
                 }`}
               >
                 {PREVALENCE_LABEL[p]}
@@ -225,9 +258,14 @@ export function TroubleshootingPage() {
           const isOpen = openOrigin === origin.slug;
           const data = originData[origin.slug];
           const allProblems = data?.problems || [];
-          const filteredProblems = allProblems.filter((p) =>
-            activePrevalences.has(p.prevalence)
-          );
+          const filteredProblems = allProblems
+            .filter((p) => activePrevalences.has(p.prevalence))
+            .slice()
+            .sort(
+              (a, b) =>
+                PREVALENCE_ORDER.indexOf(a.prevalence) -
+                PREVALENCE_ORDER.indexOf(b.prevalence)
+            );
           const truths = filteredProblems.map(problemToTruth);
 
           return (
