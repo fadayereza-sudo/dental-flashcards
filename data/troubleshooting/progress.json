@@ -1,6 +1,22 @@
 {
   "scanned": {},
-  "synthesised": ["lips", "periodontal"],
+  "synthesised": [
+    "skin",
+    "lips",
+    "cheeks",
+    "tongue",
+    "floor-of-mouth",
+    "palate",
+    "throat",
+    "muscles",
+    "periodontal",
+    "primary-dentition",
+    "permanent-dentition",
+    "fixed-prosthesis",
+    "removable-prosthesis",
+    "psychological",
+    "lifestyle"
+  ],
   "totalOrigins": 15,
   "lastUpdated": "2026-05-10"
 }

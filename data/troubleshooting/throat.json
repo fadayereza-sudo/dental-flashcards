@@ -1,0 +1,188 @@
+{
+  "slug": "throat",
+  "title": "Throat",
+  "order": 7,
+  "description": "Oropharyngeal conditions a GDP might encounter or need to refer — from sore throat in the waiting room to an HPV-driven cancer hiding behind a tonsil.",
+  "problems": [
+    {
+      "id": "throat-001",
+      "description": "A cystic neck lump in a non-smoker, painless and slowly growing, with no obvious ulcer or mass visible in the mouth.",
+      "conditionName": "HPV-associated oropharyngeal squamous cell carcinoma (HPV-OPC)",
+      "prevalence": "uncommon",
+      "etiology": "High-risk human papillomavirus — almost always type 16 or 18 — is the principal driver [1]. The virus infects the reticulated crypt epithelium of the tonsillar and base-of-tongue tonsils, where it deregulates the cell cycle and drives malignant transformation [2]. HPV-OPC is epidemiologically separate from the tobacco-and-alcohol-driven oral SCC. It is probably sexually transmitted and tends to arise in non-smokers [3].\n\nThe reason the neck lump often shows up before the primary is found: the primary tumour is frequently very small — sometimes invisible on imaging — while the nodal metastasis is large, soft, and cystic [4]. That soft, cystic quality in a Level 2 or 3 cervical node in a middle-aged non-smoker should trigger HPV-OPC as the leading differential [4].",
+      "presentation": "What you'll typically hear:\n\n- A painless lump in the upper neck, noticed incidentally or by a partner.\n- Some discomfort on swallowing, as if something is stuck in the throat [5].\n- The lump is slowly enlarging over weeks to months [5].\n\nWhat you'll see:\n\n- A soft, cystic, non-tender cervical swelling, usually at Level 2–3 along the anterior border of sternomastoid [4].\n- The mouth and oropharynx can look normal — the primary may be invisible without endoscopy [6].\n- **Referred otalgia** is a recognised presentation of oropharyngeal cancer even when the primary is occult [7].",
+      "results": "- **Oral and oropharyngeal examination**: normal or shows subtle erythema or asymmetry of the tonsil — but often unremarkable [6].\n- **Fine-needle aspiration or core biopsy of the node**: squamous cell morphology with the cystic, lymphocyte-rich pattern typical of HPV-driven disease [8].\n- **p16 immunohistochemistry and HPV DNA in-situ hybridisation**: p16 overexpression is the surrogate marker; DNA ISH confirms the virus is present and has deregulated the cell cycle [9]. Both positive together make the diagnosis.\n- **PET/CT**: best imaging modality — detects the high metabolic rate of even a very small primary and shows nodal disease simultaneously [10].\n- **Endoscopy under GA**: if PET/CT is uninformative, bilateral tonsillectomy and base-of-tongue mucosectomy are performed at the same sitting [11].",
+      "definingCharacteristics": "The thing that makes HPV-OPC distinct from other head and neck SCCs:\n\n- **Cystic nodal metastasis** — tobacco-driven oral SCC produces firm, hard nodes; HPV-OPC nodes are soft and cystic [4].\n- **Non-smoker** — most other oral and oropharyngeal SCCs carry a tobacco history [3].\n- **Occult primary** — the primary may be too small to see, yet the metastasis is already large. That reversal of the usual size relationship is the clinical tell [4].\n- **Better prognosis than stage-matched HPV-negative disease** [12] — important for counselling.\n\nDistinguish from branchial or lymphoepithelial cysts, which present at the same site and feel similar. Branchial cysts usually present in early adulthood; lymphoepithelial cysts in middle age. But a cystic soft neck lump in any patient over 45 must be biopsied before being labelled benign [8].",
+      "treatment": "Refer urgently via the 2-week-wait cancer pathway. A GDP's role is recognition and referral, not treatment.\n\nDefinitive treatment at the cancer centre:\n\n- **Radiotherapy or chemoradiotherapy** is first-line for most tonsillar, base-of-tongue, and pharyngeal tumours [13].\n- **Surgery** (including robotic resection of the primary and selective neck dissection) is offered in some centres as an alternative or adjunct [13].\n- **Simultaneous chemoradiation** is particularly effective against poorly differentiated SCCs arising in the tonsil and tongue base [14].\n\nDental management before radiotherapy is critical: teeth in the planned radiation field with a poor prognosis should be extracted before treatment to reduce the risk of osteoradionecrosis later [15]. Involve the cancer team to plan the timing.",
+      "prognosis": "HPV-positive oropharyngeal SCC has a significantly better overall survival than HPV-negative head and neck cancers at the same stage [12]. The improved prognosis is partly explained by increased sensitivity to radiotherapy [12].\n\nFor oral and oropharyngeal cancer overall: 5-year survival is ~90% at T1-N0, dropping to ~30% at T2/3-N1 and worse at T4 [16]. The presence or absence of extracapsular spread in cervical nodes is the single strongest prognostic indicator [17].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "HPV type 16 and 18 infection is now recognized as an independent risk factor for oropharyngeal SCC. Immunosuppression, e.g. in renal transplant patients or patients with HIV, ↑ the risk of this and other tumours.",
+          "paragraph": 6209,
+          "source": "Oxford Handbook · paragraph 6209"
+        },
+        {
+          "id": 2,
+          "quote": "There is a very strong likelihood that the primary carcinoma is located in the tonsil or base of tongue because HPV carcinomas start in tonsil crypt epithelium of the major or minor tonsils.",
+          "paragraph": 2406,
+          "source": "Odell's Clinical Problem Solving · paragraph 2406"
+        },
+        {
+          "id": 3,
+          "quote": "HPV-16 and -18 have become important causes of oropharyngeal cancer. In non-smokers, stage for stage these cancers have a very much better prognosis when treated with conventional techniques. It is probably sexually transmitted (although the exact nature and why most people clear oral HPV infection within a year are not fully understood). It is entirely preventable by vaccination of pre-sexual children with the same vaccine girls are receiving to prevent cervical cancer in most developed countries.",
+          "paragraph": 6992,
+          "source": "Oxford Handbook · paragraph 6992"
+        },
+        {
+          "id": 4,
+          "quote": "The soft cystic nature of the mass and its site at level 2 or 3 in the neck are highly consistent with metastasis from an HPV associated carcinoma of the oropharynx. This presentation is unlike most other head and neck carcinomas because the primary carcinoma is usually very small, and the metastasis is often large and cystic. HPV associated oropharyngeal squamous cell carcinoma also more commonly arise in nonsmokers.",
+          "paragraph": 2407,
+          "source": "Odell's Clinical Problem Solving · paragraph 2407"
+        },
+        {
+          "id": 5,
+          "quote": "The patient complains of the lump and has noticed some discomfort on swallowing, as if something is stuck in his throat. He assumes the lump is the cause.",
+          "paragraph": 2338,
+          "source": "Odell's Clinical Problem Solving · paragraph 2338"
+        },
+        {
+          "id": 6,
+          "quote": "If no abnormal tissue is seen on endoscopy, bilateral tonsillectomy and a large mucosal excision (mucosectomy) of the base of tongue are performed because these are the most common sites for HPV associated squamous cell carcinoma. Very occasionally, no primary lesion is found, and the patient is said to have an 'occult primary'. However, even if no primary were found, it would still be almost certain that it lay in the oropharynx, nasopharynx or other head and neck tonsil site because of the presence of HPV. It would simply be that the primary is too small to be found.",
+          "paragraph": 2411,
+          "source": "Odell's Clinical Problem Solving · paragraph 2411"
+        },
+        {
+          "id": 7,
+          "quote": "Referred otalgia is a common manifestation of pain from the tongue or oropharyngeal cancer.",
+          "paragraph": 6211,
+          "source": "Oxford Handbook · paragraph 6211"
+        },
+        {
+          "id": 8,
+          "quote": "Metastatic malignancy appears likely, and this lesion is so typical of a cervical lymph node metastasis that it must be considered to be malignant until proven otherwise. The combination of features suggestive of metastasis is the patient's age (should be considered a possible cause in any patient older than 45 years of age), the site (consistent with a cervical lymph node) and lack of tenderness.",
+          "paragraph": 2355,
+          "source": "Odell's Clinical Problem Solving · paragraph 2355"
+        },
+        {
+          "id": 9,
+          "quote": "Once the squamous cell differentiation is confirmed, current guidelines recommend testing the tissue for high-risk human papillomavirus (HPV) and Epstein-Barr virus (EBV) if no primary is known. This is because HPV and EBV are the causes of many oropharyngeal and most nasopharyngeal carcinomas, respectively. These carcinomas often present with metastasis, and the primary tumour can be very small, so these tests are particularly helpful in directing imaging and further biopsy to either the oropharynx or nasopharynx.",
+          "paragraph": 2402,
+          "source": "Odell's Clinical Problem Solving · paragraph 2402"
+        },
+        {
+          "id": 10,
+          "quote": "Co-localized positron emission tomography and CT (PET/CT) is the best imaging modality because it shows both anatomical alterations and the high metabolic rate of a cancer, improving the chances of finding even a very small primary carcinoma.",
+          "paragraph": 2409,
+          "source": "Odell's Clinical Problem Solving · paragraph 2409"
+        },
+        {
+          "id": 11,
+          "quote": "If no abnormal tissue is seen on endoscopy, bilateral tonsillectomy and a large mucosal excision (mucosectomy) of the base of tongue are performed because these are the most common sites for HPV associated squamous cell carcinoma.",
+          "paragraph": 2411,
+          "source": "Odell's Clinical Problem Solving · paragraph 2411"
+        },
+        {
+          "id": 12,
+          "quote": "Patients with HPV-positive oropharyngeal squamous cell carcinoma have a significantly better overall survival compared with patients with HPV-negative head and neck cancers. The reasons for improved survival are complex but may be explained, in part, by increased sensitivity to radiotherapy.",
+          "paragraph": 2417,
+          "source": "Odell's Clinical Problem Solving · paragraph 2417"
+        },
+        {
+          "id": 13,
+          "quote": "Most patients with tonsillar, tongue base and pharyngeal tumours are offered radiotherapy or chemoradiotherapy as primary treatment. Surgical options, including robotic resection of the primary tumour and neck dissection involving lymph nodes from the deep cervical chain, are also offered in some centres.",
+          "paragraph": 2415,
+          "source": "Odell's Clinical Problem Solving · paragraph 2415"
+        },
+        {
+          "id": 14,
+          "quote": "Simultaneous chemotherapy and radiotherapy can have a dramatic effect on poorly differentiated SCCs, especially those originating from post-nasal space, tonsil, and tongue base.",
+          "paragraph": 6993,
+          "source": "Oxford Handbook · paragraph 6993"
+        },
+        {
+          "id": 15,
+          "quote": "Extraction of the second and third molars may often be recommended in cases of tonsillar or tongue base cancer, where a high radiation dose is given to the tooth-bearing area.",
+          "paragraph": 7154,
+          "source": "Odell's Clinical Problem Solving · paragraph 7154"
+        },
+        {
+          "id": 16,
+          "quote": "90% for T1–N0, but 30% for T2/3–N1 and worse for T4; however, this does not mean that extensive combination therapy and reconstruction is pointless in those with advanced oral cancers.",
+          "paragraph": 6995,
+          "source": "Oxford Handbook · paragraph 6995"
+        },
+        {
+          "id": 17,
+          "quote": "The presence or absence of extracapsular spread of tumour in metastatic cervical nodes is the most important single prognostic factor. Nodal involvement ↓ cure rates by 50%.",
+          "paragraph": 6213,
+          "source": "Oxford Handbook · paragraph 6213"
+        }
+      ]
+    },
+    {
+      "id": "throat-002",
+      "description": "Sudden severe sore throat with fever, painful swallowing, and inflamed tonsils. Often recurs or follows a run of antibiotics.",
+      "conditionName": "Acute tonsillitis / pharyngotonsillitis",
+      "prevalence": "common",
+      "etiology": "Tonsillitis can be viral or bacterial. The most clinically important bacterial cause is group A beta-haemolytic streptococcus (Streptococcus pyogenes) — the organism that drives the decision to give penicillin [1]. Viral causes include Epstein-Barr virus (glandular fever), adenovirus, and Coxsackie virus. The reason this matters in a dental context: a patient presenting with sore throat and lymphadenopathy before dental treatment may have glandular fever, and giving amoxicillin or ampicillin to that patient will produce a rash — ranging from mild to anaphylaxis [1].",
+      "presentation": "What you'll typically hear:\n\n- Severe sore throat, onset rapid, often with odynophagia (pain on swallowing).\n- Fever, general malaise, sometimes headache.\n- Voice may be muffled if tonsillar swelling is significant.\n\nWhat you'll see:\n\n- Inflamed, enlarged tonsils — may show a white or yellow exudate in streptococcal infection.\n- Tender anterior cervical lymphadenopathy.\n- In glandular fever: widespread oral ulceration, petechial haemorrhages at the hard-soft palate junction (pathognomonic when present), and possible hepatosplenomegaly [2].",
+      "results": "- **Throat swab**: distinguishes bacterial from viral cause; grows streptococcus and identifies sensitivity.\n- **Monospot / Paul-Bunnell test**: screens for EBV in glandular fever. Acute and convalescent titres for CMV and toxoplasmosis if EBV excluded [2].\n- **FBC**: raised white count with lymphocytosis in viral infection; neutrophilia in bacterial.\n- **Dental relevance**: acute pharyngitis and tonsillitis are contraindications to elective general anaesthesia [1]. Recognise and defer GA-based procedures during acute illness.",
+      "definingCharacteristics": "The thing you need to rule out before prescribing: **is this glandular fever?**\n\nGlandular fever mimics streptococcal tonsillitis — fever, sore throat, lymphadenopathy — but giving amoxicillin or ampicillin to a patient with glandular fever will trigger a severe rash [1]. The rule: if in doubt, use penicillin rather than amoxicillin for a streptococcal sore throat.\n\nOther distinguishing features of glandular fever:\n\n- Palatal petechiae at the hard-soft palate junction are pathognomonic [2].\n- Oral ulceration may resemble primary herpetic gingivostomatitis [2].\n- Can be caused by EBV, less commonly CMV or toxoplasmosis [2].\n- Early HIV infection can mimic this presentation [2].",
+      "treatment": "- **Streptococcal sore throat**: penicillin is the drug of choice [1]. Avoid amoxicillin and ampicillin.\n- **Viral tonsillitis / glandular fever**: symptomatic — bed rest, analgesia, soft diet, extra fluids [3]. No antivirals for EBV. Toxoplasmosis may respond to sulfa drugs [2].\n- **Recurrent tonsillitis**: refer to ENT for consideration of tonsillectomy. The dental team is not the treating clinician — the role is to recognise, not manage.\n- **Dental anaesthesia**: elective GA is contraindicated in the acute phase [1]. Postpone until the patient is well.",
+      "prognosis": "Acute streptococcal tonsillitis resolves with penicillin. Viral illness — including glandular fever — is self-limiting, typically running 10–14 days for the acute phase [3]. The concern in glandular fever is rare complications: herpetic encephalitis, meningitis, and splenic rupture with contact sport. Recurrent tonsillitis that fails medical management warrants ENT referral for tonsillectomy.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Include the common cold, sinusitis, and pharyngitis/tonsillitis (which may be viral or bacterial), laryngotracheitis, and acute epiglottitis. All are C/I to elective GA in the acute phase. Sinusitis (…… Maxillary sinusitis, p. 422). Penicillin is the drug of choice for a streptococcal sore throat. Avoid amoxicillin and ampicillin, as glandular fever may mimic this condition and these drugs will produce a rash, of varying severity, in such a patient.",
+          "paragraph": 7255,
+          "source": "Oxford Handbook · paragraph 7255"
+        },
+        {
+          "id": 2,
+          "quote": "This is seen mostly in children and young adults and is spread by infected saliva. It varies widely in severity and presents with sore throat, generalized lymphadenopathy, fever, headaches, general malaise, and often a maculo-papular rash. There may be hepatosplenomegaly. Oral manifestations may mimic 1° herpetic gingivostomatitis, with widespread oral ulceration, and in addition petechial haemorrhages, especially at the junction of hard and soft palate (pathognomonic), and bruising may be present. The cause is usually Epstein–Barr virus (EBV) and, less commonly, cytomegalovirus (CMV). Toxoplasmosis can give a similar picture. ∆: initially monospot test, Paul–Bunnell test to exclude EBV, and acute and convalescent titres for CMV and toxoplasmosis. Be aware that early HIV infection can mimic this condition. Rx: symptomatic as for 1° herpes, except toxoplasmosis, which may respond to sulfa drugs; seek expert advice. NB: ampicillin should not be given to patients with a sore throat who may have glandular fever as it inevitably produces an unwanted response, ranging from a rash to anaphylaxis.",
+          "paragraph": 6030,
+          "source": "Oxford Handbook · paragraph 6030"
+        },
+        {
+          "id": 3,
+          "quote": "It presents with a single episode of widespread stomatitis and unstable mucosa with vesicles which break down to form shallow painful ulcers, enlarged, tender cervical lymph nodes, halitosis, coated tongue, fever, and a general malaise for 10–14 days. Although generally self-limiting, rare complications include herpetic encephalitis and meningitis.",
+          "paragraph": 6014,
+          "source": "Oxford Handbook · paragraph 6014 (self-limiting viral illness — 10–14 days)"
+        }
+      ]
+    },
+    {
+      "id": "throat-003",
+      "description": "Intense, paroxysmal shooting pain triggered by swallowing, felt deep in the throat and sometimes radiating to the ear.",
+      "conditionName": "Glossopharyngeal neuralgia",
+      "prevalence": "very-uncommon",
+      "etiology": "Glossopharyngeal neuralgia follows the same pathophysiological model as trigeminal neuralgia — paroxysmal pain from a sensory nerve — but involves the glossopharyngeal nerve (CN IX) rather than the trigeminal [1]. It is a much rarer condition. The exact mechanism is not stated in the source material. Most cases are idiopathic; compression or demyelination are the postulated mechanisms by analogy with trigeminal neuralgia [2].",
+      "presentation": "What you'll typically hear:\n\n- Intense, sudden-onset shooting pain deep in the throat, triggered by swallowing — food, saliva, or liquid [1].\n- Referred otalgia on the same side [1].\n- Pain is paroxysmal — brief attacks, not continuous — and may cause the patient to avoid eating or swallowing.\n\nWhat you'll see:\n\n- Normal oropharyngeal mucosa between attacks. No visible lesion.\n- The diagnosis is largely from history.",
+      "results": "- **Topical LA to the ipsilateral tonsillar/pharyngeal region**: immediate relief of symptoms is both diagnostic and therapeutic [1]. This is the key test.\n- **MRI brain / skull base**: essential in patients under 50 with cranial nerve neuralgia — must exclude intracranial neoplasm, skull base metastasis, HIV, syphilis, or multiple sclerosis [2].\n- **Bilateral neuralgic symptoms**: indicate demyelination until proven otherwise [2].",
+      "definingCharacteristics": "The defining feature: **pain triggered by swallowing** and relieved immediately by topical LA to the tonsillar region [1]. That combination separates glossopharyngeal neuralgia from every other cause of throat pain.\n\nCompare to:\n\n- **Trigeminal neuralgia**: same paroxysmal character, but triggered from the face — shaving, cold air, touching a trigger point — not swallowing. Affects the trigeminal distribution, not CN IX.\n- **Oropharyngeal SCC**: persistent pain and dysphagia, not paroxysmal; visible or palpable mass usually present eventually.\n- **Odynophagia from tonsillitis**: continuous during the infective episode, not paroxysmal, with fever and systemic signs.",
+      "treatment": "- **Carbamazepine** is the drug of choice — same as for trigeminal neuralgia [1].\n- **Topical LA** to the tonsillar region can break pain cycles [1].\n- **Referral**: all patients with cranial nerve neuralgia under 50, and any with bilateral symptoms, need neurological evaluation and MRI [2].\n- Refractory cases may need neurosurgical management by analogy with trigeminal neuralgia, but this is outside dental scope.",
+      "prognosis": "Sources do not give specific outcome data for glossopharyngeal neuralgia. Carbamazepine controls symptoms in most patients with trigeminal neuralgia (80% response rate cited for that condition [3]); by clinical analogy it is the first-line pharmacological option here, but the prognosis data for glossopharyngeal neuralgia specifically are not available in these sources.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a similar condition to trigeminal neuralgia but much less common. It affects the glossopharyngeal nerve, causing an intense paroxysmal shooting pain on swallowing. There may be referred otalgia. Topical LA to the ipsilateral tonsillar/pharyngeal region immediately relieves symptoms which may help with the diagnosis. Again, carbamazepine is the drug of choice.",
+          "paragraph": 6333,
+          "source": "Oxford Handbook · paragraph 6333"
+        },
+        {
+          "id": 2,
+          "quote": "Patients under the age of 50yrs presenting with symptoms of cranial nerve neuralgia require full neurological examination and a MRI scan, as these may be the presenting symptoms of an intracranial neoplasm, skull base metastases, HIV, syphilis, or multiple sclerosis. Bilateral neuralgic symptoms indicate demyelination until proven otherwise.",
+          "paragraph": 6334,
+          "source": "Oxford Handbook · paragraph 6334"
+        },
+        {
+          "id": 3,
+          "quote": "∆ is by the history, and carbamazepine is useful both therapeutically and diagnostically, with an 80% response rate.",
+          "paragraph": 6331,
+          "source": "Oxford Handbook · paragraph 6331 (trigeminal neuralgia — carbamazepine response rate)"
+        }
+      ]
+    }
+  ]
+}

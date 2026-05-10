@@ -1,0 +1,222 @@
+{
+  "slug": "tongue",
+  "title": "Tongue",
+  "order": 4,
+  "description": "Conditions affecting the dorsal surface, lateral borders, and ventral surface of the tongue — inflammatory, infective, pigmentary, haematological, and malignant.",
+  "problems": [
+    {
+      "id": "tongue-001",
+      "description": "Map-like patches of red, smooth, denuded mucosa ringed by a white border that shift position over days or weeks.",
+      "conditionName": "Geographic tongue (benign migratory glossitis, erythema migrans)",
+      "prevalence": "uncommon",
+      "etiology": "An inflammatory condition of unknown aetiology affecting the filiform papillae. What happens is the papillae temporarily disappear in patches — each atrophic area is bordered by a white demarcated rim and the pattern migrates across the dorsum and lateral tongue over days [1]. A familial pattern is common. About 4% of affected patients also have psoriasis, and the histology is similar, which points to a shared inflammatory mechanism [1].",
+      "presentation": "The patient often presents having noticed the changing map-like patches themselves, or the lesion is found incidentally on examination. Pain is usually secondary: acidic foods such as tomatoes or fruits, and cheese, trigger discomfort rather than the lesion itself causing spontaneous pain [1]. The clinical picture is striking — irregular atrophic areas on the dorsum and lateral tongue surface, each edged with a white or pale yellow border, with the pattern looking different at each visit [1].",
+      "results": "No special investigations are required in a typical presentation. The shifting, self-limited nature of the lesion is itself diagnostic — a patch that persists in exactly the same site and does not migrate raises a flag for other pathology. Biopsy is not indicated unless the presentation is atypical or there are risk factors for dysplasia.",
+      "definingCharacteristics": "The migration of the lesion over time is the giveaway — no other common tongue condition does this. Unlike atrophic glossitis, geographic tongue is not associated with haematinic deficiency, does not produce a uniformly smooth depapillated surface, and is unrelated to anaemia. Unlike median rhomboid glossitis, it is not fixed in the midline and has no candidal component. The white border differentiates it from simple erythema.",
+      "treatment": "Reassurance is the mainstay. The condition is benign and self-limiting, and no active treatment changes its course [1]. Patients benefit from knowing the natural history — patches come and go over months to years — and from advice to avoid known trigger foods when discomfort is present.",
+      "prognosis": "Benign by definition. Most patients learn to live with it without significant morbidity. There is no evidence of malignant potential. Attacks may remit and return unpredictably throughout life [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a peculiar inflammatory condition of unknown aetiology. Seen in 1–2% of adults. Involves the rapid appearance and disappearance of atrophic areas with a white demarcated border on the dorsum and lateral surface of the tongue, giving it the appearance of moving around the tongue surface. It is due to temporary loss of the filiform papillae. Pain is usually 2° to other stimuli, e.g. acidic foods (e.g. tomatoes or fruits) or cheese. Familial pattern is common. 4% have psoriasis and histology is similar. Rx: reassurance.",
+          "paragraph": 6239,
+          "source": "Oxford Handbook · paragraph 6239"
+        }
+      ]
+    },
+    {
+      "id": "tongue-002",
+      "description": "Deep grooves running along the dorsum and sides of the tongue, found incidentally or associated with other syndromes.",
+      "conditionName": "Fissured tongue (scrotal tongue, plicated tongue)",
+      "prevalence": "uncommon",
+      "etiology": "Deep fissuring of the tongue is a developmental variation rather than a disease. It is not pathological in itself but the grooves can harbour pathogenic microorganisms — the problem is retention, not the fissure per se [1]. The condition is commoner in people with Down syndrome than in the general population [1]. It also appears in the context of two named syndromes: Melkersson–Rosenthal syndrome, where fissured tongue coexists with recurrent facial nerve palsy and facial swelling, and Sjögren syndrome, where the tongue may take on a lobulated appearance [1].",
+      "presentation": "Usually found as an incidental finding on examination — the patient rarely presents because of the tongue itself. The grooves run longitudinally along the dorsum and may be deep enough to trap debris and cause halitosis or mild discomfort, particularly if the tongue is dry. When fissured tongue forms part of Melkersson–Rosenthal syndrome, the patient will have a history of recurrent facial palsy and lip or facial swelling [1].",
+      "results": "No investigations are required for isolated fissured tongue. If Melkersson–Rosenthal syndrome is suspected, referral is appropriate. If Sjögren syndrome is the context, investigation for xerostomia (unstimulated salivary flow, Schirmer test, autoantibodies SSA/SSB) guides management of the underlying condition.",
+      "definingCharacteristics": "Fissured tongue is distinguished from geographic tongue by the permanence of the grooves and the absence of a migrating white border. Unlike median rhomboid glossitis, fissuring is generalised rather than a focal midline patch. The key clinical question is whether this is isolated (common, benign, reassure) or part of Melkersson–Rosenthal syndrome (referral warranted) [1].",
+      "treatment": "Reassurance for most patients — isolated fissured tongue requires no treatment [1]. Encourage thorough tongue cleaning to limit bacterial accumulation in the grooves. Referral to secondary care is appropriate for Melkersson–Rosenthal syndrome, as management of the underlying syndrome is complex.",
+      "prognosis": "The fissuring itself carries no malignant potential and does not worsen significantly over time. The prognosis for isolated fissured tongue is excellent. In the context of Melkersson–Rosenthal syndrome, the facial palsy component may or may not resolve fully between episodes [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Deep fissuring of the tongue is not pathological in itself (affects 3% of tongues) but may harbour pathogenic microorganisms. Commoner in Down syndrome patients than average population. Melkerson–Rosenthal syndrome is a deeply fissured tongue in association with recurrent facial nerve palsy and swelling. Sjögren syndrome can have a tongue with a lobulated appearance. Rx: reassurance for most, referral for Melkerson–Rosenthal syndrome.",
+          "paragraph": 6233,
+          "source": "Oxford Handbook · paragraph 6233"
+        }
+      ]
+    },
+    {
+      "id": "tongue-003",
+      "description": "Elongated, discoloured hair-like projections on the dorsum of the tongue, often dark brown or black.",
+      "conditionName": "Black hairy tongue (hairy tongue)",
+      "prevalence": "uncommon",
+      "etiology": "The cause is overgrowth of pigment-producing microorganisms combined with benign overgrowth of the filiform papillae of the dorsum and a lack of normal desquamation [1]. The net effect is that papillae that normally wear down accumulate and elongate, then become stained by microorganisms. The condition is more common in smokers and people with poor oral hygiene and hyposalivation [2] — all three factors reduce normal mechanical and salivary clearance from the tongue dorsum.",
+      "presentation": "The patient may present concerned about the appearance or an unusual taste or gagging sensation. The dorsum is covered in elongated filiform papillae — they can reach several centimetres in length — stained in shades from white-yellow to dark brown or black. There is no pain unless secondary candidal infection is present. The appearance is often striking enough to cause the patient significant anxiety [1, 2].",
+      "results": "No investigations are routinely required. If there is clinical concern about superimposed candidal infection, a swab from the dorsum can be taken. Biopsy is not indicated: the diagnosis is clinical.",
+      "definingCharacteristics": "The elongated, hair-like papillae are pathognomonic when seen on the dorsum. The colour varies — black is the classic description but the papillae can be white or brown depending on the organisms involved [1, 2]. Unlike geographic tongue, the lesion is fixed rather than migratory. Unlike median rhomboid glossitis, the lesion involves the whole dorsum rather than a focal midline patch, and there is no candidal plaque.",
+      "treatment": "Reassurance plus improvement in oral hygiene is the first step. Smoking cessation matters — the condition is more common in smokers [2]. Various simple interventions are reported to help, including tongue scraping, eating pineapple chunks, sucking a peach or plum stone, or, in severe cases, a surgical shave [2]. Podophyllin paint has also been described [2]. No treatment modality is definitively evidence-based; the condition often resolves with improved hygiene and smoking cessation alone.",
+      "prognosis": "Generally resolves or improves significantly with smoking cessation and improved tongue hygiene. Recurrence is possible if precipitating factors return. No malignant potential.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Caused by overgrowth of pigment-producing microorganisms combined with benign overgrowth of the filiform papillae of the dorsum of the tongue and a lack of normal desquamation. Rx: reassurance, improve OH, tongue scrape or tongue shave depending on patient need/severity.",
+          "paragraph": 6182,
+          "source": "Oxford Handbook · paragraph 6182"
+        },
+        {
+          "id": 2,
+          "quote": "This is a peculiar condition of unknown aetiology probably due to elongation of the filiform papillae, which may or may not be accompanied by abnormal pigmentation. More common in smokers and people with poor OH and hyposalivation. Sometimes responds to podophyllin paint, a thorough scrape, eating pineapple chunks, sucking a peach/plum stone, or surgical shave.",
+          "paragraph": 6235,
+          "source": "Oxford Handbook · paragraph 6235"
+        }
+      ]
+    },
+    {
+      "id": "tongue-004",
+      "description": "A smooth, red, rhomboid-shaped patch fixed in the midline of the tongue dorsum, just anterior to the circumvallate papillae.",
+      "conditionName": "Median rhomboid glossitis",
+      "prevalence": "uncommon",
+      "etiology": "Median rhomboid glossitis is a form of chronic atrophic candidosis — Candida is the driver, not a developmental remnant as was once thought [1]. The condition is seen most often in patients using inhaled corticosteroids (which locally suppress mucosal immunity) and in smokers [1]. Some patients develop paired lesions: one on the tongue dorsum and one on the opposing palate, called kissing lesions, because the two surfaces contact when the tongue presses the palate [1]. Haematinic deficiency and diabetes are recognised predisposing factors and should be excluded at diagnosis [1].",
+      "presentation": "Typically found on routine examination rather than by the patient. The lesion is an erythematous, smooth, slightly depressed or nodular patch in the midline of the posterior tongue dorsum, roughly rhomboid in shape and fixed in site [1]. It is usually asymptomatic, though some patients report mild discomfort. Check the palate for the paired kissing lesion.",
+      "results": "- **Swab from the lesion**: supports the candidal aetiology and is useful if antifungal therapy is planned.\n- **FBC and haematinics**: iron, ferritin, B12, folate — exclude haematinic deficiency as a predisposing factor [1].\n- **Blood glucose**: exclude diabetes mellitus, which predisposes to chronic candidal colonisation [1].\n- Biopsy is not routinely required for a classic presentation but should be considered if the lesion is atypical or does not respond to treatment.",
+      "definingCharacteristics": "The fixed midline position is the defining feature — no other common tongue lesion sits reliably in the same site. Unlike geographic tongue, median rhomboid glossitis does not migrate. Unlike atrophic glossitis from anaemia, the depapillation is local rather than generalised. The candidal aetiology means it is related to, but distinct from, denture stomatitis and angular cheilitis — both of which share the same Candida-plus-predisposing-factor mechanism [1].",
+      "treatment": "Treatment is only indicated if the patient is symptomatic — discomfort can be improved with topical antifungals, but the appearance typically does not resolve with treatment [1]. Address predisposing factors: encourage inhaled steroid users to rinse the mouth after use, support smoking cessation, correct haematinic deficiency, optimise diabetes control [1].",
+      "prognosis": "The lesion is benign and carries no malignant potential. Symptom relief is achievable with topical antifungals. The appearance tends to persist even after successful treatment. Recurrence is likely unless predisposing factors are permanently modified [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a form of chronic atrophic candidosis affecting the dorsum of the tongue. It is seen in patients using inhaled steroids and smokers. Some patients have lesions in the centre of the dorsum of tongue and palate (kissing lesions). Rx only if symptomatic as discomfort can be improved with topical antifungals, but the appearance cannot. Exclude haematinic deficiency and diabetes.",
+          "paragraph": 6047,
+          "source": "Oxford Handbook · paragraph 6047"
+        }
+      ]
+    },
+    {
+      "id": "tongue-005",
+      "description": "A smooth, sore, often pale or red tongue with loss of papillae across the whole dorsum, occurring alongside fatigue and other systemic symptoms.",
+      "conditionName": "Atrophic glossitis (haematinic deficiency glossitis)",
+      "prevalence": "uncommon",
+      "etiology": "The tongue depends on haematinics — iron, vitamin B12, and folate — for normal epithelial cell turnover. When these are deficient, the filiform and fungiform papillae fail to renew and the surface becomes smooth and atrophic. The main causes are iron deficiency anaemia, pernicious anaemia, vitamin B group deficiencies, and — less commonly now — candidosis [1]. What happens is the epithelium thins and loses its normal texture; in pernicious anaemia, red lines or patches may appear on what otherwise looks like a clinically normal tongue surface, indicating vitamin B12 deficiency specifically [2]. Atrophic glossitis was formerly the commonest oral symptom of anaemia but is less often seen now [2].",
+      "presentation": "The patient may present with a sore tongue, burning sensation, or change in tongue texture alongside fatigue, breathlessness on exertion, and pallor. On examination the tongue is smooth, shiny, and depapillated across the dorsum — the normal papillary texture is lost [1, 2]. The tongue may look pale (iron deficiency) or beefy red (B12 deficiency). Coexisting angular cheilitis is common in iron deficiency [2]. A burning, sore-but-clinically-normal tongue can also be an early or prodromal sign of anaemia before frank depapillation appears [2].",
+      "results": "- **FBC and haematinics**: iron, ferritin, B12, folate — this is the essential investigation [1, 3].\n- Microcytic hypochromic picture on FBC points to iron deficiency [3]; macrocytic picture (MCV >100fL) points to B12 or folate deficiency [3].\n- **Haemoglobin**: anaemia is a ↓ below the normal reference range for age and sex [3].\n- Physical examination findings such as koilonychia (spoon nails), pallor of conjunctivae and palmar creases, and angular cheilitis support the diagnosis [3].\n- Refer to the GP for treatment of the underlying deficiency; the dental team's role is early detection.",
+      "definingCharacteristics": "Unlike geographic tongue, atrophic glossitis produces a uniform, non-migratory depapillation without a white border. Unlike median rhomboid glossitis, the depapillation is generalised rather than a focal midline patch. Unlike burning mouth syndrome, there is a clinical change on the tongue surface, and haematinic investigations come back abnormal [1, 2]. The systemic context — fatigue, pallor, breathlessness — anchors the diagnosis.",
+      "treatment": "Treatment is correction of the underlying deficiency by the GP: iron supplementation for iron deficiency anaemia, vitamin B12 replacement (intramuscular hydroxocobalamin) for pernicious anaemia, folic acid for folate deficiency [3]. The dentist's role is to identify the glossitis, order or request FBC and haematinics, and refer appropriately. No topical treatment addresses the tongue change — reversal of depapillation follows successful systemic correction.",
+      "prognosis": "With correction of the deficiency, the tongue surface usually recovers — papillae regenerate as the epithelium normalises. The oral manifestations resolve before full haematological recovery is complete. If the underlying cause is not identified and treated, the glossitis persists and the patient remains at increased risk of oral candidosis and aphthous ulceration [2].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Main causes of glossitis are iron deficiency anaemia, pernicious anaemia, candidosis, vitamin B group deficiencies, and lichen planus. Sore, but clinically normal tongue is a common problem and often psychogenic in origin; however, the first line of Rx is to exclude any possible organic cause, e.g. haematological deficiency states and unwanted reactions to self-administered or professionally administered medicines or mouthwashes.",
+          "paragraph": 6243,
+          "source": "Oxford Handbook · paragraph 6243"
+        },
+        {
+          "id": 2,
+          "quote": "Atrophic glossitis was formerly the commonest oral symptom of anaemia but is less often seen now. Red lines or patches on a sore, but normal-looking tongue may indicate vitamin B12 deficiency. Candidosis (…… Oral candidosis (candidiasis), p. 438) may be precipitated or exacerbated by anaemia, particularly iron deficiency, and angular cheilitis is a well-recognized association. The sore, clinically normal tongue (burning tongue) is sometimes a manifestation or even precursor of anaemia.",
+          "paragraph": 6403,
+          "source": "Oxford Handbook · paragraph 6403"
+        },
+        {
+          "id": 3,
+          "quote": "These are notoriously unreliable, but may include general fatigue, heart failure, angina on effort, pallor (look at conjunctivae and palmar creases, but unreliable), brittle nails &/or spoon-shaped nails (koilonychia), oral discomfort &/or ulceration, glossitis, and classically angular cheilitis.",
+          "paragraph": 7182,
+          "source": "Oxford Handbook · paragraph 7182"
+        }
+      ]
+    },
+    {
+      "id": "tongue-006",
+      "description": "A persistent burning or painful sensation affecting the tongue, with no visible clinical change and normal investigations after exclusion of organic causes.",
+      "conditionName": "Burning mouth syndrome (oral dysaesthesia)",
+      "prevalence": "uncommon",
+      "etiology": "Burning mouth syndrome is an unpleasant abnormal sensation of the oral mucosa in the absence of clinically evident disease [1]. It is now recognised as a neuropathy — the pain mechanism is central and peripheral rather than driven by a local mucosal process [2]. It is five times more common in women aged 40–50 years than in other groups [1]. The relationship to atypical facial pain is acknowledged — both share psychogenic and neuropathic features — and patients are often cancerophobic [1]. The key framing: burning mouth is a diagnosis of exclusion. Haematological, metabolic, nutritional, microbiological, allergic, and prosthetic causes must all be excluded first [1].",
+      "presentation": "The patient describes a burning, scalding, or raw sensation most commonly on the tongue tip and dorsum, though it may spread to the palate and lips. The sensation typically crosses the midline, which is a useful pointer to its non-anatomical, non-neural-territory distribution [1]. There may be altered or bad taste. There is no visible lesion on the mucosa. Patients often report improvement when eating — the opposite of pain from mucosal lesions, which usually worsens with food [1]. The patient type becomes familiar with experience: middle-aged woman, anxious, has seen multiple specialists [1].",
+      "results": "The investigations are all about exclusion:\n\n- **FBC and haematinics**: iron, ferritin, B12, folate — exclude haematinic deficiency [1].\n- **Blood glucose**: exclude diabetes (a cause of oral dysaesthesia via peripheral neuropathy).\n- **Swab**: exclude candidal colonisation.\n- **Patch testing**: exclude contact allergy to dental materials or toothpaste components if relevant.\n- **Denture assessment**: if the patient wears a denture, exclude acrylic monomer sensitivity or ill-fitting prosthesis as a local cause.\n- All results are normal in true burning mouth syndrome [1, 2].",
+      "definingCharacteristics": "The absence of any visible mucosal change is the defining feature — if there's something to see, look for another diagnosis first. Unlike atrophic glossitis, haematinics are normal. Unlike contact dermatitis, there is no visible erythema or ulceration, and patch testing is negative. The bilateral, midline-crossing distribution rules out neurological territory lesions. Unlike median rhomboid glossitis, there is no fixed focal lesion [1, 2].",
+      "treatment": "Reassurance is important — patients are commonly cancerophobic, and being told clearly that the mucosa is normal carries therapeutic value [1]. Beyond that, a Cochrane review has identified alpha-lipoic acid, clonazepam, and cognitive behavioural therapy as having evidence for symptom reduction in limited randomised studies [1]. Tricyclic antidepressants are frequently prescribed by clinicians, particularly in primary and secondary care pain settings [1]. Exclude and correct any reversible organic cause before committing to these interventions.",
+      "prognosis": "50% of patients achieve remission within 6–7 years [1]. The remainder have a protracted course with varying levels of symptom control. Spontaneous regression is recognised — this is characteristic of idiopathic facial pain conditions generally [2]. Setting realistic expectations matters: the condition is not life-threatening, not malignant, and not progressive in a pathological sense.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Oral dysaesthesia or burning mouth syndrome is an unpleasant abnormal sensation affecting the oral mucosa in the absence of clinically evident disease. Five times more common in women aged 40–50yrs than other groups. Related to atypical facial pain. Patients may complain of altered or bad taste. A burning sensation usually crosses the midline. ∆: by exclusion of haematological, metabolic, nutritional, microbiological, allergic, and prosthetic causes. With experience the patient type often becomes obvious. Rx: reassurance, patients are often cancerophobic. 50% achieve remission in 6–7yrs. A recent Cochrane review5 has identified alpha-lipoic acid, clonazepam, and cognitive behavioural therapy to reduce symptoms in limited randomized studies. Tricyclic antidepressants are frequently prescribed by clinicians.",
+          "paragraph": 6352,
+          "source": "Oxford Handbook · paragraph 6352"
+        },
+        {
+          "id": 2,
+          "quote": "Burning mouth syndrome is another type of idiopathic facial pain and is now recognized as neuropathy. All these conditions are characterized by constant pain that may regress spontaneously. These diagnoses should not be applied until all possible causes have been excluded; they are best supported by the results of investigation in a specialized pain centre.",
+          "paragraph": 7056,
+          "source": "Odell's Clinical Problem Solving · paragraph 7056"
+        }
+      ]
+    },
+    {
+      "id": "tongue-007",
+      "description": "A non-healing ulcer or irregular growth on the lateral border or ventral surface of the tongue, firm on palpation and persistent for more than three weeks.",
+      "conditionName": "Squamous cell carcinoma of the tongue (oral SCC — tongue)",
+      "prevalence": "rare",
+      "etiology": "Tongue SCC is driven primarily by tobacco and alcohol, which act synergistically — the combined relative risk for heavy smokers who drink heavily is at least 5–10 times higher than for a non-smoker or an occasional drinker [1]. The lateral border of the tongue is a high-risk site; it accounts for a significant share of intraoral carcinomas seen in European and American practice alongside the floor of mouth and retromolar region [2]. HPV type 16 and 18 is recognised as an independent risk factor for oropharyngeal SCC — relevant when the base of tongue is the primary site [3]. Immunosuppression (renal transplant, HIV) increases risk further [3].",
+      "presentation": "Oral cancer most often presents as a painless ulcer, though it may appear as a swelling or an area of leucoplakia, erythroleucoplakia, or erythroplakia [2]. The ulcer is firm with raised, everted edges and an indurated, inflamed, granular base fixed to surrounding tissues [2]. Pain is usually a late feature. Referred otalgia is a common manifestation of pain from tongue or oropharyngeal cancer — an unexplained earache in a smoker or drinker should prompt examination of the tongue [2]. The patient may also present with a neck lump from metastatic spread to cervical lymph nodes before the primary lesion has been noticed [2].\n\n**Rule of thumb**: any lesion on the tongue that persists for more than three weeks without an obvious cause is malignancy until proven otherwise [2].",
+      "results": "- **Inspection and palpation**: firmness of the lesion on palpation is a key sign — SCC feels indurated compared with the surrounding mucosa [1].\n- **Cervical lymph nodes**: palpate for enlarged, hard, or fixed nodes in the submandibular and cervical chains.\n- **Biopsy**: mandatory. Refer urgently to a specialist centre — the biopsy should be performed where definitive treatment can be provided [1]. A mixed red-and-white (speckled) lesion warrants biopsy of the red component [1].\n- **Depth of invasion**: when carcinoma has invaded to a depth of 4 mm, the risk of occult lymph node metastasis increases significantly [4].\n- **Staging**: CT/MRI/PET-CT to determine T (tumour size), N (nodal involvement), M (distant metastasis) [4].",
+      "definingCharacteristics": "Tongue SCC must be the top differential for any non-healing ulcer or irregular mass on the lateral tongue border or ventral surface, especially in a smoker or drinker. The firmness on palpation distinguishes it from aphthous ulcers (soft, tender, multiple, heal in two weeks) and from traumatic ulcers (clear cause, heal once cause is removed). Erythroplakia (red velvety lesion) carries the highest malignant transformation risk — at least 85% of erythroplakias are already carcinoma in situ or frank carcinoma [5]. A speckled (mixed red-and-white) lesion in a smoker on a high-risk site should be referred the same day [1].",
+      "treatment": "This is secondary-care treatment. Refer urgently — same day if possible — through the local urgent cancer referral pathway [1]. Definitive treatment depends on staging but typically involves surgery (resection with margins), possibly with elective neck dissection given the unpredictability of occult metastasis [4], and postoperative radiotherapy or chemoradiotherapy where histological features require it [4]. Early-stage lesions treated surgically have a 5-year survival rate of 85% or better [1]. The GDP's role after referral is preventive support, surveillance of the mucosa, smoking cessation, and liaison with the hospital dental team.",
+      "prognosis": "Stage-dependent. Five-year survival for tongue carcinoma: approximately 75% for stage I, 60% for stage II, 45% for stage III, and 25% for stage IV [6]. Lymph node involvement halves the cure rate [6]. There is a 1-in-10 risk of a second primary carcinoma somewhere in the upper aerodigestive tract in survivors of oral cancer, and surveillance must be life-long [4].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Squamous cell carcinoma is a likely diagnosis and the most significant one. Although this patient is young for squamous cell carcinoma, cases are seen in the fourth decade of life, and the incidence in younger patients appears to be increasing in the UK and elsewhere. The patient drinks and smokes heavily, and these are the main risk factors for oral squamous cell carcinoma. She drinks 14 units of alcohol per week, which is the maximum recommended intake. The maximum intake is considered 'safe' in terms of liver and cardiovascular disease risks, but no safe limit is recognized for cancer. There is no safe intake for tobacco, and the combined relative risk of carcinoma for this patient is at least 5–10 times higher than that for a nonsmoker or an occasional drinker. Regardless of the patient's age, the presence of the lesion in a high-risk site, its speckled appearance and association with smoking are very worrying. This lesion should be considered carcinoma until proven otherwise.",
+          "paragraph": 5080,
+          "source": "Odell's Clinical Problem Solving · paragraph 5080"
+        },
+        {
+          "id": 2,
+          "quote": "Oral cancer is most often seen as a painless ulcer, although it may present as a swelling or as an area of leucoplakia, erythroleucoplakia, or erythroplakia. Patients may present with a history of a neck lump as a result of metastatic spread to cervical lymph nodes. Malignancy should be suspected if any of these lesions persists for >3 weeks. Pain is usually a late feature. Referred otalgia is a common manifestation of pain from the tongue or oropharyngeal cancer. The ulcer is described as firm with raised edges, with an indurated, inflamed, granular base and is fixed to surrounding tissues.",
+          "paragraph": 6211,
+          "source": "Oxford Handbook · paragraph 6211"
+        },
+        {
+          "id": 3,
+          "quote": "The main aetiological factor in cancer of the lip is exposure to sunlight, as with skin cancer. It is estimated that the risk of developing lip cancer doubles every 250 miles nearer the equator. Excessive alcohol and tobacco use are the important factors in the aetiology of cancer of the mouth showing a 'synergistic effect'. Perhaps the most clear-cut aetiological factor is the chewing of tobacco and paan. HPV type 16 and 18 infection is now recognized as an independent risk factor for oropharyngeal SCC. Immunosuppression, e.g. in renal transplant patients or patients with HIV, ↑ the risk of this and other tumours.",
+          "paragraph": 6209,
+          "source": "Oxford Handbook · paragraph 6209"
+        },
+        {
+          "id": 4,
+          "quote": "Metastasis from tongue carcinoma is recognized to be unpredictable. When the carcinoma has invaded to a depth of 4 mm, there is a greater likelihood of metastasis. This patient's risk of occult metastasis is compounded by the aggressive tumour infiltration pattern.",
+          "paragraph": 5121,
+          "source": "Odell's Clinical Problem Solving · paragraph 5121"
+        },
+        {
+          "id": 5,
+          "quote": "This is any lesion that presents as bright red velvety plaques, which cannot be characterized clinically or pathologically as any other recognizable condition (WHO). Most of these lesions are carcinoma in situ or frank carcinoma and are found at high-risk sites (at least 85%).",
+          "paragraph": 6192,
+          "source": "Oxford Handbook · paragraph 6192"
+        },
+        {
+          "id": 6,
+          "quote": "The proportion of patients predicted to survive 5 years after diagnosis of tongue carcinoma is 75% for stage 1, 60% for stage 2, 45% for stage 3 and only 25% for stage 4. Thus this patient has only a 55% chance of surviving 5 years.",
+          "paragraph": 6229,
+          "source": "Odell's Clinical Problem Solving · paragraph 6229"
+        }
+      ]
+    },
+    {
+      "id": "tongue-008",
+      "description": "Restricted tongue movement from birth, causing difficulty breastfeeding in infants or speech problems in older children.",
+      "conditionName": "Ankyloglossia (tongue tie)",
+      "prevalence": "uncommon",
+      "etiology": "Ankyloglossia is a developmental variation caused by a short, tight lingual frenulum tethering the ventral tongue to the floor of the mouth. It is the commonest developmental variation of the tongue [1]. The frenulum is a normal structure; in ankyloglossia it is simply too short or too anteriorly attached to allow the tongue its full range of excursion. There is no systemic aetiology.",
+      "presentation": "In infants, the presenting concern is difficulty with breastfeeding — the tongue cannot achieve the range of movement needed for effective latching [1]. In older children and adults, the complaint may be restricted tongue movement, difficulty with articulation of certain sounds, or social concern about the tongue's appearance. On examination, the lingual frenulum is visibly short or attaches close to the tongue tip; the tongue tip cannot protrude beyond the lower incisors or elevate to the upper incisor teeth.",
+      "results": "Diagnosis is clinical. Various scoring systems (Hazelbaker Assessment Tool for Lingual Frenulum Function, Coryllos classification) can grade severity, though they are mostly used in specialist and paediatric settings. No investigations are required beyond clinical assessment.",
+      "definingCharacteristics": "Ankyloglossia is distinguished from macroglossia (the tongue is not enlarged, simply restricted at the base), from floor-of-mouth pathology (the frenulum itself is the issue, not swelling or induration of the floor), and from neurological causes of tongue restriction (onset from birth, no progression, no other neurological features).",
+      "treatment": "Frenectomy (surgical division of the lingual frenulum) is the treatment [1]. The current evidence supports significant improvement in breastfeeding following division of tongue tie in infants [1]. In older children or adults, the decision to treat is based on functional impairment — restricted speech articulation or persistent feeding difficulty. The procedure is simple and low-risk. Local anaesthetic infiltration is used; in very young infants it may be done without anaesthetic given the rapid healing of the thin frenulum.",
+      "prognosis": "Frenectomy is effective. The current evidence suggests significant improvement in breastfeeding following division [1]. Speech outcomes in older children depend on how established speech patterns are and whether speech therapy accompanies the surgical release. Untreated ankyloglossia may cause ongoing feeding, speech, and social problems but is not life-threatening.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The commonest of the developmental variations of the tongue and may be associated with microglossia. Rx: frenectomy. The current evidence suggests significant improvement in breastfeeding following division of tongue tie.",
+          "paragraph": 6229,
+          "source": "Oxford Handbook · paragraph 6229"
+        }
+      ]
+    }
+  ]
+}

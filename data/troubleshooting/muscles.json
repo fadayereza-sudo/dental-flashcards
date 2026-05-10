@@ -1,0 +1,362 @@
+{
+  "slug": "muscles",
+  "title": "Muscles",
+  "order": 8,
+  "description": "Conditions affecting the masticatory and orofacial muscles — pain, restricted opening, and muscle-driven deformity.",
+  "problems": [
+    {
+      "id": "muscles-001",
+      "description": "Dull aching pain around the jaw and temple, worse on waking or by end of day, with limited or painful opening and no obvious dental cause.",
+      "conditionName": "Temporomandibular pain-dysfunction syndrome (myofascial pain)",
+      "prevalence": "common",
+      "etiology": "The joint itself is anatomically normal — this is an extra-articular problem driven by muscle tension and spasm [1]. The leading theory is that stress-induced parafunctional habits (bruxism, clenching) generate sustained masticatory muscle contraction, which lowers the pain threshold and produces the characteristic dull, heavy, diffuse ache [2]. This is compatible with the condition's frequent association with depression, tension headache, irritable bowel syndrome, and fibromyalgia [3].\n\nThe reason it's so hard to pin down: causes are multifactorial and poorly understood. Muscle tension, local and central pain processing, and psychological response to stress all play a part [1]. It doesn't explain every case — some patients identify no particular stress, and the aetiology in that group remains unclear [3].\n\nParafunction (bruxism, clenching) is the mechanism that bridges stress and muscle symptoms. It should be noted as a contributing factor here, but bruxism as a standalone condition is classified under the psychological origin.",
+      "presentation": "What the patient typically says:\n\n- Dull, heavy, diffuse ache over the side of the face [1].\n- Pain varies in severity — either worst in the morning and slowly easing, or worsening progressively through the day [1]. Morning-dominant pain points to nocturnal bruxism.\n- Limited or painful opening. Locking is possible if an associated internal derangement develops.\n\nWhat you'll find on examination:\n\n- Pain on palpation over the muscles of mastication and/or the preauricular region [4].\n- The masticatory muscles are often tense and tender to palpation; joint movements are often painful [1].\n- Clicking may be present if there is a component of internal derangement — clicking commonly occurs at 2–3 mm of tooth separation on opening and sometimes closing [4].\n- Look for signs of parafunction: masseteric hypertrophy on clenching, attrition on occlusal surfaces [5].",
+      "results": "- **Mouth opening**: restricted opening is common, but the joint movements possible differ from intra-articular disease. In extra-articular causes, translation is intact and lateral and protrusive movements are usually unaffected [6].\n- **Palpation**: generalized bilateral tenderness of the muscles of mastication — masseter, lateral pterygoid, temporalis [7].\n- **Radiograph/imaging**: joint structure is normal. Plain radiography, DPT, and MRI show no articular abnormality [8]. This is a diagnostic point: the imaging being clear in the context of significant muscle tenderness supports a myofascial rather than intra-articular aetiology.\n- **No inflammatory markers**: blood tests (CRP, ESR, rheumatoid factor, anti-CCP) would be within normal limits, helping to rule out inflammatory arthritis [8].",
+      "definingCharacteristics": "The thing that separates myofascial TMD from its close neighbours:\n\n- **Normal joint architecture**: unlike internal derangement (anteriorly displaced disc causing mechanical obstruction) or TMJ osteoarthrosis (condylar erosion, crepitus, X-ray changes), myofascial pain has a structurally intact joint on imaging [1, 8].\n- **Lateral movement preserved**: in intra-articular trismus, translation is blocked in all directions; in extra-articular muscle-based restriction, lateral and protrusive movements are usually unaffected [6].\n- **Prevalence and self-limiting nature**: affects approximately 50% of the population at some point in their lives [9]. Most cases are self-limiting — simple conservative measures succeed in up to 80% of patients [10].\n- **Bruxism/parafunction link**: masseteric hypertrophy and attrition are peripheral clues that parafunction is loading the system [5].",
+      "treatment": "Conservative measures first — they work in ~80% of cases [10].\n\n**First-line (every dentist can provide):**\n\n- **Reassurance and explanation**: advise on the benign, frequently self-limiting course. Identify stressed or depressed patients by gentle history-taking; an information leaflet helps [11].\n- **Simple analgesia, rest, and gentle heat**: patient compliance at home is what drives recovery, more than who prescribes it [12].\n- **Splint therapy**: upper or lower, hard or soft. The aims are to reduce bruxism and joint load, and increase the gap between condyle and fossa. Wear as often as possible (nights and evenings especially) and reassess after 4–6 weeks [13].\n- **Remedial exercises**: physiotherapy with short-wave diathermy and ultrasound is an option, again dependent on patient compliance [12].\n\n**Drug therapy (for refractory cases):**\n\n- Tricyclics (nortriptyline, dosulepin) have analgesic and muscle-relaxant effects independent of their antidepressant action [14]. Dothiepin: initially 75 mg nocte, up to 150 mg daily; half-dose in the elderly [15].\n- Benzodiazepines act as both a muscle relaxant and an anxiolytic. Diazepam: 2 mg tds, maximum 30 mg in divided daily doses [16].\n- Chlorpromazine 10 mg tds is sometimes used instead of diazepam in TMD, with the same side effect profile [17].\n\n**If no improvement within 3 months**: do not persist with ineffective treatment; refer to a specialist [10].",
+      "prognosis": "The condition is frequently self-limiting [11]. Simple conservative management succeeds in approximately 80% of patients [10]. If symptoms remain problematic after about 6 months, referral to a specialist is appropriate [18].\n\nWithout treatment or with ongoing parafunction, symptoms persist and chronic pain may become entrenched — particularly in those with associated depression or significant stress [3].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Temporomandibular joint disorder with myofascial pain is part of a group of TMJ disorders in which masticatory muscle pain predominates. The classification and nomenclature is contentious and complex, and the spectrum includes overlapping conditions from local to generalized myalgia. It is an extra-articular condition, and the joint is anatomically normal. This condition is often called temporomandibular joint pain–dysfunction syndrome, inappropriately suggesting that the condition is one of the joint. The patient reports a dull, heavy, diffuse ache over the side of the face, and the pain tends to vary in severity. Classically, one of two pain patterns is seen: pain being worst in the morning and slowly easing or pain that worsens progressively during the day. The masticatory muscles are often tense and tender to palpation, and joint movements are often painful. The causes are multifactorial and poorly understood. However, it seems that muscle tension/spasm, local and central pain processing and psychological response to stress all play a part.",
+          "paragraph": 1170,
+          "source": "Odell's Clinical Problem Solving · paragraph 1170"
+        },
+        {
+          "id": 2,
+          "quote": "To date, the concept of stress-induced parafunctional habits (bruxism, clenching) causing pain and spasm in the masticatory apparatus coupled with a ↓ pain threshold has seemed the most reasonable.",
+          "paragraph": 6538,
+          "source": "Oxford Handbook · paragraph 6538"
+        },
+        {
+          "id": 3,
+          "quote": "This is compatible with the observed high association with depression, back pain, tension headache, migraine, irritable bowel syndrome, and fibromyalgia. It does not, however, explain the cause in those patients who can identify no different levels of stress in their lives nor does it help explain the high incidence of internal derangement of the meniscus.",
+          "paragraph": 6538,
+          "source": "Oxford Handbook · paragraph 6538"
+        },
+        {
+          "id": 4,
+          "quote": "Pain, clicking, locking, crepitus, and trismus are the classical signs and symptoms. Some patients may be clinically depressed but most are not. Pain is elicited by palpation over the muscles of mastication &/or the preauricular region. Clicking commonly occurs at 2–3mm of tooth separation on opening and sometimes closing. This is due to the meniscus being displaced anteriorly on translation of the head of the condyle and then returning to its usual position (the click). A lock is when it does not return.",
+          "paragraph": 6540,
+          "source": "Oxford Handbook · paragraph 6540"
+        },
+        {
+          "id": 5,
+          "quote": "The pain is almost certainly caused by a cracked cusp or crown. The presence of masseteric hypertrophy and attrition on the occlusal surfaces of the teeth would suggest a parafunctional habit that could predispose to cracked tooth syndrome.",
+          "paragraph": 1473,
+          "source": "Odell's Clinical Problem Solving · paragraph 1473"
+        },
+        {
+          "id": 6,
+          "quote": "In extra-articular causes, the joint itself is normal, and thus, although opening can be restricted, translation occurs, and the lateral and protrusive movements are usually unaffected.",
+          "paragraph": 1180,
+          "source": "Odell's Clinical Problem Solving · paragraph 1180"
+        },
+        {
+          "id": 7,
+          "quote": "On palpation, there is tenderness over the right mandibular condyle and generalized bilateral tenderness of the muscles of mastication on the right – the masseter, lateral pterygoid and temporalis.",
+          "paragraph": 1154,
+          "source": "Odell's Clinical Problem Solving · paragraph 1154"
+        },
+        {
+          "id": 8,
+          "quote": "Laboratory tests: In this case, it would be expected that all laboratory test results would be within the normal range. Blood tests such as a complete blood count, Cross-reactive protein level, erythrocyte sedimentation rate, rheumatoid factor, anticyclical citrullinated peptide (anti-CCP) and an autoantibody screen can help rule out other possible causes such as septic or rheumatoid arthritis.",
+          "paragraph": 1187,
+          "source": "Odell's Clinical Problem Solving · paragraph 1187"
+        },
+        {
+          "id": 9,
+          "quote": "Affects ~50% of the population at some time in their lives. F > M. Onset 20–30yrs of age.",
+          "paragraph": 6536,
+          "source": "Oxford Handbook · paragraph 6536"
+        },
+        {
+          "id": 10,
+          "quote": "These three simple measures should relieve symptoms in ~80% of patients and identify those needing referral to a specialist (Fig. 11.7). Do not persist with ineffective Rx if symptoms have not improved within 3 months.",
+          "paragraph": 6551,
+          "source": "Oxford Handbook · paragraph 6551"
+        },
+        {
+          "id": 11,
+          "quote": "Advice as to the nature of the problem and its benign and frequently self-limiting course is all that many patients require. Do not create a problem where there is none! This is also the time to take a gentle but thorough social and family history to identify clinically depressed patients or those with significant stress. An information leaflet is helpful.",
+          "paragraph": 6544,
+          "source": "Oxford Handbook · paragraph 6544"
+        },
+        {
+          "id": 12,
+          "quote": "Whether these are given by the dentist, physiotherapist (in the form of short-wave diathermy and US), or ancillary staff is unimportant, as the crucial part is the patient compliance at home.",
+          "paragraph": 6548,
+          "source": "Oxford Handbook · paragraph 6548"
+        },
+        {
+          "id": 13,
+          "quote": "Upper/lower, hard/soft have all been used with varying success. The initial aim of a splint is to (i) show something is being done (placebo); (ii) ↓ bruxism and joint load; and (iii) ↑ the gap between condyle and fossa, whereby the disc may be freed. A simple, full-coverage upper or lower splint should be worn as often as possible, nights and evenings especially, and reassessed after 4–6 weeks.",
+          "paragraph": 6550,
+          "source": "Oxford Handbook · paragraph 6550"
+        },
+        {
+          "id": 14,
+          "quote": "Nortriptyline, dosulepin, and related compounds have been demonstrated to have analgesic and muscle relaxant effects independent of their antidepressant effect.",
+          "paragraph": 6553,
+          "source": "Oxford Handbook · paragraph 6553"
+        },
+        {
+          "id": 15,
+          "quote": "It has, however, been demonstrated to be of value in the Rx of 'facial arthromyalgia' (a composite group of TMD and atypical facial-pain patients). Dose: initially 75mg nocte, ↑ to 150mg daily if needed. Half-dose in elderly.",
+          "paragraph": 8129,
+          "source": "Oxford Handbook · paragraph 8129"
+        },
+        {
+          "id": 16,
+          "quote": "A benzodiazepine may also be a valuable adjunct in the management of TMD, where it acts as both a muscle relaxant and an anxiolytic. Dose for anxiety/TMD: 2mg tds, maximum 30mg in divided daily doses.",
+          "paragraph": 8152,
+          "source": "Oxford Handbook · paragraph 8152 and 8153"
+        },
+        {
+          "id": 17,
+          "quote": "Sometimes used instead of diazepam in TMD. It has the same side effect profile. Dose: 10mg tds, ↑ to maximum of 100mg daily, in divided doses.",
+          "paragraph": 8164,
+          "source": "Oxford Handbook · paragraph 8164"
+        },
+        {
+          "id": 18,
+          "quote": "In primary care, assessment and diagnosis should be undertaken, and appropriate habit modification, simple analgesic advice and bite splints can be appropriate treatments. If the symptoms remain problematic after approximately 6 months, then referral to a specialist should be considered.",
+          "paragraph": 1210,
+          "source": "Odell's Clinical Problem Solving · paragraph 1210"
+        }
+      ]
+    },
+    {
+      "id": "muscles-002",
+      "description": "Progressive inability to open the mouth fully, developing gradually over months to years, with pale or mottled buccal mucosa in a patient of South Asian origin who chews betel quid.",
+      "conditionName": "Oral submucous fibrosis",
+      "prevalence": "very-uncommon",
+      "etiology": "Chronic and progressive scarring of oral connective tissue caused by betel quid (areca nut) chewing [1]. The mechanism: elevated copper from areca nut upregulates lysyl oxidase, which crosslinks collagen, increasing fibrosis [1]. The fibrosis involves the submucosa and eventually the deep muscle, making the lips, cheeks, and tongue progressively immobile [1, 2].\n\nAdding tobacco to areca nut and slaked lime increases the risk of developing squamous cell carcinoma on top of the existing fibrosis [1]. The habit is addictive due to alkaloids in areca nut; it is embedded in the cultural and social customs of many South Asian communities [3].",
+      "presentation": "Earliest features:\n\n- Burning of the mucosa and roughness, sometimes described as 'tiny vesicles' [4]. These are non-specific but should raise suspicion in any betel quid user.\n\nEstablished disease:\n\n- Gradual, progressive limitation of mouth opening. The patient may report difficulty eating or toothbrushing [5].\n- Restriction of tongue movement and reduced ability to protrude the tongue [6].\n- Pale or mottled buccal and labial mucosa. Thin white hard fibrous bands run vertically below the mucosa, visible and palpable on examination [7].\n- Most of the mucosa feels firm on palpation [6].\n- Some areas may appear red and atrophic [7].",
+      "results": "- **Maximum voluntary mouth opening**: measure interincisal distance. Normal is approximately 35 mm; in established disease it may be 17 mm or less [8]. This is the baseline from which to judge progression.\n- **Tenderness**: no tenderness of the TMJ or muscles of mastication — this distinguishes it from myofascial TMD and intra-articular disease [9].\n- **Biopsy**: fibrosis of connective tissue with atrophic overlying epithelium. Deeper tissue shows fibrosis replacing tissue between epithelium and underlying muscle; superficial muscle fibres become atrophic and are replaced by fibrous tissue [10]. Dysplasia may be present.\n- Approximately one-third of patients have concurrent oral white patches; dysplasia is found in up to 16% of the mucosa on biopsy [11].",
+      "definingCharacteristics": "Oral submucous fibrosis produces trismus via a different mechanism from every other cause:\n\n- **Mechanism**: fibrous bands in the submucosa — not muscle spasm, not intra-articular disease, not infection. The joint is normal; there are no articular clicks or crepitus [9].\n- **Unlike myofascial TMD**: no muscle tenderness, no relationship to stress, no morning-vs-evening pain pattern.\n- **Unlike infection-related trismus**: no swelling, no pyrexia, no pus. Onset is gradual over months to years, not hours to days [5].\n- **Unlike radiotherapy-induced fibrosis**: absence of a history of head and neck irradiation [12].\n- The combination of betel quid habit + pale fibrous bands + progressive restriction is virtually diagnostic [6]. Betel quid use should always be asked about in patients of South Asian origin presenting with trismus.",
+      "treatment": "No treatment reverses established fibrosis, so the aims are prevention of complications and detection of malignancy [13].\n\n**Habit cessation**: the single most important intervention. Address both areca nut and tobacco. The habit is addictive and culturally embedded — health education may need to extend to other family members [14].\n\n**Mouth opening exercises**: if patients are committed, they may be spared the worst effects of extreme trismus. Best results are in those with relatively localised disease at diagnosis [13].\n\n**Monitor for malignancy**: all abnormal mucosa requires biopsy. Carcinoma and potentially malignant lesions (red or white patches) should be biopsied promptly [15]. Intralesional steroids and surgery with flap reconstruction are described [1], but satisfactory results are elusive [13].\n\n**Referral**: this patient is best managed in a specialist centre. Initially, with limited trismus, dental treatment remains feasible in general practice. As opening restricts, restorative and even preventive treatment becomes compromised — institute thorough preventive treatment as early as possible [16].\n\n**Later-stage dental management**: extraction of teeth with even small carious lesions or moderate periodontitis may eventually become necessary, left until the last possible moment. Retain a stable occlusion to prevent permanent overclosure [16].",
+      "prognosis": "Fibrosis is irreversible and may be progressive [5]. Malignant transformation to squamous cell carcinoma occurs in 5–8% of cases [11]. In the late stages, patients may be unable to open the mouth at all, and incisor extractions may be required to allow feeding [17].\n\nThe prognosis for oral carcinoma developing in a patient with submucous fibrosis is very poor, mostly because the restricted opening makes examination, detection, and treatment extremely difficult, leading to late diagnosis [17].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a condition found particularly in those of South Asian origin. It is characterized by chronic and progressive scarring of oral connective tissue due to hyperplasia of fibroblasts induced by chewing betel nuts (without tobacco). The addition of tobacco to areca nut and slake lime appears to ↑ the risk of developing SCC. The mucosa is pale, with constraining fibrous bands, and fibrosis of the submucosa occurs, making the lips and cheeks immobile and resulting in trismus. The histology may reveal epithelial atrophy and cellular atypia. Pathogenesis is unclear; ↑ levels of copper due to areca nut chewing leading to cross-linking of collagen by upregulation of lysyl oxidase and thus ↑ fibrosis and DNA damage.",
+          "paragraph": 6196,
+          "source": "Oxford Handbook · paragraph 6196"
+        },
+        {
+          "id": 2,
+          "quote": "The fibrosis involving deep muscle is consistent with the diagnosis of oral submucous fibrosis, and the overlying epithelium shows mild dysplasia.",
+          "paragraph": 6453,
+          "source": "Odell's Clinical Problem Solving · paragraph 6453"
+        },
+        {
+          "id": 3,
+          "quote": "A habit practised by many people in the Indian subcontinent, much of south-east Asia and some parts of Africa. The basic quid comprises pieces or paste of areca nut and slaked lime, wrapped and tied into a packet in a vine leaf. A variety of other components is usually added; the combination varies between regions, but tobacco is almost always included, together with flavouring agents such as cinnamon, cloves and ginger. The areca nut contains alkaloids, which have a psychoactive effect and make the habit addictive.",
+          "paragraph": 6431,
+          "source": "Odell's Clinical Problem Solving · paragraph 6431"
+        },
+        {
+          "id": 4,
+          "quote": "The earliest features are relatively subtle and nonspecific. There is typically burning of the mucosa and roughness, sometimes described as 'tiny vesicles'. All or part of the lining mucosa may be affected, and these symptoms associated with betel quid chewing should be regarded with the highest suspicion.",
+          "paragraph": 6472,
+          "source": "Odell's Clinical Problem Solving · paragraph 6472"
+        },
+        {
+          "id": 5,
+          "quote": "The irreversible causes of trismus, such as oral submucous fibrosis or ankylosis after trauma, may be progressive in their early stages and do not respond to currently available treatment strategies.",
+          "paragraph": 6403,
+          "source": "Odell's Clinical Problem Solving · paragraph 6403"
+        },
+        {
+          "id": 6,
+          "quote": "The presentation and features are characteristic of oral submucous fibrosis. Gradual limitation of mouth opening and restriction of tongue movements are seen in a betel quid user who shows typical mucosal blanching and fibrosis presenting as bands in the buccal mucosa.",
+          "paragraph": 6423,
+          "source": "Odell's Clinical Problem Solving · paragraph 6423"
+        },
+        {
+          "id": 7,
+          "quote": "The buccal and soft palate mucosae are paler than normal, although some mucosal pigmentation consistent with the patient's skin colour makes this less obvious. When the mouth is opened fully, thin white hard bands run vertically just below the buccal mucosa. These are just visible in the figure and are much more readily felt as hard ridges. Some of the less pale areas are red and atrophic.",
+          "paragraph": 6418,
+          "source": "Odell's Clinical Problem Solving · paragraph 6418"
+        },
+        {
+          "id": 8,
+          "quote": "The maximum voluntary mouth opening. The normal interincisal opening in an adult is approximately 35 mm. Measurement will provide a baseline reading against which to judge treatment efficacy or trismus progression. It will also indicate the feasibility of dental and other intraoral treatment.",
+          "paragraph": 6411,
+          "source": "Odell's Clinical Problem Solving · paragraph 6411"
+        },
+        {
+          "id": 9,
+          "quote": "There is no facial asymmetry or evidence of scars or inflammation around the joint. No tenderness can be elicited from the muscles of mastication. There are no clicks, crepitus or tenderness associated with the TMJ and no mandibular deviation on opening the mouth.",
+          "paragraph": 6409,
+          "source": "Odell's Clinical Problem Solving · paragraph 6409"
+        },
+        {
+          "id": 10,
+          "quote": "All the tissue between the epithelium and the underlying muscle is replaced by relatively acellular dense fibrous tissue. The superficial muscle is atrophic and is being replaced by fibrous tissue. Occasional residual muscle fibres lie in the fibrosis. This deeper tissue is uninflamed.",
+          "paragraph": 6454,
+          "source": "Odell's Clinical Problem Solving · paragraph 6454"
+        },
+        {
+          "id": 11,
+          "quote": "Approximately one-third of patients with submucous fibrosis have oral white patches, and dysplasia is present in the mucosa of up to 16%. Malignant transformation to squamous cell carcinoma occurs in 5–8% of cases.",
+          "paragraph": 6442,
+          "source": "Odell's Clinical Problem Solving · paragraph 6442"
+        },
+        {
+          "id": 12,
+          "quote": "This patient has limited mouth opening, most likely as a consequence of fibrosis in the masticatory muscles. Similar changes may also result from scarring after surgery. If trismus were of recent onset and progressive, there would be a suspicion that it may be caused by tumour infiltrating the muscles and thus indicate recurrence; otherwise, radiation is the likely cause.",
+          "paragraph": 7132,
+          "source": "Odell's Clinical Problem Solving · paragraph 7132"
+        },
+        {
+          "id": 13,
+          "quote": "No treatment regimen yields satisfactory results, and the aim is maintenance of oral health and prevention of complications. If patients are committed to mouth opening exercises, they may be spared the worst effects of extreme trismus. However, if disease is advanced at diagnosis, progressive limitation is likely. The best results are seen in those who have relatively localized disease at diagnosis, perhaps limited to the site of quid placement.",
+          "paragraph": 6459,
+          "source": "Odell's Clinical Problem Solving · paragraph 6459"
+        },
+        {
+          "id": 14,
+          "quote": "Dental practitioners have an important role in the prevention of betel quid chewing just as in the prevention of smoking. The majority of those who regularly chew betel quid are from low socioeconomic groups and, at least in the UK, are often poorly informed about the health risks. Health education for chewers is most important and may need to be extended to other family members.",
+          "paragraph": 6469,
+          "source": "Odell's Clinical Problem Solving · paragraph 6469"
+        },
+        {
+          "id": 15,
+          "quote": "All abnormal mucosa must be regarded with the utmost suspicion and a biopsy performed.",
+          "paragraph": 6466,
+          "source": "Odell's Clinical Problem Solving · paragraph 6466"
+        },
+        {
+          "id": 16,
+          "quote": "In the small number of patients who develop oral submucous fibrosis, dental treatment involves difficult choices and would be best carried out in a specialist centre. Initially, with limited trismus, treatment is not a problem and could be readily performed in a general dental practice. However, some restorative treatment will be rendered impossible as restriction of mouth opening progresses, and a thorough and effective regimen of preventive treatment must be instituted as soon as possible. Extraction of teeth with even small carious lesions or moderate periodontitis may become necessary, although it should be left until the last possible moment.",
+          "paragraph": 6470,
+          "source": "Odell's Clinical Problem Solving · paragraph 6470"
+        },
+        {
+          "id": 17,
+          "quote": "The second significant feature is restricted mouth opening. This is often progressive and responds poorly to treatment. In the late stages of disease, the patient may be unable to open the mouth at all, and incisor extractions may be required to allow feeding. Limited opening is a major handicap in the diagnosis and treatment of malignancy and premalignant lesions. It makes examination, detection and treatment extremely difficult, and the prognosis for oral carcinoma in a patient with submucous fibrosis is very poor, mostly as a result of late diagnosis.",
+          "paragraph": 6443,
+          "source": "Odell's Clinical Problem Solving · paragraph 6443"
+        }
+      ]
+    },
+    {
+      "id": "muscles-003",
+      "description": "Sudden or rapid-onset reduced mouth opening following recent dental surgery, infection around a third molar, or trauma — with pain in the jaw and difficulty eating.",
+      "conditionName": "Trismus (infective and post-surgical)",
+      "prevalence": "uncommon",
+      "etiology": "Trismus is reduced mouth opening less than 35 mm caused by spasm or restriction of the muscles of mastication [1]. The common treatable causes are:\n\n- **Post-surgical muscle spasm**: pain and muscle spasm following third-molar surgery or other procedures. Trismus here is due to pain and muscle spasm, and reduces with adequate analgesia [2].\n- **Odontogenic infection spreading to masticatory muscles**: when infection (especially from a lower third molar) spreads into the pterygo-mandibular space, submasseteric space, or surrounding tissue spaces, the muscles of mastication become involved. Trismus is an important sign — it indicates that infection or inflammation has spread to involve the muscles [3].\n- **Intramuscular injection of LA**: injection of local anaesthetic into the medial pterygoid muscle results in trismus that resolves spontaneously [4].\n- **Drug reactions**: metoclopramide and phenothiazines can cause acute masseteric spasm (dystonic reactions), particularly in young women and children [5].\n\nOther causes (less common, and requiring referral): radiotherapy-induced fibrosis, malignant infiltration of masticatory muscles, and true ankylosis [6, 7].",
+      "presentation": "The clinical picture depends on the cause:\n\n**Post-surgical:**\n\n- Pain, swelling, and trismus are common sequelae of third-molar surgery [2]. Pain is often severe and responds best to NSAIDs.\n- Opening usually limited but not absent; resolves as swelling and pain settle.\n\n**Infective:**\n\n- Restricted opening with facial swelling, tenderness, and pyrexia [3]. The patient may feel systemically unwell.\n- Swelling around the lower border of the mandible or in the submandibular space is characteristic of third-molar-related space infection [8].\n- Only 22 mm of opening in severe cases [9].\n- Pus may be visible from under the operculum of a partially erupted third molar [10].\n\n**Drug-induced:**\n\n- Bizarre acute trismus with sudden onset in a young patient on metoclopramide or a phenothiazine [5]. No infection or swelling.",
+      "results": "- **Mouth opening measurement**: document interincisal distance. Normal is approximately 35 mm; trismus is defined as less than 35 mm [1]. This provides a baseline.\n- **Temperature**: pyrexia (>37.8°C) indicates systemic spread of infection and changes management — hospital admission is required [11].\n- **Distinguish intra- vs extra-articular**: in extra-articular (muscle-based) trismus, lateral and protrusive movements are usually preserved. In intra-articular disease, all movements are restricted [12].\n- **Radiograph**: DPT to identify third-molar angulation, bone loss, and the cause of infective trismus. For complex space infections, CT defines the extent.\n- **Blood tests** if infection is suspected: white cell count, CRP. Lymphadenitis in the submandibular triangle or deep cervical chain also signals spread [9].",
+      "definingCharacteristics": "The key differential is between reversible muscle-based trismus and the irreversible forms:\n\n- **Infective trismus is reversible** and resolves with treatment of the cause — drainage and antibiotics. Pericoronitis-related trismus resolves 3–6 days after effective treatment [13].\n- **Post-surgical trismus** is also reversible. It should be monitored and reduce as healing progresses [14].\n- **Oral submucous fibrosis-related trismus** is progressive and irreversible — the history of betel quid use and gradual onset over months to years distinguishes it [1].\n- **Malignancy**: if trismus is of recent onset and progressive in a patient who has had prior radiotherapy or head and neck cancer, tumour infiltrating the masticatory muscles must be excluded [7].\n\nThe rule of thumb: infection-related trismus arrives fast (hours to a day or two), is painful, and comes with swelling and systemic features. Forcing the jaws open under anaesthetic is contraindicated — it risks spreading the infection [15].",
+      "treatment": "**Post-surgical trismus**:\n\n- NSAIDs are the first choice — pain responds best to these [2]. Peri-operative LA leaves patients pain-free for the duration.\n- Swelling (and with it, trismus) reduced by high-dose peri-operative steroids [2].\n- Monitor; it should reduce progressively as healing occurs [14].\n\n**Infective trismus**:\n\n- Drain the pus, remove the cause, give antibiotics where indicated [3].\n- Submandibular space infection requires extraoral drainage (incision 2 cm below the lower border of the mandible), hospital admission, and IV antibiotics — metronidazole as an initial bolus [16].\n- Do not force the jaws open under anaesthesia — this spreads infection [15].\n- If trismus prevents adequate LA access, general anaesthesia may be needed; fibreoptic-guided intubation may be required if the airway is compromised [17].\n\n**Drug-induced (dystonic reaction)**:\n\n- Stop the offending drug. Acute dystonic reactions to metoclopramide or phenothiazines are managed with anticholinergic drugs (procyclidine, benzatropine).",
+      "prognosis": "Infective and post-surgical trismus is usually reversible [1]. Almost complete resolution of infective trismus should follow within 3–6 days of effective drainage and antibiotics [13]. Trismus from LA injection into muscle resolves spontaneously [4].\n\nIf trismus is associated with a malignancy or radiotherapy, the prognosis depends on the underlying disease [7].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Trismus is best defined as the clinical sign of limited mouth opening less than 35 mm, which can result from a wide variety of causes. Historically, the definition of trismus was 'spasm of the muscles of mastication', but the broader description of limited opening is more relevant clinically. Trismus is usually reversible and most often results from treatable causes such as trauma or infection. It can be associated with other clinical symptoms such as pain in the jaw and difficulty performing activities that involve opening the mouth, such as toothbrushing or eating. The irreversible causes of trismus, such as oral submucous fibrosis or ankylosis after trauma, may be progressive in their early stages and do not respond to currently available treatment strategies.",
+          "paragraph": 6403,
+          "source": "Odell's Clinical Problem Solving · paragraph 6403"
+        },
+        {
+          "id": 2,
+          "quote": "Pain can be quite severe and responds best to NSAIDs. Peri-operative LA works well and leaves patients pain-free but numb for the duration. Trismus is due to pain and muscle spasm and can be ↓ by adequate analgesia. Swelling can also be ↓ by high-dose peri-operative steroids.",
+          "paragraph": 5654,
+          "source": "Oxford Handbook · paragraph 5654"
+        },
+        {
+          "id": 3,
+          "quote": "Trismus is an important sign, indicating that the infection or inflammation has spread to involve the muscles of mastication.",
+          "paragraph": 3616,
+          "source": "Odell's Clinical Problem Solving · paragraph 3616"
+        },
+        {
+          "id": 4,
+          "quote": "Injection into a muscle (will result in trismus which resolves spontaneously).",
+          "paragraph": 8445,
+          "source": "Oxford Handbook · paragraph 8445"
+        },
+        {
+          "id": 5,
+          "quote": "Phenothiazines and metoclopramide are notorious for causing dystonic reactions in young women and children. Bizarre attacks of trismus due to masseteric spasm have been ascribed to metoclopramide.",
+          "paragraph": 6448,
+          "source": "Oxford Handbook · paragraph 6448"
+        },
+        {
+          "id": 6,
+          "quote": "Trismus (interincisal opening ~<40mm, is often due to limitation of movement due to spasm of muscles of mastication), this may be confused with ankylosis but does not affect the joint. It is much more common and complicates many oral surgical procedures; may follow trauma or infection, may be a manifestation of occult malignancy, or a response to treatment, e.g. radiotherapy.",
+          "paragraph": 6809,
+          "source": "Oxford Handbook · paragraph 6809"
+        },
+        {
+          "id": 7,
+          "quote": "This patient has limited mouth opening, most likely as a consequence of fibrosis in the masticatory muscles. Similar changes may also result from scarring after surgery. If trismus were of recent onset and progressive, there would be a suspicion that it may be caused by tumour infiltrating the muscles and thus indicate recurrence; otherwise, radiation is the likely cause.",
+          "paragraph": 7132,
+          "source": "Odell's Clinical Problem Solving · paragraph 7132"
+        },
+        {
+          "id": 8,
+          "quote": "This swelling appears to be in the submandibular space. The main infected tissue is not visible and lies around the submandibular gland deep to the body of the mandible. The swelling just spreads round the lower border of the mandible onto the face. Moderate trismus is typical. It is relatively common for this tissue space to be involved in pericoronitis.",
+          "paragraph": 3623,
+          "source": "Odell's Clinical Problem Solving · paragraph 3623"
+        },
+        {
+          "id": 9,
+          "quote": "The patient has moderate extraoral swelling of the facial soft tissues overlying the extraction socket and some early discolouration of the skin as a result of ecchymosis. There is trismus, and she is able to open her mouth to only 22 mm interincisal clearance. There are no palpable lymph nodes in the deep cervical chain or submandibular triangle.",
+          "paragraph": 1857,
+          "source": "Odell's Clinical Problem Solving · paragraph 1857"
+        },
+        {
+          "id": 10,
+          "quote": "Trismus hampers examination. The lower right third molar can be seen to be partially erupted, the operculum is swollen and pus exudes from below it on gentle probing.",
+          "paragraph": 3608,
+          "source": "Odell's Clinical Problem Solving · paragraph 3608"
+        },
+        {
+          "id": 11,
+          "quote": "She has a temperature of 37.8°C (normal temperature 36.8°C) and is therefore pyrexic.",
+          "paragraph": 3612,
+          "source": "Odell's Clinical Problem Solving · paragraph 3612"
+        },
+        {
+          "id": 12,
+          "quote": "In intra-articular causes, the joint is abnormal and translation of the condyle is usually the movement initially affected. Translation occurs in the upper joint space, which is where opening, protrusion and lateral excursion take place. As a result, if the cause is intra-articular, then movement is restricted in all directions.",
+          "paragraph": 1181,
+          "source": "Odell's Clinical Problem Solving · paragraph 1181"
+        },
+        {
+          "id": 13,
+          "quote": "Patients may often feel much better within a few hours, and a noticeable reduction in swelling, trismus, pain and pyrexia should be observed within 24 hours. Almost complete resolution should follow in 3–6 days.",
+          "paragraph": 5445,
+          "source": "Odell's Clinical Problem Solving · paragraph 5445"
+        },
+        {
+          "id": 14,
+          "quote": "The trismus is almost certainly related to the surgical trauma of extraction. The trismus should be monitored and should reduce.",
+          "paragraph": 1864,
+          "source": "Odell's Clinical Problem Solving · paragraph 1864"
+        },
+        {
+          "id": 15,
+          "quote": "General anaesthesia should not be used in an attempt to overcome trismus. Forcing the jaws open will spread the infection.",
+          "paragraph": 5420,
+          "source": "Odell's Clinical Problem Solving · paragraph 5420"
+        },
+        {
+          "id": 16,
+          "quote": "The submandibular space must be drained through an extraoral incision, ideally 2 cm below the lower border of the mandible (to avoid damage to the mandibular branch of the facial nerve).",
+          "paragraph": 3644,
+          "source": "Odell's Clinical Problem Solving · paragraph 3644"
+        },
+        {
+          "id": 17,
+          "quote": "General anaesthesia will be required to drain the swelling. Fibreoptic-guided intubation may be necessary because of trismus and infection around the airway.",
+          "paragraph": 3648,
+          "source": "Odell's Clinical Problem Solving · paragraph 3648"
+        }
+      ]
+    }
+  ]
+}

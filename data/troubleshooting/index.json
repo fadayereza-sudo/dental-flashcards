@@ -1,14 +1,92 @@
 [
   {
+    "slug": "skin",
+    "title": "Skin",
+    "order": 1,
+    "description": "Facial and perioral skin conditions a GDP might encounter or be the first to notice."
+  },
+  {
     "slug": "lips",
     "title": "Lips",
     "order": 2,
     "description": "Conditions affecting the vermilion, the angles of the mouth, and the perioral skin."
   },
   {
+    "slug": "cheeks",
+    "title": "Cheeks",
+    "order": 3,
+    "description": "Conditions affecting the buccal mucosa, from benign keratotic variants to inflammatory and potentially malignant lesions."
+  },
+  {
+    "slug": "tongue",
+    "title": "Tongue",
+    "order": 4,
+    "description": "Conditions affecting the dorsal surface, lateral borders, and ventral surface of the tongue \u2014 inflammatory, infective, pigmentary, haematological, and malignant."
+  },
+  {
+    "slug": "floor-of-mouth",
+    "title": "Floor of mouth",
+    "order": 5,
+    "description": "Lesions arising in the floor of the mouth \u2014 including cystic swellings from the sublingual gland, obstructive salivary gland disease, life-threatening deep-space infections, and the single highest-risk site for oral squamous cell carcinoma."
+  },
+  {
+    "slug": "palate",
+    "title": "Palate",
+    "order": 6,
+    "description": "Conditions affecting the hard and soft palate \u2014 the roof of the mouth \u2014 including candidal infections under dentures, bony outgrowths, smoking-related keratosis, dental abscesses pointing palatally, and salivary gland swellings."
+  },
+  {
+    "slug": "throat",
+    "title": "Throat",
+    "order": 7,
+    "description": "Oropharyngeal conditions a GDP might encounter or need to refer \u2014 from sore throat in the waiting room to an HPV-driven cancer hiding behind a tonsil."
+  },
+  {
+    "slug": "muscles",
+    "title": "Muscles",
+    "order": 8,
+    "description": "Conditions affecting the masticatory and orofacial muscles \u2014 pain, restricted opening, and muscle-driven deformity."
+  },
+  {
     "slug": "periodontal",
     "title": "Periodontal",
     "order": 9,
-    "description": "Diseases of the gum and the supporting structures of the teeth — gingiva, PDL, cementum, alveolar bone."
+    "description": "Diseases of the gum and the supporting structures of the teeth \u2014 gingiva, PDL, cementum, alveolar bone."
+  },
+  {
+    "slug": "primary-dentition",
+    "title": "Primary dentition",
+    "order": 10,
+    "description": "Conditions of the primary teeth in children \u2014 from early decay patterns through pulp disease, infection, trauma, and eruption disturbances."
+  },
+  {
+    "slug": "permanent-dentition",
+    "title": "Permanent dentition",
+    "order": 11,
+    "description": "Diseases and complications of the adult dentition \u2014 caries, pulp and periapical pathology, tooth wear, trauma, and developmental defects."
+  },
+  {
+    "slug": "fixed-prosthesis",
+    "title": "Fixed prosthesis",
+    "order": 12,
+    "description": "Failure and complication modes of crowns, bridges, veneers, post-core restorations, and implant-supported crowns."
+  },
+  {
+    "slug": "removable-prosthesis",
+    "title": "Removable prosthesis",
+    "order": 13,
+    "description": "Problems caused by or related to complete and partial dentures \u2014 tissue injury, retention loss, occlusal errors, and structural failure."
+  },
+  {
+    "slug": "psychological",
+    "title": "Psychological",
+    "order": 14,
+    "description": "Psychological and behavioural conditions that present with oral signs or that shape how patients engage with dental care."
+  },
+  {
+    "slug": "lifestyle",
+    "title": "Lifestyle",
+    "order": 15,
+    "description": "Oral conditions where the primary driver is a lifestyle factor: tobacco use, dietary acid or sugar patterns, and oral hygiene habits."
   }
 ]
