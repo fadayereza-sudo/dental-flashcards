@@ -87,6 +87,328 @@
           "source": "BSP UK Clinical Practice Guidelines for the Treatment of Periodontal Diseases 2021 — Engaging vs non-engaging criteria"
         }
       ]
+    },
+    {
+      "id": "periodontal-002",
+      "description": "Pockets forming around teeth, teeth drifting or getting loose over years, gums receding. Often no pain until late. Sometimes just a routine probing finding.",
+      "conditionName": "Periodontitis (stages I–IV, grades A–C)",
+      "prevalence": "common",
+      "etiology": "Periodontitis is gingivitis that has crossed into the deep tissues. The same plaque biofilm drives the process, but in susceptible individuals the inflammatory host response causes apical migration of the junctional epithelium and destruction of the PDL, cementum, and alveolar bone [1].\n\nThe 1° aetiology is plaque, but plaque alone doesn't explain who progresses. Established periodontitis is associated with a majority presence of anaerobic Gram-negative rods — particularly *Porphyromonas gingivalis*, *Tannerella forsythia*, and *Aggregatibacter actinomycetemcomitans* [2]. The reason risk factors matter so much is that they modulate the host response: **smoking** and **poorly controlled diabetes** are the two specifically flagged by the 2017 World Workshop and by the BSP's UK implementation [3].\n\nPockets deepen as bone loss progresses. Initially bone loss tends to be horizontal with suprabony pockets; as disease progresses the pattern becomes more vertical with intrabony defects [4].",
+      "presentation": "What you'll typically hear:\n\n- \"My gums bleed when I brush\" — the overlap with gingivitis. But the patient may also mention: drifting teeth, bad taste, loose teeth, gaps appearing between teeth [5].\n- At earlier stages, often nothing at all. The disease is silent [5].\n\nWhat you'll see:\n\n- Gingival inflammation and bleeding on probing — but now also pocket formation, recession, tooth mobility, and sometimes tooth migration [5].\n- Halitosis is common [5].\n- At earlier stages the clinical signs may be subtle; probing is essential to detect it [5].",
+      "results": "The BSP UK implementation frames periodontitis by stage, grade, distribution, and current status [3]:\n\n- **BPE code 3**: one or more pockets 4–5mm — triggers a detailed pocket chart.\n- **BPE code 4**: one or more pockets ≥6mm — triggers full-mouth six-point chart plus radiographs [6].\n- **BPE code \\***: furcation involvement [6].\n\n**Staging** (worst affected tooth):\n- Stage I: <15% bone loss or up to 2mm loss [3].\n- Stage II: bone level in coronal third of root [3].\n- Stage III: bone level in mid third of root [3].\n- Stage IV: bone level in apical third of root [3].\n\n**Grading** (% bone loss divided by patient's age on the worst tooth):\n- Grade A (slow): <0.5 [3].\n- Grade B (moderate): 0.5–1.0 [3].\n- Grade C (rapid): >1.0 [3].\n\n**Current status**: stable = BOP <10%, PPD <4mm, no BOP at 4mm sites. Unstable = PPD >5mm or PPD >4mm with BOP [3].\n\n**Radiography**: horizontal bitewings for mild disease (pocketing <5mm); full-mouth periapicals for severe disease to assess bone loss as a % of root length and to grade the disease [7].",
+      "definingCharacteristics": "The dividing line from gingivitis is **attachment loss**. Periodontitis by definition has bone loss on radiograph or interdental attachment loss on probing. Gingivitis has neither [3].\n\nThe staging/grading distinction matters for management decisions:\n\n- **Stage I–II** (early/moderate): GDP-manageable with Steps 1–2 of the BSP flowchart — OHI, risk factor control, subgingival instrumentation.\n- **Stage III–IV** (severe/very severe): referral to a specialist may be indicated; Stage IV involves tooth loss risk and complexity [6].\n- **Grade C** (rapid progression) signals either a systemic modifier or early-onset disease — investigate smoking, diabetes, and consider whether this might represent the entity previously called aggressive periodontitis [8].",
+      "treatment": "The BSP four-step pathway:\n\n- **Step 1**: OHI, risk factor reduction (smoking cessation, diabetes control), PMPR of the clinical crown. Re-evaluate engagement before proceeding [9].\n- **Step 2** (for engaging patients with periodontitis): subgingival instrumentation — root surface debridement with hand or powered scalers, quadrant by quadrant under LA. Adjunctive systemic antimicrobials only in specific cases (aggressive presentation, systemic involvement) — not routine for stable chronic periodontitis [9, 10].\n- **Step 3** (non-responding sites at 3-month review): re-instrument moderate residual pockets (4–5mm); for deep residual pocketing ≥6mm, consider referral for periodontal surgery [9].\n- **Step 4**: supportive periodontal care — 3–12-monthly recall, targeted PMPR [9].\n\nThe rule: non-surgical root surface debridement is effective at all pocket depths, but is less effective in deeper pockets (>6mm). Surgery becomes an option where pockets fail to respond [11].\n\nExtract teeth with hopeless prognosis — Grade III mobile teeth — before committing to periodontal therapy on the rest [9].",
+      "prognosis": "- With treatment (Steps 1–4 followed): reduction in BOP and probing depths, arrest of bone loss, and long-term tooth retention achievable — provided the patient engages with plaque control [12].\n- Without treatment: progressive attachment and bone loss. Severe periodontitis affects a relatively small subset — mild to moderate periodontitis is common but severe disease is not the majority [13].\n- Smoking and poorly controlled diabetes are the two evidence-based risk modifiers that worsen both disease severity and treatment response [3].\n\n**Rule of thumb**: the most important predictor of whether periodontal therapy works long-term is the patient's own plaque control, not what the clinician does at the chair.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "As the pocket deepens the biofilm continues to develop apically. Apical migration of the JE occurs → formation of a true pocket lined with pocket epithelium. Inflammatory cell infiltrate extends further apically into the connective tissues. Plasma cells dominate and now constitute >50% of the cellular infiltrate. There is loss of connective tissue attachment and alveolar bone which represents the onset of periodontitis.",
+          "paragraph": 2976,
+          "source": "Oxford Handbook · paragraph 2976"
+        },
+        {
+          "id": 2,
+          "quote": "The 1996 World Workshop in Periodontics identified three species as causative factors for periodontitis. These are Aggregatibacter actinomycetemcomitans (Aa) (previously called Actinobacillus actinomycetemcomitans), Porphyromonas gingivalis, and Tannerella forsythia.",
+          "paragraph": 2900,
+          "source": "Oxford Handbook · paragraph 2900"
+        },
+        {
+          "id": 3,
+          "quote": "Stage I (early/mild): <15% bone loss or up to 2mm bone loss. Stage II (moderate): bone level in coronal third of root. Stage III (severe): bone level in mid third of root. Stage IV (very severe): bone level in apical third of root. Grade A (slow): <0.5. Grade B (moderate): 0.5–1.0. Grade C (rapid): >1.0. Risk factors: Smoking. Sub-optimally controlled diabetes.",
+          "source": "Oxford Handbook · paragraphs 2788–2806 (BSP UK implementation — Box 5.5)"
+        },
+        {
+          "id": 4,
+          "quote": "Initially, pockets will be shallow (4–5mm) representing 1–2mm of clinical attachment loss. Bone loss is likely to be horizontal with suprabony pockets. As disease progresses and pockets deepen, CALs i. Bone loss may be vertical with infrabony pockets.",
+          "paragraph": 2978,
+          "source": "Oxford Handbook · paragraph 2978"
+        },
+        {
+          "id": 5,
+          "quote": "Clinical signs may include gingival inflammation and bleeding, pocketing, gingival recession, tooth mobility, tooth migration, discomfort, and halitosis. It affects gingiva, PDL, cementum, and alveolar bone. At earlier stages there is usually very little in the way of obvious signs or symptoms therefore probing is essential.",
+          "paragraph": 2987,
+          "source": "Oxford Handbook · paragraph 2987"
+        },
+        {
+          "id": 6,
+          "quote": "4 = coloured area of probe disappears into pocket → one or more teeth in sextant has a pocket >6mm. More detailed periodontal charting required for the entire dentition. Rx: OHIs, six-point periodontal pocket chart, root surface debridement, and referral to a specialist may be indicated. * = furcation involvement.",
+          "paragraph": 2848,
+          "source": "Oxford Handbook · paragraph 2848 (BPE codes 4 and *)"
+        },
+        {
+          "id": 7,
+          "quote": "Full mouth periapicals (preferably of the long cone parallel technique), have been the radiographs of choice for patients with severe periodontal disease. They can clearly demonstrate root surface deposits, furcation involvement, extensive bone loss, intrabony pocketing, and periodontal–endodontic lesions.",
+          "paragraph": 3059,
+          "source": "Oxford Handbook · paragraph 3059"
+        },
+        {
+          "id": 8,
+          "quote": "Aggressive periodontitis historically described a group of rare and often severe, rapidly progressive forms of periodontitis. Often characterized by an early age of onset and tending to occur in families and with non-contributory medical history. The amounts of plaque are out of proportion with the severity of periodontal destruction.",
+          "paragraph": 3087,
+          "source": "Oxford Handbook · paragraph 3087"
+        },
+        {
+          "id": 9,
+          "quote": "Step 2 — Subgingival Instrumentation (root surface debridement / PMPR on root) — periodontitis (continued). II. Subgingival instrumentation, hand or powered (sonic / ultrasonic), either alone or in combination. Step 3 — Managing non-responding sites. III. Deep residual pocketing (≥6mm). Consider alternative causes. IV. Consider referral for pocket management or regenerative surgery. Step 4 — Maintenance. III. Regular targeted PMPR as required to limit tooth loss.",
+          "source": "BSP UK Clinical Practice Guidelines for the Treatment of Periodontal Diseases 2021 — Steps 2–4"
+        },
+        {
+          "id": 10,
+          "quote": "There are few reasons to use antimicrobials in periodontal therapy. The plaque biofilm affects the response, concentration in gingival crevicular fluid is low, antibiotics have side effects, and there is the growing problem of antibiotic resistance. Antibiotics are not really justified for use in chronic periodontitis.",
+          "paragraph": 3174,
+          "source": "Oxford Handbook · paragraph 3174"
+        },
+        {
+          "id": 11,
+          "quote": "Non-surgical root surface instrumentation can be very effective and there is no absolute maximum depth of pocket where it is ineffective. However, it is less effective in deeper pockets (>6mm). Non-surgical Rx should always be carried out first but where pockets fail to respond (as evidenced by bleeding, loss of attachment, or suppuration) surgical Rx may be considered.",
+          "paragraph": 3194,
+          "source": "Oxford Handbook · paragraph 3194"
+        },
+        {
+          "id": 12,
+          "quote": "The success of Rx is characterized by a reduction in bleeding on probing and on brushing/flossing, a reduction in probing pocket depths, and a change in gingival contour.",
+          "paragraph": 3338,
+          "source": "Oxford Handbook · paragraph 3338"
+        },
+        {
+          "id": 13,
+          "quote": "Although mild to moderate periodontitis is common, severe periodontitis affects a relatively small subset of the population. Certain risk factors such as smoking, poorly controlled diabetes, and colonization by specific bacteria at high levels have been identified.",
+          "paragraph": 2815,
+          "source": "Oxford Handbook · paragraph 2815"
+        }
+      ]
+    },
+    {
+      "id": "periodontal-003",
+      "description": "Acutely painful, punched-out ulcers of the interdental papillae with a grey slough and severe bad breath. Onset rapid. Usually a young adult, often stressed or run down.",
+      "conditionName": "Necrotising ulcerative gingivitis (NUG)",
+      "prevalence": "uncommon",
+      "etiology": "NUG is a Gram-negative anaerobic infection that actually invades the gingival tissues — unlike gingivitis, where the bacteria stay in the biofilm [1]. The specific organisms are fusospirochaetal: *Prevotella intermedia*, *Fusobacterium* spp., *Selenomonas* spp., and *Treponema* spp. [1].\n\nThe key setup is host immune compromise. Poor oral hygiene is the baseline, but **stress and smoking** act as co-factors. **HIV infection** is a major predisposing condition; NUG in an otherwise apparently healthy young adult can be a presenting sign of HIV [1]. In developing countries, malnutrition is a driver and can lead to the extreme extension known as cancrum oris (noma) [1].\n\nRare in children in Northern Europe and the US [1].",
+      "presentation": "What you'll hear:\n\n- Severe gum pain — comes on acutely over days [2].\n- Metallic taste and a sensation of the teeth being wedged apart [2].\n- Extremely bad breath — the foetor oris is often distinctive and sudden in onset [2].\n\nWhat you'll see:\n\n- **Punched-out, necrotic interdental papillae** covered by a grey-yellow pseudomembranous slough — this is the hallmark [2].\n- Underlying tissue bleeds easily and is very tender on probing.\n- In more severe cases: regional lymphadenitis, fever, and malaise [2].\n- Interproximal craters develop; with progression, bone involvement = NUP [2].",
+      "results": "- Diagnosis is clinical. No specific test needed.\n- Smear from the slough shows the fusospirochaetal flora, but microscopy is not routine in practice.\n- Probing reveals the necrotic papilla and underlying crater.\n- If systemic upset present, take a lymph node history and consider HIV testing [1].\n- Vitality testing of adjacent teeth is positive — unlike periapical pathology.",
+      "definingCharacteristics": "The combination that makes NUG unmistakable: **punched-out papillae + grey slough + severe pain + metallic taste + sudden onset**.\n\nCompare to look-alikes:\n\n- **Primary herpetic gingivostomatitis**: vesicles first, then ulcers on all gingival surfaces and mucosa; younger patients (children); fever and lymphadenopathy prominent; no papillary punched-out pattern [2].\n- **Plaque-induced gingivitis**: diffuse redness and bleeding, no necrosis, no pain, no slough.\n- If the necrosis has spread beyond the mucogingival junction into the alveolar mucosa and bone, the diagnosis becomes **necrotising stomatitis** or, at the extreme, **NUP** [2].",
+      "treatment": "The sequence is: remove the acute infection, then address the cause.\n\n**Initial (acute phase):**\n\n- Removal of gross deposits under LA. Ultrasonic scalers are particularly useful here because the flushing action debrides the necrotic tissue as well as calculus [3].\n- **Chlorhexidine rinse** 0.2% × 10mL twice daily as an adjunct to brushing — brushing is initially very painful [3].\n- If systemic upset (lymphadenopathy, fever): **metronidazole 200mg three times daily for 3 days** — targets the fusospirochaetal anaerobes [3, 4].\n- Penicillins are also effective [3].\n\n**After healing:**\n\n- Full non-surgical periodontal therapy — root surface debridement once the ulcers have healed [3].\n- Smoking cessation advice [3].\n- Later surgery (gingivectomy for persistent craters) only rarely required [3].\n- Address underlying risk factors, including HIV testing if appropriate [1].",
+      "prognosis": "- Responds promptly to local debridement and, where needed, metronidazole. Most cases resolve within days [3].\n- Recurring NUG suggests persistent immune compromise — investigate HIV, stress, uncontrolled diabetes.\n- If allowed to progress untreated, interproximal bone destruction leaves permanent cratering. Noma, the extreme variant in malnourished patients, causes extensive destruction of the jaws and face [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "NUG is associated with poor OH, but stress and smoking act as co-factors. Immune suppression, including HIV, also predisposes to NUG. It is usually a limited gingival condition, but a rare and more serious form known as cancrum oris or noma is found in patients who are malnourished, and in this form can lead to extensive destruction of the jaws and face. The crucial aspect of NUG is that it is a Gram –ve anaerobic infection which has been shown to actually invade the tissues. Remember that NUG in an otherwise apparently healthy young adult may be a presenting sign of HIV infection.",
+          "paragraph": 3108,
+          "source": "Oxford Handbook · paragraph 3108"
+        },
+        {
+          "id": 2,
+          "quote": "Painful, ulcerated, necrotic papillae and gingival margins with a punched-out appearance. The ulcers are covered by a pseudomembranous grey slough. Associated with a metallic taste and sensation of teeth being wedged apart and foetor oris. Interproximal craters develop with loss of crestal bone and in some cases bony sequestra. Loss of attachment and development of NUP may occur. Regional lymphadenitis, fever, and malaise feature in some cases. Can be confused with 1° herpetic gingivostomatitis. Rarely occurs in children in Northern Europe and the US.",
+          "paragraph": 3108,
+          "source": "Oxford Handbook · paragraph 3108"
+        },
+        {
+          "id": 3,
+          "quote": "Removal of gross deposits of plaque and calculus ± LA. Ultrasonics are useful due to their flushing action. Chlorhexidine rinses (0.2% × 10mL twice daily) may also be prescribed as an adjunct to brushing, which is painful initially. Usually local measures will suffice; however, if systemic upset (lymphadenopathy), metronidazole 200mg tds for 3 days is indicated. Penicillins are also effective. Once the ulcers have healed, non-surgical periodontal Rx can be carried out and smoking cessation advice given. Later Rx, e.g. gingivectomy for persistent craters, is only rarely required.",
+          "paragraph": 3112,
+          "source": "Oxford Handbook · paragraph 3112"
+        },
+        {
+          "id": 4,
+          "quote": "Necrotizing periodontal diseases. Fusospirochaetal anaerobes are involved. Management involves removal of risk factors (e.g. poor OH, smoking) and use of metronidazole 200mg tds for 3 days in combination with non-surgical debridement.",
+          "paragraph": 3179,
+          "source": "Oxford Handbook · paragraph 3179"
+        }
+      ]
+    },
+    {
+      "id": "periodontal-004",
+      "description": "Swollen, tender lump in the gum alongside a tooth. Comes up quickly. Tooth is vital. Often a history of existing deep pocketing or a recent course of antibiotics.",
+      "conditionName": "Periodontal abscess",
+      "prevalence": "common",
+      "etiology": "A periodontal abscess is a localised collection of pus within the tissues adjacent to a periodontal pocket [1]. It forms in one of two ways:\n\n1. **Occlusion of drainage**: coronal gingival tissue tightens against the tooth — classically during periodontal therapy as the gingiva resolves its oedema — trapping infection in the pocket with nowhere to drain [1].\n2. **Introduction of virulent organisms** into an existing pocket, or foreign body impaction (such as a fishbone) in a pre-existing or even a previously healthy pocket [1].\n\nFurcations are a common site — the anatomy obstructs drainage [1]. Multiple or recurrent abscesses point toward systemic immunocompromise, particularly **poorly controlled diabetes** [1].\n\nThe tooth is vital unless there is a combined periodontal-endodontic lesion.",
+      "presentation": "What you'll typically hear:\n\n- \"There's a swelling in my gum\" — sudden, tender.\n- Throbbing pain, localised to a specific tooth or area.\n- Bad taste if the abscess is draining.\n\nWhat you'll see:\n\n- Localised swelling of the adjacent periodontium, often fluctuant [2].\n- Pus discharging from the pocket or a sinus on probing [2].\n- The tooth may be mobile and tender to percussion [2].\n- Signs of background periodontitis usually visible: recession, probing depths, calculus.",
+      "results": "- **Vitality testing**: positive — this is the key distinguisher from a periapical abscess [2].\n- **Probing**: deep pocket associated with the swelling; pus on probing is diagnostic [2].\n- **Percussion**: tooth tender to percussion but usually less exquisitely so than in periapical abscess.\n- **Radiograph**: shows bone loss adjacent to the root, vertical or horizontal pattern — not a periapical radiolucency. Inserting a GP point into the sinus and taking a radiograph can help confirm the drainage pathway [3].\n- Check blood glucose if no obvious cause — multiple or recurrent abscesses are a diabetes red flag [1].",
+      "definingCharacteristics": "The key differential is from a **periapical abscess**:\n\n- Periodontal abscess: **vital tooth**, deep pocket with pus on probing, bone loss lateral to the root.\n- Periapical abscess: **non-vital tooth** (usually), tenderness at the apex, periapical radiolucency, no pocket or only shallow pocketing.\n\nA combined periodontal-endodontic lesion has elements of both — sensibility test every tooth with periodontitis before assuming the abscess is purely periodontal [4].\n\nOther differentials: gingival abscess (involving only the gingiva, no deep pocket), pericoronal abscess (around a partially erupted tooth), or rarely a cyst or tumour [3].",
+      "treatment": "**Acute phase:**\n\n- First line: **drainage** — either by subgingival debridement (curettage through the pocket) or incision and drainage under LA if a fluctuant swelling is present [5].\n- Irrigate the pocket with chlorhexidine solution [6].\n- **Antibiotics** only if there is systemic involvement (fever, lymphadenopathy, cellulitis) or if the problem is recurrent: metronidazole 200–400mg three times daily and/or amoxicillin 250–500mg three times daily for 5 days [5, 6].\n\n**After the acute phase has settled:**\n\n- Mechanical debridement of the pocket — not before, to avoid spreading infection to healthy periodontal tissues adjacent to the lesion [7].\n- If a periodontal-endodontic lesion is confirmed, address the endodontic component first [4].\n- Extraction if prognosis of the tooth is poor [6].",
+      "prognosis": "- Responds well to drainage. Single isolated abscess in a previously periodontally treated mouth: good prognosis if underlying disease is controlled.\n- Recurrence suggests ongoing deep pocketing, uncontrolled diabetes, or immunocompromise [1].\n- If the tooth has severe underlying bone loss (Stage III–IV), long-term prognosis is guarded regardless of acute resolution.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a localized collection of pus within the tissues adjacent to a periodontal pocket. It occurs either due to the introduction of virulent organisms into an existing pocket or ↓ drainage potential. The latter classically occurs during Rx as reduction of inflammation in the coronal gingival tissues occludes drainage by a tighter adaptation to the tooth. Commonly occurs in furcations. Multiple or recurrent abscesses may indicate underlying immunocompromise, e.g. poorly controlled diabetes.",
+          "paragraph": 3114,
+          "source": "Oxford Handbook · paragraph 3114"
+        },
+        {
+          "id": 2,
+          "quote": "Clinically there may be swelling, pus from a pocket or sinus, pain, tenderness to percussion, and signs of periodontitis. There may be systemic involvement.",
+          "paragraph": 3115,
+          "source": "Oxford Handbook · paragraph 3115"
+        },
+        {
+          "id": 3,
+          "quote": "Gingival abscess, pericoronal abscess, periapical abscess, combined periodontal/endodontic lesion, or other (e.g. cyst/tumour). Insertion of a GP point into an associated sinus and a radiograph may be helpful in tracking the infection source.",
+          "paragraph": 3117,
+          "source": "Oxford Handbook · paragraph 3117"
+        },
+        {
+          "id": 4,
+          "quote": "It is essential to sensibility test any heavily restored tooth with periodontal involvement.",
+          "paragraph": 3127,
+          "source": "Oxford Handbook · paragraph 3127"
+        },
+        {
+          "id": 5,
+          "quote": "Incision and drainage under LA; systemic antibiotic, e.g. metronidazole 200–400mg tds &/or amoxicillin 250–500mg tds for 5 days if systemic involvement.",
+          "paragraph": 3120,
+          "source": "Oxford Handbook · paragraph 3120"
+        },
+        {
+          "id": 6,
+          "quote": "Achieve drainage of pus. Irrigate with a chlorhexidine solution. If there is systemic involvement or it is a recurrent problem, prescribe antibiotics (metronidazole or amoxicillin). Debride the pocket once acute symptoms have settled. Extraction may be indicated if prognosis of the tooth is poor.",
+          "paragraph": 3469,
+          "source": "Oxford Handbook · paragraph 3469"
+        },
+        {
+          "id": 7,
+          "quote": "Mechanical debridement after the acute problem has settled to avoid iatrogenic damage to healthy periodontal tissues adjacent to the lesion.",
+          "paragraph": 3122,
+          "source": "Oxford Handbook · paragraph 3122"
+        }
+      ]
+    },
+    {
+      "id": "periodontal-005",
+      "description": "Gum creeping down the root, exposing yellowish root dentine, usually on the buccal of lower incisors or canines. Sensitivity to cold. Sometimes an aesthetic complaint.",
+      "conditionName": "Gingival recession",
+      "prevalence": "common",
+      "etiology": "The two commonest causes are plaque-induced gingival inflammation and toothbrush trauma — both revealing underlying dehiscences in the alveolar bone [1]. The structural point is that where the buccal alveolar plate is thin or fenestrated, even moderate inflammation or brushing force strips the gum away from the root.\n\n**Toothbrush trauma**: the horizontal scrub technique is notorious for exacerbating recession [2]. Hard brushing against a thin buccal plate strips the gingiva apically.\n\n**Plaque-induced inflammation**: the same inflammatory process that causes periodontitis can also drive recession, especially labially where bone support is minimal.\n\nSecondary causes — anatomical features, occlusal trauma, high fraenal attachments, impinging restorations — are contributory but less dominant [1]. Gingival recession is now understood as part of periodontitis, not simply an age change [3].",
+      "presentation": "What you'll hear:\n\n- \"My teeth look longer\" — the classic cosmetic complaint.\n- Cold sensitivity, especially air and cold drinks, on the exposed root surface.\n- Sometimes nothing — recession is found incidentally on examination.\n\nWhat you'll see:\n\n- Buccal gingival margin sitting apical to the cementoenamel junction, exposing root dentine.\n- Lower anterior teeth and maxillary canines are the most common sites.\n- Root surface may be discoloured, carious, or hypersensitive on probing.",
+      "results": "- **Clinical attachment level (CAL)**: if recession is present, CAL = recession depth + probing pocket depth. BPE alone doesn't capture recession [4].\n- **Probing**: pockets are usually shallow — recession is apical migration of the gingival margin without necessarily a deep pocket. If deep pocketing is also present, the diagnosis is periodontitis with concurrent recession.\n- **Miller's classification** (1985): the most commonly used system, based on the extent of the recession defect and the interproximal attachment levels — determines surgical prognosis [5].\n- **Sensitivity testing**: roots exposed in recession are often hypersensitive to air blast.",
+      "definingCharacteristics": "Recession is a position — the gingival margin is apical to the CEJ. The question is whether there is also a pocket:\n\n- **Recession without pocketing**: mainly toothbrush trauma or thin bone, no active pocket infection.\n- **Recession with deep pocketing**: periodontitis — both processes running simultaneously.\n\nUnlike periodontitis, isolated toothbrush-induced recession does not involve the interdental papilla, so the papilla height is often preserved. Loss of interdental papilla alongside buccal recession is a sign of periodontal involvement.",
+      "treatment": "The cause determines the treatment:\n\n- **Faulty brushing**: correct the technique. The horizontal scrub must go [2]. Switch to a soft-bristled brush, gentle circles or a modified Bass technique.\n- **Plaque control**: treat any active periodontal disease first — recession surgery is contraindicated in the presence of inflammation.\n- **Root sensitivity**: topical desensitising agents (fluoride varnish, strontium- and potassium-containing toothpastes), dentine adhesive systems [6].\n- **Root coverage surgery** (where indicated): free connective tissue graft from the palate with a coronally advanced flap gives the best aesthetic result [7]. Pedicle grafts (laterally repositioned flap, coronally repositioned flap) for narrow isolated areas [8]. Correction of high fraenal attachments if these are contributing.\n- Indications for surgery: root sensitivity that doesn't respond to conservative measures; aesthetic concern; very thin or absent attached gingiva over a tooth being moved orthodontically [9].",
+      "prognosis": "- Correct the cause → recession often stabilises. It doesn't reverse spontaneously [1].\n- Connective tissue graft with coronally advanced flap: good root coverage outcomes, especially for Miller Class I and II defects.\n- Recession in the context of uncontrolled periodontitis: stabilise the periodontal disease first; surgery without plaque control fails [9].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The two commonest causes are plaque-induced gingival inflammation and toothbrush trauma, revealing dehiscences in alveolar bone. Therefore, basic periodontal care and correction of faulty toothbrushing technique are the first lines of Rx. While anatomical features may contribute, these and trauma from occlusion, high fraenal attachments, and impingement from restorations are 2° considerations.",
+          "paragraph": 3278,
+          "source": "Oxford Handbook · paragraph 3278"
+        },
+        {
+          "id": 2,
+          "quote": "The horizontal scrub is notorious for possibly exacerbating gingival recession.",
+          "paragraph": 3153,
+          "source": "Oxford Handbook · paragraph 3153"
+        },
+        {
+          "id": 3,
+          "quote": "Gingival recession has been previously thought to be an age change but is now known to be a part of periodontitis.",
+          "paragraph": 4870,
+          "source": "Oxford Handbook · paragraph 4870"
+        },
+        {
+          "id": 4,
+          "quote": "Measured from a fixed reference point: the cementoenamel junction (CEJ) or margin of a restoration to the base of the pocket. Pockets are therefore dependent on the position of the gingival margin. If recession is present CAL = recession + periodontal probing depth.",
+          "paragraph": 3039,
+          "source": "Oxford Handbook · paragraph 3039"
+        },
+        {
+          "id": 5,
+          "quote": "The most commonly used classification system is Miller's classification (1985) which looks at the recession defect and the interproximal attachment levels.",
+          "paragraph": 3280,
+          "source": "Oxford Handbook · paragraph 3280"
+        },
+        {
+          "id": 6,
+          "quote": "Areas where recession creates root sensitivity or aesthetic problems.",
+          "paragraph": 3275,
+          "source": "Oxford Handbook · paragraph 3275"
+        },
+        {
+          "id": 7,
+          "quote": "A subepithelial connective tissue graft from the palate gives a better aesthetic result. At the recipient site it is covered by a coronally advanced flap.",
+          "paragraph": 3284,
+          "source": "Oxford Handbook · paragraph 3284"
+        },
+        {
+          "id": 8,
+          "quote": "Commonly used pedicle grafts are the laterally repositioned flap, coronally repositioned flap, and the double papilla flap. These techniques may be of some value in very narrow areas of isolated gingival recession.",
+          "paragraph": 3286,
+          "source": "Oxford Handbook · paragraph 3286"
+        },
+        {
+          "id": 9,
+          "quote": "Periodontal surgery is contraindicated in the presence of plaque and poor plaque control by the patient.",
+          "paragraph": 3220,
+          "source": "Oxford Handbook · paragraph 3220"
+        }
+      ]
+    },
+    {
+      "id": "periodontal-006",
+      "description": "Gums growing over the teeth — slow, painless, diffuse enlargement of the gingiva in a patient on a specific long-term drug. Bleeds on brushing but no true pocketing.",
+      "conditionName": "Drug-induced gingival overgrowth",
+      "prevalence": "uncommon",
+      "etiology": "Three drug classes are responsible for the vast majority of cases: **phenytoin** (anti-epileptic), **ciclosporin** (immunosuppressant), and **calcium channel blockers** — particularly nifedipine, but also other calcium channel blockers [1].\n\nThe mechanism is progressive fibrous hyperplasia of the gingival connective tissue. Plaque makes it worse — poor oral hygiene increases the severity of the overgrowth — but here's the clinically important thing: it will occur even in the presence of meticulous oral hygiene [1]. This separates it from simple plaque-induced enlargement and means OHI alone won't resolve it.\n\nHereditary gingival fibromatosis is a rare non-drug cause with similar appearance but no drug history [2].",
+      "presentation": "What you'll see:\n\n- Diffuse, firm, pale-pink enlargement of the gingiva, beginning interdentally and spreading to cover increasing amounts of tooth crown.\n- Often most pronounced anteriorly.\n- Bleeds on probing due to secondary inflammation, but the tissue itself is fibrous and pale — not the bright red of plaque-induced gingivitis.\n- Ask specifically about the drug and how long the patient has been on it [1].\n\nWhat you'll hear:\n\n- Cosmetic complaint: \"my teeth look shorter.\"\n- Difficulty brushing — the enlarged tissue makes plaque control harder, feeding the cycle.",
+      "results": "- **Probing**: false pockets from tissue enlargement — the junctional epithelium may still be at or near the CEJ. True attachment loss is not a primary feature unless there is concurrent periodontitis.\n- Drug history is the essential investigation. Ask specifically: phenytoin? ciclosporin? nifedipine or another calcium channel blocker?\n- A firm, fibrous gingival texture on probing (rather than oedematous) confirms fibrous hyperplasia rather than inflammatory gingivitis.",
+      "definingCharacteristics": "Three distinguishing features:\n\n1. **Drug history** — without it, drug-induced overgrowth cannot be diagnosed.\n2. **Firm, fibrous texture** — unlike the soft, oedematous swelling of inflammatory gingivitis.\n3. **Persists despite OHI** — improving plaque control reduces severity but doesn't eliminate the overgrowth [1].\n\nContrast with hereditary gingival fibromatosis: same fibrous texture, same pattern, but no drug history [2]. Rare.",
+      "treatment": "Two lines, run in parallel:\n\n**Medical:**\n\n- Ask the prescribing physician whether the drug can be safely changed [1]. If phenytoin can be switched to a different anti-epileptic, or nifedipine to a non-calcium channel blocker antihypertensive, the overgrowth may resolve spontaneously over months.\n- This is not always possible — ciclosporin post-transplant, for example.\n\n**Oral hygiene:**\n\n- Improve plaque control as much as possible — it reduces severity even if it can't cure the overgrowth [1].\n- PMPR to remove calculus and plaque-retentive factors.\n\n**Surgical:**\n\n- **Gingivectomy** for significant overgrowth that obstructs function or aesthetics or prevents effective plaque control [3].\n- Recurrence after gingivectomy is common if the drug continues — the patient and physician should be warned.",
+      "prognosis": "- Switch the drug → spontaneous partial or complete resolution is possible [1].\n- Continue the drug + maintain excellent OH → overgrowth persists but may be manageable without surgery.\n- Gingivectomy resolves the immediate problem but recurrence is expected if the drug is not changed [3].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Common in patients on phenytoin, ciclosporin, nifedipine, and certain other calcium channel blockers; less commonly the oral contraceptive pill can have this effect. It is characterized by progressive fibrous hyperplasia and, while improved by OHI, will occur even in the presence of meticulous OH. Rx: ask if drug can be safely changed and improve oral hygiene. Gingival surgery may be needed.",
+          "paragraph": 6320,
+          "source": "Oxford Handbook · paragraph 6320"
+        },
+        {
+          "id": 2,
+          "quote": "These include gingival lesions of specific bacterial, viral, or fungal origin, lesions of genetic origin (e.g. hereditary gingival fibromatosis), gingival manifestations of systemic conditions (mucocutaneous disorders, allergic reactions), traumatic lesions, and foreign body reactions.",
+          "paragraph": 2746,
+          "source": "Oxford Handbook · paragraph 2746"
+        },
+        {
+          "id": 3,
+          "quote": "Correction of gingival overgrowth by gingivectomy.",
+          "paragraph": 3198,
+          "source": "Oxford Handbook · paragraph 3198"
+        }
+      ]
+    },
+    {
+      "id": "periodontal-007",
+      "description": "Increasing tenderness and bleeding around a dental implant, with deepening probe depths on the implant and bone loss showing on radiograph. Similar clinical picture to periodontitis but the implant is the affected structure.",
+      "conditionName": "Peri-implantitis",
+      "prevalence": "common",
+      "etiology": "After implant placement and abutment connection, a soft tissue cuff forms around the implant. The epithelial zone is about 2mm deep and there is an underlying connective tissue layer of about 1.5mm. Critically, the connective tissue fibres run **parallel** to the implant surface — they do not attach directly to it, unlike the Sharpey fibres that anchor the PDL to natural tooth cementum [1].\n\nPlaque on the implant surface triggers the same inflammatory cascade as on natural teeth. When confined to the soft tissue cuff, this is **peri-implant mucositis** — reversible. When the inflammation spreads to the supporting bone, it becomes **peri-implantitis** — with bone loss and progressive deepening of probing depths [1]. Crater-like defects form in the bone around the implant [1].\n\nThe reason implants are more vulnerable than teeth once disease starts: no PDL, no cementum, and the parallel-running connective tissue attachment offers less resistance to apical spread of the infection.",
+      "presentation": "What you'll see:\n\n- Bleeding and suppuration on probing around the implant.\n- Deepening probing depths compared to baseline or previous records.\n- Gingival inflammation, often with pus on gentle probing.\n- The implant may feel mobile if bone loss is advanced [1].\n\nWhat you'll hear:\n\n- Often nothing — the patient doesn't feel it until it's advanced.\n- Sometimes: \"there's swelling around my implant\" or a persistent bad taste.",
+      "results": "- **Six-point pocket charting** around the implant — BPE probing is not appropriate for implants because peri-implant soft tissue is less resistant to probing than natural gingiva, and probing depths are therefore not directly comparable to periodontal readings [2].\n- **Radiograph** (periapical): crater-like bone defect around the implant body. Progressive loss compared to the post-placement baseline radiograph [1].\n- **Bleeding and suppuration on probing**: both signal active disease.\n- Compare against baseline radiographs — assessment is relative, not absolute.",
+      "definingCharacteristics": "Two stages that must be distinguished:\n\n- **Peri-implant mucositis**: inflammation confined to the soft tissue. BOP present, no bone loss. Reversible — equivalent to gingivitis around a natural tooth [1].\n- **Peri-implantitis**: bone loss on radiograph, deepening pockets, crater defect. Not reversible [1].\n\nDistinguish from a purely restorative problem (loose abutment, cement remnant, fracture): check with a screwdriver for abutment stability, and look for excess cement subgingivally — a common overlooked cause of peri-implant inflammation.",
+      "treatment": "The same therapeutic logic as periodontitis applies, but with important modifications:\n\n- **Implant surfaces are easily damaged**: use **plastic or carbon fibre scaling instruments** — metal scalers will scratch the titanium surface, altering roughness and promoting recolonisation [3].\n- **Step 1 equivalent**: excellent oral hygiene instruction around the implant. Interdental brushes and single-tufted brushes are the tools.\n- **Step 2 equivalent**: debridement of the implant surface and peri-implant tissues. Local antibiotics (minocycline gel into the pocket) may be used adjunctively.\n- For established peri-implantitis with significant bone loss: surgical access — flap for debridement and bone-supplemented GTR may be useful. Local antibiotics in combination with GTR are a recognised approach [4].\n- If the implant is mobile: removal is usually unavoidable [1].",
+      "prognosis": "- Peri-implant mucositis: reversible with good plaque control. Equivalent to gingivitis [1].\n- Peri-implantitis: treatment can arrest progression but bone is not reliably regenerated. The evidence base for regenerative outcomes is growing but predictability remains lower than with natural teeth.\n- Implants can become mobile as bone loss progresses; at that point, removal is the only option [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Following implant placement and connection of the transmucosal abutment, a soft tissue cuff develops. This is attached to the implant via an epithelial zone of about 2mm in depth. There is an underlying connective tissue layer of about 1.5mm. The fibres in this layer run parallel to the implant surface and do not attach directly to the implant. Plaque formation around the implant can lead to inflammation of the periodontal tissues. This is called peri-implant mucositis which is reversible. If the inflammation spreads to the supporting tissues it is called peri-implantitis. This can lead to bone loss and ↑ probing depths. Crater-like defects in the bone around the implant can be seen on a radiograph. If bone loss progresses, implants can become mobile.",
+          "paragraph": 3333,
+          "source": "Oxford Handbook · paragraph 3333"
+        },
+        {
+          "id": 2,
+          "quote": "BPE probing is not appropriate for implants sites. The soft tissue connection to implants is not the same as teeth, therefore peri-implant soft tissues are less resistant to probing. In addition, the position of the implant in relation to the bone and soft tissues may present deeper probing depths.",
+          "paragraph": 2859,
+          "source": "Oxford Handbook · paragraph 2859"
+        },
+        {
+          "id": 3,
+          "quote": "Implant surfaces can be easily damaged, so plastic or carbon fibre scaling instruments are used.",
+          "paragraph": 3336,
+          "source": "Oxford Handbook · paragraph 3336"
+        },
+        {
+          "id": 4,
+          "quote": "Implant salvage in the failing stage consists of the entire arsenal of periodontal therapies. Local antibiotics and bone-supplemented GTR may be particularly useful.",
+          "paragraph": 3334,
+          "source": "Oxford Handbook · paragraph 3334"
+        }
+      ]
     }
   ]
 }
