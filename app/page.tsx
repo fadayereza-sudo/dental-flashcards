@@ -1,14 +1,22 @@
 "use client";
 
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useLayoutEffect } from "react";
 import { ReviewFeed } from "@/components/review-feed";
 import { TroubleshootingPage } from "@/components/troubleshooting-page";
 import { GuidelinesPage } from "@/components/guidelines-page";
 import { BottomTabs } from "@/components/bottom-tabs";
 
+const INITIAL_PANEL = 1;
+
 export default function Home() {
   const panelRef = useRef<HTMLDivElement>(null);
-  const [activePanel, setActivePanel] = useState(0);
+  const [activePanel, setActivePanel] = useState(INITIAL_PANEL);
+
+  useLayoutEffect(() => {
+    const container = panelRef.current;
+    if (!container) return;
+    container.scrollLeft = container.clientWidth * INITIAL_PANEL;
+  }, []);
 
   useEffect(() => {
     const container = panelRef.current;
