@@ -54,5 +54,12 @@
     "organisation": "RCS Faculty of Dental Surgery",
     "order": 8,
     "description": "RCS England Faculty of Dental Surgery and Faculty of General Dental Practice (UK) — antimicrobial prescribing (FDS-AMP), first permanent molar extraction in children, palatally ectopic canine, unerupted maxillary incisor management."
+  },
+  {
+    "slug": "bes",
+    "title": "BES",
+    "organisation": "British Endodontic Society",
+    "order": 9,
+    "description": "British Endodontic Society — A Guide to Good Endodontic Practice (2022). Examination, case difficulty, record keeping, emergencies, vital pulp therapy, RCT, retreatment, restoration, hypochlorite accident."
   }
 ]

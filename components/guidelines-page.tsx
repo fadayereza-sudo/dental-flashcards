@@ -497,7 +497,7 @@ export function GuidelinesPage() {
       <header className="max-w-2xl mx-auto pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-4">
         <h1 className="font-serif text-2xl text-ink">Guidelines</h1>
         <p className="text-xs text-ink-muted mt-1 tracking-wide">
-          Workflows and first principles from SDCEP, BSP, FGDP, DBOH
+          Curated workflows and first principles from UK + international dental guidelines
         </p>
       </header>
 

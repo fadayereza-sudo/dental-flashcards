@@ -7,16 +7,17 @@
     "iadt",
     "orthodontic-referral",
     "nice",
-    "rcs"
+    "rcs",
+    "bes"
   ],
   "in_progress": null,
-  "total_categories": 8,
-  "last_updated": "2026-04-27",
+  "total_categories": 9,
+  "last_updated": "2026-05-10",
   "totals": {
-    "subjects": 38,
-    "workflows": 93,
-    "first_principles": 154,
-    "test_slides": 1482
+    "subjects": 44,
+    "workflows": 109,
+    "first_principles": 200,
+    "test_slides": 1797
   },
-  "notes": "Added two new categories (NICE and RCS) plus a new SDCEP emergency-care subject. NICE: wisdom-teeth-extraction (TA1, 2000). RCS: six subjects covering FDS-AMP gap-fill (acute-infections — pericoronitis/dry socket/periodontal abscess/necrotising periodontal; non-cardiac-prophylaxis — joint replacements/IV access/dialysis/immunocompromised; oral-fungal-and-viral — candidosis/primary herpetic gingivostomatitis), first-permanent-molar-extraction (RCS 2023), palatally-ectopic-canine (RCS 2022), and unerupted-maxillary-incisors (RCS 2022, OCR'd source). SDCEP emergency-care covers telephone triage and self-help advice from the 2007 SDCEP EDC guidance."
+  "notes": "Added BES (British Endodontic Society — A Guide to Good Endodontic Practice, 2022, ed. Tomson). Six subjects: examination-and-diagnosis, case-difficulty-and-referral, record-keeping, endodontic-emergencies (incl. hypochlorite accident), vital-pulp-therapy, root-canal-treatment (incl. retreatment + restoration of treated teeth). 16 workflows, 46 first principles, 315 test slides. Source PDF moved into source-material/guidelines/BES/ with chapter .md files extracted via PyMuPDF."
 }
