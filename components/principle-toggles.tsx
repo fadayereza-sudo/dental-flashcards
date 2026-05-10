@@ -124,21 +124,33 @@ function renderBody(
 ): ReactNode {
   const blocks = body.split("\n\n").filter((p) => p.trim());
 
-  type Group = { heading: string | null; paragraphs: string[] };
+  type Block =
+    | { kind: "paragraph"; text: string }
+    | { kind: "list"; items: string[] };
+  type Group = { heading: string | null; blocks: Block[] };
   const groups: Group[] = [];
-  let current: Group = { heading: null, paragraphs: [] };
+  let current: Group = { heading: null, blocks: [] };
   for (const raw of blocks) {
     const block = raw.trim();
     if (block.startsWith("## ")) {
-      if (current.heading !== null || current.paragraphs.length > 0) {
+      if (current.heading !== null || current.blocks.length > 0) {
         groups.push(current);
       }
-      current = { heading: block.slice(3).trim(), paragraphs: [] };
+      current = { heading: block.slice(3).trim(), blocks: [] };
+      continue;
+    }
+    const lines = block.split("\n");
+    const isList = lines.every((l) => /^[-*]\s+/.test(l.trim()));
+    if (isList) {
+      current.blocks.push({
+        kind: "list",
+        items: lines.map((l) => l.trim().replace(/^[-*]\s+/, "")),
+      });
     } else {
-      current.paragraphs.push(block);
+      current.blocks.push({ kind: "paragraph", text: block });
     }
   }
-  if (current.heading !== null || current.paragraphs.length > 0) {
+  if (current.heading !== null || current.blocks.length > 0) {
     groups.push(current);
   }
 
@@ -149,11 +161,27 @@ function renderBody(
           {renderParagraph(group.heading, citations, onCitation, highlightTerm)}
         </h4>
       )}
-      {group.paragraphs.map((p, pi) => (
-        <p key={pi} className={pi > 0 ? "mt-3" : ""}>
-          {renderParagraph(p, citations, onCitation, highlightTerm)}
-        </p>
-      ))}
+      {group.blocks.map((block, bi) => {
+        if (block.kind === "list") {
+          return (
+            <ul
+              key={bi}
+              className={`list-disc pl-5 space-y-1.5 ${bi > 0 ? "mt-3" : ""}`}
+            >
+              {block.items.map((item, ii) => (
+                <li key={ii}>
+                  {renderParagraph(item, citations, onCitation, highlightTerm)}
+                </li>
+              ))}
+            </ul>
+          );
+        }
+        return (
+          <p key={bi} className={bi > 0 ? "mt-3" : ""}>
+            {renderParagraph(block.text, citations, onCitation, highlightTerm)}
+          </p>
+        );
+      })}
     </div>
   ));
 }
@@ -165,7 +193,7 @@ function renderParagraph(
   highlightTerm?: string
 ): ReactNode[] {
   const parts: ReactNode[] = [];
-  const regex = /\[(\d+)\]/g;
+  const regex = /\[(\d+)\]|\*\*([^*]+)\*\*/g;
   let lastIdx = 0;
   let match: RegExpExecArray | null;
   const pushText = (s: string, baseKey: string) => {
@@ -174,33 +202,37 @@ function renderParagraph(
     if (hl.length === 1 && typeof hl[0] === "string") {
       parts.push(hl[0]);
     } else {
-      parts.push(
-        <span key={baseKey}>
-          {hl}
-        </span>
-      );
+      parts.push(<span key={baseKey}>{hl}</span>);
     }
   };
   while ((match = regex.exec(para)) !== null) {
     if (match.index > lastIdx) {
       pushText(para.slice(lastIdx, match.index), `txt-${lastIdx}`);
     }
-    const id = parseInt(match[1], 10);
-    const citation = citations.find((c) => c.id === id);
-    if (citation) {
+    if (match[1] !== undefined) {
+      const id = parseInt(match[1], 10);
+      const citation = citations.find((c) => c.id === id);
+      if (citation) {
+        parts.push(
+          <button
+            key={`cite-${match.index}`}
+            type="button"
+            onClick={() => onCitation(citation)}
+            className="inline-flex items-baseline align-baseline mx-[1px] text-[11px] font-semibold text-bronze hover:text-ink transition-colors"
+            aria-label={`Citation ${id}`}
+          >
+            [{id}]
+          </button>
+        );
+      } else {
+        parts.push(match[0]);
+      }
+    } else if (match[2] !== undefined) {
       parts.push(
-        <button
-          key={`cite-${match.index}`}
-          type="button"
-          onClick={() => onCitation(citation)}
-          className="inline-flex items-baseline align-baseline mx-[1px] text-[11px] font-semibold text-bronze hover:text-ink transition-colors"
-          aria-label={`Citation ${id}`}
-        >
-          [{id}]
-        </button>
+        <strong key={`b-${match.index}`} className="font-semibold text-ink">
+          {highlight(match[2], highlightTerm)}
+        </strong>
       );
-    } else {
-      parts.push(match[0]);
     }
     lastIdx = match.index + match[0].length;
   }

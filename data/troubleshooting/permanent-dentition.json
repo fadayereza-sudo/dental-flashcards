@@ -6,498 +6,88 @@
   "problems": [
     {
       "id": "permanent-dentition-001",
-      "description": "Sharp pain on cold, sweet, or hot that vanishes within seconds of removing the stimulus; no spontaneous episodes.",
+      "description": "Sharp pain on cold or sweet that stops the moment the stimulus is gone. Usually one tooth, though the patient often can't say which one.",
       "conditionName": "Reversible pulpitis",
-      "etiology": "A thermal, chemical, or mechanical insult triggers mild inflammation of the pulp. The pulp retains the capacity to recover once the stimulus is removed, because its blood supply is intact [1]. Common causes include caries, a leaking restoration, or exposed dentine [2].",
-      "presentation": "Patient reports a short, sharp pain provoked by cold, sweet, or hot stimuli that ceases promptly when the stimulus is taken away. Pain does not occur spontaneously and does not disturb sleep [3]. The pain can be difficult to localise because the dental pulp lacks proprioceptive nerve endings [4].",
-      "results": "Vitality test gives an exaggerated response but recovers rapidly. Tooth is not tender to percussion. Radiograph shows no periapical change — primary or secondary caries may be visible but there is no periapical radiolucency [2].",
-      "definingCharacteristics": "The pain stops when the stimulus stops. In irreversible pulpitis, pain lingers after the stimulus has gone and may occur spontaneously [5]. Reversible pulpitis produces no periapical change on radiograph and the tooth is not tender to percussion [2].",
-      "treatment": "Remove the cause: excise caries, replace the defective restoration, or seal exposed dentine. Restore with an appropriate material and pulp protection. Vital pulp therapy may be considered where indicated. NSAIDs provide symptomatic relief [6].",
-      "prognosis": "With the cause removed, the pulp typically settles and the diagnosis resolves. If the causative insult is not addressed, the condition may progress to irreversible pulpitis [7].",
+      "etiology": "The pulp gets irritated by three things: caries, trauma, and damage from a previous filling or procedure [1].\n\nNone need to be dramatic on their own. The effects are cumulative — small insults (bacterial, thermal, chemical, traumatic) add up, and once they cross a threshold the pulp inflames and starts to hurt [2].\n\nThe interesting bit: what decides whether the pulp recovers is its **blood supply**, not its nerve supply [3]. The diagnostic consequence:\n\n- Vitality tests are actually sensibility tests — they check the nerve, not the pulp itself.\n- No clinical test gives you a 100% accurate read of pulp status.\n- The only method that does is histological section, which isn't an option in a living tooth [3].",
+      "presentation": "What you'll typically hear:\n\n- Quick, sharp jab of pain on cold, hot, or sweet.\n- Gone within seconds of the stimulus being removed [4].\n- Patient often can't pin down exactly which tooth — the pulp has no proprioceptive nerves [5].\n- Pain won't cross the midline. If the patient is jumping between left and right, the cause is something else [5].\n- No pain on biting. No tenderness over the gum above the tooth [6].",
+      "results": "- **Cold test**: exaggerated response — a noticeably louder reaction than the neighbouring teeth [7].\n- **Inspect**: usually a fresh carious cavity or a leaking restoration [7].\n- **Percussion**: not tender. TTP would push you toward apical involvement, so its absence keeps you on a pulpitis diagnosis [7].\n- **Radiograph**: apical tissues look normal. Lamina dura intact, no widening of the PDL space [8].",
+      "definingCharacteristics": "The single most useful question to ask yourself: **does the pain stop the moment the stimulus is gone?**\n\n- Yes → reversible.\n- No (lingers, spontaneous, or radiates) → irreversible [9].\n\nOther tells:\n\n- Short, repeated attacks of pain (rather than continuous severe pain) point to reversible. Pulp is probably still saveable if you treat the cause now [6].\n- Poor localisation is normal for pulpal pain. On its own it tells you nothing about reversibility — don't be thrown by it [5].",
+      "treatment": "The principle is straightforward: **find the cause and take it away.**\n\n- Caries → remove it and restore.\n- Leaking filling → redo it.\n- Can't do a definitive restoration in one visit? Place a sedative dressing like ZOE to settle things and buy time [10].\n\nIf the cavity is deep but the pulp isn't actually exposed (dentine still over the pulp), do an **indirect pulp cap**. The sequence:\n\n- Rubber dam on.\n- Selective caries removal at the floor and axial wall. Leave a thin layer of stained but firm dentine over the pulp rather than risk an exposure chasing the last of the caries.\n- Disinfect the deep cavity with sodium hypochlorite 0.5–5% on a cotton pellet (excess wrung out) for 30 seconds to a minute.\n- Dry it.\n- Cover the deepest part with a calcium silicate cement. Calcium hydroxide sealed under GIC or RMGIC works if no CSC is available.\n- Place the definitive restoration over the top and keep the tooth under review [11].",
+      "prognosis": "- Catch it early, treat the cause → the pulp settles [6].\n- Leave it → the lesion enlarges over months, the pulpitis turns irreversible, and by the time the patient comes back the pulp may already be necrotic. The only option left is RCT on a dead pulp [12].\n\n**Rule of thumb** when you can't quite decide: treat as reversible. RCT can always be started later if symptoms tell you you've been too conservative — just warn the patient upfront [13].",
       "citations": [
         {
           "id": 1,
-          "quote": "The ability of the pulp to recover from injury depends upon its blood supply, not the nerve supply, which must be borne in mind when vitality (sensibility) testing is carried out.",
+          "quote": "The pulp is under threat from three main sources: carious attack, trauma and iatrogenic damage (Bjørndal et al 2019).",
+          "source": "BES Guidelines 2022 — Vital Pulp Therapy, p.43"
+        },
+        {
+          "id": 2,
+          "quote": "The pulp may be subject to a wide variety of insults (e.g. bacterial, thermal, chemical, traumatic), the effects of which are cumulative and can ultimately lead to inflammation in the pulp (pulpitis) and pain.",
           "paragraph": 3411,
           "source": "Oxford Handbook · paragraph 3411"
         },
         {
-          "id": 2,
-          "quote": "Reversible pulpitis (transient irritation of pulp): Sharp pain of short duration (seconds). Lasts less than 30 seconds. Not spontaneous. Not TTP. May be able to trigger with ethyl chloride. Clinically: Caries / exposed dentine. Radiograph: Primary / secondary caries, no PA changes. Treatment: Restoration / seal exposed dentine.",
-          "source": "Leeds Restorative Handbook, §Dental pain diagnoses"
-        },
-        {
           "id": 3,
-          "quote": "Reversible pulpitis: Pain or discomfort initiated by a stimulus such as cold or sweet which resolves shortly after the stimulus is removed.",
-          "source": "BES Guidelines 2022 — Vital Pulp Therapy"
+          "quote": "The ability of the pulp to recover from injury depends upon its blood supply, not the nerve supply, which must be borne in mind when vitality (sensibility) testing is carried out",
+          "paragraph": 3411,
+          "source": "Oxford Handbook · paragraph 3411"
         },
         {
           "id": 4,
+          "quote": "Fleeting sensitivity/pain to hot, cold, or sweet with immediate onset. Pain is usually sharp and may be difficult to locate. Quickly subsides after removal of the stimulus.",
+          "paragraph": 3415,
+          "source": "Oxford Handbook · paragraph 3415"
+        },
+        {
+          "id": 5,
           "quote": "The dental pulp does not contain any proprioceptive nerve endings, therefore a characteristic of pulpal pain is that the patient is unable to localize the affected tooth but the pain does not cross the midline.",
           "paragraph": 3411,
           "source": "Oxford Handbook · paragraph 3411"
         },
         {
-          "id": 5,
-          "quote": "Reversible pulpitis causes pain only in response to a stimulus (hot, cold, sweet), which ceases when the stimulus is removed. It indicates mild pulp inflammation that may resolve with removal of the cause (e.g. caries removal and appropriate restoration). Irreversible pulpitis causes lingering pain that continues after stimulus removal.",
-          "paragraph": 5165,
-          "source": "Odell's Clinical Problem Solving · paragraph 5165"
-        },
-        {
           "id": 6,
-          "quote": "Reversible pulpitis: Placement of restoration with or without vital pulp therapy; NSAIDs.",
-          "source": "BES Guidelines 2022 — Management of Endodontic Emergencies"
+          "quote": "The classic history of acute pulpitis and repeated attacks of pain – as opposed to continuous severe pain – probably indicates that the pulp can be preserved if the caries is treated. The fact that there is no pain on biting and no tenderness over the roots also suggests a reversible pulpitis and helps exclude periapical periodontitis.",
+          "paragraph": 1240,
+          "source": "Odell's Clinical Problem Solving · paragraph 1240"
         },
         {
           "id": 7,
-          "quote": "Infection of the pulp can result in irreversible pulpitis and, if left untreated, periapical periodontitis. The overall aim of endodontic Rx is to prevent or treat periapical periodontitis by controlling infection within the root canal system.",
-          "paragraph": 4949,
-          "source": "Oxford Handbook · paragraph 4949"
-        }
-      ]
-    },
-    {
-      "id": "permanent-dentition-002",
-      "description": "Spontaneous or lingering pain that outlasts the stimulus by minutes to hours, often waking the patient at night.",
-      "conditionName": "Irreversible pulpitis",
-      "etiology": "Pulpal inflammation has advanced to a point at which the pulp cannot recover, regardless of whether the cause is removed. The progression is driven by caries penetrating towards the pulp, trauma, or iatrogenic injury [1]. If left untreated, the pulp undergoes necrosis, which may then seed periapical infection [2].",
-      "presentation": "Patient reports spontaneous, dull, throbbing pain lasting minutes to hours, often worse at night. Cold and heat exacerbate the pain; in later stages, cold may paradoxically relieve it. Pain is poorly localised and can radiate to adjacent teeth, the face, jaw, ear, or temple [3]. The patient may describe not being able to sleep [4].",
-      "results": "Vitality test gives an exaggerated, reduced, or absent response — results are variable and cannot reliably confirm the histological state of the pulp [5]. In later stages the tooth may become tender to percussion. Radiograph may show deep caries or large restoration; early periapical changes may be present but are often absent [4].",
-      "definingCharacteristics": "Pain that lingers well beyond the stimulus is the defining feature that separates irreversible from reversible pulpitis [6]. Spontaneous, nocturnal pain is a strong indicator that the pulp cannot recover. Unlike a periapical abscess, there is typically no swelling, and the tooth may still give a (albeit abnormal) vitality response [7].",
-      "treatment": "Extirpation of the pulp followed by root canal treatment (RCT) is the treatment of choice if the tooth is to be retained. If time is limited or anaesthesia is difficult, coronal pulpotomy with a corticosteroid-antibiotic dressing (e.g. Ledermix/Odontopaste) is an interim measure [8]. Emerging evidence suggests pulpotomy with a calcium silicate cement may be sufficient to treat irreversible pulpitis in some cases [9]. Extraction is the alternative.",
-      "prognosis": "Without intervention, irreversible pulpitis progresses to pulp necrosis — the pain may temporarily subside as nerve fibres are destroyed — and subsequently to apical abscess [2]. With timely RCT and adequate coronal seal, the outcome depends on the four prognostic factors: absence of pre-operative radiolucency, adequate obturation length, adequate taper, and an intact coronal seal [10].",
-      "citations": [
-        {
-          "id": 1,
-          "quote": "The pulp is under threat from three main sources: carious attack, trauma and iatrogenic damage.",
-          "source": "BES Guidelines 2022 — Vital Pulp Therapy"
-        },
-        {
-          "id": 2,
-          "quote": "The classic history of irreversible pulpitis progressing to pulp necrosis and apical abscess: severe spontaneous pain (pulpitis) → pain subsides (necrosis complete, nerve fibres destroyed) → facial swelling develops (apical abscess spreads to periapical tissues and soft tissues).",
-          "paragraph": 5320,
-          "source": "Odell's Clinical Problem Solving · paragraph 5320"
-        },
-        {
-          "id": 3,
-          "quote": "Irreversible pulpitis: Spontaneous pain, lingering, sporadic, poorly localised to a specific tooth; Can radiate away from the source; Pain may refer to adjacent teeth, face, jaw, auricular, temporal region.",
-          "source": "BES Guidelines 2022 — Examination and Diagnosis"
-        },
-        {
-          "id": 4,
-          "quote": "Irreversible pulpitis (inflamed pulp which will eventually progress to necrosis): Can be spontaneous, may be provoked by hot / cold. Throbbing pain that may linger. Poorly localised. May disturb sleep. May be TTP. Heat can elicit pain. Clinically: Deep caries / large restoration / crown. Radiograph: Deep caries, may see early PA changes. Treatment: RCT / extraction.",
-          "source": "Leeds Restorative Handbook, §Dental pain diagnoses"
-        },
-        {
-          "id": 5,
-          "quote": "It is impossible to reliably achieve an accurate ∆ of the state of the pulp on clinical grounds alone; the only 100% accurate method is histological section.",
-          "paragraph": 3412,
-          "source": "Oxford Handbook · paragraph 3412"
-        },
-        {
-          "id": 6,
-          "quote": "Irreversible pulpitis is characterized by spontaneous pain, pain that lingers after removal of stimulus, and pain that wakes the patient at night. These features indicate that the pulp is irreversibly damaged and only extirpation is appropriate.",
-          "paragraph": 5159,
-          "source": "Odell's Clinical Problem Solving · paragraph 5159"
-        },
-        {
-          "id": 7,
-          "quote": "Irreversible pulpitis: More intense pain that can be spontaneous or radiating which is longer lasting and lingers after removal of stimulus.",
-          "source": "BES Guidelines 2022 — Vital Pulp Therapy"
+          "quote": "Exaggerated response to pulp testing. Carious cavity/leaking restoration. Tooth not tender to percussion.",
+          "paragraph": 3417,
+          "source": "Oxford Handbook · paragraph 3417"
         },
         {
           "id": 8,
-          "quote": "Symptomatic irreversible pulpitis: Pulp chamber access and coronal pulpotomy followed by corticosteroid pulpitis (Ledermix/Odontopaste) dressing. If time permits, pulpectomy and full chemo-mechanical preparation of the root canal system.",
-          "source": "BES Guidelines 2022 — Management of Endodontic Emergencies"
+          "quote": "Short, sharp sensitivity to cold • Localised to the affected tooth • Questionable restoration, coronal fracture • Normal appearance of apical tissues",
+          "source": "BES Guidelines 2022 — Examination and Diagnosis, Table 1.1"
         },
         {
           "id": 9,
-          "quote": "Although the diagnostic term advises otherwise, there is emerging evidence that suggests it may be possible to treat irreversible pulpitis with VPT.",
-          "source": "BES Guidelines 2022 — Vital Pulp Therapy"
+          "quote": "Reversible pulpitis: Pain or discomfort initiated by a stimulus such as cold or sweet which resolves shortly after the stimulus is removed. Irreversible pulpitis: More intense pain that can be spontaneous or radiating which is longer lasting and lingers after removal of stimulus.",
+          "source": "BES Guidelines 2022 — Vital Pulp Therapy, p.43"
         },
         {
           "id": 10,
-          "quote": "4 factors improving RCT outcome — no preop radiolucency, adequate obturation length (within 2 mm of apex), adequate taper, intact coronal seal — are all associated with improved prognosis.",
-          "source": "BES Guidelines 2022 — Primary Root Canal Treatment"
-        }
-      ]
-    },
-    {
-      "id": "permanent-dentition-003",
-      "description": "Severe throbbing pain with intra-oral or facial swelling around a non-vital tooth; may be accompanied by fever and malaise.",
-      "conditionName": "Acute apical abscess",
-      "etiology": "Pulp necrosis allows bacteria to colonise the root canal system; the infection extends through the apical foramen into the periapical tissues, causing acute inflammation and pus formation [1]. The most common cause is caries progressing to loss of vitality; trauma is a less common trigger [2].",
-      "presentation": "Severe pain that disturbs sleep; the tooth is exquisitely tender to touch and bite. Intra-oral swelling may be fluctuant; extra-oral spread presents as diffuse facial swelling progressing towards cellulitis. The patient may feel unwell, with fever, malaise, and difficulty swallowing. Difficulty breathing signals potential airway compromise and requires immediate hospital referral [3].",
-      "results": "Tooth is mobile, extruded, and exquisitely tender to percussion. Vitality testing is negative, though pus may conduct the stimulus and give a misleading response [4]. Radiograph may appear normal in rapidly developing acute cases, or may show periapical radiolucency or widening of the periodontal ligament space if developing on pre-existing chronic pathology [5].",
-      "definingCharacteristics": "The combination of a non-vital tooth (negative vitality test) and acute swelling distinguishes an acute apical abscess from irreversible pulpitis, in which the pulp is still alive and swelling is absent [6]. Cellulitis — diffuse spreading infection without pus loculation — is more dangerous than a true abscess because it spreads along fascial planes and cannot be simply drained [7].",
-      "treatment": "Drain pus first: access through the root canal using a high-speed diamond bur, steadying the tooth to reduce vibration. Regional anaesthesia and sedation may be required. Prepare the canal chemo-mechanically. If a fluctuant extra-oral or intra-oral collection is present, incise and drain. Reduce the occlusion. NSAIDs for analgesia [8]. Antibiotics are indicated only when there is spreading infection, systemic involvement, or immunocompromise — not for localised periradicular infection [9]. First-line antibiotic is amoxicillin 500 mg three times daily; metronidazole 200 mg three times daily is added for anaerobic cover in spreading infection. In penicillin allergy, use clarithromycin or metronidazole alone [10].",
-      "prognosis": "With drainage and subsequent root canal treatment or extraction, the acute episode resolves. Untreated, the infection may spread along fascial planes, causing cellulitis, airway compromise, or — in maxillary teeth — cavernous sinus thrombosis [11]. Once the acute phase resolves, follow-up confirms periapical healing on radiograph.",
-      "citations": [
-        {
-          "id": 1,
-          "quote": "Infection of the pulp can result in irreversible pulpitis and, if left untreated, periapical periodontitis. The overall aim of endodontic Rx is to prevent or treat periapical periodontitis by controlling infection within the root canal system.",
-          "paragraph": 4949,
-          "source": "Oxford Handbook · paragraph 4949"
-        },
-        {
-          "id": 2,
-          "quote": "Acute periapical abscess: Inflammation of periapical tissues, commonly caused by caries leading to loss of vitality (can happen after trauma).",
-          "source": "Leeds Restorative Handbook, §Acute periapical abscess"
-        },
-        {
-          "id": 3,
-          "quote": "Recording body temperature and noting difficulty in swallowing in a patient who is clearly suffering with malaise or fatigued from acute symptoms will give an indication of systemic involvement or local spreading infection. Difficulty in breathing may indicate a restricted airway due to sublingual spread of infection (of possible endodontic origin). This requires referral to hospital for admission as the health of the patient can rapidly deteriorate.",
-          "source": "BES Guidelines 2022 — Examination and Diagnosis"
-        },
-        {
-          "id": 4,
-          "quote": "Affected tooth is usually extruded, mobile, and TTP. May be associated with IO and facial swelling or with a more localized IO swelling. Sensibility testing may be misleading as pus may conduct stimulus to apical tissues.",
-          "paragraph": 3458,
-          "source": "Oxford Handbook · paragraph 3458"
-        },
-        {
-          "id": 5,
-          "quote": "Acute apical abscess: Severe pain and swelling; Intra-oral: often fluctuant; Extra-oral: more diffuse progressing to cellulitis; Typically little or no obvious radiographic changes (unless the condition is an acute exacerbation of an existing apical periodontitis).",
-          "source": "BES Guidelines 2022 — Examination and Diagnosis"
-        },
-        {
-          "id": 6,
-          "quote": "Acute Apical Abscess: Intense throbbing pain. Intra or extra oral swelling. May feel unwell. TTP present. Negative sensitivity test. Tooth may be mobile. Fluctuant swelling present. Radiograph: May appear normal if rapid onset, may see periapical area. Treatment: Drainage of pus. Antibiotics if systemic involvement.",
-          "source": "Leeds Restorative Handbook, §Dental pain diagnoses"
-        },
-        {
-          "id": 7,
-          "quote": "Soft tissue spread of odontogenic infection: oedema is diffuse tissue swelling from interstitial fluid; a true abscess is a loculated collection of pus with a fluctuant centre; cellulitis is diffuse spreading infection without pus loculation. Cellulitis is more dangerous because it spreads along fascial planes.",
-          "paragraph": 5340,
-          "source": "Odell's Clinical Problem Solving · paragraph 5340"
-        },
-        {
-          "id": 8,
-          "quote": "Acute apical abscess (no systemic involvement): Incision and drainage; Pulp chamber access and drainage via root canal with complete chemo-mechanical preparation of the root canal; Consider occlusal reduction of the symptomatic tooth; NSAIDs.",
-          "source": "BES Guidelines 2022 — Management of Endodontic Emergencies"
-        },
-        {
-          "id": 9,
-          "quote": "The evidence base for the use of antibiotics in endodontic emergency treatment is clear that antibiotics have no efficacy in the treatment of pulpitis or where infection is limited to the peri-radicular tissues.",
-          "source": "BES Guidelines 2022 — Management of Endodontic Emergencies"
-        },
-        {
-          "id": 10,
-          "quote": "The first-line antibiotic for dental infections is amoxicillin. Metronidazole is added for anaerobic cover in spreading infections. Metronidazole should not be used as the sole antibiotic for dental infections because many dental pathogens are not anaerobic. In penicillin allergy, clarithromycin or metronidazole alone may be used.",
-          "paragraph": 5358,
-          "source": "Odell's Clinical Problem Solving · paragraph 5358"
+          "quote": "Remove any caries present and restore or place a sedative dressing (e.g. ZOE) or permanent restoration with suitable pulp protection.",
+          "paragraph": 3419,
+          "source": "Oxford Handbook · paragraph 3419"
         },
         {
           "id": 11,
-          "quote": "Principles of managing odontogenic infection: (1) drain the pus (incision and drainage or through the root canal), (2) remove the cause (extract or root-treat the offending tooth), (3) prescribe antibiotics only when there is spreading infection, systemic involvement, or immunocompromise — antibiotics do not replace surgical drainage.",
-          "paragraph": 5350,
-          "source": "Odell's Clinical Problem Solving · paragraph 5350"
-        }
-      ]
-    },
-    {
-      "id": "permanent-dentition-004",
-      "description": "Sharp pain provoked by biting on a specific cusp, often rebounding on release; vital tooth with a crack that may be invisible.",
-      "conditionName": "Cracked tooth syndrome",
-      "etiology": "A crack runs through the tooth substance, typically mesiodistally through the isthmus of a large intracoronal restoration. Parafunctional habits (bruxism, clenching) and large existing restorations are the main aetiological factors: both weaken the remaining tooth structure [1]. Each restoration cycle and operative intervention can initiate or extend cracks [2].",
-      "presentation": "Sharp pain on biting — classically provoked by biting down on a cotton-wool roll or a specific cusp — that is short in duration and may be worse on release of the bite. Cold sensitivity may also be present. The pain is difficult to localise [3]. Some patients describe a sudden sharp jab that stops them eating.",
-      "results": "Vitality testing is positive (pulp intact). The tooth sleuth isolates the painful cusp: pain on release of pressure confirms that a cusp is flexing due to a crack [4]. Transillumination with a curing light or fibre-optic source can reveal the crack; staining with dye (e.g. gentian violet) is an alternative. The tooth often carries a large restoration that may need removal to visualise the crack [5]. Percussion may be negative unless periapical involvement has developed. Bitewing radiograph may show deep caries or a large restoration but will not display the crack itself.",
-      "definingCharacteristics": "The bite-release pain pattern — sharpest on release rather than loading — distinguishes cracked tooth syndrome from acute apical periodontitis, in which pain is continuous on biting and the tooth is non-vital [6]. Unlike irreversible pulpitis, the pain is provoked mechanically rather than thermally, and the tooth is still vital. An isolated periodontal pocket along the line of a crack suggests a vertical root fracture, which carries a hopeless prognosis [7].",
-      "treatment": "An adhesive resin composite with cuspal coverage is appropriate for minimally restored teeth. An indirect restoration with full occlusal coverage is required when the crack is more extensive. Root canal treatment followed by a crown is needed if the pulp has become involved. Extraction is the last resort when the crack extends to or through the furcation [8]. An orthodontic band can be placed as a temporary diagnostic and stabilising measure [3].",
-      "prognosis": "Sources do not give numerical success rates for cracked tooth syndrome specifically. If the crack does not extend to the pulp or furcation, cusp coverage can arrest the problem. If the crack reaches the furcation or the root, the tooth is unsaveable [8]. Each unnecessary restoration replacement cycle increases the risk of crack propagation [2].",
-      "citations": [
-        {
-          "id": 1,
-          "quote": "Parafunctional habits (bruxism, clenching) and large intracoronal restorations weaken the remaining tooth structure and are the main aetiological factors for cracked tooth syndrome. Cracks typically run mesiodistally through the isthmus of an occlusal restoration.",
-          "paragraph": 1445,
-          "source": "Odell's Clinical Problem Solving · paragraph 1445"
-        },
-        {
-          "id": 2,
-          "quote": "Consequences of unnecessary restoration replacement: every time a restoration is removed, cavities become significantly larger regardless of material; further preparation weakens residual tooth tissue; operative intervention may initiate cracks or fractures; each restoration cycle shortens the interval to the next failure.",
-          "paragraph": 7189,
-          "source": "Odell's Clinical Problem Solving · paragraph 7189"
-        },
-        {
-          "id": 3,
-          "quote": "Sharp pain on biting (e.g. cotton-wool roll or a 'Tooth Slooth®')—short duration, pain may cease on release of bite/pressure, and possible cold sensitivity. Some patients find pain elicited on sudden release of bite.",
-          "paragraph": 3433,
-          "source": "Oxford Handbook · paragraph 3433"
-        },
-        {
-          "id": 4,
-          "quote": "Tooth sleuth test: Will provide information whether any part(s) of the tooth is flexing as a result of a crack. Position tooth sleuth head over a cusp of the tooth with a suspected crack. Ask patient to bite for a few seconds then to open mouth, if pain triggered on release of bite write down the tooth and cusp tested.",
-          "source": "Leeds Restorative Handbook, §Special tests"
-        },
-        {
-          "id": 5,
-          "quote": "Often relatively few, therefore ∆ difficult. Tooth often has a large restoration. Crack may not be apparent at first but transillumination and possibly removal of the restoration may aid visualization. There is a positive response to vitality (sensibility) testing.",
-          "paragraph": 3435,
-          "source": "Oxford Handbook · paragraph 3435"
-        },
-        {
-          "id": 6,
-          "quote": "Cracked tooth syndrome: a crack in a tooth may cause sharp pain on biting or releasing bite that is difficult to localize. The crack may be invisible. Pain is typically provoked by biting on a cotton wool roll or a specific cusp.",
-          "paragraph": 1438,
-          "source": "Odell's Clinical Problem Solving · paragraph 1438"
-        },
-        {
-          "id": 7,
-          "quote": "Isolated periodontal pockets around a tooth may indicate an endodontic issue: e.g. vertical fracture, root perforation or simply a draining sinus tract (i.e. periodontal pathology 'secondary' to endodontic pathosis).",
-          "source": "BES Guidelines 2022 — Examination and Diagnosis"
-        },
-        {
-          "id": 8,
-          "quote": "Treatment of a cracked tooth depends on the extent of the crack. If the crack does not extend to the pulp or furcation, an onlay or cuspal coverage restoration may be sufficient. If the pulp is involved, root canal treatment followed by a crown is required. If the crack extends to the furcation or splits the root, the tooth cannot be saved and should be extracted.",
-          "paragraph": 1461,
-          "source": "Odell's Clinical Problem Solving · paragraph 1461"
-        }
-      ]
-    },
-    {
-      "id": "permanent-dentition-005",
-      "description": "Visible cavity or dentine shadow in enamel or dentine, often asymptomatic until deep; the commonest destructive lesion in the permanent dentition.",
-      "conditionName": "Cavitated coronal caries",
-      "etiology": "Dietary sugars are broken down by micro-organisms in the biofilm on the tooth surface, producing acids that demineralise enamel over time [1]. When demineralisation consistently exceeds remineralisation, the enamel breaks down and a cavity forms [2]. Caries most commonly develops at the base of pits and fissures and on the proximal surfaces just below the contact point [3]. Risk is multifactorial: diet (frequency of fermentable carbohydrate), oral hygiene, fluoride exposure, saliva flow and buffering capacity, and socioeconomic factors all contribute [4].",
-      "presentation": "Cavitated caries is often asymptomatic until deep. The patient may notice a hole, food packing, or discolouration. Sensitivity to sweet or cold arises once dentine is involved. Pain on biting or spontaneous pain indicates pulpal involvement. Clinically, a cavity or dentine shadow is visible or detectable with a probe on the occlusal, proximal, or buccal surface.",
-      "results": "Bitewing radiograph is essential for proximal caries and for assessing depth: lesions can be deeper than the radiograph suggests, and bitewing has low sensitivity for early lesions [5]. ICDAS staging classifies severity: a score of 3 (localised enamel shadow with no cavitation) through 6 (extensive dentine involvement) guides management. Vitality testing and percussion are normal unless the pulp is affected. A small enamel entry point may overlie a much larger area of dentine destruction — occult caries — making radiographic diagnosis essential [6].",
-      "definingCharacteristics": "A cavitated lesion with visible dentine crosses the threshold at which non-operative management alone is insufficient and restoration is indicated. Non-cavitated white-spot lesions can still be arrested or remineralised [2]. Secondary caries (caries associated with restorations) is frequently over-diagnosed: a discoloured margin alone is not indicative of secondary caries, and gap widths in excess of 400 μm are necessary for caries to develop beneath a restoration [7].",
-      "treatment": "Choose the least invasive feasible strategy: site, extent, pulpal risk, and patient factors all influence the decision [8]. Remove only infected (soft, leathery, yellow-brown) dentine using slow-speed rose-head burs or hand excavators; leave affected (firm, scratchy) dentine at the enamel-dentine junction in small lesions [9]. For deep lesions close to the pulp, use selective caries removal (leave soft dentine over the pulp) or stepwise excavation: partial removal at first visit, calcium hydroxide lining, resin-modified glass ionomer restoration, re-entry after a few weeks when dentine is harder and drier [10]. Restore to achieve a peripheral seal — bacteria sealed under an intact restoration are denied substrate and the lesion arrests [11]. For high caries risk: professional tooth cleaning, stabilising restorations, high-concentration fluoride toothpaste (2800/5000 ppm), fluoride varnish, and fissure sealants [12].",
-      "prognosis": "Caries is dynamic: early non-cavitated lesions can be reversed if demineralisation is checked [2]. Once a cavity has formed, operative intervention is required, and each subsequent restoration cycle produces a larger cavity and a weaker tooth [7]. Selective caries removal that preserves pulp vitality avoids the cycle of endodontic treatment and protects the long-term prognosis.",
-      "citations": [
-        {
-          "id": 1,
-          "quote": "Dental caries is one of the most prevalent non-communicable diseases nationally and globally. The disease is caused by dietary sugars that are broken down by micro-organisms in the biofilm on a tooth surface, which produces acids that, over time, demineralise tooth enamel.",
-          "source": "Delivering Better Oral Health 2021, §Chapter 4: dental caries"
-        },
-        {
-          "id": 2,
-          "quote": "The process of de- and re-mineralisation is dynamic. In the early stages of the disease, dental caries can be reversed. However, when factors promoting demineralisation exceed those favouring remineralisation, dental caries progresses (unless checked) into dentine to a point where the tooth surface breaks down and ultimately a cavity forms.",
-          "source": "Delivering Better Oral Health 2021, §Chapter 4: dental caries"
-        },
-        {
-          "id": 3,
-          "quote": "The permanent teeth most vulnerable to decay in childhood and adolescence are the permanent molars. Caries most commonly develops at just two sites on permanent molars: at the base of pits and fissures, and on the proximal surfaces, just below the contact point.",
-          "source": "SDCEP Prevention and Management of Dental Caries in Children, §Caries management in permanent teeth"
-        },
-        {
-          "id": 4,
-          "quote": "The DMFT (decayed, missing, filled teeth) score is a measure of caries experience. High caries rate is multifactorial: diet (frequency of fermentable carbohydrate intake), oral hygiene, fluoride exposure, saliva (flow rate and buffering capacity), and socioeconomic factors all contribute.",
-          "paragraph": 499,
-          "source": "Odell's Clinical Problem Solving · paragraph 499"
-        },
-        {
-          "id": 5,
-          "quote": "Staging of carious lesions with an index (e.g. ICDAS: International Caries Detection and Assessment System) and consideration of caries risk and radiographic examination allow the best management option to be chosen. Caries cannot solely be diagnosed from a radiograph however, this is a clinical diagnosis. Caries may also be deeper than suggested by a radiograph, or artefact/burnout may lead to false-positive diagnosis.",
-          "paragraph": 3379,
-          "source": "Oxford Handbook · paragraph 3379"
-        },
-        {
-          "id": 6,
-          "quote": "Occult (hidden) caries: a small cavitated lesion in the enamel may overlie a much larger area of dentine destruction. This occurs because fluoride strengthens the enamel surface while the subsurface dentine is susceptible to caries. The radiograph is essential for diagnosis as the extent of caries is underestimated clinically.",
-          "paragraph": 3683,
-          "source": "Odell's Clinical Problem Solving · paragraph 3683"
-        },
-        {
-          "id": 7,
-          "quote": "Caries associated with restorations and sealants (CARS — secondary caries) is the most prevalent reason given for restoration replacements, regardless of the restorative material used. However, there is epidemic overdiagnosis of CARS: a discoloured margin is not indicative of secondary caries, and gap widths in excess of 400 μm are necessary for secondary caries to develop.",
-          "paragraph": 7188,
-          "source": "Odell's Clinical Problem Solving · paragraph 7188"
-        },
-        {
-          "id": 8,
-          "quote": "For a child with a carious lesion in a permanent tooth, choose the least invasive, feasible caries management strategy taking into account: the site and extent of the lesion, the risk of pain or infection, preservation of tooth structure and the health of the dental pulp, avoidance of treatment-induced anxiety, lifetime prognosis of the tooth, orthodontic considerations and occlusal development.",
-          "source": "SDCEP Prevention and Management of Dental Caries in Children, §Caries management in permanent teeth"
-        },
-        {
-          "id": 9,
-          "quote": "Carious dentine may be divided into two zones: an outer, infected, irreversibly denatured zone that should be removed, and an inner, affected but remineralizable zone that may be preserved. This is the biological basis for selective carious tissue removal (SCTR).",
-          "paragraph": 502,
-          "source": "Odell's Clinical Problem Solving · paragraph 502"
-        },
-        {
-          "id": 10,
-          "quote": "Stepwise excavation involves incomplete removal of caries at the first visit, placement of a calcium hydroxide lining and temporary restoration, then re-entry after 6–8 weeks to remove the remaining softened dentine. At re-entry, the dentine is usually harder and drier, reducing the risk of pulp exposure.",
-          "paragraph": 509,
-          "source": "Odell's Clinical Problem Solving · paragraph 509"
-        },
-        {
-          "id": 11,
-          "quote": "Bacteria sealed under a restoration that provides a good peripheral seal are denied substrate, therefore lesion arrests. This allows the pulpodentinal complex to lay down reparative dentine.",
-          "paragraph": 3761,
-          "source": "Oxford Handbook · paragraph 3761"
+          "quote": "The cavity should be disinfected using cotton pellets soaked (removing gross excess) ideally with sodium hypochlorite (0.5-5%) for 30 seconds to one minute. Having dried this, the deepest part of the cavity closest to the pulp should ideally be covered with a CSC but calcium hydroxide is suitable if an appropriate CSC is not available. If calcium hydroxide is used it should be sealed with glass ionomer cement (GIC) or a resin glass ionomer cement (RMGIC).",
+          "source": "BES Guidelines 2022 — Vital Pulp Therapy, p.45 (indirect pulp capping)"
         },
         {
           "id": 12,
-          "quote": "High caries risk: as for low risk with the addition of professional tooth cleaning, stabilizing restorations, high-concentration toothpaste (2800/5000ppm fluoride), fluoride mouthwash in patients ≥8yrs, professionally applied fluoride varnish, topical remineralizing agents, management of hyposalivation, fissure sealants, and sealant restoration.",
-          "paragraph": 3385,
-          "source": "Oxford Handbook · paragraph 3385"
-        }
-      ]
-    },
-    {
-      "id": "permanent-dentition-006",
-      "description": "Gradual loss of tooth surface producing cuppings on occlusal surfaces and notching at the cervical margin, classified by severity across sextants.",
-      "conditionName": "Erosive tooth wear",
-      "etiology": "Tooth wear is the cumulative loss of mineralised tooth substance due to chemical and mechanical factors: erosion (dissolution by non-bacterial acids, intrinsic or extrinsic), attrition (tooth-to-tooth contact), and abrasion (action of objects other than teeth) [1]. Erosion is the dominant chemical driver: dietary acids (citric, phosphoric, acetic — found in carbonated drinks, juices, and pickles) and intrinsic gastric acid from reflux, eating disorders, or rumination attack the enamel surface [2]. Once tissue is lost beyond enamel, wear becomes irreversible [3].",
-      "presentation": "Early erosion presents as loss of surface texture — a 'frosted glass' appearance on enamel — progressing to discrete cupped-out lesions on occlusal surfaces and loss of incisal edge height. Palatal erosion of upper incisors suggests intrinsic acid; cupped occlusal lesions suggest the same; buccal cervical notching suggests abrasion from toothbrushing [4]. Dentine sensitivity develops once enamel is lost. In severe cases, pulpal exposure may occur [5].",
-      "results": "The Basic Erosive Wear Examination (BEWE) is the recommended screening index: all teeth are scored 0–3 per sextant, with score 1 = early surface texture loss, score 2 = less than 50% surface involved, score 3 = more than 50% surface involved [6]. A BEWE score of 3 in every sextant justifies further investigation [7]. Study models taken at yearly intervals provide a reference baseline for progression monitoring. There is no diagnostic vitality threshold specific to erosive wear; pulp involvement occurs in 9–12% of advanced cases [5].",
-      "definingCharacteristics": "Erosive wear affects multiple surfaces in a pattern that reflects the acid source — palatal upper anteriors from intrinsic acid, labial upper anteriors from extrinsic dietary acid [4]. This distinguishes it from attrition (matching occlusal wear facets on opposing teeth) and abrasion (V-shaped cervical notching from toothbrushing). Proud amalgam restorations above the level of the surrounding eroded enamel are a classic sign of erosion. Unlike caries, erosion has no clear critical pH, because the mineral content of the drink and saliva modifies erosive potential [8].",
-      "treatment": "Address the acid source first — this is more important than adjusting toothpaste or toothbrushing technique [9]. For intrinsic acid, refer to the relevant medical team (gastroenterology, eating disorder services). For extrinsic acid, advise reducing frequency and method of acidic drink consumption. Patients who vomit should avoid toothbrushing immediately afterwards and rinse with water before applying fluoride [10]. Consider stannous fluoride toothpaste in addition to standard fluoride [11]. Monitor with annual study models and BEWE. Once significant dentine is exposed, direct resin composite on palatal surfaces protects against further loss; the median lifespan before revision is 6–7 years [12]. For anterior tooth wear requiring space, the Dahl approach creates interocclusal space via relative axial movement over 3–6 months [13].",
-      "prognosis": "If the acid source is identified and eliminated, erosion ceases and no further restorative treatment may be needed [12]. The 2009 national survey found 2% of UK adults had severe wear exposing pulp or secondary dentine, 15% moderate wear exposing a large area of dentine, and 77% had some wear [14]. Without intervention, wear progresses to pulpal complications in 9–12% of affected cases [5].",
-      "citations": [
-        {
-          "id": 1,
-          "quote": "Tooth wear is the cumulative loss of mineralised tooth substance due to chemical and/or mechanical factors.\n\nIts components are:\n\ndental erosion (chemical loss due to exposure to either intrinsic or extrinsic non-bacterial acids)\ndental attrition (physical loss due to tooth-to-tooth contact)\ndental abrasion (physical loss caused by objects other than teeth)",
-          "source": "Delivering Better Oral Health 2021, §Chapter 7: tooth wear — Definitions"
-        },
-        {
-          "id": 2,
-          "quote": "Dietary (e.g. citric, phosphoric, acetic acid)—found in carbonated drinks, fruit/citrus juices, and pickles. Labial surfaces of ULS teeth classically affected.",
-          "paragraph": 3793,
-          "source": "Oxford Handbook · paragraph 3793"
-        },
-        {
-          "id": 3,
-          "quote": "By definition, dental erosion is the dissolution of tooth mineral where plaque is not involved in its aetiology. Remineralisation is possible only in enamel, provided there is no corresponding mechanical loss. Once tissue is lost, tooth wear becomes irreversible.",
-          "source": "Delivering Better Oral Health 2021, §Chapter 7: tooth wear — Definitions"
-        },
-        {
-          "id": 4,
-          "quote": "Generalized severe erosive tooth wear consistent with multi-factorial erosion, abrasion and attrition: the diagnosis is made on the pattern of tooth surface loss. Palatal erosion of upper incisors suggests intrinsic acid (gastro-oesophageal reflux or eating disorders); cupped-out lesions on occlusal surfaces suggest intrinsic acid; buccal cervical notching suggests abrasion.",
-          "paragraph": 6544,
-          "source": "Odell's Clinical Problem Solving · paragraph 6544"
-        },
-        {
-          "id": 5,
-          "quote": "Sensitivity is a frequent problem in tooth wear. There may be pulpal involvement in 9–12% of cases. If pulps are exposed, root canal Rx may be indicated.",
-          "paragraph": 3819,
-          "source": "Oxford Handbook · paragraph 3819"
-        },
-        {
-          "id": 6,
-          "quote": "The BEWE is a 4 point scale from 0 to 3, with 1 representing early change, 2 less than 50% and 3 more than 50% of the surface involved. All teeth are examined and the surface with the highest score in a sextant is recorded.",
-          "source": "Delivering Better Oral Health 2021, §Chapter 7: tooth wear — The Basic Erosive Wear Examination (BEWE) index"
-        },
-        {
-          "id": 7,
-          "quote": "A BEWE score of 3 (wear affecting over 50% of a surface) present in every sextant justifies further investigation and multiple level 3 scores indicate severe wear.",
-          "source": "Delivering Better Oral Health 2021, §Chapter 7: tooth wear — The Basic Erosive Wear Examination (BEWE) index"
-        },
-        {
-          "id": 8,
-          "quote": "Unlike demineralisation in dental caries, there is no clear-cut critical pH for dental erosion to occur, because other influences such as a drink's mineral content may moderate its erosive action.",
-          "source": "Delivering Better Oral Health 2021, §Chapter 7: tooth wear — Risk factors"
-        },
-        {
-          "id": 9,
-          "quote": "Professional consensus suggests that tackling intrinsic and extrinsic sources of acid is more important than relying on adjustments relating to toothpastes and toothbrushing.",
-          "source": "Delivering Better Oral Health 2021, §Chapter 7: tooth wear — Risk factor management"
-        },
-        {
-          "id": 10,
-          "quote": "Avoid brushing after vomiting\n\nRinse mouth with water\n\nApply fluoride toothpaste with finger to improve taste in mouth or use fluoride mouthwash",
-          "source": "Delivering Better Oral Health 2021, §Chapter 7: tooth wear — Table 7.1"
-        },
-        {
-          "id": 11,
-          "quote": "Consider the use of specialised pastes containing fluoride or fluoride plus a stannous-based ingredient.",
-          "source": "Delivering Better Oral Health 2021, §Chapter 7: tooth wear — Risk factor management — Toothbrushing"
-        },
-        {
-          "id": 12,
-          "quote": "In the early stages of erosion, direct resin composite restorations will protect the palatal surfaces from further damage. The finite lifespan of such restorations requires the patient's commitment to further treatment, with a median time of 6–7 years before revision becomes necessary.",
-          "paragraph": 6552,
-          "source": "Odell's Clinical Problem Solving · paragraph 6552"
+          "quote": "When the pain started 8 months ago, the carious lesion would have been smaller and the pulpitis reversible. If it had been treated preventively and operatively at that stage by the oral healthcare team, it is high likely that any endodontic treatment would now be required for a necrotic pulp.",
+          "paragraph": 5178,
+          "source": "Odell's Clinical Problem Solving · paragraph 5178"
         },
         {
           "id": 13,
-          "quote": "In patients with localized anterior tooth wear, extra vertical space for restorations can be created by relative axial movement (Dahl technique): the anterior bite plane causes intrusion of anterior teeth and extrusion of posterior teeth, re-establishing the intercuspal position over 3–6 months and creating interocclusal space without tooth preparation.",
-          "paragraph": 6611,
-          "source": "Odell's Clinical Problem Solving · paragraph 6611"
-        },
-        {
-          "id": 14,
-          "quote": "The 2009 national (England, Wales and Northern Ireland) survey of dentate adults found that 2% had severe tooth wear (exposing the pulp or secondary dentine), 15% had moderate wear (exposing a large area of dentine on any surface) and 77% had some wear present.",
-          "source": "Delivering Better Oral Health 2021, §Chapter 7: tooth wear — Tooth wear in the UK"
-        }
-      ]
-    },
-    {
-      "id": "permanent-dentition-007",
-      "description": "Sudden acute pain and rapid facial swelling arising during root canal irrigation, often with haemorrhage from the root canal.",
-      "conditionName": "Sodium hypochlorite accident",
-      "etiology": "Inadvertent extrusion of sodium hypochlorite beyond the apex into the periradicular tissues, or into the oral cavity beyond the rubber dam, causes a chemical burn to vital tissues [1]. The severity depends on the concentration of the solution and the duration of contact: a brief exposure causes a minimal inflammatory response; prolonged or high-concentration exposure produces a more pronounced reaction [2]. Female patients and maxillary posterior teeth appear to be at higher risk [3].",
-      "presentation": "Acute onset pain — commonly sudden — at the time of irrigation. Haemorrhage from the root canal is typical. Swelling develops within minutes to hours and may spread to the face and neck. Additional features include ecchymosis (bruising) of the head and neck region, paraesthesia, trismus, and a taste of irrigant at the back of the throat. If the irrigant enters the maxillary sinus, the patient may have nasal discharge and later acute sinusitis [4].",
-      "results": "Clinical diagnosis based on the timing and circumstances: onset during root canal irrigation is pathognomonic. The affected region shows rapid, diffuse swelling that is disproportionate to the stage of treatment. There are no specific vitality or radiographic thresholds cited for this condition.",
-      "definingCharacteristics": "The defining feature is the temporal relationship: acute pain and swelling beginning during irrigation with sodium hypochlorite. This distinguishes it from a post-operative flare (which develops hours to days later) and from a Phoenix abscess (which develops on a pre-existing periapical lesion without the immediate chemical trigger). The swelling is driven by chemical inflammation rather than bacterial infection, which affects the antibiotic prescribing decision [5].",
-      "treatment": "Immediately irrigate the canal with saline (or water if saline is unavailable) to dilute and wash out remaining hypochlorite and to manage the bleeding [6]. Dress the tooth with calcium hydroxide and a temporary filling; ensure the occlusion is not proud [7]. For analgesia: paracetamol 1000 mg up to four times daily alternating with ibuprofen 400–600 mg up to four times daily [8]. For swelling: NSAIDs, cold compress on the first day, warm compress on subsequent days; steroids may be considered if the swelling is rapid [9]. Prescribe antibiotics to minimise infection risk in the necrotic tissue: amoxicillin 250–500 mg three times daily; if penicillin allergy, metronidazole 200–400 mg [10]. Refer to maxillofacial colleagues if concerned about severity or complexity [11].",
-      "prognosis": "Swelling may not peak until five to seven days after the accident. Most cases resolve within two weeks; cases with more complex injuries can last one to two months [12]. Patients not responding to simple measures must be referred immediately for anti-inflammatory treatment. Long-term nerve damage has been reported in serious cases [13].",
-      "citations": [
-        {
-          "id": 1,
-          "quote": "Inadvertent extrusion of sodium hypochlorite beyond the end of the root into the periradicular tissues or into the oral cavity beyond the confines of the rubber dam can result in an inflammatory response, referred to as a 'sodium hypochlorite accident'.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 2,
-          "quote": "If sodium hypochlorite is allowed to settle on vital tissues, it will result in a chemical burn. If the exposure is short then a minimal inflammatory response will be evoked. If the exposure is more prolonged and/or with a higher concentration solution, a more pronounced inflammatory response will occur.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 3,
-          "quote": "It is reported that female patients and maxillary (upper) posterior teeth appear to be more at risk than other teeth.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 4,
-          "quote": "They may also experience: Taste of the irrigant at the back of the throat (can result in a tickly cough) – if extruded into the maxillary sinus as well as: Irrigant discharge from the nose – and later, acute sinusitis; Bruising (ecchymosis) – head and neck region near the tooth; Paraesthesia – especially lip and cheek.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 5,
-          "quote": "The majority of patients experience the following: Pain – this can be acute and commonly with a sudden onset; Bleeding/haemorrhaging – from the root canal; Swelling – can occur minutes to hours after the accident.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 6,
-          "quote": "Immediately irrigate the canal with saline (use water if saline is not available). This dilutes and washes out the remaining hypochlorite in the canal. It also manages the bleeding which can be diffused at this stage.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 7,
-          "quote": "Dress the tooth with calcium hydroxide and a temporary filling, making sure that the occlusion is not proud, as this may add to the post-operative pain and discomfort.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 8,
-          "quote": "It is usual to advise the patient to take 1000mg paracetamol up to four times a day and 400-600mg ibuprofen up to four times a day, alternating them to provide excellent analgesia.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 9,
-          "quote": "Swelling management – treat mainly with NSAIDs e.g. ibuprofen, cold compress on the first day, hot compress on the following days. Steroids may be considered if the swelling is rapid.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 10,
-          "quote": "Prescribe antibiotics if appropriate to minimise the risk of infection to the necrotic tissue caused by the caustic burn: Amoxicillin 250-500mg three times a day. If allergic to penicillin, then Metronidazole 200-400mg.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 11,
-          "quote": "Referral to maxillo-facial colleagues should be considered if you are concerned.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 12,
-          "quote": "Swelling may not peak until five to seven days afterwards and, although most cases resolve within two weeks of the accident, the cases with more complex injuries can last one to two months.",
-          "source": "BES Guidelines 2022 — Management of Sodium Hypochlorite Accident"
-        },
-        {
-          "id": 13,
-          "quote": "If Hypochlorite is inadvertently injected into the soft tissues the patient is likely to suffer serious and extremely painful consequences. In serious cases there can be long term nerve damage and patients not responding to simple measures must be referred immediately to casualty for anti-inflammatory treatment.",
-          "source": "Leeds Restorative Handbook, §Problems arising during endodontic treatment"
+          "quote": "If in doubt, treat as for reversible pulpitis. Can always institute RCT later; however, be sure to warn the patient of a possible further need for Rx.",
+          "paragraph": 3759,
+          "source": "Oxford Handbook · paragraph 3759"
         }
       ]
     }
