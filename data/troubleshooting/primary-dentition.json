@@ -1,0 +1,434 @@
+{
+  "slug": "primary-dentition",
+  "title": "Primary dentition",
+  "order": 10,
+  "description": "Conditions of the primary teeth in children — from early decay patterns through pulp disease, infection, trauma, and eruption disturbances.",
+  "problems": [
+    {
+      "id": "primary-dentition-001",
+      "description": "Rapid, extensive decay across multiple primary teeth in a very young child, often starting at the upper front teeth.",
+      "conditionName": "Early childhood caries (ECC) / nursing-bottle caries",
+      "prevalence": "very-common",
+      "etiology": "Frequent sugar exposure is the driver. The canonical pattern — nursing-bottle caries — comes from a child falling asleep with a bottle of juice or milk, repeatedly bathing the teeth in a sugar-containing liquid throughout the night [1]. Prolonged on-demand breastfeeding beyond age 2 carries a similar risk [1]. The reason the upper incisors go first is anatomy: they are in direct contact with the pooled liquid, while the mandibular incisors sit under the tongue, sheltered by saliva [1].\n\nThe broader term **early childhood caries (ECC)** covers all rampant caries patterns in young children, including those driven by frequent sugar-containing drinks, sugar-based medication given long-term, and reduced salivary flow [2].",
+      "presentation": "The child is typically 1–4 years old. The parents may present because of visible brown or black destruction of the upper front teeth, or because the child is refusing food or waking at night in pain. Pain may not be reported reliably — anxious children deny symptoms to avoid treatment [3].\n\nWhat you will see:\n\n- **Upper primary incisors**: circumferential destruction, often leaving only root stumps at worst [1].\n- **Lower primary incisors**: characteristically spared in early cases [1].\n- In more severe ECC, the first primary molars are also involved [1].",
+      "results": "- **Visual exam**: cavitated enamel or exposed dentine on the upper incisors, sometimes cervical lesions wrapping around the neck of the tooth — the pattern follows where the fluid pools.\n- **Radiographs**: bitewings show extent of interproximal involvement, though approximal surfaces of spaced primary teeth may be visible directly. Periapicals show inter-radicular radiolucency if pulp death has occurred.\n- **Sensibility testing**: unreliable in primary teeth [4].",
+      "definingCharacteristics": "The distribution is the tell: upper incisors and upper first molars first, mandibular incisors spared. This is the opposite of adult rampant caries and distinct from normal childhood caries, which typically starts in the occlusal pits of the primary molars.\n\nCompare to:\n\n- **Enamel hypoplasia**: affects multiple teeth by shape or colour from the start, not progressive cavitation.\n- **Fluorosis**: symmetric opacities or mottling, not cavitation in a feeding pattern.\n- Nursing-bottle caries can co-exist with normal pit-and-fissure caries once primary molars are also involved [2].",
+      "treatment": "Two parallel tracks: arrest the cause, manage the damage [2].\n\n**Prevention first:**\n\n- Stop bottle use at bedtime; replace with water.\n- Apply sodium fluoride varnish (5%) at least twice a year for all children aged 2 and over; four times a year for children at increased risk [5].\n- Recommend 1350–1500 ppm fluoride toothpaste for children up to 10 years of age [6].\n- Dietary advice: confine sugar-containing foods and drinks to meal times; avoid prolonged sipping [7].\n\n**Restorative management** depends on the extent of damage:\n\n- Small cavitations: Hall Technique crown (no caries removal required), or selective caries removal plus GIC/composite/RMGIC [8].\n- Teeth with high caries risk and intact marginal ridges: Hall crown is the primary tool — it seals in caries rather than excavating it [8].\n- Grossly destroyed primary incisors near natural exfoliation: extraction is often the pragmatic choice. Composite strip crowns can restore incisors if worth preserving [9].\n- Pulpal involvement: see primary-dentition-002 and primary-dentition-003.\n\nIf cooperation fails, refer for treatment under sedation or general anaesthesia [2].",
+      "prognosis": "With early intervention and behaviour change the caries rate slows and lesions can arrest. Arrested carious lesions tend to be hard and dark [10]. Without change, the upper incisors are lost early; this has limited occlusal consequence but can affect speech, appearance, and feeding, and sets a pattern of high disease risk going into the permanent dentition.\n\nThe single strongest predictor of future caries is prior caries experience — a child with ECC is at increased risk for decay in the permanent teeth [11].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Terms used to describe patterns of early childhood caries (ECC) associated with frequent consumption of a sugar-containing drink, especially from a feeding-bottle. Commonly the child falls asleep with the bottle of juice or milk and suckles during the night. Possibly related to the relatively high levels of lactose in breast milk. Characteristically, starts with the maxillary 1° incisors, but in more severe cases the first 1° molars are also involved. The mandibular incisors are relatively protected by the tongue and saliva.",
+          "paragraph": 1517,
+          "source": "Oxford Handbook · paragraph 1517 (nursing-bottle caries)"
+        },
+        {
+          "id": 2,
+          "quote": "Severe ECC may also be associated with the prolonged and frequent intake of sugar-based medications; however, both pharmaceutical companies and doctors are more aware of the problem and the number of alternative sugar-free preparations is i. Recent studies have confirmed that ECC may be associated with prolonged breastfeeding beyond age 2yrs. Children >1yr old who suckle frequently during the night may be most at risk.",
+          "paragraph": 1518,
+          "source": "Oxford Handbook · paragraph 1518 (severe ECC)"
+        },
+        {
+          "id": 3,
+          "quote": "Children are not always reliable in reporting pain, either because they have not yet developed the necessary communication skills or because they wish to avoid dental treatment. For example, an anxious child might not report an exfoliating tooth as painful, until reassured.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Assessing for pain and infection"
+        },
+        {
+          "id": 4,
+          "quote": "Pulp sensibility tests are unreliable in primary teeth and are therefore not recommended.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.5"
+        },
+        {
+          "id": 5,
+          "quote": "For all children aged 2 years and over, apply sodium fluoride varnish at least twice per year. (Strong recommendation; moderate certainty evidence)",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Professionally-delivered interventions, key recommendation"
+        },
+        {
+          "id": 6,
+          "quote": "Recommend the use of 1350-1500 ppm fluoride toothpaste for children up to 10 years of age.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Toothbrushing"
+        },
+        {
+          "id": 7,
+          "quote": "By confining sugar-containing foods and drinks to meal times, the time that teeth are exposed to acid attack is reduced. Therefore 'grazing' sugar-containing foods between meals and sipping soft drinks containing sugar or acid over prolonged periods should be avoided.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Dietary advice"
+        },
+        {
+          "id": 8,
+          "quote": "Based on the available evidence, the principal strategies for managing caries in the primary dentition are: no caries removal, seal with a crown using the Hall Technique; no caries removal and fissure seal; selective caries removal and restoration (i.e. walls prepared to hard dentine with adequate depth for restorative material, previously known as partial caries removal); pulpotomy.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Management of caries in primary teeth, key recommendations"
+        },
+        {
+          "id": 9,
+          "quote": "Cellulose acetate crown forms for 1° incisors. Enable restoration of 1° incisors using composite resin.",
+          "paragraph": 1512,
+          "source": "Oxford Handbook · paragraph 1512 (composite strip crowns)"
+        },
+        {
+          "id": 10,
+          "quote": "Carious lesions that are slowing or arrested tend to be hard to probing and dark in colour. However, some arrested lesions can be light in colour.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Assessing risk of progression"
+        },
+        {
+          "id": 11,
+          "quote": "Amongst the risk factors listed above, previous caries experience (decayed, missing due to caries or filled teeth) appears to be the more reliable predictors of caries risk.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Caries risk assessment"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-002",
+      "description": "Short, sharp pain in a child's back tooth on sweet or cold foods, settling quickly when the trigger is removed. No spontaneous pain.",
+      "conditionName": "Reversible pulpitis in a primary tooth",
+      "prevalence": "common",
+      "etiology": "Inflammation of the pulp triggered by a carious lesion that has reached the dentine but has not yet overwhelmed the pulp. The pulp can still maintain perfusion and recover once the stimulus is removed [1].\n\nThe anatomy of primary molars makes this a narrow window. Enamel in primary teeth is only ~1 mm thick — half that of permanent teeth. The pulp horns are proportionately larger and more accentuated, meaning caries reaches the pulp sooner than in permanent teeth [2]. The thin pulpal floor and accessory canals to the furcation mean the infection can spread to the inter-radicular area rapidly if the lesion is not managed [3].",
+      "presentation": "The child or parent reports brief pain on cold drinks or sweets that goes away quickly. No pain at rest, no pain on biting. The pain may be reported as 'going away by itself' and the parent may not think it is serious.\n\nOn examination: a visible carious lesion, usually in an occlusal or proximal surface. The marginal ridge may still be intact in early cases; if the marginal ridge is broken down, pulpal involvement becomes more likely [4].",
+      "results": "- **Sensibility testing**: unreliable in primary teeth [5].\n- **Percussion**: negative or equivocal.\n- **Mobility**: within normal range for the child's age.\n- **Radiograph**: dentinal caries visible, no periapical or inter-radicular radiolucency. No widening of the PDL space.",
+      "definingCharacteristics": "The question is: **reversible or irreversible?** Oxford's rule: fleeting pain on hot/cold/sweet = reversible; longer-lasting or spontaneous pain = irreversible [6].\n\nIn primary teeth the distinction matters for treatment choice — reversible pulpitis can be managed with indirect pulp therapy or sealing, without entering the pulp. Irreversible pulpitis requires pulpotomy or extraction.\n\nUnlike in permanent teeth, the clinical signs are less reliable guides. The pulp state can be difficult to diagnose: one root canal may have died while another remains vital [7], and children's pain reporting is less precise [7].",
+      "treatment": "Aim: seal the caries off from the pulp and reassess.\n\n- **Indirect pulp therapy**: for asymptomatic or mildly symptomatic vital primary molars with no pulp exposure after caries removal. Leave firm, affected dentine in the deepest part; restore with GIC/composite or SS crown [8].\n- **Hall Technique**: seal the carious lesion under a stainless steel crown without caries removal. Suitable for occlusal and approximal lesions [9].\n- If in doubt after temporizing: place a temporary dressing, review 3–7 days later. Resolution of symptoms confirms reversible pulpitis and a definitive restoration can proceed [10].\n- **Avoid operative intervention until the child can cooperate**. Minimally invasive approaches reduce the risk of treatment-induced anxiety [9].",
+      "prognosis": "Remove the stimulus and seal the cavity: the pulp typically settles. If the carious process is not controlled, reversible pulpitis progresses to irreversible pulpitis and then to pulp death — the continuum is driven by unmanaged bacterial ingress [1]. Early management is the safest route to a tooth that exfoliates naturally.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The most common reason for children to experience dental pain is pulpal pathology as a consequence of dental caries. The immune system allows vital dental pulps to cope with some bacterial ingress from a carious lesion through the triggering of an inflammatory response in the region of the pulp closest to the lesion. However, if a progressing carious lesion is not managed, then over time the increasing bacterial infection causes a more extensive and severe inflammatory response in the dental pulp.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Causes of dental pain or infection"
+        },
+        {
+          "id": 2,
+          "quote": "Enamel in 1° teeth is ~1mm thick, which is half that of 2° teeth. The pulp chamber in 1° teeth is proportionately larger, with more accentuated pulp horns. These features mean that caries will affect the pulp sooner and there is a greater likelihood of pulp exposure during cavity preparation.",
+          "paragraph": 1314,
+          "source": "Oxford Handbook · paragraphs 1314–1316 (anatomy of primary teeth)"
+        },
+        {
+          "id": 3,
+          "quote": "Thin pulpal floor and accessory canals. This may explain the greater incidence of inter-radicular involvement following pulp death.",
+          "paragraph": 1332,
+          "source": "Oxford Handbook · paragraph 1332 (thin pulpal floor and accessory canals)"
+        },
+        {
+          "id": 4,
+          "quote": "In 1° molars destruction of the marginal ridge indicates a high probability of pulpal involvement.",
+          "paragraph": 1350,
+          "source": "Oxford Handbook · paragraph 1350"
+        },
+        {
+          "id": 5,
+          "quote": "Pulp sensibility tests are unreliable in primary teeth and are therefore not recommended.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.5"
+        },
+        {
+          "id": 6,
+          "quote": "Fleeting pain on hot/cold/sweet stimuli = reversible pulpitis. Longer-lasting pain on hot/cold/sweet stimuli &/or spontaneous pain with no initiating factor (? child kept awake) but no mobility, not tender to percussion (TTP) = irreversible pulpitis.",
+          "paragraph": 1127,
+          "source": "Oxford Handbook · paragraph 1127 (diagnosis of pulpal states in children)"
+        },
+        {
+          "id": 7,
+          "quote": "The ∆ of the state of the pulp can be difficult, as not only is a child's perception of pain less precise than an adult's, but the clinical picture may also be complicated by death of one root canal while the other(s) remain vital.",
+          "paragraph": 1531,
+          "source": "Oxford Handbook · paragraph 1531"
+        },
+        {
+          "id": 8,
+          "quote": "Indicated for asymptomatic, vital 1° molars with no pulp exposure after removal of all soft caries. Leaving carious, but firm, affected dentine in vital, asymptomatic 1° molars has been shown to be reasonably successful.",
+          "paragraph": 1544,
+          "source": "Oxford Handbook · paragraphs 1544–1546 (indirect pulp Rx)"
+        },
+        {
+          "id": 9,
+          "quote": "For a child with a carious lesion in a primary tooth, choose the least invasive, feasible caries management strategy, taking into account: the time to exfoliation, the site and extent of the lesion, the risk of pain or infection, the absence or presence of infection, preservation of tooth structure, the number of teeth affected, avoidance of treatment-induced anxiety. (Strong recommendation; low certainty evidence)",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Management of caries in primary teeth, key recommendation"
+        },
+        {
+          "id": 10,
+          "quote": "For both primary and permanent teeth, where there are symptoms of pain that may be due to food packing or pulpitis with reversible symptoms but the diagnosis is uncertain, place a temporary dressing and review the patient 3-7 days later to check symptoms. Resolution of the symptoms at review will indicate that the pulpitis was reversible and a suitable restoration or crown can be placed.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Managing dental pain or infection"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-003",
+      "description": "Spontaneous or persistent toothache in a child's back tooth, often keeping them awake. No clear trigger, or pain that lingers long after a cold stimulus.",
+      "conditionName": "Irreversible pulpitis in a primary tooth",
+      "prevalence": "common",
+      "etiology": "Bacterial infection has progressed beyond what the pulp's blood supply can contain. The inflammatory response escalates, pressure builds within the pulp chamber — bounded by rigid dentine walls — and eventually the circulatory system can no longer perfuse the tissue [1]. The transition from reversible to irreversible is a continuum, not a sharp step [1].\n\nThe anatomy of primary teeth accelerates this process: enamel is only ~1 mm thick, pulp horns are large and close to the surface [2], and the thin accessory canals at the furcation mean infection escapes to the inter-radicular bone early [3].",
+      "presentation": "The parent reports the child is waking at night in pain, or refusing meals. The child may hold the cheek on the affected side or refuse to bite on that side.\n\nWhat you will see:\n\n- A large carious lesion, often with marginal ridge breakdown [4].\n- Tooth may or may not be tender to gentle percussion.\n- No swelling or sinus at this stage (that would indicate abscess progression).\n- Child's pain report: longer-lasting pain on hot/cold stimulus, or spontaneous pain with no initiating factor [5].",
+      "results": "- **Sensibility testing**: unreliable in primary teeth [6].\n- **Percussion**: may be positive but often equivocal.\n- **Mobility**: normal unless the furcation is also involved.\n- **Radiograph**: may show no inter-radicular radiolucency yet, or an early ill-defined radiolucency at the furcation. No clear periapical lucency if the pulp is not yet fully necrotic. Bitewings show extent of caries; if no clear separation between the caries and the pulp canal is visible, pulpotomy should be considered [7].",
+      "definingCharacteristics": "Unlike reversible pulpitis, the pain does not settle quickly and often has a spontaneous element [5]. Unlike a periapical abscess, there is no swelling, sinus, or frank mobility from periradicular bone destruction.\n\nThe three stages — reversible pulpitis → irreversible pulpitis → abscess — are on a continuum. Clinicians must decide which stage applies, using clinical judgement rather than a clean diagnostic threshold [1]. For multi-rooted primary molars, individual root canals can be at different stages simultaneously [8].",
+      "treatment": "**Pulpotomy** is the treatment of choice for a cooperative child where the pulp can still be maintained radicular to the chamber floor [9]:\n\n- Give LA and place rubber dam.\n- Complete cavity preparation and remove caries.\n- Remove roof of pulp chamber; amputate coronal pulp with a large excavator or sterile round bur.\n- Wash chamber and arrest bleeding with damp cotton wool.\n- Place cotton wool pledget dampened with **15.5% ferric sulfate** on exposed pulp stumps for at least 1 minute, then remove. Alternatively place CaOH or MTA over root stumps once bleeding is arrested [10].\n- Apply ZOE cement dressing.\n- Restore with a stainless steel crown (SS crown gives superior longevity over plastic restorations) [10].\n\nIf the child is uncooperative: extraction, or temporary dressing and review [9]. If pulpotomy is not feasible and the tooth cannot be extracted due to bleeding disorders or other medical reasons, refer for specialist assessment [11].",
+      "prognosis": "Pulpotomy with ferric sulfate: success rate 70–90% [12]. Formocresol historically similar but no longer first choice. With successful pulpotomy, the tooth is kept until natural exfoliation.\n\nWithout treatment, irreversible pulpitis progresses to pulp necrosis and periapical/inter-radicular infection. A non-vital tooth with inter-radicular radiolucency is managed by pulpectomy or extraction — pulpotomy is no longer appropriate at that stage [13].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Eventually, the bacterial infection and the associated increase in tissue pressure overwhelms the ability of the circulatory system to keep the pulp perfused, which will then transition from being vital (perfused), to non-vital and necrotic (no perfusion). Clinically, it is useful to divide this process into three stages: pulpitis with reversible symptoms, pulpitis with irreversible symptoms and dental abscess/periradicular periodontitis. However, these do not refer to discrete, well separated stages of pathology, but are on a continuum of unmanaged pulpal disease.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Causes of dental pain or infection"
+        },
+        {
+          "id": 2,
+          "quote": "Enamel in 1° teeth is ~1mm thick, which is half that of 2° teeth. The pulp chamber in 1° teeth is proportionately larger, with more accentuated pulp horns. These features mean that caries will affect the pulp sooner and there is a greater likelihood of pulp exposure during cavity preparation.",
+          "paragraph": 1314,
+          "source": "Oxford Handbook · paragraphs 1314–1316 (anatomy of primary teeth)"
+        },
+        {
+          "id": 3,
+          "quote": "Thin pulpal floor and accessory canals. This may explain the greater incidence of inter-radicular involvement following pulp death.",
+          "paragraph": 1332,
+          "source": "Oxford Handbook · paragraph 1332"
+        },
+        {
+          "id": 4,
+          "quote": "In 1° molars destruction of the marginal ridge indicates a high probability of pulpal involvement.",
+          "paragraph": 1350,
+          "source": "Oxford Handbook · paragraph 1350"
+        },
+        {
+          "id": 5,
+          "quote": "Longer-lasting pain on hot/cold/sweet stimuli &/or spontaneous pain with no initiating factor (? child kept awake) but no mobility, not tender to percussion (TTP) = irreversible pulpitis.",
+          "paragraph": 1127,
+          "source": "Oxford Handbook · paragraph 1127"
+        },
+        {
+          "id": 6,
+          "quote": "Pulp sensibility tests are unreliable in primary teeth and are therefore not recommended.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.5"
+        },
+        {
+          "id": 7,
+          "quote": "For primary molars, where a radiograph shows no clear separation between the carious lesion and the dental pulp, consider carrying out a pulpotomy.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Managing dental pain or infection"
+        },
+        {
+          "id": 8,
+          "quote": "The ∆ of the state of the pulp can be difficult, as not only is a child's perception of pain less precise than an adult's, but the clinical picture may also be complicated by death of one root canal while the other(s) remain vital.",
+          "paragraph": 1531,
+          "source": "Oxford Handbook · paragraph 1531"
+        },
+        {
+          "id": 9,
+          "quote": "For a child in pain due to pulpitis in a vital primary tooth with irreversible symptoms and no evidence of dental abscess, consider carrying out a pulpotomy to preserve the tooth and to avoid the need for an extraction. (Conditional recommendation; moderate certainty evidence)",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Primary tooth pain or infection, key recommendation"
+        },
+        {
+          "id": 10,
+          "quote": "Place cotton wool pledget dampened with 15.5% ferric sulfate on exposed pulp stumps for at least 1min, then remove. Alternatively, once bleeding arrested, place CaOH or MTA over root stumps. Apply dressing of reinforced zinc oxide eugenol (ZOE) cement. Restore tooth, usually with a stainless steel crown.",
+          "paragraph": 1563,
+          "source": "Oxford Handbook · paragraphs 1563–1565 (pulpotomy technique)"
+        },
+        {
+          "id": 11,
+          "quote": "Any medical condition where a focus of infection is potentially dangerous is a C/I to pulp therapy. Pulp therapy may be preferable to extraction in children with bleeding disorders.",
+          "paragraph": 1528,
+          "source": "Oxford Handbook · paragraphs 1528–1529 (indications and contraindications for pulp therapy)"
+        },
+        {
+          "id": 12,
+          "quote": "Formocresol—historically widely used for 1° teeth pulpotomy, because of its ease of use and high success rate (70–90%). Ferric sulfate—the technique recommended by many authorities as an alternative to formocresol. Success rates have been shown to nearly match formocresol.",
+          "paragraph": 1551,
+          "source": "Oxford Handbook · paragraphs 1551–1552 (pulpotomy materials)"
+        },
+        {
+          "id": 13,
+          "quote": "Necrotic pulp (i.e. no bleeding)—proceed with non-vital technique or extract.",
+          "paragraph": 1569,
+          "source": "Oxford Handbook · paragraph 1569 (pulpotomy problems)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-004",
+      "description": "A small blister or pimple on the gum above or below a child's back tooth, sometimes with facial swelling. The child may or may not report pain.",
+      "conditionName": "Dentoalveolar abscess from a primary tooth",
+      "prevalence": "common",
+      "etiology": "Pulp necrosis allows bacteria to proliferate in the root canal system. The bacteria and their products diffuse through the radicular foramina, causing inflammation of the periodontal ligament [1]. Because primary molar roots are flared to straddle the developing premolar, and the pulpal floor has accessory canals opening to the furcation, infection typically tracks inter-radicularly rather than periapically — a characteristic pattern unique to primary molars [2].\n\nThis is almost always a consequence of unmanaged caries. The continuum from caries through pulpitis to necrosis and abscess can occur silently: it is possible for the pulp to become completely necrotic without any symptoms the child reports [3].",
+      "presentation": "The parent brings the child because they noticed 'a spot on the gum' or 'a swelling on the face'. The child may have no pain if the abscess is chronic and draining, or acute severe pain with facial swelling if it is not.\n\nWhat you will see:\n\n- A sinus (parulis) on the non-attached mucosa adjacent to the attached gingiva, often buccal to the affected tooth [4].\n- A slight cleft or notch in the adjacent gingival margin may be present [4].\n- Alveolar swelling or tenderness on palpation adjacent to the tooth.\n- Non-physiological mobility when the tooth is gently rocked bucco-lingually with tweezers placed on the occlusal surface [4].\n- Facial swelling in acute cases.\n- A large carious tooth, often deeply broken down.",
+      "results": "- **Percussion**: tender, but may be equivocal in young children.\n- **Mobility**: increased, non-physiological (compare with the healthy contralateral tooth) [4].\n- **Radiograph**: inter-radicular radiolucency is the characteristic sign — a radiolucency in the furcation area of a primary molar, visible on bitewing or periapical films [4, 2]. Periapical radiolucency less common than inter-radicular in primary molars.\n- **Sinus probing**: a gutta-percha point placed into the sinus and radiographed will trace back to the infected tooth.",
+      "definingCharacteristics": "The key distinguishing feature of primary molar abscess is the **inter-radicular radiolucency**, not periapical — because infection tracks through the thin pulpal floor and accessory furcation canals rather than down the root to the apex [2].\n\nCompare to:\n\n- **Non-physiological mobility from exfoliation**: the permanent successor is visible radiographically, root resorption is advancing, no inter-radicular radiolucency.\n- **Periodontal abscess**: uncommon in primary dentition; would show pocket formation rather than inter-radicular bone loss.\n- **Infection after trauma**: history of trauma rather than caries, may involve upper incisors.",
+      "treatment": "Dental infection must not be left untreated [5].\n\n**Primary teeth with abscess:**\n\n- **Extraction** is usually the best option and the most straightforward in primary care [6].\n- In certain circumstances, **referral for pulpectomy** is appropriate — particularly when the tooth is important for space maintenance, the child has a bleeding disorder, or is otherwise medically complex [6].\n\n**Pulpectomy technique** (if retained tooth is justified):\n\n- LA and rubber dam; remove necrotic pulp; locate, file, and irrigate canals (sodium hypochlorite 0.1%) [7].\n- Cleanse to within 2–3 mm of the apex; do not extend beyond.\n- Fill with plain ZOE paste, non-setting calcium hydroxide, or iodoform paste (e.g. Vitapex®) — a resorbable material is essential so the filling resorbs with the root [7].\n- Restore with SS crown. Arrange clinical and radiographic review [7].\n\n**Antibiotics**: not recommended unless there are signs of spreading infection or systemic involvement [5]. It is unacceptable to use antibiotics as a substitute for definitive treatment.\n\nIf the child is pre-cooperative or infection becomes symptomatic acutely and the child cannot tolerate treatment: consider referral for sedation or GA [5].",
+      "prognosis": "Extraction: predictably resolves the infection. The space consequence depends on which tooth and the child's age — early loss of a first primary molar or canine in a crowded case can cause space loss and centre-line shift [8].\n\nSuccessful pulpectomy: success rate >80% at 3 years [9]. An important advantage is space maintenance for the permanent successor.\n\nIn >50% of children under 4 years of age, trauma or infection of a primary incisor can affect the developing permanent successor [10]; similarly, inter-radicular infection spreading to the underlying premolar crypt is a known risk of prolonged abscesses in primary molars.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Bacteria can then thrive within the necrotic pulpal remnants, and the diffusion of these bacteria and their products through the radicular foramina causes inflammation of the periodontal ligament (hence these teeth becoming tender to percussion and mobile), and a dental abscess.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Causes of dental pain or infection"
+        },
+        {
+          "id": 2,
+          "quote": "Thin pulpal floor and accessory canals. This may explain the greater incidence of inter-radicular involvement following pulp death.",
+          "paragraph": 1332,
+          "source": "Oxford Handbook · paragraph 1332"
+        },
+        {
+          "id": 3,
+          "quote": "It is possible for pulpal disease to progress from mild inflammation to complete pulpal necrosis without any obvious signs, and without the child reporting symptoms.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Causes of dental pain or infection"
+        },
+        {
+          "id": 4,
+          "quote": "Dental abscess/infection can be difficult to diagnose because the clinical presentation can vary. Sinuses, if present, are not always obvious, but they are usually located on the non-attached mucosa adjacent to the attached mucosa. A slight cleft or notch may also be seen in the adjacent gingival margin. Look for the following indicators of established dental infection: tenderness to percussion in a non-exfoliating tooth; alveolar tenderness, sinus or swelling; non-physiological mobility (compared with the healthy contralateral tooth) when the tooth is gently rocked bucco-lingually with the points of a pair of tweezers placed on the occlusal surface; radiographic signs including inter-radicular radiolucency.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Assessing for dental abscess/infection in primary teeth"
+        },
+        {
+          "id": 5,
+          "quote": "Do not leave dental infection untreated. Antibiotics are not recommended unless there are signs of spreading infection or systemic symptoms.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Managing dental pain or infection"
+        },
+        {
+          "id": 6,
+          "quote": "Manage a primary tooth which is associated with infection (signs or symptoms of abscess, sinus, inter-radicular radiolucency, non-physiological mobility) either by extraction or, in certain circumstances consider referral for pulpectomy.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Management of caries in primary teeth"
+        },
+        {
+          "id": 7,
+          "quote": "Remove the necrotic pulp, locate and file and irrigate canals (sodium hypochlorite 0.1%). Cleanse to within 2–3mm of apex, but avoid extending beyond. Fill canal with plain ZOE paste, non-setting calcium hydroxide, or iodoform paste (e.g. Vitapex®) with a spiral filler. Restore with SS crown. Arrange clinical and radiographic review.",
+          "paragraph": 1574,
+          "source": "Oxford Handbook · paragraphs 1574–1578 (pulpectomy technique)"
+        },
+        {
+          "id": 8,
+          "quote": "Although early loss of 1° incisors will have little effect, extraction of C, D, or E will, in a crowded case, lead to localization of the crowding.",
+          "paragraph": 1352,
+          "source": "Oxford Handbook · paragraph 1352"
+        },
+        {
+          "id": 9,
+          "quote": "A success rate of >80% at 3yrs has been reported.",
+          "paragraph": 1581,
+          "source": "Oxford Handbook · paragraph 1581 (pulpectomy success rate)"
+        },
+        {
+          "id": 10,
+          "quote": "In >50% of children <4yrs, trauma to a 1° tooth affects the underlying developing successor. The effect depends upon stage of development, type of injury and severity, Rx, and pulpal sequelae. Trauma can cause hypomineralization, hypoplasia, dilaceration, severe malformation, and arrest of development.",
+          "paragraph": 1686,
+          "source": "Oxford Handbook · paragraph 1686"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-005",
+      "description": "A toddler's front tooth has been pushed up into the gum after a fall — it has almost or completely disappeared into the socket.",
+      "conditionName": "Intrusive luxation of a primary incisor",
+      "prevalence": "common",
+      "etiology": "Primary incisor intrusion is the most common traumatic dental injury in young children — intrusion accounts for over 60% of primary tooth injuries [1]. The mechanism is a direct axial force on the crown, usually from a fall at toddler age when children are learning to walk and run. The force drives the tooth into the alveolus.\n\nAlveolar bone is more elastic in young children, meaning less fracture and more luxation on impact [2]. The root of the primary incisor has a close spatial relationship to the underlying permanent incisor tooth germ, so the direction of displacement determines whether the permanent successor is at risk [3].",
+      "presentation": "The parent arrives acutely after a witnessed fall. The upper front tooth (usually a central or lateral incisor) is not visible or appears shorter than usual. The gingiva around it looks bruised or swollen. There may be associated lip laceration.\n\nThe tooth can usually be palpated labially as a hard ridge beneath the mucosa [4]. The child may be distressed; careful knee-to-knee examination is helpful [5].",
+      "results": "- **Radiograph (essential)**: a periapical or occlusal view is taken to determine the direction of displacement.\n  - If the apex is displaced toward the **labial bone plate**: the image of the tooth appears foreshortened and the apical tip is visible [4].\n  - If the apex is displaced **toward the permanent tooth germ**: the image appears elongated (the root has moved palatal-apically) [4].\n- **Sensibility testing**: unreliable in primary teeth; not recommended [6].\n- Note tooth colour and mobility at this visit and each follow-up: crown discoloration is a common subsequent complication [7].",
+      "definingCharacteristics": "Intrusion is distinct from avulsion (tooth completely out of the socket) and from subluxation (mobile but not displaced).\n\nThe direction-of-displacement question is clinically critical: intrusion toward the labial bone plate is more favourable for the permanent tooth than intrusion driving the primary apex into the tooth germ. The 2020 IADT guidelines no longer recommend immediate extraction based on displacement direction alone — evidence supports waiting for spontaneous re-eruption [3].\n\nUnlike permanent tooth intrusion (where active repositioning is advised based on apex status and depth), in primary teeth the first-line management is **observation** in most cases [3, 8].",
+      "treatment": "The IADT 2020 position [3, 8]:\n\n- Allow the tooth to **spontaneously reposition itself**, irrespective of the direction of displacement.\n- Spontaneous improvement usually occurs within 6 months; in some cases up to 1 year [8].\n- Arrange **rapid referral within a couple of days** to a child-oriented team with experience in paediatric dental injuries.\n- Extraction is indicated if: the tooth fails to re-erupt within the expected window, or signs of infection develop (sinus, swelling, inter-radicular radiolucency on X-ray).\n\n**Homecare instructions** for parents [9]:\n\n- Soft diet; encourage return to normal function as soon as possible.\n- Clean the area with a soft brush and alcohol-free chlorhexidine gluconate 0.1–0.2% mouth rinse topically twice daily for 1 week.\n- Watch for warning signs: gingival swelling, sinus tract, or persistent dark discoloration of the crown.\n\nPulpal necrosis often follows intrusive luxation of primary teeth — if it occurs, either RCT or extraction is needed [1].",
+      "prognosis": "If the tooth re-erupts without developing infection: favourable. Many teeth regain near-normal position. A transient red/grey or yellow discoloration may occur; yellow discoloration suggests pulp canal obliteration — no treatment required if the tooth is asymptomatic [7].\n\nPersistent dark grey discoloration with any sign of infection — sinus, swelling, radiographic lucency — indicates pulp necrosis; treat or extract [7].\n\nDamage to the permanent successor is the major long-term risk. Intrusion and avulsion injuries are most commonly associated with developmental anomalies in the permanent dentition [3]. Parents must be warned of this risk at the first visit [3].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Most common injury (>60%). Unfortunately, pulpal necrosis often follows, necessitating either pulp Rx or extraction.",
+          "paragraph": 1669,
+          "source": "Oxford Handbook · paragraph 1669 (intrusion of primary incisor)"
+        },
+        {
+          "id": 2,
+          "quote": "About 30–40% of 5yr-olds have experienced dental trauma, most frequently at toddler stage. As alveolar bone is more elastic the younger the child, the most common injuries are luxation or avulsion. Crown and root # are relatively rare.",
+          "paragraph": 1658,
+          "source": "Oxford Handbook · paragraph 1658"
+        },
+        {
+          "id": 3,
+          "quote": "There is a close spatial relationship between the apex of the primary tooth root and the underlying permanent tooth germ. Intrusion and avulsion injuries are most commonly associated with the development of anomalies in the permanent dentition. For intrusive and lateral luxation injuries, previous Guidelines have recommended the immediate extraction of the traumatized primary tooth if the direction of displacement of the root is toward the permanent tooth germ. This action is no longer advised due to (a) evidence of spontaneous re-eruption for intruded primary teeth.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.8"
+        },
+        {
+          "id": 4,
+          "quote": "The tooth has almost or completely disappeared into the socket and can be palpated labially. When the apex is displaced toward or through the labial bone plate, the apical tip can be seen and the image of the tooth will appear shorter (foreshortened) than the contralateral tooth. When the apex is displaced toward the permanent tooth germ, the apical tip cannot be visualized and the image of the tooth will appear elongated.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, Table 11 (intrusive luxation)"
+        },
+        {
+          "id": 5,
+          "quote": "At this young age, the child may resist co-operating for an extensive examination, radiographs, and treatment. Knee-to-knee examination can be helpful in examining a young child.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.1"
+        },
+        {
+          "id": 6,
+          "quote": "Pulp sensibility tests are unreliable in primary teeth and are therefore not recommended.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.5"
+        },
+        {
+          "id": 7,
+          "quote": "The color of injured and uninjured teeth should be recorded at each clinic visit. Discoloration is a common complication following luxation injuries. Teeth with persistent dark discoloration may remain asymptomatic clinically and radiographically normal, or they may develop apical periodontitis (with or without symptoms). Root canal treatment is not indicated for discolored teeth unless there are clinical or radiographic signs of infection of the root canal system.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.5"
+        },
+        {
+          "id": 8,
+          "quote": "The tooth should be allowed to spontaneously reposition itself, irrespective of the direction of displacement. Spontaneous improvement in the position of the intruded tooth usually occurs within 6 mo. In some cases, it can take up to 1 y.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, Table 11 (intrusive luxation — treatment)"
+        },
+        {
+          "id": 9,
+          "quote": "To encourage gingival healing and prevent plaque accumulation, parents should clean the affected area with a soft brush or cotton swab combined with an alcohol-free 0.1%-0.2% chlorhexidine gluconate mouth rinse applied topically twice a day for 1 wk.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.12"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-006",
+      "description": "A primary tooth has been completely knocked out of its socket after a fall — the child's parent is asking whether to put it back.",
+      "conditionName": "Avulsion of a primary tooth",
+      "prevalence": "uncommon",
+      "etiology": "Avulsion (complete displacement of a tooth from its socket) results from a traumatic impact strong enough to tear the periodontal ligament entirely. It is less common than intrusion in primary teeth; the elastic alveolar bone of young children tends to yield to luxation rather than complete avulsion [1].\n\nThe immediate clinical concern is twofold: the tooth itself, and what the avulsion means for the developing permanent tooth germ lying in close proximity to the root apex [2].",
+      "presentation": "Parent presents with a child who has lost a front tooth acutely. They often bring the tooth and want to know if it can be replanted. The socket is visible, empty, and bleeding. There may be associated soft tissue injuries to the lip, gingivae, or frenulum.\n\nIf the tooth is not found: the child must be referred for medical evaluation including chest X-ray to exclude aspiration — this applies particularly if the accident was unwitnessed or there are respiratory symptoms [3].",
+      "results": "- **Radiograph (essential when tooth not brought to clinic)**: to confirm the tooth has not been intruded rather than avulsed. The radiograph also provides a baseline for assessing the developing permanent tooth germ [3].\n- **Clinical examination**: empty socket, assessment of soft tissue injuries, any other teeth displaced or fractured.",
+      "definingCharacteristics": "The defining management difference from permanent tooth avulsion: **do not replant a primary tooth** [3, 4].\n\nThe reasons:\n\n- Replantation of a primary tooth risks further damage to the underlying permanent tooth germ during the procedure itself [4].\n- It requires splinting, multiple appointments, and root canal treatment — a significant treatment burden for a very young child [4].\n- The most important safety reason: risk of aspiration during replantation in a young, uncooperative child [4].\n\nThis is the sharpest primary vs. permanent distinction in paediatric trauma — the IADT guidelines are explicit. Replantation is the gold standard for permanent teeth but is **contraindicated** for primary teeth.",
+      "treatment": "- **Do not replant** the avulsed primary tooth [3, 4].\n- **Reassure** the parents that the permanent tooth will still erupt in due course.\n- Provide homecare instructions: soft diet; clean the area with alcohol-free chlorhexidine gluconate 0.12% mouth rinse on a soft brush or cotton swab twice daily for 1 week [5].\n- **Clinical review at 6–8 weeks** to monitor healing and assess for any injury to the permanent successor [3].\n- **Follow up at 6 years of age** (or whenever permanent incisors are expected to erupt) to monitor eruption of the permanent tooth [3].\n- Document: inform parents in writing of the risk of developmental anomalies in the permanent successor [2].",
+      "prognosis": "The socket heals. The permanent incisor will usually erupt normally, but avulsion — like intrusion — is most commonly associated with developmental anomalies in the permanent dentition [2]. The spectrum of possible effects on the permanent tooth includes: hypomineralisation, hypoplasia, dilaceration, severe malformation, and arrest of development [6].\n\nParents must be warned of this risk, and follow-up arranged until the permanent successor has erupted.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "As alveolar bone is more elastic the younger the child, the most common injuries are luxation or avulsion. Crown and root # are relatively rare.",
+          "paragraph": 1658,
+          "source": "Oxford Handbook · paragraph 1658"
+        },
+        {
+          "id": 2,
+          "quote": "There is a close spatial relationship between the apex of the primary tooth root and the underlying permanent tooth germ. Intrusion and avulsion injuries are most commonly associated with the development of anomalies in the permanent dentition. It is very important to document that parents have been informed about possible complications to the development of the permanent teeth, especially following intrusion, avulsion, and alveolar fractures.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.8"
+        },
+        {
+          "id": 3,
+          "quote": "Avulsed primary teeth should not be replanted. A periapical or occlusal radiograph is essential where the primary tooth is not brought into the clinic to ensure that the missing tooth has not been intruded. The radiograph will also provide a baseline for assessment of the developing permanent tooth and to determine whether it has been displaced. Clinical examination after 6-8 wk. Further follow up at 6 y of age is indicated to monitor eruption of the permanent tooth.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, Table 12 (avulsion)"
+        },
+        {
+          "id": 4,
+          "quote": "An avulsed primary tooth should not be replanted. Reasons include a significant treatment burden (including replantation, splint placement and removal, root canal treatment) for a young child as well as the potential of causing further damage to the permanent tooth or to its eruption. However, the most important reason is to avoid a medical emergency resulting from aspiration of the tooth.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.10"
+        },
+        {
+          "id": 5,
+          "quote": "To encourage gingival healing and prevent plaque accumulation, parents should clean the affected area with a soft brush or cotton swab combined with an alcohol-free 0.1%-0.2% chlorhexidine gluconate mouth rinse applied topically twice a day for 1 wk.",
+          "source": "IADT Guidelines — Injuries in the primary dentition, §1.12"
+        },
+        {
+          "id": 6,
+          "quote": "In >50% of children <4yrs, trauma to a 1° tooth affects the underlying developing successor. The effect depends upon stage of development, type of injury and severity, Rx, and pulpal sequelae. Trauma can cause hypomineralization, hypoplasia (likelihood ↑ if <4yrs &/or injury more severe), dilaceration, severe malformation, and arrest of development.",
+          "paragraph": 1686,
+          "source": "Oxford Handbook · paragraph 1686"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-007",
+      "description": "A primary molar sits visibly lower than the teeth on either side, below the occlusal plane, sometimes appearing to be slowly 'sinking' into the gum.",
+      "conditionName": "Infraoccluded (ankylosed) primary molar",
+      "prevalence": "uncommon",
+      "etiology": "Ankylosis of a primary molar results from disruption of the normal resorptive–repair cycle during exfoliation — the root becomes fused to the alveolar bone, losing its periodontal ligament space at that point [1]. The tooth cannot migrate occlusally with the growing alveolus, so it appears to sink as the adjacent teeth continue erupting.\n\nThe condition is often self-correcting when a permanent successor is erupting normally — the successor's eruption force contributes to root resorption and eventually the ankylosed tooth exfoliates [1].",
+      "presentation": "The parent may notice the child's tooth looks shorter than the others, or the child may have reported food packing in the gap. Often found incidentally on clinical exam or radiograph.\n\nWhat you will see:\n\n- The primary molar sits below the occlusal level of adjacent teeth [1].\n- Adjacent teeth may be tipping into the space.\n- A hard, hollow percussion note ('dull thud') compared with adjacent teeth — the ankylosis replaces the PDL's shock-absorbing properties. This is clinically distinct from the normal percussion note.\n- No mobility (ankylosed tooth).",
+      "results": "- **Radiograph**: loss of the normal PDL space at the site of ankylosis; the tooth appears fused to the alveolar bone at that point.\n- Look for: the position and development of the permanent premolar successor. If the premolar is missing or ectopic, or the molar is sinking below contact with adjacent teeth, active management is indicated [1].",
+      "definingCharacteristics": "The infraoccluded primary molar is usually self-correcting when the permanent successor is present and in a good position. The intervention threshold is [1]:\n\n- Permanent successor is **missing or ectopic** (no eruption force to resorb the root).\n- The molar is sinking **below the contact area** with adjacent teeth (space loss becoming a clinical problem).\n- The molar is **approaching or below the gingival level** (the tooth is 'disappearing').\n\nThe reason for concern when the premolar is absent: an ankylosed tooth without a successor will sit in bone indefinitely as a submerged unit, potentially causing the adjacent teeth to tip significantly and complicate later prosthetic or orthodontic treatment.",
+      "treatment": "- If the permanent successor is present and not ectopic, and the tooth is not sinking below contact: **observe and monitor carefully** [1].\n- If any of the intervention criteria are met: **extract the ankylosed tooth**. Any resulting space loss is dealt with as part of the overall orthodontic plan [1].\n- If in doubt: **specialist opinion** [1].",
+      "prognosis": "When the premolar is present: the ankylosed molar usually exfoliates at the expected time, albeit with variable amounts of tipping of adjacent teeth. Space loss is the main sequela to manage.\n\nWhen the premolar is absent: the ankylosed molar may persist indefinitely; the adjacent teeth tip progressively into the space. Early extraction and space management is preferred to late discovery of a severely tipped arch.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "These occur where the 1° molar has failed to maintain its position relevant to the adjacent teeth in the developing dentition and is therefore below the occlusal level of adjacent teeth. Often due to ankylosis 2° to disruption in normal resorptive/repair cycle of exfoliation. This is usually self-correcting (if the permanent successor is present and not ectopic) and the affected tooth is exfoliated at the normal time. However, where the premolar is missing or ectopic, where the infraoccluded molar moves below the contact of adjacent teeth, or appears in danger of disappearing below the gingival level, extraction may be indicated (monitor carefully and if in doubt get a specialist opinion).",
+          "paragraph": 1160,
+          "source": "Oxford Handbook · paragraph 1160 (infraoccluded/ankylosed primary molars)"
+        }
+      ]
+    }
+  ]
+}
