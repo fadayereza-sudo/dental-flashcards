@@ -1,0 +1,210 @@
+{
+  "slug": "palate",
+  "title": "Palate",
+  "order": 6,
+  "description": "Conditions affecting the hard and soft palate — the roof of the mouth — including candidal infections under dentures, bony outgrowths, smoking-related keratosis, dental abscesses pointing palatally, and salivary gland swellings.",
+  "problems": [
+    {
+      "id": "palate-001",
+      "description": "Uniform redness of the palatal mucosa under an upper denture. Patient often unaware because there is no pain.",
+      "conditionName": "Denture stomatitis (chronic atrophic candidosis)",
+      "prevalence": "common",
+      "etiology": "Candida albicans is responsible in 90% of cases, with most of the remaining 9% caused by other Candida species [1]. The fungus exploits conditions under the denture: poor denture hygiene, continuous wear including overnight, and a high-carbohydrate diet that gives Candida substrate to multiply [2]. The denture itself acts as a reservoir — once the fitting surface is colonised, cleaning the mucosa alone will not clear the infection [2].\n\nSystemic factors can lower the threshold for infection: iron and vitamin deficiency, steroid use, drugs that cause xerostomia, and endocrine abnormalities [2]. Trauma is sometimes cited as a cause but the evidence is weak — the condition occurs under well-fitting orthodontic appliances too, and is found under an upper denture even when no lower denture is worn [2].",
+      "presentation": "The patient usually presents without a complaint about the palate itself. The condition is asymptomatic and not normally noticed by patients [3]. It comes to light on examination when the denture is removed: the palatal mucosa under the fitting surface looks uniformly red, with petechial or whitish areas in some cases [1].\n\nThe surrounding uncovered palate looks normal by contrast. Look at the commissures too — angular cheilitis commonly coexists [1].",
+      "results": "- **Visual appearance** is often enough for a working diagnosis: uniform erythema confined precisely to the denture-bearing area, stopping at the denture border.\n- **Swab of the fitting surface** confirms Candida species if needed; speciation guides antifungal choice in resistant cases.\n- **Haematinics and blood glucose** if the infection involves other sites beyond the denture footprint, or if treatment fails despite good denture hygiene [4]. Diabetes and iron deficiency both predispose.\n- **Denture assessment**: check hygiene, assess whether the patient wears it overnight, note fit and age of the prosthesis.",
+      "definingCharacteristics": "The key tell is the strict anatomical boundary — the redness matches the denture footprint exactly. That pattern does not occur with erythematous candidosis from antibiotics or inhaled steroids, which is more diffuse [5].\n\nUnlike papillary hyperplasia (which can co-exist), the surface is flat and atrophic rather than nodular. Unlike a traumatic ulcer, there is no break in the mucosa and no pain.",
+      "treatment": "Four elements run together [2]:\n\n- **Leave dentures out at night.** Night-time wear is a major driver; removing the denture breaks the cycle.\n- **Denture hygiene**: brush the fitting surface and soak in a hypochlorite cleanser daily. The denture harbours the Candida and must be treated alongside the mucosa [2].\n- **Miconazole gel** applied to the fitting surface before insertion covers Candida and the bacterial co-infectors. Miconazole oral gel 24mg/mL: apply a pea-sized amount after food qds [6]. Check for drug interactions — miconazole raises INR in patients on warfarin and interacts with antidiabetics, antiepileptics, and antihistamines [7].\n- **Systemic fluconazole** if topical measures fail [2].\n\nIf papillary hyperplasia has developed under the denture, surgical reduction may be needed [2]. If denture hygiene is good and the condition persists, refer to the GP to exclude systemic predisposition [4].\n\nReduce sugar intake as an adjunct [2].",
+      "prognosis": "With improved denture hygiene and overnight removal, the mucosa recovers. Without fixing the denture habits, topical antifungals give only temporary relief because the colonised fitting surface reinfects the mucosa [4]. Recurrent or treatment-resistant cases almost always have either ongoing denture wear at night or an unaddressed systemic predisposing factor.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Also known as denture sore mouth, a misnomer because the condition is usually symptomless. Classically, seen as redness of the palate under a F/− denture, with petechial and whitish areas. 90% of cases due to Candida albicans, 9% to other Candida spp., and <1% to other organisms, e.g. Klebsiella spp.",
+          "paragraph": 4722,
+          "source": "Oxford Handbook · paragraph 4722"
+        },
+        {
+          "id": 2,
+          "quote": "Night-time wear of dentures. Trauma is often cited as a contributing factor to denture stomatitis, but: It occurs more commonly under F/− than −/F. It can affect patients wearing F/− only. It is also found under well-fitting orthodontic appliances. Systemic factors can predispose to Candida infection, e.g. iron and vitamin deficiency, steroids, drugs which cause xerostomia, and endocrine abnormalities. A high sugar intake provides substrate for Candida to multiply. Patients should be encouraged to remove their dentures at night. They should cleanse denture thoroughly, e.g. brushing fitting surface and soaking in hypochlorite cleanser. New dentures may be required if these measures fail despite good compliance. The denture can act as a reservoir for Candida. Reduce sugar intake. Miconazole gel can be added to the fitting surface of the denture before insertion. Coexisting papillary hyperplasia of palate may need surgical reduction. Systemic fluconazole may be used in some cases.",
+          "paragraph": 4729,
+          "source": "Oxford Handbook · paragraphs 4729–4744"
+        },
+        {
+          "id": 3,
+          "quote": "Redness of the denture-bearing area almost certainly indicates denture stomatitis (chronic atrophic candidosis). However, this condition is asymptomatic and not normally noticed by patients.",
+          "paragraph": 2819,
+          "source": "Odell's Clinical Problem Solving · paragraph 2819"
+        },
+        {
+          "id": 4,
+          "quote": "To solve the denture problem, the denture must be remade with an appropriate freeway space, but the denture stomatitis must first be treated to improve support for the new prosthesis. Treatment will involve improving denture hygiene, ceasing night wear, if appropriate. The possibility of an underlying condition predisposing to candidosis should be considered, especially if the infection involves other parts of the mouth or lips or if treatment fails despite good denture hygiene. In this case, referral to the patient's general practitioner would be indicated for further investigations.",
+          "paragraph": 2827,
+          "source": "Odell's Clinical Problem Solving · paragraph 2827"
+        },
+        {
+          "id": 5,
+          "quote": "This is an opportunistic infection following the use of broad-spectrum antibiotics, sometimes inhaled steroids, and in patients with HIV as well as those with xerostomia. It is painful and exacerbated by hot or spicy foods. The oral mucosa has a red, shiny, atrophic appearance and there may be coexisting areas of thrush.",
+          "paragraph": 6040,
+          "source": "Oxford Handbook · paragraph 6040 (erythematous candidosis — contrast condition)"
+        },
+        {
+          "id": 6,
+          "quote": "Miconazole oral gel 24mg/mL is of use in chronic mucocutaneous and chronic hyperplastic candidosis. Dose: 2.5mL qds 20mg/g gel. Apply a pea-sized amount after food qds. Can be applied to dentures also.",
+          "paragraph": 8230,
+          "source": "Oxford Handbook · paragraph 8230"
+        },
+        {
+          "id": 7,
+          "quote": "There are recognized potentially serious interactions between miconazole, fluconazole, and related drugs and antibacterials, anticoagulants, antidiabetics, antiepileptics, antihistamines, anxiolytics, cisapride, ciclosporin, and theophylline. Check what your patient is currently taking.",
+          "paragraph": 8233,
+          "source": "Oxford Handbook · paragraph 8233"
+        }
+      ]
+    },
+    {
+      "id": "palate-002",
+      "description": "Hard, smooth, immovable bony swelling running along the midline of the hard palate. Noticed incidentally. No symptoms.",
+      "conditionName": "Torus palatinus",
+      "prevalence": "common",
+      "etiology": "A developmental bony exostosis arising from the midline of the hard palate [1]. The precise cause is not fully understood — it is a normal variant, not a pathological process. It causes no harm and is not part of any syndrome [1].",
+      "presentation": "Most patients are unaware of it or have noticed a hard lump they assumed was normal. No pain, no ulceration. The swelling sits in the centre of the hard palate, typically oval or lobulated, covered with normal-looking mucosa that may be thin over the crest.\n\nOccasionally the patient presents because a new denture has identified it — the prominence blocks the fitting surface.",
+      "results": "- **Palpation**: hard as bone, non-tender, immovable, smooth surface.\n- **Radiograph** not usually needed, but when taken it shows a radiopaque mass continuous with the palatal bone.\n- No vitality involvement, no lymphadenopathy.",
+      "definingCharacteristics": "Torus palatinus sits strictly in the midline of the hard palate — that position is distinctive [1]. A palatal abscess from a dental infection is off-midline, is fluctuant, and the causative tooth will be non-vital. A salivary gland tumour is typically lateral (posterior palate) and soft to fluctuant, not bone-hard. Torus is bone-hard and midline; those two features together essentially clinch the diagnosis without further investigation.",
+      "treatment": "Reassurance that this developmental anomaly causes no harm [1]. No treatment is needed in most cases. Rarely, excision is indicated when the torus prevents construction of a satisfactory upper denture [1] — in that case refer to oral surgery.",
+      "prognosis": "The torus is benign and static. Once identified and explained to the patient, no further management is needed. If excision is carried out for prosthetic reasons, the result is good.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "These are bony exostoses found in both jaws. Torus palatinus is found in the centre of the hard palate; torus mandibularis on the lingual premolar/molar region of the mandible. Rx: reassurance that these developmental anomalies cause no harm (they are not part of the Gardener syndrome). Rarely, excision for denture construction is indicated.",
+          "paragraph": 5805,
+          "source": "Oxford Handbook · paragraph 5805"
+        }
+      ]
+    },
+    {
+      "id": "palate-003",
+      "description": "White or grey palatal mucosa covered in raised red papules, each with a dark central dot. Found in a pipe or heavy cigarette smoker.",
+      "conditionName": "Stomatitis nicotina (smoker's palate)",
+      "prevalence": "uncommon",
+      "etiology": "Caused by a combination of the low-grade thermal burn and chemical irritants in tobacco smoke [2]. Affects the hard palate specifically because palate-directed smoke is concentrated there in pipe and cigar smokers, and in very heavy cigarette smokers [1, 2]. The minor salivary glands respond to the chronic insult by dilating their duct openings, which accounts for the visible red papular dots [1].",
+      "presentation": "Patient is typically a pipe or cigar smoker, or a very heavy cigarette smoker. The palate looks white-grey with multiple small red papules. Each papule has a dark central head, which is the dilated opening of a minor salivary gland duct [1]. Usually asymptomatic — found on routine examination.\n\nNote: the similar-sounding smoker's keratosis is a separate entity and affects non-keratinized buccal, tongue, or palatal mucosa without the papular pattern [2].",
+      "results": "- **Visual appearance** is often diagnostic: white/grey palatal base with red-centred papules concentrated on the hard palate [1].\n- No specific tests required for the palatal lesion itself, but the presence of stomatitis nicotina should prompt assessment of higher-risk sites: floor of mouth, retro-molar region, and lateral tongue [1].",
+      "definingCharacteristics": "The papular pattern — numerous discrete red dots on a white-grey base — is distinctive and seen virtually nowhere else in the mouth [1]. The strict localisation to the hard palate, combined with a clear smoking history, separates it from erythematous candidosis (which is more diffuse and not papular) and from denture stomatitis (which is under the denture, not pattern-forming). The dark central dot (dilated gland opening) is the defining histological-clinical feature [1].\n\nThe important clinical point: stomatitis nicotina itself has little evidence of being premalignant at the palate, but it signals tobacco use and should prompt examination of genuinely high-risk sites — floor of mouth, lateral tongue, retro-molar [1].",
+      "treatment": "Smoking cessation is the treatment. The white/grey appearance of smoker's keratosis resolves on stopping smoking [2]. Advise cessation, examine high-risk mucosal sites at the same visit, and re-examine after a cessation attempt to ensure resolution.",
+      "prognosis": "The lesion resolves on stopping smoking [2]. Continued smoking maintains the condition and keeps the patient at risk of pathology at higher-risk sites. The palatal lesion itself is not strongly associated with malignant change, but it is a marker of tobacco exposure to the rest of the oral mucosa [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Affects palate; numerous red papules on a white/grey base. The papules have a dark 'head' which is the opening of a distended minor salivary gland. May indicate a risk of dysplasia or neoplasm at high-risk sites such as floor of mouth, retro-molar region, or lateral tongue.",
+          "paragraph": 6121,
+          "source": "Oxford Handbook · paragraph 6121"
+        },
+        {
+          "id": 2,
+          "quote": "Characteristically a white patch affecting buccal mucosa, tongue, or palate. Due to a combination of low-grade burn and the chemical irritants of smoke, and seen particularly in pipe smokers. There is little evidence that these patches are premalignant and they resolve on stopping smoking.",
+          "paragraph": 6119,
+          "source": "Oxford Handbook · paragraph 6119"
+        }
+      ]
+    },
+    {
+      "id": "palate-004",
+      "description": "Palatal swelling or sinus discharging pus. The tooth pointing to it is tender and non-vital. Patient may report a salty taste.",
+      "conditionName": "Palatal dental abscess (apical infection draining palatally)",
+      "prevalence": "common",
+      "etiology": "Apical infection from a non-vital tooth tracks through bone and periosteum until it finds the path of least resistance. Palatal roots of upper molars and the roots of upper lateral incisors are anatomically close to the palatal cortex, so abscess from these teeth discharges palatally rather than buccally [1]. The causative tooth has necrotic pulp — from caries, trauma, or failed endodontic treatment.",
+      "presentation": "What the patient typically describes:\n\n- A tender swelling on the roof of the mouth, often with a salty or unpleasant taste as the pus discharges.\n- The tooth itself may ache or be sore to bite on; sometimes the pain has recently eased (when pus found an exit route).\n\nWhat you see:\n\n- A fluctuant or pointing swelling on the palate, off-midline, aligned with the causative root.\n- A sinus opening discharging pus in some cases.\n- The responsible tooth is typically discoloured, crowned, has a large restoration, or has a history of trauma [1].",
+      "results": "- **Vitality testing**: causative tooth will be non-vital.\n- **Percussion**: tooth is tender to percussion (TTP); this may be diminished once pus has tracked and decompressed [1].\n- **Periapical radiograph**: shows periapical radiolucency at the palatal root of the offending tooth. For upper molars, this may mean the palatal root specifically.\n- **Palpation**: swelling is fluctuant when pus is present; firm and tender in early cellulitic stage.",
+      "definingCharacteristics": "The diagnostic triangle is: non-vital tooth + palatal swelling in the same quadrant + radiographic periapical change at the root pointing palatally.\n\nContrast with:\n\n- **Periodontal abscess**: probing depth >3mm alongside the tooth, tooth usually vital, no periapical radiographic change.\n- **Torus palatinus**: midline, bone-hard, the adjacent teeth are vital.\n- **Salivary gland swelling**: slow-growing, painless, no vitality change in the teeth [2].",
+      "treatment": "Drain the pus, then address the tooth [1]. Drainage options:\n\n- **Via the root canal** if endodontic treatment is planned.\n- **Incision of the fluctuant abscess** under LA: infiltrate LA between the abscess cavity and overlying mucosa, incise, explore with blunt closed forceps, and keep the incision patent — either by excising an ellipse of tissue or suturing in a small rubber drain. The rubber drain is particularly important in the palate because the tight palatal mucosa closes rapidly [1].\n- **Extraction** if the tooth is unrestorable.\n\nAntibiotic cover for the procedure: amoxicillin 500mg tds PO for 5–7 days, or metronidazole 400mg tds PO for 5–7 days, or both. For severe infections with systemic involvement, in-patient management with extraoral drainage may be needed [1].",
+      "prognosis": "With drainage and treatment of the causative tooth (RCT or extraction), the abscess resolves and the palatal swelling subsides. Without treatment, the infection continues, the sinus becomes chronic, and there is ongoing bone destruction around the root apex.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Teeth with an apical abscess are TTP and non-vital. They may be discoloured or crowned and have a history of trauma or RCT. Pain and TTP are often diminished when the intrabony pus tracks through the soft tissues and discharges, usually in the buccal sulcus (exceptions are 2, and palatal roots of maxillary molars which discharge palatally, and 12— which often discharge on the chin). Drainage of pus either via the root canal, by incision of any fluctuant abscess, or by extraction under LA or GA. Palatal or buccal abscesses can be drained quite simply under LA by infiltrating a small amount of LA between the abscess cavity and the overlying mucosa, then incising the abscess. Explore using blunt closed forceps and keep patent either by excising an ellipse of tissue or inserting and suturing a small rubber drain; this is particularly important in the palate. Cover the procedure with 'best guess' antibiotics such as amoxicillin 500mg tds PO for 5–7 days, or metronidazole 400mg tds PO for 5–7 days, or both. For severe infections, in-patient management with EO drainage may be needed.",
+          "paragraph": 5724,
+          "source": "Oxford Handbook · paragraphs 5724–5726"
+        },
+        {
+          "id": 2,
+          "quote": "Dental causes must be considered because they are very common. The site would be highly typical for an abscess arising from a nonvital lateral incisor or the palatal root of an upper first molar, but there are no symptoms or signs of acute infection. The slow and painless growth might suggest a cyst as a likely cause.",
+          "paragraph": 6035,
+          "source": "Odell's Clinical Problem Solving · paragraph 6035 (palatal swelling differential)"
+        }
+      ]
+    },
+    {
+      "id": "palate-005",
+      "description": "Slow-growing, painless, firm swelling on the lateral hard palate or posterior soft palate. No dental cause found and teeth are vital.",
+      "conditionName": "Pleomorphic adenoma of a minor salivary gland (palatal)",
+      "prevalence": "rare",
+      "etiology": "Minor salivary glands are distributed throughout the oral mucosa but are particularly dense in the posterior hard palate and lips [1]. A palatal swelling arising from these glands is most likely neoplastic when slow-growing and persistent. About 50% of minor gland neoplasms are benign and 50% are malignant [2]. The most common single benign tumour is pleomorphic adenoma [2]. Pleomorphic adenoma is often incompletely encapsulated, which means satellite tumour cells can lie outside the capsule — simple enucleation leaves these cells behind [3].",
+      "presentation": "Patient notices a lump but reports no pain initially [4]. The swelling has been present for months to years and has enlarged slowly [4]. Over time, as it enlarges, it may begin to cause discomfort [4].\n\nWhat you see: a firm, smooth, non-tender swelling on the lateral palate, typically level with or behind the molars [2]. Mucosa overlying it looks normal. No ulceration.",
+      "results": "- **Palpation**: firm, smooth, not fluctuant, non-tender. Not bone-hard (distinguishes it from torus palatinus).\n- **Vitality tests**: all upper teeth in the quadrant should be vital — non-vitality would point to a dental cause [5].\n- **Periapical / occlusal radiograph**: no bony expansion or radiolucency expected from a minor gland tumour unless large; needed to exclude dental cause [5].\n- **Fine-needle aspiration (FNAC)**: in a specialist setting, FNAC is used to confirm the diagnosis pre-operatively. Sheets of uniform epithelial cells with spindle cells in myxoid matrix are characteristic of pleomorphic adenoma [6].\n- **Incisional or excision biopsy**: definitive diagnosis requires histology [5].",
+      "definingCharacteristics": "The combination of a lateral palatal location (posterior to the premolars), long slow history, firm but not bone-hard consistency, and vital neighbouring teeth points strongly to a salivary gland origin [2].\n\nContrast with:\n\n- **Torus palatinus**: midline, bone-hard, present since young adulthood, no growth over months.\n- **Palatal abscess**: tender, vital test abnormal, history of pain, often acute onset.\n- **Mucous retention cyst**: would fluctuate or burst over such a long period; less likely to be firm [7].\n\nMalignant salivary gland neoplasm is a serious alternative: mucoepidermoid carcinoma and polymorphous adenocarcinoma are the most common, with adenoid cystic carcinoma rarer but carrying a poorer prognosis [2]. The absence of ulceration and younger age favour benign, but malignant tumours can have a benign presentation [2].",
+      "treatment": "Refer to oral and maxillofacial surgery. The appropriate treatment is excision with a small margin of at least a few millimetres [3]. Simple enucleation results in recurrence because of the incomplete capsulation [3]. The defect is closed with a temporary acrylic plate or local surgical flaps [3]. Radiotherapy is not used for primary benign disease [3].\n\nBefore excision, CT or CBCT may be indicated to check whether the palate has been perforated — any oronasal or oroantral fistula must be repaired at the time of surgery [8].",
+      "prognosis": "Complete excision with a clear margin is curative [3]. If excised histologically clear, cure can be expected [9]. Carcinomatous change (carcinoma ex pleomorphic adenoma) can arise in long-standing untreated tumours — typically after 10 or more years — and carries a very poor prognosis [10]. Early referral and excision before the tumour is large or long-standing avoids this risk [10].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The salivary glands consist of the major glands, the paired sublingual, submandibular, and parotid glands, and the minor salivary glands present throughout the oral mucosa, but which are particularly dense in the posterior palate and lips.",
+          "paragraph": 6270,
+          "source": "Oxford Handbook · paragraph 6270"
+        },
+        {
+          "id": 2,
+          "quote": "The site of the swelling is compatible with a palatal salivary gland origin, although it is slightly more anterior than is typical. Salivary glands are more numerous in the posterior hard palate or soft palate, and a swelling level with or behind the molars would be more characteristic of a salivary gland origin. If the lesion is arising in a gland, then a neoplasm is the most likely cause of long-standing painless swelling. About 50% of minor gland neoplasms are benign, and 50% are malignant. The most common single benign tumour, by far, is pleomorphic adenoma, and this is a very likely cause in this case. Malignant salivary gland neoplasms are equally common in minor glands, as noted above. If the tumour is malignant, then mucoepidermoid carcinoma or polymorphous adenocarcinoma would be the most likely causes because they are the most prevalent. Adenoid cystic carcinoma is rarer, but clinically significant possibility because it requires more extensive surgery and carries a poorer prognosis. The lack of ulceration and the patient's young age point to a benign neoplasm over a malignant one, but a malignant tumour is a definite possibility because most salivary gland malignant neoplasms are of low grade and can have a benign presentation.",
+          "paragraph": 6033,
+          "source": "Odell's Clinical Problem Solving · paragraphs 6033–6034"
+        },
+        {
+          "id": 3,
+          "quote": "The appropriate treatment is excision with a small margin, at least a few millimetres. Pleomorphic adenoma is benign, but it is often incompletely encapsulated, and simple enucleation would result in recurrence. The defect could be closed with either a temporary acrylic plate or local surgical flaps, depending on the surgeon's preference. Radiotherapy is ineffective as a primary treatment and would not be indicated for a benign neoplasm.",
+          "paragraph": 6060,
+          "source": "Odell's Clinical Problem Solving · paragraph 6060"
+        },
+        {
+          "id": 4,
+          "quote": "The patient thinks that the lump has been present for at least a year, possibly 2 years. It has enlarged slowly and is now starting to cause discomfort.",
+          "paragraph": 6003,
+          "source": "Odell's Clinical Problem Solving · paragraph 6003"
+        },
+        {
+          "id": 5,
+          "quote": "Tests of vitality of all the teeth in the upper right quadrant are required to exclude the possibility that a nonvital tooth is present and is the cause of an abscess or cyst. Radiographs are required for these and other reasons.",
+          "paragraph": 6041,
+          "source": "Odell's Clinical Problem Solving · paragraph 6041"
+        },
+        {
+          "id": 6,
+          "quote": "Fig. 55.2a shows a sheet of uniform cells with moderate amounts of cytoplasm. Their cytoplasm, polygonal shape and cohesive growth indicate that these are epithelial cells and their uniform nuclei suggest they are benign. The second field, shown in Fig. 55.2b, shows smaller numbers of spindle cells without significant cytoplasm in a myxoid matrix. Taken together, these appearances are characteristic of pleomorphic adenoma.",
+          "paragraph": 6055,
+          "source": "Odell's Clinical Problem Solving · paragraph 6055"
+        },
+        {
+          "id": 7,
+          "quote": "A mucous retention cyst is the most likely nonneoplastic, salivary gland–related cause, and the bluish tinge to the lesion suggests a cyst. However, this lump is firm and appears to be of long duration. A mucous retention cyst would be expected to burst or fluctuate in size if present over a long period.",
+          "paragraph": 6037,
+          "source": "Odell's Clinical Problem Solving · paragraph 6037"
+        },
+        {
+          "id": 8,
+          "quote": "Although the pleomorphic adenoma is benign, it can resorb bone by pressure. Before excising the lesion, it is important to know whether the palate has been perforated because any postsurgical oronasal or oroantral fistula would have to be repaired.",
+          "paragraph": 6062,
+          "source": "Odell's Clinical Problem Solving · paragraph 6062"
+        },
+        {
+          "id": 9,
+          "quote": "If the lesion appears excised histologically, cure can be expected.",
+          "paragraph": 6066,
+          "source": "Odell's Clinical Problem Solving · paragraph 6066"
+        },
+        {
+          "id": 10,
+          "quote": "Yes, carcinoma may arise in a long-standing pleomorphic adenoma, and carcinoma ex pleomorphic adenoma carries a very poor prognosis. However, this process takes many years, usually 10 or more, and is therefore seen mostly in older patients.",
+          "paragraph": 6069,
+          "source": "Odell's Clinical Problem Solving · paragraph 6069"
+        }
+      ]
+    }
+  ]
+}
