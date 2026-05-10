@@ -1,0 +1,240 @@
+{
+  "slug": "psychological",
+  "title": "Psychological",
+  "order": 14,
+  "description": "Psychological and behavioural conditions that present with oral signs or that shape how patients engage with dental care.",
+  "problems": [
+    {
+      "id": "psychological-001",
+      "description": "Patient or their partner reports audible tooth grinding at night; worn, flattened tooth surfaces are found on examination.",
+      "conditionName": "Bruxism (sleep bruxism / nocturnal parafunction)",
+      "prevalence": "common",
+      "etiology": "Bruxism is repetitive jaw-muscle activity — clenching or grinding — that occurs during sleep. The mechanism is poorly understood but the concept that stress and anxiety drive parafunctional habits is widely cited, with a recognised association with depression, tension headache, and fibromyalgia [1]. Patients with sleep bruxism are often unaware of the habit; a bed partner is frequently the first to notice the sound [2].\n\nThe structural consequence is straightforward: tooth-to-tooth contact under high masticatory load produces **attrition** — physical wear that affects mainly occlusal and incisal surfaces [3]. Stresses concentrated at cervical margins from clenching may additionally cause V-shaped cervical **abfraction** lesions [4].",
+      "presentation": "What you'll typically hear:\n\n- Partner reports audible grinding at night [2].\n- Patient may report morning jaw soreness or headache but the habit itself is usually unconscious.\n- Occasionally, patient notices chipped or sensitive teeth.\n\nWhat you'll see:\n\n- **Wear facets** that match exactly between upper and lower teeth — the hallmark sign [3].\n- Flattened or rounded cusps on posterior teeth; incisal edge wear on anteriors.\n- **Masseteric hypertrophy** on clenching in some cases [5].\n- Wear facets may be absent if the patient mainly clenches rather than grinds [6].",
+      "results": "- **Occlusal examination**: matching wear facets on opposing teeth confirm tooth-to-tooth contact [3].\n- **Muscle palpation**: masseters and temporalis may be tender; hypertrophy visible and palpable on clenching [5].\n- **Vitality testing**: teeth are usually vital unless wear has progressed to pulpal exposure.\n- **Radiograph**: no periapical change unless secondary to wear-induced pulpal involvement; pulp chambers may appear reduced in size due to secondary dentine formation.\n- Bruxism itself is usually asymptomatic; masticatory muscle tenderness is the most common complaint when one arises [7].",
+      "definingCharacteristics": "The key distinction is between **sleep bruxism** (nocturnal, often unconscious, confirmed by partner) and **awake bruxism** (daytime clenching, associated more with concentration or stress, often semi-conscious).\n\nWear facets that correspond precisely between arches point to attrition from bruxism rather than erosion (which gives cupped, smooth lesions without a match) or abrasion (cervical, caused by objects other than teeth). Masseteric hypertrophy sets bruxism apart from simple tooth-surface-loss cases where no parafunctional load is present.",
+      "treatment": "The goal is to protect remaining tooth tissue and manage symptoms — bruxism itself cannot reliably be cured.\n\n- **Occlusal splint for night wear**: a soft or hard full-coverage splint reduces occlusal load and wear on natural teeth [8]. A Michigan hard stabilisation splint with multiple even contacts in centric relation is appropriate for persistent or severe cases [9].\n- **Botulinum toxin** injection into the masseters offers temporary (3–6 months) reduction of masticatory force and is an option for masseteric hypertrophy and refractory cases [10].\n- **Hypnotherapy** has been suggested as an adjunct where parafunction is thought to be a factor [8].\n- Restorative treatment of worn surfaces (composite additions, onlays) is a downstream consideration — address the parafunction first.\n- If associated sleep disorder (e.g. sleep apnoea) is suspected, refer for medical assessment.",
+      "prognosis": "Bruxism tends to be chronic. Splint wear protects teeth and can reduce associated muscle symptoms, but wear of the splint itself continues. Without protection, attrition progresses and may eventually require complex restorative rehabilitation. The condition is usually compatible with a functional dentition long-term when managed, but carries a recognised risk to fixed and implant-supported restorations — parafunctional activity is a contraindication to some restorative approaches [11].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Idiopathic. Multiple theories put forward regarding occlusion, trauma, stress, habits, and joint hypermobility. To date, the concept of stress-induced parafunctional habits (bruxism, clenching) causing pain and spasm in the masticatory apparatus coupled with a ↓ pain threshold has seemed the most reasonable. This is compatible with the observed high association with depression, back pain, tension headache, migraine, irritable bowel syndrome, and fibromyalgia.",
+          "paragraph": 6538,
+          "source": "Oxford Handbook · paragraph 6538 (TMD/facial arthromyalgia)"
+        },
+        {
+          "id": 2,
+          "quote": "Bruxism or other parafunctional habits are common causes of increased wear. Of course, patients may not be aware of grinding habits because they become accustomed to the habit. If nocturnal bruxism occurs, often a partner can help confirm its occurrence and frequency and whether it is associated with a sleep disorder, such as sleep apnoea, or not.",
+          "paragraph": 6522,
+          "source": "Odell's Clinical Problem Solving · paragraph 6522"
+        },
+        {
+          "id": 3,
+          "quote": "Physical wear caused by tooth to tooth contact. It can affect interproximal but mainly occlusal surfaces. ↑ in more abrasive diets and in bruxism. Occlusal wear facets match with opposing teeth. Often occurs in combination with erosion.",
+          "paragraph": 3797,
+          "source": "Oxford Handbook · paragraph 3797 (attrition)"
+        },
+        {
+          "id": 4,
+          "quote": "Stresses produced by clenching may concentrate at cervical margins and result in V-shaped cervical lesions. Can occur just subgingivally and on teeth involved in guidance. This is still controversial.",
+          "paragraph": 3801,
+          "source": "Oxford Handbook · paragraph 3801 (abfraction)"
+        },
+        {
+          "id": 5,
+          "quote": "There is a suspicion of hypertrophy/enlargement of the masseter muscles on clenching.",
+          "paragraph": 1464,
+          "source": "Odell's Clinical Problem Solving · paragraph 1464"
+        },
+        {
+          "id": 6,
+          "quote": "Look for wear facets indicating bruxism (note these may not be present if patient tends to clench.)",
+          "paragraph": 3442,
+          "source": "Oxford Handbook · paragraph 3442"
+        },
+        {
+          "id": 7,
+          "quote": "Bruxism is irrelevant. It may be associated with masticatory muscle tenderness but is usually asymptomatic.",
+          "paragraph": 6995,
+          "source": "Odell's Clinical Problem Solving · paragraph 6995"
+        },
+        {
+          "id": 8,
+          "quote": "For patients where parafunction is thought to be a factor, a splint may be provided for night wear. Hypnotherapy may also be useful.",
+          "paragraph": 3812,
+          "source": "Oxford Handbook · paragraph 3812"
+        },
+        {
+          "id": 9,
+          "quote": "There are a group of patients where a significant occlusal problem exists. In these cases, a hard diagnostic occlusal splint can be constructed for the mandible (Tanner) or for the maxilla (Michigan), and should be made to give multiple even contacts in centric relation and anterior guidance.",
+          "paragraph": 6555,
+          "source": "Oxford Handbook · paragraph 6555"
+        },
+        {
+          "id": 10,
+          "quote": "Has therapeutic role in masseteric hypertrophy, blepharospasm, facial tics, drooling, gustatory lacrimation, gustatory sweating, torticollis, and some forms of trismus.",
+          "paragraph": 7125,
+          "source": "Oxford Handbook · paragraph 7125 (botulinum toxin)"
+        },
+        {
+          "id": 11,
+          "quote": "Narrow diameter implants are contraindicated in patients showing signs and symptoms of bruxism.",
+          "paragraph": 7383,
+          "source": "Odell's Clinical Problem Solving · paragraph 7383"
+        }
+      ]
+    },
+    {
+      "id": "psychological-002",
+      "description": "Smooth, cupped, or hollowed-out erosion on palatal surfaces of upper front teeth; patient gives a history of self-induced vomiting or purging behaviour.",
+      "conditionName": "Eating-disorder-related dental erosion (bulimia nervosa / anorexia with purging)",
+      "prevalence": "uncommon",
+      "etiology": "The mechanism is direct acid attack on tooth enamel by repeated exposure to gastric acid during self-induced vomiting. Stomach juice has a pH around 1–2, and if regurgitation is frequent, the damage to teeth can be rapid [1].\n\nBulimia nervosa involves binge eating followed by purging (vomiting and/or laxative use) while body weight remains relatively stable. Anorexia nervosa may include binge-purge behaviour alongside severe weight restriction. Both conditions are commonest in adolescent females [2].\n\nThe distribution of erosion is specific: acid reaching the mouth from the stomach bathes the palatal surfaces of the upper incisors first — this is the pattern that should prompt questioning about purging behaviour [3].",
+      "presentation": "What you may observe before the patient volunteers the history:\n\n- **Palatal erosion of upper anterior teeth** in a young patient — smooth, rounded, glassy surfaces that do not match wear on lower teeth [3].\n- Occlusal and buccal surfaces of lower molars can also be affected as acid pools in the floor of the mouth.\n- **Sensitivity** to cold and sweet.\n- 'Proud' or raised amalgam restorations surrounded by eroded dentine (as restoration material is more resistant to acid).\n\nThe patient may not volunteer the behaviour. Tactful questioning during history-taking is necessary. As Odell's notes, eating disorders are among the leading causes of mental-health-related deaths, and dentists may be the first to spot early signs — which places a duty of care on the clinician to enquire sensitively [4].",
+      "results": "- **Pattern of erosion**: palatal surfaces of upper anteriors + occlusal/buccal of lower molars is the intrinsic acid pattern, distinguishing it from dietary erosion (labial surfaces of upper anteriors) [3].\n- **BEWE score**: Basic Erosive Wear Examination scores the most severely affected surface in each sextant; cumulative score guides risk and management [5].\n- **Study casts / digital scans**: taken at baseline to monitor progression.\n- **Parotid enlargement** may be visible in some bulimic patients from recurrent vomiting stimulus — an extraoral clue.\n- Dental radiographs to assess pulpal involvement if wear is advanced; pulpal exposure may be seen in severe cases.",
+      "definingCharacteristics": "The site tells the story. **Palatal erosion of upper incisors** is the near-pathognomonic pattern of intrinsic (gastric) acid — dietary erosion from citrus drinks and carbonated beverages classically attacks the labial surfaces of upper anteriors instead [3].\n\nDistinguish from GORD (gastro-oesophageal reflux disease): GORD also causes intrinsic erosion but the patient typically reports heartburn and is often middle-aged; eating disorders skew younger and female. Both may coexist. The presence of binge-purge behaviour, very low body weight, amenorrhoea, or signs of malnutrition favour an eating disorder over isolated GORD [2].",
+      "treatment": "Two tracks run in parallel.\n\n**Dental:**\n\n- Minimally invasive approach — no irreversible restoration until the acid cause is controlled [6].\n- Dietary and oral hygiene advice; supplemental fluoride to slow progression.\n- Study casts or scans at yearly intervals to assess whether the erosion is advancing [6].\n- **Direct resin composite** on palatal surfaces provides early protection [6]. More complex indirect restorations and OVD changes are deferred to a restorative specialist.\n- Sensitivity management: fluoride varnish, dentine bonding agents.\n\n**Liaison and referral:**\n\n- Refer to a **psychiatrist or eating-disorder service** for management of the underlying condition [7].\n- Liaison with the patient's medical practitioner is important — obtain the patient's consent before doing so, and handle particularly carefully in under-18s where family involvement and legal considerations apply [4].\n- Document concerns contemporaneously. If a young patient does not consent to liaison with parents or the GP, seek medico-legal advice [4].",
+      "prognosis": "If the purging behaviour is brought under control, acid attack ceases and further erosion stops. Established structural loss is permanent — enamel does not regenerate. Long-term dental prognosis depends on the severity of wear at the time of diagnosis and whether the underlying eating disorder is treated. Early recognition by a dentist who spots the palatal erosion pattern can be a critical intervention point in a condition that carries significant mortality [4].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Regurgitation erosion occurs when the stomach juice passes from the stomach into the mouth. The pH of stomach juice is around 1 or 2, and if regurgitation occurs frequently, the damage to teeth can be catastrophic and rapid.",
+          "paragraph": 6528,
+          "source": "Odell's Clinical Problem Solving · paragraph 6528"
+        },
+        {
+          "id": 2,
+          "quote": "Both anorexia nervosa and bulimia nervosa tend to affect adolescent females. Sufferers lose body weight by starving themselves and/or vomiting to lose weight in an attempt to improve their body self-image. A small proportion of patients with severe anorexia die as a result of the disorder. Unlike patients with anorexia, those with bulimia usually have a stable body weight. They eat and drink in binges and self-induce vomiting to control their body weight. There may be an accompanying history of drug and/or alcohol abuse.",
+          "paragraph": 6537,
+          "source": "Odell's Clinical Problem Solving · paragraph 6537"
+        },
+        {
+          "id": 3,
+          "quote": "Acid from stomach due to gastro-oesophageal reflux, vomiting in relation to eating disorder (…… Anorexia nervosa/bulimia nervosa, p. 555), pregnancy, stress, or rumination. Such conditions warrant referral. Affects palatal surfaces of ULS and occlusal/buccal of lower molars.",
+          "paragraph": 3791,
+          "source": "Oxford Handbook · paragraph 3791 (intrinsic erosion)"
+        },
+        {
+          "id": 4,
+          "quote": "Eating disorders are one of the leading causes of mental health–related deaths – whether as a result of the systemic effects of malnutrition or of suicide – and oral healthcare professionals have a clear role to play because they may be the first to spot the early signs, such as poor oral health related to abnormal eating behaviours. If in doubt, medico-legal advice should be sought if a young patient with a suspected eating disorder does not consent to the dental practitioner liaising with parents or general medical practitioners.",
+          "paragraph": 6549,
+          "source": "Odell's Clinical Problem Solving · paragraph 6549"
+        },
+        {
+          "id": 5,
+          "quote": "This is becoming a commonly used objective measure of wear with the most severely affected surface in each sextant recorded using a four-level score and the cumulative score classified and matched to risk levels which guide the management of the condition.",
+          "paragraph": 3805,
+          "source": "Oxford Handbook · paragraph 3805 (BEWE)"
+        },
+        {
+          "id": 6,
+          "quote": "A minimally invasive approach to restorative dental treatment of erosion should be taken. No immediate treatment is required if the erosion is relatively minor and the patient is happy with the appearance of his or her teeth. If the cause is identified and treated, erosion will cease or progression will be slowed down. Study models taken at yearly intervals may be compared with those taken at the initial visit to assess progression.",
+          "paragraph": 6550,
+          "source": "Odell's Clinical Problem Solving · paragraph 6550"
+        },
+        {
+          "id": 7,
+          "quote": "Referral to a physician (gastrointestinal problems), psychiatrist (bulimic patient), or restorative specialist (complicated restorative problem).",
+          "paragraph": 3813,
+          "source": "Oxford Handbook · paragraph 3813"
+        }
+      ]
+    },
+    {
+      "id": "psychological-003",
+      "description": "Patient presents with intense, disproportionate fear of dental treatment; avoids care for years and arrives only in pain or emergency.",
+      "conditionName": "Dental anxiety / dental phobia",
+      "prevalence": "common",
+      "etiology": "Dental anxiety is a fear or anxiety response out of proportion to the actual stimulus of dental treatment [1]. It frequently begins in childhood or adolescence — the age of onset shapes the severity in adulthood [2]. Children with high caries burden are more likely to develop dental anxiety, creating a vicious cycle where anxiety leads to avoidance, avoidance leads to disease progression, and disease progression makes subsequent treatment more uncomfortable [3].\n\nParental anxiety is a significant driver: when parents cannot conceal their own anxiety, it increases anxiety in the child [3]. Traumatic dental experiences, loss of control, and fear of pain or needles are the most commonly reported precipitants.\n\nThe practical dental consequence is **irregular attendance and avoidance**, which means problems present late, teeth deteriorate, and each treatment episode becomes more complex — reinforcing the cycle.",
+      "presentation": "What you'll typically hear and see:\n\n- Years or decades without routine dental care; attendance only in pain [4].\n- Patient reports extreme apprehension, sometimes with physical symptoms (palpitations, sweating, difficulty breathing) in the waiting room or on the dental chair.\n- History of abandoned appointments or treatment stopped because of acute anxiety [4].\n- High caries burden and periodontal disease from neglect.\n\nThe **Modified Dental Anxiety Scale (MDAS)** is a short self-completion questionnaire used to screen and score anxiety; it provides a baseline to track over time [5]. In the child population, the Modified Child Dental Anxiety Scale (MCDAS) serves the same purpose [3].",
+      "results": "There are no specific special-test findings for dental anxiety itself, but consequences of avoidance are measurable:\n\n- **Untreated caries** often at multiple sites; teeth commonly presenting at extraction-only stage.\n- **BPE** often elevated from neglected periodontal disease.\n- **Blood pressure** may be raised on presentation — systolic hypertension is often elevated in acutely anxious subjects [6].\n- MDAS score: an agreed threshold is used clinically to determine whether behaviour management alone is likely to suffice or whether sedation should be offered.",
+      "definingCharacteristics": "Dental phobia sits at the severe end of a spectrum. **Dental anxiety** is the broad category; at its extreme, avoidance is complete and even non-painful examinations trigger panic — this is dental phobia.\n\nDistinguish from a patient who is simply apprehensive (nervousness is normal before dental treatment). The diagnostic distinction matters because it changes management: anxious patients may respond to careful communication and tell-show-do; phobic patients often require conscious sedation or referral to a specialist in anxious patient management.\n\nComorbid mental health conditions — depression, general anxiety disorder — are frequently present alongside dental phobia [1].",
+      "treatment": "Management is layered:\n\n- **Communication and behaviour management**: tell-show-do, agreed stop signals, pacing, and maintaining control for the patient. A positive and non-threatening first visit builds the therapeutic relationship.\n- **Oral sedation**: diazepam 5–10mg PO 1–2 hours before procedure for mild-to-moderate anxiety [7]; temazepam 15–30mg 30–60 minutes before procedure is an alternative [8]. Short-term use only — not for long-term anxiety control [9].\n- **Intravenous midazolam sedation**: for moderately-to-severely anxious patients. Initial dose 2mg IV over 30 seconds, then 1mg increments every 30 seconds to effect [10]. Requires appropriate monitoring (pulse oximetry mandatory; minimum oxygen saturation 90%) and a trained second operator [11].\n- **Nitrous oxide inhalation sedation**: of particular value in anxious patients undergoing relatively atraumatic procedures [12].\n- **Referral**: patients who cannot be managed in primary care, or ASA III+ patients requiring sedation, should be treated in a hospital setting with access to critical-care facilities [13].\n- For children: do not force treatment on an unwilling child; consider a treatment compromise to end positively and rebook [3].",
+      "prognosis": "With appropriate anxiety management and a positive treatment experience, dental phobia need not be self-perpetuating. The amnesic effect of benzodiazepine sedation reduces the patient's conscious memory of the procedure and prevents reinforcement of existing phobia [14]. Over successive visits, anxiety-reducing methods can gradually allow routine care without sedation. However, without intervention, avoidance entrenches further, and the dental condition deteriorates in a way that makes re-engagement progressively harder.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is the generation of fear or anxiety out of proportion to the stimulus. Numerous stimuli exist, including dentists.",
+          "paragraph": 7590,
+          "source": "Oxford Handbook · paragraph 7590 (phobia)"
+        },
+        {
+          "id": 2,
+          "quote": "Dental anxiety may begin in childhood or adolescence.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Dental anxiety section"
+        },
+        {
+          "id": 3,
+          "quote": "Dental anxiety is common and while the effects may be apparent at any age they are most obvious in children aged under four years. When parents/carers are unable to hide their own anxiety it can engender or increase anxiety in the child. Children with high caries are more likely to have dental anxiety and may require specialist input to manage them effectively.",
+          "source": "SDCEP Prevention and Management of Dental Caries in Children — Dental anxiety section"
+        },
+        {
+          "id": 4,
+          "quote": "She can tolerate regular recall consultations but has required no invasive operative treatment for many years. Her last restorative procedure had to be abandoned on two occasions because of acute anxiety and fainting.",
+          "paragraph": 4411,
+          "source": "Odell's Clinical Problem Solving · paragraph 4411 (an anxious patient)"
+        },
+        {
+          "id": 5,
+          "quote": "This patient is an irregular attender. Her Modified Dental Anxiety Scale (MDAS) score is 10.",
+          "paragraph": 7469,
+          "source": "Odell's Clinical Problem Solving · paragraph 7469"
+        },
+        {
+          "id": 6,
+          "quote": "Normal blood pressure is considered to be 120/80 mm Hg; however, small variations are common, and the systolic blood pressure is often raised in anxious subjects.",
+          "paragraph": 4447,
+          "source": "Odell's Clinical Problem Solving · paragraph 4447"
+        },
+        {
+          "id": 7,
+          "quote": "Dose for anxiety/TMD: 2mg tds, maximum 30mg in divided daily doses. Dose for sedation with LA: 5–10mg PO 1–2h before procedure.",
+          "paragraph": 8153,
+          "source": "Oxford Handbook · paragraph 8153 (diazepam)"
+        },
+        {
+          "id": 8,
+          "quote": "Dose for conscious sedation: 15–30mg 30–60min before procedure orally. Main indication is pre-operatively or as pre-medication.",
+          "paragraph": 8160,
+          "source": "Oxford Handbook · paragraph 8160 (temazepam)"
+        },
+        {
+          "id": 9,
+          "quote": "The short-term control of fear and anxiety associated with dental Rx is an entirely appropriate use of the benzodiazepines. It should not be confused with the long-term control of anxiety which is rife with problems of dependence and drug withdrawal.",
+          "paragraph": 8151,
+          "source": "Oxford Handbook · paragraph 8151"
+        },
+        {
+          "id": 10,
+          "quote": "A suitable regimen would be 2 mg of midazolam injected intravenously over a period of 30 seconds, followed by a pause of 90 seconds, during which the patient's response is observed. If sedation is inadequate, further increments of 1 mg should be administered every 30 seconds until sedation is sufficient.",
+          "paragraph": 4460,
+          "source": "Odell's Clinical Problem Solving · paragraph 4460"
+        },
+        {
+          "id": 11,
+          "quote": "Clinical monitoring by observing the patient must be carried out by both the dentist and a suitably trained and experienced dental nurse. The use of a pulse oximeter to monitor arterial oxygen saturation and heart rate is mandatory for intravenous sedation. The minimum acceptable arterial oxygen saturation is 90%.",
+          "paragraph": 4464,
+          "source": "Odell's Clinical Problem Solving · paragraph 4464"
+        },
+        {
+          "id": 12,
+          "quote": "It is of particular value in anxious patients undergoing relatively atraumatic procedures and in children, for whom the benzodiazepines are less suitable.",
+          "paragraph": 8474,
+          "source": "Oxford Handbook · paragraph 8474 (nitrous oxide)"
+        },
+        {
+          "id": 13,
+          "quote": "Dental treatment under general anaesthesia should: only be carried out when it is judged to be the most clinically appropriate method of anaesthesia; and only take place in a hospital setting that has critical-care facilities.",
+          "paragraph": 4422,
+          "source": "Odell's Clinical Problem Solving · paragraph 4422"
+        },
+        {
+          "id": 14,
+          "quote": "Not necessarily. Sedation will have ensured that the extractions were performed as pleasantly as possible and any existing dental phobia should not have been reinforced. The amnesic effect of benzodiazepines is likely to reduce the patient's memory of the whole procedure. During future visits for dental care, anxiety-reducing methods should be used so that eventually dental care can be provided routinely.",
+          "paragraph": 4483,
+          "source": "Odell's Clinical Problem Solving · paragraph 4483"
+        }
+      ]
+    }
+  ]
+}
