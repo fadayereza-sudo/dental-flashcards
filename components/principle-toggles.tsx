@@ -64,18 +64,20 @@ export function PrincipleToggleList({
                 onClick={() => onToggle(truth.id)}
                 className={`w-full text-left rounded-md bg-paper-sunk hover:bg-paper transition-colors border-l-2 ${borderClass} px-3 py-2.5 min-h-[44px] flex items-start justify-between gap-3`}
               >
-                <span className={`${titleClass} text-base font-medium flex-1`}>
-                  {highlight(truth.title, highlightTerm)}
-                </span>
-                {truth.badge && (
-                  <span
-                    className={`shrink-0 mt-0.5 text-xs tracking-[0.04em] uppercase font-semibold whitespace-nowrap px-2 py-0.5 rounded-full ${
-                      truth.badge.className ?? "text-bronze"
-                    }`}
-                  >
-                    {truth.badge.label}
+                <div className="flex-1 min-w-0">
+                  <span className={`${titleClass} text-base font-medium block`}>
+                    {highlight(truth.title, highlightTerm)}
                   </span>
-                )}
+                  {truth.badge && (
+                    <span
+                      className={`inline-block mt-2 text-xs tracking-[0.04em] uppercase font-semibold whitespace-nowrap px-2 py-0.5 rounded-full ${
+                        truth.badge.className ?? "text-bronze"
+                      }`}
+                    >
+                      {truth.badge.label}
+                    </span>
+                  )}
+                </div>
                 <svg
                   className={`w-4 h-4 flex-shrink-0 mt-1 transition-transform ${
                     truthOpen ? "rotate-90" : ""
