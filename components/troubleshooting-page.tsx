@@ -322,7 +322,7 @@ export function TroubleshootingPage() {
 
       {!isSearching && (
         <div className="max-w-2xl mx-auto pb-3">
-          <div className="flex gap-2 overflow-x-auto -mx-4 px-4 pb-1">
+          <div className="flex flex-wrap gap-1.5">
             {PREVALENCE_ORDER.map((p) => {
               const active = activePrevalences.has(p);
               const style = PREVALENCE_STYLE[p];
@@ -330,7 +330,7 @@ export function TroubleshootingPage() {
                 <button
                   key={p}
                   onClick={() => togglePrevalence(p)}
-                  className={`shrink-0 px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
+                  className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
                     active ? style.pillActive : style.pillInactive
                   }`}
                 >
