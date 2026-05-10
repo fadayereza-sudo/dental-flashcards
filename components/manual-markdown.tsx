@@ -133,36 +133,36 @@ export function ManualMarkdown({ source, className, highlightTerm }: Props) {
   const blocks = parse(source);
 
   return (
-    <div className={className}>
+    <div className={`max-w-[68ch] ${className ?? ""}`}>
       {blocks.map((b, i) => {
         switch (b.kind) {
           case "h2":
             return (
+              <h2
+                key={i}
+                className={`text-xl font-semibold text-ink leading-tight ${
+                  i === 0 ? "" : "mt-6"
+                } mb-3`}
+              >
+                {renderInline(b.text, highlightTerm)}
+              </h2>
+            );
+          case "h3":
+            return (
               <h3
                 key={i}
-                className={`font-serif text-[16px] font-bold text-ink leading-snug ${
+                className={`text-base font-semibold text-ink leading-snug ${
                   i === 0 ? "" : "mt-5"
                 } mb-2`}
               >
                 {renderInline(b.text, highlightTerm)}
               </h3>
             );
-          case "h3":
-            return (
-              <h4
-                key={i}
-                className={`text-[13px] font-semibold text-ink uppercase tracking-[0.08em] ${
-                  i === 0 ? "" : "mt-4"
-                } mb-1.5`}
-              >
-                {renderInline(b.text, highlightTerm)}
-              </h4>
-            );
           case "ul":
             return (
               <ul
                 key={i}
-                className="list-disc list-outside pl-5 space-y-1 my-2 text-[14px] leading-[1.6] text-ink"
+                className="list-disc list-outside pl-5 space-y-1.5 my-3 text-lg leading-[1.6] text-ink"
               >
                 {b.items.map((it, j) => (
                   <li key={j}>{renderInline(it, highlightTerm)}</li>
@@ -173,7 +173,7 @@ export function ManualMarkdown({ source, className, highlightTerm }: Props) {
             return (
               <ol
                 key={i}
-                className="list-decimal list-outside pl-5 space-y-1 my-2 text-[14px] leading-[1.6] text-ink"
+                className="list-decimal list-outside pl-5 space-y-1.5 my-3 text-lg leading-[1.6] text-ink"
               >
                 {b.items.map((it, j) => (
                   <li key={j}>{renderInline(it, highlightTerm)}</li>
@@ -184,7 +184,7 @@ export function ManualMarkdown({ source, className, highlightTerm }: Props) {
             return (
               <p
                 key={i}
-                className={`text-[14px] leading-[1.65] text-ink ${
+                className={`text-lg leading-[1.65] text-ink ${
                   i === 0 ? "" : "mt-3"
                 }`}
               >

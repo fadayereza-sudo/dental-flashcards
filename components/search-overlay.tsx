@@ -128,7 +128,7 @@ export function SearchOverlay({ open, onClose, onPick }: Props) {
             />
             <button
               onClick={onClose}
-              className="text-xs tracking-wide uppercase text-ink-muted hover:text-ink"
+              className="text-xs tracking-[0.04em] uppercase font-medium text-ink-muted hover:text-ink"
             >
               Cancel
             </button>
@@ -158,11 +158,11 @@ export function SearchOverlay({ open, onClose, onPick }: Props) {
                       onClick={() => onPick(c)}
                       className="w-full text-left px-6 py-4 hover:bg-paper-sunk/70 transition-colors"
                     >
-                      <p className="text-[15px] leading-[1.4] text-ink line-clamp-2">
+                      <p className="text-base leading-[1.45] text-ink font-medium line-clamp-2">
                         {c.question}
                       </p>
                       {(c.source || c.referenceSection) && (
-                        <p className="mt-1 text-[11px] tracking-wide uppercase text-ink-muted truncate">
+                        <p className="mt-1 text-xs tracking-[0.04em] uppercase font-medium text-ink-soft truncate">
                           {c.source || c.referenceSection}
                         </p>
                       )}

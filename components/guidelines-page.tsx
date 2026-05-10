@@ -351,9 +351,7 @@ export function GuidelinesPage() {
   if (loading) {
     return (
       <div className="absolute inset-0 flex items-center justify-center">
-        <span className="text-ink-muted text-sm tracking-wide uppercase">
-          Loading…
-        </span>
+        <span className="text-ink-soft text-sm">Loading…</span>
       </div>
     );
   }
@@ -376,7 +374,7 @@ export function GuidelinesPage() {
             </svg>
           </button>
           <div className="flex-1 flex justify-center px-2">
-            <h2 className="font-serif text-sm text-ink text-center truncate">
+            <h2 className="text-sm font-semibold text-ink text-center truncate">
               {workflow.title}
             </h2>
           </div>
@@ -404,29 +402,29 @@ export function GuidelinesPage() {
           </div>
         )}
 
-        <div className="flex-1 flex flex-col items-center justify-center px-6 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+10rem)] text-center overflow-hidden">
+        <div className="flex-1 flex flex-col items-center justify-center px-6 pt-[calc(env(safe-area-inset-top)+5.5rem)] pb-[calc(env(safe-area-inset-bottom)+10rem)] overflow-hidden">
           {isLastSlide ? (
-            <div className="space-y-4">
-              <div className="font-serif text-2xl text-ink">Complete</div>
-              <p className="text-sm text-ink-muted">
+            <div className="space-y-4 text-center">
+              <div className="text-2xl font-semibold text-ink">Complete</div>
+              <p className="text-base text-ink-soft">
                 You've worked through every step of this workflow.
               </p>
               <button
                 onClick={restart}
-                className="mt-6 rounded-full bg-accent-green text-paper px-5 py-2.5 text-sm tracking-wide uppercase font-medium hover:brightness-110 transition"
+                className="mt-6 rounded-full bg-accent-green text-paper px-5 py-2.5 text-sm tracking-[0.04em] uppercase font-semibold hover:brightness-110 transition"
               >
                 Restart
               </button>
             </div>
           ) : (
-            <>
-              <h3 className="font-serif text-lg text-ink mb-4 leading-relaxed max-w-lg">
+            <div className="w-full max-w-[60ch] mx-auto">
+              <h3 className="text-xl font-semibold text-ink mb-4 leading-snug">
                 {slide.title}
               </h3>
-              <p className="text-sm text-ink leading-relaxed max-w-lg mb-6">
+              <p className="text-lg text-ink leading-[1.65] mb-6">
                 {slide.body}
               </p>
-            </>
+            </div>
           )}
         </div>
 
@@ -434,17 +432,17 @@ export function GuidelinesPage() {
           <button
             onClick={prevSlide}
             disabled={currentSlide === 0}
-            className="inline-flex items-center justify-center rounded-full bg-paper-sunk border border-rule px-4 py-2.5 text-sm tracking-wide uppercase disabled:opacity-40 disabled:cursor-not-allowed hover:bg-paper transition-colors"
+            className="inline-flex items-center justify-center rounded-full bg-paper-sunk border border-rule px-4 py-2.5 text-sm font-semibold tracking-[0.04em] uppercase disabled:opacity-40 disabled:cursor-not-allowed hover:bg-paper transition-colors"
           >
             Back
           </button>
-          <div className="text-xs text-ink-muted tracking-wide">
+          <div className="text-sm text-ink-soft font-medium">
             {currentSlide + 1} / {workflow.slides.length}
           </div>
           <button
             onClick={nextSlide}
             disabled={isLastSlide}
-            className="inline-flex items-center justify-center rounded-full bg-accent-green text-paper px-4 py-2.5 text-sm tracking-wide uppercase disabled:opacity-40 disabled:cursor-not-allowed hover:brightness-110 transition"
+            className="inline-flex items-center justify-center rounded-full bg-accent-green text-paper px-4 py-2.5 text-sm font-semibold tracking-[0.04em] uppercase disabled:opacity-40 disabled:cursor-not-allowed hover:brightness-110 transition"
           >
             Next
           </button>
@@ -478,7 +476,7 @@ export function GuidelinesPage() {
                     <div className="w-10 h-1 rounded-full bg-rule" />
                   </div>
                   <div className="flex-1 overflow-y-auto px-6 py-4">
-                    <h3 className="font-serif text-lg text-ink mb-4">
+                    <h3 className="text-lg font-semibold text-ink mb-4">
                       Overview
                     </h3>
                     <ManualMarkdown source={workflow.overview} />
@@ -495,8 +493,8 @@ export function GuidelinesPage() {
   return (
     <div className="absolute inset-0 overflow-y-auto pb-[calc(env(safe-area-inset-bottom)+5.5rem)] px-4">
       <header className="max-w-2xl mx-auto pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-4">
-        <h1 className="font-serif text-2xl text-ink">Guidelines</h1>
-        <p className="text-xs text-ink-muted mt-1 tracking-wide">
+        <h1 className="text-2xl font-semibold text-ink">Guidelines</h1>
+        <p className="text-sm text-ink-soft mt-1">
           Curated workflows and first principles from UK + international dental guidelines
         </p>
       </header>
@@ -512,20 +510,20 @@ export function GuidelinesPage() {
       {isSearching ? (
         <div className="max-w-2xl mx-auto">
           {searchIndex === null ? (
-            <p className="text-xs text-ink-muted px-1">Loading search index…</p>
+            <p className="text-sm text-ink-soft px-1">Loading search index…</p>
           ) : totalMatches === 0 ? (
-            <p className="text-sm text-ink-muted px-1 py-6 text-center">
+            <p className="text-sm text-ink-soft px-1 py-6 text-center">
               No matches for &ldquo;{query.trim()}&rdquo;.
             </p>
           ) : (
             <>
-              <p className="text-[11px] text-ink-muted tracking-wide uppercase mb-3 px-1">
+              <p className="text-sm text-ink-soft mb-3 px-1">
                 {totalMatches} match{totalMatches === 1 ? "" : "es"}
               </p>
               <div className="space-y-5">
                 {searchGroups.map((group) => (
                   <div key={group.key}>
-                    <p className="text-[11px] text-ink-muted tracking-[0.12em] uppercase mb-2 px-1">
+                    <p className="text-xs text-ink-muted tracking-[0.04em] uppercase font-semibold mb-2 px-1">
                       {group.categoryTitle} · {group.subjectTitle}
                     </p>
 
@@ -542,9 +540,9 @@ export function GuidelinesPage() {
                                     prev === wfKey ? null : wfKey,
                                   )
                                 }
-                                className="w-full text-left rounded-lg bg-paper hover:bg-paper-sunk transition-colors border border-rule px-3 py-2 flex items-start justify-between gap-3"
+                                className="w-full text-left rounded-md bg-paper hover:bg-paper-sunk transition-colors border-l-2 border-rule px-3 py-2.5 min-h-[44px] flex items-start justify-between gap-3"
                               >
-                                <span className="text-sm text-ink flex-1">
+                                <span className="text-base font-medium text-ink flex-1">
                                   {highlight(workflow.title, query)}
                                 </span>
                                 <svg
@@ -576,12 +574,12 @@ export function GuidelinesPage() {
                                       )
                                     }
                                     disabled={workflow.slides.length === 0}
-                                    className="w-full text-left rounded-md bg-accent-green text-paper hover:brightness-110 transition px-3 py-2 flex items-center justify-between disabled:opacity-40 disabled:cursor-not-allowed"
+                                    className="w-full text-left rounded-md bg-accent-green text-paper hover:brightness-110 transition px-3 py-2.5 flex items-center justify-between disabled:opacity-40 disabled:cursor-not-allowed"
                                   >
-                                    <span className="text-xs uppercase tracking-[0.12em] font-medium">
+                                    <span className="text-sm uppercase tracking-[0.04em] font-semibold">
                                       Test
                                       {workflow.slides.length > 0 && (
-                                        <span className="ml-2 text-[11px] opacity-70 font-normal">
+                                        <span className="ml-2 text-xs opacity-75 font-medium">
                                           {workflow.slides.length} slides
                                         </span>
                                       )}
@@ -633,7 +631,7 @@ export function GuidelinesPage() {
       ) : guidelines.length === 0 ? (
         <div className="flex items-center justify-center h-96">
           <div className="text-center px-8">
-            <p className="text-sm text-ink-muted">
+            <p className="text-sm text-ink-soft">
               No content yet. Run the{" "}
               <code className="text-xs bg-paper-sunk px-2 py-1 rounded">
                 extract-guidelines-slides
@@ -654,20 +652,20 @@ export function GuidelinesPage() {
                 {/* Level 1: Category */}
                 <button
                   onClick={() => toggleCategory(cat.slug)}
-                  className="w-full text-left rounded-lg bg-[#2d2d2d] hover:bg-[#3a3a3a] text-white px-4 py-3 transition-colors flex items-center justify-between"
+                  className="w-full text-left rounded-md bg-paper-sunk hover:bg-paper border-b-2 border-bronze/25 text-ink px-4 py-3.5 min-h-[44px] transition-colors flex items-center justify-between"
                 >
                   <div className="flex flex-col">
-                    <span className="font-medium text-sm tracking-wide">
+                    <span className="text-[17px] font-semibold">
                       {cat.title}
                     </span>
                     {cat.description && (
-                      <span className="text-[11px] text-white/60 mt-0.5">
+                      <span className="text-sm text-ink-soft mt-0.5">
                         {cat.description}
                       </span>
                     )}
                   </div>
                   <svg
-                    className={`w-4 h-4 transition-transform flex-shrink-0 ml-3 ${
+                    className={`w-4 h-4 transition-transform flex-shrink-0 ml-3 text-ink-soft ${
                       catOpen ? "rotate-90" : ""
                     }`}
                     viewBox="0 0 24 24"
@@ -680,7 +678,7 @@ export function GuidelinesPage() {
                 </button>
 
                 {catOpen && data && (
-                  <div className="pt-2 pl-3 border-l-2 border-[#2d2d2d] space-y-2">
+                  <div className="pt-2 pl-3 border-l-2 border-bronze/25 space-y-2">
                     {data.subjects.map((subj) => {
                       const subjId = `${catId}:subj:${subj.slug}`;
                       const subjOpen = isExpanded(subjId);
@@ -694,13 +692,13 @@ export function GuidelinesPage() {
                           {/* Level 2: Subject */}
                           <button
                             onClick={() => toggle(subjId)}
-                            className="w-full text-left rounded-lg bg-[#5a5a5a] hover:bg-[#6a6a6a] text-white px-3 py-2.5 transition-colors flex items-center justify-between"
+                            className="w-full text-left rounded-md bg-paper hover:bg-paper-sunk border-l-2 border-bronze/35 text-ink px-3 py-3 min-h-[44px] transition-colors flex items-center justify-between"
                           >
-                            <span className="font-medium text-sm tracking-wide">
+                            <span className="text-base font-semibold">
                               {subj.title}
                             </span>
                             <svg
-                              className={`w-4 h-4 transition-transform flex-shrink-0 ml-3 ${
+                              className={`w-4 h-4 transition-transform flex-shrink-0 ml-3 text-ink-soft ${
                                 subjOpen ? "rotate-90" : ""
                               }`}
                               viewBox="0 0 24 24"
@@ -713,17 +711,17 @@ export function GuidelinesPage() {
                           </button>
 
                           {subjOpen && (
-                            <div className="pt-2 pl-3 border-l border-[#5a5a5a] space-y-2">
+                            <div className="pt-2 pl-3 border-l border-bronze/20 space-y-2">
                               {/* Level 3a: Workflows */}
                               {subj.workflows.length > 0 && (
                                 <div>
                                   <button
                                     onClick={() => toggle(wfSectionId)}
-                                    className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
+                                    className="w-full text-left rounded-md bg-paper-sunk hover:bg-paper transition-colors px-3 py-2.5 min-h-[44px] flex items-center justify-between"
                                   >
-                                    <span className="text-sm text-ink font-medium tracking-wide">
+                                    <span className="text-base font-semibold text-ink">
                                       Workflows
-                                      <span className="ml-2 text-[11px] text-ink-muted font-normal">
+                                      <span className="ml-2 text-xs text-ink-muted font-medium">
                                         {subj.workflows.length}
                                       </span>
                                     </span>
@@ -755,9 +753,9 @@ export function GuidelinesPage() {
                                             {/* Level 4: individual workflow */}
                                             <button
                                               onClick={() => toggle(wfId)}
-                                              className="w-full text-left rounded-lg bg-paper hover:bg-paper-sunk transition-colors border border-rule px-3 py-2 flex items-start justify-between gap-3"
+                                              className="w-full text-left rounded-md bg-paper hover:bg-paper-sunk transition-colors border-l-2 border-rule px-3 py-2.5 min-h-[44px] flex items-start justify-between gap-3"
                                             >
-                                              <span className="text-sm text-ink flex-1">
+                                              <span className="text-base font-medium text-ink flex-1">
                                                 {wf.title}
                                               </span>
                                               <svg
@@ -781,9 +779,9 @@ export function GuidelinesPage() {
                                                     onClick={() =>
                                                       toggle(overviewId)
                                                     }
-                                                    className="w-full text-left rounded-md bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
+                                                    className="w-full text-left rounded-md bg-paper-sunk hover:bg-paper transition-colors px-3 py-2.5 flex items-center justify-between"
                                                   >
-                                                    <span className="text-xs text-ink uppercase tracking-[0.12em]">
+                                                    <span className="text-sm font-semibold text-ink">
                                                       Overview
                                                     </span>
                                                     <svg
@@ -821,12 +819,12 @@ export function GuidelinesPage() {
                                                   disabled={
                                                     wf.slides.length === 0
                                                   }
-                                                  className="w-full text-left rounded-md bg-accent-green text-paper hover:brightness-110 transition px-3 py-2 flex items-center justify-between disabled:opacity-40 disabled:cursor-not-allowed"
+                                                  className="w-full text-left rounded-md bg-accent-green text-paper hover:brightness-110 transition px-3 py-2.5 flex items-center justify-between disabled:opacity-40 disabled:cursor-not-allowed"
                                                 >
-                                                  <span className="text-xs uppercase tracking-[0.12em] font-medium">
+                                                  <span className="text-sm uppercase tracking-[0.04em] font-semibold">
                                                     Test
                                                     {wf.slides.length > 0 && (
-                                                      <span className="ml-2 text-[11px] opacity-70 font-normal">
+                                                      <span className="ml-2 text-xs opacity-75 font-medium">
                                                         {wf.slides.length} slides
                                                       </span>
                                                     )}
@@ -857,11 +855,11 @@ export function GuidelinesPage() {
                                 <div>
                                   <button
                                     onClick={() => toggle(fpSectionId)}
-                                    className="w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors px-3 py-2 flex items-center justify-between"
+                                    className="w-full text-left rounded-md bg-paper-sunk hover:bg-paper transition-colors px-3 py-2.5 min-h-[44px] flex items-center justify-between"
                                   >
-                                    <span className="text-sm text-ink font-medium tracking-wide">
+                                    <span className="text-base font-semibold text-ink">
                                       First Principles
-                                      <span className="ml-2 text-[11px] text-ink-muted font-normal">
+                                      <span className="ml-2 text-xs text-ink-muted font-medium">
                                         {subj.firstPrinciples.length}
                                       </span>
                                     </span>

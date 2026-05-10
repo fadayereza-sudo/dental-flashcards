@@ -32,7 +32,7 @@ export function SearchBar({
         placeholder={placeholder}
         autoComplete="off"
         spellCheck={false}
-        className="w-full rounded-lg bg-paper-sunk border border-rule pl-9 pr-9 py-2.5 text-sm text-ink placeholder:text-ink-muted focus:outline-none focus:border-ink/40 transition-colors"
+        className="w-full rounded-md bg-paper-sunk border border-rule pl-9 pr-9 py-2.5 text-base text-ink placeholder:text-ink-muted focus:outline-none focus:border-ink/40 transition-colors"
       />
       {value && (
         <button

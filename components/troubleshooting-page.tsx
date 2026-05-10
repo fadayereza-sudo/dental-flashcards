@@ -281,9 +281,7 @@ export function TroubleshootingPage() {
   if (loading) {
     return (
       <div className="absolute inset-0 flex items-center justify-center">
-        <span className="text-ink-muted text-sm tracking-wide uppercase">
-          Loading…
-        </span>
+        <span className="text-ink-soft text-sm">Loading…</span>
       </div>
     );
   }
@@ -292,8 +290,8 @@ export function TroubleshootingPage() {
     return (
       <div className="absolute inset-0 flex items-center justify-center pb-[calc(env(safe-area-inset-bottom)+5rem)]">
         <div className="text-center px-8">
-          <p className="font-serif text-2xl text-ink mb-2">Troubleshooting</p>
-          <p className="text-sm text-ink-muted">
+          <p className="text-2xl font-semibold text-ink mb-2">Troubleshooting</p>
+          <p className="text-sm text-ink-soft">
             No content yet. Run the{" "}
             <code className="text-xs bg-paper-sunk px-2 py-1 rounded">
               extract-troubleshooting
@@ -308,8 +306,8 @@ export function TroubleshootingPage() {
   return (
     <div className="absolute inset-0 overflow-y-auto pb-[calc(env(safe-area-inset-bottom)+5.5rem)] px-4">
       <header className="max-w-2xl mx-auto pt-[calc(env(safe-area-inset-top)+1.25rem)] pb-3">
-        <h1 className="font-serif text-2xl text-ink">Troubleshooting</h1>
-        <p className="text-xs text-ink-muted mt-1 tracking-wide">
+        <h1 className="text-2xl font-semibold text-ink">Troubleshooting</h1>
+        <p className="text-sm text-ink-soft mt-1">
           Diagnose by origin and presentation
         </p>
       </header>
@@ -332,7 +330,7 @@ export function TroubleshootingPage() {
                 <button
                   key={p}
                   onClick={() => togglePrevalence(p)}
-                  className={`shrink-0 px-3 py-1.5 rounded-full text-[11px] tracking-wide transition-colors ${
+                  className={`shrink-0 px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
                     active ? style.pillActive : style.pillInactive
                   }`}
                 >
@@ -347,21 +345,21 @@ export function TroubleshootingPage() {
       {isSearching ? (
         <div className="max-w-2xl mx-auto">
           {searchIndex === null ? (
-            <p className="text-xs text-ink-muted px-1">Loading search index…</p>
+            <p className="text-sm text-ink-soft px-1">Loading search index…</p>
           ) : totalSearchMatches === 0 ? (
-            <p className="text-sm text-ink-muted px-1 py-6 text-center">
+            <p className="text-sm text-ink-soft px-1 py-6 text-center">
               No matches for &ldquo;{query.trim()}&rdquo;.
             </p>
           ) : (
             <>
-              <p className="text-[11px] text-ink-muted tracking-wide uppercase mb-3 px-1">
+              <p className="text-sm text-ink-soft mb-3 px-1">
                 {totalSearchMatches} match
                 {totalSearchMatches === 1 ? "" : "es"}
               </p>
               <div className="space-y-5">
                 {searchGroups.map((group) => (
                   <div key={group.originSlug}>
-                    <p className="text-[11px] text-ink-muted tracking-[0.12em] uppercase mb-2 px-1">
+                    <p className="text-xs text-ink-muted tracking-[0.04em] uppercase font-semibold mb-2 px-1">
                       {group.originTitle}
                     </p>
                     <PrincipleToggleList
@@ -402,13 +400,13 @@ export function TroubleshootingPage() {
             <div key={origin.slug} className="space-y-0">
               <button
                 onClick={() => toggleOrigin(origin.slug)}
-                className="w-full text-left rounded-lg bg-[#2d2d2d] hover:bg-[#3a3a3a] text-white px-4 py-3 transition-colors flex items-center justify-between"
+                className="w-full text-left rounded-md bg-paper-sunk hover:bg-paper border-b-2 border-bronze/25 text-ink px-4 py-3.5 min-h-[44px] transition-colors flex items-center justify-between"
               >
-                <span className="font-medium text-sm tracking-wide">
+                <span className="text-[17px] font-semibold">
                   {origin.title}
                 </span>
                 <svg
-                  className={`w-4 h-4 transition-transform ${
+                  className={`w-4 h-4 transition-transform text-ink-soft ${
                     isOpen ? "rotate-90" : ""
                   }`}
                   viewBox="0 0 24 24"
@@ -421,7 +419,7 @@ export function TroubleshootingPage() {
               </button>
 
               {isOpen && truths.length > 0 && (
-                <div className="pt-2 pl-3 border-l-2 border-[#2d2d2d]">
+                <div className="pt-2 pl-3 border-l-2 border-bronze/25">
                   <PrincipleToggleList
                     truths={truths}
                     category={origin.title}
@@ -436,16 +434,16 @@ export function TroubleshootingPage() {
                 data &&
                 truths.length === 0 &&
                 allProblems.length > 0 && (
-                  <div className="pt-2 pl-3 border-l-2 border-[#2d2d2d]">
-                    <p className="text-xs text-ink-muted px-3 py-2">
+                  <div className="pt-2 pl-3 border-l-2 border-bronze/25">
+                    <p className="text-sm text-ink-soft px-3 py-2">
                       No problems match the current filter.
                     </p>
                   </div>
                 )}
 
               {isOpen && data && allProblems.length === 0 && (
-                <div className="pt-2 pl-3 border-l-2 border-[#2d2d2d]">
-                  <p className="text-xs text-ink-muted px-3 py-2">
+                <div className="pt-2 pl-3 border-l-2 border-bronze/25">
+                  <p className="text-sm text-ink-soft px-3 py-2">
                     No problems documented for this origin yet.
                   </p>
                 </div>

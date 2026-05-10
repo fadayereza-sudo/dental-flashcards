@@ -42,8 +42,8 @@ export function StatsView() {
   if (error) {
     return (
       <div className="min-h-dvh flex flex-col items-center justify-center gap-3 px-6 text-center">
-        <p className="font-serif text-2xl text-ink">Couldn&rsquo;t load stats</p>
-        <p className="text-xs text-ink-muted break-all max-w-xs">{error}</p>
+        <p className="text-2xl font-semibold text-ink">Couldn&rsquo;t load stats</p>
+        <p className="text-sm text-ink-soft break-all max-w-xs">{error}</p>
       </div>
     );
   }
@@ -51,7 +51,7 @@ export function StatsView() {
   if (!data) {
     return (
       <div className="min-h-dvh flex items-center justify-center">
-        <span className="text-ink-muted text-sm tracking-wide uppercase">Loading…</span>
+        <span className="text-ink-soft text-sm">Loading…</span>
       </div>
     );
   }
@@ -63,14 +63,14 @@ export function StatsView() {
       <header className="sticky top-0 z-20 flex items-center justify-between px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-3 bg-paper/90 backdrop-blur-md border-b border-rule/60">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-xs tracking-wide uppercase text-ink-soft hover:text-ink"
+          className="inline-flex items-center gap-2 text-xs tracking-[0.04em] uppercase font-medium text-ink-soft hover:text-ink"
         >
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden>
             <path d="M7 2L3 6l4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
           Back
         </Link>
-        <h1 className="font-serif text-xl text-ink">Progress</h1>
+        <h1 className="text-xl font-semibold text-ink">Progress</h1>
         <div className="w-12" />
       </header>
 
@@ -117,12 +117,12 @@ function Stat({
 }) {
   return (
     <div className="rounded-2xl border border-rule bg-paper-sunk px-4 py-3">
-      <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-1">
+      <p className="text-xs tracking-[0.04em] uppercase font-semibold text-bronze mb-1">
         {label}
       </p>
-      <p className="font-serif text-3xl text-ink">{value}</p>
+      <p className="text-3xl font-semibold text-ink">{value}</p>
       {sub && (
-        <p className="text-[11px] text-ink-muted mt-1">{sub}</p>
+        <p className="text-xs text-ink-soft mt-1">{sub}</p>
       )}
     </div>
   );
@@ -141,10 +141,10 @@ function DailyChart({
   return (
     <div className="rounded-2xl border border-rule bg-paper-sunk p-4">
       <div className="flex items-baseline justify-between mb-3">
-        <p className="text-[10px] tracking-[0.12em] uppercase text-bronze">
+        <p className="text-xs tracking-[0.04em] uppercase font-semibold text-bronze">
           Reviews · last 30 days
         </p>
-        <p className="text-[11px] text-ink-muted">
+        <p className="text-xs text-ink-soft">
           {total} total
           {accuracy !== null && ` · ${Math.round(accuracy * 100)}% hit rate`}
         </p>
@@ -177,7 +177,7 @@ function DailyChart({
           );
         })}
       </div>
-      <div className="flex items-center justify-between mt-2 text-[10px] text-ink-muted">
+      <div className="flex items-center justify-between mt-2 text-xs text-ink-soft">
         <span>{byDay[0]?.day.slice(5)}</span>
         <span>{byDay[byDay.length - 1]?.day.slice(5)}</span>
       </div>
@@ -230,10 +230,10 @@ function StateBreakdown({
   ];
   return (
     <div className="rounded-2xl border border-rule bg-paper-sunk p-4">
-      <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-1">
+      <p className="text-xs tracking-[0.04em] uppercase font-semibold text-bronze mb-1">
         Card state
       </p>
-      <p className="text-[12px] text-ink-muted mb-4">
+      <p className="text-sm text-ink-soft mb-4 leading-[1.55]">
         Where each card sits in your memory right now. Cards move between
         these stages as you practise them.
       </p>
@@ -244,11 +244,11 @@ function StateBreakdown({
           return (
             <div key={it.label}>
               <div className="flex items-baseline justify-between mb-1">
-                <span className={`text-[11px] tracking-[0.08em] uppercase ${it.text}`}>
+                <span className={`text-xs tracking-[0.04em] uppercase font-semibold ${it.text}`}>
                   {it.label}
                 </span>
-                <span className="text-[12px] text-ink-soft">
-                  <span className="font-mono text-ink">{it.value}</span>
+                <span className="text-sm text-ink-soft">
+                  <span className="font-mono text-ink font-medium">{it.value}</span>
                   <span className="text-ink-muted"> · {pctLabel}%</span>
                 </span>
               </div>
@@ -259,7 +259,7 @@ function StateBreakdown({
                   aria-label={`${it.label}: ${it.value} (${pctLabel}%)`}
                 />
               </div>
-              <p className="text-[11px] text-ink-muted mt-1">{it.desc}</p>
+              <p className="text-xs text-ink-soft mt-1">{it.desc}</p>
             </div>
           );
         })}

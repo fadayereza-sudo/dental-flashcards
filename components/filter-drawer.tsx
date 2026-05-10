@@ -314,11 +314,11 @@ export function FilterDrawer({
             <div className="w-10 h-1 rounded-full bg-rule" />
           </div>
           <div className="px-6 pt-3 pb-4 flex items-baseline justify-between gap-3">
-            <h2 className="font-serif text-2xl text-ink">Filter</h2>
+            <h2 className="text-2xl font-semibold text-ink">Filter</h2>
             <div className="flex items-center gap-4">
               <button
                 onClick={() => setShowTrash((v) => !v)}
-                className={`text-xs tracking-wide uppercase ${showTrash ? "text-ink" : "text-ink-muted hover:text-ink"}`}
+                className={`text-xs tracking-[0.04em] uppercase font-medium ${showTrash ? "text-ink" : "text-ink-muted hover:text-ink"}`}
               >
                 {showTrash ? "Hide trash" : "Show trash"}
               </button>
@@ -327,7 +327,7 @@ export function FilterDrawer({
                   setLocal(new Set());
                   setLocalTags(new Set());
                 }}
-                className="text-xs tracking-wide uppercase text-ink-muted hover:text-ink"
+                className="text-xs tracking-[0.04em] uppercase font-medium text-ink-muted hover:text-ink"
               >
                 Clear
               </button>
@@ -336,7 +336,7 @@ export function FilterDrawer({
 
           <div className="flex-1 overflow-y-auto px-3 pb-2">
             <div className="px-3 pt-2 pb-3">
-              <p className="text-[11px] tracking-[0.12em] uppercase text-ink-muted mb-2">
+              <p className="text-xs tracking-[0.04em] uppercase font-semibold text-ink-muted mb-2">
                 Themes
               </p>
               <div className="flex flex-wrap gap-1.5">
@@ -346,7 +346,7 @@ export function FilterDrawer({
                     <button
                       key={chip.value}
                       onClick={() => toggleTag(chip.value)}
-                      className={`rounded-full px-3 py-1.5 text-xs tracking-wide transition-colors ${
+                      className={`rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${
                         active
                           ? "bg-ink text-paper"
                           : "bg-paper-sunk text-ink-soft border border-rule hover:text-ink"
@@ -377,7 +377,7 @@ export function FilterDrawer({
                       id={root.id}
                       name={root.name}
                       trailing={
-                        <span className="font-mono text-[11px] text-ink-muted">
+                        <span className="font-mono text-xs text-ink-soft">
                           {root.children.reduce((sum, c) => sum + c.cardCount, 0)}
                         </span>
                       }
@@ -442,7 +442,7 @@ export function FilterDrawer({
 
             {showTrash && (
               <div className="mt-4 pt-4 border-t border-rule/60">
-                <h3 className="px-3 text-[11px] tracking-[0.12em] uppercase text-ink-muted mb-2">
+                <h3 className="px-3 text-xs tracking-[0.04em] uppercase font-semibold text-ink-muted mb-2">
                   Trash
                 </h3>
                 {trashLoading && (
@@ -479,7 +479,7 @@ export function FilterDrawer({
 
                 {activeRootsWithDeletedChildren.map((root) => (
                   <div key={`active-${root.id}`} className="mb-2">
-                    <p className="px-3 pt-2 pb-1 font-serif text-[15px] text-ink-soft">
+                    <p className="px-3 pt-2 pb-1 text-base font-semibold text-ink-soft">
                       {root.name}
                     </p>
                     {root.children.map((c) => (
@@ -507,7 +507,7 @@ export function FilterDrawer({
 
                 {deletedCards.length > 0 && (
                   <div className="mt-3">
-                    <h4 className="px-3 text-[11px] tracking-[0.12em] uppercase text-ink-muted mb-1">
+                    <h4 className="px-3 text-xs tracking-[0.04em] uppercase font-semibold text-ink-muted mb-1">
                       Deleted cards
                     </h4>
                     {deletedCards.map((c) => (
@@ -542,7 +542,7 @@ export function FilterDrawer({
           <div className="px-6 py-4 border-t border-rule/60 flex gap-3">
             <button
               onClick={onClose}
-              className="flex-1 rounded-full border border-rule py-3 text-sm tracking-wide uppercase text-ink-soft"
+              className="flex-1 rounded-full border border-rule py-3 text-sm tracking-[0.04em] uppercase font-semibold text-ink-soft"
             >
               Cancel
             </button>
@@ -550,7 +550,7 @@ export function FilterDrawer({
               onClick={() =>
                 onApply({ folders: [...local], tags: [...localTags] })
               }
-              className="flex-1 rounded-full bg-ink text-paper py-3 text-sm tracking-wide uppercase"
+              className="flex-1 rounded-full bg-ink text-paper py-3 text-sm tracking-[0.04em] uppercase font-semibold"
             >
               Apply
             </button>
@@ -649,7 +649,7 @@ function FolderRow(
           />
         ) : (
           <>
-            <span className="font-serif text-[17px] text-ink flex-1">{name}</span>
+            <span className="text-[17px] font-semibold text-ink flex-1">{name}</span>
             {trailing}
             <RowIconButtons
               onEdit={onStartEdit}
@@ -660,7 +660,7 @@ function FolderRow(
         )}
       </div>
       {error && (
-        <p className="px-3 pb-1 text-[11px] text-accent-red break-all">{error}</p>
+        <p className="px-3 pb-1 text-xs text-accent-red break-all">{error}</p>
       )}
     </>
   );
@@ -714,8 +714,8 @@ function ChapterRow(
           />
         ) : (
           <>
-            <span className="text-[15px] text-ink-soft flex-1">{name}</span>
-            <span className="font-mono text-[11px] text-ink-muted">
+            <span className="text-base text-ink-soft flex-1">{name}</span>
+            <span className="font-mono text-xs text-ink-soft">
               {cardCount}
             </span>
             <RowIconButtons
@@ -727,7 +727,7 @@ function ChapterRow(
         )}
       </div>
       {error && (
-        <p className="ml-8 px-3 pb-1 text-[11px] text-accent-red break-all">
+        <p className="ml-8 px-3 pb-1 text-xs text-accent-red break-all">
           {error}
         </p>
       )}
@@ -763,8 +763,8 @@ function TrashFolderRow({
     <>
       <div className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-paper-sunk/70">
         <div className="flex-1 min-w-0">
-          <p className="font-serif text-[15px] text-ink truncate">{name}</p>
-          <p className="text-[10px] tracking-wide uppercase text-ink-muted">
+          <p className="text-base font-semibold text-ink truncate">{name}</p>
+          <p className="text-xs tracking-[0.04em] uppercase font-medium text-ink-muted">
             {subtitle}
             {deletedAt ? ` · deleted ${relTime(deletedAt)}` : ""}
           </p>
@@ -783,14 +783,14 @@ function TrashFolderRow({
             <button
               onClick={onRestore}
               disabled={busy}
-              className="rounded-full border border-rule px-3 py-1.5 text-[11px] tracking-wide uppercase text-ink-soft hover:text-ink disabled:opacity-50"
+              className="rounded-full border border-rule px-3 py-1.5 text-xs tracking-[0.04em] uppercase font-medium text-ink-soft hover:text-ink disabled:opacity-50"
             >
               Restore
             </button>
             <button
               onClick={onRequestPurge}
               disabled={busy}
-              className="rounded-full px-2 py-1.5 text-[11px] tracking-wide uppercase text-accent-red/80 hover:text-accent-red disabled:opacity-50"
+              className="rounded-full px-2 py-1.5 text-xs tracking-[0.04em] uppercase font-medium text-accent-red/80 hover:text-accent-red disabled:opacity-50"
               aria-label="Permanently delete"
             >
               Purge
@@ -799,7 +799,7 @@ function TrashFolderRow({
         )}
       </div>
       {error && (
-        <p className="px-3 pb-1 text-[11px] text-accent-red break-all">{error}</p>
+        <p className="px-3 pb-1 text-xs text-accent-red break-all">{error}</p>
       )}
     </>
   );
@@ -831,8 +831,8 @@ function TrashCardRow({
     <>
       <div className="flex items-start gap-3 px-3 py-2.5 rounded-lg hover:bg-paper-sunk/70">
         <div className="flex-1 min-w-0">
-          <p className="text-[13px] text-ink line-clamp-2">{question}</p>
-          <p className="text-[10px] tracking-wide uppercase text-ink-muted mt-0.5">
+          <p className="text-sm text-ink line-clamp-2">{question}</p>
+          <p className="text-xs tracking-[0.04em] uppercase font-medium text-ink-muted mt-0.5">
             {path}
           </p>
         </div>
@@ -850,14 +850,14 @@ function TrashCardRow({
             <button
               onClick={onRestore}
               disabled={busy}
-              className="rounded-full border border-rule px-3 py-1.5 text-[11px] tracking-wide uppercase text-ink-soft hover:text-ink disabled:opacity-50"
+              className="rounded-full border border-rule px-3 py-1.5 text-xs tracking-[0.04em] uppercase font-medium text-ink-soft hover:text-ink disabled:opacity-50"
             >
               Restore
             </button>
             <button
               onClick={onRequestPurge}
               disabled={busy}
-              className="rounded-full px-2 py-1.5 text-[11px] tracking-wide uppercase text-accent-red/80 hover:text-accent-red disabled:opacity-50"
+              className="rounded-full px-2 py-1.5 text-xs tracking-[0.04em] uppercase font-medium text-accent-red/80 hover:text-accent-red disabled:opacity-50"
               aria-label="Permanently delete"
             >
               Purge
@@ -866,7 +866,7 @@ function TrashCardRow({
         )}
       </div>
       {error && (
-        <p className="px-3 pb-1 text-[11px] text-accent-red break-all">{error}</p>
+        <p className="px-3 pb-1 text-xs text-accent-red break-all">{error}</p>
       )}
     </>
   );
@@ -895,19 +895,19 @@ function RowEditInput({
           if (e.key === "Enter") onSave();
           else if (e.key === "Escape") onCancel();
         }}
-        className="flex-1 bg-paper border border-rule rounded-md px-2 py-1.5 text-[15px] text-ink focus:outline-none focus:border-ink-soft"
+        className="flex-1 bg-paper border border-rule rounded-md px-2 py-1.5 text-base text-ink focus:outline-none focus:border-ink-soft"
       />
       <button
         onClick={onCancel}
         disabled={busy}
-        className="text-[11px] tracking-wide uppercase text-ink-muted"
+        className="text-xs tracking-[0.04em] uppercase font-medium text-ink-muted"
       >
         Cancel
       </button>
       <button
         onClick={onSave}
         disabled={busy}
-        className="rounded-full bg-ink text-paper px-3 py-1.5 text-[11px] tracking-wide uppercase disabled:opacity-50"
+        className="rounded-full bg-ink text-paper px-3 py-1.5 text-xs tracking-[0.04em] uppercase font-medium disabled:opacity-50"
       >
         {busy ? "Saving…" : "Save"}
       </button>
@@ -936,14 +936,14 @@ function RowConfirmDelete({
       <button
         onClick={onCancel}
         disabled={busy}
-        className="text-[11px] tracking-wide uppercase text-ink-muted"
+        className="text-xs tracking-[0.04em] uppercase font-medium text-ink-muted"
       >
         Cancel
       </button>
       <button
         onClick={onConfirm}
         disabled={busy}
-        className={`rounded-full px-3 py-1.5 text-[11px] tracking-wide uppercase text-paper disabled:opacity-50 ${destructive ? "bg-accent-red" : "bg-accent-red/90"}`}
+        className={`rounded-full px-3 py-1.5 text-xs tracking-[0.04em] uppercase font-medium text-paper disabled:opacity-50 ${destructive ? "bg-accent-red" : "bg-accent-red/90"}`}
       >
         {busy ? "…" : confirmLabel}
       </button>

@@ -57,7 +57,7 @@ export function CommentsView() {
       <header className="sticky top-0 z-20 flex items-center justify-between px-5 pt-[max(env(safe-area-inset-top),1rem)] pb-3 bg-paper/90 backdrop-blur-md border-b border-rule/60">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-xs tracking-wide uppercase text-ink-soft hover:text-ink"
+          className="inline-flex items-center gap-2 text-xs tracking-[0.04em] uppercase font-medium text-ink-soft hover:text-ink"
         >
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden>
             <path
@@ -70,33 +70,31 @@ export function CommentsView() {
           </svg>
           Back
         </Link>
-        <h1 className="font-serif text-xl text-ink">Comments</h1>
+        <h1 className="text-xl font-semibold text-ink">Comments</h1>
         <div className="w-12" />
       </header>
 
       <div className="max-w-xl mx-auto px-5 py-6 space-y-4">
         {error ? (
           <div className="text-center py-16">
-            <p className="font-serif text-2xl text-ink mb-2">
+            <p className="text-2xl font-semibold text-ink mb-2">
               Couldn&rsquo;t load comments
             </p>
-            <p className="text-xs text-ink-muted break-all">{error}</p>
+            <p className="text-sm text-ink-soft break-all">{error}</p>
           </div>
         ) : comments === null ? (
-          <p className="text-center text-sm tracking-wide uppercase text-ink-muted py-16">
-            Loading…
-          </p>
+          <p className="text-center text-sm text-ink-soft py-16">Loading…</p>
         ) : comments.length === 0 ? (
           <div className="text-center py-16">
-            <p className="font-serif text-2xl text-ink mb-2">No comments yet</p>
-            <p className="text-sm text-ink-muted max-w-xs mx-auto">
+            <p className="text-2xl font-semibold text-ink mb-2">No comments yet</p>
+            <p className="text-base text-ink-soft max-w-xs mx-auto">
               Tap &ldquo;Add comment&rdquo; under a card while reviewing to jot
               down ideas here.
             </p>
           </div>
         ) : (
           <>
-            <p className="text-xs tracking-wide uppercase text-ink-muted">
+            <p className="text-xs tracking-[0.04em] uppercase font-semibold text-ink-soft">
               {comments.length} comment{comments.length === 1 ? "" : "s"}
             </p>
             {comments.map((c) => (
@@ -106,10 +104,10 @@ export function CommentsView() {
               >
                 <div className="flex items-start justify-between gap-3 mb-3">
                   <div className="min-w-0">
-                    <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-1">
+                    <p className="text-xs tracking-[0.04em] uppercase font-semibold text-bronze mb-1">
                       {c.folderPath}
                     </p>
-                    <p className="text-sm text-ink line-clamp-2">
+                    <p className="text-base font-medium text-ink line-clamp-2">
                       {c.question}
                     </p>
                   </div>
@@ -117,16 +115,16 @@ export function CommentsView() {
                     type="button"
                     onClick={() => clearComment(c.id)}
                     disabled={clearingId === c.id}
-                    className="shrink-0 text-[10px] tracking-[0.08em] uppercase text-ink-muted hover:text-accent-red transition-colors disabled:opacity-50"
+                    className="shrink-0 text-xs tracking-[0.04em] uppercase font-medium text-ink-muted hover:text-accent-red transition-colors disabled:opacity-50"
                     aria-label="Clear comment"
                   >
                     {clearingId === c.id ? "Clearing…" : "Clear"}
                   </button>
                 </div>
-                <p className="text-[15px] leading-[1.6] text-ink whitespace-pre-line border-l-2 border-bronze/40 pl-4">
+                <p className="text-lg leading-[1.65] text-ink whitespace-pre-line border-l-2 border-bronze/40 pl-4">
                   {c.note}
                 </p>
-                <p className="mt-3 text-[10px] tracking-[0.08em] uppercase text-ink-muted">
+                <p className="mt-3 text-xs tracking-[0.04em] uppercase font-medium text-ink-muted">
                   {new Date(c.updatedAt).toLocaleDateString(undefined, {
                     year: "numeric",
                     month: "short",

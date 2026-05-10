@@ -75,7 +75,7 @@ export function BottomTabs({ active, onSelect }: BottomTabsProps) {
     <nav
       className="fixed left-0 right-0 bottom-0 z-30 bg-paper/95 backdrop-blur-xl border-t border-rule/60"
       style={{
-        paddingBottom: "max(env(safe-area-inset-bottom), 0.375rem)",
+        paddingBottom: "max(env(safe-area-inset-bottom), 0.5rem)",
       }}
       aria-label="Sections"
     >
@@ -106,8 +106,10 @@ export function BottomTabs({ active, onSelect }: BottomTabsProps) {
                   {tab.icon}
                 </span>
                 <span
-                  className={`text-[10px] tracking-[0.12em] uppercase transition-colors ${
-                    isActive ? "text-bronze font-semibold" : "text-ink-muted group-hover:text-ink"
+                  className={`text-xs tracking-[0.02em] uppercase transition-colors ${
+                    isActive
+                      ? "text-bronze font-semibold"
+                      : "text-ink-muted font-medium group-hover:text-ink"
                   }`}
                 >
                   {tab.label}

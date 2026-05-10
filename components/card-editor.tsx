@@ -172,12 +172,12 @@ export function CardEditor({
             <div className="w-10 h-1 rounded-full bg-rule" />
           </div>
           <div className="px-6 pt-3 pb-4 flex items-baseline justify-between">
-            <h2 className="font-serif text-2xl text-ink">
+            <h2 className="text-2xl font-semibold text-ink">
               {mode === "edit" ? "Edit card" : "New card"}
             </h2>
             <button
               onClick={onClose}
-              className="text-xs tracking-wide uppercase text-ink-muted hover:text-ink"
+              className="text-xs tracking-[0.04em] uppercase font-medium text-ink-muted hover:text-ink"
             >
               Close
             </button>
@@ -202,7 +202,7 @@ export function CardEditor({
                       key={t}
                       type="button"
                       onClick={() => update("tag", active ? null : t)}
-                      className={`rounded-full px-3 py-1.5 text-xs tracking-wide transition-colors ${
+                      className={`rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${
                         active
                           ? "bg-ink text-paper"
                           : "bg-paper-sunk text-ink-soft border border-rule hover:text-ink"
@@ -216,7 +216,7 @@ export function CardEditor({
                   <button
                     type="button"
                     onClick={() => update("tag", null)}
-                    className="rounded-full px-3 py-1.5 text-xs tracking-wide text-ink-muted hover:text-ink"
+                    className="rounded-full px-3 py-1.5 text-xs font-medium text-ink-muted hover:text-ink"
                   >
                     Clear
                   </button>
@@ -229,7 +229,7 @@ export function CardEditor({
                 value={value.question}
                 onChange={(e) => update("question", e.target.value)}
                 rows={3}
-                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-[15px] text-ink focus:outline-none focus:border-ink-soft resize-y"
+                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-base leading-[1.55] text-ink focus:outline-none focus:border-ink-soft resize-y"
                 placeholder="Write the question here."
               />
             </Field>
@@ -239,7 +239,7 @@ export function CardEditor({
                 value={value.answer}
                 onChange={(e) => update("answer", e.target.value)}
                 rows={5}
-                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-[15px] text-ink focus:outline-none focus:border-ink-soft resize-y"
+                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-base leading-[1.55] text-ink focus:outline-none focus:border-ink-soft resize-y"
                 placeholder="Write the answer here."
               />
             </Field>
@@ -257,7 +257,7 @@ export function CardEditor({
                 type="text"
                 value={value.referenceSection}
                 onChange={(e) => update("referenceSection", e.target.value)}
-                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-2.5 text-[15px] text-ink focus:outline-none focus:border-ink-soft"
+                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-2.5 text-base text-ink focus:outline-none focus:border-ink-soft"
                 placeholder="e.g. Oxford Ch 2, or Dr Smith's advice"
               />
             </Field>
@@ -267,7 +267,7 @@ export function CardEditor({
                 value={value.reference}
                 onChange={(e) => update("reference", e.target.value)}
                 rows={4}
-                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-[14px] text-ink focus:outline-none focus:border-ink-soft resize-y"
+                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-base leading-[1.55] text-ink focus:outline-none focus:border-ink-soft resize-y"
                 placeholder="Paste the source text here."
               />
             </Field>
@@ -282,20 +282,20 @@ export function CardEditor({
                   <div className="flex items-center gap-3">
                     <div className="flex-1">
                       <p className="text-sm text-ink-soft">Move card to trash?</p>
-                      <p className="text-[11px] text-ink-muted mt-0.5">
+                      <p className="text-xs text-ink-soft mt-0.5">
                         You can restore it from Show trash.
                       </p>
                     </div>
                     <button
                       onClick={() => setConfirmDelete(false)}
-                      className="text-xs tracking-wide uppercase text-ink-muted"
+                      className="text-xs tracking-[0.04em] uppercase font-medium text-ink-muted"
                     >
                       Cancel
                     </button>
                     <button
                       onClick={doDelete}
                       disabled={deleting}
-                      className="rounded-full bg-accent-red text-paper px-4 py-2 text-xs tracking-wide uppercase disabled:opacity-50"
+                      className="rounded-full bg-accent-red text-paper px-4 py-2 text-xs tracking-[0.04em] uppercase font-semibold disabled:opacity-50"
                     >
                       {deleting ? "Deleting…" : "Delete"}
                     </button>
@@ -303,7 +303,7 @@ export function CardEditor({
                 ) : (
                   <button
                     onClick={() => setConfirmDelete(true)}
-                    className="text-xs tracking-wide uppercase text-accent-red hover:underline"
+                    className="text-xs tracking-[0.04em] uppercase font-medium text-accent-red hover:underline"
                   >
                     Delete card
                   </button>
@@ -315,14 +315,14 @@ export function CardEditor({
           <div className="px-6 py-4 border-t border-rule/60 flex gap-3">
             <button
               onClick={onClose}
-              className="flex-1 rounded-full border border-rule py-3 text-sm tracking-wide uppercase text-ink-soft"
+              className="flex-1 rounded-full border border-rule py-3 text-sm tracking-[0.04em] uppercase font-semibold text-ink-soft"
             >
               Cancel
             </button>
             <button
               onClick={save}
               disabled={saving}
-              className="flex-1 rounded-full bg-ink text-paper py-3 text-sm tracking-wide uppercase disabled:opacity-50"
+              className="flex-1 rounded-full bg-ink text-paper py-3 text-sm tracking-[0.04em] uppercase font-semibold disabled:opacity-50"
             >
               {saving ? "Saving…" : mode === "edit" ? "Save" : "Create"}
             </button>
@@ -343,7 +343,7 @@ function Field({
 }) {
   return (
     <label className="block">
-      <span className="block text-[10px] tracking-[0.12em] uppercase text-bronze mb-1.5">
+      <span className="block text-xs tracking-[0.04em] uppercase font-semibold text-bronze mb-1.5">
         {label}
       </span>
       {children}
@@ -406,7 +406,7 @@ function ImageUpload({
             alt=""
             className="w-full max-h-48 object-contain bg-paper"
           />
-          <div className="flex items-center justify-between px-3 py-2 text-[11px] text-ink-muted border-t border-rule/60">
+          <div className="flex items-center justify-between px-3 py-2 text-xs text-ink-soft border-t border-rule/60">
             <span className="truncate pr-3">{value}</span>
             <button
               type="button"
@@ -765,14 +765,14 @@ function InlineCreate({
             }
           }}
           placeholder={placeholder}
-          className="flex-1 rounded-lg border border-rule bg-paper px-2.5 py-1.5 text-[13px] text-ink focus:outline-none focus:border-ink-soft"
+          className="flex-1 rounded-lg border border-rule bg-paper px-2.5 py-1.5 text-base text-ink focus:outline-none focus:border-ink-soft"
           disabled={busy}
         />
         <button
           type="button"
           onClick={submit}
           disabled={busy || !name.trim()}
-          className="rounded-full bg-ink text-paper px-3 py-1 text-[11px] tracking-wide uppercase disabled:opacity-50"
+          className="rounded-full bg-ink text-paper px-3 py-1.5 text-xs tracking-[0.04em] uppercase font-semibold disabled:opacity-50"
         >
           {busy ? "…" : "Add"}
         </button>
@@ -783,12 +783,12 @@ function InlineCreate({
             setName("");
             setErr(null);
           }}
-          className="text-[11px] tracking-wide uppercase text-ink-muted hover:text-ink"
+          className="text-xs tracking-[0.04em] uppercase font-medium text-ink-muted hover:text-ink"
         >
           Cancel
         </button>
       </div>
-      {err && <p className="text-[11px] text-accent-red mt-1">{err}</p>}
+      {err && <p className="text-xs text-accent-red mt-1">{err}</p>}
     </div>
   );
 }

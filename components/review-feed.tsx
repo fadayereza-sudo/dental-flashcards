@@ -446,7 +446,7 @@ export function ReviewFeed() {
           <button
             onClick={() => setDrawerOpen(true)}
             aria-label="Filter"
-            className="pointer-events-auto relative inline-flex items-center justify-center sm:justify-start sm:gap-2 rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 sm:w-auto sm:h-auto sm:px-3.5 sm:py-2 text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm"
+            className="pointer-events-auto relative inline-flex items-center justify-center sm:justify-start sm:gap-2 rounded-full bg-paper/80 backdrop-blur-md w-9 h-9 sm:w-auto sm:h-auto sm:px-3.5 sm:py-2 text-xs tracking-[0.04em] uppercase font-medium text-ink-soft border border-rule/60 shadow-sm"
           >
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden>
               <path d="M1 2h10M3 6h6M5 10h2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
@@ -511,7 +511,7 @@ export function ReviewFeed() {
             </svg>
           </Link>
           <div
-            className="pointer-events-auto inline-flex items-center gap-1 sm:gap-1.5 rounded-full bg-paper/80 backdrop-blur-md px-2.5 sm:px-3.5 py-1.5 sm:py-2 text-[11px] sm:text-xs tracking-wide uppercase text-ink-soft border border-rule/60 shadow-sm whitespace-nowrap"
+            className="pointer-events-auto inline-flex items-center gap-1 sm:gap-1.5 rounded-full bg-paper/80 backdrop-blur-md px-2.5 sm:px-3.5 py-1.5 sm:py-2 text-xs tracking-[0.04em] uppercase font-medium text-ink-soft border border-rule/60 shadow-sm whitespace-nowrap"
             aria-label={`${sessionDone} of ${sessionTotal} reviewed`}
           >
             <span className="font-mono text-ink">{sessionDone}</span>
@@ -522,19 +522,17 @@ export function ReviewFeed() {
 
       {loading ? (
         <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-ink-muted text-sm tracking-wide uppercase">
-            Loading…
-          </span>
+          <span className="text-ink-soft text-sm">Loading…</span>
         </div>
       ) : fetchError ? (
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 px-8 text-center">
-          <p className="font-serif text-2xl text-ink">Couldn&rsquo;t load cards</p>
+          <p className="text-2xl font-semibold text-ink">Couldn&rsquo;t load cards</p>
           <p className="text-xs text-ink-muted break-all max-w-xs">
             {fetchError}
           </p>
           <button
             onClick={fetchCards}
-            className="mt-2 rounded-full bg-ink text-paper px-5 py-2.5 text-sm tracking-wide uppercase"
+            className="mt-2 rounded-full bg-ink text-paper px-5 py-2.5 text-sm tracking-[0.04em] uppercase font-semibold"
           >
             Retry
           </button>
@@ -560,7 +558,7 @@ export function ReviewFeed() {
               <button
                 type="button"
                 onClick={() => openNote(c)}
-                className="inline-flex items-center gap-2 rounded-full bg-paper-sunk border border-rule px-3.5 py-1.5 text-[10px] tracking-[0.08em] uppercase text-ink-muted hover:text-ink transition-colors"
+                className="inline-flex items-center gap-2 rounded-full bg-paper-sunk border border-rule px-3.5 py-1.5 text-xs tracking-[0.04em] uppercase font-medium text-ink-muted hover:text-ink transition-colors"
                 aria-label={c.note ? "Edit comment on this card" : "Add comment to this card"}
               >
                 <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden>
@@ -622,10 +620,10 @@ export function ReviewFeed() {
       {undoCardId !== null && (
         <div className="fixed left-0 right-0 z-50 flex justify-center pointer-events-none bottom-[calc(env(safe-area-inset-bottom)+5rem)]">
           <div className="pointer-events-auto flex items-center gap-3 rounded-full bg-ink text-paper px-4 py-2.5 shadow-[0_8px_24px_rgba(0,0,0,0.25)]">
-            <span className="text-xs tracking-wide uppercase">Card deleted</span>
+            <span className="text-xs tracking-[0.04em] uppercase font-medium">Card deleted</span>
             <button
               onClick={undoDelete}
-              className="rounded-full border border-paper/40 px-3 py-1 text-[11px] tracking-wide uppercase hover:bg-paper/10"
+              className="rounded-full border border-paper/40 px-3 py-1 text-xs tracking-[0.04em] uppercase font-medium hover:bg-paper/10"
             >
               Undo
             </button>
@@ -669,7 +667,7 @@ export function ReviewFeed() {
 
             <div className="flex items-start justify-between px-6 pb-4 border-b border-rule/70">
               <div className="min-w-0 pr-4">
-                <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-1">
+                <p className="text-xs tracking-[0.04em] uppercase font-semibold text-bronze mb-1">
                   Comment on card
                 </p>
                 <p className="text-sm text-ink line-clamp-2">
@@ -699,7 +697,7 @@ export function ReviewFeed() {
                 onChange={(e) => setNoteDraft(e.target.value)}
                 placeholder="What would improve this card or the app? e.g. rewrite the question, add an image, fix a typo, new feature idea…"
                 rows={8}
-                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-[15px] leading-[1.6] text-ink placeholder:text-ink-muted/60 focus:outline-none focus:border-ink-soft resize-none"
+                className="w-full rounded-xl border border-rule bg-paper-sunk px-4 py-3 text-base leading-[1.6] text-ink placeholder:text-ink-muted/60 focus:outline-none focus:border-ink-soft resize-none"
                 autoFocus
               />
               {noteError && (
@@ -712,7 +710,7 @@ export function ReviewFeed() {
                 type="button"
                 onClick={closeNote}
                 disabled={noteSaving}
-                className="rounded-full px-4 py-2 text-xs tracking-wide uppercase text-ink-muted hover:text-ink transition-colors disabled:opacity-50"
+                className="rounded-full px-4 py-2 text-xs tracking-[0.04em] uppercase font-medium text-ink-muted hover:text-ink transition-colors disabled:opacity-50"
               >
                 Cancel
               </button>
@@ -720,7 +718,7 @@ export function ReviewFeed() {
                 type="button"
                 onClick={saveNote}
                 disabled={noteSaving}
-                className="rounded-full bg-ink text-paper px-5 py-2 text-xs tracking-wide uppercase disabled:opacity-50"
+                className="rounded-full bg-ink text-paper px-5 py-2 text-xs tracking-[0.04em] uppercase font-medium disabled:opacity-50"
               >
                 {noteSaving ? "Saving…" : "Save"}
               </button>
@@ -736,7 +734,7 @@ export function ReviewFeed() {
 function EmptyState({ selectedCount }: { selectedCount: number }) {
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 px-8 text-center">
-      <p className="font-serif text-3xl text-ink">Nothing due.</p>
+      <p className="text-3xl font-semibold text-ink">Nothing due.</p>
       <p className="text-sm text-ink-muted max-w-xs">
         {selectedCount > 0
           ? "No cards match your selected folders, or all of them are scheduled for later."
@@ -749,9 +747,7 @@ function EmptyState({ selectedCount }: { selectedCount: number }) {
 function LoadingNextBatch() {
   return (
     <div className="flex flex-col items-center gap-3 text-center">
-      <span className="text-ink-muted text-sm tracking-wide uppercase">
-        Loading more…
-      </span>
+      <span className="text-ink-soft text-sm">Loading more…</span>
     </div>
   );
 }
@@ -759,13 +755,13 @@ function LoadingNextBatch() {
 function EndOfFeed({ onRefresh }: { onRefresh: () => void }) {
   return (
     <div className="flex flex-col items-center gap-4 text-center">
-      <p className="font-serif text-3xl text-ink">End of session.</p>
+      <p className="text-3xl font-semibold text-ink">End of session.</p>
       <p className="text-sm text-ink-muted max-w-xs">
         Every due card has been seen. Rest, or refresh to pull newly-due cards.
       </p>
       <button
         onClick={onRefresh}
-        className="mt-2 rounded-full bg-ink text-paper px-5 py-2.5 text-sm tracking-wide uppercase"
+        className="mt-2 rounded-full bg-ink text-paper px-5 py-2.5 text-sm tracking-[0.04em] uppercase font-semibold"
       >
         Refresh
       </button>

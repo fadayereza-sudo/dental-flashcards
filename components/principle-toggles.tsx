@@ -62,14 +62,14 @@ export function PrincipleToggleList({
             <div key={truth.id}>
               <button
                 onClick={() => onToggle(truth.id)}
-                className={`w-full text-left rounded-lg bg-paper-sunk hover:bg-paper transition-colors border-l-2 ${borderClass} px-3 py-2 flex items-start justify-between gap-3`}
+                className={`w-full text-left rounded-md bg-paper-sunk hover:bg-paper transition-colors border-l-2 ${borderClass} px-3 py-2.5 min-h-[44px] flex items-start justify-between gap-3`}
               >
-                <span className={`${titleClass} text-sm font-medium flex-1`}>
+                <span className={`${titleClass} text-base font-medium flex-1`}>
                   {highlight(truth.title, highlightTerm)}
                 </span>
                 {truth.badge && (
                   <span
-                    className={`shrink-0 mt-0.5 text-[10px] tracking-[0.14em] uppercase font-medium whitespace-nowrap px-2 py-0.5 rounded-full ${
+                    className={`shrink-0 mt-0.5 text-xs tracking-[0.04em] uppercase font-semibold whitespace-nowrap px-2 py-0.5 rounded-full ${
                       truth.badge.className ?? "text-bronze"
                     }`}
                   >
@@ -77,7 +77,7 @@ export function PrincipleToggleList({
                   </span>
                 )}
                 <svg
-                  className={`w-4 h-4 flex-shrink-0 mt-0.5 transition-transform ${
+                  className={`w-4 h-4 flex-shrink-0 mt-1 transition-transform ${
                     truthOpen ? "rotate-90" : ""
                   }`}
                   viewBox="0 0 24 24"
@@ -90,18 +90,18 @@ export function PrincipleToggleList({
               </button>
 
               {truthOpen && (
-                <div className="mt-2 px-3 py-3 bg-paper rounded-lg">
+                <div className="mt-2 px-3 py-3 bg-paper rounded-md max-w-[68ch]">
                   {truth.broaderContext && (
                     <div className="mb-5 border-l-2 border-bronze/40 pl-3 py-1">
-                      <p className="text-[10px] tracking-[0.12em] uppercase text-bronze font-medium mb-1.5">
+                      <p className="text-xs tracking-[0.04em] text-bronze font-semibold mb-1.5">
                         Broader context
                       </p>
-                      <p className="text-[14px] text-ink-soft leading-[1.6] italic">
+                      <p className="text-base text-ink-soft leading-[1.6] italic">
                         {highlight(truth.broaderContext, highlightTerm)}
                       </p>
                     </div>
                   )}
-                  <div className="text-[15px] text-ink leading-[1.65]">
+                  <div className="text-lg text-ink leading-[1.65]">
                     {renderBody(
                       truth.body,
                       truth.citations || [],
@@ -171,11 +171,11 @@ function renderBody(
   }
 
   return groups.map((group, gi) => (
-    <div key={gi} className={gi > 0 ? "mt-5" : ""}>
+    <div key={gi} className={gi > 0 ? "mt-6" : ""}>
       {group.heading && (
-        <h4 className="text-[11px] tracking-[0.16em] uppercase text-bronze font-semibold mb-2 leading-snug">
+        <h3 className="text-base font-semibold text-ink mb-3 leading-snug">
           {renderParagraph(group.heading, citations, onCitation, highlightTerm)}
-        </h4>
+        </h3>
       )}
       {group.blocks.map((block, bi) => {
         if (block.kind === "list") {
@@ -234,7 +234,7 @@ function renderParagraph(
             key={`cite-${match.index}`}
             type="button"
             onClick={() => onCitation(citation)}
-            className="inline-flex items-baseline align-baseline mx-[1px] text-[11px] font-semibold text-bronze hover:text-ink transition-colors"
+            className="inline-flex items-baseline align-baseline mx-[2px] text-[13px] font-semibold text-bronze hover:text-ink transition-colors"
             aria-label={`Citation ${id}`}
           >
             [{id}]
@@ -327,10 +327,10 @@ function CitationSheet({
 
         <div className="flex items-start justify-between px-6 pb-3 border-b border-rule/70">
           <div className="min-w-0 pr-4">
-            <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-1">
+            <p className="text-xs tracking-[0.04em] uppercase text-bronze font-semibold mb-1">
               Source · {active.category}
             </p>
-            <p className="text-xs text-ink-muted line-clamp-2">
+            <p className="text-sm text-ink-soft line-clamp-2">
               {active.truthTitle}
             </p>
           </div>
@@ -358,11 +358,11 @@ function CitationSheet({
             WebkitOverflowScrolling: "touch",
           }}
         >
-          <blockquote className="border-l-2 border-bronze/60 pl-4 font-serif text-[16px] leading-[1.7] text-ink whitespace-pre-wrap">
+          <blockquote className="quote-block">
             {active.citation.quote}
           </blockquote>
           {sourceLabel && (
-            <p className="mt-4 text-[10px] tracking-[0.12em] uppercase text-ink-muted">
+            <p className="mt-4 text-xs tracking-[0.04em] uppercase text-ink-soft font-medium">
               {sourceLabel}
             </p>
           )}

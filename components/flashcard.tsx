@@ -5,6 +5,7 @@ import { createPortal } from "react-dom";
 import { useAnimatedSheet } from "@/lib/use-animated-sheet";
 import { useDragToClose } from "@/lib/use-drag-to-close";
 import { useFitText } from "@/lib/use-fit-text";
+import { ManualMarkdown } from "@/components/manual-markdown";
 
 const MD_LINK = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g;
 
@@ -88,7 +89,7 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
 
   const questionFitRef = useRef<HTMLDivElement>(null);
   const questionTextRef = useRef<HTMLParagraphElement>(null);
-  useFitText(questionTextRef, questionFitRef, card.question + (card.image ?? ""), 24, 12);
+  useFitText(questionTextRef, questionFitRef, card.question + (card.image ?? ""), 24, 15);
 
   const stateLabel =
     card.state === 0
@@ -106,7 +107,7 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
   };
 
   const metaRow = (
-    <div className="flex items-center justify-between text-[10px] tracking-[0.08em] uppercase text-ink-muted mb-4">
+    <div className="flex items-center justify-between text-xs tracking-[0.04em] uppercase text-ink-muted font-medium mb-4">
       <span>{stateLabel}</span>
       {(card.source || card.referenceSection) && (
         <span className="truncate max-w-[60%] text-right">
@@ -135,13 +136,13 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
         aria-label={flipped ? "Show question" : "Show answer"}
       >
         <div
-          className={`flip-3d relative w-full min-h-[50dvh] rounded-[20px] border border-rule bg-paper-sunk shadow-[0_1px_0_rgba(255,255,255,0.6)_inset,0_20px_40px_-28px_rgba(28,25,23,0.35)] ${flipped ? "flipped" : ""}`}
+          className={`flip-3d relative w-full min-h-[50dvh] rounded-xl border border-rule bg-paper-sunk shadow-[0_1px_0_rgba(255,255,255,0.6)_inset,0_20px_40px_-28px_rgba(28,25,23,0.35)] ${flipped ? "flipped" : ""}`}
         >
           {/* Front */}
-          <div className="flip-face absolute inset-0 p-8 flex flex-col">
+          <div className="flip-face absolute inset-0 p-6 flex flex-col">
             <div className="flex-shrink-0">
               {metaRow}
-              <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-6">
+              <p className="text-xs tracking-[0.04em] uppercase text-bronze font-semibold mb-6">
                 Question
               </p>
             </div>
@@ -151,7 +152,7 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
             >
               <p
                 ref={questionTextRef}
-                className="leading-[1.3] text-ink"
+                className="leading-[1.3] text-ink font-medium"
                 style={{ fontSize: "24px" }}
               >
                 {card.question}
@@ -164,22 +165,20 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
                 />
               )}
             </div>
-            <div className="flex-shrink-0 flex items-center justify-between text-[10px] tracking-[0.08em] uppercase text-ink-muted pt-6 border-t border-rule/70">
+            <div className="flex-shrink-0 flex items-center justify-between text-xs tracking-[0.04em] uppercase text-ink-muted font-medium pt-5 border-t border-rule/70">
               <span>Tap to reveal</span>
               <span aria-hidden>▾</span>
             </div>
           </div>
 
           {/* Back */}
-          <div className="flip-face flip-back absolute inset-0 p-8 flex flex-col justify-between">
+          <div className="flip-face flip-back absolute inset-0 p-6 flex flex-col justify-between">
             <div className="overflow-y-auto pr-1">
               {metaRow}
-              <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-6">
+              <p className="text-xs tracking-[0.04em] uppercase text-bronze font-semibold mb-6">
                 Answer &amp; Reasoning
               </p>
-              <p className="text-[18px] leading-[1.5] text-ink">
-                {card.answer}
-              </p>
+              <ManualMarkdown source={card.answer} className="text-ink" />
               {card.image && (
                 <img
                   src={card.image}
@@ -188,7 +187,7 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
                 />
               )}
             </div>
-            <div className="flex items-center justify-between gap-3 text-[10px] tracking-[0.08em] uppercase text-ink-muted pt-6 border-t border-rule/70">
+            <div className="flex items-center justify-between gap-3 text-xs tracking-[0.04em] uppercase text-ink-muted font-medium pt-5 border-t border-rule/70">
               {card.reference || card.referenceSection ? (
                 <button
                   type="button"
@@ -259,17 +258,17 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
           <button
             key={r.value}
             onClick={() => handleRate(r.value)}
-            className="group flex flex-col items-center justify-center gap-0.5 rounded-2xl bg-paper-sunk border border-rule hover:border-ink-soft active:scale-[0.97] transition py-3"
+            className="group flex flex-col items-center justify-center gap-0.5 rounded-lg bg-paper-sunk border border-rule hover:border-ink-soft active:scale-[0.97] transition py-3"
           >
-            <span className={`text-base font-medium ${r.accent}`}>{r.label}</span>
-            <span className="text-[10px] tracking-[0.08em] uppercase text-ink-muted">
+            <span className={`text-base font-semibold ${r.accent}`}>{r.label}</span>
+            <span className="text-xs tracking-[0.04em] uppercase text-ink-muted font-medium">
               {r.sub}
             </span>
           </button>
         ))}
       </div>
       {rated && (
-        <p className="mt-3 text-center text-[10px] tracking-[0.08em] uppercase text-ink-muted">
+        <p className="mt-3 text-center text-xs tracking-[0.04em] uppercase text-ink-muted font-medium">
           Scheduled — scroll on
         </p>
       )}
@@ -299,14 +298,14 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
             {/* Header */}
             <div className="flex items-start justify-between px-6 pb-4 border-b border-rule/70">
               <div className="min-w-0 pr-4">
-                <p className="text-[10px] tracking-[0.12em] uppercase text-bronze mb-1">
+                <p className="text-xs tracking-[0.04em] uppercase text-bronze font-semibold mb-1">
                   Source reference
                 </p>
                 {card.source && (
-                  <p className="text-xs text-ink-soft truncate">{card.source}</p>
+                  <p className="text-sm text-ink-soft truncate">{card.source}</p>
                 )}
                 {card.referenceSection && (
-                  <p className="text-sm font-medium text-ink mt-1">
+                  <p className="text-base font-semibold text-ink mt-1">
                     {card.referenceSection}
                   </p>
                 )}
@@ -326,11 +325,11 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
             {/* Body */}
             <div className="flex-1 overflow-y-auto px-6 py-5">
               {card.reference ? (
-                <blockquote className="text-[15px] leading-[1.7] text-ink whitespace-pre-line border-l-2 border-bronze/40 pl-4">
+                <blockquote className="quote-block whitespace-pre-line">
                   {renderWithLinks(card.reference)}
                 </blockquote>
               ) : (
-                <p className="text-sm text-ink-muted italic">
+                <p className="text-base text-ink-soft italic">
                   No reference text saved for this card.
                 </p>
               )}
