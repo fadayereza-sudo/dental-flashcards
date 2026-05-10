@@ -1,0 +1,430 @@
+{
+  "slug": "cheeks",
+  "title": "Cheeks",
+  "order": 3,
+  "description": "Conditions affecting the buccal mucosa, from benign keratotic variants to inflammatory and potentially malignant lesions.",
+  "problems": [
+    {
+      "id": "cheeks-001",
+      "description": "Recurrent shallow ulcers on the inner cheek, appearing in crops and healing without scarring within a fortnight.",
+      "conditionName": "Recurrent aphthous stomatitis (RAS) — minor type",
+      "prevalence": "common",
+      "etiology": "An immunologically mediated reaction in genetically susceptible individuals: a T-cell attack on the non-keratinized mucosa [1]. The reason the buccal mucosa is so commonly affected is that it's exactly the kind of non-keratinized surface where RAS favours developing [2].\n\nSeveral triggers can kick off or worsen attacks:\n\n- **Haematinic deficiency**: iron, vitamin B12, or folate deficiency can precipitate or worsen episodes [1, 3].\n- **Systemic disease**: gastrointestinal conditions — Crohn's disease, ulcerative colitis, coeliac disease — are recognised associations [1].\n- **Local trauma**: mucosal injury (sharp restoration edge, anaesthetised biting) can localise an ulcer to that site [4].\n- **Medications**: nicorandil, NSAIDs, alendronic acid, methotrexate [1, 3].\n- **Hormonal / stress**: fall in progesterone at menstruation, stress [1].\n- **Smoking cessation**: paradoxically, stopping smoking can precipitate ulceration [3].",
+      "presentation": "The patient reports painful mouth ulcers that come and go, usually starting in childhood or adolescence, and settle completely between episodes. What you see on examination:\n\n- **Shallow ulcers**, 2–5 mm diameter, with a well-defined margin and erythematous halo [2, 5].\n- **Buccal mucosa** is the site shown in the classic presentation — anterior buccal mucosa and labial mucosa are the typical locations [5].\n- Usually 1–6 ulcers at a time; heal within 1–2 weeks without leaving a scar [1].\n- Prodromal burning discomfort may precede the ulcer by a day [1].",
+      "results": "Diagnosis is clinical. Investigations are for **underlying causes**, not the ulcers themselves:\n\n- **FBC and haematinics** (iron, ferritin, B12, folate): look for haematinic deficiency, which can worsen or precipitate RAS [1, 3].\n- **Serum antiendomysium and transglutaminase assay**: to exclude coeliac disease [1].\n- **No scarring on examination**: distinguishes minor from major RAS [5].\n- **No systemic illness, no fever**: distinguishes from primary herpetic stomatitis, which presents with constitutional upset.",
+      "definingCharacteristics": "The thing that separates RAS from its near-neighbours:\n\n- **Unlike traumatic ulcers**: RAS is recurrent and episodic — there's a clear history of ulcers coming and going over years [5]. A traumatic ulcer is single and resolves once the cause is removed.\n- **Unlike herpetiform ulcers**: minor RAS ulcers are 2–5 mm, appear in small crops, and don't coalesce. Herpetiform RAS mimics herpetic stomatitis — up to 100 tiny ulcers, often on the floor of mouth and tongue margins [1].\n- **Unlike major RAS**: minor RAS heals within 2 weeks and leaves no scar. Major RAS ulcers exceed 10 mm, last 5–10 weeks, and scar on healing [1].\n- **Unlike erythema multiforme**: RAS has no 'target' skin lesions, no fever, and is confined to the non-keratinized mucosa. EM causes more widespread, irregular bullous erosions [5].\n\nA recent change in frequency or severity always triggers a search for an underlying systemic cause [3].",
+      "treatment": "The goal is to reduce duration and frequency — no treatment cures the condition [6].\n\n**First line:**\n\n- **Chlorhexidine mouthwash** (0.2%) to prevent secondary infection and reduce severity [1].\n- **Benzydamine hydrochloride mouthwash** for analgesia during an attack [6].\n- **Hydrocortisone pellets** (2.5 mg) dissolved in contact with the ulcer — topical steroid [6].\n- **Topical tetracycline** and steroid preparations are sometimes useful [1].\n\n**Identify and treat any underlying cause:** haematinic replacement under GP, dietary review for coeliac, medication review [1, 3].\n\n**Advise patient to switch** to a sodium lauryl sulfate-free toothpaste if SLS is a trigger [1].",
+      "prognosis": "Minor RAS is a nuisance rather than a harmful condition [6]. With identification and treatment of any underlying deficiency, the pattern typically settles back to the baseline — occasional single ulcers. Without addressing an underlying cause, the worsening pattern persists. The condition often remits spontaneously over years, but some patients have attacks continuously into adulthood.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Recurrent aphthous stomatitis (RAS) is the term given to a fairly well-defined group of conditions characterized by recurrent oral ulceration. There are three subgroups: A very common condition (~25% of population) affecting ~80% of RAS patients. Start at childhood or adolescence. Usually appear as a group of 1–6 ulcers at a time, of variable size (usually 2–5mm diameter). Mainly occur on non-keratinized mucosa and heal within 1–2 weeks without scarring. Usually recur at an interval of 1–4 months. Prodromal discomfort may precede painful ulcers. Exacerbated by stress, local trauma, menstruation (fall in progesterone level), sodium lauryl sulfate (in some toothpastes), drugs (NSAIDs, alendronic acid, and nicorandil), smoking, allergy to some foods, and may be an oral 'marker' of iron, vitamin B12, or folate deficiencies. In some cases, they are a manifestation of Crohn's disease, ulcerative colitis, or gluten enteropathy. Aetiology, although not fully understood, is almost certainly a T-cell-mediated immunological reaction in patients with a genetic predisposition (HLA A1, A11, B12, and DR2). There is a familial history in 45% of cases. Rx: prevent superinfection with chlorhexidine mouthwash and relieve pain (simple analgesics, benzydamine mouthrinse). Topical tetracycline and steroid preparations are sometimes useful. It is important to look for and treat any underlying deficiency or coexisting pathology (FBC, haematinics, vitamin B12 and red cell folate, serum antiendomysium, and transglutaminase assay).",
+          "paragraph": 6059,
+          "source": "Oxford Handbook · paragraph 6059"
+        },
+        {
+          "id": 2,
+          "quote": "Classically, aphthous ulceration affects the non-keratinized mucosa although it is not an exclusive finding.",
+          "paragraph": 6069,
+          "source": "Oxford Handbook · paragraph 6069"
+        },
+        {
+          "id": 3,
+          "quote": "Medications must be considered as a potential cause for oral ulceration. Review the medication history to ensure that nothing has been missed. Check for medication side effects in the British National Formulary (BNF) and assess whether the ulcer history coincides with recent prescription of a new medication, or a change in the dose of an existing medication. Medication causes of oral ulceration include nicorandil, used for management of angina, and methotrexate, which is used for such conditions as rheumatoid arthritis. Smoking cessation should be excluded by questioning. Ulceration related to smoking cessation can be difficult to manage, often not responding well to topical therapies.",
+          "paragraph": 2315,
+          "source": "Odell's Clinical Problem Solving · paragraphs 2314–2315"
+        },
+        {
+          "id": 4,
+          "quote": "Remember that aphthae often develop at the sites of minor trauma. Mucosal trauma during restoration placement, from a sharp edge on the restoration, or from biting while the mucosa was anaesthetized might well explain the location of this particular ulcer.",
+          "paragraph": 2324,
+          "source": "Odell's Clinical Problem Solving · paragraph 2324"
+        },
+        {
+          "id": 5,
+          "quote": "There is an obvious ulcer on the anterior buccal mucosa. It is shallow, a few millimetres in diameter and has a slightly irregular but well-defined margin. There is a halo of erythema around the ulcer, but the surrounding mucosa is otherwise unremarkable. The appearance alone is not particularly helpful in differential diagnosis but is typical of minor recurrent aphthous stomatitis. If you were able to examine the patient, you would find no evidence of scarring, supporting the diagnosis of recurrent aphthous stomatitis minor, as opposed to recurrent aphthous stomatitis major.",
+          "paragraph": 2295,
+          "source": "Odell's Clinical Problem Solving · paragraphs 2291–2295"
+        },
+        {
+          "id": 6,
+          "quote": "RAS is very common and is a 'nuisance' condition rather than one that is harmful to health. Although many treatments are available, none will 'cure' the ulcers. Rather, the goal of treatment is to reduce the duration and frequency of oral ulceration. In the meantime, a mouthwash such as benzydamine hydrochloride may improve the patient's comfort. Prescription of hydrocortisone pellets could also be considered.",
+          "paragraph": 2322,
+          "source": "Odell's Clinical Problem Solving · paragraphs 2319–2322"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-002",
+      "description": "Bilateral lacy white lines on the inner cheeks in a middle-aged woman; no ulceration, no pain.",
+      "conditionName": "Oral lichen planus — reticular type",
+      "prevalence": "uncommon",
+      "etiology": "A chronic autoimmune inflammatory disease in which T-lymphocytes attack stratified squamous epithelia [1]. The result is hyperkeratosis of the epithelium and a characteristic histological pattern of hyperparakeratosis, elongated saw-tooth rete ridges, and a dense sub-epithelial lymphocyte band.\n\nThe usual trigger is unknown, but two exogenous patterns exist:\n\n- **Lichenoid reactions to systemic drugs**: gold (classically), NSAIDs, oral hypoglycaemics, beta blockers, ACE inhibitors [2, 3].\n- **Lichenoid reactions to dental materials**: amalgam restorations in direct contact with, or close to, the lesion [4].\n\nThe oral lesions persist longer than skin lesions. Females are affected more commonly than males at 3:2. The condition affects up to 2% of the general population [1].",
+      "presentation": "Patients are often asymptomatic and the lesion is noticed incidentally. What they describe when symptomatic: a rough, slightly sore feeling in the cheeks, not sharp pain.\n\nWhat you see:\n\n- **Bilateral reticular white striae** on the posterior buccal mucosa — the classic Wickham's striae pattern [1].\n- Not present on the palate; can affect tongue, lips, and gingivae [1].\n- **Bilateral symmetry** is characteristic — unilateral disease should make you think lichenoid reaction rather than lichen planus [5].\n- Associated with brown pigmentation at the periphery of striae in some patients, from melanin drop-out [6].\n- Skin involvement in some cases: purple itchy papules on the flexor surfaces of the wrists and shins [1].",
+      "results": "- **Biopsy**: confirms the diagnosis when presentation is atypical or when dysplasia needs to be excluded. Histology shows dense band-like lymphocytic infiltrate, basal cell degeneration, and saw-tooth rete ridges [6].\n- **Candidal smear or saliva culture**: thick keratotic epithelium is prone to superimposed candidal infection, which worsens symptoms [7].\n- **Autoantibody screen (ANA, ENA, dsDNA)**: indicated if lupus erythematosus is a possibility — typically negative in lichen planus [8].\n- **Medication review**: identify potential lichenoid drug offenders; check whether distribution of lesions corresponds to any restoration [5].",
+      "definingCharacteristics": "The key distinguishing features:\n\n- **Bilateral and posterior buccal mucosa**: this is nearly pathognomonic for lichen planus. A lichenoid reaction tends to be unilateral, more acute in onset, often with extensive ulceration and asymmetrical distribution [5].\n- **Wickham's striae vs plaque**: reticular lichen planus has the characteristic lacy net pattern. Plaque-type lichen planus forms white patches without the striae, and is more common in smokers — this presentation is harder to distinguish from leukoplakia [9].\n- **Not palatal**: oral lichen planus does not typically affect the hard palate — lesions there should prompt thinking about lupus erythematosus [8].\n- **Unlike erosive lichen planus**: reticular lichen planus has no ulceration or erythematous areas. The reticular type carries no proven premalignant potential [10]. The erosive variant is the one that requires 6-monthly malignancy surveillance.",
+      "treatment": "Asymptomatic reticular lichen planus needs **reassurance only** — no active treatment required [2].\n\nWhen symptomatic (sore, burning, ulceration):\n\n- **Topical steroids**: betamethasone 0.5 mg dissolved in 5–10 mL water as a mouthwash, rinsed for 2–3 minutes up to three times daily [11].\n- Alternatively: prednisolone mouthwash or topical dexamethasone [2].\n- For stubborn or widespread disease, oral steroids, azathioprine, topical tacrolimus, or tretinoin gel in tertiary care [2].\n- **Plaque control**: gingival involvement is worsened by plaque; help the patient maintain optimal oral hygiene [7].\n- **SLS-free toothpaste**: sodium lauryl sulfate can irritate the lesions [7].\n- **Identify and remove drug triggers** if lichenoid reaction is suspected [2].\n\nErosive lichen planus (with red, ulcerated areas) warrants specialist referral and 6-monthly follow-up.",
+      "prognosis": "Reticular lichen planus has **no proven premalignant potential** [10]. It can last for months or years — lesions persist longer in the mouth than on skin. Symptomatic control is achievable with topical steroids. Malignant transformation risk is very low overall, estimated at less than 0.1% [12], and concentrated in the erosive rather than the reticular variant.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a chronic inflammatory disease of adults involving skin and mucous membranes. It affects up to 2% of the general population; 50% of patients with skin lesions have oral lesions, whereas 25% have oral lesions alone. The oral lesions persist longer than the skin lesions. It affects females more commonly than males at the ratio of 3:2. It is an autoimmune condition mediated by a T-lymphocyte attack on stratified squamous epithelia which leads to hyperkeratosis and the typical histological appearance. Usually the oral lesions are bilateral and posterior in the buccal mucosa; it is not seen on the palate but can, however, affect the tongue, lips, gingivae, and floor of mouth. The most common oral lesion is a lacy reticular pattern of hyperkeratotic epithelia seen bilaterally on the buccal mucosa.",
+          "paragraph": 6359,
+          "source": "Oxford Handbook · paragraph 6359"
+        },
+        {
+          "id": 2,
+          "quote": "Rx: biopsy may be indicated to exclude dysplasia or malignancy; if there are lichenoid eruptions, the implicated drugs should be identified and avoided if possible. Reassurance for asymptomatic reticular lesions. If painful or if ulceration is present, topical steroids such as betamethasone (at least 1mg rinsed for 3min tds–qds), prednisolone mouthwash or topical dexamethasone are usually helpful. In severe cases, oral steroids, azathioprine, topical tacrolimus, or tretinoin gel may be used in 3° care setting. Erosive type lichen planus should be followed up 6-monthly to exclude the transformation to malignancy.",
+          "paragraph": 6360,
+          "source": "Oxford Handbook · paragraph 6360"
+        },
+        {
+          "id": 3,
+          "quote": "Classically associated with the use of gold in the Rx of rheumatoid arthritis. NSAIDs, oral hypoglycaemics, and beta blockers are commoner offenders.",
+          "paragraph": 6314,
+          "source": "Oxford Handbook · paragraph 6314"
+        },
+        {
+          "id": 4,
+          "quote": "In addition, there is a link between allergy to constituents of dental amalgam and lichenoid eruptions in the oral cavity in certain individuals.",
+          "paragraph": 8738,
+          "source": "Oxford Handbook · paragraph 8738"
+        },
+        {
+          "id": 5,
+          "quote": "Some features that point to a lichenoid drug reaction rather than lichen planus include acute onset, extensive ulceration, asymmetrical distribution and severe involvement of the dorsum of the tongue. Lesions may also affect sites that are less commonly affected by lichen planus such as the floor of the mouth. Lichenoid reactions may be clinically indistinguishable from lichen planus.",
+          "paragraph": 3798,
+          "source": "Odell's Clinical Problem Solving · paragraph 3798"
+        },
+        {
+          "id": 6,
+          "quote": "The dense band-like infiltrate of lymphocytes and lymphocytic infiltration of the basal cells with focal basal cell degeneration, apoptosis, loss of basal cells and a thickened basement membrane are typical of lichen planus.",
+          "paragraph": 3834,
+          "source": "Odell's Clinical Problem Solving · paragraph 3834"
+        },
+        {
+          "id": 7,
+          "quote": "Gingival lichen planus is aggravated by plaque, and in some patients, maintaining optimal oral hygiene can be difficult because of pain. Patients should be helped to maintain a high standard of oral hygiene. Some patients also find the detergent sodium lauryl sulphate (SLS) in certain toothpastes an irritant, and they should switch to an SLS-free toothpaste. When lichen planus or a lichenoid reaction is widespread or becomes symptomatic, the possibility of superimposed candidal infection should be considered. The thick keratotic epithelium is more prone to infection compared with normal epithelium.",
+          "paragraph": 3844,
+          "source": "Odell's Clinical Problem Solving · paragraphs 3844–3823"
+        },
+        {
+          "id": 8,
+          "quote": "Lesions in LE often have a central ulcer or erythematous area around which the striae tend to radiate, rather than follow the random pattern of lichen planus. Lesions are also typically asymmetrical and affect the hard and soft palates, which are less frequently involved by lichen planus or lichenoid reactions.",
+          "paragraph": 3796,
+          "source": "Odell's Clinical Problem Solving · paragraph 3796"
+        },
+        {
+          "id": 9,
+          "quote": "Lichen planus and lichenoid reactions may cause homogeneous white patches. This more unusual presentation seems to be more common in smokers, and it is not at all clear whether these so-called plaque-type lichen planus lesions are a genuine presentation of lichen planus or are induced by smoking.",
+          "paragraph": 4962,
+          "source": "Odell's Clinical Problem Solving · paragraph 4962"
+        },
+        {
+          "id": 10,
+          "quote": "The typical appearance of reticular pattern oral lichen planus, a condition with no premalignant potential (this is found in the erosive variant).",
+          "paragraph": 6149,
+          "source": "Oxford Handbook · paragraph 6149"
+        },
+        {
+          "id": 11,
+          "quote": "In this case, the oral symptoms were managed with 0.5 mg betamethasone dissolved in 5–10 ml water as a mouthwash for 2–3 minutes up to three times daily.",
+          "paragraph": 3845,
+          "source": "Odell's Clinical Problem Solving · paragraph 3845"
+        },
+        {
+          "id": 12,
+          "quote": "There is also a very low risk of malignant transformation in oral lichen planus. There is controversy surrounding the exact rate of malignant transformation, but it is likely to be less than 0.1%. Some authorities suggest that malignant change is more common in nonreticular forms of oral lichen planus.",
+          "paragraph": 3847,
+          "source": "Odell's Clinical Problem Solving · paragraph 3847"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-003",
+      "description": "A rough white patch on the inner cheek lining that developed gradually and won't rub off; no clear cause found.",
+      "conditionName": "Leukoplakia (idiopathic white patch)",
+      "prevalence": "uncommon",
+      "etiology": "Leukoplakia is a diagnosis of exclusion: a white patch that cannot be characterised as any other lesion after all known causes have been eliminated [1]. The largest single group has no identifiable cause.\n\nWhere a cause is identifiable, tobacco is the leading culprit:\n\n- Smoking (low-grade burn plus chemical irritants) and alcohol act **synergistically** as the main aetiological factors [2].\n- Buccal leukoplakia at the site of paan quid placement carries a high risk of malignant change if the habit continues [3].\n- Idiopathic (non-smoking) leukoplakia is actually **more likely to transform** than smoker's leukoplakia [4].\n\nThe histopathology ranges widely from essentially benign keratosis to carcinoma in situ — the degree of dysplasia is the key variable [3].",
+      "presentation": "Often asymptomatic; found incidentally at a dental check-up. The patient may describe a rough patch.\n\nWhat you see:\n\n- A **white, non-removable plaque** on the buccal mucosa; the postcommissural region is a classic site [5].\n- Flat and homogeneous in low-risk lesions. **Red or speckled areas** (erythroleukoplakia) raise the concern for dysplasia or early carcinoma [6].\n- Lesion is more **sharply defined** than frictional keratosis, which typically blends gradually into adjacent mucosa [5].",
+      "results": "- **Biopsy is required** as a general rule for all non-removable white patches [7]. Even clinically innocuous-looking lesions occasionally conceal carcinoma.\n- Histopathology assesses: degree of dysplasia (mild, moderate, severe), presence of Candida hyphae in the superficial keratin [8].\n- Overall malignant transformation rate is **12.1%** across all leukoplakias; significant difference between mild/moderate and severe dysplasia (10.3% vs 24.1%) [4].\n- At floor of mouth or ventral tongue, >25% may progress [3].\n- **Toluidine blue** staining can guide biopsy site selection but has limited predictive value — false positives are common [9].",
+      "definingCharacteristics": "The distinction that matters most is from conditions that look similar but have a known cause:\n\n- **Frictional keratosis**: found along the occlusal line; associated with a sharp tooth or restoration; merges gradually into normal mucosa; resolves on removing the cause [5].\n- **Chronic hyperplastic candidosis**: arises on the postcommissural buccal mucosa; associated with red areas; resolves after systemic antifungals — biopsy and resolution with treatment are the most reliable distinguishing tests [5].\n- **Lichen planus plaque type**: look for more typical bilateral reticular striae elsewhere in the mouth or on the skin [5].\n- **Squamous cell carcinoma**: must be included for any white patch without an identified cause — especially if speckled, indurated, ulcerated, or in a high-risk site [6].\n\nIdiopathic white patch is what remains after all these are excluded.",
+      "treatment": "**All patients with leukoplakia should stop smoking and moderate alcohol** [10].\n\nManagement depends on degree of dysplasia:\n\n- **Mild or no dysplasia**: monitor closely — 3-monthly initially, then 6-monthly, then annual review. Repeat biopsy if change is noted [10].\n- **Moderate or severe dysplasia**: laser or knife excision. If too large for excision, close monitoring to detect transformation [10].\n- **Candidal infection**: treat with systemic antifungals (fluconazole or itraconazole); correct associated iron, folate, and B12 deficiency; patients should stop smoking [8].\n- **Referral**: any suspicion of malignancy — red or speckled areas, induration, ulceration, palpable nodes — warrants urgent specialist referral [7].",
+      "prognosis": "Overall transformation rate is 12.1% [4]. Malignant transformation is more common in idiopathic (non-smoker) leukoplakia than in smoker's leukoplakia [4]. Risk is highest in lesions with severe dysplasia (24.1%) and at high-risk sites (floor of mouth, ventral tongue). Dysplasia does not always progress — mild dysplasia may regress in some cases [11]. With cessation of tobacco and alcohol and close follow-up, the minority of lesions that do transform are ideally caught early.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The literal meaning of leukoplakia is 'white patch'. The term is correctly defined as a white patch that cannot be characterized as any other lesion. The use of this term is correct only after all possible known causes have been eliminated through whatever investigations are required.",
+          "paragraph": 4954,
+          "source": "Odell's Clinical Problem Solving · paragraph 4954"
+        },
+        {
+          "id": 2,
+          "quote": "Excessive alcohol and tobacco use are the important factors in the aetiology of cancer of the mouth showing a 'synergistic effect'.",
+          "paragraph": 6209,
+          "source": "Oxford Handbook · paragraph 6209"
+        },
+        {
+          "id": 3,
+          "quote": "The histopathology of these lesions varies widely from the essentially benign to carcinoma in situ. The degree of dysplasia is one of the most important factors to be considered in the management of a leucoplakia. Third, relation to cause, e.g. buccal leucoplakia, the preferred site for a paan quid is at high risk of malignant change if the habit is not discontinued.",
+          "paragraph": 6187,
+          "source": "Oxford Handbook · paragraph 6187"
+        },
+        {
+          "id": 4,
+          "quote": "One meta-analysis revealed that the overall malignant transformation rate of leucoplakia was 12.1% and there was a significant difference between mild/moderate and severe dysplasia (10.3% vs 24.1%). Malignant transformation is more common among non-smokers (idiopathic leucoplakia).",
+          "paragraph": 6188,
+          "source": "Oxford Handbook · paragraph 6188"
+        },
+        {
+          "id": 5,
+          "quote": "Frictional keratosis is common along the occlusal line, on edentulous alveolar ridges and on the lateral tongue. It may be associated with sharp teeth or restoration(s) and be unilateral or bilateral. Frictional keratosis usually merges gradually with the surrounding normal mucosa and is not as sharply defined as the present lesion. Chronic hyperplastic candidosis (candidal 'leukoplakia') forms a discrete white plaque that is sometimes associated with red areas. Unless the site is typical, it is almost impossible to make the diagnosis clinically. Biopsy and resolution following antifungal treatment are the most useful indications to identify these lesions.",
+          "paragraph": 4960,
+          "source": "Odell's Clinical Problem Solving · paragraphs 4960–4961"
+        },
+        {
+          "id": 6,
+          "quote": "Squamous cell carcinoma diagnosis must be included for any white patch in the mouth without an identified cause. Although it is in a high-risk site, it is a flat, homogeneous lesion without ulceration, red areas, speckling or induration. The patient is a light smoker and is in the risk age group for squamous cell carcinoma.",
+          "paragraph": 4963,
+          "source": "Odell's Clinical Problem Solving · paragraph 4963"
+        },
+        {
+          "id": 7,
+          "quote": "Yes. As a general rule, all white lesions in the mouth require biopsy. Completely typical keratotic lichen planus and typical frictional keratoses are considered exceptions to this rule by some authorities, but this would only be acceptable if the clinician were very experienced in the diagnosis of oral white lesions. If there is any suspicion of malignancy, the patient should be referred to a specialist centre via an expedited referral pathway, according to local and national protocols.",
+          "paragraph": 4974,
+          "source": "Odell's Clinical Problem Solving · paragraphs 4974–4982"
+        },
+        {
+          "id": 8,
+          "quote": "This is more commonly seen in middle-aged men who are heavy smokers. It typically presents as a white patch on the oral commissural buccal mucosa bilaterally or dorsum of tongue. Although there is an ↑ risk of malignant change, the initial approach after ensuring the diagnosis microbiologically and histopathologically is to eradicate the candidal infection. Rx: systemic antifungals such as fluconazole and itraconazole are indicated. Often associated with iron, folate, and vitamin B12 deficiency, and smoking, which should be corrected. Most lesions will resolve after such Rx; if not, reassess degree of dysplasia and surgical excision may be indicated.",
+          "paragraph": 6049,
+          "source": "Oxford Handbook · paragraph 6049"
+        },
+        {
+          "id": 9,
+          "quote": "Toluidine blue (tolonium chloride) staining was described decades ago but its use has recently been revived in the form of new commercial test kits. The predictive value of the test remains unclear, with better results shown in high-risk populations. False-positive reactions are common because the dye binds to ulcer slough, staining ulcers, lichen planus and other benign lesions.",
+          "paragraph": 4995,
+          "source": "Odell's Clinical Problem Solving · paragraph 4995"
+        },
+        {
+          "id": 10,
+          "quote": "The patient should stop smoking and moderate her alcohol intake. In this case, and others in which dysplasia is mild or absent, it is appropriate to monitor the lesion closely for changes in appearance, initially at 3-monthly intervals and then extending to annual review, provided the lesion does not change significantly. Lesions with moderate or severe dysplasia may be removed through knife or laser excision.",
+          "paragraph": 5035,
+          "source": "Odell's Clinical Problem Solving · paragraphs 5035–5036"
+        },
+        {
+          "id": 11,
+          "quote": "Dysplasia does not always progress, and in some cases of mild dysplasia, it may regress. Dysplasia indicates increased potential for malignant transformation but does not necessarily mean that this may eventually occur in any particular lesion.",
+          "paragraph": 5025,
+          "source": "Odell's Clinical Problem Solving · paragraph 5025"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-004",
+      "description": "A white cheek patch that resolves when the source of repeated friction is removed.",
+      "conditionName": "Frictional keratosis",
+      "prevalence": "common",
+      "etiology": "A white patch caused by **hyperplastic hyperkeratotic epithelium** induced by repeated local trauma [1]. The epithelium thickens in response to chronic friction — essentially a protective keratinisation. Common sources:\n\n- Cheek biting (morsicatio buccarum) — habitual or parafunctional\n- A sharp tooth edge or fractured cusp\n- An ill-fitting denture flange\n- A rough or overhanging restoration margin [1]\n\nIn psychiatric disorders or learning disability, cheek biting can be a form of self-mutilation [1].",
+      "presentation": "Often asymptomatic; the patient may notice a rough area on the inside of their cheek, or the dentist spots it on routine examination.\n\nWhat you see:\n\n- **White patch** on the buccal mucosa, usually at the **occlusal plane** — the line where the teeth meet [2].\n- The lesion **merges gradually** into the surrounding normal mucosa — less sharply defined than leukoplakia [2].\n- In cheek biters: the surface is often **shredded or ragged**, with similar lesions on both sides of the commissure [2].\n- Clear association with an adjacent sharp tooth, denture flange, or restoration identifiable on examination.",
+      "results": "Diagnosis is clinical, confirmed by resolution:\n\n- **Remove the cause** (smooth sharp tooth, rebase denture, polish restoration) and observe: frictional keratosis resolves completely [1].\n- **If it doesn't resolve after removing the cause**: biopsy is indicated to exclude dysplasia or carcinoma [1].\n- No special tests required in the first instance.",
+      "definingCharacteristics": "Frictional keratosis differs from leukoplakia in two key ways: there is a **clear identifiable cause** (friction) and the lesion **resolves when the cause is removed** [1]. If the white patch persists after eliminating the friction source, the frictional keratosis diagnosis fails and biopsy is mandatory.\n\nDistinguishing from candidal leukoplakia: frictional keratosis occurs at the occlusal line; candidal leukoplakia typically forms on the postcommissural buccal mucosa and is associated with red areas [2]. Unlike lichen planus, frictional keratosis has no bilateral symmetry and no striae pattern — it tracks the mechanical insult.",
+      "treatment": "**Remove the friction source** — the whole treatment in uncomplicated cases [1]:\n\n- Smooth any sharp tooth edge or cusp.\n- Replace or rebase an ill-fitting denture.\n- Polish or replace the offending restoration.\n- Address cheek-biting habit — habit awareness, occlusal splint if needed.\n\nIf resolution is incomplete after a reasonable interval, **biopsy to exclude dysplasia** [1].",
+      "prognosis": "Excellent with cause removal: complete resolution is the expected outcome [1]. No premalignant potential in true frictional keratosis. The risk is in misclassifying a leukoplakia or early carcinoma as frictional keratosis — the resolution test is the critical safety check.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a white patch due to hyperplastic hyperkeratotic epithelium induced by local trauma, e.g. sharp tooth, denture, or cheek biting. It is managed by removal of the source of the friction, which will generally allow complete resolution of the lesion. If this doesn't happen, biopsy is indicated. Can be seen as self-mutilation in psychiatric disorders or learning disability.",
+          "paragraph": 6117,
+          "source": "Oxford Handbook · paragraph 6117"
+        },
+        {
+          "id": 2,
+          "quote": "Frictional keratosis is common along the occlusal line, on edentulous alveolar ridges and on the lateral tongue. It may be associated with sharp teeth or restoration(s) and be unilateral or bilateral. Frictional keratosis usually merges gradually with the surrounding normal mucosa and is not as sharply defined as the present lesion. Tongue biting also causes keratosis, but the surface is often shredded, and there may be similar lesions on the buccal mucosa, usually just behind the commissure.",
+          "paragraph": 4960,
+          "source": "Odell's Clinical Problem Solving · paragraph 4960"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-005",
+      "description": "A non-healing, firm, indurated ulcer or mixed red-white patch on the cheek in a smoker or heavy drinker.",
+      "conditionName": "Oral squamous cell carcinoma (buccal)",
+      "prevalence": "very-uncommon",
+      "etiology": "Over 90% of oral cancers are SCCs [1]. Buccal SCC is not the most common oral site (floor of mouth accounts for >75% of European and American cases [2]), but the buccal mucosa is a high-risk site when paan/betel quid is the driver.\n\nMain aetiological factors:\n\n- **Tobacco and alcohol**: act synergistically as the primary risk factors for buccal and all oral SCC. Combined relative risk is at least 5–10 times higher than a non-smoker/occasional drinker [3].\n- **Betel quid / paan chewing**: the most clear-cut single aetiological factor; the buccal sulcus where the quid sits is directly at risk [1].\n- **HPV 16 and 18**: an independent risk factor, primarily for oropharyngeal SCC [1].\n- **Immunosuppression** (renal transplant, HIV): increases risk [1].\n\nPain is a late feature — early buccal SCC is often painless [4].",
+      "presentation": "The patient may present with a lump, a non-healing sore, or come in for another reason and have the lesion found incidentally.\n\nWhat you see:\n\n- **Painless indurated ulcer** with raised, rolled edges, granular base, fixed to surrounding tissues [4].\n- Alternatively: a **speckled (mixed red and white) patch** — erythroleukoplakia — on the buccal mucosa [4].\n- **Induration on palpation**: firmer than adjacent mucosa [5].\n- **Cervical lymphadenopathy**: may be the first presentation if nodal spread has occurred [4].\n- Malignancy should be suspected if any suspicious lesion persists **>3 weeks** [4].",
+      "results": "- **Biopsy is mandatory**: urgent referral to a specialist centre for same-day or expedited referral if malignancy is suspected [6].\n- **Histology**: shows invasion of deep tissues, cellular pleomorphism, increased nuclear staining [7].\n- **CT/MRI and FNAC of neck nodes** to stage the disease and assess for cervical lymph node involvement [8].\n- **Staging**: prognosis for stage I is >85% 5-year survival; for stage IV is 10% [9].\n- Nodal involvement reduces cure rates by 50% [9].",
+      "definingCharacteristics": "The features that should stop you in your tracks:\n\n- **Induration** — firmness on palpation is a cardinal sign of malignancy. Leukoplakia, lichen planus, and frictional keratosis are not indurated [5].\n- **Persistence >3 weeks**: a benign traumatic ulcer heals within 2 weeks on removing the cause. An SCC does not [4].\n- **Speckled appearance or erythroplakia component**: most of these lesions are carcinoma in situ or frank carcinoma [10].\n- **Fixed to underlying tissues**: inflammatory ulcers and RAS are not fixed.\n\nThe combination of tobacco + alcohol + the right age group (sixth and seventh decades, though incidence is rising in younger patients [2]) + a non-healing lesion in a buccal site used for paan: refer same day.",
+      "treatment": "Not primarily managed in general dental practice:\n\n- **Urgent/same-day referral** to a specialist centre when malignancy is suspected — do not biopsy in the practice if the plan is to refer [6].\n- Specialist treatment: surgery, followed by radiotherapy with or without chemotherapy, depending on stage and histological features of the excised tumour [11].\n- Patients should be encouraged to stop smoking — smoking-associated cardiovascular disease can compromise treatment [11].\n- Neck dissection may be required even when no lymph node metastasis is detectable (approximately 25% of deposits are occult metastases not visible on imaging) [12].",
+      "prognosis": "Stage-dependent. Stage I: >85% 5-year survival. Stage IV: 10% at 5 years [9]. Nodal involvement halves cure rates [9]. Overall oral cancer mortality rate is just over 50% despite treatment [1]. If treated early, a 5-year survival of 85% or better can be achieved, and survival to 10 years is considered cure [11]. Approximately 10% of patients develop a second primary in the mouth or upper aerodigestive tract [11].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Cancer of the mouth accounts for ~2% of all malignant tumours in northern Europe and the US, but ~30–40% in the Indian subcontinent. >90% of these are SCCs. Globally it is the sixth commonest cause of cancer-related death. >2000 new cases of oral cancer are registered per year in the UK and each year half that number die from or with the disease. Overall mortality rate is just over 50% despite Rx.",
+          "paragraph": 6205,
+          "source": "Oxford Handbook · paragraph 6205"
+        },
+        {
+          "id": 2,
+          "quote": "The floor of the mouth is the commonest single site, accounting for >75% of carcinomas seen in European or American practice. The other high-risk sites are the retromolar region and lateral tongue. Most common in sixth and seventh decades, however there appears to be an increasing incidence in younger patients and those who do not use tobacco.",
+          "paragraph": 6207,
+          "source": "Oxford Handbook · paragraph 6207"
+        },
+        {
+          "id": 3,
+          "quote": "She drinks 14 units of alcohol per week, which is the maximum recommended intake. The maximum intake is considered 'safe' in terms of liver and cardiovascular disease risks, but no safe limit is recognized for cancer. There is no safe intake for tobacco, and the combined relative risk of carcinoma for this patient is at least 5–10 times higher than that for a nonsmoker or an occasional drinker.",
+          "paragraph": 5080,
+          "source": "Odell's Clinical Problem Solving · paragraph 5080"
+        },
+        {
+          "id": 4,
+          "quote": "Oral cancer is most often seen as a painless ulcer, although it may present as a swelling or as an area of leucoplakia, erythroleucoplakia, or erythroplakia. Malignancy should be suspected if any of these lesions persists for >3 weeks. Pain is usually a late feature. The ulcer is described as firm with raised edges, with an indurated, inflamed, granular base and is fixed to surrounding tissues.",
+          "paragraph": 6211,
+          "source": "Oxford Handbook · paragraph 6211"
+        },
+        {
+          "id": 5,
+          "quote": "Palpation reveals the lesion to be firmer than the adjacent mucosa. The white component of the area cannot be rubbed away.",
+          "paragraph": 5068,
+          "source": "Odell's Clinical Problem Solving · paragraph 5068"
+        },
+        {
+          "id": 6,
+          "quote": "No, definitely not. Although removing a sample of the tissue is well within the capability of the general dental practitioner, it would be unwise to do so. The patient will return for the result, and dental practitioners are not usually the appropriate persons to break the news of malignant disease to the patient. In a practice environment, the patient should be referred urgently, preferably the same day, to a centre where definitive treatment can be provided.",
+          "paragraph": 5091,
+          "source": "Odell's Clinical Problem Solving · paragraph 5091"
+        },
+        {
+          "id": 7,
+          "quote": "Mostly SCC. Characteristically shows invasion of deep tissues with cellular pleomorphism and ↑ nuclear staining. The presence of a lymphocytic response may have prognostic value, as does the manner of invasion (pushing or spreading). Can spread via local infiltration or lymphatic system (cervical nodes), and late spread via bloodstream.",
+          "paragraph": 6215,
+          "source": "Oxford Handbook · paragraph 6215"
+        },
+        {
+          "id": 8,
+          "quote": "After the biopsy, further investigations including computed tomography (CT), magnetic resonance imaging (MRI) and fine-needle aspiration cytology (FNAC) showed no cervical lymph node metastasis in this patient.",
+          "paragraph": 5109,
+          "source": "Odell's Clinical Problem Solving · paragraph 5109"
+        },
+        {
+          "id": 9,
+          "quote": "This is dependent on site and stage, (prognosis for stage I is >85% and for stage IV is 10% over 5yrs), and co-morbidity. The presence or absence of extracapsular spread of tumour in metastatic cervical nodes is the most important single prognostic factor. Nodal involvement ↓ cure rates by 50%.",
+          "paragraph": 6213,
+          "source": "Oxford Handbook · paragraph 6213"
+        },
+        {
+          "id": 10,
+          "quote": "This is any lesion that presents as bright red velvety plaques, which cannot be characterized clinically or pathologically as any other recognizable condition (WHO). Most of these lesions are carcinoma in situ or frank carcinoma and are found at high-risk sites (at least 85%).",
+          "paragraph": 6192,
+          "source": "Oxford Handbook · paragraph 6192"
+        },
+        {
+          "id": 11,
+          "quote": "This lesion has been diagnosed at an early stage compared with most oral carcinomas. Treatment is likely to be surgery, followed by radiotherapy with or without chemotherapy. If treated in the early stages, a 5-year survival rate of 85% or better can be achieved. If survival reaches 10 years, the patient is likely to be considered cured. However, 10% of patients with oral carcinoma develop a second primary lesion in the mouth or upper aerodigestive tract.",
+          "paragraph": 5103,
+          "source": "Odell's Clinical Problem Solving · paragraph 5103"
+        },
+        {
+          "id": 12,
+          "quote": "Approximately 25% of these deposits are not detectable clinically and are termed 'occult metastases'. If left untreated, they would continue to grow, ultimately invading beyond the lymph node and spreading to distant sites.",
+          "paragraph": 5111,
+          "source": "Odell's Clinical Problem Solving · paragraph 5111"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-006",
+      "description": "Multiple tiny yellowish spots visible on the inner cheek lining — an incidental finding, present for as long as the patient can remember.",
+      "conditionName": "Fordyce spots (ectopic sebaceous glands)",
+      "prevalence": "very-common",
+      "etiology": "Fordyce spots are **ectopic sebaceous glands** in the oral mucosa — sebaceous glands that developed at a site normally devoid of them [1]. They are a developmental variant, not a pathological process. Their number and size increase with age [2].",
+      "presentation": "An incidental finding — the patient may ask about them, or you spot them during a routine examination.\n\nWhat you see:\n\n- **Tiny yellowish or cream-coloured spots** on the buccal mucosa, and occasionally the lip mucosa [1].\n- They **occasionally cluster** into plaques that can resemble a white patch — but on close inspection, individual glands are visible within the cluster [1].\n- **Present from childhood** — a patient who develops a similar lesion in adulthood should be investigated, not reassured as Fordyce [1].",
+      "results": "No investigations needed in a typical presentation. The diagnosis is clinical:\n\n- Slightly yellow rather than white.\n- Bilateral, symmetrical distribution on the buccal mucosa.\n- Present since childhood.\n- Individual glands visible within any cluster.\n\nIf any doubt: biopsy will confirm sebaceous glands in the submucosal tissue.",
+      "definingCharacteristics": "Fordyce spots are distinguished from leukoplakia by their **yellow tinge**, the **visibility of individual gland openings**, and their **bilateral, symmetrical, and long-standing** nature [1]. Unlike any other white or yellowish lesion, they have been present since the patient was a child. They do not affect the lateral tongue — a Fordyce-like cluster on the lateral tongue should prompt investigation [1]. The distinction from chronic hyperplastic candidosis: no red component, no roughness, and the characteristic yellow appearance.",
+      "treatment": "None. **Reassurance only** [1]. Fordyce spots are a normal anatomical variant with no pathological potential.",
+      "prognosis": "Entirely benign. No risk of malignant transformation. No treatment required at any point.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Leukoedema and patches of Fordyce spots (sebaceous glands) are normal mucosal variants that affect primarily the buccal mucosa. Fordyce spots are sebaceous glands. They occasionally form clusters that resemble plaques but have a slightly yellow appearance, and individual glands are usually visible within the lesion. Both are present from childhood, and neither affects the lateral tongue.",
+          "paragraph": 4965,
+          "source": "Odell's Clinical Problem Solving · paragraph 4965"
+        },
+        {
+          "id": 2,
+          "quote": "With age, an ↑ occurs in the number and size of Fordyce's spots (sebaceous glands), lingual varices, and foliate papillae.",
+          "paragraph": 4863,
+          "source": "Oxford Handbook · paragraph 4863"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-007",
+      "description": "Progressive tightening of the cheeks in a patient from South Asia who chews betel quid; trismus is developing.",
+      "conditionName": "Oral submucous fibrosis",
+      "prevalence": "rare",
+      "etiology": "A chronic, progressive fibrotic disease of the oral connective tissue, found predominantly in patients of South Asian origin who chew betel quid [1]. The mechanism: areca nut alkaloids drive hyperplasia of fibroblasts and elevated copper levels, leading to cross-linking of collagen by upregulation of lysyl oxidase and thus increased fibrosis and DNA damage [2]. Tobacco added to areca nut and slaked lime increases the risk of developing SCC [2].\n\nApproximately 10% of the world's population use betel quid [3]. The buccal sulcus bears the brunt because the quid lies there for prolonged periods — many users sleep with a quid in the mouth [3].",
+      "presentation": "The patient reports difficulty opening the mouth, which has developed over years. Burning sensation in the cheeks on eating is an early complaint [4].\n\nWhat you see:\n\n- **Pale, blanched buccal mucosa** with loss of the normal moist pink colour [5].\n- **Vertical fibrous bands** palpable (and sometimes visible) just below the buccal mucosa when the mouth is opened — these feel hard [5].\n- **Restricted mouth opening**: normal interincisal opening in adults is approximately 35 mm; in submucous fibrosis, this may be severely reduced (e.g. 17 mm) [6].\n- Dark red/brown betel quid staining on the teeth [5].\n- Red and atrophic areas in the mucosa — indicating underlying dysplasia [5].",
+      "results": "- **Maximum voluntary interincisal opening** provides a baseline and monitors progression [6].\n- **Biopsy**: required to assess dysplasia. Histology shows atrophic epithelium, dense submucosal fibrosis replacing the connective tissue, and muscle atrophy in advanced cases [7].\n- Approximately one-third of patients with submucous fibrosis have oral white patches; dysplasia is present in the mucosa of **up to 16%** [8].\n- **Malignant transformation to SCC occurs in 5–8%** of cases [8].",
+      "definingCharacteristics": "The clinical picture is distinctive when the habit history is known: a South Asian patient with a long betel quid chewing history + progressive trismus + pale buccal mucosa with palpable vertical bands. The combination is virtually pathognomonic [1].\n\nDistinguishing from lichen planus: oral lichen planus produces reticular striae or erosions but not trismus, not blanching fibrosis, and not the typical history of betel quid use.\n\nThe key clinical concern is that **trismus makes examination, detection, and treatment of concurrent malignancy extremely difficult** [8] — patients with submucous fibrosis who develop SCC have a poor prognosis because the cancer is often diagnosed late.",
+      "treatment": "No treatment regimen yields fully satisfactory results [9].\n\n- **Cessation of betel quid** is the single most important intervention [9].\n- **Mouth opening exercises**: if patients commit to these, they may be spared the worst effects of extreme trismus [9].\n- Intralesional steroid injections and surgery with flap reconstruction in severe cases [2].\n- **Referral to a specialist centre**: mandatory, given the high risk of malignancy. All abnormal mucosa must be biopsied [9].\n- Manage any concurrent carcinoma or dysplasia with the same modalities as in other patients (surgery, chemotherapy, radiotherapy) as allowed by the degree of trismus [9].",
+      "prognosis": "Malignant transformation occurs in **5–8%** of cases [8]. Trismus is often progressive and responds poorly to treatment in advanced disease; in extreme cases, incisor extractions may be required to allow feeding [8]. The prognosis for any oral carcinoma arising in the context of submucous fibrosis is very poor, mostly because late diagnosis is the norm [8]. Best outcomes are in patients diagnosed early with localized disease, who cease the habit and maintain mouth opening exercises [9].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The presentation and features are characteristic of oral submucous fibrosis. Gradual limitation of mouth opening and restriction of tongue movements are seen in a betel quid user who shows typical mucosal blanching and fibrosis presenting as bands in the buccal mucosa.",
+          "paragraph": 6423,
+          "source": "Odell's Clinical Problem Solving · paragraph 6423"
+        },
+        {
+          "id": 2,
+          "quote": "This is a condition found particularly in those of South Asian origin. It is characterized by chronic and progressive scarring of oral connective tissue due to hyperplasia of fibroblasts induced by chewing betel nuts (without tobacco). The addition of tobacco to areca nut and slake lime appears to ↑ the risk of developing SCC. The mucosa is pale, with constraining fibrous bands, and fibrosis of the submucosa occurs, making the lips and cheeks immobile and resulting in trismus. Pathogenesis is unclear; ↑ levels of copper due to areca nut chewing leading to cross-linking of collagen by upregulation of lysyl oxidase and thus ↑ fibrosis and DNA damage.",
+          "paragraph": 6196,
+          "source": "Oxford Handbook · paragraph 6196"
+        },
+        {
+          "id": 3,
+          "quote": "The quid is only chewed intermittently and lies in the buccal sulcus for long periods. Many users keep a quid in their mouth all day, and some even sleep with a quid in the mouth. It has been estimated that 10% of the world's population use betel quid, and chewing is a major health problem in many countries, including western societies with significant immigrant populations from endemic areas.",
+          "paragraph": 6431,
+          "source": "Odell's Clinical Problem Solving · paragraph 6431"
+        },
+        {
+          "id": 4,
+          "quote": "He has noticed the reduction in mouth opening over a period of several years but has never sought advice. It has not been overly painful, although during the same period, he has felt an uncomfortable burning sensation in the buccal mucosa on eating.",
+          "paragraph": 6399,
+          "source": "Odell's Clinical Problem Solving · paragraph 6399"
+        },
+        {
+          "id": 5,
+          "quote": "The buccal and soft palate mucosae are paler than normal. When the mouth is opened fully, thin white hard bands run vertically just below the buccal mucosa. These are just visible in the figure and are much more readily felt as hard ridges. Some of the less pale areas are red and atrophic.",
+          "paragraph": 6418,
+          "source": "Odell's Clinical Problem Solving · paragraph 6418"
+        },
+        {
+          "id": 6,
+          "quote": "The normal interincisal opening in an adult is approximately 35 mm. Measurement will provide a baseline reading against which to judge treatment efficacy or trismus progression. This patient can achieve a maximal voluntary interincisal opening of 17 mm.",
+          "paragraph": 6415,
+          "source": "Odell's Clinical Problem Solving · paragraphs 6411–6415"
+        },
+        {
+          "id": 7,
+          "quote": "The fibrosis involving deep muscle is consistent with the diagnosis of oral submucous fibrosis, and the overlying epithelium shows mild dysplasia.",
+          "paragraph": 6453,
+          "source": "Odell's Clinical Problem Solving · paragraph 6453"
+        },
+        {
+          "id": 8,
+          "quote": "Oral submucous fibrosis is a potentially malignant disorder. Approximately one-third of patients with submucous fibrosis have oral white patches, and dysplasia is present in the mucosa of up to 16%. Malignant transformation to squamous cell carcinoma occurs in 5–8% of cases. Limited opening is a major handicap in the diagnosis and treatment of malignancy and premalignant lesions. It makes examination, detection and treatment extremely difficult, and the prognosis for oral carcinoma in a patient with submucous fibrosis is very poor, mostly as a result of late diagnosis.",
+          "paragraph": 6443,
+          "source": "Odell's Clinical Problem Solving · paragraphs 6441–6443"
+        },
+        {
+          "id": 9,
+          "quote": "No treatment regimen yields satisfactory results, and the aim is maintenance of oral health and prevention of complications. If patients are committed to mouth opening exercises, they may be spared the worst effects of extreme trismus. The aims are best achieved by helping the patient with cessation of the habit and by detecting malignancy or dysplasia as early as possible. All abnormal mucosa must be regarded with the utmost suspicion and a biopsy performed.",
+          "paragraph": 6459,
+          "source": "Odell's Clinical Problem Solving · paragraphs 6459–6466"
+        }
+      ]
+    }
+  ]
+}
