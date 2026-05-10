@@ -1,0 +1,202 @@
+{
+  "slug": "skin",
+  "title": "Skin",
+  "order": 1,
+  "description": "Facial and perioral skin conditions a GDP might encounter or be the first to notice.",
+  "problems": [
+    {
+      "id": "skin-001",
+      "description": "Unilateral blistering rash along one side of the face or jaw, preceded by burning pain. Never crosses the midline.",
+      "conditionName": "Herpes zoster (shingles) — trigeminal distribution",
+      "prevalence": "uncommon",
+      "etiology": "Varicella zoster is a neurogenic DNA virus. It causes chickenpox as a primary infection, then lies dormant — in the dorsal root ganglion of a peripheral nerve or in the trigeminal ganglion [1]. Reactivation gives shingles. The thing is, the virus doesn't travel randomly: it's strictly confined to the territory of a single nerve branch, which is why the rash is always unilateral and dermatomal [2].\n\nReactivation is more likely when T-cell function drops — older age, immunosuppression, and heavy alcohol use are the main risk factors [2]. The elderly are the most affected group [3].",
+      "presentation": "The sequence is almost diagnostic on its own. First, burning or shooting pain in the distribution of one branch of the trigeminal nerve — before any rash appears [2]. Then vesicles break out on the skin or oral mucosa in that same distribution, rupturing to leave ulcers or crusting wounds [2].\n\nWhat you'll see at the dental chair:\n\n- Unilateral painful vesicles or crusted ulcers on the face, jaw, or oral mucosa.\n- The patient may present during the pre-eruption pain phase — before the rash — and the picture can look like dental pain at that point.\n- Involvement of the ophthalmic branch (V1) means risk to the eye: corneal ulceration is a serious complication [2].",
+      "results": "- **Distribution**: strictly unilateral, one dermatomal territory, never crossing the midline [2]. That single finding rules out almost every other painful rash.\n- **Eye check**: if there are vesicles on the tip of the nose (Hutchinson's sign) or anywhere in V1 territory, ophthalmology referral is urgent — corneal ulceration and visual loss are real risks [2].\n- **Ramsay Hunt syndrome**: if there's a lower motor neurone facial palsy with vesicles in the pharynx, external auditory canal, or on the face, the geniculate ganglion is involved [4].",
+      "definingCharacteristics": "The midline rule is the defining characteristic: **shingles never crosses the midline** [2]. A bilateral rash is not shingles.\n\nCompare to:\n\n- **Primary HSV**: widespread stomatitis in a young patient, bilateral, no dermatomal pattern.\n- **Dental pain**: pre-eruption shingles pain can mimic toothache, but no pulp will test necrotic and the pain doesn't settle after treatment. The appearance of the unilateral rash a few days later settles the question.\n- **Ramsay Hunt variant**: adds facial palsy to the picture — distinguishable from Bell's palsy by the vesicles [4].",
+      "treatment": "Antiviral within the treatment window. The goal is early intervention [5].\n\n- **Aciclovir 800mg PO five times daily for 7 days** — there is evidence that aggressive early treatment within 3 days of the first vesicle reduces the incidence and severity of post-herpetic neuralgia in immunocompromised patients [2, 5].\n- **Symptomatic analgesia** for pain — often significant, especially in the elderly.\n- **Ophthalmology referral**: urgent if the eye is involved [2].\n- **Steroids + systemic aciclovir** for Ramsay Hunt syndrome improve recovery [6].\n\nFrom a GDP's perspective: if you suspect pre-eruption shingles — unilateral burning pain, no dental explanation — refer promptly rather than treating the teeth. Starting antivirals early is the thing that changes outcomes.",
+      "prognosis": "- Lesions usually clear in 2–4 weeks [2].\n- Post-herpetic neuralgia (PHN) follows in up to 15% of cases [2] and can continue for years. The elderly are most vulnerable [3].\n- Eye involvement risks corneal scarring and permanent visual loss if not treated urgently [2].\n- Scarring and skin pigmentation are common sequelae [2].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "(Human herpesvirus 3.) This is a neurogenic DNA virus which causes chickenpox as a 1° infection (varicella) and shingles as a reactivation (zoster).",
+          "paragraph": 6018,
+          "source": "Oxford Handbook · paragraph 6018"
+        },
+        {
+          "id": 2,
+          "quote": "Shingles is commoner in the immunocompromised, alcoholics, and elderly people. It is confined to the distribution of a nerve, the virus staying either in the dorsal root ganglion of a peripheral nerve or the trigeminal ganglion. It always presents as a unilateral lesion, never crossing the midline. Facial or oral lesions may arise in the area supplied by the branches of the trigeminal nerve. ∆: pre-eruption pain, followed by development of painful vesicles on skin or oral mucosa, which rupture to give ulcers or crusting skin wounds, in the distribution outlined previously. These usually clear in 2–4 weeks, with scarring and pigmentations and is often followed by severe post-herpetic neuralgia (up to 15%) which may continue for years. Rx: symptomatic relief for chickenpox. There is some evidence to suggest that aggressive early Rx of shingles with aciclovir (within 3 days of first vesicle) ↓ the incidence and severity of post-herpetic neuralgia in immunocompromised patients. Urgent referral to an ophthalmologist is required if the eye is involved as there is a risk of corneal ulceration and visual loss.",
+          "paragraph": 6022,
+          "source": "Oxford Handbook · paragraph 6022"
+        },
+        {
+          "id": 3,
+          "quote": "Herpes zoster is more common with ↑ age due to a ↓ in T-cell function. Neuralgia occurs more frequently after an attack in the elderly.",
+          "paragraph": 4889,
+          "source": "Oxford Handbook · paragraph 4889"
+        },
+        {
+          "id": 4,
+          "quote": "Lower motor neurone facial palsy, with vesicles on the same side in the pharynx, external auditory canal, and on the face. It is thought to be due to herpes zoster of the geniculate ganglion.",
+          "paragraph": 10529,
+          "source": "Oxford Handbook · paragraph 10529 (Ramsay Hunt syndrome)"
+        },
+        {
+          "id": 5,
+          "quote": "Active against herpes simplex and zoster; relatively non-toxic and can be given systemically or topically. Dose: herpes labialis: apply 5% aciclovir cream to site of prodromal or early lesion 4-hourly for 5 days; herpetic stomatitis: 200mg PO (400mg in immunocompromised) five times daily for 5 days; herpes zoster: 800mg PO five times daily for 7 days.",
+          "paragraph": 8237,
+          "source": "Oxford Handbook · paragraph 8237"
+        },
+        {
+          "id": 6,
+          "quote": "Pain is associated with herpes zoster virus in the facial nerve. Systemic aciclovir and steroids improve recovery.",
+          "paragraph": 6356,
+          "source": "Oxford Handbook · paragraph 6356 (Ramsay Hunt / facial nerve zoster)"
+        }
+      ]
+    },
+    {
+      "id": "skin-002",
+      "description": "A slow-growing, raised, pearly nodule on the face — often on sun-exposed skin — that eventually ulcerates in the centre.",
+      "conditionName": "Basal cell carcinoma (BCC, epithelioma, rodent ulcer)",
+      "prevalence": "uncommon",
+      "etiology": "Chronic sunlight exposure is the major aetiological factor [1]. The tumour arises from basal cells of the epidermis and grows very slowly by direct local invasion. It very rarely metastasises — which is what distinguishes it biologically from squamous cell carcinoma — but if left untreated long enough it kills by local destruction of underlying structures [1].\n\nFacial skin is the most common site. The periorbital region, nose, and cheeks are the classic locations. The common facial skin cancers are BCC, SCC, and malignant melanoma, and all may be preceded by actinic keratosis, carcinoma in situ, or lentigo maligna [2].",
+      "presentation": "The classic form: an ulcerated nodule with raised, pearly, rolled margins and a telangiectatic (blood-vessel-studded) surface [1]. There are various morphological subtypes, but the pearly rolled edge is the consistent tell.\n\nEarly on it looks benign — a shiny pimple-like lesion that the patient may have ignored for months or years. The central ulceration appears later. The patient may not present to the dentist specifically for this; the GDP may notice it incidentally during the extra-oral exam.",
+      "results": "- **Visual inspection**: the raised pearly border with telangiectasia and central ulceration is near-pathognomonic [1].\n- **Growth pattern**: very slow. Indolent [1].\n- **Non-metastasising**: no regional lymphadenopathy unless there is secondary infection [1].\n- **Surgical margin check**: definitive diagnosis and clear-margin confirmation requires histology from excision.",
+      "definingCharacteristics": "The interesting bit about BCC is that it's **locally dangerous but systemically benign** — almost never metastasises, yet can destroy underlying tissue including cartilage and bone if neglected [1]. That's the opposite of mucosal SCC, which metastasises early.\n\nCompare to:\n\n- **Cutaneous SCC**: ulcerated lesion with raised edges, but keratin horns may be visible and the border is less pearly; external ear SCC can be aggressive (40%) [3]. Margins for SCC excision are wider (10mm vs 5mm for BCC) [4].\n- **Malignant melanoma**: pigmented, may be black/brown, bleeds or ulcerates or shows satellite lesions — prompt referral regardless; prognosis depends on Breslow depth [5].\n- **Actinic keratosis**: flat, scaly, sun-damaged skin — premalignant, not yet carcinoma [6].",
+      "treatment": "Excision is the primary option. The 'best buy' approach for facial skin cancers is usually excision with repair by primary closure, skin graft, or local flap [7].\n\n**Surgical margins**:\n\n- BCC: **5mm margin** of normal skin [4].\n- SCC: **10mm** [4].\n- Melanoma: **10–30mm**, depending on site [4].\n\nAlternatives to surgery: electron beam radiotherapy, topical photodynamic therapy, cryotherapy, curettage, and topical immune modulation [1, 7].\n\nGDP role: recognise, refer early. Early detection is the outcome-changer. The British Association of Dermatologists (BAD) produces guidelines on management [4].",
+      "prognosis": "- Treated BCC: excellent prognosis with clear margins. The tumour rarely recurs when fully excised.\n- Untreated: continues local invasion. Kills by destruction rather than metastasis [1].\n- Melanoma prognosis is driven by Breslow thickness — depth of tumour predicts outcome; early metastasis is common [5].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "An indolent skin cancer which very rarely metastasizes. If it kills, it usually does so by local destruction. Chronic exposure to sunlight is a major aetiological factor. There are various forms, the commonest being an ulcerated nodule with raised pearly margins and a telangiectatic surface. Rx: excision (micrographic or conventional), radiotherapy (especially electron beam), cryotherapy, curettage, topical immune modulation, photodynamic therapy, and electrodessication.",
+          "paragraph": 7502,
+          "source": "Oxford Handbook · paragraph 7502"
+        },
+        {
+          "id": 2,
+          "quote": "(…… Skin neoplasms, p. 550.) The common facial skin cancers are basal cell carcinoma (BCC), SCC, and malignant melanoma. They may be preceded by actinic keratosis, carcinoma in situ, or lentigo maligna.",
+          "paragraph": 6943,
+          "source": "Oxford Handbook · paragraph 6943"
+        },
+        {
+          "id": 3,
+          "quote": "SCC of the skin is surprisingly indolent in comparison to SCC of mucosa but beware the external ear which can be aggressive in 40%. Presents as an ulcerated lesion with raised edges. Keratin horns may be present, and it may arise in areas of previously sun-damaged skin or in gravitational leg ulcers. Surgical excision or radiotherapy is Rx of choice.",
+          "paragraph": 7504,
+          "source": "Oxford Handbook · paragraph 7504"
+        },
+        {
+          "id": 4,
+          "quote": "A margin of normal skin around the cancer of 5mm for BCC, 10mm for SCC, and 10–30mm for melanoma, dependent on site. The British Association of Dermatologists (BAD) produces a useful set of guidelines.",
+          "paragraph": 6946,
+          "source": "Oxford Handbook · paragraph 6946"
+        },
+        {
+          "id": 5,
+          "quote": "This condition is being increasingly diagnosed, with a doubling of the incidence in the last 20yrs. The prognosis is dependent primarily on the depth of the tumour (Breslow thickness), as the thicker the lesion, the poorer the prognosis. Early metastasis is common. Sunlight is a major aetiological factor, possibly due to burning at an early age. Suspect if a pigmented lesion rapidly enlarges, bleeds, ulcerates, shows 'satellite' lesions, or changes colour. Prompt referral for specialist management is needed.",
+          "paragraph": 7506,
+          "source": "Oxford Handbook · paragraph 7506 (malignant melanoma)"
+        },
+        {
+          "id": 6,
+          "quote": "Persistently sun-damaged areas of skin in which cancer may arise.",
+          "paragraph": 7518,
+          "source": "Oxford Handbook · paragraph 7518 (actinic keratosis)"
+        },
+        {
+          "id": 7,
+          "quote": "The 'best buy' Rx is usually excision with repair by 1° closure, skin graft, or local flap. Electron beam radiotherapy, topical photodynamic therapy, and topical 5-FU cream are alternatives.",
+          "paragraph": 6944,
+          "source": "Oxford Handbook · paragraph 6944"
+        }
+      ]
+    },
+    {
+      "id": "skin-003",
+      "description": "Itchy, red, blistering or cracked skin reaction on the hands or perioral area, developing after contact with a specific material used in dental treatment.",
+      "conditionName": "Allergic contact dermatitis from dental materials",
+      "prevalence": "very-uncommon",
+      "etiology": "A type IV delayed hypersensitivity reaction — a genuine allergic response mounted by the immune system against a specific allergen rather than a non-specific irritant effect [1].\n\nThe three main dental-material culprits:\n\n- **Nickel** — constituent of some alloys (nickel-chromium, stainless steel). Patients often have a background history of jewellery or watch-strap allergy [2].\n- **Acrylic monomer** — in poorly cured acrylic denture bases. The concentration of residual monomer is higher in self-cure than heat-cure acrylic, and greater in underprocessed batches [3].\n- **Epimine** — a constituent of polyether impression material [4].\n\nExogenous (irritant) eczema also exists — produced by anyone exposed to a sufficient irritant, with the hands the usual target — but this is a non-allergic mechanism [5].",
+      "presentation": "What you'll typically hear:\n\n- \"My skin is itching / burning around where I wear my denture\" or \"my hands flare up with certain gloves or at work.\"\n- Burning mouth sensation in patients reacting to acrylic monomer — this can mimic burning mouth syndrome [3].\n\nWhat you'll see:\n\n- Erythema, vesicles, blistering, and cracking at the contact site [5].\n- Distribution follows the contact area: perioral skin for nickel-containing orthodontic brackets or stainless steel crowns; palate and ridges for denture base; hands for latex or nickel-containing instruments.\n- Delayed onset — typically hours after contact, not immediate.",
+      "results": "- **Patch testing** by a dermatologist confirms the specific allergen. Referral to a dermatologist is recommended when allergy is suspected [6].\n- **History**: correlation between material and symptom onset is the clinical key.\n- **Nickel sensitivity**: a personal history of allergy to jewellery or watch casings [2].\n- **Acrylic**: burning mouth worse with a new denture, relieved by leaving the denture out [3].",
+      "definingCharacteristics": "The rule of thumb here: **burning mouth + new denture → think acrylic monomer first** [3]. The symptoms are localised and time-locked to the new appliance.\n\nCompare to:\n\n- **Irritant contact eczema** (exogenous eczema): affects anyone exposed to enough irritant; not allergen-specific; hands are the classic site [5]. No prior sensitisation needed.\n- **Angular cheilitis**: limited to the commissures, microbiological cause, not a contact reaction.\n- **Burning mouth syndrome**: no clear material link, no erythema or visible mucosal change, often menopausal women.\n\nNickel allergy is worth knowing because SS crowns and nickel-chromium alloys are common in dentistry, and nickel-sensitive patients may have a history that flags the risk before you place the material [2].",
+      "treatment": "Two steps: identify the allergen and remove it [6].\n\n- **Nickel**: use alternative alloys — titanium, cobalt-chromium, or gold. Alternative alloys are available [2]. SS crowns are contraindicated in known nickel allergy [7].\n- **Acrylic monomer**: use heat-cured acrylic (lower residual monomer); extended curing (e.g. 24h) may reduce monomer concentration to an acceptable level; if not tolerated, switch to cobalt-chrome or SS denture base [3].\n- **Polyether impression material**: change to alternative (e.g. addition-cured silicone).\n- **Dermatology referral** for patch testing to confirm the specific allergen and for management of established contact eczema [6].\n- **Topical steroids** for acute flare — under dermatologist guidance.",
+      "prognosis": "- Remove the allergen → symptoms resolve.\n- Continued exposure → chronic eczema with skin thickening.\n- Nickel allergy is persistent; it doesn't desensitise over time. Alternative materials are the long-term fix.\n- Acrylic sensitivity often resolves with a well-cured alternative base.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A genuine allergic response, e.g. to nickel.",
+          "paragraph": 7533,
+          "source": "Oxford Handbook · paragraph 7533 (allergic contact eczema)"
+        },
+        {
+          "id": 2,
+          "quote": "Nickel—as a constituent of some alloys can cause contact eczema. Sensitive patients often have a history of allergy to jewellery or watch casings. Alternative alloys are available.",
+          "paragraph": 9209,
+          "source": "Oxford Handbook · paragraph 9209"
+        },
+        {
+          "id": 3,
+          "quote": "Acrylic monomer—can cause an allergic reaction and should be considered in a patient complaining of a 'burning mouth'. The concentration of monomer is ↑ in poorly cured acrylic and greater in self- than heat-cure. Extended curing, e.g. 24h, may ↓ concentration of monomer to an acceptable level; if not a cobalt chrome or SS denture base will be required.",
+          "paragraph": 9210,
+          "source": "Oxford Handbook · paragraph 9210"
+        },
+        {
+          "id": 4,
+          "quote": "Epimine—in polyether impression material.",
+          "paragraph": 9211,
+          "source": "Oxford Handbook · paragraph 9211"
+        },
+        {
+          "id": 5,
+          "quote": "Can be produced in anyone exposed to a sufficient irritant. The hands are the usual target, with blistering, erythema, and cracking of skin.",
+          "paragraph": 7531,
+          "source": "Oxford Handbook · paragraph 7531 (exogenous eczema)"
+        },
+        {
+          "id": 6,
+          "quote": "If an allergy is suspected, consider referral to a dermatologist.",
+          "paragraph": 9212,
+          "source": "Oxford Handbook · paragraph 9212"
+        },
+        {
+          "id": 7,
+          "quote": "SS crowns are preformed metal crowns made from high-grade SS and do contain small traces of nickel. They are therefore not suitable for patients with a known nickel allergy.",
+          "paragraph": 1455,
+          "source": "Oxford Handbook · paragraph 1455"
+        }
+      ]
+    },
+    {
+      "id": "skin-004",
+      "description": "Clusters of tiny vesicles spreading across the perioral skin beyond the vermilion border, with an itching or tingling prodrome. History of previous cold sores at the same site.",
+      "conditionName": "Recurrent herpes simplex — cutaneous spread (herpes labialis with skin involvement)",
+      "prevalence": "common",
+      "etiology": "Herpes simplex virus type 1 (HSV-1) establishes latency in the trigeminal ganglion after primary infection. Reactivation is triggered by trauma (including dental treatment), sunlight, stress, febrile illness, or immunosuppression [1]. The virus travels antegrade down the sensory nerve and erupts at the mucocutaneous junction — typically the lip-skin border — but can spread onto the surrounding facial skin, not just the vermilion [1].\n\nThe thing is: vermilion-only herpes labialis belongs to the lips origin. The skin-spread variant lands here because the rash crosses onto true skin around the mouth — perinasal area, chin, or cheek — along the nerve territory of one branch of the trigeminal nerve [1].",
+      "presentation": "Sequence is consistent and almost always identical to the patient's previous episodes:\n\n1. **Prodrome**: burning or tingling at the site for ~24 hours [1].\n2. **Vesiculation**: small clustered fluid-filled blisters appear at the mucocutaneous junction or on the surrounding skin.\n3. **Ulceration**: vesicles rupture, leaving shallow painful ulcers.\n4. **Crusting**: yellow crust forms as lesions heal over 7–10 days.\n\nThe patient usually knows exactly what it is — they've had it before. Dental treatment is a recognised precipitating factor [1].",
+      "results": "- **Clinical diagnosis**: the prodrome history, cluster pattern, mucocutaneous location, and recurrent nature are usually sufficient [1].\n- **Distribution**: one branch territory, consistent with previous episodes. Does not cross the midline like zoster.\n- **Vitality of adjacent teeth**: normal — unlike shingles pre-eruption pain which can mimic pulpitis.\n- **Virus culture** or PCR swab can confirm in atypical cases.",
+      "definingCharacteristics": "The key distinction from shingles: **herpes simplex recurs at the same spot, is not strictly dermatomal, and the prodrome is short (24h)** [1]. Shingles presents once in a lifetime at that site, involves a whole dermatomal strip, and the pre-eruption pain phase is longer and more severe.\n\nCompare to:\n\n- **Shingles**: first episode in that territory (no recurrence history), involves a larger strip of skin, crosses into the oral mucosa along the nerve distribution, post-herpetic neuralgia is a real sequel.\n- **Angular cheilitis**: cracking at the commissures, not vesicular, no prodrome, microbiological not viral aetiology.\n- **Impetigo**: golden crusted lesions but no vesicular prodrome, bacterial (Staph/Strep), not linked to dental treatment.",
+      "treatment": "The window for effective antiviral treatment is narrow — during the prodrome or at the very first vesicle [1].\n\n- **Topical**: 5% aciclovir cream applied 4-hourly for 5 days at the prodromal or early lesion stage [2]. Or penciclovir 1% cream applied 2-hourly for 4 days [3].\n- **Systemic**: consider aciclovir 200mg PO five times daily for 5 days in immunocompromised patients or frequent recurrers [1, 2].\n- **Dental trigger**: if extraction of lower molar 8s or other procedures are the precipitant, prophylactic aciclovir before treatment can be considered in frequent recurrers [1].\n- Explain to the patient: treating in the prodrome is the only time topical treatment materially shortens the episode.",
+      "prognosis": "- Self-limiting in all immunocompetent patients. Resolves in 7–10 days without treatment.\n- Antiviral in the prodromal phase shortens the episode and may prevent full vesiculation.\n- Recurrence is the norm — up to 30% of patients get recurrent episodes [1]. Frequency varies widely.\n- In the immunocompromised, lesions can be severe, persistent, or atypical — systemic treatment is then appropriate [1, 2].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "These are seen in up to 30% of patients affecting the mucocutaneous junction of the lips (herpes labialis, cold sore) and result from reactivation of the 1° infection which is believed to lie dormant in the dorsal root, and autonomic or cranial nerve ganglia (trigeminal or geniculate). Precipitating factors include trauma, e.g. during removal of 8 and immunosuppression and, less commonly, exposure to sunlight, stress, and febrile illness. Usually recurs on area of distribution supplied by one branch of the trigeminal nerve. Prodromal phase (burning/tingling) over 24h is followed by vesiculation and pain. Lesions may respond to 1% penciclovir or aciclovir 5% cream if used in the prodromal stage. Should consider systemic aciclovir (…… Aciclovir, p. 612) in the immunosuppressed or frequent recurrences.",
+          "paragraph": 6016,
+          "source": "Oxford Handbook · paragraph 6016"
+        },
+        {
+          "id": 2,
+          "quote": "Active against herpes simplex and zoster; relatively non-toxic and can be given systemically or topically. Dose: herpes labialis: apply 5% aciclovir cream to site of prodromal or early lesion 4-hourly for 5 days; herpetic stomatitis: 200mg PO (400mg in immunocompromised) five times daily for 5 days; herpes zoster: 800mg PO five times daily for 7 days.",
+          "paragraph": 8237,
+          "source": "Oxford Handbook · paragraph 8237"
+        },
+        {
+          "id": 3,
+          "quote": "Penciclovir as a 1% cream applied 2-hourly for 4 days is prescribable according to the DPF for herpes labialis.",
+          "paragraph": 8239,
+          "source": "Oxford Handbook · paragraph 8239"
+        }
+      ]
+    }
+  ]
+}
