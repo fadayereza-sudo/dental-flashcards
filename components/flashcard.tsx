@@ -89,7 +89,7 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
 
   const questionFitRef = useRef<HTMLDivElement>(null);
   const questionTextRef = useRef<HTMLParagraphElement>(null);
-  useFitText(questionTextRef, questionFitRef, card.question + (card.image ?? ""), 24, 15);
+  useFitText(questionTextRef, questionFitRef, card.question, 24, 15);
 
   const stateLabel =
     card.state === 0
@@ -157,13 +157,6 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
               >
                 {card.question}
               </p>
-              {card.image && (
-                <img
-                  src={card.image}
-                  alt=""
-                  className="mt-4 w-full rounded-lg border border-rule/50 object-contain max-h-[40%]"
-                />
-              )}
             </div>
             <div className="flex-shrink-0 flex items-center justify-between text-xs tracking-[0.04em] uppercase text-ink-muted font-medium pt-5 border-t border-rule/70">
               <span>Tap to reveal</span>
@@ -179,13 +172,6 @@ export function Flashcard({ card, onRate, onEdit, onDelete }: Props) {
                 Answer &amp; Reasoning
               </p>
               <ManualMarkdown source={card.answer} className="text-ink" />
-              {card.image && (
-                <img
-                  src={card.image}
-                  alt=""
-                  className="mt-4 w-full rounded-lg border border-rule/50"
-                />
-              )}
             </div>
             <div className="flex items-center justify-between gap-3 text-xs tracking-[0.04em] uppercase text-ink-muted font-medium pt-5 border-t border-rule/70">
               {card.reference || card.referenceSection ? (
