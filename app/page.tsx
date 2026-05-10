@@ -7,6 +7,8 @@ import { GuidelinesPage } from "@/components/guidelines-page";
 import { BottomTabs } from "@/components/bottom-tabs";
 
 const INITIAL_PANEL = 1;
+const PANEL_COUNT = 3;
+const PANEL_STORAGE_KEY = "dental:active-panel";
 
 export default function Home() {
   const panelRef = useRef<HTMLDivElement>(null);
@@ -15,7 +17,20 @@ export default function Home() {
   useLayoutEffect(() => {
     const container = panelRef.current;
     if (!container) return;
-    container.scrollLeft = container.clientWidth * INITIAL_PANEL;
+    let target = INITIAL_PANEL;
+    try {
+      const saved = sessionStorage.getItem(PANEL_STORAGE_KEY);
+      if (saved !== null) {
+        const parsed = parseInt(saved, 10);
+        if (Number.isInteger(parsed) && parsed >= 0 && parsed < PANEL_COUNT) {
+          target = parsed;
+        }
+      }
+    } catch {
+      // sessionStorage unavailable (private mode etc.) — fall back to default
+    }
+    container.scrollLeft = container.clientWidth * target;
+    setActivePanel(target);
   }, []);
 
   useEffect(() => {
@@ -25,6 +40,11 @@ export default function Home() {
     const handleScroll = () => {
       const index = Math.round(container.scrollLeft / container.clientWidth);
       setActivePanel(index);
+      try {
+        sessionStorage.setItem(PANEL_STORAGE_KEY, String(index));
+      } catch {
+        // sessionStorage unavailable — skip persistence
+      }
     };
 
     container.addEventListener("scroll", handleScroll, { passive: true });
