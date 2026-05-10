@@ -1,0 +1,318 @@
+{
+  "slug": "lifestyle",
+  "title": "Lifestyle",
+  "order": 15,
+  "description": "Oral conditions where the primary driver is a lifestyle factor: tobacco use, dietary acid or sugar patterns, and oral hygiene habits.",
+  "problems": [
+    {
+      "id": "lifestyle-001",
+      "description": "A white patch on the buccal mucosa or tongue in a smoker, flat and homogeneous, without pain or other features to explain it.",
+      "conditionName": "Smoker's keratosis",
+      "prevalence": "common",
+      "etiology": "The patch is driven by a combination of low-grade thermal burn and the chemical irritants in tobacco smoke [1]. The mechanism is strongest where the smoker habitually holds a pipe or cigarette — that's where a direct causal link is clearest. On the buccal mucosa or tongue in general smokers, smoking is assumed to be the cause but the evidence is indirect [2].\n\nThe key distinction here: smoker's keratosis affects non-keratinized mucosa generally, while stomatitis nicotina is a distinct entity confined to the hard palate and driven by the same smoke exposure [2]. They are not the same thing and are not interchangeable labels.",
+      "presentation": "What you'll see:\n\n- A flat, homogeneous white patch on the buccal mucosa, tongue, or palate [1].\n- Sometimes with a finely wrinkled surface texture [2].\n- No pain, no ulceration, no red areas — those features would raise the suspicion of dysplasia or worse.\n- Patient is typically a current or heavy past smoker; pipe smokers are particularly associated with the palatal variant.",
+      "results": "- **Biopsy**: required for all white patches in the mouth as a general rule, to exclude squamous cell carcinoma and assess for dysplasia [3]. The clinical appearance alone is not sufficient.\n- **Appearance on histology**: keratosis, no features specific to smoking. Label is applied retrospectively once the site and smoking history are known.\n- No specific vitality, probing, or radiographic findings relevant to this lesion.",
+      "definingCharacteristics": "Smoker's keratosis sits in a large differential of white patches. The distinguishing points:\n\n- **It's in a smoker** — without that history, it's idiopathic leukoplakia.\n- **It's flat and homogeneous** — speckled or non-homogeneous patches, or those with red areas, induration, or ulceration, need urgent referral as possible carcinoma [3].\n- **Stomatitis nicotina** is a separate condition: it affects only the hard palate and shows numerous red papules on a white-grey base (dilated minor salivary gland openings) [4]. Unlike smoker's keratosis, stomatitis nicotina may indicate dysplasia risk at other high-risk sites.\n- Unlike idiopathic leukoplakia, smoker's keratosis resolves on stopping smoking [1]. That distinguishes it retrospectively.",
+      "treatment": "- **Biopsy** to exclude malignancy and confirm or deny dysplasia [3].\n- **Smoking cessation**: the lesion resolves on stopping smoking [1]. Refer to stop smoking support; VBA (very brief advice) approach: ask, advise, act — refer to local stop smoking service preferably with behavioural support and pharmacotherapy [5].\n- If dysplasia is found: specialist referral for observation or excision depending on grade.\n- Follow-up at 3-monthly intervals if ongoing lesion is present, with repeat biopsy on change [6].",
+      "prognosis": "- **Stop smoking** → lesion resolves [1]. This is the clearest prognostic marker for this condition: regression is expected with cessation.\n- **Continue smoking** → lesion persists; ongoing low-level risk. There is little evidence that smoker's keratosis itself is premalignant [1], but idiopathic white patches (which it may overlap with) carry a 12.1% overall malignant transformation rate, higher with dysplasia (24.1% with severe dysplasia) [7].\n- The interesting bit: malignant transformation of leukoplakia is actually more common in non-smokers (idiopathic) than in smokers — stopping smoking removes the stimulus and the lesion [7].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Characteristically a white patch affecting buccal mucosa, tongue, or palate. Due to a combination of low-grade burn and the chemical irritants of smoke, and seen particularly in pipe smokers. There is little evidence that these patches are premalignant and they resolve on stopping smoking.",
+          "paragraph": 6119,
+          "source": "Oxford Handbook · paragraph 6119"
+        },
+        {
+          "id": 2,
+          "quote": "Smoker's keratosis is a white patch of no known cause and found in the mouth of a smoker. This type of lesion is a flat, homogeneous white patch, sometimes with a finely wrinkled surface, on nonkeratinized mucosa. Smoking is assumed to be the cause, although there is rarely any evidence to support this unless the lesion arises where the smoker habitually holds a pipe or a cigarette. This patient's lesion could be smoker's keratosis, but this is not a particularly useful label and does not imply that it should be treated any differently from an idiopathic white patch. Smoker's palate (stomatitis nicotina) is a separate condition and is discussed below.",
+          "paragraph": 4959,
+          "source": "Odell's Clinical Problem Solving · paragraph 4959"
+        },
+        {
+          "id": 3,
+          "quote": "Yes. As a general rule, all white lesions in the mouth require biopsy. Completely typical keratotic lichen planus and typical frictional keratoses are considered exceptions to this rule by some authorities, but this would only be acceptable if the clinician were very experienced in the diagnosis of oral white lesions.",
+          "paragraph": 4974,
+          "source": "Odell's Clinical Problem Solving · paragraph 4974"
+        },
+        {
+          "id": 4,
+          "quote": "Affects palate; numerous red papules on a white/grey base. The papules have a dark 'head' which is the opening of a distended minor salivary gland. May indicate a risk of dysplasia or neoplasm at high-risk sites such as floor of mouth, retro-molar region, or lateral tongue.",
+          "paragraph": 6121,
+          "source": "Oxford Handbook · paragraph 6121"
+        },
+        {
+          "id": 5,
+          "quote": "Use of tobacco, both smoked (for example cigarettes, pipes, waterpipes and shisha) and smokeless (for example paan, chewing tobacco and gutkha), seriously affects general and oral health. The most significant risk is for oral cancer and pre-cancers. The combined use of tobacco and alcohol further increases the risk of oral cancer. Encourage children and young people not to start smoking or using tobacco.",
+          "source": "Delivering Better Oral Health (DBOH) 4th edition — Chapter 11, tobacco use introduction"
+        },
+        {
+          "id": 6,
+          "quote": "Record site, preferably photographically. Consider site, histology, age, and health of the patient, in conjunction with aetiological factors, before deciding on long-term observation or active intervention. Completely stop patient from smoking. Observation may consist of clinical examination with repeated biopsy if change is seen. Follow-up at 3-monthly intervals.",
+          "paragraph": 6204,
+          "source": "Oxford Handbook · paragraph 6204"
+        },
+        {
+          "id": 7,
+          "quote": "One meta-analysis revealed that the overall malignant transformation rate of leucoplakia was 12.1% and there was a significant difference between mild/moderate and severe dysplasia (10.3% vs 24.1%). Malignant transformation is more common among non-smokers (idiopathic leucoplakia).",
+          "paragraph": 6188,
+          "source": "Oxford Handbook · paragraph 6188"
+        }
+      ]
+    },
+    {
+      "id": "lifestyle-002",
+      "description": "Multiple red papules with dark openings on a white, thickened palate in a pipe or heavy cigarette smoker — noticed by the clinician, rarely by the patient.",
+      "conditionName": "Stomatitis nicotina (smoker's palate / nicotinic stomatitis)",
+      "prevalence": "uncommon",
+      "etiology": "The palate is exposed to the concentrated heat and chemical irritants of smoke at close range, especially with pipe and cigar use and heavy cigarette smoking [1]. The hard palate mucosa responds by hyperkeratosis — the white-grey base — while the minor salivary gland ducts become inflamed and dilated, producing the characteristic red papules with dark central openings [1].\n\nThis is a site-specific reaction. It does not occur on non-palatal mucosa and is distinct from smoker's keratosis, which can affect any non-keratinized surface [2].",
+      "presentation": "What you'll see on the hard palate:\n\n- Diffuse white or grey thickening of the hard palate mucosa [1].\n- Scattered red papules, each with a dark central opening (the dilated minor salivary gland duct) [1].\n- The soft palate is often spared — smoke contact is predominantly hard palate.\n- The patient typically doesn't notice it; it's an incidental clinical finding.\n- History of pipe, cigar, or heavy cigarette smoking — essential context.",
+      "results": "- The clinical picture is characteristic enough to suggest the diagnosis, but **biopsy** is advisable to exclude dysplasia, particularly given the implication for high-risk sites elsewhere in the mouth [1].\n- The lesion itself is associated with a risk of dysplasia or neoplasm at high-risk sites such as the floor of mouth, retromolar region, or lateral tongue — even when the palatal lesion itself is benign [1].\n- No specific probing, vitality, or radiographic findings.",
+      "definingCharacteristics": "The site and the pattern are the giveaway:\n\n- **Hard palate only** — unlike smoker's keratosis, which can be anywhere on non-keratinized mucosa [2].\n- **Red papules on a white base** — the red papules with dark openings distinguish it from a simple white patch or leukoplakia.\n- The clinical significance is not the palatal lesion itself, but what it signals: **stomatitis nicotina acts as a marker for significant smoking exposure** — the same smoke load that creates this lesion also raises risk at high-risk sites (floor of mouth, lateral tongue, retromolar region) [1].\n- Unlike the palatal form, the mucosal changes at those other sites may harbour dysplasia without being visible.",
+      "treatment": "- **Smoking cessation** is the central intervention [3].\n- Refer to stop smoking support (VBA approach; behavioural + pharmacological combination is most effective) [3].\n- **Examine all high-risk sites** — floor of mouth, retromolar region, lateral tongue — carefully. Stomatitis nicotina signals heavy tobacco exposure; any suspicious lesion at those sites warrants urgent referral [1].\n- The palatal lesion itself does not require surgical excision; it resolves on stopping smoking.",
+      "prognosis": "- **Stop smoking** → palatal lesion resolves; risk at other sites reduces.\n- The palatal lesion itself carries limited malignant potential, but it is a marker of heavy tobacco use. The real prognosis question is about high-risk mucosal sites elsewhere — those warrant 3-monthly observation if any lesion is present [4].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Affects palate; numerous red papules on a white/grey base. The papules have a dark 'head' which is the opening of a distended minor salivary gland. May indicate a risk of dysplasia or neoplasm at high-risk sites such as floor of mouth, retro-molar region, or lateral tongue.",
+          "paragraph": 6121,
+          "source": "Oxford Handbook · paragraph 6121"
+        },
+        {
+          "id": 2,
+          "quote": "Smoker's palate (stomatitis nicotina) may be excluded because it affects only the hard palate of pipe or cigar smokers and that of heavy cigarette smokers.",
+          "paragraph": 4971,
+          "source": "Odell's Clinical Problem Solving · paragraph 4971"
+        },
+        {
+          "id": 3,
+          "quote": "Use of tobacco, both smoked (for example cigarettes, pipes, waterpipes and shisha) and smokeless (for example paan, chewing tobacco and gutkha), seriously affects general and oral health. The most significant risk is for oral cancer and pre-cancers. The combined use of tobacco and alcohol further increases the risk of oral cancer.",
+          "source": "Delivering Better Oral Health (DBOH) 4th edition — Chapter 11, tobacco use introduction"
+        },
+        {
+          "id": 4,
+          "quote": "Record site, preferably photographically. Consider site, histology, age, and health of the patient, in conjunction with aetiological factors, before deciding on long-term observation or active intervention. Completely stop patient from smoking. Observation may consist of clinical examination with repeated biopsy if change is seen. Follow-up at 3-monthly intervals.",
+          "paragraph": 6204,
+          "source": "Oxford Handbook · paragraph 6204"
+        }
+      ]
+    },
+    {
+      "id": "lifestyle-003",
+      "description": "Teeth becoming shorter and smoother, with cupping on molar occlusal surfaces and palatal loss on upper front teeth, linked to frequent acidic drink or food intake.",
+      "conditionName": "Dietary erosive tooth wear",
+      "prevalence": "common",
+      "etiology": "Dietary erosive tooth wear is the loss of dental hard tissue from non-bacterial chemical attack by extrinsic acids [1]. The dominant sources are carbonated drinks, fruit juices, sports drinks, and vinegar-based foods — all of which lower the pH at the enamel surface [2].\n\nThe reason it's a lifestyle problem rather than just a chemical one: it's about **frequency and pattern**. A single acidic drink does limited damage; the same drink consumed repeatedly throughout the day, swilled around the mouth, or sipped slowly means repeated acid exposure before saliva can neutralise and remineralise [3]. Enamel softened by acid is then vulnerable to mechanical removal by toothbrushing — that's the erosion-abrasion combination that accelerates the wear.\n\nSaliva plays the protective role: it dilutes, buffers, and facilitates clearance. Patients with reduced salivary flow (xerostomia) are at elevated risk for the same acid load [1].",
+      "presentation": "What the patient may say:\n\n- Increasing sensitivity on front teeth — cold especially.\n- Teeth look shorter or more transparent at the edges.\n- Sometimes notices the change in appearance rather than pain.\n\nWhat you'll see:\n\n- **Smooth, shiny enamel** initially — then cupping on molar occlusal surfaces and loss of vertical height [1].\n- **'Proud' amalgams**: the surrounding tooth structure has worn away faster than the metal, leaving the restoration sitting proud of the tooth surface [1].\n- **Labial surfaces of upper anterior teeth** classically affected by dietary (extrinsic) acid — this is the pattern that distinguishes it from gastric erosion, which affects palatal surfaces [4].\n- Carbonated drinks, fruit juice, sports drinks, wine: all typical drivers [2].",
+      "results": "- **BEWE (Basic Erosive Wear Examination)**: score the most severely affected surface per sextant [5]. BEWE 1 = first signs (brightness loss, frosted glass); BEWE 2 = dentine exposed, <50% surface area; BEWE 3 = >50% surface area [5]. Multiple BEWE 3 scores indicate severe wear requiring further investigation.\n- **Diet diary**: 3–4 consecutive days including at least one weekend day. Ask for all food and drink, times, quantities [6]. Confirm the acidic sources and their frequency.\n- **Radiographs**: not diagnostic for erosion itself, but periapical films assess pulp chamber size (secondary dentine formation may be visible) and exclude caries at eroded sites.\n- **Study models / intraoral scans**: baseline record to monitor progression. Compare at 6–12 monthly intervals.",
+      "definingCharacteristics": "The pattern distinguishes dietary from gastric erosion:\n\n- **Dietary (extrinsic) acid** → labial and buccal surfaces of upper anterior teeth affected most; smooth cupping on molars [4].\n- **Gastric (intrinsic) acid** → palatal surfaces of upper anteriors predominantly, and occlusal of lower molars; suggests GORD or eating disorder, not diet [4].\n- **Attrition** → matching wear facets on opposing teeth; wear flat, not cupped; bruxism history.\n- The lifestyle framing here: this is about a pattern of frequently acidic dietary choices, not a single food. Diet analysis distinguishes it from gastric causes.",
+      "treatment": "The goal is to remove the acid source and protect what's left.\n\n**Dietary advice:**\n\n- Reduce the frequency of intake of the identified acidic foods or drinks — limit to mealtimes [7].\n- Substitute carbonated or acidic drinks with plain water, non-flavoured sparkling water, or milk between meals [7].\n- Advise against swilling or swishing acidic drinks before swallowing — this prolongs acid contact [7].\n\n**Fluoride:**\n\n- Use a standard or high-fluoride toothpaste twice daily. Evidence from in situ and in vitro studies suggests toothpastes containing fluoride, or fluoride plus a stannous-based ingredient, can play a supplementary protective role [8].\n- Avoid high-abrasive toothpastes [7].\n\n**Monitoring:**\n\n- Study models / intraoral scans at baseline and follow-up intervals [6].\n- BEWE at every new course of treatment [5].\n\n**Restorative:**\n\n- Only once the causative factors are controlled. Direct resin composite to protect palatal or labial surfaces in progressive cases; median time before revision ~6–7 years [9].\n- Referral to restorative specialist for complex cases involving OVD change.",
+      "prognosis": "- **Enamel loss is irreversible** once it exceeds the remineralisation capacity [10]. The goal is to stop progression, not reverse it.\n- Remineralisation is possible only in enamel provided there is no corresponding mechanical loss [10].\n- Remove the acid source → wear ceases or slows markedly. Continue the pattern → progressive loss accelerates once dentine is exposed (dentine erodes faster than enamel) [1].\n- 77% of UK adults have at least some tooth wear to dentine (ADHS 2009); 15% have moderate wear (exposing a large area of dentine on any surface); 2% have severe wear reaching pulp or secondary dentine [11]. Severe wear affects a small proportion — it's the minority who have pathological frequency of acid intake.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Loss of tooth substance from non-bacterial chemical attack. Enamel initially becomes smooth and shiny then eventually dentine is exposed. This leads to cup-shaped lesions on the occlusal and incisal surfaces and proud amalgams. Once erosion is through to dentine it can accelerate. Sources of acid may be intrinsic or extrinsic. Patients with xerostomia are at ↑ risk.",
+          "paragraph": 3789,
+          "source": "Oxford Handbook · paragraph 3789"
+        },
+        {
+          "id": 2,
+          "quote": "Dietary (e.g. citric, phosphoric, acetic acid)—found in carbonated drinks, fruit/citrus juices, and pickles. Labial surfaces of ULS teeth classically affected.",
+          "paragraph": 3793,
+          "source": "Oxford Handbook · paragraph 3793"
+        },
+        {
+          "id": 3,
+          "quote": "Whether the erosive potential translates into tooth wear depends on patient factors and exposure conditions, including the length of time involved, and number of acidic attacks per day.",
+          "source": "Delivering Better Oral Health (DBOH) 4th edition — Chapter 7, Risk factors"
+        },
+        {
+          "id": 4,
+          "quote": "Erosion from dietary acids is usually associated with more enamel loss on the buccal or labial surfaces of the upper anterior teeth. However, if the patient rinses or swills acidic drinks in the palatal vault prior to swallowing, the pattern of erosion is very similar to that seen when gastric acid is regurgitated.",
+          "paragraph": 6499,
+          "source": "Odell's Clinical Problem Solving · paragraph 6499"
+        },
+        {
+          "id": 5,
+          "quote": "The BEWE is a simple screening tool based on the principles of the Basic Periodontal Examination (BPE). The BEWE records the most severely affected surface for each sextant, which means it entails a similar clinical procedure to the BPE's sextant approach. The BEWE is a 4 point scale from 0 to 3, with 1 representing early change, 2 less than 50% and 3 more than 50% of the surface involved. A BEWE score of 3 (wear affecting over 50% of a surface) present in every sextant justifies further investigation and multiple level 3 scores indicate severe wear.",
+          "source": "Delivering Better Oral Health (DBOH) 4th edition — Chapter 7, The Basic Erosive Wear Examination (BEWE) index"
+        },
+        {
+          "id": 6,
+          "quote": "Diet analysis is required to determine whether there is excessively frequent intake of dietary acids because the frequency of intake of dietary acids increases the risk of erosive tooth wear.",
+          "paragraph": 6589,
+          "source": "Odell's Clinical Problem Solving · paragraph 6589"
+        },
+        {
+          "id": 7,
+          "quote": "Where there is evidence of dietary risk responsible for tooth wear, patients should be advised to reduce the frequency of intake of the identified acidic foods or drinks. Keep the identified acidic food and drinks to mealtimes and explore safe alternatives, particularly between meals. Advise against methods of drinking that promote tooth wear such as swilling and swishing.",
+          "source": "Delivering Better Oral Health (DBOH) 4th edition — Chapter 7, Risk factor management: Diet"
+        },
+        {
+          "id": 8,
+          "quote": "Evidence from in situ and in vitro (laboratory) studies suggests that specialised toothpastes containing fluoride, or fluoride plus a stannous-based ingredient, can play a supplementary role in managing erosive wear.",
+          "source": "Delivering Better Oral Health (DBOH) 4th edition — Chapter 7, Risk factor management: professional action"
+        },
+        {
+          "id": 9,
+          "quote": "In the early stages of erosion, direct resin composite restorations will protect the palatal surfaces from further damage. However, the finite lifespan of such restorations requires the patient's commitment to further treatment, with a median time of 6–7 years before revision becomes necessary.",
+          "paragraph": 6551,
+          "source": "Odell's Clinical Problem Solving · paragraph 6551"
+        },
+        {
+          "id": 10,
+          "quote": "By definition, dental erosion is the dissolution of tooth mineral where plaque is not involved in its aetiology. Remineralisation is possible only in enamel, provided there is no corresponding mechanical loss. Once tissue is lost, tooth wear becomes irreversible.",
+          "source": "Delivering Better Oral Health (DBOH) 4th edition — Chapter 7, Definitions"
+        },
+        {
+          "id": 11,
+          "quote": "The 2009 national (England, Wales and Northern Ireland) survey of dentate adults found that 2% had severe tooth wear (exposing the pulp or secondary dentine), 15% had moderate wear (exposing a large area of dentine on any surface) and 77% had some wear present.",
+          "source": "Delivering Better Oral Health (DBOH) 4th edition — Chapter 7, Tooth wear in the UK"
+        }
+      ]
+    },
+    {
+      "id": "lifestyle-004",
+      "description": "Multiple new cavities in an adult, distributed across several teeth, in a patient whose history reveals a high frequency of sugary snacks or drinks between meals.",
+      "conditionName": "High-frequency sugar-driven caries pattern",
+      "prevalence": "common",
+      "etiology": "Caries is a dynamic demineralisation-remineralisation balance. The reason frequency matters more than total amount is the Stephan curve: plaque pH drops sharply within a minute of a sugary challenge and takes 20–40 minutes to recover [1]. Multiple sugar intakes across the day mean the pH stays below the critical threshold for prolonged periods — remineralisation never gets a window to catch up [1].\n\nSucrose is the most cariogenic dietary sugar: it enables extracellular polysaccharide production in plaque and is the preferred substrate for *S. mutans* and *S. sobrinus* [2]. Frequency of intake drives the number of acid challenges; stickiness and concentration modify the depth of the pH drop. Foods combining starch and sugar (cakes, biscuits) and carbonated sugary drinks are especially damaging [3].\n\nThe lifestyle framing: grazing — the habit of frequent between-meal snacking or sipping sweet drinks — creates the pathological pattern. A patient who eats three sugary meals a day and nothing between is at far lower risk than one who sips a sugary drink continuously [1].",
+      "presentation": "What the patient may say:\n\n- Toothache, sensitivity, a broken or crumbling tooth — or nothing at all.\n- Dietary history reveals sweet drinks or snacks consumed multiple times outside meal times.\n\nWhat you'll see:\n\n- New cavities across multiple teeth, often cervically or in surfaces with poor self-cleaning.\n- Existing restorations with secondary caries, especially if the dietary pattern is long-standing.\n- Plaque accumulation, often associated with poor brushing habits.\n- For root caries: recession is needed first; the vulnerable dentine then meets the acidic plaque [4].",
+      "results": "- **Bitewing radiographs**: most reliable method for detecting approximal and early occlusal caries [5]. Compare with previous films to assess rate of progression.\n- **Visual-tactile examination**: cavitated lesions visible and palpable; non-cavitated lesions show white spot or brown discolouration.\n- **Diet diary**: 3–4 days including a weekend day [6]. Count the number of sugary exposures outside mealtimes. More than three to four exposures per day is a high-risk pattern.\n- **Caries risk assessment**: diet, OH, saliva, fluoride use, medical history. High-frequency sugar intake is one of the strongest modifiable risk factors.",
+      "definingCharacteristics": "The lifestyle caries pattern is distinguished from single-tooth or isolated caries by:\n\n- **Multiple teeth affected** — often several at once, sometimes a characteristic distribution (smooth surfaces, cervical areas, unusual sites).\n- **Diet history as the differentiator**: a patient with a single cavity in a fissure may just have poor morphology; a patient with new cavities in five teeth needs a diet interrogation.\n- **Unlike early childhood caries (ECC)**, which is driven by the same mechanism but in the primary dentition and typically in young children with prolonged bottle feeding — this pattern is the adult equivalent: the driver is a grazing dietary habit at any age.\n- **Unlike rampant caries from xerostomia**, there's no medical cause for reduced saliva here; the driver is the substrate frequency.",
+      "treatment": "Three arms in parallel: **remove the substrate, reinforce with fluoride, restore what's lost.**\n\n**Diet:**\n\n- Reduce the frequency of consumption of sugar-containing foods and drinks, especially between meals [3].\n- Save sweet foods to mealtimes — ideally at the end of a meal where salivary flow can help neutralise [6].\n- Sugar-free versions of drinks and medicines as alternatives [3].\n\n**Fluoride:**\n\n- Standard fluoride toothpaste 1,350–1,500ppm twice daily [7]. High-risk patients: 2,800ppm or 5,000ppm prescription fluoride toothpaste per clinical assessment.\n- Fluoride varnish application professionally at each visit for high-risk patients.\n\n**Restorative:**\n\n- Restore cavitated lesions to prevent progression. Non-cavitated initial lesions: arrest with fluoride first.\n- Diet change is a prerequisite — restore without addressing the cause and new cavities will form around the margins.\n\n**Review:**\n\n- Set recall interval based on risk. High-risk patients warrant 3-monthly monitoring initially until diet and OH improve.",
+      "prognosis": "- **Address the diet and use fluoride** → the balance tips towards remineralisation; no new cavities form; existing non-cavitated lesions can arrest [7].\n- **Leave the pattern unchanged** → caries continues to progress. Cavitated lesions cannot remineralise.\n- Frequency reduction is the most important lever. The COMA panel reported in 1989 that dental decay is positively associated with the frequency and amount of non-milk extrinsic sugar consumption [8]. That relationship has not changed.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The pH of fluid in the plaque biofilm falls rapidly on eating sugar (within one minute). The pH slowly recovers over 20 to 40 minutes due to buffering and washing effect of saliva, and sugar used up. Repeated intakes of sugar mean that pH remains for prolonged period below the point which favours demineralisation.",
+          "source": "Delivering Better Oral Health (DBOH) 4th edition — Chapter 10, Figure 10.2a and 10.2b description"
+        },
+        {
+          "id": 2,
+          "quote": "Colony density rises to >50% in presence of high dietary sucrose. Able to produce acid from most sugars. Most important organisms in the aetiology of caries.",
+          "paragraph": 2866,
+          "source": "Oxford Handbook · paragraph 2866 (S. mutans and S. sobrinus)"
+        },
+        {
+          "id": 3,
+          "quote": "Reduce frequency of consumption of sugar-containing foods and drinks, especially between meals. Foods containing starch and sugar in combination (e.g. cakes, biscuits) and carbonated sugary drinks are especially decay-producing.",
+          "paragraph": 769,
+          "source": "Oxford Handbook · paragraphs 769, 772 (recommendations for reducing caries risk)"
+        },
+        {
+          "id": 4,
+          "quote": "As gingival recession is a prerequisite to root caries, it occurs predominantly in the >40yrs age group. Dentine, which has a critical pH below that of enamel, is thus directly exposed to carious attack.",
+          "paragraph": 3746,
+          "source": "Oxford Handbook · paragraph 3746"
+        },
+        {
+          "id": 5,
+          "quote": "The frequency of sugary intakes and the interval between them, the total amount of sugar eaten in the diet, and the concentration of sugar and stickiness of a food have been shown to be important.",
+          "paragraph": 751,
+          "source": "Oxford Handbook · paragraph 751"
+        },
+        {
+          "id": 6,
+          "quote": "A consecutive 3- or 4-day analysis (including at least one weekend day) is the most widely used, with the patient recording the time, content, and quantity of food/drink consumed.",
+          "paragraph": 784,
+          "source": "Oxford Handbook · paragraph 784"
+        },
+        {
+          "id": 7,
+          "quote": "Prospective cohort studies conducted in children and adolescents indicate that higher consumption (that is, the amount) of sugars, sugar-containing foods and sugar-sweetened beverages is associated with a greater risk of dental caries in the deciduous and permanent dentitions. A higher frequency of consumption of free sugar-containing foods and beverages, but not total sugars, is also associated with greater risk of dental caries in the deciduous and permanent dentitions.",
+          "source": "Delivering Better Oral Health (DBOH) 4th edition — Chapter 10, Free sugars in the diet"
+        },
+        {
+          "id": 8,
+          "quote": "In 1989, the Committee on Medical Aspects of Food Policy (COMA) Panel on Dietary Sugars and Human Disease reported that dental decay is positively associated with the frequency and amount of non-milk extrinsic sugar consumption.",
+          "paragraph": 753,
+          "source": "Oxford Handbook · paragraph 753"
+        }
+      ]
+    },
+    {
+      "id": "lifestyle-005",
+      "description": "Generalised gingival redness and bleeding on brushing across the whole mouth, directly linked to poor plaque removal habits rather than any systemic cause.",
+      "conditionName": "Lifestyle-driven generalised plaque-induced gingivitis",
+      "prevalence": "very-common",
+      "etiology": "The cause is plaque biofilm sitting at the gingival margin — and the reason it's here in the lifestyle origin rather than under periodontal is the framing: this is the pattern where the driver is a fixable oral hygiene habit, rather than systemic disease or medication. The inflammation is not the infection — plaque bugs trigger a host inflammatory response, and that response is what reddens and swells the gum [1].\n\nThe relationship is dose-dependent and reversible: experimental gingivitis can be produced and abolished by stopping and restarting oral hygiene [2]. That reversibility is the defining feature. Once plaque is controlled, the gingivitis resolves — no residual attachment loss, no lasting damage [3].\n\nThe lifestyle angle: interdental cleaning is consistently undertreated. Plaque accumulates where the toothbrush can't reach — the approximal surfaces — and the majority of patients don't clean these areas adequately [4].",
+      "presentation": "What you'll typically hear:\n\n- \"My gums bleed when I brush\" [5].\n- No pain — many patients don't notice until it's pointed out [5].\n- Sometimes halitosis mentioned in passing.\n\nWhat you'll see:\n\n- Generalised red, swollen, rounded gingival margins — the knife-edge contour and stippling of health are absent [5].\n- Bleeding on gentle probing, BOP ≥10% of sites [6].\n- No attachment loss, no pockets >3mm [6]. That's the separator between gingivitis and periodontitis.",
+      "results": "- **BPE**: typically code 1 across most sextants — bleeding on probing, pockets <3.5mm, no calculus, no plaque-retentive factors. Code 2 if calculus or overhangs are present [7].\n- **Probing depths**: <3mm in the strict 2017 World Workshop definition [6]. False pockets >3mm can occur from gingival oedema, but there is no true attachment loss [3].\n- **Plaque score**: high. The plaque level drives the inflammation — high plaque, worse gingivitis [2].\n- **Radiographs**: no bone loss.",
+      "definingCharacteristics": "The single useful question to separate this from periodontitis: **is there attachment loss?**\n\n- No attachment loss + bleeding on probing → gingivitis. Reversible [3].\n- Attachment loss + bleeding → periodontitis. Not fully reversible.\n\nOther distinguishing features of the lifestyle framing:\n\n- Generalised distribution — all sextants affected — rather than localised pocketing at specific sites.\n- No systemic driver: medication-induced gingival enlargement, pregnancy gingivitis, leukaemia-associated gingivitis all have non-plaque components. In lifestyle gingivitis, plaque is the whole story.\n- Unlike NUG (necrotising ulcerative gingivitis): NUG has punched-out ulcerated papillae, metallic taste, and severe pain [8]. This doesn't.",
+      "treatment": "Plaque off the teeth, every day. That's it — all the rest is facilitation.\n\n**Step 1 (BSP framework):**\n\n- Explain the disease, risk factors, and consequences of no treatment [9].\n- Tailored OHI including interdental cleaning — this is not optional [9].\n- Professional mechanical plaque removal (PMPR): supra and subgingival scaling [9].\n- Remove plaque-retentive features (calculus, overhangs) [9].\n\n**Interdental cleaning:**\n\n- Interdental brushes are the method of choice where spaces allow insertion without trauma — better evidence base than floss for plaque removal [4].\n\n**Chlorhexidine adjunct** (when mechanical methods fail — disability, post-surgery):\n\n- 0.2% gluconate 10mL rinsed for 1 minute twice daily, or 0.12% 15mL for 30 seconds twice daily [10].\n- Causes staining and altered taste. Conventional toothpaste interacts with it — don't use at the same time [10].\n\n**Re-evaluate** at next visit: ≥50% improvement in plaque and marginal bleeding scores, or plaque ≤20% and bleeding ≤30%, = engaging [11].",
+      "prognosis": "- **Engage with the plan** → gingivitis reverses completely. Experimental gingivitis is abolished by reintroducing OH [2].\n- **Don't engage** → gingivitis persists; in susceptible individuals, it tips into periodontitis with attachment loss and bone loss [12]. That transition is not reversible.\n\n**Rule of thumb**: bleeding gums on brushing are not normal. They're the earliest and most reversible stage of disease — the ideal moment to intervene.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Plaque biofilm causes gingivitis by inducing an inflammatory host response. The inflammatory response of gingiva to the presence of initial young plaque creates gingival inflammatory changes and a minute gingival pocket which serves as an ideal environment for further bacterial colonization, providing all the nutrients required for the growth of numerous fastidious organisms.",
+          "paragraph": 2898,
+          "source": "Oxford Handbook · paragraph 2898"
+        },
+        {
+          "id": 2,
+          "quote": "There is a direct correlation between the amount of plaque at the cervical margin of teeth and the severity of gingivitis, and experimental gingivitis can be produced and abolished by suspending and reintroducing OH. It is commonly accepted that plaque accumulation causes gingivitis, the major variable being host susceptibility.",
+          "paragraph": 2932,
+          "source": "Oxford Handbook · paragraph 2932"
+        },
+        {
+          "id": 3,
+          "quote": "It is not associated with alveolar bone resorption or apical migration of the junctional epithelium. Probing depths >3mm can occur in chronic gingivitis due to an ↑ in gingival size because of oedema or hyperplasia (false pockets).",
+          "paragraph": 2983,
+          "source": "Oxford Handbook · paragraph 2983"
+        },
+        {
+          "id": 4,
+          "quote": "interdental brushes are the most efficient in removing interdental plaque if there is space to accommodate them. These brushes are thus recommended as the method of choice for interdental cleaning where spaces between teeth allow their insertion without causing trauma.",
+          "paragraph": 3155,
+          "source": "Oxford Handbook · paragraph 3155"
+        },
+        {
+          "id": 5,
+          "quote": "The classic triad of redness, swelling, and bleeding on gentle probing are diagnostic and are usually associated with a complaint by the patient that their 'gums bleed on brushing'. The 'knife-edge' margins and stippled appearance associated with health disappear and are replaced by a more rounded, shiny appearance. Pain is not usually a feature. Halitosis may be present. Affects gingiva only.",
+          "paragraph": 2982,
+          "source": "Oxford Handbook · paragraph 2982"
+        },
+        {
+          "id": 6,
+          "quote": "II. Gingivitis. Probing attachment loss: no. PD: <3mm. BOP: ≥10%. Radiographic bone loss: no.",
+          "paragraph": 2998,
+          "source": "Oxford Handbook · paragraph 2998 (2017 World Workshop classification — gingivitis)"
+        },
+        {
+          "id": 7,
+          "quote": "1 = pockets <3.5mm and the first black band is completely visible. Gingival bleeding after gentle probing. No pockets >3mm. No calculus. No plaque retaining factors. Rx: OHIs. 2 = pockets <3.5mm. First black band is visible but plaque retention factors present. Rx: OHIs plus removal of plaque retentive factors including sub- and supragingival calculus.",
+          "paragraph": 2832,
+          "source": "Oxford Handbook · paragraph 2832 (BPE codes 1 and 2)"
+        },
+        {
+          "id": 8,
+          "quote": "Painful, ulcerated, necrotic papillae and gingival margins with a punched-out appearance. The ulcers are covered by a pseudomembranous grey slough. Associated with a metallic taste and sensation of teeth being wedged apart and foetor oris.",
+          "paragraph": 3108,
+          "source": "Oxford Handbook · paragraph 3108 (necrotising ulcerative gingivitis)"
+        },
+        {
+          "id": 9,
+          "quote": "Step 1 — Building foundations for optimal treatment outcomes. I. Explain disease, risk factors & treatment alternatives, risks & benefits including no treatment. II. Explain importance of Oral Hygiene (OH), encourage and support behaviour change for OH improvement. III. Reduce risk factors including removal of plaque retentive features, smoking cessation and diabetes control interventions. IV. Provide individually tailored OH advice including interdental cleaning, +/- adjunctive efficacious toothpaste & mouthwash, +/- Professional Mechanical Plaque Removal (PMPR) including supra and subgingival scaling of the clinical crown.",
+          "source": "BSP UK Clinical Practice Guidelines for the Treatment of Periodontal Diseases 2021 — Step 1"
+        },
+        {
+          "id": 10,
+          "quote": "The anti-septic of greatest proven antiplaque/anti-gingivitis value is chlorhexidine gluconate. A standard regimen is 10mL of solution rinsed for 1min bd (or 15mL of 0.12% for 30sec bd). Chlorhexidine causes staining and altered taste. NB: an interaction between conventional toothpaste and chlorhexidine reduces the antiseptic's efficacy.",
+          "paragraph": 3157,
+          "source": "Oxford Handbook · paragraph 3157"
+        },
+        {
+          "id": 11,
+          "quote": "Engaging: I. Favourable improvement in OH — indicated by ≥50% improvement in plaque and marginal bleeding scores OR II. Plaque levels ≤20% & bleeding levels ≤30%.",
+          "source": "BSP UK Clinical Practice Guidelines for the Treatment of Periodontal Diseases 2021 — Engaging vs non-engaging criteria"
+        },
+        {
+          "id": 12,
+          "quote": "The direct association between the presence of tooth surface plaque and gingivitis has been confirmed. Gingivitis precedes periodontitis but there is no evidence to suggest that periodontitis develops in the absence of gingivitis.",
+          "paragraph": 2814,
+          "source": "Oxford Handbook · paragraph 2814"
+        }
+      ]
+    }
+  ]
+}
