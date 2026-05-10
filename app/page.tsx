@@ -2,7 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import { ReviewFeed } from "@/components/review-feed";
-import { FirstPrinciplesPage } from "@/components/first-principles-page";
+import { TroubleshootingPage } from "@/components/troubleshooting-page";
 import { GuidelinesPage } from "@/components/guidelines-page";
 import { BottomTabs } from "@/components/bottom-tabs";
 
@@ -38,7 +38,7 @@ export default function Home() {
           <ReviewFeed />
         </div>
         <div className="panel">
-          <FirstPrinciplesPage />
+          <TroubleshootingPage />
         </div>
         <div className="panel">
           <GuidelinesPage />

@@ -23,7 +23,7 @@ const TABS = [
   },
   {
     id: 1,
-    label: "Principles",
+    label: "Troubleshoot",
     icon: (
       <svg
         width="20"

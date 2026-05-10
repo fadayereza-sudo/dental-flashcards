@@ -61,4 +61,13 @@ next-env.d.ts
 /tmp-tag-batches/
 /tmp-tag-results/
 
+# OCR working directory — per-page .txt and .json sidecars; audit-kept locally only
+/tmp-ocr-results/
+
+# troubleshooting staging — per-source JSONL of tagged excerpts; rebuilt by extract-troubleshooting skill
+/staging/
+
+# rendered PDF page PNGs — large, derivable from the source PDF
+/source-material/**/pages/
+
 .playwright-profile/
