@@ -7,6 +7,13 @@ import {
   type Citation,
   type CoreTruth,
 } from "@/components/principle-toggles";
+import { SearchBar } from "@/components/search-bar";
+import {
+  matchScore,
+  normalizeQuery,
+  useSearchIndex,
+  type SearchTroubleshootingProblemItem,
+} from "@/lib/use-search-index";
 
 type OriginIndexEntry = {
   slug: string;
@@ -131,6 +138,13 @@ export function TroubleshootingPage() {
     () => new Set(PREVALENCE_ORDER)
   );
 
+  const [query, setQuery] = useState("");
+  const isSearching = normalizeQuery(query).length > 0;
+  const searchIndex = useSearchIndex(isSearching);
+  const [openSearchProblem, setOpenSearchProblem] = useState<string | null>(
+    null
+  );
+
   const togglePrevalence = (p: Prevalence) => {
     setActivePrevalences((prev) => {
       const next = new Set(prev);
@@ -189,12 +203,79 @@ export function TroubleshootingPage() {
     setOpenProblem(null);
   }, []);
   const closeProblem = useCallback(() => setOpenProblem(null), []);
-  useBackClose(openOrigin !== null, closeOrigin);
-  useBackClose(openProblem !== null, closeProblem);
+  useBackClose(openOrigin !== null && !isSearching, closeOrigin);
+  useBackClose(openProblem !== null && !isSearching, closeProblem);
+
+  const clearSearch = useCallback(() => setQuery(""), []);
+  useBackClose(isSearching, clearSearch);
 
   const sortedOrigins = useMemo(
     () => [...origins].sort((a, b) => a.order - b.order),
     [origins]
+  );
+
+  const searchGroups = useMemo(() => {
+    if (!isSearching || !searchIndex) return [];
+    const q = normalizeQuery(query);
+    type Scored = {
+      item: SearchTroubleshootingProblemItem;
+      score: number;
+    };
+    const matches: Scored[] = [];
+    for (const item of searchIndex.troubleshooting ?? []) {
+      const p = item.problem;
+      const citationText = (p.citations || []).map((c) => c.quote).join(" ");
+      const bodyText = [
+        p.etiology,
+        p.presentation,
+        p.results,
+        p.definingCharacteristics,
+        p.treatment,
+        p.prognosis,
+      ]
+        .filter(Boolean)
+        .join(" ");
+      const score = matchScore(
+        q,
+        p.description,
+        p.conditionName,
+        item.originTitle,
+        bodyText,
+        citationText
+      );
+      if (score !== null) matches.push({ item, score });
+    }
+    matches.sort((a, b) => b.score - a.score);
+    type Group = {
+      originSlug: string;
+      originTitle: string;
+      originOrder: number;
+      truths: CoreTruth[];
+      bestScore: number;
+    };
+    const byOrigin = new Map<string, Group>();
+    for (const m of matches) {
+      const key = m.item.originSlug;
+      let g = byOrigin.get(key);
+      if (!g) {
+        g = {
+          originSlug: m.item.originSlug,
+          originTitle: m.item.originTitle,
+          originOrder: m.item.originOrder,
+          truths: [],
+          bestScore: m.score,
+        };
+        byOrigin.set(key, g);
+      }
+      g.truths.push(problemToTruth(m.item.problem as Problem));
+      if (m.score > g.bestScore) g.bestScore = m.score;
+    }
+    return [...byOrigin.values()].sort((a, b) => b.bestScore - a.bestScore);
+  }, [isSearching, searchIndex, query]);
+
+  const totalSearchMatches = searchGroups.reduce(
+    (n, g) => n + g.truths.length,
+    0
   );
 
   if (loading) {
@@ -234,25 +315,74 @@ export function TroubleshootingPage() {
       </header>
 
       <div className="max-w-2xl mx-auto pb-3">
-        <div className="flex gap-2 overflow-x-auto -mx-4 px-4 pb-1">
-          {PREVALENCE_ORDER.map((p) => {
-            const active = activePrevalences.has(p);
-            const style = PREVALENCE_STYLE[p];
-            return (
-              <button
-                key={p}
-                onClick={() => togglePrevalence(p)}
-                className={`shrink-0 px-3 py-1.5 rounded-full text-[11px] tracking-wide transition-colors ${
-                  active ? style.pillActive : style.pillInactive
-                }`}
-              >
-                {PREVALENCE_LABEL[p]}
-              </button>
-            );
-          })}
-        </div>
+        <SearchBar
+          value={query}
+          onChange={setQuery}
+          placeholder="Search problems…"
+        />
       </div>
 
+      {!isSearching && (
+        <div className="max-w-2xl mx-auto pb-3">
+          <div className="flex gap-2 overflow-x-auto -mx-4 px-4 pb-1">
+            {PREVALENCE_ORDER.map((p) => {
+              const active = activePrevalences.has(p);
+              const style = PREVALENCE_STYLE[p];
+              return (
+                <button
+                  key={p}
+                  onClick={() => togglePrevalence(p)}
+                  className={`shrink-0 px-3 py-1.5 rounded-full text-[11px] tracking-wide transition-colors ${
+                    active ? style.pillActive : style.pillInactive
+                  }`}
+                >
+                  {PREVALENCE_LABEL[p]}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {isSearching ? (
+        <div className="max-w-2xl mx-auto">
+          {searchIndex === null ? (
+            <p className="text-xs text-ink-muted px-1">Loading search index…</p>
+          ) : totalSearchMatches === 0 ? (
+            <p className="text-sm text-ink-muted px-1 py-6 text-center">
+              No matches for &ldquo;{query.trim()}&rdquo;.
+            </p>
+          ) : (
+            <>
+              <p className="text-[11px] text-ink-muted tracking-wide uppercase mb-3 px-1">
+                {totalSearchMatches} match
+                {totalSearchMatches === 1 ? "" : "es"}
+              </p>
+              <div className="space-y-5">
+                {searchGroups.map((group) => (
+                  <div key={group.originSlug}>
+                    <p className="text-[11px] text-ink-muted tracking-[0.12em] uppercase mb-2 px-1">
+                      {group.originTitle}
+                    </p>
+                    <PrincipleToggleList
+                      truths={group.truths}
+                      category={group.originTitle}
+                      openTruthId={openSearchProblem}
+                      onToggle={(id) =>
+                        setOpenSearchProblem((prev) =>
+                          prev === id ? null : id
+                        )
+                      }
+                      highlightTerm={query}
+                      accent="dark"
+                    />
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
+        </div>
+      ) : (
       <div className="max-w-2xl mx-auto space-y-3">
         {sortedOrigins.map((origin) => {
           const isOpen = openOrigin === origin.slug;
@@ -324,6 +454,7 @@ export function TroubleshootingPage() {
           );
         })}
       </div>
+      )}
     </div>
   );
 }

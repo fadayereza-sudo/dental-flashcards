@@ -6,6 +6,7 @@ import type {
   SearchPrincipleItem,
   SearchWorkflowItem,
   SearchGuidelinePrincipleItem,
+  SearchTroubleshootingProblemItem,
 } from "@/app/api/search/route";
 
 export type {
@@ -13,6 +14,7 @@ export type {
   SearchPrincipleItem,
   SearchWorkflowItem,
   SearchGuidelinePrincipleItem,
+  SearchTroubleshootingProblemItem,
 };
 
 let cache: SearchIndex | null = null;

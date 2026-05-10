@@ -43,6 +43,28 @@ type ChapterData = {
   coreTruths: CoreTruth[];
 };
 
+type TroubleshootingProblem = {
+  id: string;
+  description: string;
+  conditionName: string;
+  prevalence: string;
+  etiology: string;
+  presentation: string;
+  results: string;
+  definingCharacteristics: string;
+  treatment: string;
+  prognosis: string;
+  citations?: Citation[];
+};
+
+type TroubleshootingOrigin = {
+  slug: string;
+  title: string;
+  order: number;
+  description?: string;
+  problems: TroubleshootingProblem[];
+};
+
 type GuidelineDetail = {
   slug: string;
   title: string;
@@ -82,9 +104,18 @@ export type SearchGuidelinePrincipleItem = {
   truth: CoreTruth;
 };
 
+export type SearchTroubleshootingProblemItem = {
+  kind: "troubleshooting-problem";
+  originSlug: string;
+  originTitle: string;
+  originOrder: number;
+  problem: TroubleshootingProblem;
+};
+
 export type SearchIndex = {
   principles: SearchPrincipleItem[];
   guidelines: (SearchWorkflowItem | SearchGuidelinePrincipleItem)[];
+  troubleshooting: SearchTroubleshootingProblemItem[];
 };
 
 function readJsonFiles<T>(dir: string): T[] {
@@ -111,9 +142,11 @@ function readJsonFiles<T>(dir: string): T[] {
 export async function GET() {
   const principlesDir = join(process.cwd(), "data/first-principles");
   const guidelinesDir = join(process.cwd(), "data/guidelines");
+  const troubleshootingDir = join(process.cwd(), "data/troubleshooting");
 
   const chapters = readJsonFiles<ChapterData>(principlesDir);
   const categories = readJsonFiles<GuidelineDetail>(guidelinesDir);
+  const origins = readJsonFiles<TroubleshootingOrigin>(troubleshootingDir);
 
   const principles: SearchPrincipleItem[] = [];
   for (const chapter of chapters) {
@@ -160,6 +193,20 @@ export async function GET() {
     }
   }
 
-  const payload: SearchIndex = { principles, guidelines };
+  const troubleshooting: SearchTroubleshootingProblemItem[] = [];
+  for (const origin of origins) {
+    if (!origin || !Array.isArray(origin.problems)) continue;
+    for (const problem of origin.problems) {
+      troubleshooting.push({
+        kind: "troubleshooting-problem",
+        originSlug: origin.slug,
+        originTitle: origin.title,
+        originOrder: origin.order ?? 0,
+        problem,
+      });
+    }
+  }
+
+  const payload: SearchIndex = { principles, guidelines, troubleshooting };
   return Response.json(payload);
 }
