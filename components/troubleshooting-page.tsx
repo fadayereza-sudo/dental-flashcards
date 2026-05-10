@@ -43,28 +43,28 @@ const PREVALENCE_STYLE: Record<
   { badge: string; pillActive: string; pillInactive: string }
 > = {
   "very-common": {
-    badge: "text-[#3d5c3a]",
-    pillActive: "bg-[#3d5c3a] text-white",
+    badge: "bg-[#b8d4b3] text-[#3d5c3a]",
+    pillActive: "bg-[#b8d4b3] text-[#3d5c3a]",
     pillInactive: "bg-paper-sunk text-[#3d5c3a]/70 hover:bg-paper",
   },
   common: {
-    badge: "text-[#6b6230]",
-    pillActive: "bg-[#6b6230] text-white",
+    badge: "bg-[#d4cb95] text-[#6b6230]",
+    pillActive: "bg-[#d4cb95] text-[#6b6230]",
     pillInactive: "bg-paper-sunk text-[#6b6230]/70 hover:bg-paper",
   },
   uncommon: {
-    badge: "text-[#7d4f1d]",
-    pillActive: "bg-[#7d4f1d] text-white",
+    badge: "bg-[#e0b888] text-[#7d4f1d]",
+    pillActive: "bg-[#e0b888] text-[#7d4f1d]",
     pillInactive: "bg-paper-sunk text-[#7d4f1d]/70 hover:bg-paper",
   },
   "very-uncommon": {
-    badge: "text-[#8d4530]",
-    pillActive: "bg-[#8d4530] text-white",
+    badge: "bg-[#e0ac9a] text-[#8d4530]",
+    pillActive: "bg-[#e0ac9a] text-[#8d4530]",
     pillInactive: "bg-paper-sunk text-[#8d4530]/70 hover:bg-paper",
   },
   rare: {
-    badge: "text-[#9a3a2a]",
-    pillActive: "bg-[#9a3a2a] text-white",
+    badge: "bg-[#e09a90] text-[#9a3a2a]",
+    pillActive: "bg-[#e09a90] text-[#9a3a2a]",
     pillInactive: "bg-paper-sunk text-[#9a3a2a]/70 hover:bg-paper",
   },
 };

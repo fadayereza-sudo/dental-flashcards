@@ -69,7 +69,7 @@ export function PrincipleToggleList({
                 </span>
                 {truth.badge && (
                   <span
-                    className={`shrink-0 mt-0.5 text-[10px] tracking-[0.14em] uppercase font-medium whitespace-nowrap ${
+                    className={`shrink-0 mt-0.5 text-[10px] tracking-[0.14em] uppercase font-medium whitespace-nowrap px-2 py-0.5 rounded-full ${
                       truth.badge.className ?? "text-bronze"
                     }`}
                   >
