@@ -1,0 +1,320 @@
+{
+  "slug": "fixed-prosthesis",
+  "title": "Fixed prosthesis",
+  "order": 12,
+  "description": "Failure and complication modes of crowns, bridges, veneers, post-core restorations, and implant-supported crowns.",
+  "problems": [
+    {
+      "id": "fixed-prosthesis-001",
+      "description": "A crown or bridge retainer separates cleanly from the tooth, the patient notices the restoration is loose or swallows it.",
+      "conditionName": "Crown or bridge decementation (loss of retention)",
+      "prevalence": "common",
+      "etiology": "Retention depends on the geometry of the preparation and the strength of the cement lute. The mechanistic chain: inadequate taper (>10°), short axial walls, or insufficient crown height reduce the surface area available for cement grip, so occlusal forces peel the crown off its preparation [1].\n\nMaterial choices matter too. Porcelain fused to metal crowns traditionally use traditional or resin-modified glass ionomer cement; all-ceramic IPS e.max crowns must be bonded with resin cement — cementation with RMGIC leaves them mechanically weak [2]. Using the wrong cement is an independent route to failure.\n\nFor bridges, a specific design fault dominates: the **pier abutment** (the central tooth in a fixed-fixed-fixed three-unit span) acts as a fulcrum when one side is loaded, generating an unseating force on the opposite retainer [3]. Double-abutted designs carry the same problem — forces tend to cause loss of cementation on one retainer while the bridge stays in place on the other, trapping bacteria underneath [4].\n\nTemporary cement left on the preparation at the definitive fit appointment is an avoidable but common cause of incomplete seating and early failure.",
+      "presentation": "Patient notices the crown or bridge is loose, rocks on the tooth, or comes off entirely — often during eating. Sometimes the first sign is a new sharp taste or a cold sensitivity from the exposed preparation. Pain is not usually present unless caries has begun under the margin.\n\nFor bridge retainers, one unit may debond silently while the other stays cemented — the patient feels nothing but caries develops rapidly under the loose retainer [4].",
+      "results": "- **Clinical**: rocking or full displacement of the restoration on light digital pressure; the preparation is exposed on removal.\n- **Percussion**: the debonded crown gives a flat, dull sound; a well-cemented crown gives a higher-pitched ring.\n- **Radiograph**: periapical film shows the preparation outline beneath the crown; assess for secondary caries and apical pathology.\n- **Inspection of the fitting surface**: look for residual cement, fractured preparation, or evidence of inadequate taper.",
+      "definingCharacteristics": "Loss of retention is a mechanical event, not a biological one — the tooth itself is not diseased. The key contrast:\n\n- **Secondary caries under a margin** (see fixed-prosthesis-002): the crown may still feel firm; it is the biological failure at the margin that matters.\n- **Post fracture / root fracture**: the crown is retained but the tooth itself is mobile; percussion reveals the difference.\n- **Pier abutment fulcrum failure**: the bridge looks intact from the outside, and the patient may report nothing — diagnosis requires probing for a loose retainer at the central abutment [3].",
+      "treatment": "Before recementation, investigate why the crown failed: check preparation taper, crown height, and the cement used.\n\n- If the preparation is adequate and the crown is intact: clean the fitting surface with alcohol, re-cement with the appropriate cement for the material [2].\n- If the preparation is under-tapered or too short: re-prepare and remake.\n- If secondary caries is found under the margin: remove decay, rebuild the core, re-cement or remake.\n- For persistently recementing resin-bonded bridges: if debonding recurs, convert to a cantilever design or conventional bridge [4].\n- For pier abutment bridges: introduce a fixed–movable joint or redesign to eliminate the pier [3].",
+      "prognosis": "A crown that has survived 3 years satisfactorily has a good chance of lasting 10 years [5]. The majority of post-cementation failures occur within the first year [5]. Where the cause of failure is identified and corrected, re-cementation is predictable. Where the preparation geometry is fundamentally inadequate, remake is required. If caries has compromised the abutment, prognosis depends on how much tooth structure remains for a ferrule.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The features of tooth preparation that enhance the stability of a restoration and resists dislodgement along an axis other than the path of placement.",
+          "paragraph": 4130,
+          "source": "Oxford Handbook · paragraph 4130 (definition of retention/resistance form)"
+        },
+        {
+          "id": 2,
+          "quote": "Glass-based, etchable ceramics provide superior aesthetics but won't mask out an underlying dark substrate (e.g. IPS Empress®, IPS e.max®). IPS e.max® crowns are made from a single block of lithium disilicate ceramic, a material known for its translucency, toughness, and durability. They must be bonded with resin cement to achieve clinically acceptable strength.",
+          "paragraph": 3907,
+          "source": "Oxford Handbook · paragraph 3907"
+        },
+        {
+          "id": 3,
+          "quote": "This is the central abutment in a complex bridge that supports pontics on either side, which are in turn anchored to the terminal abutments. In this situation, the pier abutment can act as a fulcrum and when one part of the bridge is loaded the retainer at the other end experiences an unseating force which can lead to cementation failure. To overcome this a stress-breaking element must be introduced, e.g. fixed–movable joint, or avoid pier abutments by simplifying the design.",
+          "paragraph": 4212,
+          "source": "Oxford Handbook · paragraph 4212 (pier abutments)"
+        },
+        {
+          "id": 4,
+          "quote": "The initial design in this case utilized linked abutment teeth (a 'double-abutted' design), which is no longer considered appropriate because forces placed on the bridge tend to result in the loss of cementation of one of the retainers; this is difficult to identify on clinical examination and results in caries in the associated abutment tooth, as occurred here.",
+          "paragraph": 3878,
+          "source": "Odell's Clinical Problem Solving · paragraph 3878 (Case 35 — A Failed Bridge)"
+        },
+        {
+          "id": 5,
+          "quote": "A survey of failed posts showed that most failed within 1yr, but that a post crown that has survived satisfactorily for 3yrs has a good chance of lasting for 10yrs. Common causes of failure were caries, root #, and mechanical failure of the post.",
+          "paragraph": 3966,
+          "source": "Oxford Handbook · paragraph 3966 (causes of failure in post and core crowns)"
+        }
+      ]
+    },
+    {
+      "id": "fixed-prosthesis-002",
+      "description": "Decay develops at or just under a crown margin; the crown itself may still feel firm until the caries is advanced.",
+      "conditionName": "Secondary (recurrent) caries under a crown margin",
+      "prevalence": "common",
+      "etiology": "When a crown margin is imprecise — open, overhanging, or placed on dentine rather than enamel — a microleakage pathway opens between restoration and tooth. Plaque colonises the gap [1]. The reason the caries is so destructive here is that it progresses unseen under a rigid shell: by the time it is clinically apparent, it may have undermined the entire preparation or tracked to the pulp.\n\nRisk is amplified by:\n\n- **Poor oral hygiene** — plaque accumulates at the subgingival margin where brushing misses it.\n- **Double-abutted bridge design** — hampers interdental cleaning and predisposes both abutments to marginal caries [2].\n- **Wrong margin material** — porcelain to tooth margins (shoulder) require precise fit; a chamfer in metal is more forgiving.\n\nFibre post failures follow the same principle: failure with fibre posts is most commonly due to decementation or secondary caries rather than fracture, and the caries enters through the microleakage at the post–cement interface [3].",
+      "presentation": "Often **asymptomatic** until late — the crown masks cold sensitivity and the patient has no pain. The first presentations:\n\n- Visible discolouration or staining at the cervical margin.\n- A gap or catch with a probe at the margin.\n- Late presentation: pain on biting or cold, bad taste, or the crown becomes loose as the decayed core crumbles.\n\nBridge abutment caries can present as a bridge that recurrently decements — the failing core can no longer retain the crown.",
+      "results": "- **Probe**: catches at the margin; the tip drops into a cavity.\n- **Radiograph**: radiolucency at or beneath the crown margin on a periapical film. Secondary caries is difficult to diagnose radiographically because the crown obscures it; careful observation of marginal areas is required [1].\n- **On crown removal**: extent of decay and remaining tooth structure is assessed; the abutment may be non-restorable if the caries has tracked subgingivally or close to the apex.\n- **Vitality testing**: may be negative if pulp has become involved.",
+      "definingCharacteristics": "What separates secondary caries from other crown failures:\n\n- Unlike **pure loss of retention**, the crown may still feel firm; it is the biological damage at the margin that drives the problem.\n- Unlike **apical periodontitis** (which belongs to the permanent-dentition origin), the pathology here starts at the coronal margin, not from the apex. Both can coexist.\n- The radiographic finding is a radiolucency at the margin of the crown, not at the apex.\n\n**Rule of thumb**: if a crown has recurrently decemented without an obvious mechanical explanation, look for marginal caries before re-cementing.",
+      "treatment": "- **Small marginal deficiency without caries**: if the patient can keep the margin plaque-free and there is no recurrent caries, monitor — intervention is only indicated when the lesion is in dentine with evidence of progression or cavitation [1].\n- **Caries in dentine**: remove the crown, debride the caries, assess restorability.\n  - If sufficient ferrule remains (≥2 mm): restore the core and re-cement or reimpression for a new crown.\n  - If insufficient ferrule: consider crown-lengthening surgery or, if the tooth is non-restorable, extraction.\n- **Bridge abutment**: if the abutment has been destroyed, the entire bridge must be removed and the abutment reassessed; RCT through the retainer is possible if the crown and endodontics are satisfactory [4].\n- Correct the underlying margin problem on any new restoration — subgingival margins on dentine carry a higher risk of recurrence.",
+      "prognosis": "Depends entirely on how much tooth structure remains after decay removal. Early detection with regular radiographic monitoring preserves options. Advanced caries under a crown often renders the abutment non-restorable — the tooth is then lost. Where the abutment is preserved and the cause corrected, a new crown performs well long-term.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "If the patient can keep the margin plaque free and there is no recurrent caries then it may not be necessary to replace the restoration. If not, 2° or recurrent caries may be a risk. 2° caries is difficult to diagnose, but careful observation (clinically and radiographically) rather than intervention, is now advocated. Intervention is only indicated when the lesion is in dentine, and there is evidence of progression &/or cavitation is present.",
+          "paragraph": 3779,
+          "source": "Oxford Handbook · paragraph 3779 (failed marginal integrity)"
+        },
+        {
+          "id": 2,
+          "quote": "In addition, double abutting also hampers oral hygiene measures, and this may predispose the patient to periodontal involvement and marginal caries, as may also have occurred in this case.",
+          "paragraph": 3878,
+          "source": "Odell's Clinical Problem Solving · paragraph 3878 (Case 35 — A Failed Bridge)"
+        },
+        {
+          "id": 3,
+          "quote": "Prefabricated non-metal posts (ceramic or carbon fibre reinforced) are becoming more popular (e.g. LightPosts™, ParaPost® FiberWhite, and RelyX™ FiberPost). They are more flexible than metal posts and therefore less likely to cause root fracture. Failure with fibre posts is most commonly due to decementation or 2° caries rather than fracture so failure can be more retrievable.",
+          "paragraph": 3940,
+          "source": "Oxford Handbook · paragraph 3940 (prefabricated non-metal posts)"
+        },
+        {
+          "id": 4,
+          "quote": "Failure may be due to loss of vitality. This is not necessarily an indication for removal of the bridge because RCT can often be carried out through the retainer of the abutment.",
+          "paragraph": 4245,
+          "source": "Oxford Handbook · paragraph 4245 (replacement of bridges)"
+        }
+      ]
+    },
+    {
+      "id": "fixed-prosthesis-003",
+      "description": "A root-treated tooth with a post-retained crown becomes mobile, or the post works loose and the crown displaces with it.",
+      "conditionName": "Post and core crown failure (post decementation, post fracture, or root fracture under a post)",
+      "prevalence": "uncommon",
+      "etiology": "Posts do not reinforce teeth — they transfer occlusal forces to the root [1]. The ferrule effect (≥2 mm of circumferential dentine above the crown margin) reduces how much stress the root has to absorb; without it, the leverage on the root increases with every bite.\n\nThree failure modes, each with its own mechanistic logic:\n\n- **Post decementation**: inadequate post length (should be at least equal to the crown height, minimum 5 mm of GP left apically [2]), over-tapered post, or failure to use an appropriate cement.\n- **Post fracture**: threaded posts concentrate stress in the root canal and may fracture [3]; small-diameter posts in high-load situations are also at risk.\n- **Root fracture**: tapered and threaded posts generate wedging forces inside the root canal. Parallel-sided serrated posts avoid the wedging but can still cause fracture if the root is thin [3]. Survey data show that among post and core crown failures, common causes are caries, root fracture, and mechanical failure of the post [4].\n\nFibre posts specifically fail by decementation or secondary caries rather than root fracture — so failure is more retrievable [5].",
+      "presentation": "- **Post decementation**: the crown displaces, or the patient feels it rock. The post may come out with the crown or remain in the root canal.\n- **Post fracture**: the crown feels loose but the post stub is retained; the crown cannot be recemented without removing the fragment.\n- **Root fracture**: the crown may be mobile, but the tell is a bucco-lingual axis of rotation just below the gingival margin. The patient sometimes hears a crack. Bad taste from a communicating pocket is common [6].\n- All three may be asymptomatic until late-stage. Pain on biting develops once the fracture line communicates with the periodontium.",
+      "results": "- **Mobility axis**: determining the axis of rotation distinguishes root fracture (axis 2–3 mm below the gingival margin) from periodontal bone loss (axis at or below the alveolar crest) [6].\n- **Percussion**: dull flat sound suggests the root is fractured or the post is loose.\n- **Periapical radiograph**: assess post length, fit, and apical seal; look for periapical radiolucency indicating pulp necrosis or apical periodontitis; root fracture lines are often not visible radiographically. CBCT is more sensitive for vertical root fractures.\n- **Probing**: a narrow isolated deep pocket tracking alongside the root is characteristic of a vertical root fracture communicating with the periodontium.",
+      "definingCharacteristics": "The key distinction between the three sub-types:\n\n- **Post decementation** and **post fracture**: the root is intact; the problem is at the post–dentine interface. Retrieval and re-posting is possible.\n- **Root fracture under a post**: the tooth itself is compromised. Unlike a cracked vital tooth (permanent-dentition origin), this fracture follows a post that has concentrated stress on the root wall. An isolated deep narrow pocket alongside an otherwise periodontally healthy tooth is the clinical signature of vertical root fracture [6].\n\nUnlike apical periodontitis (permanent-dentition origin), the pathology here is mechanical and originates at the post, not from pulp infection.",
+      "treatment": "- **Lost/decemented post**: if the post length was adequate, try sandblasting and re-cementing with an adhesive cement (e.g. Panavia™ 21); if not, make a longer post [2].\n- **Post fracture**: remove fragment using ultrasonic vibration, Masseran kit, or a post removal system; if irremovable, consider surgical approach. Then place a new post.\n- **Root perforation by a post**: if removable, seal the perforation from orthograde approach with MTA using magnification and illumination; perforations in the coronal third carry a poorer prognosis [2].\n- **Vertical root fracture**: prognosis is hopeless for single-rooted teeth — extraction is usually required. In multi-rooted teeth, hemisection and removal of the fractured root may salvage the remaining root.\n- **Apical pathology with an intact post and crown**: periradicular surgery is an option if orthograde retreatment is not possible [2].",
+      "prognosis": "Most post failures occur within the first year; a post crown surviving 3 years satisfactorily has a good chance of lasting 10 years [4]. Decementation failure with fibre posts is more retrievable than root fracture with metal posts [5]. Root fracture under a post is the worst-case outcome: the tooth is almost always lost. Prognosis improves substantially when ≥2 mm ferrule of coronal dentine is preserved at the time of post placement.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "In root-filled anterior teeth it may be necessary to insert a post and core prior to the placement of a crown if there is insufficient remaining tooth tissue to support a core. Post and cores provide support and retention for a crown but they do not reinforce teeth. They transfer forces to the root of the tooth. A ferrule effect will protect the root from this to an extent.",
+          "paragraph": 3934,
+          "source": "Oxford Handbook · paragraph 3934 (anterior post and core crowns)"
+        },
+        {
+          "id": 2,
+          "quote": "Loss of post. Check: (i) ? length adequate. If not, remake with ↑ length. (ii) ? Loose fit or too much taper. Can try sandblasting post and re-cementing with adhesive cement, e.g. Panavia™ 21. Alternatively, correct and remake. (iii) ? Perforation. Take radiographs in parallax to check, and see previous bullet point. (iv) ? Root #. Extract.",
+          "paragraph": 3964,
+          "source": "Oxford Handbook · paragraph 3964 (loss of post — practical tips)"
+        },
+        {
+          "id": 3,
+          "quote": "Threaded posts provide ↑ retention than smooth-sided; however, they will ↑ stress within the root canal and are therefore C/I. Serrated posts do not concentrate stress but simply ↑ the surface area for retention.",
+          "paragraph": 3944,
+          "source": "Oxford Handbook · paragraph 3944 (threaded vs serrated posts)"
+        },
+        {
+          "id": 4,
+          "quote": "A survey of failed posts showed that most failed within 1yr, but that a post crown that has survived satisfactorily for 3yrs has a good chance of lasting for 10yrs. Common causes of failure were caries, root #, and mechanical failure of the post.",
+          "paragraph": 3966,
+          "source": "Oxford Handbook · paragraph 3966 (causes of failure in post and core crowns)"
+        },
+        {
+          "id": 5,
+          "quote": "Prefabricated non-metal posts (ceramic or carbon fibre reinforced) are becoming more popular (e.g. LightPosts™, ParaPost® FiberWhite, and RelyX™ FiberPost). They are more flexible than metal posts and therefore less likely to cause root fracture. Failure with fibre posts is most commonly due to decementation or 2° caries rather than fracture so failure can be more retrievable.",
+          "paragraph": 3940,
+          "source": "Oxford Handbook · paragraph 3940"
+        },
+        {
+          "id": 6,
+          "quote": "By determining the axis of rotation of the mobile crown. Apply digital pressure forwards and backwards to identify how far down the root the axis of rotation appears to be. If when moving the crown bubbles of saliva are produced at the gingival margin, this would be an indicator of a root fracture communicating with a periodontal pocket or the gingival crevice.",
+          "paragraph": 2054,
+          "source": "Odell's Clinical Problem Solving · paragraph 2054 (Case 17 — assessing root fracture under a crowned tooth)"
+        }
+      ]
+    },
+    {
+      "id": "fixed-prosthesis-004",
+      "description": "A porcelain veneer chips at the margin or lifts cleanly off the tooth surface, sometimes without warning.",
+      "conditionName": "Debonded or fractured porcelain veneer",
+      "prevalence": "uncommon",
+      "etiology": "Veneers are retained entirely by adhesive bonding to enamel. The mechanistic vulnerability: the resin–enamel bond depends on an acid-etched enamel surface of sufficient area; if the preparation extends to dentine, or if the bond area is small, the veneer is susceptible to peel forces [1].\n\nSpecific risk factors:\n\n- **Parafunction** (bruxism, nail-biting, pencil-chewing): these are relative or absolute contraindications to veneers because occlusal and lateral forces exceed the bond strength [2].\n- **Preparation into dentine**: dentine bonding is weaker than enamel bonding; marginal subgingival placement on root dentine increases microleakage and adhesive failure.\n- **Contamination at cementation**: saliva or blood contact on the fitting surface before light-curing irreversibly degrades the silane–resin bond.\n- **Resin composite veneers** have a shorter lifespan than porcelain — average ~4 years, with higher rates of staining, wear, and surface changes [3]. Porcelain laminate veneers have an estimated survival of 93.5% over 10 years [1].",
+      "presentation": "- Veneer debonds cleanly and the patient finds it in their mouth.\n- Chip at the incisal or cervical margin — the patient notices a rough edge.\n- Post-operative sensitivity in the days after placement, which is more frequent with composite than ceramic veneers [3].\n- Aesthetic deterioration: discolouration of the luting cement at the margin, surface staining, or grey shadow through the veneer from metal core.",
+      "results": "- **Probe**: catches at the margin where debond is partial.\n- **Transillumination**: fracture lines or voids in the luting cement visible.\n- **Radiograph**: usually not informative for veneer failure itself; periapical film useful to exclude secondary caries at the margin.\n- **Occlusal assessment**: check for lateral excursion contacts on the veneers — any contact in lateral excursion on a ceramic veneer is a risk factor for fracture.",
+      "definingCharacteristics": "Veneers fail by debond or fracture, not by caries in the same way as crowns — the preparation depth is minimal and usually stays in enamel, so secondary caries is uncommon. The distinguishing point against **crown fracture**: the substrate tooth is sound and the preparation is shallow; the issue is the adhesive interface, not structural failure of a metal substructure.\n\nUnlike a crown failure, a debonded veneer is often re-bondable if the ceramic is intact, the preparation is undamaged, and no caries has developed — the advantage of the resin-bonded system.",
+      "treatment": "- **Intact debonded veneer**: clean the fitting surface with alcohol; re-apply silane coupling agent; re-etch the tooth and rebond with resin composite luting cement [4]. Only possible if the fitting surface is not contaminated beyond recovery.\n- **Fractured veneer**: fractured porcelain can be repaired with a specialized repair kit (e.g. CoJet™) [5]; larger chips or full fractures require a new veneer.\n- **Recurrent debond**: reassess for parafunction, insufficient enamel bonding area, or a preparation that has drifted into dentine. If these are irremediable, a dentine-bonded crown is a more retentive alternative [6].\n- **Patient warning**: on placement, inform the patient that the survival rate at 10 years is almost 20% lower than crowns [6] and that the restoration is irreversible.",
+      "prognosis": "Porcelain laminate veneers: estimated 93.5% survival over 10 years [1]. Resin composite veneers: average lifespan approximately 4 years [3]. After a single debond that is rebonded correctly, the subsequent performance is usually satisfactory if the cause has been addressed. Recurrent debond from parafunction carries a poor prognosis without occlusal management.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Better performance and aesthetics than resin composite and long-term follow-up now available. In addition, porcelain is less plaque retentive. They are made indirectly in the laboratory and roughened on their fitting surface by etching and sandblasting. This surface is treated with a silane coupling agent prior to bonding to the etched tooth enamel with resin composite luting cement. Porcelain laminate veneers have an estimated survival of 93.5% over 10yrs.",
+          "paragraph": 3876,
+          "source": "Oxford Handbook · paragraph 3876 (porcelain veneers)"
+        },
+        {
+          "id": 2,
+          "quote": "Contraindications include large existing restorations, severe discoloration, insufficient tooth substance to bond restoration to, and severe parafunction. Overlapping teeth, pencil-chewing, or nail-biting are relative C/I.",
+          "paragraph": 3870,
+          "source": "Oxford Handbook · paragraph 3870 (veneer contraindications)"
+        },
+        {
+          "id": 3,
+          "quote": "Useful for the Rx of adolescent patients. Can be made directly (less destructive) or, more commonly, indirectly (due to processing they have improved properties). Problems are shrinkage, staining, and wear. Surface quality changes and temporary post-operative sensitivity are more frequent in composite than ceramic veneers; however, they cost less and are easier to repair. Average lifespan ~4yrs.",
+          "paragraph": 3874,
+          "source": "Oxford Handbook · paragraph 3874 (resin composite veneers)"
+        },
+        {
+          "id": 4,
+          "quote": "The fitting surface of the veneer is cleaned with alcohol, dried, and then coated with a thin layer of silane coupling agent followed by bonding resin. The tooth is re-isolated and cellulose acetate strips used to separate from adjacent teeth. After etching, washing, and flash drying, a dentine adhesive system is used.",
+          "paragraph": 3884,
+          "source": "Oxford Handbook · paragraph 3884 (veneer placement technique)"
+        },
+        {
+          "id": 5,
+          "quote": "Minor problems in an otherwise satisfactory bridge should be repaired if at all possible. Fractured porcelain can be repaired with one of the specialized repair kits available (e.g. CoJet™).",
+          "paragraph": 4245,
+          "source": "Oxford Handbook · paragraph 4245 (replacement of bridges)"
+        },
+        {
+          "id": 6,
+          "quote": "As whitening becomes more common the need for veneers is less but they still provide the least destructive restoration for anterior teeth compared to crowns. On the other hand, survival rate at 10yrs is almost 20% lower than crowns.",
+          "paragraph": 3871,
+          "source": "Oxford Handbook · paragraph 3871 (veneers vs crowns)"
+        }
+      ]
+    },
+    {
+      "id": "fixed-prosthesis-005",
+      "description": "An adhesive (resin-bonded) bridge wing lifts off its abutment silently while the other wing remains in place, trapping a dark space under the metal.",
+      "conditionName": "Unilateral debond of a resin-bonded (adhesive) bridge",
+      "prevalence": "common",
+      "etiology": "Resin-bonded bridges bond a cast metal or fibre-reinforced framework to abutment enamel using an adhesive resin cement. The failure mode is specific to the design: in a fixed-fixed (two-wing) adhesive bridge, the two abutment teeth have independent mobility; when one side flexes during function, a peel force propagates to the opposite retainer and lifts it [1].\n\nThe reason this matters so much: the debonded wing sits against the abutment tooth looking intact. The gap between the metal and the enamel is invisible clinically. Bacteria colonise it, and caries develops undetected — sometimes becoming extensive before anyone notices [2].\n\nCantilever adhesive bridges avoid this problem entirely, which is why the current consensus is to use cantilever design as the standard for adhesive bridgework [1].",
+      "presentation": "- Often **no symptoms**: the patient notices nothing; the bridge looks and feels intact.\n- Sometimes: a slight click or the sensation that the bridge has shifted.\n- Advanced: bad taste, visible discolouration under the wing, or tooth sensitivity.\n- The bridge is found to rock on gentle digital pressure at the affected retainer, while the other side is still cemented.",
+      "results": "- **Digital pressure on each retainer separately**: a loose retainer rocks; a firm one does not. This is the key clinical test.\n- **Shimstock or floss**: passed under the suspected wing to detect a gap.\n- **Radiograph**: periapical film may show radiolucency of caries under a debonded wing; metal wings may obscure the image.\n- **After removing the bridge**: inspect the fitting surface of the debonded wing and the enamel surface of the abutment for caries.",
+      "definingCharacteristics": "The clinical signature of a unilateral adhesive bridge debond: **one retainer is loose, the other is firm, and the bridge appears intact to the patient**. This is different from:\n\n- **Crown decementation** (fixed-prosthesis-001): the whole crown displaces; the patient knows immediately.\n- **Secondary caries under a conventional crown** (fixed-prosthesis-002): the crown is retained by cement, not a wing bond.\n\nThe unilateral debond is uniquely dangerous because it is clinically silent while caries progresses rapidly under the loose wing [2].",
+      "treatment": "- If one flange only debonded: carefully remove the bridge — usually by a sharp tap at the cervical margin with a chisel, or using ultrasonic scaler tips on the debonded wing [3].\n- Inspect for caries: if caries is present, restore first.\n- **Recementing**: only if the bridge is still well-fitting and the failure was early. Recement with appropriate dual-affinity cement (e.g. Panavia™ 21) [4].\n- **Persistent debonds**: convert to cantilever design — a single-wing cantilever avoids the fulcrum problem entirely [1].\n- **Caries occurring under a debonded wing**: remove bridge, repair caries, then reassess restorability before considering a new bridge [3].",
+      "prognosis": "Cantilever adhesive bridges perform well when there is careful case selection, appropriate design, and maintenance [5]. Fixed-fixed designs carry a higher risk of unilateral debond and are no longer the standard. If the abutment tooth has been significantly damaged by undetected caries, the prognosis for that tooth is reduced. Rebonded cantilever bridges after a single debond typically perform well if the cause is addressed.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Fixed–fixed designs have been problematic, with one retainer debonding being a common clinical finding. The resin bonds to the abutment tooth using the acid-etch technique and to the metal framework by either mechanical or chemical means.",
+          "paragraph": 4250,
+          "source": "Oxford Handbook · paragraph 4250 (resin-bonded bridges)"
+        },
+        {
+          "id": 2,
+          "quote": "If a fixed–fixed design is used and there is a debond of one retainer, caries can develop quickly and undetected under this retainer.",
+          "paragraph": 4285,
+          "source": "Oxford Handbook · paragraph 4285 (adhesive bridge design)"
+        },
+        {
+          "id": 3,
+          "quote": "Debonds. If one flange only, can usually detach other by a sharp tap with a chisel or by using ultrasonic scaler tips. If a persistent problem, consider conventional bridge. The trend is for these bridges to be used for cantilevered bridgework and it is not usual for fixed–fixed adhesive bridgework to be prescribed due to problems with unilateral debonding.",
+          "paragraph": 4303,
+          "source": "Oxford Handbook · paragraph 4303 (resin-bonded bridge problems)"
+        },
+        {
+          "id": 4,
+          "quote": "Chemical retention to a sandblasted metal surface is now used virtually exclusively. A dual-affinity cement (e.g. Panavia™ 21) is used, which chemically bonds to both enamel and non-precious alloys.",
+          "paragraph": 4266,
+          "source": "Oxford Handbook · paragraph 4266 (chemical retention for adhesive bridges)"
+        },
+        {
+          "id": 5,
+          "quote": "Minimal preparation bridges are often thought to carry the risk of earlier failure compared with conventional bridges. Recent clinical research indicates this is not the case when careful case selection and appropriate design and maintenance are followed.",
+          "paragraph": 4734,
+          "source": "Odell's Clinical Problem Solving · paragraph 4734 (Case 43 — Bridge Design)"
+        }
+      ]
+    },
+    {
+      "id": "fixed-prosthesis-006",
+      "description": "An implant-retained crown feels loose or rocks; recession appears around the implant and the papilla between adjacent implant crowns is lost.",
+      "conditionName": "Failing implant-supported restoration (loose crown, peri-implantitis, or abutment screw fracture)",
+      "prevalence": "uncommon",
+      "etiology": "A failing implant restoration can fail at three levels — the crown, the abutment, or the implant itself — and the mechanisms are distinct.\n\n**Loose crown**: the commonest cause of apparent implant mobility is actually a loose crown rather than a loose implant. The crown can loosen because of a loose abutment screw, a fractured abutment screw, or debonding of a cemented crown [1]. An implant with significant bone loss can still feel clinically firm while the crown itself rocks.\n\n**Peri-implantitis** (the biological failure): plaque accumulates around the implant surface, triggering soft and hard tissue destruction. Risk is amplified by poor OH, prosthesis designs that prevent cleaning, excessive occlusal load, poorly controlled diabetes, existing periodontal disease, smoking, residual subgingival cement, and thin gingival biotype [2]. More than 40% of patients may experience peri-implantitis to some extent at some point [3].\n\n**Late mechanical failure** (less common): implant fracture, abutment screw fracture. Literature shows maintenance will be an ongoing problem for the implant patient — fractured screws, porcelain chips, and acrylic fractures are all expected over a lifetime [4].",
+      "presentation": "- Patient feels the crown is loose or has moved.\n- Gum is receding around the implant crown; the papilla between adjacent implants is shrinking.\n- Bad taste or bleeding when cleaning the implant area.\n- Pain is uncommon — an implant with significant bone loss can remain painless [5].\n- No symptoms at all is possible — peri-implantitis may be detectable only on probing and radiograph [5].",
+      "results": "- **Mobility check**: distinguish a loose crown (rocks, implant fixture is firm) from a loose implant (the fixture itself moves, indicating failure of osseointegration) [1].\n- **Shimstock at 8 μm**: in a healthy single implant crown, natural teeth should hold the foil in ICP; between the implant crown and opposing tooth, the foil drags through in ICP but holds when the patient clenches hard [6].\n- **Probing**: around healthy implant tissues, probing depth should be less than 4 mm with no or minimal bleeding [7]. Depths ≥7 mm with bleeding on probing indicate peri-implantitis.\n- **Periapical radiograph (paralleling technique)**: evaluate marginal bone levels against the implant threads. Vertical bone loss should be less than 0.2 mm per year after the first year [8]. Radiolucency around the implant body indicates failure of osseointegration [9]. Absence of the peri-implant lamina dura is normal — there is no lamina dura around an implant [9].",
+      "definingCharacteristics": "The key clinical distinction:\n\n- **Loose crown vs loose implant**: even with significant bone loss around the fixture, the implant can still feel firm. Test crown and implant separately — digital pressure on the crown may reveal rotation or lateral movement of the crown without any movement of the fixture [1].\n- **Peri-implantitis vs peri-implant mucositis**: mucositis is reversible soft tissue inflammation (analogous to gingivitis); peri-implantitis involves bone destruction (analogous to periodontitis). The probing depth and radiographic bone level distinguish them. Peri-implantitis belongs here (mechanical implant origin) rather than the periodontal origin, because the management pathway is restorative and surgical around the implant.\n- A **failing implant** may have no clinical signs beyond probing and radiographic changes [5] — which is why recall, probing, and annual radiographs are non-negotiable.",
+      "treatment": "**Loose crown**:\n- Identify cause: loose abutment screw (retighten, seal access), screw fracture (refer for fragment removal), or debonded cemented crown (recement or replace).\n- Assess excess cement: if cemented crowns are suspected to have left residual subgingival cement, this must be removed as it drives peri-implant inflammation [2].\n\n**Peri-implant mucositis**:\n- Oral hygiene instruction, supra- and subgingival debridement with titanium or plastic instruments [10]. This is reversible with good OH.\n\n**Peri-implantitis**:\n- Early: local debridement and improved OH; assess occlusal load.\n- Advanced: surgical access for direct debridement of the implant surface; bone grafting where indicated [11].\n- **Early specialist referral is recommended** to prevent further bone loss — a late diagnosis leads to further surgery, aesthetic compromise, or implant loss [5].",
+      "prognosis": "If implants survive the first 2 years, there is a 98% success rate with dramatic improvement in all functional parameters [4]. Success rates exceed 90% after 10 years [12]. Late failure is most commonly due to peri-implantitis [12]. An implant is considered successful if it is present and functioning with no mobility, no associated radiolucency, and bone loss of less than 1.5 mm [12]. Without treatment, peri-implantitis is progressive — an implant with unchecked bone loss will eventually require removal.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Check the mobility of the implant-supported restorations. It is rare for an implant to feel loose. Even with significant bone loss, an implant restoration can still feel firm. It is important to distinguish a loose crown, which is a more common occurrence. A loose crown may be caused by a loose abutment screw, a screw fracture or debonding of a cemented crown.",
+          "paragraph": 8000,
+          "source": "Odell's Clinical Problem Solving · paragraph 8000 (Case 75 — Failing Implant Restoration)"
+        },
+        {
+          "id": 2,
+          "quote": "Peri-implantitis and peri-implant bone loss is not well-understood but ↑ risk is associated with: Inadequate OH. Prosthesis designs that hinder OH. An excessive occlusal load on the implant. Poorly controlled diabetes. Existing periodontal disease (treated and untreated). Smoking. Thin bone coverage at the time of implant placement. Residual cement from a cemented implant restoration. Thin gingival biotype and tissue thickness.",
+          "paragraph": 5354,
+          "source": "Oxford Handbook · paragraph 5354 (peri-implantitis risk factors)"
+        },
+        {
+          "id": 3,
+          "quote": "Peri-implantitis is a condition with destructive inflammation of the soft and hard tissues surrounding an osseointegrated implant (similar to periodontitis around teeth). Although implants have a 90%+ chance of 10yr survival, >40% of patients may experience peri-implantitis to some extent.",
+          "paragraph": 5353,
+          "source": "Oxford Handbook · paragraph 5353 (peri-implantitis)"
+        },
+        {
+          "id": 4,
+          "quote": "If implants survive the first 2yrs, there is a 98% success rate with dramatic improvement in all functional parameters. Success rates for the mandible are higher than those for the maxilla (due to bone quality). Implant-retained restorations need to be carefully maintained by the patient. Literature shows maintenance of restorations will be an ongoing problem for the implant patient (e.g. # screws, clips, porcelain, acrylic).",
+          "paragraph": 5348,
+          "source": "Oxford Handbook · paragraph 5348 (implant follow-up and maintenance)"
+        },
+        {
+          "id": 5,
+          "quote": "A failing implant may not result in any significant clinical signs or symptoms. These changes may be only detectable with probing the tissues around the implant and taking and interpreting appropriate radiographs. A late diagnosis of a failing implant is likely to result in further surgery for the patient, a compromise in aesthetics and, at worst, removal of the implant, all of which may result in medico-legal action.",
+          "paragraph": 8039,
+          "source": "Odell's Clinical Problem Solving · paragraph 8039 (Case 75 — Failing Implant Restoration)"
+        },
+        {
+          "id": 6,
+          "quote": "It is important in single implant-supported restorations that the natural teeth are the first teeth in contact. An easy way to determine this is with the use of Shimstock foil, which has a thickness of 8 μm. In the intercuspal position, the natural teeth should hold the Shimstock foil. Between the implant restoration and the opposing contact, it should be possible to drag the Shimstock foil through without tearing it.",
+          "paragraph": 8004,
+          "source": "Odell's Clinical Problem Solving · paragraph 8004 (Case 75 — occlusal examination)"
+        },
+        {
+          "id": 7,
+          "quote": "Around healthy implant tissues, the probing depth should be less than 4 mm, with no or minimal bleeding.",
+          "paragraph": 7996,
+          "source": "Odell's Clinical Problem Solving · paragraph 7996 (Case 75 — peri-implant probing)"
+        },
+        {
+          "id": 8,
+          "quote": "Vertical bone loss, assessed radiographically, should be less than 0.2 mm per year in subsequent years.",
+          "paragraph": 3911,
+          "source": "Odell's Clinical Problem Solving · paragraph 3911 (Case 35 — implant review criteria)"
+        },
+        {
+          "id": 9,
+          "quote": "Absence of continuous radiolucency around the implant. Because there is no lamina dura around an implant, there should be no radiolucency around the implant. Radiolucency around an implant is likely to be a result of failure of osseointegration of the implant and the surrounding alveolar bone.",
+          "paragraph": 8010,
+          "source": "Odell's Clinical Problem Solving · paragraph 8010 (Case 75 — radiographic examination)"
+        },
+        {
+          "id": 10,
+          "quote": "The management of peri-implantitis involves oral hygiene instruction as well as supra- and subgingival debridement.",
+          "paragraph": 8025,
+          "source": "Odell's Clinical Problem Solving · paragraph 8025 (Case 75 — nonsurgical management)"
+        },
+        {
+          "id": 11,
+          "quote": "Aim to have direct access to all of the implant exposed surfaces. A soft tissue flap is raised under local anaesthesia, with the aim of allowing removal of the biofilm. Several techniques are available to do this, including the use of ultrasonic instrumentation, specialized titanium micro-brushes, drilling of the implant surface to remove the threads, chemical debridement or even bone grafting.",
+          "paragraph": 8036,
+          "source": "Odell's Clinical Problem Solving · paragraph 8036 (Case 75 — surgical management)"
+        },
+        {
+          "id": 12,
+          "quote": "Success rates of dental implants are reported to be in excess of 90% after 10yrs. There are two ways an implant can be considered to fail: 1° failure, which is failure of osseointegration, and 2° failure, which is failure to maintain osseointegration. The implant can be considered to be successful if it is present and functioning (acceptable mastication, phonation, and pain-free) with a lack of mobility, associated radiolucency, and bone loss of <1.5mm. The majority of implant failures are due to peri-implantitis.",
+          "paragraph": 5350,
+          "source": "Oxford Handbook · paragraph 5350 (implant success)"
+        }
+      ]
+    }
+  ]
+}
