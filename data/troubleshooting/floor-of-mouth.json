@@ -1,0 +1,238 @@
+{
+  "slug": "floor-of-mouth",
+  "title": "Floor of mouth",
+  "order": 5,
+  "description": "Lesions arising in the floor of the mouth — including cystic swellings from the sublingual gland, obstructive salivary gland disease, life-threatening deep-space infections, and the single highest-risk site for oral squamous cell carcinoma.",
+  "problems": [
+    {
+      "id": "floor-of-mouth-001",
+      "description": "Smooth, bluish, dome-shaped swelling on the floor of the mouth, soft and fluctuant. Grows slowly. Not painful unless secondarily infected.",
+      "conditionName": "Ranula (sublingual mucocele)",
+      "prevalence": "uncommon",
+      "etiology": "A ranula is a mucocele of the floor of the mouth arising from the sublingual gland [1]. The mechanism is the same as a lower-lip mucocele — saliva leaks from a traumatised or obstructed duct and pools, creating a compressed connective tissue pseudocapsule (mucous extravasation cyst) [2]. Retention cysts are the rarer variant where the duct itself dilates behind an obstruction rather than rupturing.\n\nA **plunging ranula** is what happens when the pool of saliva dissects deep to the mylohyoid muscle and tracks into the neck. The floor of mouth swelling may then be small while a large fluctuant neck swelling develops below [1].",
+      "presentation": "The classic picture:\n\n- A soft, fluctuant, bluish or translucent swelling in the floor of mouth, usually lateral to the midline [1].\n- The patient notices a slowly enlarging painless lump. Pain only if it becomes very large or gets infected.\n- With a plunging ranula, the patient may present with a neck swelling — with or without a visible intraoral component [1].\n\nSize varies from a few millimetres to several centimetres. Large ones can elevate the tongue and disturb swallowing.",
+      "results": "- **Palpation**: soft and fluctuant. Transilluminates well (fluid-filled, thin wall).\n- **Aspiration**: produces clear, viscid, straw-coloured mucin.\n- **Imaging**: USS or MRI confirms a fluid-filled cyst and maps the plunging component if present. CT/MRI is needed before surgery for a plunging ranula to define neck extension [1].\n- No vitality tests relevant; no radiographic bone involvement expected.",
+      "definingCharacteristics": "The key distinguishing features against other FOM swellings:\n\n- **Against dermoid cyst**: dermoids are firm or doughy, not fluctuant, and arise in the midline; they don't transilluminate [3].\n- **Against sialolithiasis**: stones cause painful pre-meal swelling of the gland body; a ranula is the duct/gland itself forming a cyst, not obstructed by a calculus. Bimanual palpation of a submandibular calculus will reveal a hard lump; a ranula is soft.\n- **Against sublingual salivary gland tumour**: tumours are firm, not fluctuant; more than 50% of sublingual tumours are malignant, so any solid FOM lump is a tumour until proven otherwise [4].\n- The characteristic **blue tinge** on the thin overlying mucosa is almost pathognomonic for a ranula — it reflects the colour of the pooled mucin showing through.",
+      "treatment": "Simple ranula: marsupialization has a high recurrence rate [1]. Definitive treatment is excision of the cyst together with the associated sublingual gland [1].\n\nPlunging ranula: excision of the cyst and sublingual gland via an intraoral approach; if the submandibular duct is involved or damaged, the submandibular gland may also need to be excised [1].\n\nRefer to oral and maxillofacial surgery for all but the smallest incidental findings. GDP role is diagnosis and timely referral.",
+      "prognosis": "- With excision of the sublingual gland (not just the cyst): excellent, low recurrence [1].\n- With marsupialization alone: high recurrence rate [1].\n- Plunging ranulas with neck extension require more extensive surgery but outcomes are still good when the gland is removed.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "These are mucoceles of the floor of the mouth, arising from the sublingual gland. They tend to recur if marsupialized. A plunging ranula crosses deep to the mylohyoid and appears as a neck and floor of mouth swelling. Rx: excision of cyst and associated sublingual gland; the submandibular gland may have to be excised if the duct is damaged.",
+          "paragraph": 5790,
+          "source": "Oxford Handbook · paragraph 5790"
+        },
+        {
+          "id": 2,
+          "quote": "These are usually mucous extravasation cysts, where saliva leaks from a traumatized duct and pools, creating a compressed connective tissue capsule. Rarely, they are mucous retention cysts. They mostly affect the lower lip—similar swellings in the upper lip are often minor salivary gland tumours.",
+          "paragraph": 5788,
+          "source": "Oxford Handbook · paragraph 5788"
+        },
+        {
+          "id": 3,
+          "quote": "Sublingual: ranula, tumour.",
+          "paragraph": 7030,
+          "source": "Oxford Handbook · paragraph 7030 (differential diagnosis of sublingual swellings)"
+        },
+        {
+          "id": 4,
+          "quote": ">50% of tumours are malignant (mostly adenoid cystic) and require extensive surgery and reconstruction similar to floor of mouth cancer. Beware the 'mucocele' of the upper lip—it is almost certainly a tumour.",
+          "paragraph": 6927,
+          "source": "Oxford Handbook · paragraph 6927 (sublingual and minor gland tumours)"
+        }
+      ]
+    },
+    {
+      "id": "floor-of-mouth-002",
+      "description": "Painful swelling under the jaw that comes on quickly before meals and then slowly subsides. Happens every time the patient eats. The gland feels firm and enlarged on bimanual palpation.",
+      "conditionName": "Sialolithiasis (submandibular duct calculus)",
+      "prevalence": "uncommon",
+      "etiology": "A calcified stone (sialolith) forms within the salivary duct, most commonly Wharton's duct of the submandibular gland [1]. The submandibular gland is the commonest site for calculi [1] — the reasons are its long, tortuous duct with an uphill course from gland to orifice, and its more mucous saliva compared to the parotid.\n\nWhen the stone partially obstructs the duct, the gland engorges with backed-up saliva on each gustatory stimulus, then slowly decompresses as the stone shifts or saliva finds its way past — that's the meal-time pattern [2].\n\nRepeated obstruction drives chronic sialadenitis and fibrosis of the gland: the submandibular gland becomes firm and enlarged, and the gland may be irreversibly damaged even after stone removal [2].",
+      "presentation": "What the patient describes:\n\n- Predictable, rapid swelling below the jaw that appears just before or at the start of a meal (mealtime syndrome) [2].\n- Pain over the gland during meals; gradually subsides over 1–2 hours once eating stops.\n- Possibly a recurrent history spanning months to years.\n- A tender lump or cord under the tongue in the FOM on the affected side.\n\nWhat you'll find:\n\n- Reduced or absent saliva from the duct orifice on gustatory stimulation [3].\n- Bimanual palpation of the FOM: a hard lump palpable intraorally along the duct, especially for anterior stones. Extraoral: enlarged, firm submandibular gland [3].",
+      "results": "- **Plain occlusal radiograph** (lower occlusal for submandibular, not periapical): reveals radio-opaque calculi in anterior duct [1]. However, 50% of calculi are radiolucent — a negative X-ray does not exclude a stone [4].\n- **USS** is the preferred first-line investigation: detects the calculus as a hyperechoic body with acoustic shadow, and shows ductal dilatation and gland heterogeneity from sialadenitis [3].\n- **Sialography**: maps the ductal morphology and stone position; also often therapeutic (the contrast infusion flushes smaller stones). Reveals stricture or obstruction [1].\n- **Bimanual palpation**: firm, sometimes cord-like swelling in the FOM, often with a palpable hard calculus for anterior stones.",
+      "definingCharacteristics": "The mealtime pattern — rapid onset of pain and swelling at mealtimes followed by gradual resolution — is the cardinal feature of ductal obstruction [2]. Very few other conditions do this.\n\nDistinguish from:\n\n- **Sialadenitis without a stone**: infection of the gland (bacterial) causes persistent, painful swelling with purulent discharge from the duct; not mealtime-triggered. Commonest organisms are oral streptococci, anaerobes, and Staph aureus [4].\n- **Ranula**: smooth fluctuant cyst in the FOM, not linked to meals, no submandibular gland enlargement.\n- **Submandibular lymphadenopathy**: lymph nodes are not meal-triggered, usually tender only with infection, bimanual palpation doesn't reveal a duct calculus.",
+      "treatment": "The approach depends on stone location [1]:\n\n- **Anterior duct stone** (palpable intraorally, distal to mylohyoid): intraoral approach — pass a suture behind the stone to prevent it slipping deeper, incise the duct over the stone, lift it out, then marsupialise the duct or reconstruct [1].\n- **Posterior stone** (proximal, within the gland): traditionally requires gland excision. Minimally invasive alternatives — sialoendoscopy, extracorporeal lithotripsy, basket retrieval — are available in specialist centres and suitable for stones <3mm [5].\n- **Sialoendoscopy ± laser lithotripsy** is available in some centres for proximal calculi [6].\n- Refer to oral and maxillofacial surgery or a specialist salivary gland centre for definitive management.",
+      "prognosis": "- Anterior duct stone removed: duct re-establishes flow; if gland fibrosis is limited, recovery is good [2].\n- Repeated obstruction leads to irreversible sialadenitis — gland excision may then be needed even after the stone is removed [2].\n- Minimally invasive techniques (sialoendoscopy, lithotripsy) preserve the gland and function when successful [5]; some cases ultimately require gland excision.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "History is of recurrent pain and swelling in the obstructed gland, particularly before and during meals. Plain X-rays (lower occlusal for submandibular, cheek for parotid) reveal radio-opaque calculi, but do not exclude the radiolucent calculi and mucous plugs. Sialography reveals a stricture or obstruction. Commonest in the submandibular duct. Rx: submandibular duct for calculi lying anterior in duct—remove by passing a suture behind the calculus to prevent it slipping further down the duct, dissect the duct from an IO approach, and lift out stone; either marsupialize the duct or reconstruct. Posterior calculi—excise gland and duct.",
+          "paragraph": 6933,
+          "source": "Oxford Handbook · paragraph 6933"
+        },
+        {
+          "id": 2,
+          "quote": "The patient has mealtime syndrome, probably as the result of an obstruction in the duct. The gland is firm because of fibrosis from chronic sialadenitis caused by repetitive obstruction and possibly intermittent ascending low-grade infection.",
+          "paragraph": 6849,
+          "source": "Odell's Clinical Problem Solving · paragraph 6849"
+        },
+        {
+          "id": 3,
+          "quote": "When you examine the patient, you discover that the oral mucosa and the dentition appear normal. A small amount of clear saliva can be expressed from the orifice of the left submandibular duct but less than that expressed from the right submandibular duct. Bimanual palpation reveals a firm lump, 3 cm in diameter, palpable in the floor of mouth near the posterior free border of mylohyoid muscle and extraorally in the submandibular triangle.",
+          "paragraph": 6847,
+          "source": "Odell's Clinical Problem Solving · paragraph 6847"
+        },
+        {
+          "id": 4,
+          "quote": "Inflammation of, usually, the major salivary glands. Acute bacterial sialadenitis presents as a painful swelling, usually with a purulent discharge from the duct of the gland involved. It may also develop as an exacerbation of chronic bacterial sialadenitis, which often exists as a complication of duct obstruction. Both acute and chronic conditions are almost always unilateral and common infecting organisms are oral streptococci, oral anaerobes, and Staphylococcus aureus. Rx: rehydration and exclusion or removal of an obstructing calculus. Plain radiographs may reveal calculus, but 50% are radiolucent.",
+          "paragraph": 6277,
+          "source": "Oxford Handbook · paragraph 6277"
+        },
+        {
+          "id": 5,
+          "quote": "Yes, minimally invasive techniques for the management of salivary obstructive disease are available. These mostly aim to disrupt the stone so that the fragments are washed out by the flow of saliva. It is also possible to remove the stones as a whole and dilate the ductal stenoses. These techniques require careful selection of patients to ensure success, and there is always a possibility that they will fail and surgery will ultimately be required.",
+          "paragraph": 6885,
+          "source": "Odell's Clinical Problem Solving · paragraph 6885"
+        },
+        {
+          "id": 6,
+          "quote": "Sialoendoscopy ± laser lithotripsy is available in some centres for proximal calculi in patients wishing to avoid gland excision and calculi <3mm.",
+          "paragraph": 6934,
+          "source": "Oxford Handbook · paragraph 6934"
+        }
+      ]
+    },
+    {
+      "id": "floor-of-mouth-003",
+      "description": "A slow-growing, painless ulcer or firm lump on the floor of the mouth that won't heal after three weeks. No obvious trauma history. The base feels hard on palpation.",
+      "conditionName": "Squamous cell carcinoma of the floor of mouth",
+      "prevalence": "very-uncommon",
+      "etiology": "The floor of the mouth is the commonest single site for oral SCC, accounting for more than 75% of carcinomas in European and American practice [1]. The aetiology is multifactorial but two exposures dominate: **tobacco** and **alcohol**, which act synergistically — each amplifies the carcinogenic effect of the other [2].\n\nHPV types 16 and 18 are recognised independent risk factors for oropharyngeal SCC [2], though FOM SCC remains more strongly associated with tobacco/alcohol than HPV-driven oropharyngeal disease.\n\nThe FOM mucosa, along with the ventral tongue, is a high-risk site partly because it is thin non-keratinised epithelium in permanent contact with pooled saliva — carcinogens in tobacco and alcohol concentrate here. Sublingual keratosis (white patch affecting the FOM or ventral tongue) is considered a high-risk potentially malignant disorder at this site [3].\n\nAge of peak presentation is sixth and seventh decades, though incidence in younger patients is rising [1].",
+      "presentation": "Most oral cancers present as one of three clinical forms [4]:\n\n- A **painless, non-healing ulcer** with indurated (hard, raised) edges and a granular base — the classic picture [4].\n- A **firm swelling** that doesn't look inflammatory.\n- An area of **leucoplakia, erythroleukoplakia, or erythroplakia** — the last two having the highest malignant potential.\n\nPain is usually a **late feature** [4]. By the time it hurts, the lesion is often already advanced. Referred otalgia can occur [4]. Patients may also present with a neck lump from metastatic cervical nodes — sometimes before they notice the primary [4].",
+      "results": "- **Palpation**: induration is the single most important sign. The ulcer is fixed to underlying tissues; it extends further than it looks [5].\n- **Tongue mobility**: reduced mobility indicates deep invasion toward or into the intrinsic tongue muscles [5].\n- **Lymph nodes**: palpate the full cervical chain. Anterior FOM cancers may drain bilaterally — both sides of the neck need assessment [6].\n- **Radiology**: CT or MRI for staging — bone involvement, nodal spread, resection margins. MRI preferred for soft tissue detail.\n- **Biopsy**: mandatory. The diagnosis is histological — typically SCC with invasion of deep tissues, cellular pleomorphism, and increased nuclear staining [7]. Do not delay biopsy when malignancy is suspected; refer immediately via the urgent cancer pathway [4].",
+      "definingCharacteristics": "What sets FOM SCC apart from benign FOM lesions:\n\n- **Induration**: benign ulcers, traumatic ulcers, and mucoceles are soft. SCC is hard. If palpation reveals a firm base, refer urgently — don't wait to see if it heals [4].\n- **Duration >3 weeks without an obvious cause** should trigger referral, regardless of how benign it looks [4].\n- **Erythroplakia or erythroleukoplakia** at this site carries a very high risk of dysplasia or carcinoma, higher than a purely white patch [3].\n- Sublingual keratosis (bilateral wrinkled white patch of the FOM) is a high-risk potentially malignant disorder at this site, not just a benign finding [3].\n\nThe key differential to keep in mind: a traumatic ulcer from a sharp tooth edge heals within 1–2 weeks once the cause is removed. If it doesn't heal, it isn't traumatic.",
+      "treatment": "Management is hospital-based. GDP role: early recognition and urgent referral.\n\n**Refer immediately** via local urgent cancer referral pathway (2-week wait) for any ulcer or lump persisting >3 weeks without explanation [4].\n\nHospital management by stage:\n\n- **T1–N0**: surgery or radiotherapy offer similar cure rates; surgery is often preferred for its lower side effects [8].\n- **T2 with imaging N0**: 30% incidence of occult nodal metastases; most centres favour prophylactic selective neck dissection rather than watch-and-wait [8].\n- **T2/T3 with nodes**: >50% have occult metastases; selective neck dissection is indicated [8].\n- **Anterior FOM tumours** specifically: may spread to bilateral cervical nodes, so bilateral selective neck dissection is recommended [6].\n- Post-operative radiotherapy for large tumours, close margins, or extracapsular spread [8].",
+      "prognosis": "5-year survival is stage-dependent [9]:\n\n- **Stage I (T1–N0)**: >85% at 5 years [9].\n- **T1–N0 treated**: approximately 90% 5-year survival [10].\n- **T2/T3–N1**: approximately 30% [10].\n- **Stage IV**: approximately 10% [9].\n\nThe most important single prognostic factor is **extracapsular spread** of tumour in metastatic cervical nodes — its presence cuts cure rates by 50% [9]. Nodal involvement generally halves the prognosis [9].\n\nOverall oral cancer mortality is just over 50% despite treatment [11]. Early-stage detection is the greatest determinant of outcome — the GDP's role in recognising the lesion early is directly consequential.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The floor of the mouth is the commonest single site, accounting for >75% of carcinomas seen in European or American practice. The other high-risk sites are the retromolar region and lateral tongue. Most common in sixth and seventh decades, however there appears to be an increasing incidence in younger patients and those who do not use tobacco.",
+          "paragraph": 6207,
+          "source": "Oxford Handbook · paragraph 6207"
+        },
+        {
+          "id": 2,
+          "quote": "Excessive alcohol and tobacco use are the important factors in the aetiology of cancer of the mouth showing a 'synergistic effect'. HPV type 16 and 18 infection is now recognized as an independent risk factor for oropharyngeal SCC.",
+          "paragraph": 6209,
+          "source": "Oxford Handbook · paragraph 6209"
+        },
+        {
+          "id": 3,
+          "quote": "Sublingual keratosis refers to a white patch affecting the floor of the mouth or the ventral tongue, and lesions here are considered to have a high risk of malignant transformation. The typical lesion is bilateral and may be extensive in the floor of the mouth, often with a wrinkled surface of 'ebbing tide' parallel corrugations.",
+          "paragraph": 4958,
+          "source": "Odell's Clinical Problem Solving · paragraph 4958"
+        },
+        {
+          "id": 4,
+          "quote": "Oral cancer is most often seen as a painless ulcer, although it may present as a swelling or as an area of leucoplakia, erythroleucoplakia, or erythroplakia. Patients may present with a history of a neck lump as a result of metastatic spread to cervical lymph nodes. Malignancy should be suspected if any of these lesions persists for >3 weeks. Pain is usually a late feature. Referred otalgia is a common manifestation of pain from the tongue or oropharyngeal cancer. The ulcer is described as firm with raised edges, with an indurated, inflamed, granular base and is fixed to surrounding tissues.",
+          "paragraph": 6211,
+          "source": "Oxford Handbook · paragraph 6211"
+        },
+        {
+          "id": 5,
+          "quote": "If you could palpate this ulcer, you would find that it is indurated (firm or hard on palpation) and extends down towards the floor of the mouth and up beneath the dorsal mucosa towards the midline. The lesion is clearly much larger than it looks. The patient has reduced tongue mobility.",
+          "paragraph": 6193,
+          "source": "Odell's Clinical Problem Solving · paragraph 6193"
+        },
+        {
+          "id": 6,
+          "quote": "Anterior floor of mouth cancer may spread to bilateral lymph nodes; bilateral selective neck dissection is indicated.",
+          "paragraph": 6990,
+          "source": "Oxford Handbook · paragraph 6990"
+        },
+        {
+          "id": 7,
+          "quote": "Mostly SCC. Characteristically shows invasion of deep tissues with cellular pleomorphism and ↑ nuclear staining. The presence of a lymphocytic response may have prognostic value, as does the manner of invasion (pushing or spreading). Can spread via local infiltration or lymphatic system (cervical nodes), and late spread via bloodstream.",
+          "paragraph": 6215,
+          "source": "Oxford Handbook · paragraph 6215"
+        },
+        {
+          "id": 8,
+          "quote": "T1–N0. Surgery or radiotherapy (including brachytherapy-radioactive implants) offers a similar cure rate. Surgery is often simpler and with less side effects. T2 but imaging N0. Have a 30% incidence of occult metastases; debate exists over watch and wait or selective neck dissection. Majority favour dissection. T2 and T3. >50% of patients will have occult metastases; prophylactic radiotherapy (works for occult but not for obvious bulky nodes); or prophylactic selective neck dissection.",
+          "paragraph": 6984,
+          "source": "Oxford Handbook · paragraphs 6984–6987"
+        },
+        {
+          "id": 9,
+          "quote": "This is dependent on site and stage, (prognosis for stage I is >85% and for stage IV is 10% over 5yrs), and co-morbidity. The presence or absence of extracapsular spread of tumour in metastatic cervical nodes is the most important single prognostic factor. Nodal involvement ↓ cure rates by 50%.",
+          "paragraph": 6213,
+          "source": "Oxford Handbook · paragraph 6213"
+        },
+        {
+          "id": 10,
+          "quote": "90% for T1–N0, but 30% for T2/3–N1 and worse for T4; however, this does not mean that extensive combination therapy and reconstruction is pointless in those with advanced oral cancers.",
+          "paragraph": 6995,
+          "source": "Oxford Handbook · paragraph 6995"
+        },
+        {
+          "id": 11,
+          "quote": "Cancer of the mouth (Fig. 11.4) accounts for ~2% of all malignant tumours in northern Europe and the US, but ~30–40% in the Indian subcontinent. >90% of these are SCCs. Globally it is the sixth commonest cause of cancer-related death. >2000 new cases of oral cancer are registered per year in the UK and each year half that number die from or with the disease. Overall mortality rate is just over 50% despite Rx.",
+          "paragraph": 6205,
+          "source": "Oxford Handbook · paragraph 6205"
+        }
+      ]
+    },
+    {
+      "id": "floor-of-mouth-004",
+      "description": "Rapidly spreading bilateral swelling of the neck and floor of mouth after a dental infection. The neck is board-hard. The patient can't swallow their own saliva and the airway is threatened.",
+      "conditionName": "Ludwig's angina",
+      "prevalence": "rare",
+      "etiology": "Ludwig's angina is a bilateral infection involving both the submandibular and sublingual spaces simultaneously [1]. It is not a single abscess — it is a combination of abscess and cellulitis spreading through the deep fascial spaces of the floor of the mouth and neck [2].\n\nThe commonest source is a lower molar — usually an impacted or pericoronally infected lower third molar, or a lower molar with periapical infection that perforates the lingual cortex [3]. Pus from lower molars preferentially perforates the lingual plate (thinner and closer than the buccal plate), and is deflected by the mylohyoid attachment into either the sublingual or submandibular space [3]. Once cellulitis crosses the mylohyoid — which is thin, perforated by blood vessels, and a poor barrier — bilateral spread can occur rapidly [3].\n\nThe danger path: from the submandibular/sublingual spaces, infection can spread to the parapharyngeal space, the epiglottis, and down the fascial planes of the neck to the mediastinum [1].",
+      "presentation": "What you'll see and hear:\n\n- History of worsening dental pain — often from a lower molar or wisdom tooth — over several days [4].\n- Fever, malaise, dysphagia, trismus [4].\n- The floor of the mouth is raised. The tongue is pushed up and back — sometimes visibly so [2].\n- The floor of mouth, tongue, and soft tissues of the neck are **board hard** (the brawny, board-like induration is characteristic) [1, 2].\n- The patient is systemically unwell and often cannot swallow their own saliva [2].\n- Breathing may already be laboured. Dyspnoea can develop unexpectedly and with great rapidity [4].\n\nThis is a 999/urgent admission scenario. Do not send the patient home.",
+      "results": "- **Clinical**: the diagnosis is clinical. Board-hard bilateral cervical and FOM swelling in the context of a recent dental infection is pathognomonic [1, 2].\n- **Temperature**: pyrexia confirming systemic infection [5].\n- **Trismus**: limited mouth opening indicates spread to involve the muscles of mastication [5].\n- **Imaging** (when airway is stable): CT neck and chest to delineate the extent of spread, identify pus collections for drainage, and check for mediastinal extension.\n- **FBC and cultures**: leukocytosis expected; blood cultures if septicaemia suspected. Pus for culture if drained.",
+      "definingCharacteristics": "The distinguishing features from the more common unilateral submandibular space infection:\n\n- **Bilateral** — both submandibular and sublingual spaces are involved. Unilateral submandibular swelling following pericoronitis is more common and less immediately life-threatening [1].\n- **Board-hard induration** — cellulitis rather than fluctuant abscess. There may be no obvious pus to drain at first presentation [1].\n- **Systemic involvement** — fever, inability to swallow, threatened airway are the giveaways for deep space spread [4, 5].\n- Death can come from airway obstruction, septicaemia, disseminated intravascular coagulation, or mediastinitis [1].\n\nThe rule is: if the floor of mouth is raised bilaterally and the neck is board-hard, this is Ludwig's angina until proven otherwise — it goes straight to hospital.",
+      "treatment": "This is a hospital-only emergency. GDP role: recognise it, call 999 or arrange immediate transfer [4].\n\nHospital management:\n\n- **Airway first**: the priority is securing the airway — fibreoptic-guided intubation if trismus allows, or surgical airway if not [6]. Paralysis for intubation removes the patient's ability to maintain their own airway voluntarily, so this decision requires experienced anaesthetic input [6].\n- **IV antibiotics**: initial bolus of IV metronidazole is appropriate; typically combined with IV amoxicillin or co-amoxiclav [7]. Cultures guide adjustment.\n- **Surgical drainage**: incision, ideally 2cm below the lower border of the mandible to protect the mandibular branch of the facial nerve [6]. Even within cellulitis, small collections and necrotic tissue are present; drainage is safer than waiting [6].\n- **Remove the dental cause**: extraction of the offending tooth as soon as feasible — sometimes concurrent with drainage under GA if access allows [6].",
+      "prognosis": "- With early diagnosis, prompt airway management, IV antibiotics, and surgical drainage: survival is expected, though the course is prolonged and complications (mediastinitis, septicaemia, DIC) can still develop [1].\n- Untreated or delayed: potentially fatal. Airway obstruction from tongue displacement and glottic oedema can occur with great rapidity; mediastinal spread carries a high mortality [1].\n- Necrotising fasciitis is a related but even more aggressive variant — rare but often fatal if untreated [8].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Ludwig's angina is a bilateral infection involving the submandibular and sublingual spaces. It is frequently caused by cellulitis when the classic 'brawny' (board-like) induration of the neck is seen. Spread of infection involves the epiglottis or parapharyngeal spaces rapidly and causes airway obstruction. Death may also result from septicaemia, disseminated intravascular coagulation, or spread in the fascial planes of the neck to the mediastinum. Early diagnosis and prompt surgical intervention combined with definitive airway management are necessary to prevent serious morbidity or mortality.",
+          "paragraph": 3633,
+          "source": "Odell's Clinical Problem Solving · paragraph 3633"
+        },
+        {
+          "id": 2,
+          "quote": "This is a combination of abscess and cellulitis affecting both submandibular and sublingual spaces bilaterally. The floor of the mouth is raised and the tongue pushed up and back. The floor of mouth, tongue, and soft tissues of the neck are board hard. The patient is systemically unwell and often cannot swallow their own saliva. The airway is seriously at risk and this is an urgent case for admission.",
+          "paragraph": 5742,
+          "source": "Oxford Handbook · paragraph 5742"
+        },
+        {
+          "id": 3,
+          "quote": "Pus from lower third molars tends to perforate the lingual plate, which is closer and thinner than the buccal plate. Infection is deflected to either the sublingual or submandibular space by the attachment of the mylohyoid muscle.",
+          "paragraph": 3629,
+          "source": "Odell's Clinical Problem Solving · paragraph 3629"
+        },
+        {
+          "id": 4,
+          "quote": "The patient has suffered worsening pain 'from her wisdom tooth' on the lower right side for 5 days. Yesterday, she noticed pain in the floor of her mouth and found that moving her tongue was painful. Today, she awoke to find the facial swelling; she feels unwell and has difficulty eating, swallowing and opening her mouth.",
+          "paragraph": 3599,
+          "source": "Odell's Clinical Problem Solving · paragraph 3599"
+        },
+        {
+          "id": 5,
+          "quote": "The combination of inflammation (swelling, pain, redness and heat), together with local lymphadenitis and pus seen intraorally, indicates an infection. Trismus is an important sign, indicating that the infection or inflammation has spread to involve the muscles of mastication. The patient is pyrexic and feels unwell. These features indicate that the infection is exerting a systemic effect.",
+          "paragraph": 3616,
+          "source": "Odell's Clinical Problem Solving · paragraph 3616"
+        },
+        {
+          "id": 6,
+          "quote": "General anaesthesia will be required to drain the swelling. Fibreoptic-guided intubation may be necessary because of trismus and infection around the airway. In a more advanced case with airway oedema or infection, intubation of a conscious patient may be required because paralysis for intubation prevents the patient from keeping the airway open voluntarily. The submandibular space must be drained through an extraoral incision, ideally 2 cm below the lower border of the mandible (to avoid damage to the mandibular branch of the facial nerve).",
+          "paragraph": 3644,
+          "source": "Odell's Clinical Problem Solving · paragraphs 3644–3648"
+        },
+        {
+          "id": 7,
+          "quote": "Yes, prescription of antibiotics is required in such a case. An initial bolus of intravenous metronidazole would be appropriate, with an oral regimen for a few days afterwards.",
+          "paragraph": 3651,
+          "source": "Odell's Clinical Problem Solving · paragraph 3651"
+        },
+        {
+          "id": 8,
+          "quote": "This is a rare but life-threatening infection often with a highly virulent streptococci. Treatment involves wide local excision of necrotic tissue combined with resuscitation and IV antibiotics. Often fatal if untreated.",
+          "paragraph": 5744,
+          "source": "Oxford Handbook · paragraph 5744"
+        }
+      ]
+    }
+  ]
+}
