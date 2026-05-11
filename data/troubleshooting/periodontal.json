@@ -409,6 +409,460 @@
           "source": "Oxford Handbook · paragraph 3334"
         }
       ]
+    },
+    {
+      "id": "periodontal-008",
+      "description": "Bone and soft tissue destruction reaching into the fork between the roots of a molar — found on probing or radiograph, often in a patient already known to have periodontitis.",
+      "conditionName": "Furcation involvement",
+      "prevalence": "uncommon",
+      "etiology": "What happens is the same inflammatory process driving periodontitis extends apically until it reaches the furcation — the entry point between the roots of multi-rooted teeth [1]. The result is destruction of the supporting bone in the furcation area itself. The thing is, pulpal pathology becomes more likely once the furcation is involved, so sensibility testing is essential — a furcation defect can be the route by which periapical disease and periodontal disease communicate [2].",
+      "presentation": "Usually found incidentally during routine probing in a patient with established periodontitis. The patient may report nothing specific. On probing, the furcation entrance can be entered with a curved Nabers probe, and the horizontal depth of penetration classifies severity [3].",
+      "results": "Classification is by horizontal probe depth into the furcation [3]:\n\n- **Class 1**: probe enters <3mm between the roots.\n- **Class 2**: horizontal probing depth exceeds 3mm but does not pass fully through the furcation width.\n- **Class 3**: through-and-through destruction — the probe passes completely across the furcation.\n\nRadiographs give a guide to alveolar bone loss mesially, distally, and within the furcation area [2].",
+      "definingCharacteristics": "The defining test is the Nabers probe passed horizontally into the furcation entrance — no other periodontal finding requires this technique [2][3]. Class 3 furcations are the most difficult to manage and carry the worst prognosis: through-and-through access means pocket control by the patient is near-impossible without surgical modification [4]. The rule of thumb is that long-term outcome depends more on the patient's ability to keep the area clean than on any surgical technique used [5].",
+      "treatment": "Class 1: scaling and root planing, possibly with furcation plasty [3]. Class 2: GTR together with graft materials and enamel matrix derivatives can be used [3]. Class 3: options include tunnel preparation, root resection, hemisection, or extraction [4].\n\nFurcation plasty involves raising a mucoperiosteal flap, root debridement, then removing tooth structure at the furcation entrance to widen access for cleaning — osseous recontouring may accompany this [6]. Tunnel preparation exposes the entire furcation, leaving it accessible for cleaning; high risk of post-operative caries and dentine sensitivity, so use with caution — mainly for mandibular molars with optimal OH [7]. Root resection amputates one root while retaining the crown: the root to be retained must be endodontically treated, in sound periodontal state, and restorable [8].",
+      "prognosis": "Post-treatment morphology must be maintainable by the patient — without this, no surgical technique will hold [5]. Mini interproximal brushes are a useful adjunct for cleaning furcation defects after treatment [5]. GTR is less predictable with Class 3 defects [4].",
+      "citations": [
+        { "id": 1, "quote": "The extension of periodontal disease into the bi- or trifurcation of multirooted teeth is known as furcation involvement.", "paragraph": 3289, "source": "Oxford Handbook · paragraph 3289" },
+        { "id": 2, "quote": "This is established by probing into the furcation and by radiographs. The possibility of pulpal pathology is ↑ in teeth with furcation involvement and sensibility testing is essential. Radiographs give a guide to the degree of alveolar bone loss both mesially and distally, and in the furcation area.", "paragraph": 3291, "source": "Oxford Handbook · paragraph 3291" },
+        { "id": 3, "quote": "Class 1: Probe can be inserted <3mm between the roots. Requires scaling and root planing, possibly with furcation plasty. Class 2: Horizontal probing depth exceeding 3mm but not extending fully through the width of the furcation area. GTR together with graft materials and EMD can be used to treat class 2 furcations. Class 3: Horizontal through-and-through destruction in the furcation area. May require tunnel preparation, &/or root resection, &/or extraction. GTR less predictable with Class 3 defects.", "paragraph": 3294, "source": "Oxford Handbook · paragraphs 3294–3298" },
+        { "id": 4, "quote": "Horizontal through-and-through destruction in the furcation area. May require tunnel preparation, &/or root resection, &/or extraction. GTR less predictable with Class 3 defects.", "paragraph": 3298, "source": "Oxford Handbook · paragraph 3298" },
+        { "id": 5, "quote": "It is important to note that the techniques described here are of less significance to long-term outcome than the degree of plaque control that can be achieved and maintained by the patient. Mini interproximal brushes are a valuable aid in cleaning furcation defects and are available in a variety of sizes and shapes.", "paragraph": 3316, "source": "Oxford Handbook · paragraph 3316" },
+        { "id": 6, "quote": "An open procedure involving a muco-periosteal flap to allow root debridement and scaling, followed by the removal of tooth structure in the furcation area to achieve a widened entrance to give access for cleaning. Osseous recontouring may be used if indicated. The flap is repositioned and sutured to ↑ access post-operatively. There is an obvious risk of pulpal damage and post-operative dentine sensitivity/caries.", "paragraph": 3303, "source": "Oxford Handbook · paragraph 3303" },
+        { "id": 7, "quote": "This is a similar procedure to furcation plasty using buccal and lingual flaps, the main difference being that the entire furcation area is exposed and the flaps are sutured together intra-radicularly to leave a large exposed furcation. There is a high risk of post-operative caries, dentine sensitivity, and pulpal exposure, making this a method to be used with caution. It is of most value for mandibular molars in patients with optimal OH.", "paragraph": 3305, "source": "Oxford Handbook · paragraph 3305" },
+        { "id": 8, "quote": "This involves amputation of one (or even two) of the roots of a multirooted tooth, leaving the crown and the root stump. It is important to ensure that the root to be retained can be treated endodontically, is in sound periodontal state with good bony support, is restorable, and will be a viable tooth in the long term.", "paragraph": 3307, "source": "Oxford Handbook · paragraph 3307" }
+      ]
+    },
+    {
+      "id": "periodontal-009",
+      "description": "Pockets that are still bleeding or still measure ≥5mm three months after completing a full course of non-surgical periodontal therapy.",
+      "conditionName": "Residual / persistent pocketing",
+      "prevalence": "common",
+      "etiology": "Persistent pocketing means the initial (cause-related) phase of treatment has not fully resolved the disease. The interesting bit is that non-surgical root surface instrumentation is effective at all pocket depths, but it is less effective in deeper pockets (>6mm) — so some residual disease after treatment is predictable and expected rather than a treatment failure [1].",
+      "presentation": "The patient may feel nothing. What you'll see at the 8–12-week review is one or more sites still bleeding on probing, or probing depths that remain ≥6mm after subgingival instrumentation, or pus still expressing from the pocket [1].",
+      "results": "Re-evaluation at 8–12 weeks after completion of the initial phase gives the baseline for deciding next steps. The rule of thumb: success is characterised by a reduction in bleeding on probing, reduction in pocket depths, and a change in gingival contour [1]. Sites that fail to meet this are the residual disease.",
+      "definingCharacteristics": "What separates persistent pocketing from untreated periodontitis is context: this is disease that has had a full course of non-surgical therapy and has not responded sufficiently [1]. Deep residual pocketing (≥6mm) signals the need to consider whether surgical pocket management or regenerative surgery is appropriate [1].",
+      "treatment": "Re-instrument moderate residual pockets (4–5mm). For deep residual pocketing ≥6mm: consider referral for pocket management or regenerative surgery [1]. Maintenance visits should re-evaluate plaque control, BOP, pus, and furcation lesions — and take radiographs where indicated [1]. The first 6 months after corrective treatment is a healing phase; professional cleaning should continue throughout [1].",
+      "prognosis": "To avoid further attachment loss and maintain therapeutic benefits, long-term patients require monitoring and sometimes treatment to support their own home care [1]. Maintenance visits begin at 3–4-monthly intervals and may be extended to 6 months if appropriate, though there is no good evidence for the ideal frequency [1].",
+      "citations": [
+        { "id": 1, "quote": "The success of Rx is characterized by a reduction in bleeding on probing and on brushing/flossing, a reduction in probing pocket depths, and a change in gingival contour. Once the corrective phase is complete, a programme of supportive therapy begins. To avoid further attachment loss and to maintain the therapeutic benefits, long-term patients require monitoring and sometimes Rx to support their own home care. Maintenance visits will involve re-evaluation of plaque control, bleeding on probing, pus and furcation lesions, and radiographs if required. Rx of persistent bleeding pockets and a full mouth polish should be carried out. The first 6 months after completion of corrective Rx is the healing phase and regular professional tooth cleaning should take place. Then maintenance visits begin at 3–4-monthly intervals and may be lengthened up to 6 months if appropriate although there is no good evidence for the ideal frequency of maintenance visits.", "paragraph": 3338, "source": "Oxford Handbook · paragraph 3338" }
+      ]
+    },
+    {
+      "id": "periodontal-010",
+      "description": "Tooth that moves noticeably when pressed — more than just the barely-perceptible normal spring — in a patient with bone loss or a recent high restoration.",
+      "conditionName": "Tooth mobility (periodontal / occlusal)",
+      "prevalence": "common",
+      "etiology": "Mobility may simply reflect loss of periodontal attachment and bony support — the tooth has less bone holding it, so it moves more [1]. Alternatively it can result from a localised heavy occlusal load widening the periodontal membrane space, though this is usually iatrogenic in origin [1]. Occlusal trauma alone cannot induce periodontal tissue breakdown, but where forces are too great for the periodontium to adapt, teeth become mobile or drift [2].",
+      "presentation": "The patient may notice the tooth moving during chewing, or it may be an incidental finding on examination. What you'll see clinically is displacement of the tooth when pressure is applied between two instrument handles.",
+      "results": "The Mobility Index grades severity [1]:\n\n- **Grade 1**: mobility <1mm buccolingually.\n- **Grade 2**: mobility 1–2mm buccolingually.\n- **Grade 3**: mobility >2mm buccolingually and/or vertical mobility.\n\nOcclusal analysis can be carried out clinically and on study models mounted in RCP on a semi-adjustable articulator [3]. The diagnosis of occlusal trauma should only be made where progressive increase in mobility is observed [1].",
+      "definingCharacteristics": "The question is: which is primary — bone loss or occlusal trauma? A tooth mobile because of bone loss (Stage III–IV periodontitis) will not be cured by splinting alone — the underlying disease still needs treatment [4]. A tooth mobile because of a newly placed high restoration may recover once the occlusion is corrected. So, the first priority is to diagnose and treat any existing periodontal disease and correct any pre-existing iatrogenic causes [4].",
+      "treatment": "First: diagnose and treat existing periodontal disease and correct iatrogenic causes such as poor crowns or high restorations [4]. If mobility persists as a direct result of diagnosable occlusal trauma, occlusal adjustment is a sensible treatment modality [4]. Splinting is indicated where mobility is progressive in a tooth with a healthy but reduced periodontium, or where increased mobility is making the patient uncomfortable during function [5][6]. Splints must be designed so the patient can keep them clean — all additions to the natural tooth surface increase plaque retention [7].",
+      "prognosis": "If the tooth is mobile as a result of lack of alveolar bone support, this is not automatically an indication for splinting [4]. Stabilising the underlying periodontitis and correcting occlusal loading are the most important factors in long-term outcome.",
+      "citations": [
+        { "id": 1, "quote": "↑ tooth mobility may simply be a result of loss of periodontal attachment and bony support. It may also result purely as a localized effect due to a heavy occlusal loading, causing a widening of the periodontal membrane space, though this is usually iatrogenic in origin. It is now felt that the ∆ of occlusal trauma should only be made where progressive ↑ tooth mobility is observed.", "paragraph": 3320, "source": "Oxford Handbook · paragraph 3320" },
+        { "id": 2, "quote": "Occlusal trauma cannot induce periodontal tissue breakdown but may enhance the rate of progression of disease. Periodontal tissues can adapt to occlusal loading but where forces are too great for adaptation, teeth may become mobile or drift.", "paragraph": 3318, "source": "Oxford Handbook · paragraph 3318" },
+        { "id": 3, "quote": "Occlusal analysis can be carried out clinically and on study models mounted in RCP on a semi-adjustable articulator.", "paragraph": 3324, "source": "Oxford Handbook · paragraph 3324" },
+        { "id": 4, "quote": "The first priority should be to diagnose and treat any existing periodontal disease and correct any pre-existing iatrogenic causes (e.g. poor crowns or bridges, high restorations). If tooth mobility persists as a direct result of diagnosable occlusal trauma, occlusal adjustment is a sensible Rx modality. If the tooth is mobile as a result of lack of alveolar bone support, this is not automatically an indication for splinting.", "paragraph": 3326, "source": "Oxford Handbook · paragraph 3326" },
+        { "id": 5, "quote": "A tooth with healthy but ↓ periodontium where mobility is progressive.", "paragraph": 3329, "source": "Oxford Handbook · paragraph 3329" },
+        { "id": 6, "quote": "A tooth with ↑ mobility which the patient finds uncomfortable during function.", "paragraph": 3330, "source": "Oxford Handbook · paragraph 3330" },
+        { "id": 7, "quote": "It is very easy to design splints which are impossible for the patient to keep clean as all additions to the natural tooth surface will ↑ plaque retention. A wide range of different techniques and materials have been described, including orthodontic wire fastened to teeth by resin-composite, resin-composite alone, fixed bridges, partial prostheses, acid-etch retained splints, and more recently, fibre-reinforced resin-composite splinting.", "paragraph": 3331, "source": "Oxford Handbook · paragraph 3331" }
+      ]
+    },
+    {
+      "id": "periodontal-011",
+      "description": "Redness and bleeding around an implant with no bone loss on radiograph — the implant equivalent of gingivitis.",
+      "conditionName": "Peri-implant mucositis",
+      "prevalence": "common",
+      "etiology": "Plaque accumulation on the implant surface triggers inflammation of the surrounding soft tissue cuff. The connective tissue fibres around the implant run parallel to the implant surface — they do not attach directly to it the way Sharpey fibres attach to natural tooth cementum [1]. So the implant's soft tissue seal is inherently less robust, and plaque accumulation readily induces an inflammatory response. When that response stays confined to the soft tissue without spreading to supporting bone, the condition is peri-implant mucositis [1].",
+      "presentation": "What you'll see on probing is bleeding — and that's often the only sign. The tissue may look red and slightly swollen. No deepening of pockets compared to baseline, and no bone loss on radiograph [1][2].",
+      "results": "BPE probing is not appropriate for implant sites — peri-implant soft tissues are less resistant to probing than natural gingiva, and the position of the implant in relation to the bone may present deeper readings than are comparable to teeth [2]. Use a periapical radiograph to confirm no bone loss, making this mucositis rather than peri-implantitis [1].",
+      "definingCharacteristics": "Peri-implant mucositis is reversible — the hallmark that distinguishes it from peri-implantitis [1]. The rule of thumb: mucositis is to an implant what gingivitis is to a natural tooth. No bone loss, reversible with plaque control. Once bone loss appears on radiograph, the diagnosis moves to peri-implantitis [1]. Risk factors for progression include inadequate OH, prosthesis designs that hinder OH, excessive occlusal load, and poorly controlled diabetes [3].",
+      "treatment": "Excellent oral hygiene instruction around the implant. Interdental brushes and single-tufted brushes. Debridement of the implant surface — use plastic or carbon fibre scaling instruments, as implant surfaces are easily damaged and metal scalers alter the surface roughness [4].",
+      "prognosis": "Reversible with adequate plaque control [1]. Implant survival at 10 years exceeds 90%, but more than 40% of patients may experience peri-implantitis to some extent if disease progresses beyond mucositis [3].",
+      "citations": [
+        { "id": 1, "quote": "Plaque formation around the implant can lead to inflammation of the periodontal tissues. This is called peri-implant mucositis which is reversible. If the inflammation spreads to the supporting tissues it is called peri-implantitis. This can lead to bone loss and ↑ probing depths.", "paragraph": 3333, "source": "Oxford Handbook · paragraph 3333" },
+        { "id": 2, "quote": "BPE probing is not appropriate for implants sites. The soft tissue connection to implants is not the same as teeth, therefore peri-implant soft tissues are less resistant to probing. In addition, the position of the implant in relation to the bone and soft tissues may present deeper probing depths.", "paragraph": 2859, "source": "Oxford Handbook · paragraph 2859" },
+        { "id": 3, "quote": "Peri-implantitis is a condition with destructive inflammation of the soft and hard tissues surrounding an osseointegrated implant (similar to periodontitis around teeth). Although implants have a 90%+ chance of 10yr survival, >40% of patients may experience peri-implantitis to some extent.", "paragraph": 5352, "source": "Oxford Handbook · paragraph 5352" },
+        { "id": 4, "quote": "Implant surfaces can be easily damaged, so plastic or carbon fibre scaling instruments are used.", "paragraph": 3336, "source": "Oxford Handbook · paragraph 3336" }
+      ]
+    },
+    {
+      "id": "periodontal-012",
+      "description": "A frenal pull that tugs the gingival margin away from the tooth when the lip is stretched — associated with recession or difficulty maintaining plaque control in that area.",
+      "conditionName": "High frenal attachment",
+      "prevalence": "uncommon",
+      "etiology": "Where the morphology of the gingival margin is compromised by a frenal attachment sitting too close to the margin, the fraenum can pull the tissue and impair plaque control [1]. The data show that the width of attached gingiva and the presence or absence of an attached portion is not of decisive importance for gingival health per se [1]. However, a frenal pull that demonstrably disrupts the gingival margin is a legitimate indication for surgery.",
+      "presentation": "A visible band of tissue from the lip or cheek inserting close to or at the gingival margin. When the lip is stretched, the margin blanches or pulls away from the tooth. Recession may be present at the associated site.",
+      "results": "The test is visual: stretching the lip and observing whether the gingival margin moves. Probing reveals whether recession is present and whether plaque control in the area is compromised.",
+      "definingCharacteristics": "The indication for mucogingival surgery is specifically where a change in gingival morphology would improve plaque control — not simply because the attachment looks high [1]. Where recession creates root sensitivity or aesthetic problems, that adds a second indication [2]. A very thin layer of attached gingiva overlying a tooth about to be moved orthodontically may also be an indication, though the evidence for this is somewhat anecdotal [1].",
+      "treatment": "Frenectomy or frenal relocation as part of mucogingival surgery where the attachment demonstrably compromises plaque control or contributes to recession [1][2].",
+      "prognosis": "Basic periodontal care and correction of any faulty toothbrushing technique are the first lines of treatment — the fraenum alone rarely accounts for recession without those cofactors [1].",
+      "citations": [
+        { "id": 1, "quote": "Mucogingival surgery encompasses those techniques aimed at the correction of local gingival defects. Initially, it was felt that a margin of attached gingiva of around 3mm was required to protect the periodontium during mastication and to dissipate the pull to the gingival margin from fraenal attachments. In fact, data from properly conducted experimental work have demonstrated that the width of attached gingiva and the presence or absence of an attached portion is not of decisive importance for the maintenance of gingival health. Where a change in the morphology of the gingival margin would improve plaque control, e.g. the presence of high fraenal attachments or deep areas of recession.", "paragraph": 3273, "source": "Oxford Handbook · paragraph 3273" },
+        { "id": 2, "quote": "Areas where recession creates root sensitivity or aesthetic problems.", "paragraph": 3275, "source": "Oxford Handbook · paragraph 3275" }
+      ]
+    },
+    {
+      "id": "periodontal-013",
+      "description": "Rapidly progressive, severe bone and attachment loss disproportionate to the amount of plaque present — often in a young patient, sometimes running in families.",
+      "conditionName": "Aggressive periodontitis (localised / generalised)",
+      "prevalence": "uncommon",
+      "etiology": "Aggressive periodontitis historically described a group of rare, rapidly progressive forms of periodontitis. The amount of plaque present is out of proportion to the severity of the destruction — that mismatch is the clinical alarm signal [1]. Often associated with *Aggregatibacter actinomycetemcomitans*; *Porphyromonas gingivalis* may also play a role [1]. Phagocyte abnormalities and a hyper-responsive macrophage phenotype have been found [1]. The 2017 classification no longer recognises aggressive periodontitis as a separate disease entity — it is now regarded as an extreme presentation of periodontitis [2].",
+      "presentation": "Early age of onset; tends to run in families; non-contributory medical history [1]. Generalised form: severe generalised periodontitis in adults under 30, affecting at least three permanent teeth other than first molars and incisors, with pronounced episodic destruction [3]. Localised form: onset around puberty, severe localised attachment loss affecting at least two permanent teeth one of which is a first molar, with no more than two other affected teeth [4].",
+      "results": "Radiographs show advanced bone loss grossly out of proportion to the patient's age and plaque scores. The generalised form has a poor serum antibody response to infecting agents; the localised form has a robust serum antibody response [3][4]. Progression of attachment loss may be self-arresting [1].",
+      "definingCharacteristics": "The rule of thumb for suspecting this: a young patient, minimal plaque, disproportionately severe bone loss, possibly a family history. Now classified as Grade C periodontitis in the 2017 system — a rate of bone loss divided by age >1.0 [2].",
+      "treatment": "Achieve adequate supragingival plaque control [5]. Subgingival instrumentation to disrupt the biofilm, though this may not eradicate virulent organisms [5]. Non-surgical treatment with adjunctive systemic antibiotics is the preferred approach — amoxicillin/metronidazole combination provides additional benefit; azithromycin has a good evidence base where amoxicillin or metronidazole cannot be prescribed [5]. Surgery has a role, though there is no consensus on systemic antibiotics in that setting [5]. Regenerative surgical techniques are a suitable option for suitable defects [5]. Regular supportive care is important [5].",
+      "prognosis": "Progression of attachment loss may be self-arresting [1]. With treatment and regular supportive care, disease can be stabilised. The earlier the presentation and the more rapid the Grade C trajectory, the more closely the patient needs monitoring.",
+      "citations": [
+        { "id": 1, "quote": "Aggressive periodontitis historically described a group of rare and often severe, rapidly progressive forms of periodontitis. Often characterized by an early age of onset and tending to occur in families and with non-contributory medical history. The amounts of plaque are out of proportion with the severity of periodontal destruction. Often associated with Aggregatibacter actinomycetemcomitans. Porphyromonas gingivalis may also be associated. Hyper-responsive macrophage phenotype. Phagocyte abnormalities are found. Progression of attachment loss may be self-arresting.", "paragraph": 3087, "source": "Oxford Handbook · paragraph 3087" },
+        { "id": 2, "quote": "The new, 2017 classification does not recognize aggressive periodontitis as a separate disease entity and comments that it is merely an extreme presentation of the same disease, periodontitis.", "paragraph": 3085, "source": "Oxford Handbook · paragraph 3085" },
+        { "id": 3, "quote": "A severe form of generalized periodontitis affecting young adults (<30yrs). Generalized interproximal attachment loss affecting at least three permanent teeth other than first molars and incisors. Pronounced episodic nature of the destruction of attachment and alveolar bone. Poor serum antibody response to infecting agents.", "paragraph": 3092, "source": "Oxford Handbook · paragraph 3092" },
+        { "id": 4, "quote": "A severe form of localized periodontitis with onset around puberty. Localized attachment loss of at least two permanent teeth one of which is a first molar and involving no more than two teeth other than first molars and incisors. Robust serum antibody response to infecting agents.", "paragraph": 3094, "source": "Oxford Handbook · paragraph 3094" },
+        { "id": 5, "quote": "Achievement of adequate supragingival plaque control. Subgingival instrumentation to disrupt biofilm but this may not eradicate virulent organisms. Non-surgical approach with adjunctive use of systemic antibiotics is the preferred Rx option. Amoxicillin/metronidazole combination seems to provide additional benefit to non-surgical management. In the situation where amoxicillin or metronidazole cannot be prescribed, azithromycin has a good evidence base. Surgery has a role but there is no consensus regarding the use of systemic antibiotics for this approach. ↑ evidence that regenerative surgical techniques are a suitable option for defects associated with aggressive periodontitis. Regular supportive care is important.", "paragraph": 3098, "source": "Oxford Handbook · paragraphs 3096–3101" }
+      ]
+    },
+    {
+      "id": "periodontal-014",
+      "description": "NUG that has progressed — loss of attachment and alveolar bone now added to the necrotic papillae picture, in a profoundly immunocompromised patient.",
+      "conditionName": "Necrotising ulcerative periodontitis (NUP)",
+      "prevalence": "rare",
+      "etiology": "NUP occurs when the necrotising process of NUG extends to include loss of attachment and development of true bone destruction [1]. The condition is rapid, debilitating, and usually runs an acute course [2]. Immune suppression, including HIV, predisposes to this severe extension — in some cases the necrosis involves bony sequestra [1].",
+      "presentation": "The same acute presentation as NUG — punched-out necrotic papillae, grey slough, metallic taste, severe foetor oris — but here bone destruction has occurred as well, with interproximal craters, loss of crestal bone, and in some cases bony sequestra [1]. Regional lymphadenitis, fever, and malaise may accompany this [1].",
+      "results": "Probing and radiograph show true attachment and bone loss, distinguishing NUP from NUG where disease is confined to the gingivae [1]. The association with HIV and severe NUP — sometimes with bone necrosis — has renewed interest in the condition [3]. Consider HIV testing in an otherwise apparently healthy young adult presenting with this picture [3].",
+      "definingCharacteristics": "What moves the diagnosis from NUG to NUP is bone destruction [1][2]. Necrotising stomatitis is a further extension — when the necrotising lesion spreads beyond the mucogingival junction to include the alveolar mucosa [2].",
+      "treatment": "Removal of gross deposits under LA. Ultrasonic instruments useful for their flushing action. Chlorhexidine rinses (0.2% × 10mL twice daily) as an adjunct to brushing [4]. If systemic upset — lymphadenopathy, fever — metronidazole 200mg three times daily for 3 days [4]. Once ulcers have healed, non-surgical periodontal treatment. Address underlying immune status and consider HIV counselling and testing [3].",
+      "prognosis": "The destructive process is rapid and debilitating [2]. In immunocompromised patients, the disease may be severe and recurring. Untreated, interproximal craters and bone loss are permanent sequelae [1].",
+      "citations": [
+        { "id": 1, "quote": "Painful, ulcerated, necrotic papillae and gingival margins with a punched-out appearance. The ulcers are covered by a pseudomembranous grey slough. Associated with a metallic taste and sensation of teeth being wedged apart and foetor oris. Interproximal craters develop with loss of crestal bone and in some cases bony sequestra. Loss of attachment and development of NUP may occur. Regional lymphadenitis, fever, and malaise feature in some cases.", "paragraph": 3108, "source": "Oxford Handbook · paragraph 3108" },
+        { "id": 2, "quote": "This destructive, painful, inflammatory condition is rapid, debilitating, and usually runs an acute course. Includes: Necrotizing ulcerative gingivitis (NUG). Necrotizing ulcerative periodontitis (NUP). Necrotizing stomatitis: where the necrotizing lesion has spread to include tissue beyond the mucogingival junction.", "paragraph": 3103, "source": "Oxford Handbook · paragraph 3103" },
+        { "id": 3, "quote": "The crucial aspect of NUG is that it is a Gram –ve anaerobic infection which has been shown to actually invade the tissues but usually responds to local debridement. The association with HIV and severe NUG, sometimes with bone necrosis, has renewed interest in it. Remember that NUG in an otherwise apparently healthy young adult may be a presenting sign of HIV infection.", "paragraph": 3110, "source": "Oxford Handbook · paragraph 3110" },
+        { "id": 4, "quote": "Removal of gross deposits of plaque and calculus ± LA. Ultrasonics are useful due to their flushing action. Chlorhexidine rinses (0.2% × 10mL twice daily) may also be prescribed as an adjunct to brushing, which is painful initially. Usually local measures will suffice; however, if systemic upset (lymphadenopathy), metronidazole 200mg tds for 3 days is indicated.", "paragraph": 3112, "source": "Oxford Handbook · paragraph 3112" }
+      ]
+    },
+    {
+      "id": "periodontal-015",
+      "description": "Severe or unusual periodontal destruction in a patient whose systemic condition — not plaque load — is the primary driver.",
+      "conditionName": "Periodontitis as a manifestation of systemic disease",
+      "prevalence": "rare",
+      "etiology": "This category covers periodontitis where the systemic condition is the primary aetiological factor rather than plaque, though plaque is still required for initiation [1]. It appears in the 1999 International Workshop classification as a distinct entity to acknowledge that systemic conditions can drive periodontal destruction independent of local plaque levels.",
+      "presentation": "Periodontal destruction that is disproportionate to the amount of plaque, occurring in a patient with a known or newly discovered systemic condition affecting immune function or connective tissue. The gum picture may resemble severe periodontitis but the underlying driver is systemic.",
+      "results": "Identifying this category requires a medical history that accounts for the severity of destruction seen. Conditions listed under this category in the 1999 classification include haematological and genetic disorders [1].",
+      "definingCharacteristics": "The defining signal is destruction out of proportion to local factors, pointing to a systemic modifier. Specific named conditions that generate periodontal destruction — leukaemia, Papillon-Lefèvre, Chediak-Higashi, Ehlers-Danlos type VIII, diabetes — are recorded separately in this origin; this entry is the umbrella category [1].",
+      "treatment": "Address the systemic condition. Periodontal debridement and plaque control as for standard periodontitis. Liaise with the patient's medical team.",
+      "prognosis": "Prognosis depends on control of the underlying systemic condition. Periodontal treatment alone is unlikely to fully stabilise disease if the systemic driver remains active.",
+      "citations": [
+        { "id": 1, "quote": "IV. Periodontitis as a manifestation of systemic disease", "paragraph": 2753, "source": "Oxford Handbook · paragraph 2753" }
+      ]
+    },
+    {
+      "id": "periodontal-016",
+      "description": "Raw, peeling gums — desquamative gingivitis — in a woman over 60, with blood-filled blisters that rupture and leave sore erosions. May also affect conjunctiva.",
+      "conditionName": "Mucous membrane pemphigoid (cicatricial pemphigoid)",
+      "prevalence": "rare",
+      "etiology": "An autoimmune condition, most common in females over 60 [1]. Antibodies (mainly IgG and C3) are directed at the level of the basement membrane — that's the structural target — and the result is subepithelial bulla formation [1]. The natural history is of a long-lasting disease with alternating periods of activity and inactivity, sometimes quiescent for several years [1].",
+      "presentation": "Mucous membrane bullae that rupture and heal with scar formation [1]. Skin bullae are rare [1]. The bullae are blood-filled and tense, and may be found in conjunction with desquamative gingivitis [1]. Conjunctival involvement can lead to scarring and loss of vision, so oral signs should be regarded as a warning to prevent ocular damage [1].",
+      "results": "Diagnosis by histology and direct or indirect immunofluorescence — the antibodies are found at the level of the basement membrane [1]. Refer to ophthalmology to assess conjunctival involvement and prevent visual loss [1].",
+      "definingCharacteristics": "The thing is, this is a chronic disease requiring a continuous treatment strategy, not a single course [1]. Desquamative gingivitis is the oral presentation, but the conjunctival risk is the clinically serious consequence — scarring there can cause blindness [1]. The immunofluorescence pattern at the basement membrane distinguishes this from pemphigus, where antibodies are intraepithelial.",
+      "treatment": "Topical steroids. Systemic steroids with or without azathioprine, methotrexate, or dapsone [1]. Refer to ophthalmology [1].",
+      "prognosis": "A chronic disease with alternating activity and inactivity; may be quiescent for years [1]. The prognosis for the oral lesions is benign, but ocular scarring — if not caught — can be severe [1].",
+      "citations": [
+        { "id": 1, "quote": "Commonest in females >60yrs. Presents as mucous membrane bullae which rupture and heal with scar formation. Rare to see skin bullae. Conjunctiva may be affected and if scarring occurs can lead to loss of vision, therefore regard oral signs as a warning to prevent ocular damage. The natural history is of a long-lasting disease which persists with alternating periods of activity and inactivity and may be quiescent for several years. The bullae are blood-filled and tense and may be found in conjunction with desquamative gingivitis. ∆: again histology and direct or indirect immunofluorescence are used, the antibodies (mainly IgG and C3) being found at the level of the basement membrane. The mucous membrane pemphigoid is a chronic disease that requires a continuous Rx strategy although the prognosis is benign. Rx: topical steroids, systemic steroids with or without azathioprine, methotrexate, or dapsone. Refer to ophthalmology.", "paragraph": 6097, "source": "Oxford Handbook · paragraph 6097" }
+      ]
+    },
+    {
+      "id": "periodontal-017",
+      "description": "Deep pocket adjacent to a tooth whose pulp has died — or a periapical lesion on a tooth with deep pocketing — where the two lesions have merged and it is unclear which came first.",
+      "conditionName": "Combined periodontal-endodontic lesion",
+      "prevalence": "uncommon",
+      "etiology": "A combined lesion is where both periodontal and pulpal lesions coalesce, regardless of which started first [1]. The primary periodontal route: progressive periodontitis eventually reaches the apex. The primary endodontic route: pulp necrosis causes periapical pathology that then involves the periodontal tissues [1]. In fact, there is little evidence to support the popular notion that periodontitis leads to pulp necrosis — but pulp pathology can exacerbate periodontal problems [1]. Sensibility testing is essential before assuming the diagnosis is purely periodontal [2].",
+      "presentation": "A heavily restored tooth with deep pocketing, or a tooth with known periodontitis that develops a periapical radiolucency, or a tooth that fails to respond as expected after periodontal treatment alone. The patient may have symptoms of both — throbbing pain and a sinus — alongside pocket depth findings.",
+      "results": "Sensibility test the tooth — non-vitality in a tooth with a deep pocket points strongly toward a pulpal component [2]. Full-mouth periapical radiographs will show both the lateral bone loss of periodontal disease and the periapical radiolucency of pulpal pathology [3]. The diagnostic challenge is that both conditions look similar on radiograph and probe similarly.",
+      "definingCharacteristics": "Here's the practical rule: treat the endodontic component first and wait. The apparent periodontal lesion will often resolve substantially over a period of months — so defer the decision about surgery [4]. The worst prognosis applies to teeth where periapical/pulpal pathology is entirely due to apical extension of the periodontal pocket — these are often diagnosed retrospectively when endodontics fails to resolve the lesion [4].",
+      "treatment": "First: resolve the acute infection and inflammation by drainage and/or antibiotics [4]. Then: orthograde RCT — the greater the pulpal component, the better the prognosis [4]. Re-assess the periodontal element at 3–6 months. Combined apical surgery and periodontal surgery is feasible but carries a poorer long-term prognosis [4].",
+      "prognosis": "The greater the pulpal component, the better the prognosis after endodontic treatment [4]. Teeth where the primary driver is apical extension of a deep periodontal pocket have the worst outlook [4].",
+      "citations": [
+        { "id": 1, "quote": "A combined periodontal–endodontic lesion is where both lesions coalesce regardless of whether the origin is primarily periodontal (necrotic pulp due to periodontal involvement) or primarily endodontic (periodontal tissues involved after pulp necrosis). Given the relative frequency of both periodontal disease and periapical pathology, it is not surprising that both may occur together, which can result in diagnostic confusion. In fact, there is little evidence to support the popular notion that periodontitis leads to pulp necrosis. However, there is no doubt that pulp pathology can exacerbate periodontal problems.", "paragraph": 3128, "source": "Oxford Handbook · paragraph 3128" },
+        { "id": 2, "quote": "It is essential to sensibility test any heavily restored tooth with periodontal involvement.", "paragraph": 3127, "source": "Oxford Handbook · paragraph 3127" },
+        { "id": 3, "quote": "Full mouth periapicals (preferably of the long cone parallel technique), have been the radiographs of choice for patients with severe periodontal disease. They can clearly demonstrate root surface deposits, furcation involvement, extensive bone loss, intrabony pocketing, and periodontal–endodontic lesions.", "paragraph": 3059, "source": "Oxford Handbook · paragraph 3059" },
+        { "id": 4, "quote": "First, resolve the acute infection and inflammation by drainage (&/or antibiotics), then treat with orthograde RCT (the greater the pulpal component, the better the prognosis). The apparent periodontal lesion will often be seen to resolve to a substantial degree over a period of months, therefore, the decision to carry out surgery should be deferred. Combined apical surgery and periodontal surgery is quite feasible but carries a poorer long-term prognosis. The worst prognosis applies to those teeth where the periapical/pulpal pathology has been due entirely to apical extension of the periodontal pocket. These are often diagnosed after the fact, when endodontics completely fails to resolve the lesion.", "paragraph": 3130, "source": "Oxford Handbook · paragraphs 3130–3131" }
+      ]
+    },
+    {
+      "id": "periodontal-018",
+      "description": "Red, fleshy, easily bleeding lump on the gum — soft, vascular, arising after repeated minor trauma or irritation.",
+      "conditionName": "Pyogenic granuloma",
+      "prevalence": "uncommon",
+      "etiology": "A response to recurrent trauma and non-specific infection [1]. Histology shows proliferation of vascular connective tissue, which is why it bleeds so easily [1].",
+      "presentation": "A red fleshy swelling, often nodular, on the gingiva or elsewhere in the mouth. Bleeds readily on minimal contact [1]. The patient often notices it is growing slowly or bleeds when they eat or brush.",
+      "results": "Biopsy and histology confirm the diagnosis — proliferation of vascular connective tissue is the characteristic finding [1]. Vitality testing of adjacent teeth is positive; this is not an endodontic or bony lesion.",
+      "definingCharacteristics": "The defining feature is the bright red, easily-bled, vascular, often nodular surface [1]. In pregnant patients an identical lesion is called a pregnancy epulis — histologically and clinically indistinguishable from pyogenic granuloma [2]. So always ask about pregnancy when you encounter this picture.",
+      "treatment": "Excise, debride the area, and establish good oral hygiene [1].",
+      "prognosis": "Good after excision with adequate debridement. Recurrence is possible if the local irritant is not removed.",
+      "citations": [
+        { "id": 1, "quote": "A red fleshy swelling, often nodular, occurring as a response to recurrent trauma and non-specific infection. Histology shows proliferation of vascular connective tissue, therefore it bleeds easily. Rx: excision, debride area, and good OH.", "paragraph": 5782, "source": "Oxford Handbook · paragraph 5782" },
+        { "id": 2, "quote": "An ↑ inflammatory response to plaque during pregnancy causes a lesion indistinguishable from a pyogenic granuloma.", "paragraph": 5780, "source": "Oxford Handbook · paragraph 5780" }
+      ]
+    },
+    {
+      "id": "periodontal-019",
+      "description": "A soft, bleeding gum lump appearing in the third month of pregnancy — clinically identical to a pyogenic granuloma.",
+      "conditionName": "Pregnancy epulis",
+      "prevalence": "uncommon",
+      "etiology": "An increased inflammatory response to plaque during pregnancy causes a lesion indistinguishable from a pyogenic granuloma [1]. Onset is usually in the third month [1].",
+      "presentation": "A soft, vascular, readily-bleeding gum swelling in a pregnant patient. Usually anterior. Onset in the first trimester, growing through pregnancy [1].",
+      "results": "Biopsy shows the same vascular connective tissue proliferation as a pyogenic granuloma. The pregnancy history and timing are the distinguishing context.",
+      "definingCharacteristics": "The pregnancy epulis is histologically and clinically indistinguishable from a pyogenic granuloma [1]. What marks it out is the context: the patient is pregnant, onset was around the third month, and — here's the key for treatment decisions — it will regress after delivery [1].",
+      "treatment": "None other than oral hygiene instruction if at all possible, as it regresses after delivery [1]. If very troublesome, simple excision is performed — but warn the patient it may recur during the pregnancy [1].",
+      "prognosis": "Regresses after delivery [1]. Excision during pregnancy is effective but recurrence before delivery is possible [1].",
+      "citations": [
+        { "id": 1, "quote": "An ↑ inflammatory response to plaque during pregnancy causes a lesion indistinguishable from a pyogenic granuloma. Onset usually in third month. Rx: none (other than OHI) if possible, as it regresses after delivery. If very troublesome, simple excision is performed; but it may recur.", "paragraph": 5780, "source": "Oxford Handbook · paragraph 5780" }
+      ]
+    },
+    {
+      "id": "periodontal-020",
+      "description": "A deep red, firm gingival swelling — the classic 'giant cell epulis' — probably arising from chronic local irritation.",
+      "conditionName": "Peripheral giant cell granuloma",
+      "prevalence": "uncommon",
+      "etiology": "Probably caused by chronic irritation [1]. The exact trigger is a local irritant — a calculus deposit, a rough restoration margin, a denture flange.",
+      "presentation": "A deep red gingival swelling. Often firm on palpation. May be sessile or pedunculated. Bleeds readily [1].",
+      "results": "Histology is the definitive test: a vascular lesion with multinuclear giant cells [1]. Radiograph should be taken to check for underlying bone involvement.",
+      "definingCharacteristics": "The deep red colour and the multinuclear giant cell histology are the defining features [1]. The interesting bit is that treatment requires more than simple excision — stripping of the periosteum and curettage of the underlying bone are necessary to reduce recurrence [1].",
+      "treatment": "Excision with stripping of the periosteum and curettage of underlying bone [1].",
+      "prognosis": "Good after adequate excision with periosteal stripping and bone curettage. Recurrence is possible if the periosteum is not addressed.",
+      "citations": [
+        { "id": 1, "quote": "(Giant cell epulis.) This is a deep red gingival swelling, probably caused by chronic irritation. Histology reveals a vascular lesion with multinuclear giant cells. Rx: excision with stripping of periosteum and curettage of underlying bone.", "paragraph": 5778, "source": "Oxford Handbook · paragraph 5778" }
+      ]
+    },
+    {
+      "id": "periodontal-021",
+      "description": "A soft lump on the gum present from birth — pedunculated, present at birth, granular cells on biopsy.",
+      "conditionName": "Congenital epulis",
+      "prevalence": "rare",
+      "etiology": "By definition present at birth [1]. The source does not specify a cause beyond this.",
+      "presentation": "Usually presents as a pedunculated nodule on the gingiva at birth [1].",
+      "results": "Histology reveals large granular cells — this is the defining histological finding [1].",
+      "definingCharacteristics": "What makes this distinctive is its presence at birth and its characteristic large granular cell histology [1]. The granular cell content distinguishes it histologically from other neonatal gingival lesions.",
+      "treatment": "Complete but conservative excision [1].",
+      "prognosis": "Good after complete conservative excision [1].",
+      "citations": [
+        { "id": 1, "quote": "By definition, this is present at birth; it usually presents as a pedunculated nodule. Histology reveals large granular cells. Rx: complete but conservative excision.", "paragraph": 5776, "source": "Oxford Handbook · paragraph 5776" }
+      ]
+    },
+    {
+      "id": "periodontal-022",
+      "description": "Spontaneous gingival bleeding, gingival swelling, and petechiae in a patient with a haematological malignancy — not explained by local periodontal disease alone.",
+      "conditionName": "Leukaemia-associated gingivitis",
+      "prevalence": "rare",
+      "etiology": "Leukaemia and other haematological malignancies are associated with a decreased resistance to infection and with haematological changes affecting platelet function and coagulation [1]. The gingival swelling in leukaemia is partly infiltration of the gingival tissues by leukaemic cells and partly the secondary inflammatory response driven by reduced immune surveillance [1].",
+      "presentation": "Bleeding and petechial haemorrhage even with minimal trauma, gingival swelling, ulceration, and mucosal pallor [1]. Candidosis and herpetic infections may be superimposed because of reduced resistance to infection [1]. Spontaneous gingival bleeding may occur even without probing.",
+      "results": "A blood picture distinguishes this from severe plaque-induced gingivitis. The gingival swelling is different in character — it may be diffuse, covering the crowns, and does not respond to plaque removal in the way that plaque-induced gingivitis does.",
+      "definingCharacteristics": "The interesting bit is that the gingival signs here are a systemic disease manifesting locally — not a primary periodontal condition. The diagnosis of leukaemia-associated gingivitis comes from the medical history and blood results, not from probing alone [1]. Gingivitis associated with blood dyscrasias is listed as a distinct category in the periodontal classification [2].",
+      "treatment": "Prevention of superinfection: chlorhexidine mouthwashes [1]. Aggressive appropriate treatment of infections that arise [1]. Management of bleeding is aimed at the underlying disorder; local techniques include improving OH, avoiding extractions, and using local haemostatic methods [1]. Spontaneous gingival bleeding may be controlled using impressions as a made-to-measure pressure dressing [1].",
+      "prognosis": "Depends on the underlying haematological malignancy and its treatment. Local measures reduce secondary infection risk but do not alter the primary disease course [1].",
+      "citations": [
+        { "id": 1, "quote": "This and other haematological malignancies are associated with a ↓ in resistance to infection leading to candidosis or herpetic infections. Other oral problems include bleeding and petechial haemorrhage (even with minimal trauma), gingival swelling, ulceration, and mucosal pallor. Prevention of superinfection with chlorhexidine mouthwashes and aggressive appropriate Rx of infections which arise are of real help. Management of the bleeding is aimed at the underlying disorder; local techniques include improving OH, avoiding extractions, and using local haemostatic methods. Spontaneous gingival bleeding may be controlled by using impressions as a made-to-measure pressure dressing.", "paragraph": 6407, "source": "Oxford Handbook · paragraph 6407" },
+        { "id": 2, "quote": "Gingivitis associated with blood dyscrasias, e.g. leukaemia-associated gingivitis.", "paragraph": 2742, "source": "Oxford Handbook · paragraph 2742" }
+      ]
+    },
+    {
+      "id": "periodontal-023",
+      "description": "Recurrent bouts of oral ulceration, acute periodontal flares, or NUG-like episodes in a regular 3–4-week cycle.",
+      "conditionName": "Cyclical neutropenia",
+      "prevalence": "rare",
+      "etiology": "A genetic condition characterised by cyclic neutrophil suppression. The periodic collapse of neutrophil numbers leaves the periodontium and oral mucosa vulnerable to infection in predictable 3–4-week cycles [1].",
+      "presentation": "Oral ulceration, acute exacerbations of periodontal disease, or NUG, recurring in 3–4-week cycles [1]. The cyclical pattern is the diagnostic clue.",
+      "results": "Serial blood counts at different points in the cycle will demonstrate the neutrophil nadir. The periodontium may look near-normal between cycles, then deteriorate acutely during the neutropenic phase.",
+      "definingCharacteristics": "The rule of thumb here is the cycle: 3–4 weeks, predictably recurring [1]. Any patient with recurrent NUG or acute periodontal flares that clear spontaneously and then recur should prompt consideration of cyclical neutropenia. NUG in an apparently healthy person can also signal HIV, but the cyclical pattern is specific to this condition [1].",
+      "treatment": "Address acute episodes with local debridement and chlorhexidine as for NUG. The systemic management of cyclical neutropenia is medical — liaise with haematology.",
+      "prognosis": "The oral manifestations mirror the neutrophil cycle. Without systemic control of the neutropenia, recurrence is inevitable [1].",
+      "citations": [
+        { "id": 1, "quote": "This condition may manifest as oral ulceration, acute exacerbations of periodontal disease, or NUG. As the name suggests, it recurs in 3–4-week cycles.", "paragraph": 6409, "source": "Oxford Handbook · paragraph 6409" }
+      ]
+    },
+    {
+      "id": "periodontal-024",
+      "description": "An unusually intense red band along the gingival margin, out of proportion to the amount of plaque, in a patient with HIV.",
+      "conditionName": "HIV gingivitis (linear gingival erythema)",
+      "prevalence": "rare",
+      "etiology": "Strongly associated with HIV infection [1]. The characteristic feature is an intense red band at the gingival margin that is unusually severe relative to the oral hygiene status — the normal plaque-response relationship breaks down because of immune suppression [1].",
+      "presentation": "Unusually severe gingivitis for relatively good oral hygiene. Often characterised by linear gingival erythema — an intense red band along the gingival margin [1]. The severity of the gingival inflammation is disproportionate to the plaque load.",
+      "results": "Probing reveals the inflamed margin but pocketing may be shallow. The key finding is the intense erythema relative to plaque scores. HIV status should be established or reconsidered in a patient presenting with this picture.",
+      "definingCharacteristics": "The mismatch is the tell: intense red band at the margin with a relatively clean mouth [1]. In the HIV oral manifestation classification, this is a Group I condition — strongly associated with HIV [1].",
+      "treatment": "Plaque control and local debridement. Chlorhexidine mouthwash as adjunct. Address HIV status with the patient's medical team.",
+      "prognosis": "Response to conventional periodontal therapy may be limited while immune suppression persists. With antiretroviral control of HIV, gingival status may improve.",
+      "citations": [
+        { "id": 1, "quote": "Unusually severe gingivitis for relatively good OH. Often characterized by linear gingival erythema, an intense red band along the gingival margin.", "paragraph": 6457, "source": "Oxford Handbook · paragraph 6457" }
+      ]
+    },
+    {
+      "id": "periodontal-025",
+      "description": "Severe, localised periodontal destruction out of all proportion to plaque levels — in a young, otherwise apparently healthy patient with HIV.",
+      "conditionName": "HIV periodontitis",
+      "prevalence": "rare",
+      "etiology": "Strongly associated with HIV [1]. Immune suppression allows rapid, localised periodontal destruction that is disproportionate to plaque loads — the same immune-mediated mechanism that drives linear gingival erythema but extending into the deep tissues.",
+      "presentation": "Severe localised destruction out of place with oral hygiene status [1]. Rapid bone and attachment loss in a patient who may have only moderate plaque.",
+      "results": "Probing reveals deep pockets and clinical attachment loss. Radiographs show bone destruction. The degree of destruction is the clue — it does not match the plaque scores.",
+      "definingCharacteristics": "What separates HIV periodontitis from aggressive periodontitis is the HIV context and, often, the association with other HIV oral signs — candidosis, hairy leucoplakia, linear gingival erythema [1]. Severe localised destruction in an apparently healthy young person is a prompt to consider HIV status.",
+      "treatment": "Non-surgical periodontal debridement. Plaque control. Chlorhexidine. Address the underlying HIV with the patient's medical team.",
+      "prognosis": "With antiretroviral therapy improving immune function, periodontal status may stabilise. Without immune control, progression continues.",
+      "citations": [
+        { "id": 1, "quote": "Severe localized destruction out of place with OH.", "paragraph": 6461, "source": "Oxford Handbook · paragraph 6461" }
+      ]
+    },
+    {
+      "id": "periodontal-026",
+      "description": "Gums that have slowly grown over the teeth since childhood — dense, fibrous, painless overgrowth with no drug history.",
+      "conditionName": "Hereditary gingival fibromatosis",
+      "prevalence": "rare",
+      "etiology": "A lesion of genetic origin [1]. In contrast to drug-induced gingival overgrowth, there is no medication responsible — this is an intrinsic connective tissue hyperplasia with a genetic basis [1].",
+      "presentation": "Dense, fibrous gingival overgrowth. Slow onset from childhood. Pale, firm tissue. May cover substantial portions of the crown. Painless.",
+      "results": "Drug history is negative for phenytoin, ciclosporin, and calcium channel blockers — this is the key finding that separates hereditary fibromatosis from drug-induced overgrowth [1]. Histology shows dense fibrous connective tissue.",
+      "definingCharacteristics": "The clinical appearance is identical to drug-induced gingival overgrowth — firm, pale, fibrous enlargement beginning interdentally and spreading to cover the crown [1]. What distinguishes hereditary gingival fibromatosis is the absence of any causative drug and the genetic pattern, often with a positive family history. No drug history: that single fact changes the diagnosis.",
+      "treatment": "Gingivectomy for significant overgrowth affecting function, aesthetics, or plaque control. Unlike drug-induced overgrowth, there is no drug to change — recurrence after surgery is common.",
+      "prognosis": "The overgrowth tends to recur after gingivectomy. Long-term management requires repeated surgery in severe cases.",
+      "citations": [
+        { "id": 1, "quote": "These include gingival lesions of specific bacterial, viral, or fungal origin, lesions of genetic origin (e.g. hereditary gingival fibromatosis), gingival manifestations of systemic conditions (mucocutaneous disorders, allergic reactions), traumatic lesions, and foreign body reactions.", "paragraph": 2746, "source": "Oxford Handbook · paragraph 2746" }
+      ]
+    },
+    {
+      "id": "periodontal-027",
+      "description": "Gingival disease driven by vitamin C deficiency — bleeding, swollen, spongy gums in a patient with poor diet.",
+      "conditionName": "Scurvy (ascorbic acid-deficiency gingivitis)",
+      "prevalence": "rare",
+      "etiology": "Caused by ascorbic acid (vitamin C) deficiency — classified under gingival disease modified by malnutrition [1].",
+      "presentation": "Bleeding, swollen, spongy gingiva in the context of a diet grossly deficient in vitamin C. The gingival changes will not resolve with plaque control alone while the deficiency persists.",
+      "results": "The medical and dietary history is the key investigation. Serum vitamin C levels confirm the deficiency. Gingival findings overlap with plaque-induced gingivitis but respond differently to treatment.",
+      "definingCharacteristics": "The defining point is that the gingivitis is driven by malnutrition rather than by plaque alone [1]. Plaque removal alone will not resolve scurvy gingivitis while vitamin C remains deficient. This is a rare diagnosis in UK practice but should be considered in patients with very poor diet, alcohol dependence, or limited food access.",
+      "treatment": "Vitamin C supplementation to correct the deficiency. Plaque control and PMPR alongside.",
+      "prognosis": "Resolves with vitamin C replacement and plaque control once the nutritional deficiency is corrected.",
+      "citations": [
+        { "id": 1, "quote": "Gingival disease modified by malnutrition. These would include ascorbic acid-deficiency gingivitis (scurvy) and gingivitis due to protein deficiency.", "paragraph": 2744, "source": "Oxford Handbook · paragraph 2744" }
+      ]
+    },
+    {
+      "id": "periodontal-028",
+      "description": "Gums that bleed more than expected in a teenager with reasonable plaque control — the gingival inflammation exaggerated out of proportion to the local cause.",
+      "conditionName": "Puberty gingivitis",
+      "prevalence": "common",
+      "etiology": "There is a well-recognised increase in the severity and frequency of gingivitis at puberty [1]. This is listed in the periodontal classification as a distinct subcategory — endocrine-modified gingivitis — under gingival disease modified by systemic factors [2].",
+      "presentation": "Gingivitis in an adolescent that is more severe than would be predicted by the plaque score. The usual signs of plaque-induced gingivitis — red, swollen, bleeding gums — are present but magnified.",
+      "results": "BPE and plaque scores as for gingivitis. The clue is that the severity of the gingival response is disproportionate to the plaque load. No bone loss; no attachment loss.",
+      "definingCharacteristics": "Puberty gingivitis is real, but it is still plaque-dependent — it does not occur in the absence of plaque [1][2]. The thing is, the exaggerated response is hormonally mediated, but the treatment is still plaque control. Without effective plaque removal it won't resolve, regardless of the hormonal modifier.",
+      "treatment": "Thorough OHI. Professional plaque removal. Reduce plaque load — the hormonal modifier amplifies the response to existing plaque, so plaque removal is still the cure.",
+      "prognosis": "Improves naturally as hormone levels stabilise after puberty, provided plaque control is established. Neglected puberty gingivitis in susceptible individuals can progress to periodontitis.",
+      "citations": [
+        { "id": 1, "quote": "There is a well-recognized ↑ in the severity and frequency of gingivitis at puberty and in pregnancy.", "paragraph": 6434, "source": "Oxford Handbook · paragraph 6434" },
+        { "id": 2, "quote": "Endocrine system: puberty-associated gingivitis, menstrual cycle-associated gingivitis, pregnancy-associated gingivitis, pyogenic granuloma, diabetes mellitus-associated gingivitis.", "paragraph": 2741, "source": "Oxford Handbook · paragraph 2741" }
+      ]
+    },
+    {
+      "id": "periodontal-029",
+      "description": "Severe early-onset periodontal disease and fragile, easily-bruised gums in a patient with hyperextensible joints and skin — a connective tissue condition with distinct dental implications.",
+      "conditionName": "Ehlers–Danlos syndrome (periodontal type)",
+      "prevalence": "rare",
+      "etiology": "A rare inherited connective tissue disease characterised by hyperextensible skin, hypermobile joints, and fragile vessels due to mutations in collagen [1]. Oral features include severe early-onset periodontal disease [1]. Bleeding during surgery, weak scars, and sutures pulling through are the main practical issues [1]. Bleeding is commoner in type IV; early-onset periodontal disease in type VIII [2].",
+      "presentation": "Severe periodontal disease at an unusually early age, in the context of easy bruising and bleeding of the skin and oral mucosa [1]. The patient may have very mobile joints. Small teeth with short roots and pulp stones may be noted on radiograph [1].",
+      "results": "Probing reveals periodontal disease disproportionate to the patient's age. Radiograph may show short roots [1]. Pulp stones visible on periapical films [2]. The connective tissue diagnosis is usually already known; if not, the combination of early periodontitis, fragile tissue, and hypermobility should prompt medical investigation.",
+      "definingCharacteristics": "The periodontal destruction here is driven by the collagen defect in the PDL and supporting tissues, not primarily by plaque [1]. The interesting bit for surgical planning: sutures pull through, scars are weak, and vessels are fragile — these practical complications make periodontal surgery in this group hazardous [1]. Some types carry increased susceptibility to infective endocarditis and cerebrovascular risk from vessel weakness [1].",
+      "treatment": "Treatment is aimed at the symptoms [1]. Non-surgical periodontal therapy first. If surgery is necessary, anticipate wound dehiscence and fragile tissue [1]. Liaise with the patient's medical team regarding endocarditis prophylaxis if valve involvement is known [1].",
+      "prognosis": "Periodontal disease tends to be early-onset and severe because of the underlying collagen abnormality [1][2]. Conservative management and meticulous plaque control are the priority; surgery carries significant healing complications.",
+      "citations": [
+        { "id": 1, "quote": "A rare inherited connective tissue disease characterized by hyperextensible skin, hypermobile joints, and fragile vessels due to mutations in collagen. This results in very easy bruising and bleeding of skin as well as oral mucosa. Oral features include severe early-onset periodontal disease, small teeth with short roots, pulp stones, and occasional hypermobility of the TMJ. Bleeding during surgery, weak scars, sutures 'pulling through', and difficulty with root canal Rx are the main practical points. Some types of Ehlers–Danlos syndrome can lead to an ↑ susceptibility to infective endocarditis and significant heart damage due to mitral valve prolapse, and some types are prone to cerebrovascular accident due to weakness of intracranial blood vessels. Rx: aimed at the symptoms.", "paragraph": 6367, "source": "Oxford Handbook · paragraph 6367" },
+        { "id": 2, "quote": "A group of disorders characterized by hyperflexibility of joints, ↑ bleeding and bruising, and hyperextensible skin. There appears to be an underlying molecular abnormality of collagen in this inherited disorder. Bleeding is commoner in type IV, early-onset periodontal disease in type VIII. Pulp stones may be seen in all types.", "paragraph": 10470, "source": "Oxford Handbook · paragraph 10470" }
+      ]
+    },
+    {
+      "id": "periodontal-030",
+      "description": "Severe gingivitis, periodontitis, and aphthae in a young child, combined with abnormal skin pigmentation and a history of recurrent infections.",
+      "conditionName": "Chediak–Higashi syndrome",
+      "prevalence": "rare",
+      "etiology": "A genetic disease combining defective neutrophil function with abnormal skin pigmentation, resulting in increased susceptibility to infection [1]. The neutrophil defect removes the first-line defence against periodontal pathogens, leading to severe periodontal disease even in young children [1].",
+      "presentation": "Severe gingivitis, periodontitis, and aphthae in young children [1]. Abnormal skin pigmentation is the systemic clue. Recurrent infections are the broader pattern [1].",
+      "results": "The combination of severe periodontal disease at a very early age with systemic immune deficiency and skin changes should prompt investigation. Blood count will show the neutrophil abnormality.",
+      "definingCharacteristics": "What makes this distinguishable is the triad: defective neutrophil function, abnormal skin pigmentation, and increased susceptibility to infection — all in a child with severe gingivitis and periodontitis [1]. The periodontal disease here is a direct consequence of the neutrophil defect.",
+      "treatment": "Periodontal debridement and plaque control. Management of the systemic condition is medical. Antimicrobial adjuncts may be needed during acute phases.",
+      "prognosis": "Severe and early-onset. The prognosis for the periodontium depends on control of the systemic immune deficiency [1].",
+      "citations": [
+        { "id": 1, "quote": "A combination of defective neutrophil function, abnormal skin pigmentation, and ↑ susceptibility to infection (→ severe gingivitis, periodontitis, and aphthae in young children). It is a genetic disease.", "paragraph": 10458, "source": "Oxford Handbook · paragraph 10458" }
+      ]
+    },
+    {
+      "id": "periodontal-031",
+      "description": "An aggressive gingivitis and periodontitis that begins at puberty and affects both the primary and secondary dentition — in a child with thickened, scaly skin on the palms and soles.",
+      "conditionName": "Papillon–Lefèvre syndrome",
+      "prevalence": "rare",
+      "etiology": "Characterised by palmoplantar hyperkeratosis (thickening and scaling of the skin on the palms and soles) combined with juvenile periodontitis that affects both dentitions [1]. Normal dental development occurs until the hyperkeratosis appears on the palms and soles — then simultaneously an aggressive gingivitis and periodontitis begin [1]. The mechanism is not well understood [1].",
+      "presentation": "Aggressive gingivitis and periodontitis beginning at puberty, affecting both primary and secondary dentition [1]. The palmoplantar hyperkeratosis is the systemic tell — scaly, thickened skin on the palms and soles that appears around the same time as the periodontal disease [1].",
+      "results": "Radiographs show severe bone loss in both dentitions at an early age. The combination of dermatological and periodontal findings is diagnostic [1].",
+      "definingCharacteristics": "The timing is the key: normal development until the skin changes on the palms and soles appear, then periodontal disease begins simultaneously [1]. No other condition in this origin presents with palmoplantar hyperkeratosis as the associated dermatological feature.",
+      "treatment": "Aggressive periodontal debridement and plaque control. Early extraction of primary teeth affected by severe periodontitis may be considered to protect the secondary dentition. Liaise with dermatology.",
+      "prognosis": "Without intervention, affected teeth are typically lost early in both dentitions. The condition persists through life.",
+      "citations": [
+        { "id": 1, "quote": "Palmoplantar hyperkeratosis and juvenile periodontitis, which affects both 1° and 2° dentition. Normal dental development occurs until the appearance of the hyperkeratosis of the palms and soles, then simultaneously an aggressive gingivitis and periodontitis begin. The mechanism is not well understood.", "paragraph": 10519, "source": "Oxford Handbook · paragraph 10519" }
+      ]
+    },
+    {
+      "id": "periodontal-032",
+      "description": "Prolonged bleeding from an extraction socket — well beyond the usual hour — in a patient with a platelet or clotting factor disorder.",
+      "conditionName": "Post-extraction haemorrhage (bleeding disorder)",
+      "prevalence": "uncommon",
+      "etiology": "Platelet disorders and coagulation defects are the two main categories [1][2]. Platelet disorders include immune thrombocytopenic purpura, Von Willebrand's disease, and thrombocytopenia secondary to leukaemia, cytotoxic drugs, or drug effects — aspirin being the most common acquired cause, with an irreversible effect for one week [1]. Coagulation defects include the haemophilias, anticoagulant therapy, liver disease, and Von Willebrand's disease [2].",
+      "presentation": "Post-extraction bleeding that persists well beyond normal haemostasis. May also present as nosebleeds, purpura, or spontaneous oral bleeding [1]. The patient may have a known diagnosis, or this event may be the first presentation of an undiagnosed disorder.",
+      "results": "For platelet disorders: ensure platelet levels >50 × 10⁹/L, preferably 75 × 10⁹/L for anything beyond a simple extraction or LA [1]. A blood coagulation screen identifies clotting factor deficiencies. The haemophilias present as prolonged wound bleeding and/or haemarthroses [2].",
+      "definingCharacteristics": "The rule of thumb: haemophilias and Von Willebrand's disease should always be managed at specialist centres — check the patient's warning card for the contact telephone number [3]. Aspirin's irreversible platelet effect lasting one week is the most common acquired cause and the most preventable [1].",
+      "treatment": "If actively bleeding: combination of local measures, tranexamic acid, and platelet transfusion [1]. Platelet transfusions are short-lived and if used prophylactically must be given immediately prior to or during surgery [1]. Tranexamic acid mouthwash may reduce oral bleeding [1]. Haemophilia and Von Willebrand's disease: manage at specialist haemophilia centres [3].",
+      "prognosis": "With appropriate management at a specialist centre and correct pre-operative preparation, extraction and other procedures can be safely performed. The risk is in inadequate pre-operative assessment.",
+      "citations": [
+        { "id": 1, "quote": "May present as nosebleeds, purpura, or post-extraction bleeding. Remember that aspirin is the most common acquired cause, its effect being irreversible for 1 week. Other causes include diseases such as Von Willebrand's disease; immune thrombocytopenic purpura (ITP); virally associated (especially HIV) thrombocytopenic purpura; thrombocytopenia 2° to leukaemia; cytotoxic drugs; or unwanted effects of drugs, notably aspirin and chloramphenicol. Management: ensure platelet levels of >50 × 109/L, preferably 75 × 109/L for anything more than simple extraction or LA. If actively bleeding, use a combination of local measures, tranexamic acid, and platelet transfusion. Platelet transfusions are short-lived and if used prophylactically must be given immediately prior to or during surgery. Tranexamic acid mouthwash may ↓ oral bleeding.", "paragraph": 7215, "source": "Oxford Handbook · paragraph 7215" },
+        { "id": 2, "quote": "Present as prolonged wound bleeding &/or haemarthroses. Causes include the haemophilias, anticoagulants, liver disease, and von Willebrand's disease.", "paragraph": 7217, "source": "Oxford Handbook · paragraph 7217" },
+        { "id": 3, "quote": "The haemophilias and Von Willebrand's disease should always be managed at specialist centres. Check the patient's warning card for the contact telephone number.", "paragraph": 7227, "source": "Oxford Handbook · paragraph 7227" }
+      ]
+    },
+    {
+      "id": "periodontal-033",
+      "description": "Palatal petechiae or spontaneous gingival bruising in a patient with very low platelet count — often a child.",
+      "conditionName": "Idiopathic thrombocytopenic purpura (ITP)",
+      "prevalence": "rare",
+      "etiology": "Purpura is due to platelet deficiency [1]. The commonest form is idiopathic thrombocytopenic purpura (ITP) in children [1]. With too few platelets, minor trauma causes haemorrhage into the mucosa rather than normal haemostasis.",
+      "presentation": "Palatal petechiae or bruising [1]. Gingival bleeding out of proportion to plaque levels. The palatal petechiae pattern is not specific to ITP alone — it is also seen in glandular fever, rubella, HIV, and recurrent vomiting [1].",
+      "results": "Blood count shows thrombocytopenia. The diagnosis is established medically. Oral examination shows petechiae on the palate and possibly gingival bleeding.",
+      "definingCharacteristics": "Palatal petechiae are the telling oral sign [1]. The takeaway for the GDP: palatal petechiae should always prompt a medical history and consideration of whether a blood count is warranted — they are not an isolated dental finding. Multiple causes share this sign, so the broader clinical picture matters [1].",
+      "treatment": "Management is aimed at the underlying disorder — medical, not primarily dental. Local haemostatic techniques for dental procedures. Avoid extractions unless platelet count is adequate; liaise with haematology.",
+      "prognosis": "ITP in children often resolves spontaneously. The prognosis for the oral findings follows the platelet count.",
+      "citations": [
+        { "id": 1, "quote": "Purpura is due to platelet deficiency. Commonest as idiopathic thrombocytopenic purpura (ITP) in children. Palatal petechiae or bruising may be seen. Palatal petechiae are also seen in glandular fever, rubella, HIV, and recurrent vomiting.", "paragraph": 6413, "source": "Oxford Handbook · paragraph 6413" }
+      ]
+    },
+    {
+      "id": "periodontal-034",
+      "description": "Severe periodontal disease in a patient with poorly controlled diabetes — an infection risk disproportionate to the local plaque picture.",
+      "conditionName": "Diabetes mellitus (periodontal manifestations)",
+      "prevalence": "common",
+      "etiology": "No specific oral changes in well-controlled diabetes [1]. However, when diabetes is poorly controlled, manifestations of decreased resistance to infection can be seen — severe periodontal disease being the most prominent [1]. Xerostomia and oral thrush are prominent features in ketoacidosis [1]. There is a tendency to slower healing following surgery [1].",
+      "presentation": "Severe periodontal disease in a patient with poorly controlled diabetes [1]. Xerostomia and thrush in patients in ketoacidosis [1]. Burning mouth may be a presenting feature, and oral or facial dysaesthesia may reflect peripheral neuropathy [1]. Sialosis is sometimes seen as a late feature [1].",
+      "results": "Periodontal staging and grading as for standard periodontitis — but here the Grade C trajectory (rapid progression) should prompt asking about diabetes. Blood glucose check is part of the medical assessment for unexplained severe or rapidly progressive periodontitis.",
+      "definingCharacteristics": "The thing is, diabetes is a two-way relationship with periodontitis — poorly controlled diabetes worsens periodontal disease, and severe periodontal disease makes glycaemic control harder [1]. Poorly controlled diabetes is one of the two primary risk modifiers in the 2017 periodontal classification. Severe periodontal disease can be the presenting sign of undiagnosed diabetes.",
+      "treatment": "Periodontal debridement (Steps 1–2 of the BSP pathway). Risk factor control: liaise with the patient's GP about glycaemic management [1]. Slower healing should be anticipated post-surgery [1]. Treat thrush and xerostomia if present [1].",
+      "prognosis": "Improving glycaemic control improves the periodontal response to treatment. Lichenoid reactions due to oral hypoglycaemic drugs may complicate the mucosal picture [1].",
+      "citations": [
+        { "id": 1, "quote": "No specific oral changes, although manifestations of ↓ resistance to infection can be seen if poorly controlled (e.g. severe periodontal disease). Xerostomia and thrush are prominent features of ketoacidosis. Sialosis is sometimes seen as a late feature of diabetes. Burning mouth may be a presenting feature, and oral or facial dysaesthesia may reflect the peripheral neuropathies seen in diabetics. There is a tendency to slower healing following surgery. Lichenoid reactions due to oral hypoglycaemic drugs may be seen.", "paragraph": 6432, "source": "Oxford Handbook · paragraph 6432" }
+      ]
+    },
+    {
+      "id": "periodontal-035",
+      "description": "Gums that bleed and swell more during pregnancy or at puberty than the plaque load would explain — a hormonally amplified gingival response.",
+      "conditionName": "Hormone-modified gingivitis (pregnancy, puberty, menopause)",
+      "prevalence": "common",
+      "etiology": "There is a well-recognised increase in the severity and frequency of gingivitis at puberty and in pregnancy [1]. Some females have recurrent aphthae clearly associated with the menstrual cycle [1]. During the menopause, burning tongue or mouth or general soreness of the tongue or mouth have been described — though these may reflect psychological changes at this time of life rather than a direct hormonal effect, and hormone replacement does not seem to help [1].",
+      "presentation": "Exaggerated gingivitis relative to plaque levels at puberty or during pregnancy. In pregnancy, the gingival response to plaque is amplified — the patient may have managed their plaque well before but now presents with significant bleeding and swelling [1]. Recurrent aphthae timed to the menstrual cycle in some women [1].",
+      "results": "BPE findings as for gingivitis — bleeding on probing, no pocketing, no bone loss. The critical finding is that the severity of gingival response is disproportionate to the plaque load. Timing of the condition relative to hormonal events confirms the link.",
+      "definingCharacteristics": "Hormone-modified gingivitis is still plaque-dependent — it does not arise without plaque [1]. The hormonal change amplifies the inflammatory response but does not initiate it. So the treatment is still plaque removal, but the clinical picture can be dramatic in pregnancy or puberty. Puberty-associated and pregnancy-associated gingivitis are listed as distinct subcategories in the periodontal classification [2].",
+      "treatment": "Thorough OHI and professional plaque removal. Emphasise that the increased gingival response is temporary and hormone-related, but that plaque control is still necessary to keep it manageable. Pregnancy epulis (pyogenic granuloma) may need simple excision if troublesome — see separate entry.",
+      "prognosis": "Resolves as hormone levels normalise — after delivery or after puberty — provided plaque control is established [1]. Neglected hormone-modified gingivitis can progress to true periodontitis in susceptible individuals.",
+      "citations": [
+        { "id": 1, "quote": "There is a well-recognized ↑ in the severity and frequency of gingivitis at puberty and in pregnancy. Some females have recurrent aphthae clearly associated with their menstrual cycle, and several symptoms, usually burning tongue or mouth or general soreness of the tongue or mouth, have been described during the menopause. It should be remembered, however, that there are profound psychological changes at this time of life in many women, and these symptoms may be a manifestation of atypical facial pain rather than a direct hormonally mediated effect. Hormone replacement does not seem to help.", "paragraph": 6434, "source": "Oxford Handbook · paragraph 6434" },
+        { "id": 2, "quote": "Endocrine system: puberty-associated gingivitis, menstrual cycle-associated gingivitis, pregnancy-associated gingivitis, pyogenic granuloma, diabetes mellitus-associated gingivitis.", "paragraph": 2741, "source": "Oxford Handbook · paragraph 2741" }
+      ]
     }
   ]
 }
