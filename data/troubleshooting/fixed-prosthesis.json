@@ -316,5 +316,178 @@
         }
       ]
     }
+  ,
+    {
+      "id": "fixed-prosthesis-007",
+      "description": "The implant fixture itself fractures through the metal body; the patient notices the prosthesis has become mobile or displaced without any preceding bone loss.",
+      "conditionName": "Implant fixture fracture",
+      "prevalence": "rare",
+      "etiology": "Implant fracture is listed among the recognised risks of implant placement, alongside nerve damage, sinus involvement, and peri-implantitis [1]. The fixture itself is a titanium or titanium-alloy body — so what causes it to break is concentrated fatigue loading over time, usually from excessive occlusal stress, parafunction, or a mismatch between implant diameter and load. The thing is, once a fixture fractures, the prosthesis has no stable base and mobility follows directly.",
+      "presentation": "Mobility or displacement of the implant crown or bridge without any obvious preceding marginal bone loss and without the implant fixture feeling loose in the early stages. The patient may hear or feel a sudden click; the prosthesis then feels entirely unstable. Sometimes the fracture occurs within crestal bone and only emerges clinically when the coronal fragment migrates.",
+      "results": "- **Clinical mobility**: the implant-supported prosthesis is mobile; unlike peri-implantitis, the bone level around the implant may still look reasonable on an initial radiograph.\n- **Periapical radiograph**: a fracture line through the implant body may be visible; look carefully at the implant thread pattern for interruption.\n- **CBCT**: more sensitive for confirming fixture fracture and visualising the fracture level.\n- **Probing**: distinguish from peri-implantitis — if bone is intact and probing is shallow, the problem is structural, not biological.",
+      "definingCharacteristics": "Fixture fracture is the rarest of the mechanical implant complications. What makes it distinct is the combination of implant-level mobility and an intact or near-intact crestal bone level — the biological tissues haven't failed, the metal has. Unlike an abutment screw fracture (fixed-prosthesis-008), where the fixture itself is solid and only the connecting screw has broken, here the body of the implant is in two pieces. Unlike peri-implantitis (fixed-prosthesis-006), bone destruction is not the presenting driver.",
+      "treatment": "Retrieve the fractured fixture. This usually requires surgical access and trephination around the implant fragments. If sufficient bone volume remains after removal, site grafting and delayed re-implantation may be an option. Occlusal analysis is essential before any new implant placement — identify the parafunction or loading pattern that caused the fracture and address it before re-treatment.",
+      "prognosis": "Once the fixture has fractured, the implant is non-restorable — removal is required [1]. Prognosis for the site depends on how much bone is lost during retrieval. With adequate bone volume and parafunction management, re-implantation is viable. Without occlusal correction, the replacement implant carries the same risk.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Implant fracture.",
+          "paragraph": 5314,
+          "source": "Oxford Handbook · paragraph 5314 (implant risks — implant fracture)"
+        }
+      ]
+    },
+    {
+      "id": "fixed-prosthesis-008",
+      "description": "A screw connecting the implant abutment to the fixture fractures or loosens; the patient notices movement or a clicking sound at the implant crown.",
+      "conditionName": "Abutment screw fracture or loosening",
+      "prevalence": "uncommon",
+      "etiology": "Fracture of the abutment screw or implant component is a recognised mechanical complication of implant-supported restorations [1]. The abutment screw is the weakest intentional link in the implant–abutment–crown assembly: it is designed with a precise torque specification, and when occlusal loads repeatedly exceed that specification — especially in parafunction — the screw loosens progressively or fractures outright. What happens is the screw undergoes cyclic fatigue: each loading cycle micro-deflects the connection until the screw backs out or fractures at the neck [2].",
+      "presentation": "The patient notices the implant crown moving, rocking, or clicking with chewing or biting. Sometimes the crown rotates when digital pressure is applied — a tell-tale sign that the abutment connection has been compromised. The fixture itself feels firm. The crown looks intact. There's no pain unless the loose abutment has allowed peri-implant tissue to become inflamed.",
+      "results": "- **Digital pressure on the crown**: rocking or rotation of the crown while the fixture is immobile confirms abutment-level failure rather than implant failure.\n- **Crown removal**: if the abutment screw is fractured, the upper fragment may come away with the crown; the lower stub remains in the implant body.\n- **Radiograph**: periapical film may show a gap at the abutment–implant interface, or a fractured screw stub within the implant body.\n- **Fixture firmness**: the fixture should be entirely stable — if the fixture itself is mobile, this is late implant failure (fixed-prosthesis-011), not a screw problem.",
+      "definingCharacteristics": "The key distinction is level: abutment screw failure is a supra-implant mechanical event — the fixture and bone are fine, the hardware has failed at the connection point. This is different from fixture fracture (fixed-prosthesis-007, where the implant body itself breaks) and from peri-implantitis (fixed-prosthesis-006, where biological bone destruction is the primary driver). The broken screw stub retained inside the implant body is the diagnostic signature of screw fracture, as opposed to simple loosening [2].",
+      "treatment": "For a loose screw: re-tighten to the manufacturer's specified torque; seal the access hole. Before retightening, check occlusion — remove any premature contacts on the implant crown in centric and lateral excursion [2]. For a fractured screw: engage the stub with a specialised screw extractor or hollow trephine bur; ultrasonic vibration may loosen it enough for removal. If the stub cannot be retrieved, consult the implant manufacturer for a compatible extraction kit or refer to a specialist. Once the screw is free, inspect the internal implant connection for damage, then place a new abutment screw and re-torque.",
+      "prognosis": "Screw loosening resolved with retightening and occlusal adjustment carries a good prognosis. Fractured screw retrieval is technically demanding but usually successful with appropriate instruments. Literature shows ongoing prosthetic maintenance — including screw and hardware issues — is an expected part of the long-term implant maintenance burden [2].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Fracture of abutment screw or implant.",
+          "paragraph": 5317,
+          "source": "Oxford Handbook · paragraph 5317 (implant risks — fracture of abutment screw)"
+        },
+        {
+          "id": 2,
+          "quote": "Literature shows maintenance of restorations will be an ongoing problem for the implant patient (e.g. # screws, clips, porcelain, acrylic).",
+          "paragraph": 5348,
+          "source": "Oxford Handbook · paragraph 5348 (implant follow-up and maintenance)"
+        }
+      ]
+    },
+    {
+      "id": "fixed-prosthesis-009",
+      "description": "A chip appears on the porcelain of an implant crown, the acrylic of an overdenture bar prosthesis wears through, or a retention clip on an implant overdenture stops gripping.",
+      "conditionName": "Implant prosthesis complication (porcelain fracture, acrylic wear, or overdenture clip failure)",
+      "prevalence": "common",
+      "etiology": "Implant-retained restorations need to be carefully maintained, and maintenance complications are an expected long-term burden [1]. The prosthesis is under higher occlusal loading than tooth-borne restorations in many patients, partly because implants lack the proprioceptive feedback that natural teeth use to modulate biting force.\n\nThree failure modes dominate:\n\n- **Porcelain fracture**: ceramic is brittle and fractures under tensile flexural stress; implant crowns may be loaded differently to tooth-borne crowns because the lack of a periodontal ligament means forces transmit directly to the ceramic without any shock-absorbing give.\n- **Acrylic wear / fracture**: overdenture bases and cantilever extensions on implant bridges rely on acrylic resin, which wears over time, particularly against opposing natural teeth or metal occlusal surfaces [1].\n- **Clip failure on overdentures**: bar-retained or ball-retained overdentures use plastic or metal clips that engage the retentive element. Clips wear, deform, or fracture with repeated insertion and removal [1].\n\nAll three qualify as the 'broken or worn prosthesis' category listed as a distinct implant risk [2].",
+      "presentation": "- Sharp or rough edge on the implant crown where porcelain has chipped.\n- Overdenture that feels less retentive over time, or a sudden loss of snap retention.\n- Acrylic prosthesis with visible wear facets, cracks, or a through-fracture in the base.\n- Patient may report food getting under the prosthesis more easily, or discomfort from the exposed metal substructure.",
+      "results": "- **Inspection**: locate the chip, fracture line, or worn area; assess whether the substructure is exposed or damaged.\n- **Occlusal check**: in porcelain fractures, check for premature contacts or heavy lateral excursion loads on the implant restoration — these are the mechanical trigger.\n- **Clip assessment**: test retention by seating and removing the overdenture; evaluate whether the clip engages fully. Compare retention against baseline.\n- **Radiograph**: not directly informative for prosthesis surface complications; use to exclude concurrent implant-level problems.",
+      "definingCharacteristics": "These are prosthesis-level mechanical failures: the implant and bone are unaffected. The question is whether the failure is repairable or requires a remake. The rule of thumb: porcelain chips that leave the substructure intact and the bite unchanged can be repaired chairside; a fracture through the whole ceramic layer or through the metal framework requires remake. Overdenture clip failure is the simplest — clips are designed to be replaced and are a consumable component of the overdenture system [1].",
+      "treatment": "- **Porcelain chip on an implant crown**: small chips with no substructure exposure can be smoothed and polished chairside, or repaired with a composite-to-ceramic repair kit (e.g. CoJet™ sandblasting, silane, composite); large chips or loss of the metal framework require remake.\n- **Acrylic wear or fracture**: if the base structure is sound, add acrylic chairside (direct repair) or return to the laboratory; check occlusal contacts and adjust opposing surface if teeth are the cause.\n- **Clip or ball-attachment failure**: replace the retentive element (new plastic clip insert or new rubber O-ring) at the chairside. Confirm the attachment within the implant body is still undamaged before fitting a new clip. Review replacement frequency with the patient.",
+      "prognosis": "Maintenance complications are an expected ongoing feature of implant-retained prostheses and do not indicate implant failure [1]. Porcelain fracture repaired promptly performs well; a prosthesis with repeated fractures warrants occlusal re-evaluation and possibly a design change (monolithic zirconia, reduced cantilever span). Overdenture clips have a finite service life and require periodic planned replacement.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Literature shows maintenance of restorations will be an ongoing problem for the implant patient (e.g. # screws, clips, porcelain, acrylic).",
+          "paragraph": 5348,
+          "source": "Oxford Handbook · paragraph 5348 (implant follow-up and maintenance)"
+        },
+        {
+          "id": 2,
+          "quote": "Broken, loosened, worn, or discoloured prosthesis.",
+          "paragraph": 5316,
+          "source": "Oxford Handbook · paragraph 5316 (implant risks — broken or worn prosthesis)"
+        }
+      ]
+    },
+    {
+      "id": "fixed-prosthesis-010",
+      "description": "An implant placed weeks or months ago develops mobility and pain before the prosthesis is even fitted; the implant has never fully integrated.",
+      "conditionName": "Early implant failure (failure to osseointegrate)",
+      "prevalence": "uncommon",
+      "etiology": "Implant failure may be early or late, and early failure specifically is failure of osseointegration [1]. The mechanistic chain at the bone–implant interface: titanium achieves osseointegration by forming a direct structural and functional connection with bone — but this requires adequate bone quality, aseptic conditions, appropriate temperature during surgery, and mechanical stability in the early healing phase. When any of these are disrupted, the bone–implant contact fails to develop.\n\nThe recognised causes are: inadequate site preparation, overheating of bone during osteotomy drilling, infection at the implant site, premature loading before integration is established, or lack of primary stability at placement [1]. Each maps to a specific failure mode: poor preparation leaves a poor-fit interface; overheating causes thermal necrosis of peri-implant bone; infection triggers an inflammatory cascade that prevents normal healing; premature loading introduces micro-motion that converts the healing interface into fibrous tissue rather than bone.",
+      "presentation": "Mobility or pain at the implant site within the first two years, before or around the time the prosthesis is due to be placed [1]. The patient may report throbbing, tenderness on palpation over the implant, or the sensation that the implant is moving. Unlike peri-implantitis (which develops after years of successful function), early failure typically declares itself within weeks to a few months of surgery — before the definitive restoration is ever made.",
+      "results": "- **Mobility test**: any detectable movement of the implant fixture is diagnostic. A successfully osseointegrated implant feels completely rigid — no play at all.\n- **Percussion**: early failure produces a dull, muted sound rather than the high-pitched ring of an integrated implant.\n- **Periapical radiograph**: may show a peri-implant radiolucency; compare with the post-operative baseline radiograph taken at placement.\n- **Pain on loading**: tenderness when applying gentle bite force to the implant site is a warning sign in the healing phase.",
+      "definingCharacteristics": "The defining feature is timing: failure to osseointegrate is a first-year event, a 1° failure, not loss of a previously stable implant [1][2]. This separates it from late implant failure (fixed-prosthesis-011), where the implant functioned well for years before failing. Clinically, the implant was never truly stable — it never made the functional bone–metal bond that osseointegration requires. The presence of one of the known risk factors (overheating, infection, poor primary stability) at placement is the strongest contextual clue.",
+      "treatment": "Remove the failed implant once mobility is confirmed — continuing to load an unintegrated implant causes bone loss [2]. After removal, assess the residual bone volume. If there is sufficient bone and the cause is correctable, re-implantation in the same site is possible after a healing period. Address the root cause before re-treatment: review drilling protocol, irrigation, torque, and healing period for the next placement. In medically compromised patients (poorly controlled diabetes, osteoporosis, history of radiotherapy), involve the relevant specialist before attempting re-implantation.",
+      "prognosis": "If implants survive the first two years, there is a 98% success rate with dramatic improvement in all functional parameters [1]. The corollary: failure within that window is the higher-risk period. Correcting the precipitating cause and allowing adequate healing time makes a successful second attempt realistic in most patients. Persistent early failures in the same site warrant a full medical and surgical review.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "If implants survive the first 2yrs, there is a 98% success rate with dramatic improvement in all functional parameters. Implant failure may be early or late. Early failure may be due to inadequate site preparation, overheating of bone, infection, premature loading, or lack of 1° stability.",
+          "paragraph": 5348,
+          "source": "Oxford Handbook · paragraph 5348 (implant follow-up and maintenance)"
+        },
+        {
+          "id": 2,
+          "quote": "There are two ways an implant can be considered to fail: 1° failure, which is failure of osseointegration, and 2° failure, which is failure to maintain osseointegration.",
+          "paragraph": 5350,
+          "source": "Oxford Handbook · paragraph 5350 (implant success and failure definitions)"
+        }
+      ]
+    },
+    {
+      "id": "fixed-prosthesis-011",
+      "description": "An implant that was functioning well for years develops mobility, pain, and progressive bone loss around the fixture; the patient may have noticed the gum receding and the crown looking longer.",
+      "conditionName": "Late implant failure (loss of osseointegration)",
+      "prevalence": "uncommon",
+      "etiology": "Late failure is 2° failure — loss of a previously achieved and maintained osseointegration [1]. The two main pathways are overloading and infection (peri-implantitis) [2]. The distinction matters because the management differs.\n\n**Overloading**: when occlusal forces chronically exceed what the bone–implant interface can sustain — usually from parafunction, an unfavourable crown-to-implant ratio, or a poorly planned cantilever — the interface breaks down. Unlike a natural tooth, the implant has no periodontal ligament to distribute load, so all force is transferred directly to the peri-implant crestal bone.\n\n**Peri-implantitis** (infection): accumulation of bacterial biofilm around the implant surface triggers a destructive inflammatory cycle in the surrounding hard and hard tissues. It is similar in mechanism to periodontitis around teeth [3]. Risk factors include poor oral hygiene, prosthesis design that hinders cleaning, poorly controlled diabetes, existing periodontal disease, smoking, and residual subgingival cement [4]. More than 40% of patients may experience peri-implantitis at some point [3].",
+      "presentation": "Mobility is the cardinal sign of late failure — an implant with significant bone loss can feel clinically firm for a long time, so mobility indicates that the interface has substantially broken down [5]. Patient may also report: progressive gum recession around the implant crown, making the crown look elongated; bad taste or bleeding when cleaning; and sometimes pain on loading. Importantly, a failing implant may not produce any significant clinical signs or symptoms — changes may only be detectable on probing and radiograph [6].",
+      "results": "- **Mobility**: any movement of the fixture itself (not just the crown) indicates late failure and loss of osseointegration [5].\n- **Probing**: peri-implant probing depths ≥7 mm with bleeding on probing indicate peri-implantitis; around healthy implant tissues, depth should be less than 4 mm [7].\n- **Periapical radiograph**: progressive marginal bone loss around the implant threads; bone loss >0.2 mm per year after the first year is outside normal limits [8]. Compare with previous radiographs to establish the rate of loss.\n- **Radiolucency**: a continuous peri-implant radiolucency around the implant body indicates failure of osseointegration — there is normally no lamina dura around an implant, so radiolucency here is significant [9].",
+      "definingCharacteristics": "Late failure is defined by its timeline: the implant integrated successfully and functioned for years before failing — this is 2° failure, not the early failure-to-integrate of fixed-prosthesis-010 [1]. The majority of implant failures are due to peri-implantitis [1]. A late diagnosis is likely to result in further surgery, aesthetic compromise, and possibly implant removal, with potential medico-legal consequences [6]. The key clinical question when you see a loose implant is: was it ever properly functioning? If yes and now failing, this is late failure; if it was never stable, it is early failure.",
+      "treatment": "For peri-implantitis before fixture mobility: oral hygiene instruction; supra- and subgingival debridement with titanium or plastic instruments; address occlusal loading and any residual cement. If advanced, surgical access for direct debridement of the implant surface; bone grafting where indicated [10]. Early specialist referral is essential — a late diagnosis leads to further surgery and aesthetic compromise [6].\n\nFor a failed fixture (mobile): remove the implant. Surgical retrieval, then assess remaining bone. If the cause is identified and correctable (parafunction, peri-implantitis risk factors), re-implantation after adequate healing is an option. Without occlusal correction or infection control, placing a new implant in the same site will repeat the failure.",
+      "prognosis": "Success rates exceed 90% after 10 years, but the majority of late failures are due to peri-implantitis [1]. An implant is considered successful if it is functioning with no mobility, no associated radiolucency, and bone loss of less than 1.5 mm [1]. Once the implant is mobile, the prognosis is poor without removal. With early detection and treatment of peri-implant disease before fixture mobility develops, the implant can often be retained.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Success rates of dental implants are reported to be in excess of 90% after 10yrs. There are two ways an implant can be considered to fail: 1° failure, which is failure of osseointegration, and 2° failure, which is failure to maintain osseointegration. The implant can be considered to be successful if it is present and functioning (acceptable mastication, phonation, and pain-free) with a lack of mobility, associated radiolucency, and bone loss of <1.5mm. The majority of implant failures are due to peri-implantitis.",
+          "paragraph": 5350,
+          "source": "Oxford Handbook · paragraph 5350 (implant success and failure definitions)"
+        },
+        {
+          "id": 2,
+          "quote": "Late failure may be due to overloading or infection (peri-implantitis).",
+          "paragraph": 5348,
+          "source": "Oxford Handbook · paragraph 5348 (implant follow-up — late failure)"
+        },
+        {
+          "id": 3,
+          "quote": "Peri-implantitis is a condition with destructive inflammation of the soft and hard tissues surrounding an osseointegrated implant (similar to periodontitis around teeth). Although implants have a 90%+ chance of 10yr survival, >40% of patients may experience peri-implantitis to some extent.",
+          "paragraph": 5353,
+          "source": "Oxford Handbook · paragraph 5353 (peri-implantitis)"
+        },
+        {
+          "id": 4,
+          "quote": "Peri-implantitis and peri-implant bone loss is not well-understood but ↑ risk is associated with: Inadequate OH. Prosthesis designs that hinder OH. An excessive occlusal load on the implant. Poorly controlled diabetes. Existing periodontal disease (treated and untreated). Smoking. Thin bone coverage at the time of implant placement. Residual cement from a cemented implant restoration. Thin gingival biotype and tissue thickness.",
+          "paragraph": 5354,
+          "source": "Oxford Handbook · paragraph 5354 (peri-implantitis risk factors)"
+        },
+        {
+          "id": 5,
+          "quote": "Check the mobility of the implant-supported restorations. It is rare for an implant to feel loose. Even with significant bone loss, an implant restoration can still feel firm. It is important to distinguish a loose crown, which is a more common occurrence. A loose crown may be caused by a loose abutment screw, a screw fracture or debonding of a cemented crown.",
+          "paragraph": 8000,
+          "source": "Odell's Clinical Problem Solving · paragraph 8000 (Case 75 — Failing Implant Restoration)"
+        },
+        {
+          "id": 6,
+          "quote": "A failing implant may not result in any significant clinical signs or symptoms. These changes may be only detectable with probing the tissues around the implant and taking and interpreting appropriate radiographs. A late diagnosis of a failing implant is likely to result in further surgery for the patient, a compromise in aesthetics and, at worst, removal of the implant, all of which may result in medico-legal action.",
+          "paragraph": 8039,
+          "source": "Odell's Clinical Problem Solving · paragraph 8039 (Case 75 — Failing Implant Restoration)"
+        },
+        {
+          "id": 7,
+          "quote": "Around healthy implant tissues, the probing depth should be less than 4 mm, with no or minimal bleeding.",
+          "paragraph": 7996,
+          "source": "Odell's Clinical Problem Solving · paragraph 7996 (Case 75 — peri-implant probing)"
+        },
+        {
+          "id": 8,
+          "quote": "Vertical bone loss, assessed radiographically, should be less than 0.2 mm per year in subsequent years.",
+          "paragraph": 3911,
+          "source": "Odell's Clinical Problem Solving · paragraph 3911 (Case 35 — implant review criteria)"
+        },
+        {
+          "id": 9,
+          "quote": "Absence of continuous radiolucency around the implant. Because there is no lamina dura around an implant, there should be no radiolucency around the implant. Radiolucency around an implant is likely to be a result of failure of osseointegration of the implant and the surrounding alveolar bone.",
+          "paragraph": 8010,
+          "source": "Odell's Clinical Problem Solving · paragraph 8010 (Case 75 — radiographic examination)"
+        },
+        {
+          "id": 10,
+          "quote": "Aim to have direct access to all of the implant exposed surfaces. A soft tissue flap is raised under local anaesthesia, with the aim of allowing removal of the biofilm. Several techniques are available to do this, including the use of ultrasonic instrumentation, specialized titanium micro-brushes, drilling of the implant surface to remove the threads, chemical debridement or even bone grafting.",
+          "paragraph": 8036,
+          "source": "Odell's Clinical Problem Solving · paragraph 8036 (Case 75 — surgical management)"
+        }
+      ]
+    }
   ]
 }
