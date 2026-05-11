@@ -429,6 +429,298 @@
           "source": "Oxford Handbook · paragraph 1160 (infraoccluded/ankylosed primary molars)"
         }
       ]
+    },
+    {
+      "id": "primary-dentition-008",
+      "description": "A tooth is present in a newborn's mouth at birth, causing feeding difficulty or a raw ulcer on the underside of the infant's tongue.",
+      "conditionName": "Natal teeth",
+      "prevalence": "very-uncommon",
+      "etiology": "Teeth present at birth. Most are members of the primary dentition — lower incisor region is the usual site [1]. The thing is, at birth these teeth have had very little time to develop root structure, so limited root development is the rule at that stage [1].",
+      "presentation": "A tooth or teeth visible in the mouth at the newborn examination. Parents or midwives raise the concern. Most frequently the lower incisor region [1]. The tooth may be mobile because of its limited root development [1]. A raw ulceration on the underside of the tongue (Riga-Fede ulceration) can develop from repeated friction of the tooth edge against the tongue during suckling [1].",
+      "results": "- **Clinical assessment**: determine tooth mobility — high mobility raises the aspiration risk.\n- **Radiograph**: confirms whether it is a primary tooth or supernumerary, and shows the extent of root development. A supernumerary natal tooth can be removed without consequence; a primary tooth removal has space implications.",
+      "definingCharacteristics": "Natal teeth are present at birth; **neonatal teeth** erupt within the first 30 days of life — the distinction is timing, not pathology. The two key management questions are: is the tooth a member of the normal primary series or a supernumerary, and is it mobile enough to present an aspiration risk [1]? Riga-Fede ulceration — a traumatic mucosal erosion on the ventral surface of the tongue — is a characteristic secondary finding when the tooth has a sharp cutting edge [1].",
+      "treatment": "Retain if possible — most natal teeth are primary incisors and early loss has space implications [1]. The goal is to preserve the tooth unless retention is unsafe.\n\n- If **in danger of being inhaled** (high mobility) or causing **significant breastfeeding difficulties**: remove. The procedure can usually be done with topical LA alone or no anaesthesia at all [1].\n- If Riga-Fede ulceration is present but the tooth is not mobile: smooth the incisal edge to reduce trauma; monitor.\n- Advise parents of vitamin K status — neonates have low clotting factor levels; confirm vitamin K has been given before any extraction.",
+      "prognosis": "Removal of a mobile natal tooth is straightforward and resolves aspiration risk. If the tooth is a primary incisor and is removed, the permanent successor usually erupts normally in due course, though parents should be counselled about the gap during the primary dentition years.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Usually members of the 1° dentition, can sometimes be supernumerary, and should be retained if possible. Most frequently occur in lower incisor region and because of limited root development at that age, are often mobile. If in danger of being inhaled or causing problems with breastfeeding, they can be removed (usually removed with no LA or some topical LA is applied).",
+          "paragraph": 1137,
+          "source": "Oxford Handbook · paragraph 1137 (natal teeth)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-009",
+      "description": "An infant or toddler is unsettled, drooling, and difficult to settle at night — no obvious dental lesion on inspection.",
+      "conditionName": "Teething",
+      "prevalence": "very-common",
+      "etiology": "The eruption of primary teeth coincides with a natural drop in circulating maternal antibodies, so the period is often blamed for systemic symptoms. The thing is, the honest picture is more modest: what the source actually supports is local gingival discomfort and disturbed sleep accompanying the eruption process itself [1]. Systemic attribution (fever, diarrhoea) is not well supported [1].",
+      "presentation": "Infant is irritable, drooling, and sleeping poorly. Parents may report gnawing behaviour and sore-looking gums. On inspection: erythema and slight swelling of the gingiva overlying the erupting tooth is the typical finding. No caries, no sinus, no swelling [1].",
+      "results": "Diagnosis is clinical. No investigations are required. The key role of the examination is to exclude other pathology — caries, eruption cyst, or early infection — that might be attributed to teething.",
+      "definingCharacteristics": "The reason teething sits apart from other entries in this origin is that it is physiological, not pathological. Local gum discomfort is real and source-supported; systemic symptoms traditionally blamed on teething (fevers, diarrhoea) are not [1]. If a child appears systemically unwell, look for another cause rather than defaulting to teething.",
+      "treatment": "Symptomatic relief is the goal [1]:\n\n- Proprietary teething preparations containing a combination of analgesic, antiseptic, and anti-inflammatory agents for topical use [1].\n- Something firm to chew: a teething ring. Designs that can be cooled in the fridge may enhance the soothing effect via a mild topical cold stimulus [1].\n- Standard infant analgesic (paracetamol or ibuprofen) if discomfort is affecting sleep.\n- Reassure parents: this is self-limiting.",
+      "prognosis": "Self-limiting by definition. Each tooth erupts and symptoms resolve. No treatment is required beyond symptomatic relief. The total primary dentition eruption process spans from approximately 6 months to 2–3 years of age.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "As eruption of the 1° dentition coincides with a diminution in circulating maternal antibodies, teething is often blamed for systemic symptoms. However, local discomfort, and so disturbed sleep, may accompany the actual process of eruption. A number of proprietary 'teething' preparations are available, which usually contain a combination of an analgesic, an antiseptic, and anti-inflammatory agents for topical use. Having something hard to chew may help, e.g. teething ring. Some are designed to be cooled in the fridge, which can enhance their soothing ability.",
+          "paragraph": 1139,
+          "source": "Oxford Handbook · paragraph 1139 (teething)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-010",
+      "description": "A soft, bluish swelling on the gum over an unerupted tooth in a young child — no pain, the tooth beneath it has not yet broken through.",
+      "conditionName": "Eruption cyst",
+      "prevalence": "uncommon",
+      "etiology": "Fluid or blood accumulates in the follicular space — the soft tissue sac overlying an erupting tooth — before the crown breaks through the mucosa [1]. When blood is the main constituent, the swelling takes on a bluish hue [1]. The condition is not an infection and not a developmental cyst in the true sense; it is simply a temporary fluid pocket that forms as the erupting crown separates the follicle from the overlying tissue.",
+      "presentation": "A soft, fluctuant, dome-shaped swelling in the alveolar mucosa overlying a tooth that is about to erupt. Colour ranges from normal pink to bluish-purple depending on how much blood is in the follicular fluid [1]. No tenderness to light palpation in most cases. The child is typically of an age consistent with eruption of the affected tooth. Parents are usually the ones who notice it — the child rarely reports symptoms.",
+      "results": "Diagnosis is clinical. The erupting tooth can sometimes be felt as a hard ridge beneath the swelling on firm palpation. No radiograph is required unless the eruption seems significantly delayed or the presentation is atypical.",
+      "definingCharacteristics": "The bluish swelling over an erupting tooth is the defining picture. What distinguishes this from a true dentigerous cyst or from a haemangioma is context: it arises specifically over an erupting tooth, in a child at the expected age for that tooth to emerge, and it resolves spontaneously once the tooth breaks through [1]. No treatment is normally needed [1].",
+      "treatment": "Most rupture spontaneously, allowing eruption to proceed without any intervention [1]. The goal is to wait. Reassure the parents.\n\nRarely, if the swelling is enlarging, the tooth appears stuck, or the child is significantly distressed: marsupialise the cyst. This is a simple incision to decompress the fluid and allow the crown through [1]. No further treatment is required once the tooth has erupted.",
+      "prognosis": "Excellent. Spontaneous resolution is the rule [1]. Marsupialization is effective on the rare occasion it is needed. No long-term sequelae.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is caused by an accumulation of fluid or blood in the follicular space overlying an erupting tooth. The presence of blood gives a bluish hue. Most rupture spontaneously, allowing eruption to proceed. Rarely, it may be necessary to marsupialize the cyst.",
+          "paragraph": 1141,
+          "source": "Oxford Handbook · paragraph 1141 (eruption cyst)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-011",
+      "description": "A young child loses a primary tooth unusually early — without extensive caries or trauma to explain it.",
+      "conditionName": "Premature exfoliation of primary teeth (systemic causes)",
+      "prevalence": "very-uncommon",
+      "etiology": "The most common reason for early tooth loss in any child is extraction for caries, and traumatic avulsion is the next most common. What makes this entry different is loss without an obvious local cause. Systemic disease — neutropenia, leukaemia — can result in an abnormal periodontal attachment, causing premature tooth loss [1]. Hypophosphatasia, a metabolic disorder affecting cementum formation, is a rarer but important cause: aplasia of cementum means the tooth has no structural anchor in the PDL, so even the mildest forces detach it [2].\n\nAlveolar bone loss in a young child is a serious finding [1]. The thing is, the differential includes diseases that need urgent investigation.",
+      "presentation": "Parents report that a tooth 'fell out' without apparent cause, or with minimal provocation. The child is younger than expected for exfoliation of that tooth. There may be multiple teeth affected. The tooth, when available for inspection, may show an intact root (no physiological resorption) and a poorly formed cementum layer.\n\nSystemic symptoms — recurrent infections, pallor, fatigue, easy bruising — may point to neutropenia or leukaemia and must be actively sought [1].",
+      "results": "- **Radiograph**: the key finding is absence of the normal physiological root resorption pattern — the root may be intact or only minimally resorbed, confirming this is not natural exfoliation.\n- **Haematological assessment**: FBC if neutropenia or leukaemia is suspected [1].\n- In hypophosphatasia: low serum alkaline phosphatase is the diagnostic biochemical marker [2].",
+      "definingCharacteristics": "What separates this from normal exfoliation is the absence of physiological root resorption, the young age of the child, and the lack of an adequate local cause [1]. Neutropenia and leukaemia present with systemic features; hypophosphatasia is diagnosed by the biochemical marker (low alkaline phosphatase) and cementum aplasia on the extracted tooth [2]. Alveolar bone loss on radiograph in a young child is not a normal finding — it warrants urgent referral regardless of which systemic condition is suspected [1].",
+      "treatment": "Urgent referral is the action, not a dental restoration [1]. Once a systemic cause is identified, management is led by the appropriate medical team. Dental care runs in parallel: maintain space where possible, monitor the developing permanent dentition, and provide caries prevention to protect the remaining primary teeth.",
+      "prognosis": "Depends entirely on the underlying diagnosis. Hypophosphatasia: the primary dentition may be severely affected while the permanent dentition is less so in milder forms. Leukaemia and neutropenia: prognosis is driven by haematological management. The dental prognosis for the permanent dentition is generally reasonable if the underlying condition is treated, but early permanent tooth loss is possible if systemic disease remains active.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The most common reason for early tooth loss is extraction for caries. Traumatic avulsion is less common. More rarely, systemic disease such as neutropenia or leukaemia may result in an abnormal periodontal attachment and thus premature tooth loss. Alveolar bone loss in a young child is a serious finding and warrants urgent referral.",
+          "paragraph": 1164,
+          "source": "Oxford Handbook · paragraph 1164 (premature exfoliation)"
+        },
+        {
+          "id": 2,
+          "quote": "Hypoplasia and aplasia of cementum are uncommon. The latter occurs in hypophosphatasia and results in premature exfoliation.",
+          "paragraph": 1250,
+          "source": "Oxford Handbook · paragraph 1250 (cementum disturbances)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-012",
+      "description": "Chalky, opaque or discoloured patches on a child's second primary molar — the surface breaks down soon after the tooth erupts, and the tooth is painfully sensitive.",
+      "conditionName": "Hypomineralised second primary molars (HSPM)",
+      "prevalence": "uncommon",
+      "etiology": "A developmental defect of dental enamel — the mineralisation of the enamel matrix is disturbed during crown formation, producing enamel that is softer and more porous than normal [1]. HSPM shares features with molar-incisor hypomineralisation (MIH) of the permanent dentition. The interesting bit: HSPM is now recognised as a predictor that MIH may be more likely to occur in the permanent dentition [1].",
+      "presentation": "Chalky white, cream, yellow, or brown opacities on one or more second primary molars. Typically noticed when the molars erupt around age 2–3. The affected enamel often fractures under normal occlusal load shortly after eruption (post-eruptive breakdown), leaving exposed dentine that is sensitive to temperature, sweet, and touch [1]. The child may be very reluctant to allow examination or brushing of the area.",
+      "results": "- **Clinical examination**: demarcated opacities on the second primary molar — the key finding is that the opacity is **demarcated** (sharp boundary with normal enamel) rather than diffuse.\n- **Post-eruptive breakdown**: chipped or missing enamel in the opacity zone, with exposed dentine.\n- **Secondary caries**: the softened enamel is highly susceptible to carious attack and caries progression [1].\n- Sensibility testing: unreliable in primary teeth.",
+      "definingCharacteristics": "HSPM is confined to the second primary molars (and sometimes first primary molars). It is not a carious process: the opacity is developmental and present from the moment of eruption. What separates it from fluorosis is the **demarcated** boundary and the clinical history: fluorosis produces diffuse symmetric opacity across multiple tooth types; HSPM produces focal, demarcated defects on the second primary molars specifically [1].\n\nThe link to MIH in the permanent dentition is a reason to monitor the first permanent molars carefully as they erupt in the same child.",
+      "treatment": "The goal is to prevent secondary caries and manage hypersensitivity.\n\n- Increased fluoride application: apply sodium fluoride varnish more frequently for children with HSPM.\n- Desensitisation: topical agents and casein phosphopeptide-amorphous calcium phosphate (CPP-ACP) preparations can help with sensitivity.\n- For post-eruptive breakdown: restore with GIC (good fluoride release) or stainless steel crowns for significantly broken-down molars.\n- Preventive counselling: parents need to understand this is a structural defect, not caries from dietary behaviour alone, though the two commonly co-exist.\n- Monitor the permanent dentition: HSPM predicts a higher likelihood of MIH [1].",
+      "prognosis": "The second primary molars are at high risk of caries and breakdown if unmanaged. With active prevention and restoration, the teeth can be maintained until natural exfoliation. The signal value of HSPM for the permanent dentition is the more important long-term consideration: arrange follow-up to assess the first permanent molars at eruption.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "HSPM is a developmental defect of dental enamel that shares features with MIH. Also known as 1° molar hypomineralization. It may lead to post-eruptive breakdown and 2° caries. Recent studies suggest it is a predictor that MIH may be more likely to occur in the permanent dentition.",
+          "paragraph": 1231,
+          "source": "Oxford Handbook · paragraph 1231 (hypomineralised second primary molars)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-013",
+      "description": "A child's tooth looks unusually wide or doubled — two crowns, or a single crown much wider than the tooth on the other side.",
+      "conditionName": "Double teeth (gemination / fusion)",
+      "prevalence": "uncommon",
+      "etiology": "Two distinct mechanisms produce the same clinical appearance. **Gemination** occurs by partial splitting of a single tooth germ, producing a wide or bifid crown from one root [1]. **Fusion** occurs when two separate tooth germs merge [2]. Fusion can involve two teeth from the normal series, or — less commonly — a normal tooth and a supernumerary [2]. So counting the total number of teeth in the arch will not always reveal the correct mechanism: a fused tooth that includes a supernumerary still leaves the tooth count normal [2].",
+      "presentation": "A tooth that is noticeably wider than its counterpart on the other side, or a tooth with an obvious groove down the crown suggesting two joined crowns. The condition affects both primary and permanent dentitions [3]. The parent may notice the unusual shape when the tooth erupts. There is usually no associated pain unless secondary caries has developed in the groove between the joined crowns.",
+      "results": "- **Clinical examination**: wide or bifid crown. A deep groove or cleft running down the centre of the crown is a common finding.\n- **Radiograph**: determines whether one or two pulp chambers and root canals are present — this drives treatment planning. If separate pulp chambers exist, separation may be possible; if a single chamber exists, separation risks pulp exposure.",
+      "definingCharacteristics": "The distinction between gemination (one germ, split) and fusion (two germs, joined) is, as the source notes, really only of academic interest — the clinical management is the same [3]. The term **double teeth** covers both. In primary teeth, the main concern is whether the condition affects the tooth count and thus the space available for permanent successors: a fused primary tooth involving a supernumerary may have two permanent successors competing for one space [2].",
+      "treatment": "Rx for aesthetics should be delayed to allow pulpal recession [4]. Here's the sequence once the pulp has receded:\n\n- If separate pulp chambers and root canals: surgical separation can be considered [4].\n- If fused with a supernumerary: extract the supernumerary component [4].\n- If a single shared pulp chamber: the tooth can be contoured to resemble two separate teeth, or the bulk of the crown can be reduced [4].\n- For caries prevention in the primary dentition: apply fissure sealant to the groove between the joined crowns — it is a plaque trap.",
+      "prognosis": "Generally good with appropriate management. The main complication is caries developing in the interlobular groove. Space implications for the permanent dentition depend on whether a supernumerary is involved and whether the successor count is affected.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This occurs by partial splitting of a tooth germ.",
+          "paragraph": 1257,
+          "source": "Oxford Handbook · paragraph 1257 (gemination)"
+        },
+        {
+          "id": 2,
+          "quote": "Fusion occurs as a result of the fusion of two tooth germs. As fusion can take place between either two teeth of the normal series or, less commonly, with a $ tooth, then counting the number of teeth will not always give the correct aetiology.",
+          "paragraph": 1259,
+          "source": "Oxford Handbook · paragraph 1259 (fusion)"
+        },
+        {
+          "id": 3,
+          "quote": "As the distinction is really only of academic interest, the term 'double teeth' is to be preferred. Both 1° and 2° teeth may be affected and a wide variation in presentation is seen. The prevalence in the 2° dentition is 0.1–0.2%.",
+          "paragraph": 1260,
+          "source": "Oxford Handbook · paragraph 1260 (double teeth)"
+        },
+        {
+          "id": 4,
+          "quote": "Rx for aesthetics should be delayed to allow pulpal recession. If the tooth has separate pulp chambers and root canals, separation can be considered. If it is due to fusion with a $ tooth, the $ portion can be extracted. Where a single pulp chamber exists, sometimes the tooth can be contoured to resemble two separate teeth or the bulk of the crown reduced.",
+          "paragraph": 1262,
+          "source": "Oxford Handbook · paragraph 1262 (treatment of double teeth)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-014",
+      "description": "A non-vital primary molar — already treated or presenting with inter-radicular lucency — where pulpotomy is no longer appropriate.",
+      "conditionName": "Non-vital primary molar pulp (pulpectomy indication)",
+      "prevalence": "common",
+      "etiology": "Pulp death in a primary molar follows the same caries-driven continuum as pulpitis, but the pulp has been overwhelmed. Bacteria proliferate in the necrotic tissue, diffuse through radicular foramina and the thin accessory furcation canals, and produce inter-radicular bone destruction [1]. The result is a tooth with no bleeding from the pulp stumps at surgery — confirming non-vitality — and typically some degree of inter-radicular pathology visible radiographically [1].\n\nThe complex ribbon-shaped root canal morphology of primary molars makes pulpectomy technically demanding, but it is the treatment of choice when conditions are favourable [2].",
+      "presentation": "The child may present with a chronic sinus (parulis), recurrent swelling, or be entirely asymptomatic — pulp death can be silent. Often identified incidentally on a radiograph showing inter-radicular radiolucency. A tooth that bled profusely at a pulpotomy attempt — indicating severe radicular inflammation — may also be redirected to pulpectomy or extraction [3].",
+      "results": "- **Pulpotomy findings that indicate non-vital technique**: no bleeding from radicular pulp stumps after coronal pulp removal (necrotic pulp) [1], or profuse uncontrollable haemorrhage suggesting more severe inflammation of the radicular pulp [3].\n- **Radiograph**: inter-radicular radiolucency, widening of the PDL space, or early pathological root resorption.\n- **Clinical**: sinus, mobility, tenderness.",
+      "definingCharacteristics": "The critical decision point is pulpotomy vs. pulpectomy vs. extraction. Pulpotomy is only appropriate for a tooth with a vital radicular pulp. Once the pulp is necrotic — no bleeding at the pulp stumps — pulpotomy is contraindicated and the options are pulpectomy (if the tooth is worth retaining and conditions allow) or extraction [1]. Pulpectomy in a primary molar requires a resorbable root filling material so it resorbs alongside the root as the permanent successor erupts [4].",
+      "treatment": "Here's the sequence for pulpectomy [4, 5]:\n\n- LA and rubber dam.\n- Remove necrotic pulp; locate and file canals; irrigate with sodium hypochlorite 0.1%.\n- Cleanse to within 2–3 mm of the apex — do not extend beyond.\n- If infection is present: two-stage approach, leaving non-setting calcium hydroxide in the canals for 1–2 weeks before filling [6].\n- Fill canal with plain ZOE paste, non-setting calcium hydroxide, or iodoform paste (e.g. Vitapex®) — resorbable material is essential [4].\n- Restore with SS crown.\n- Arrange clinical and radiographic review.\n\nIf conditions are unfavourable or the child is uncooperative: extraction with space maintenance planning.",
+      "prognosis": "Pulpectomy success rate: >80% at 3 years [7]. Retaining the tooth preserves space for the permanent successor and avoids the need for a space maintainer. Without treatment, the inter-radicular infection will spread and eventually require extraction — at a potentially less favourable time for arch development.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Necrotic pulp (i.e. no bleeding)—proceed with non-vital technique or extract.",
+          "paragraph": 1569,
+          "source": "Oxford Handbook · paragraph 1569 (pulpotomy problems)"
+        },
+        {
+          "id": 2,
+          "quote": "A pulpectomy is often considered difficult in 1° molars because of the complexity of ribbon-shaped canals (although instrumentation is often easier than some texts might suggest). The risk of damage to the permanent successor also needs to be considered, but if conditions are favourable it is the Rx of choice for non-vital pulps. The technique can be carried out in one or two visits.",
+          "paragraph": 1572,
+          "source": "Oxford Handbook · paragraph 1572 (pulpectomy in primary molars)"
+        },
+        {
+          "id": 3,
+          "quote": "Profuse haemorrhage—indicates more serious inflammation of the radicular pulp. Intermediate dressing with Ledermix® followed by non-vital technique or extraction.",
+          "paragraph": 1570,
+          "source": "Oxford Handbook · paragraph 1570 (pulpotomy: profuse haemorrhage)"
+        },
+        {
+          "id": 4,
+          "quote": "Remove the necrotic pulp, locate and file and irrigate canals (sodium hypochlorite 0.1%). Cleanse to within 2–3mm of apex, but avoid extending beyond. Fill canal with plain ZOE paste, non-setting calcium hydroxide, or iodoform paste (e.g. Vitapex®) with a spiral filler. Restore with SS crown. Arrange clinical and radiographic review.",
+          "paragraph": 1574,
+          "source": "Oxford Handbook · paragraphs 1574–1578 (pulpectomy technique)"
+        },
+        {
+          "id": 5,
+          "quote": "LA and rubber dam.",
+          "paragraph": 1573,
+          "source": "Oxford Handbook · paragraph 1573 (pulpectomy: LA and rubber dam)"
+        },
+        {
+          "id": 6,
+          "quote": "If there is evidence of any infection a two-stage Rx is recommended, leaving non-setting calcium hydroxide in the canals for 1–2 weeks prior to filling.",
+          "paragraph": 1580,
+          "source": "Oxford Handbook · paragraph 1580 (pulpectomy: two-stage Rx)"
+        },
+        {
+          "id": 7,
+          "quote": "A success rate of >80% at 3yrs has been reported.",
+          "paragraph": 1581,
+          "source": "Oxford Handbook · paragraph 1581 (pulpectomy success rate)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-015",
+      "description": "A primary front tooth changes colour in the weeks or months after a knock — ranging from a transient pinkish-grey to a persistent dark grey.",
+      "conditionName": "Post-traumatic discolouration of a primary incisor",
+      "prevalence": "common",
+      "etiology": "Trauma disrupts the blood supply to the pulp or causes haemorrhage within the pulp chamber. The haemoglobin breakdown products stain the dentinal tubules, producing discolouration visible through the thin enamel of the primary incisor [1]. The colour and its timing carry diagnostic meaning [1].",
+      "presentation": "Parents bring the child back days to weeks after a fall, noticing the tooth has gone grey, pink, or yellow. The child may have no symptoms at all. In some cases the discolouration is first noticed at a routine follow-up appointment [1].",
+      "results": "- **Early grey/reddish discolouration**: appearing in the first few days to weeks post-trauma — pulp may still be vital; discolouration potentially reversible [1].\n- **Later grey discolouration**: appearing weeks to months after the injury — indicates pulp necrosis [1]. Look for accompanying signs: sinus, swelling, radiographic inter-radicular lucency.\n- **Yellow discolouration**: suggests calcification (obliteration) of the pulp canal — no treatment required if the tooth is clinically asymptomatic and radiographically normal [1].\n- **Radiograph**: essential at each follow-up. Signs of infection (inter-radicular radiolucency, widening of PDL space) require active treatment regardless of symptoms.",
+      "definingCharacteristics": "The three-colour rule from the source is the diagnostic framework [1]: early grey/pink = possibly reversible; late grey = necrosis until proven otherwise; yellow = calcification, benign if asymptomatic. The key differentiator for late grey discolouration vs. calcification is the presence or absence of infection signs. Discoloured teeth without infection signs can be monitored and do not require root canal treatment [1].",
+      "treatment": "The goal is to distinguish necrosis with infection from calcification or reversible change.\n\n- **Yellow discolouration, no infection signs**: no treatment required [1]. Reassure and monitor.\n- **Grey discolouration, no clinical or radiographic infection signs**: monitor; record colour at each visit [1].\n- **Grey discolouration with infection signs** (sinus, swelling, inter-radicular lucency): RCT or extraction [1].\n- Review intervals: 6-weekly or as per IADT follow-up schedule post-trauma.",
+      "prognosis": "Early grey/reddish: often resolves without intervention [1]. Established grey with infection: treated by pulpectomy or extraction — the sooner the better to protect the permanent successor. Yellow/calcification: no adverse sequelae anticipated if infection is absent [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "If tooth becomes grey/reddish in early post-trauma period, pulp may be vital and discoloration reversible. Greying later indicates pulp necrosis. Yellowing of tooth is suggestive of calcification of pulp—no Rx required.",
+          "paragraph": 1679,
+          "source": "Oxford Handbook · paragraphs 1679–1680 (post-traumatic discolouration)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-016",
+      "description": "A primary tooth feels solid and immovable after a knock — it sits below the occlusal level and does not wiggle at all, even years later.",
+      "conditionName": "Traumatic ankylosis of a primary tooth",
+      "prevalence": "uncommon",
+      "etiology": "Trauma damages the periodontal ligament, triggering a repair process in which bone replaces the PDL. The root fuses directly to alveolar bone [1]. What happens is that the PDL's shock-absorbing and resorptive function is lost at the ankylosed site, so the tooth cannot be displaced by normal physiological forces and eventually becomes submerged as the alveolus grows around it. This is distinct from the developmental ankylosis seen in infraoccluded primary molars (primary-dentition-007), where the cause is a resorptive cycle failure rather than trauma.",
+      "presentation": "History of trauma to the tooth, typically weeks to months earlier. The tooth has not re-erupted to its previous position. On examination: no mobility, dull percussion note. The tooth may be progressively infraoccluding if alveolar growth continues around it.",
+      "results": "- **Percussion**: solid, dull 'thud' — no PDL shock absorption [1].\n- **Mobility**: absent.\n- **Radiograph**: loss of the normal PDL space, bony fusion at the ankylosed site.\n- Confirm that the permanent successor is present and in a normal position.",
+      "definingCharacteristics": "Traumatic ankylosis differs from physiological infraocclusion by history: there is a prior trauma event, and the tooth was mobile before and became immobile after. The risk is the same as for developmental ankylosis — if the tooth submerges below the contact point, adjacent teeth will tip. The key consequence for primary incisors is different from primary molars: an ankylosed primary incisor may prevent or deflect eruption of the permanent successor [1].",
+      "treatment": "Extract to prevent displacement of the permanent incisor successor [1]. The goal is to remove the physical obstruction before the permanent tooth has committed to an abnormal eruption path.",
+      "prognosis": "Once the ankylosed tooth is extracted, the permanent successor usually erupts without further intervention. Delay carries the risk of ectopic or blocked eruption of the permanent tooth [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Rx: extraction to prevent displacement of 2° incisor.",
+          "paragraph": 1682,
+          "source": "Oxford Handbook · paragraph 1682 (traumatic ankylosis of primary tooth)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-017",
+      "description": "A child's dental midline has shifted to one side, or crowding has worsened, after a primary tooth was extracted earlier than expected.",
+      "conditionName": "Space loss after premature primary tooth loss",
+      "prevalence": "common",
+      "etiology": "When a primary canine or first primary molar is lost early, the adjacent teeth drift into the gap. In a crowded arch, this is the mechanism by which localised crowding escalates into a centre-line discrepancy or blocked permanent teeth [1]. The effect is greatest when: the arch is crowded to start with, the loss is unilateral, and the extraction is of a canine [1].\n\nUnilateral loss of a primary canine is particularly significant. The reason is that in a crowded arch, the contralateral teeth are not lost, so the arch drifts to the extraction side — producing a midline shift that often requires fixed appliances to correct [1].",
+      "presentation": "The child, or more often the parent, notices that the teeth are not straight, or that 'a gap has appeared' (which is actually the result of teeth moving into the space and the permanent tooth having nowhere to erupt). On examination: unilateral space loss or midline shift. A permanent tooth may be ectopically erupting or impacted [1].",
+      "results": "- **Clinical examination**: dental midline deviation toward the side of early extraction. Tipping of adjacent teeth.\n- **Radiograph**: OPT or anterior periapical to assess position of permanent successors and extent of space loss.\n- **Study models**: useful to quantify space discrepancy.",
+      "definingCharacteristics": "The key distinction from normal developmental arch changes is the asymmetry: unilateral space loss producing a centre-line shift is not a normal finding and indicates a specific extraction event [1]. Loss of primary Es causes the first permanent molar to migrate forward — especially marked if the E is lost before the permanent first molar has erupted [1].",
+      "treatment": "Prevention is better than cure [1]. Here's the approach:\n\n- **Before extraction**: if loss of a canine or first molar is unavoidable in a crowded mouth, discuss balancing and compensating extractions with the family or refer for orthodontic opinion before proceeding.\n- **Balancing extraction**: extract the equivalent tooth on the opposite side to preserve symmetry [2].\n- **Compensating extraction**: extract the equivalent tooth in the opposing arch [3].\n- **Space maintainer**: if a primary molar is lost early and the permanent first molar has already erupted, a band-and-loop space maintainer can prevent forward migration.\n- Loss of primary canines should always be balanced [1].\n- If Es are to be extracted: defer until after the permanent first molars are in occlusion where possible, and do not balance or compensate [1].",
+      "prognosis": "If managed early with balancing or space maintenance, the permanent dentition can erupt with acceptable alignment. Once significant centre-line shift has occurred, correction typically requires fixed appliances [1]. Late discovery of severe space loss may necessitate permanent tooth extractions in the permanent dentition that could have been avoided.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Unfortunately, when a child attends with toothache, in the rush to relieve pain it is all too easy to extract the offending tooth without consideration of the consequences. The major effect of early 1° tooth loss is localization of crowding, in crowded mouths. The extent to which this occurs depends upon the patient's age, the degree of crowding, and the site. In a crowded mouth, the adjacent teeth will move round into the extraction space, therefore, unilateral loss of a C (and to a lesser degree a D) will result in a centre-line shift. This is also seen when a C is prematurely exfoliated by an erupting 2. As correction of a centre-line discrepancy often involves FAs, prevention is better than cure, so loss of Cs should always be balanced. If Es are lost, the 6 will migrate forward. This is particularly marked if it occurs before eruption of the permanent tooth, so if extraction of an E is unavoidable try to defer until after the 6s are in occlusion and do not balance or compensate.",
+          "paragraph": 2183,
+          "source": "Oxford Handbook · paragraph 2183 (effects of premature loss of primary teeth)"
+        },
+        {
+          "id": 2,
+          "quote": "Extraction of the same (or adjacent) tooth on the opposite side of the arch to preserve symmetry.",
+          "paragraph": 2189,
+          "source": "Oxford Handbook · paragraph 2189 (balancing extraction)"
+        },
+        {
+          "id": 3,
+          "quote": "Extraction of the same tooth in the opposing arch.",
+          "paragraph": 2191,
+          "source": "Oxford Handbook · paragraph 2191 (compensating extraction)"
+        }
+      ]
+    },
+    {
+      "id": "primary-dentition-018",
+      "description": "A very young child loses multiple primary front teeth spontaneously — the teeth appear to fall out with intact roots and no history of trauma or significant caries.",
+      "conditionName": "Hypophosphatasia (premature exfoliation)",
+      "prevalence": "rare",
+      "etiology": "Hypophosphatasia is a metabolic disorder affecting cementum formation. Aplasia of cementum means the tooth root has no structural cementum layer and therefore no proper attachment into the periodontal ligament [1]. Without cementum, Sharpey's fibres cannot embed and the PDL anchor does not exist — so teeth exfoliate with minimal provocation, leaving an intact root.",
+      "presentation": "Multiple primary teeth — most characteristically the primary incisors — lost before age 3, with no preceding caries and no relevant trauma. The teeth, when inspected, have intact roots with no physiological resorption. Parents are alarmed by the apparently spontaneous tooth loss. Systemic features of the metabolic disorder (skeletal abnormalities, rachitic bone changes) may be present in more severe forms.",
+      "results": "- **Serum alkaline phosphatase**: low — the biochemical hallmark of hypophosphatasia [1].\n- **Radiograph**: intact roots, no physiological resorption, no inter-radicular radiolucency to explain infection-driven loss.\n- **Histology of extracted tooth** (if done): cementum aplasia confirmed on the root surface.",
+      "definingCharacteristics": "The defining feature is **cementum aplasia** producing exfoliation with intact roots, in a child with low alkaline phosphatase [1]. This separates it from: leukaemia or neutropenia (where abnormal PDL attachment is immune-mediated, systemic features are haematological, and alkaline phosphatase may be elevated or normal); and from trauma or caries-driven early loss (where root resorption or carious destruction explains the tooth loss). Hypophosphatasia is rare but important to recognise because the metabolic diagnosis has implications far beyond the teeth.",
+      "treatment": "Refer urgently to paediatric medicine once the biochemical abnormality is confirmed [1]. Dental management is supportive: space maintenance where possible, dentures for aesthetics and function if multiple teeth are lost, and liaison with the paediatric team for ongoing care. No specific local dental treatment reverses the cementum aplasia.",
+      "prognosis": "Depends on the severity of the underlying metabolic disorder. Mild (odonto-hypophosphatasia) affects mainly the primary dentition — the permanent dentition is less severely affected in some patients. Severe forms involve skeletal, pulmonary, and neurological complications with a far more guarded systemic prognosis.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Hypoplasia and aplasia of cementum are uncommon. The latter occurs in hypophosphatasia and results in premature exfoliation.",
+          "paragraph": 1250,
+          "source": "Oxford Handbook · paragraph 1250 (cementum disturbances / hypophosphatasia)"
+        }
+      ]
     }
   ]
 }
