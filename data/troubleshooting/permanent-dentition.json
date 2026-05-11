@@ -530,8 +530,377 @@
           "source": "Oxford Handbook · paragraphs 1811–1812"
         }
       ]
-    }
-    ,
+    },
+    {
+      "id": "permanent-dentition-011",
+      "description": "A dark-stained, hard patch on an enamel or dentine surface that has stopped progressing. No pain. Often found on a surface where plaque accumulation has reduced.",
+      "conditionName": "Arrested caries",
+      "prevalence": "common",
+      "etiology": "Caries arrests when the balance shifts from demineralisation to remineralisation and the lesion becomes inactive [1]. What happens is that a change in the local environment — improved oral hygiene, dietary change, fluoride exposure, or better saliva access — tips conditions away from acid attack and allows mineral ions to redeposit [1].",
+      "presentation": "The surface is darkly stained: arrested dentine caries appears hard or leathery and is darker in colour than soft, yellow, active decay [1]. Arrested enamel caries stains dark brown [1]. No pain. The patient usually doesn't know it's there.",
+      "results": "On examination the surface is firm, dark, and resists a probe. No cavitation progressing. A bitewing radiograph can be used to track stability over serial examinations — a lesion unchanged over time supports the arrested diagnosis.",
+      "definingCharacteristics": "The key is the texture and colour contrast with active caries: hard or leathery, dark brown or black, not the soft yellow of progressing decay [1]. Active lesions are soft and light-coloured; arrested lesions are hard and darkly stained [1].",
+      "treatment": "The goal is to maintain the arrested state. Reinforce the behaviours that led to arrest: dietary advice, oral hygiene instruction, and topical fluoride to consolidate remineralisation [2]. Restoration is not necessarily required if the lesion is fully arrested and accessible for cleaning.",
+      "prognosis": "Stable lesions can remain inactive indefinitely provided the aetiological factors stay controlled [1]. If conditions change — diet worsens, oral hygiene drops, saliva reduces — the lesion can reactivate.",
+      "citations": [
+        { "id": 1, "quote": "Under favourable conditions a lesion may become inactive and even regress. Clinically, arrested dentine caries has a hard or leathery consistency and is darker in colour than soft, yellow, active decay. Arrested enamel caries can be stained dark brown.", "paragraph": 549, "source": "Oxford Handbook · paragraph 549" },
+        { "id": 2, "quote": "With gingival recession, root dentine is exposed to carious attack. Rx requires, first, control of the aetiological factors and for most patients this involves dietary advice and oral hygiene instruction (OHI). Topical fluoride may aid remineralization and prevent new lesions developing.", "paragraph": 560, "source": "Oxford Handbook · paragraph 560" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-012",
+      "description": "A soft, active lesion on an exposed root surface in an older patient, running along the gingival margin where the gum has receded.",
+      "conditionName": "Root surface caries",
+      "prevalence": "common",
+      "etiology": "Root caries depends on gingival recession exposing the root dentine — so it occurs predominantly in the over-40s age group [1]. Dentine has a critical pH below that of enamel, which means it is directly vulnerable to acid attack the moment it is exposed [1]. Salivary gland disease, medications, and radiotherapy all reduce buffering capacity and can trigger root caries; long-term sugar-based medications are also a contributing factor [1].",
+      "presentation": "What you'll see is a soft, active lesion running along the cervical margin of a tooth with visible root exposure. The lesion is often shallow and wide rather than deep. The patient may report sensitivity at the gumline. In arrested root caries the surface is hard and dark rather than soft and yellow.",
+      "results": "The lesion is found on exposed root surfaces, is soft on probing, and often has a light yellow-brown colouration when active. Arrested root caries is hard and darker. Bitewing or periapical radiograph shows the root surface and any deeper involvement. Vitality testing is typically positive unless decay has progressed pulpally.",
+      "definingCharacteristics": "Root caries is anatomically distinct from coronal caries: it starts at or below the cemento-enamel junction on exposed root dentine, and gingival recession is a prerequisite [1]. The thing is, dentine's critical pH is lower than enamel's, making it inherently more vulnerable once uncovered [1].",
+      "treatment": "Control the aetiological factors first: dietary advice and OHI for all patients [1]. Topical fluoride varnishes, high-fluoride toothpastes, and mouthrinses may aid remineralisation and prevent new lesions [1]. Active lesions require restoration — typically composite or a traditional or resin-modified glass ionomer cement [1].",
+      "prognosis": "With aetiological control and fluoride, lesions can arrest. Active lesions left untreated progress rapidly into dentine and can involve the pulp. Xerostomic patients are at high ongoing risk and require intensive prevention.",
+      "citations": [
+        { "id": 1, "quote": "As gingival recession is a prerequisite to root caries, it occurs predominantly in the >40yrs age group. Dentine, which has a critical pH below that of enamel, is thus directly exposed to carious attack. It is sometimes seen 2° to ↓ saliva flow (which reduces buffering capacity and may alter dietary habits) caused by salivary gland disease, drugs, or radiotherapy. Long-term sugar-based medication may also be a factor. Rx requires, first, control of the aetiological factors, and for most patients this involves dietary advice and OHI. Topical fluoride varnishes, high-fluoride toothpastes, and mouthrinses may aid remineralization and prevent new lesions developing. However, active lesions require restoration, typically with composite or a traditional/RMGIC.", "paragraph": 3746, "source": "Oxford Handbook · paragraph 3746" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-013",
+      "description": "Caries found deep in the pits and fissures of a back tooth — difficult to detect visually, spreading rapidly once it breaks through to dentine.",
+      "conditionName": "Pit and fissure caries",
+      "prevalence": "very-common",
+      "etiology": "The anatomy of pits and fissures provides a protected environment for plaque accumulation. The thing is, fissure caries is less affected by fluoride and oral hygiene than smooth-surface caries — so the usual preventive tools are less reliable here [1]. Once caries reaches the amelo-dentinal junction the lesion spreads laterally, undermining overlying enamel that can then suddenly fracture.",
+      "presentation": "Early fissure caries is notoriously difficult to diagnose. The fissure may appear intact on casual inspection yet already have significant subsurface involvement. In later stages a shadow under the enamel may be visible, or the enamel appears chalky. The patient is often asymptomatic until the lesion is advanced.",
+      "results": "Testing with a sharp probe is discouraged: stickiness can be due to fissure morphology rather than caries, and probing risks cavitating an intact surface [1]. Bitewing radiograph is the main adjunct for detecting extent — occlusal caries evident on bitewing should not automatically trigger excavation [1]. If marginal integrity of a sealed or restored fissure is not intact, investigate with a small round bur; if no caries is found, abort and seal [1].",
+      "definingCharacteristics": "What separates pit and fissure caries clinically is the difficulty of diagnosis and the tendency for rapid lateral spread once dentine is reached [1]. Unlike approximal caries, there is no reliable bitewing sign for early enamel-only fissure lesions. The lesion often extends further than it appears [1].",
+      "treatment": "If the tooth is sealed or restored, check the margins carefully; if intact, monitoring radiographically is initially justified [1]. If marginal integrity is not intact, investigate with a small round bur and seal if caries-free [1]. For high-risk individuals, fissure sealant is preferable to watching and waiting [1].",
+      "prognosis": "Sealed lesions that remain sealed can be monitored and may not progress. The anatomy tends to favour rapid spread once the fissure is breached [1], so the window for conservative management is shorter than on smooth surfaces.",
+      "citations": [
+        { "id": 1, "quote": "This is difficult to diagnose reliably, especially in the early stages. Testing the suspected cavity with a sharp probe is discouraged as stickiness could be due to the morphology of the fissure and the probe could encourage cavitation. The anatomy of the area also tends to favour spread of the lesion, which often occurs rapidly. As fissure caries is less affected by fluoride and oral hygiene (OH), fissure sealant (f/s) is preferable to watching and waiting particularly in high-risk individuals. Occlusal caries evident on b/w radiographs should not always be excised. If the tooth is fissure sealed or restored, check the margins very carefully, and if intact, monitoring the lesion radiographically is often justified initially. If marginal integrity is not intact, investigate the area with a small round bur. The 'cavity' can be aborted if no caries is found and the surface sealed.", "paragraph": 586, "source": "Oxford Handbook · paragraph 586" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-014",
+      "description": "Caries developing between two adjacent teeth, typically detected on a bitewing radiograph before any cavity is visible.",
+      "conditionName": "Approximal caries",
+      "prevalence": "very-common",
+      "etiology": "Approximal surfaces are among the sites on a tooth particularly prone to decay because plaque accumulates unhindered at the contact point [1]. The critical decision point is the radiographic depth of the lesion — enamel-confined versus dentine-penetrating determines whether the tooth needs operative intervention.",
+      "presentation": "Usually asymptomatic and found on routine bitewing radiograph. By the time the patient notices pain or visible breakdown, the lesion has typically already penetrated dentine. Occasionally a chalky white opacity is visible at the contact point when teeth are separated.",
+      "results": "Bitewing radiograph is the primary detection tool. The clinical situation is always more advanced than the radiographic appearance [2]. If the lesion is confined to enamel on the bitewing, institute preventive measures and keep under review [3]. If the lesion has penetrated dentine radiographically, a restoration is indicated unless serial radiographs show it is static [4]. When it is uncertain whether an approximal lesion has cavitated, an elastic orthodontic separator fitted for 3–7 days allows direct surface visualisation [5].",
+      "definingCharacteristics": "The radiographic staging is the clinical decision point here: enamel-only on bitewing means watch and prevent [3]; dentine on bitewing means restore unless static [4]. The separator technique to visualise the contact directly is specific to approximal caries — it is not used elsewhere [5].",
+      "treatment": "For enamel-confined lesions: preventive measures and monitoring [3]. For dentine-penetrating lesions: restore — typically with composite or amalgam using a matrix band and interproximal wedge. Intervention should be as conservative as possible to remove only infected dentine and restore the contact without damaging the adjacent tooth.",
+      "prognosis": "Enamel lesions managed preventively can arrest. Dentine lesions left untreated progress to pulpal involvement. Serial radiographs at appropriate intervals are the best way to detect any change in status.",
+      "citations": [
+        { "id": 1, "quote": "The sites on a tooth which are particularly prone to decay are those where plaque accumulation can occur unhindered, e.g. approximal enamel surfaces, cervical margins, and pits and fissures.", "paragraph": 551, "source": "Oxford Handbook · paragraph 551" },
+        { "id": 2, "quote": "Horizontal bitewing (b/w) radiographs are useful in the detection of approximal caries and in some instances occlusal caries. The clinical situation is more advanced than the radiographic appearance.", "paragraph": 575, "source": "Oxford Handbook · paragraph 575" },
+        { "id": 3, "quote": "If lesion is confined to enamel on b/w radiograph, institute preventive measures and keep under review.", "paragraph": 589, "source": "Oxford Handbook · paragraph 589" },
+        { "id": 4, "quote": "If lesion has penetrated dentine radiographically, a restoration is indicated unless serial radiographs show that it is static.", "paragraph": 590, "source": "Oxford Handbook · paragraph 590" },
+        { "id": 5, "quote": "If in doubt whether an approximal lesion has cavitated or not, an elastic orthodontic separator may be fitted for 3–7 days to allow surface visualization.", "paragraph": 591, "source": "Oxford Handbook · paragraph 591" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-015",
+      "description": "Rapid and severe tooth decay affecting multiple teeth in a patient who has received radiotherapy to the head and neck.",
+      "conditionName": "Radiation caries",
+      "prevalence": "uncommon",
+      "etiology": "Radiation to the head and neck for cancer treatment causes fibrosis of salivary glands, reducing salivary flow [1]. The resulting dry mouth drives patients to suck sweets to alleviate the discomfort, which compounds the caries risk substantially [1].",
+      "presentation": "Multiple teeth develop rapidly progressive caries in a patient with a history of head and neck radiotherapy. The decay often starts at the cervical margins and progresses quickly. The mouth is dry. The patient may have trismus, fibrosis, or other radiation sequelae alongside the dental disease.",
+      "results": "Clinical examination reveals multiple active lesions on surfaces not typically prone to caries in an otherwise fit adult. Bitewing and periapical radiographs demonstrate the extent. Salivary flow assessment confirms xerostomia.",
+      "definingCharacteristics": "The history of head and neck radiotherapy is the defining context — without it, this pattern of decay is not radiation caries [1]. The combination of xerostomia and frequent sugar intake to relieve the dry mouth creates conditions for simultaneous rapid decay at multiple sites [1].",
+      "treatment": "Management of radiation caries requires specialist referral [1]. Prevention before and after radiotherapy is paramount: intensive fluoride regimens, dietary advice, and saliva substitutes are the pillars. Extractions in an irradiated field carry a risk of osteoradionecrosis and should only be undertaken with specialist input.",
+      "prognosis": "Without intensive preventive management, the xerostomic patient faces progressive, generalised tooth loss. With specialist-led prevention and tight dietary control, progression can be slowed.",
+      "citations": [
+        { "id": 1, "quote": "Radiation for head and neck cancer may result in fibrosis of salivary glands and salivary flow. Patients often resort to sucking sweets to alleviate their dry mouth, which exacerbates the problem. Management of radiation caries requires specialist referral.", "paragraph": 1522, "source": "Oxford Handbook · paragraph 1522" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-016",
+      "description": "Extensive, rapidly progressing caries affecting many teeth at once, including surfaces that don't normally decay.",
+      "conditionName": "Rampant caries",
+      "prevalence": "uncommon",
+      "etiology": "Rampant caries describes extensive, rapidly progressing caries affecting many teeth in the primary and/or permanent dentition — there is no single specific definition, but the distinguishing feature is the speed and breadth of involvement [1].",
+      "presentation": "Multiple cavities across many teeth, including surfaces that are normally self-cleansing. Progression is rapid — lesions that were small at the last visit have substantially enlarged. The patient often reports pain from several teeth simultaneously.",
+      "results": "Clinical examination reveals widespread active caries. Bitewing radiographs show multiple dentine-penetrating lesions. Vitality testing of the most advanced teeth may give absent or abnormal responses where pulp involvement has occurred.",
+      "definingCharacteristics": "The distinction from ordinary high-caries-risk presentation is one of degree: many teeth, many surfaces, rapid progression, and surfaces not typically affected [1]. Identifying the driving factor — salivary dysfunction, diet, medications — is the key to management.",
+      "treatment": "Address the aetiological factors immediately alongside operative treatment. Dietary analysis and advice. Intensive fluoride: high-concentration fluoride varnish to all active lesions, prescription high-fluoride toothpaste. Interim stabilisation with glass ionomer cement rapidly arrests active lesions across multiple teeth before definitive restoration. Specialist referral if the driving cause is systemic or complex.",
+      "prognosis": "With control of the underlying aetiological factors, progression can be halted. Without it, teeth progress to irreversible pulpitis and eventual loss.",
+      "citations": [
+        { "id": 1, "quote": "A term with no specific definition, but often used to describe extensive, rapidly progressing caries affecting many teeth in the 1° &/or permanent dentition.", "paragraph": 1520, "source": "Oxford Handbook · paragraph 1520" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-017",
+      "description": "White opacities, pitting, or brown discolouration on the enamel of multiple teeth — bilateral and symmetrical — with a history of growing up in a high-fluoride area.",
+      "conditionName": "Dental fluorosis",
+      "prevalence": "uncommon",
+      "etiology": "Fluorosis occurs due to long-term excessive consumption of fluoride during tooth development [1]. It is endemic in areas with a high natural level of fluoride in the water. The underlying structural change is increased porosity in the outer third of the enamel [1]. The degree of mottling increases as the concentration of fluoride in the water supply increases [1].",
+      "presentation": "Clinically, fluorosis ranges from faint white opacities to severe pitting and discolouration [1]. Mild cases show bilateral, symmetrical white horizontal bands or flecking on the enamel following the incremental lines. Severe cases have pitting, brown staining, and structural weakness. Both dentitions are affected in proportion to the fluoride exposure during their formation.",
+      "results": "The distribution is bilateral and symmetrical, affecting all teeth that were forming during the period of fluoride exposure. Vitality is normal. No periapical pathology.",
+      "definingCharacteristics": "Fluorosis is the only enamel opacity condition that is reliably bilateral and symmetrical across multiple teeth in a pattern reflecting the timing of enamel formation [1]. The white opacities in mild fluorosis tend to follow the incremental lines of enamel. The history of high-fluoride exposure is essential context [1].",
+      "treatment": "Mild fluorosis with discolouration limited to the outer enamel layer: microabrasion is indicated [2]. Carefully isolate, clean, and dry the affected teeth; polish with a slurry of phosphoric acid mixed with pumice or a comparable commercial product. Review at 1–4 weeks once teeth have rehydrated and photograph the result [2]. More severe cases with structural breakdown may need composite veneers or crowns.",
+      "prognosis": "Mild fluorosis managed by microabrasion gives good cosmetic results reviewed over several weeks as the enamel rehydrates [2]. Severe fluorosis with structural loss requires more extensive restorative management.",
+      "citations": [
+        { "id": 1, "quote": "Fluorosis (or mottling) occurs due to a long-term excessive consumption of fluoride. It is endemic in areas with a high level of fluoride occurring naturally in the water. Clinically, it can vary from faint white opacities to severe pitting and discoloration. Histologically, it is caused by ↑ porosity in the outer third of the enamel. The degree of mottling/fluorosis ↑ as the concentration of fluoride (parts per million (ppm)) in the water supply i.", "paragraph": 619, "source": "Oxford Handbook · paragraph 619" },
+        { "id": 2, "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer. Affected teeth are carefully isolated, cleaned, and dried before 'polishing' the teeth with a slurry of either phosphoric acid (etch) mixed with pumice or a similar commercially available product (usually based on hydrochloric acid). Teeth treated in this way should be reviewed at 1–4 weeks for effect once teeth have re-hydrated and photographs taken.", "paragraph": 3865, "source": "Oxford Handbook · paragraph 3865" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-018",
+      "description": "A band of enamel defects running across the same position on several teeth, corresponding to the stage of dental development at the time of a past systemic insult.",
+      "conditionName": "Chronological hypoplasia",
+      "prevalence": "uncommon",
+      "etiology": "So called because the hypoplastic enamel occurs in a distribution directly related to the extent of tooth formation at the time of the insult [1]. The timing of the insult determines which teeth and which part of each crown is affected. Characteristically, because of its later formation, the lateral incisor is affected nearer to the incisal edge than the central incisor or canine [1].",
+      "presentation": "A horizontal band of pitting, grooving, or thin enamel runs across the crowns of multiple teeth at the same developmental level. The patient may notice cosmetic concerns or sensitivity at the affected areas. The rest of each crown enamel is normal above and below the affected zone.",
+      "results": "Clinical examination reveals the horizontal band distribution confirming a chronological origin. The affected enamel may be more porous and prone to staining. Vitality is normal unless secondary caries has progressed.",
+      "definingCharacteristics": "The defining feature is the horizontal band distribution across multiple teeth at the same stage of crown formation, reflecting a single systemic event during enamel matrix formation [1]. The lateral incisor being affected nearer the incisal edge than the centrals confirms the developmental timing sequence [1].",
+      "treatment": "Small hypoplastic areas can be fissure-sealed or restored conventionally [2]. More severely affected teeth may require crowning. Stainless steel crowns can be used as a semi-permanent measure in children [2]. Microabrasion may help if discolouration is limited to the outer enamel layer [3].",
+      "prognosis": "The insult is past and no further hypoplasia develops. The clinical challenge is preventing secondary caries in the porous or deficient enamel and managing sensitivity.",
+      "citations": [
+        { "id": 1, "quote": "So called because the hypoplastic enamel occurs in a distribution related to the extent of tooth formation at the time of the insult. Characteristically, due to its later formation, 2 is affected nearer to the incisal edge than 1 or 3.", "paragraph": 1213, "source": "Oxford Handbook · paragraph 1213" },
+        { "id": 2, "quote": "Small areas of hypoplasia can be fissure-sealed or restored conventionally, but more severely affected teeth may require crowning. Stainless steel (SS) crowns can be used in children as a semi-permanent measure.", "paragraph": 1218, "source": "Oxford Handbook · paragraph 1218" },
+        { "id": 3, "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer.", "paragraph": 3865, "source": "Oxford Handbook · paragraph 3865" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-019",
+      "description": "Pitted, grooved, or thinned enamel on one or more teeth — the normal smooth enamel surface is structurally disrupted.",
+      "conditionName": "Enamel hypoplasia",
+      "prevalence": "uncommon",
+      "etiology": "Caused by a disturbance in enamel matrix formation [1]. The result is enamel that is structurally deficient in volume rather than just mineral content — pitted, grooved, or thinned. Most disturbances of enamel formation produce both hypoplasia and hypomineralisation, but clinically one type usually predominates [2]. Hypocalcification produces enamel that is white, yellow, or brown and opaque, may become more discoloured post-eruptively, and is weak and prone to breakdown [2].",
+      "presentation": "Pitting, grooving, or thinning of the enamel surface, visible on inspection. The teeth may be sensitive. Associated discolouration depends on whether hypomineralisation is also present: affected enamel appears white, yellow, or brown and opaque [2]. Breakdown can occur post-eruptively as structurally weakened enamel cannot withstand occlusal or erosive forces.",
+      "results": "Clinical examination identifies the enamel defect. Vitality is normal unless secondary caries has developed. Radiograph shows the extent of any structural deficiency and rules out pulpal involvement.",
+      "definingCharacteristics": "Hypoplasia is characterised by a quantity deficiency (thinned or absent enamel), whereas hypomineralisation is a quality deficiency (normal thickness, reduced mineral) [1][2]. In practice the two co-exist, but the predominant clinical appearance separates them.",
+      "treatment": "Treatment depends on extent and severity [3]. Small areas: fissure seal or conventional restoration. Severely affected posterior teeth may need crowning; stainless steel crowns serve as a semi-permanent solution in children [3]. Microabrasion for outer-layer discolouration limited to the enamel surface [4].",
+      "prognosis": "Stable once eruption is complete — no new hypoplasia develops. The main risks are secondary caries in pitted enamel and progressive breakdown if the structural deficiency is severe.",
+      "citations": [
+        { "id": 1, "quote": "Caused by disturbance in matrix formation and is characterized by pitted, grooved, or thinned enamel.", "paragraph": 1197, "source": "Oxford Handbook · paragraph 1197" },
+        { "id": 2, "quote": "Hypocalcification is a disturbance of calcification. Affected enamel appears white, yellow, or brown and opaque. May become more discoloured post-eruptively. Affected enamel may be weak and prone to breakdown. Most disturbances of enamel formation will produce both hypoplasia and hypomineralization, but clinically one type usually predominates.", "paragraph": 1199, "source": "Oxford Handbook · paragraph 1199" },
+        { "id": 3, "quote": "Small areas of hypoplasia can be fissure-sealed or restored conventionally, but more severely affected teeth may require crowning. Stainless steel (SS) crowns can be used in children as a semi-permanent measure.", "paragraph": 1218, "source": "Oxford Handbook · paragraph 1218" },
+        { "id": 4, "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer.", "paragraph": 3865, "source": "Oxford Handbook · paragraph 3865" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-020",
+      "description": "Abnormal-looking enamel on many or all teeth — may be thin, pitted, rough, opaque white, honey-coloured, or prone to rapid chipping — affecting both primary and permanent dentitions.",
+      "conditionName": "Amelogenesis imperfecta",
+      "prevalence": "very-uncommon",
+      "etiology": "A group of inherited disorders of enamel formation. Mutations in at least 15 different genes are associated with amelogenesis imperfecta, with commonly affected genes including AMELX, ENAM, AMBN, KLK4, and MMP20 [1]. Main subtypes: hypoplastic (enamel may be thin, smooth or rough, or pitted; most commonly autosomal dominant [2]); hypocalcified (enamel dull, lustreless, opaque white, honey, or brown coloured; may break down rapidly in severe cases; sensitivity and calculus increased [3]); and hypomaturation (mottled or frosty-looking white opacities, sometimes confined to the incisal third — 'snow-capped teeth' [4]).",
+      "presentation": "Both primary and secondary dentitions are affected, and all teeth are usually involved [5]. The clinical picture varies widely across subtypes — from mild discolouration to severely deficient enamel broken down across most of the dentition [5]. Sensitivity is common, particularly in the hypocalcified type [3].",
+      "results": "Clinical examination reveals the full extent of enamel involvement across all teeth. Radiographs may show reduced enamel density or contrast in hypomineralised subtypes. Enamel-renal syndrome (FAM20A gene mutation) is a rare subtype with associated nephrocalcinosis: clinical features include intra-pulpal calcification, hyperplastic dental follicles, delayed eruption, and gingival hyperplasia — suspected cases need genetic confirmation and renal investigation [6].",
+      "definingCharacteristics": "The distinction from MIH is that amelogenesis imperfecta affects all teeth in both dentitions, not just first molars and incisors [5]. Fluorosis produces symmetrical white mottling but not the breakdown or near-absent enamel of severe hypocalcified or hypoplastic subtypes. Enamel-renal syndrome is the rare hypoplastic subtype warranting renal referral alongside dental management [6].",
+      "treatment": "Seek specialist advice for all but the mildest forms [5]. In more severe cases, stainless steel crowns and composite resin can be used to maintain molars and permanent incisors prior to more permanent restorations when the child is older [5]. Early recognition is important to prevent rapid tooth wear [7].",
+      "prognosis": "Without early protective restorations, rapid and severe tooth wear leads to loss of vertical dimension and extensive dentine exposure [7]. With appropriate restorative management, the dentition can be preserved, though lifelong restorative needs are the norm for moderate to severe cases.",
+      "citations": [
+        { "id": 1, "quote": "Many classifications exist, but generally these are classified by the type of enamel defect &/or the mode of inheritance. There are now known to be mutations in at least 15 different genes that are associated with AI8 (commonly affected genes: AMELX, ENAM, AMBN, KLK4, MMP20).", "paragraph": 1233, "source": "Oxford Handbook · paragraph 1233" },
+        { "id": 2, "quote": "Hypoplastic—enamel may be thin (smooth or rough) or pitted. Most commonly autosomal dominant inheritance.", "paragraph": 1235, "source": "Oxford Handbook · paragraph 1235" },
+        { "id": 3, "quote": "Hypocalcified—enamel is dull, lustreless, opaque white, honey, or brown coloured. Enamel may breakdown rapidly in severe cases. Sensitivity i, calculus ↑ common. May be autosomal dominant or recessive.", "paragraph": 1236, "source": "Oxford Handbook · paragraph 1236" },
+        { "id": 4, "quote": "Hypomaturation—mottled or frosty-looking white opacities, sometimes confined to incisal third of crown ('snow-capped teeth').", "paragraph": 1237, "source": "Oxford Handbook · paragraph 1237" },
+        { "id": 5, "quote": "Usually both 1° and 2° dentitions and all the teeth are affected. The different subgroups give rise to a wide variation in clinical presentation, ranging from discoloration to soft &/or deficient enamel. It is therefore difficult to make general recommendations, but it is wise to seek specialist advice for all but the mildest forms. Rx: in more severe cases, SS crowns and composite resin can be used to maintain molars and 2° inc, prior to more permanent restorations when child is older.", "paragraph": 1238, "source": "Oxford Handbook · paragraph 1238" },
+        { "id": 6, "quote": "Enamel-renal syndrome: a rare hypoplastic AI caused by mutation of the FAM20A gene and associated with nephrocalcinosis. Suspected individuals should be referred for genetic confirmation, and if confirmed, renal investigation. Clinical features may include severely hypoplasic and discoloured enamel, semi-lunar shape of incisal edges, intra-pulpal calcification, hyperplastic dental follicles, delayed eruption, and gingival hyperplasia.", "paragraph": 1239, "source": "Oxford Handbook · paragraph 1239" },
+        { "id": 7, "quote": "Early recognition and Rx of amelogenesis and dentinogenesis imperfecta is important to prevent rapid tooth wear.", "paragraph": 1248, "source": "Oxford Handbook · paragraph 1248" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-021",
+      "description": "All the teeth have an unusual blue-brown or opalescent hue, the enamel chips off easily, and the underlying dentine wears rapidly — affecting the whole dentition in both generations of the family.",
+      "conditionName": "Dentinogenesis imperfecta (hereditary opalescent dentine)",
+      "prevalence": "very-uncommon",
+      "etiology": "More common than amelogenesis imperfecta, affecting approximately 1 in 8,000 [1]. Both primary and permanent dentitions are involved, although later-formed teeth may be less severely so [1]. Type I is associated with osteogenesis imperfecta [2]; Type II affects teeth only [3]. Osteogenesis imperfecta involves an autosomal dominant type 1 collagen defect, with multiple fractures following slight trauma and characteristic rapid but distorted healing [4].",
+      "presentation": "Affected teeth have an opalescent brown or blue hue with bulbous crowns, short roots, and narrow flame-shaped pulps [5]. The amelo-dentinal junction is abnormal, which results in the enamel flaking off and leading to rapid wear of the soft underlying dentine [5]. Children with opalescent teeth may also have brittle bone disease [6].",
+      "results": "Radiographs reveal bulbous crowns, short roots, and narrow or obliterated pulp chambers — the flame-shaped pulp pattern is characteristic [5]. If Type I is suspected, look for features of osteogenesis imperfecta: history of fractures following slight trauma, blue sclera, and deafness [4].",
+      "definingCharacteristics": "The opalescent brown or blue hue combined with rapid enamel chipping and dentine wear, and the radiographic narrow flame-shaped pulp, distinguish dentinogenesis imperfecta from amelogenesis imperfecta (enamel deficient, dentine normal) and tetracycline staining (uniform banding, not opalescent) [5]. The association with osteogenesis imperfecta in Type I adds a systemic dimension [4].",
+      "treatment": "Seek specialist input. Management follows similar lines to severe amelogenesis imperfecta [5]. Early recognition and treatment is important to prevent rapid tooth wear [7]. Protective restorations and crowns are the mainstay. If osteogenesis imperfecta is suspected, medical referral is needed.",
+      "prognosis": "Without early protective restorations, rapid and severe tooth wear leads to loss of vertical dimension and extensive dentine exposure [7]. Early and sustained specialist restorative management significantly improves the long-term outcome.",
+      "citations": [
+        { "id": 1, "quote": "This is more common, affecting 1 in 8000. Both 1° and 2° dentitions are involved, although later-formed teeth may be less so.", "paragraph": 1243, "source": "Oxford Handbook · paragraph 1243" },
+        { "id": 2, "quote": "I—associated with osteogenesis imperfecta.", "paragraph": 1244, "source": "Oxford Handbook · paragraph 1244" },
+        { "id": 3, "quote": "II—teeth only.", "paragraph": 1245, "source": "Oxford Handbook · paragraph 1245" },
+        { "id": 4, "quote": "An autosomal dominant type 1 collagen defect. Multiple # following slight trauma with rapid but distorted healing is characteristic. Associated with blue sclera, deafness, and dentinogenesis imperfecta.", "paragraph": 7394, "source": "Oxford Handbook · paragraph 7394" },
+        { "id": 5, "quote": "Affected teeth have an opalescent brown or blue hue, bulbous crowns, short roots, and narrow flame-shaped pulps. The ADJ is abnormal, which results in the enamel flaking off, leading to rapid wear of the soft dentine. Rx: along similar lines as for severe amelogenesis.", "paragraph": 1246, "source": "Oxford Handbook · paragraph 1246" },
+        { "id": 6, "quote": "Children with opalescent teeth may also have brittle bone disease.", "paragraph": 1247, "source": "Oxford Handbook · paragraph 1247" },
+        { "id": 7, "quote": "Early recognition and Rx of amelogenesis and dentinogenesis imperfecta is important to prevent rapid tooth wear.", "paragraph": 1248, "source": "Oxford Handbook · paragraph 1248" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-022",
+      "description": "Excessive cementum found around the root of a tooth, making the root bulbous — an incidental finding on a periapical or panoramic radiograph.",
+      "conditionName": "Hypercementosis",
+      "prevalence": "uncommon",
+      "etiology": "Hypercementosis is relatively common and may occur in response to inflammation, mechanical stimulation, or Paget's disease, or be idiopathic [1]. The root becomes enlarged by excess cementum deposition. Concrescence — the uniting of the roots of two adjacent teeth by cementum — is a related finding [1].",
+      "presentation": "Usually an incidental radiographic finding with no symptoms from the hypercementosis itself. Occasionally the affected tooth may be difficult to extract because the bulbous root is locked into the socket.",
+      "results": "Periapical or panoramic radiograph shows the bulbous root enlargement with excess cementum [1]. Vitality testing is positive — hypercementosis does not affect pulp status. Concrescence may be identified when roots of adjacent teeth appear fused.",
+      "definingCharacteristics": "Hypercementosis is a radiographic diagnosis. The root outline extends beyond the normal taper, with a smooth, rounded enlargement [1]. In the context of Paget's disease, it appears alongside other bony changes [1]. Concrescence means the two affected teeth cannot be moved independently — a practical consequence for both orthodontics and extraction [1].",
+      "treatment": "No treatment required for hypercementosis itself [1]. The clinical consequence is that extraction may be more complex — warn the patient and plan for potential difficulty, especially if surgical extraction is anticipated.",
+      "prognosis": "Hypercementosis is a benign finding. Concrescence of adjacent teeth means extraction of one may risk the other [1].",
+      "citations": [
+        { "id": 1, "quote": "Hypoplasia and aplasia of cementum are uncommon. The latter occurs in hypophosphatasia and results in premature exfoliation. Hypercementosis is relatively common and may occur in response to inflammation, mechanical stimulation, or Paget's disease, or be idiopathic. Concrescence is the uniting of the roots of two teeth by cementum.", "paragraph": 1250, "source": "Oxford Handbook · paragraph 1250" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-023",
+      "description": "A tooth that looks like there's a tooth within a tooth — a deep invagination of the enamel on the palatal surface — typically on an upper lateral incisor.",
+      "conditionName": "Dens in dente (dens invaginatus)",
+      "prevalence": "uncommon",
+      "etiology": "A marked palatal invagination that gives the appearance of a tooth within a tooth [1]. Usually affects upper lateral incisors but can also affect premolars [1]. Where the invagination is in close proximity to the pulp, early pulp death may follow [1].",
+      "presentation": "The tooth often looks anatomically unusual — a deep pit on the palatal surface. The patient may be asymptomatic until the pulp becomes non-vital, at which point pain or a sinus may develop. The condition is often found on routine radiographs.",
+      "results": "Periapical radiograph shows the characteristic tooth-within-a-tooth appearance [1]. Vitality testing may be positive initially but can turn negative if the invagination has led to pulp necrosis. The radiographic appearance is usually diagnostic [1].",
+      "definingCharacteristics": "The radiographic tooth-within-a-tooth image is the key finding [1]. The deep palatal pit is the visual clue on examination. The reason it leads to pulp death is the close proximity of the invaginated enamel to the pulp chamber — infection can enter through the pit and track directly to the pulp [1].",
+      "treatment": "Fissure sealing of the invagination as soon as possible after eruption may prevent pulp death, but is often too late by the time the tooth is seen [1]. If the pulp is still vital, seal or restore the pit. If pulp death has already occurred: RCT (which can be difficult due to the abnormal anatomy), pulpotomy, apical surgery, or extraction [1].",
+      "prognosis": "Teeth with dens invaginatus have a guarded long-term prognosis because of the risk of early pulp necrosis. If the invagination is sealed promptly after eruption, pulp survival is possible. Once pulp death has occurred, endodontic treatment is technically demanding and outcomes variable [1].",
+      "citations": [
+        { "id": 1, "quote": "This is really a marked palatal invagination, which gives the appearance of a tooth within a tooth. Usually affects 2s, but can also affect premolars. Where the invagination is in close proximity to the pulp, early pulp death may ensue. Fissure sealing of the invagination as soon as possible after eruption may prevent this, but is often too late. Extraction may be required, other options include RCT (can be difficult), pulpotomy, and apical Rx.", "paragraph": 1269, "source": "Oxford Handbook · paragraph 1269" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-024",
+      "description": "A permanent tooth with a distorted crown or root — typically an upper central incisor — where the distortion was caused by trauma to the overlying primary tooth in early childhood.",
+      "conditionName": "Dilaceration",
+      "prevalence": "uncommon",
+      "etiology": "Dilaceration describes a tooth with a distorted crown or root [1]. It usually affects upper central incisors [1]. The traumatically induced type is caused by intrusion of the primary incisor, resulting in displacement of the developing permanent tooth germ [2]. The effects depend upon the developmental stage at the time of injury [2].",
+      "presentation": "The affected tooth may fail to erupt in its normal position, or may erupt with a visibly abnormal crown or root angulation. Parents or patients may notice the tooth is missing, erupting in the wrong place, or has an unusual shape. History of a traumatic fall in the primary dentition years earlier is common.",
+      "results": "Periapical or panoramic radiograph demonstrates the distorted root or crown form [1]. The relationship of the distorted apex to the labial plate of bone is a key planning factor [3]. Vitality testing on an erupted dilacerated tooth reflects the pulp status, not the morphological distortion.",
+      "definingCharacteristics": "The link between a primary tooth trauma and the morphological distortion of the permanent successor is the defining clinical narrative [2]. Unlike fusion or gemination (which involve two tooth germs), dilaceration affects a single tooth germ displaced by trauma at a specific developmental moment [1][2].",
+      "treatment": "Treatment depends on severity and patient cooperation [3]. If mild, expose the crown and align orthodontically — provided the apex will not be positioned against the labial plate of bone at the end of treatment; otherwise extraction is indicated [3].",
+      "prognosis": "Mild cases treated orthodontically can be aligned successfully provided the root form allows movement [3]. If the apex is positioned unfavourably relative to the labial plate, orthodontic alignment risks labial bone loss and extraction becomes the preferred option [3].",
+      "citations": [
+        { "id": 1, "quote": "This describes a tooth with a distorted crown or root. Usually affects 1s. Two types seen, dependent upon aetiology (Table 3.3).", "paragraph": 1271, "source": "Oxford Handbook · paragraph 1271" },
+        { "id": 2, "quote": "The traumatically induced type is caused by intrusion of the 1° incisor, resulting in displacement of the developing 2° incisor tooth germ. The effects depend upon the developmental stage at the time of injury.", "paragraph": 1272, "source": "Oxford Handbook · paragraph 1272" },
+        { "id": 3, "quote": "Rx: depends upon severity and patient cooperation. If mild it may be possible to expose crown and align orthodontically provided the apex will not be positioned against the labial plate of bone at the end of the Rx, otherwise extraction is indicated.", "paragraph": 1273, "source": "Oxford Handbook · paragraph 1273" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-025",
+      "description": "A hypoplastic or discoloured defect on a premolar caused by infection from the overlying primary molar — the developing permanent tooth was damaged by the primary tooth's periapical infection.",
+      "conditionName": "Turner tooth (Turner's hypoplasia)",
+      "prevalence": "uncommon",
+      "etiology": "The term describes the effect of a disturbance of enamel and dentine formation caused by infection from an overlying primary tooth [1]. It therefore usually affects premolar teeth, because these develop under primary molars prone to periapical infection in children [1].",
+      "presentation": "A single premolar (or occasionally another permanent tooth) presents with a localised area of enamel hypoplasia — pitting, discolouration, or structural deficiency on the crown. The rest of the dentition is normal. History often reveals a chronically infected or abscessed primary molar in the corresponding position.",
+      "results": "Clinical examination identifies the isolated defect on the affected tooth. Vitality testing is positive unless secondary caries has developed. Periapical radiograph may confirm the permanent tooth erupted with the defect and reveal any residual effects of the primary infection.",
+      "definingCharacteristics": "Turner tooth is almost always a single isolated tooth affected, and the localised nature is the key distinguishing feature from systemic causes of hypoplasia. The primary tooth infection is the mechanism [1]. Unlike chronological hypoplasia, only one tooth in a specific position is affected [1].",
+      "treatment": "Treatment follows the principles of hypoplasia management [1]: small defects can be fissure-sealed or restored with composite; more extensive defects may need a full coverage crown.",
+      "prognosis": "The defect is fixed and does not progress once the tooth has erupted. With appropriate restorative management the tooth can be maintained. Secondary caries in the deficient enamel is the main ongoing risk.",
+      "citations": [
+        { "id": 1, "quote": "This term is used to describe the effect of a disturbance of enamel and dentine formation by infection from an overlying 1° tooth which therefore usually affects premolar teeth. Rx: as for hypoplasia.", "paragraph": 1276, "source": "Oxford Handbook · paragraph 1276" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-026",
+      "description": "Diffuse grey-blue or brown banding across multiple teeth — present since childhood, not related to any current pathology — with a history of tetracycline use during tooth development.",
+      "conditionName": "Tetracycline intrinsic staining",
+      "prevalence": "uncommon",
+      "etiology": "Tetracycline is incorporated during tooth formation, producing a structural pigmentation of the dental hard tissues [1]. This is intrinsic staining — pigment is incorporated during formation rather than diffusing in post-eruption [1]. All teeth forming during the period of exposure are affected.",
+      "presentation": "Diffuse grey-blue or brown banding across teeth formed during the period of tetracycline exposure. The staining is uniform within a band and matches the incremental lines of enamel formation. No pain, no structural deficiency. The patient is concerned about the cosmetic appearance.",
+      "results": "Clinical examination identifies the characteristic banding pattern. The stain is intrinsic and cannot be removed by scaling or polishing. Vitality is normal. Radiographic appearance is unremarkable.",
+      "definingCharacteristics": "The intrinsic nature of the stain and the banding pattern across teeth formed at the same time are the defining features [1]. Unlike extrinsic staining, tetracycline staining is incorporated into the dental hard tissue structure and cannot be scaled away [1]. The history of tetracycline exposure during tooth formation confirms the diagnosis.",
+      "treatment": "External bleaching with carbamide peroxide in custom trays can give partial improvement for vital tetracycline-stained teeth. Veneers or crowns may be required for severe cases where bleaching is insufficient. Non-vital bleaching (walking bleach) addresses individual discoloured non-vital teeth [2].",
+      "prognosis": "Tetracycline staining is permanent without restorative intervention. Bleaching gives partial improvement at best in moderate-to-severe cases. Veneers and crowns can mask the discolouration effectively at the cost of tooth preparation.",
+      "citations": [
+        { "id": 1, "quote": "Incorporation of pigments during tooth formation, e.g. tetracycline staining (blue/brown), porphyria (red).", "paragraph": 1285, "source": "Oxford Handbook · paragraph 1285" },
+        { "id": 2, "quote": "Diffusion of pigment into hard tissues after formation, e.g. pulp necrosis products (grey), root canal medicaments (grey).", "paragraph": 1286, "source": "Oxford Handbook · paragraph 1286" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-027",
+      "description": "A previously root-canal-treated tooth has turned grey or dark, and the patient wants it lightened without a crown.",
+      "conditionName": "Discoloured root-filled tooth",
+      "prevalence": "common",
+      "etiology": "Pulp necrosis products and root canal medicaments both diffuse into dentinal tubules and cause grey discolouration of the crown [1]. The walking bleach technique provides a conservative alternative to a post-retained crown for managing this cosmetic problem [2].",
+      "presentation": "The tooth is visibly darker than its neighbours — typically grey, with depth of discolouration varying based on how long the pulp was non-vital and whether pigmented medicaments were used. No pain, no swelling. The tooth is already root-canal-treated.",
+      "results": "Clinical examination confirms the discolouration and the existing root-canal treatment. Periapical radiograph checks the adequacy of the root filling and periapical status before proceeding with internal bleaching. Vitality testing confirms non-vital status.",
+      "definingCharacteristics": "The discolouration of a root-filled tooth is intrinsic — it cannot be removed with external bleaching alone. The interesting bit is that the degree and duration of discolouration and the age of the patient do not affect the prognosis for a successful result [2]. The walking bleach technique works from inside the access cavity; vital bleaching works from outside.",
+      "treatment": "Here's the sequence for the walking bleach technique: place Orabase around the gingivae and isolate with rubber dam [3]. Open the access cavity and remove root filling to 2 mm below the gingival margin — a periodontal probe is a useful guide [4]. Place a thin layer of glass ionomer over the root filling to prevent root resorption [5]. Remove any stained dentine within the pulp chamber [6]. Clean access cavity with etchant on a pledget of cotton wool, repeat with alcohol, wash and dry [7]. Place 35% carbamide peroxide [8]. Seal with a pledget of cotton wool and glass ionomer [9]. Review after 1–2 weeks and repeat up to twice if needed [10]. Seal the access cavity permanently with a light shade of resin composite [11]. Warn the patient that there is a tendency for discolouration to recur over time — over-bleach to account for this [2].",
+      "prognosis": "The technique usually achieves an improvement in shade rather than a perfect result [2]. Discolouration may recur over time [2]. If internal bleaching is insufficient, a veneer or crown is the next option.",
+      "citations": [
+        { "id": 1, "quote": "Diffusion of pigment into hard tissues after formation, e.g. pulp necrosis products (grey), root canal medicaments (grey).", "paragraph": 1286, "source": "Oxford Handbook · paragraph 1286" },
+        { "id": 2, "quote": "This provides a conservative alternative to a post-retained crown for the discoloured root-filled tooth. However, it usually only achieves an improvement in shade. There is a tendency for the discoloration to recur over time, therefore warn the patient and over-bleach. Interestingly, it has been shown that the degree and duration of discoloration and the age of the patient do not affect the prognosis for a successful result.", "paragraph": 3851, "source": "Oxford Handbook · paragraph 3851" },
+        { "id": 3, "quote": "Place Orabase® around gingivae of tooth to be treated and isolate with rubber dam.", "paragraph": 3853, "source": "Oxford Handbook · paragraph 3853" },
+        { "id": 4, "quote": "Open access cavity and remove root filling to 2mm below gingival margin (a perio probe is a useful guide).", "paragraph": 3854, "source": "Oxford Handbook · paragraph 3854" },
+        { "id": 5, "quote": "Place thin layer of GI over root filling to prevent root resorption.", "paragraph": 3855, "source": "Oxford Handbook · paragraph 3855" },
+        { "id": 6, "quote": "Remove any stained dentine within pulp chamber.", "paragraph": 3856, "source": "Oxford Handbook · paragraph 3856" },
+        { "id": 7, "quote": "Clean access cavity with etchant on a pledget of cotton wool and then repeat with alcohol. Wash and dry.", "paragraph": 3857, "source": "Oxford Handbook · paragraph 3857" },
+        { "id": 8, "quote": "Place 35% carbamide peroxide.", "paragraph": 3858, "source": "Oxford Handbook · paragraph 3858" },
+        { "id": 9, "quote": "Seal with a pledget of cotton wool and GI.", "paragraph": 3859, "source": "Oxford Handbook · paragraph 3859" },
+        { "id": 10, "quote": "Review after 1–2 weeks and repeat (up to 2×) if necessary.", "paragraph": 3860, "source": "Oxford Handbook · paragraph 3860" },
+        { "id": 11, "quote": "Seal access cavity permanently with a light shade of resin composite.", "paragraph": 3861, "source": "Oxford Handbook · paragraph 3861" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-028",
+      "description": "A patient undergoing home tooth whitening notices sharp sensitivity during or shortly after tray application.",
+      "conditionName": "Tooth sensitivity following whitening",
+      "prevalence": "common",
+      "etiology": "Whitening with carbamide or hydrogen peroxide products is safe and effective when used correctly [1]. The recognised potential local adverse effects include gingival irritation and tooth sensitivity [1]. Some shade rebound may occur shortly after treatment [1].",
+      "presentation": "Sensitivity is typically sharp and elicited by cold or air exposure during or shortly after whitening tray use. It may occur on multiple teeth simultaneously. It is transient and linked temporally to whitening episodes rather than representing a new pathological process.",
+      "results": "Clinical examination typically reveals no objective findings. Vitality testing is positive. No radiographic changes. The diagnosis is from the history of whitening treatment.",
+      "definingCharacteristics": "The temporal link to whitening use distinguishes this from other causes of tooth sensitivity [1]. Sensitivity resolves when whitening is paused. Under the current European Directive, products containing or releasing between 0.1% and 6% hydrogen peroxide cannot be used on anyone under 18 years of age [2], and must only be used after appropriate clinical examination to ensure no risk factors or oral pathology concerns are present [3].",
+      "treatment": "The goal is to manage the sensitivity while completing the whitening course. Pause treatment if sensitivity is severe. Use desensitising toothpaste during and after whitening. Reduce tray wear time or concentration if possible. Products must only be used by or under the direct supervision of a regulated dental professional [4].",
+      "prognosis": "Tooth sensitivity following whitening is transient and self-limiting once whitening is stopped or reduced [1]. Some shade rebound is expected after completion [1].",
+      "citations": [
+        { "id": 1, "quote": "Tooth whitening (bleaching) provides a non-invasive solution for mild to moderately discoloured vital or root-filled teeth. It is safe and effective provided it is used properly. Potential local adverse effects include gingival irritation and tooth sensitivity. Some shade rebound may occur shortly after Rx.", "paragraph": 3824, "source": "Oxford Handbook · paragraph 3824" },
+        { "id": 2, "quote": "Products containing or releasing between 0.1% and 6% hydrogen peroxide cannot be used on any person under 18yrs of age.", "paragraph": 3827, "source": "Oxford Handbook · paragraph 3827" },
+        { "id": 3, "quote": "Products containing between 0.1% and 6% hydrogen peroxide should only be used after appropriate clinical examination to ensure there are no risk factors or oral pathology concerns.", "paragraph": 3828, "source": "Oxford Handbook · paragraph 3828" },
+        { "id": 4, "quote": "Whitening is the practice of dentistry and that it should only be undertaken by regulated dental professionals.", "paragraph": 3826, "source": "Oxford Handbook · paragraph 3826" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-029",
+      "description": "Cervical resorption lesions develop on a root-filled tooth following internal bleaching — a pink spot near the gum, or an incidental radiographic finding of root surface loss.",
+      "conditionName": "Cervical resorption following non-vital bleaching",
+      "prevalence": "uncommon",
+      "etiology": "Thermocatalytic bleaching techniques — where the hydrogen peroxide is heated within the pulp chamber — are associated with the development of cervical resorption lesions [1]. This is why thermocatalytic techniques should no longer be used [1].",
+      "presentation": "Cervical resorption may present as a pink spot visible through the enamel at the cervical margin, or may be an incidental radiographic finding. The affected tooth is non-vital and root-filled. The lesion is at the cervical root level.",
+      "results": "Periapical radiograph shows the resorptive defect at the cervical root level. A glass ionomer barrier placed over the root filling at 2 mm below the gingival margin during the walking bleach technique is specifically intended to protect the root surface and prevent this complication [2].",
+      "definingCharacteristics": "The specific association with thermocatalytic bleaching technique is the defining feature [1]. This is an iatrogenic complication of heating hydrogen peroxide in the pulp chamber — a risk that the walking bleach technique (without heat) eliminates [1].",
+      "treatment": "Thermocatalytic techniques should no longer be used [1]. For the walking bleach technique, place a thin layer of glass ionomer over the root filling at 2 mm below the gingival margin before placing the bleaching agent — this barrier prevents root resorption [2].",
+      "prognosis": "Established cervical resorption lesions require specialist management. Prevention is the key: avoiding thermocatalytic bleaching eliminates this particular risk entirely [1].",
+      "citations": [
+        { "id": 1, "quote": "Thermocatalytic techniques, where the hydrogen peroxide is heated within the pulp chamber, should no longer be used, as they are associated with the development of cervical resorption lesions.", "paragraph": 3863, "source": "Oxford Handbook · paragraph 3863" },
+        { "id": 2, "quote": "Place thin layer of GI over root filling to prevent root resorption.", "paragraph": 3855, "source": "Oxford Handbook · paragraph 3855" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-030",
+      "description": "A white spot or opacity on the enamel surface — post-orthodontic, fluorosis-related, or from a localised developmental insult — where the discolouration is limited to the outer enamel layer.",
+      "conditionName": "Localised enamel white-spot lesion (post-orthodontic / fluorosis / localised hypoplasia)",
+      "prevalence": "common",
+      "etiology": "White-spot lesions with discolouration limited to the outer enamel layer are amenable to microabrasion regardless of their origin [1]. Post-orthodontic demineralisation forms at bracket margins when oral hygiene is poor during treatment. Fluorosis produces bilateral symmetrical mottling as previously described. Localised hypoplasia from infection or trauma produces isolated white or discoloured areas.",
+      "presentation": "A visible white or opaque area on the enamel surface, not cavitated, with tooth structure otherwise intact. The patient is concerned about the cosmetic appearance. No pain unless the surface is rough and trapping plaque.",
+      "results": "Clinical examination confirms the enamel surface is intact and the discolouration appears limited to the outer enamel. Vitality is normal. The question is whether the discolouration is limited to the outer enamel layer — this determines whether microabrasion is appropriate [1].",
+      "definingCharacteristics": "The key diagnostic question is whether discolouration is limited to the outer enamel layer, making it accessible to microabrasion [1]. Post-orthodontic demineralisation is typically at the bracket outline on the buccal surface; fluorosis is bilateral and symmetrical; localised hypoplasia follows a specific traumatic or infectious event.",
+      "treatment": "Microabrasion is the treatment of choice when discolouration is limited to the outer enamel layer [1]. Carefully isolate, clean, and dry the affected teeth. Polish with a slurry of phosphoric acid mixed with pumice, or a commercially available microabrasion product (usually based on hydrochloric acid) [1]. Review at 1–4 weeks once teeth have rehydrated and photograph the result [1].",
+      "prognosis": "Microabrasion gives good cosmetic results for outer-enamel discolouration, reviewed after rehydration [1]. If the lesion is deeper than the outer enamel, microabrasion will not fully resolve it — a composite veneer or bonding may then be required.",
+      "citations": [
+        { "id": 1, "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer. Affected teeth are carefully isolated, cleaned, and dried before 'polishing' the teeth with a slurry of either phosphoric acid (etch) mixed with pumice or a similar commercially available product (usually based on hydrochloric acid). Teeth treated in this way should be reviewed at 1–4 weeks for effect once teeth have re-hydrated and photographs taken.", "paragraph": 3865, "source": "Oxford Handbook · paragraph 3865" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-031",
+      "description": "A tooth with an unusually large pulp chamber that looks like a bull's head on the radiograph — the root is short relative to the elongated pulp space.",
+      "conditionName": "Taurodontism",
+      "prevalence": "uncommon",
+      "etiology": "Taurodontism means 'bull-like' [1]. It may occur in some types of amelogenesis imperfecta [1]. The pulp chamber is elongated apically, producing the characteristic radiographic appearance [1].",
+      "presentation": "Usually an incidental radiographic finding. The tooth has a normal clinical appearance. No symptoms arise from taurodontism itself.",
+      "results": "Radiograph shows the elongated pulp chamber that resembles a bull's head [1]. The root portion is correspondingly shorter relative to the crown. Vitality testing is positive unless there is unrelated pulp pathology.",
+      "definingCharacteristics": "The radiographic appearance is the diagnostic hallmark: the pulp chamber extends apically into the root portion of the tooth in a way that resembles a bull's head on X-ray [1]. The condition has no clinical symptoms of its own.",
+      "treatment": "No treatment is required for taurodontism itself [1]. The practical consequence is that the abnormal pulp chamber anatomy may complicate endodontic treatment or occasionally extraction — this needs to be anticipated before starting these procedures [1].",
+      "prognosis": "The condition is benign. The main practical implication is procedural difficulty if RCT or extraction is needed [1].",
+      "citations": [
+        { "id": 1, "quote": "Taurodontism means 'bull-like'. May occur in some types of AI. Radiographically an elongation of the pulp chamber is seen, which resembles a bull's head. Rx: none required, but may complicate endodontic Rx and occasionally extraction.", "paragraph": 1278, "source": "Oxford Handbook · paragraph 1278" }
+      ]
+    },
+    {
+      "id": "permanent-dentition-032",
+      "description": "Upper permanent incisors with a notched, peg-shaped form, and first permanent molars with a mulberry-like occlusal surface — in a patient with features of a congenital infection.",
+      "conditionName": "Congenital syphilis (Hutchinson incisors and mulberry molars)",
+      "prevalence": "rare",
+      "etiology": "Due to Treponema pallidum crossing the placental barrier during maternal syphilis [1]. The resulting systemic infection during tooth development produces the classical features: Hutchinson incisors (peg-shaped with a notch at the incisal edge) and mulberry (Moon) molars, alongside saddle nose, frontal bossing, and sensorineural deafness [1].",
+      "presentation": "Hutchinson incisors are peg-shaped with a notch at the incisal edge [1]. Mulberry molars have a knobbed, mulberry-like occlusal surface [1]. The patient may have the other systemic stigmata of congenital syphilis: saddle nose, frontal bossing, and sensorineural deafness [1].",
+      "results": "Clinical examination identifies the characteristic tooth morphology. Serological testing confirms the diagnosis systemically. The dental findings are part of a broader syndromic picture.",
+      "definingCharacteristics": "The combination of Hutchinson incisors and mulberry molars is pathognomonic for congenital syphilis among developmental dental anomalies [1]. The broader facial and systemic features confirm the syndromic context [1].",
+      "treatment": "The dental management addresses the morphological consequences: notched incisors and irregular molars may require restoration, build-up, or crowning for function and aesthetics. Systemic medical management is the primary treatment for the underlying infection.",
+      "prognosis": "The dental morphological changes are permanent and fixed at eruption. Management is restorative and symptomatic. Systemic prognosis depends on the underlying syphilis treatment.",
+      "citations": [
+        { "id": 1, "quote": "Due to T. pallidum crossing the placental barrier leading to the classical appearance of saddle nose, frontal bossing, sensorineural deafness, Hutchinson incisors (peg-shaped with notch), and mulberry (Moon) molars.", "paragraph": 6005, "source": "Oxford Handbook · paragraph 6005" }
+      ]
+    },
     {
       "id": "permanent-dentition-033",
       "description": "A chip off a front tooth after a knock, exposing yellow dentine beneath the broken enamel edge — sensitive to cold air or touch but the pulp is still intact.",
