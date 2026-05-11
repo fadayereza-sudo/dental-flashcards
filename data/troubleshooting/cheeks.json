@@ -438,7 +438,12 @@
       "treatment": "Excise with base [1]. Include the base in the specimen to reduce the risk of recurrence and to allow full histological assessment. Address the underlying trauma source: adjust the denture, smooth the sharp cusp.",
       "prognosis": "Excellent. Benign with no malignant potential. Recurrence is uncommon if the base is fully excised and the provoking trauma eliminated.",
       "citations": [
-        { "id": 1, "quote": "This is an over-vigorous response to low-grade recurrent trauma. May be sessile or pedunculated and ranges from small lumps to lesions covering the entire palate. Excise with base. Histology shows dense collagenous fibrous tissue lined by keratinized stratified squamous epithelium.", "paragraph": 5784, "source": "Oxford Handbook · paragraph 5784" }
+        {
+          "id": 1,
+          "quote": "This is an over-vigorous response to low-grade recurrent trauma. May be sessile or pedunculated and ranges from small lumps to lesions covering the entire palate. Excise with base. Histology shows dense collagenous fibrous tissue lined by keratinized stratified squamous epithelium.",
+          "paragraph": 5784,
+          "source": "Oxford Handbook · paragraph 5784"
+        }
       ]
     },
     {
@@ -453,7 +458,12 @@
       "treatment": "Treat or manage the underlying condition. Refer for systemic workup to exclude Crohn's, sarcoidosis, and other granulomatous diseases before committing to a purely localised diagnosis [1].",
       "prognosis": "Depends on the underlying cause. OFG confined to the mouth can be managed with dietary exclusion and local measures. Crohn's and sarcoidosis require systemic management.",
       "citations": [
-        { "id": 1, "quote": "Lumps characterized by the histological finding of granulomata may be caused by Crohn's disease or its localized variant orofacial granulomatosis, sarcoidosis, or implanted foreign bodies such as amalgam.", "paragraph": 5792, "source": "Oxford Handbook · paragraph 5792" }
+        {
+          "id": 1,
+          "quote": "Lumps characterized by the histological finding of granulomata may be caused by Crohn's disease or its localized variant orofacial granulomatosis, sarcoidosis, or implanted foreign bodies such as amalgam.",
+          "paragraph": 5792,
+          "source": "Oxford Handbook · paragraph 5792"
+        }
       ]
     },
     {
@@ -468,7 +478,12 @@
       "treatment": "Interventional radiology and surgery [1]. Refer to the appropriate specialist centre — do not attempt to excise without characterising the lesion first, as high-flow lesions carry a significant haemorrhage risk.",
       "prognosis": "Benign but persistent. Low-flow venous malformations are amenable to sclerotherapy or surgery. High-flow lesions are more challenging and require specialist intervention.",
       "citations": [
-        { "id": 1, "quote": "These are developmental lesions of blood vessels which do not regress but grow with the patient. Characterized by rate of blood flow in lesion. Rx: interventional radiology and surgery.", "paragraph": 5798, "source": "Oxford Handbook · paragraph 5798" }
+        {
+          "id": 1,
+          "quote": "These are developmental lesions of blood vessels which do not regress but grow with the patient. Characterized by rate of blood flow in lesion. Rx: interventional radiology and surgery.",
+          "paragraph": 5798,
+          "source": "Oxford Handbook · paragraph 5798"
+        }
       ]
     },
     {
@@ -483,7 +498,12 @@
       "treatment": "None required if asymptomatic: diagnose and reassure [1]. If removal is planned — cosmetically or to confirm the diagnosis — cut out as a full-thickness wedge [1]. Do not attempt shave excision: the granular fragments are embedded in the submucosal tissue.",
       "prognosis": "Entirely benign. No transformation potential. Patients can be permanently reassured once the diagnosis is confirmed.",
       "citations": [
-        { "id": 1, "quote": "Amalgam tattoo is the commonest, a localized dense blue/black area of mucosal pigmentation. May result from implantation at time of restoration or from broken filling. Radio-opaque. May be palpable but often not. Amalgam tends to become granular and fragmented and if removal is planned, cut out as full-thickness wedge. If asymptomatic, diagnose and reassure. 'Road rash' from grit after road traffic accident or graphite from pencils can cause similar lesions.", "paragraph": 6155, "source": "Oxford Handbook · paragraph 6155" }
+        {
+          "id": 1,
+          "quote": "Amalgam tattoo is the commonest, a localized dense blue/black area of mucosal pigmentation. May result from implantation at time of restoration or from broken filling. Radio-opaque. May be palpable but often not. Amalgam tends to become granular and fragmented and if removal is planned, cut out as full-thickness wedge. If asymptomatic, diagnose and reassure. 'Road rash' from grit after road traffic accident or graphite from pencils can cause similar lesions.",
+          "paragraph": 6155,
+          "source": "Oxford Handbook · paragraph 6155"
+        }
       ]
     },
     {
@@ -498,7 +518,12 @@
       "treatment": "As for minor aphthae, plus topical or systemic steroids [1]. Screen for and treat any underlying haematological or GI disorder. Consider systemic immunomodulation in severe or refractory cases.",
       "prognosis": "Major RAS is more difficult to manage than the minor form. Scarring from repeated ulceration can restrict mouth opening over time. Identifying and treating the underlying cause — where one exists — reduces severity.",
       "citations": [
-        { "id": 1, "quote": "Seen in 10% of RAS patients. A more severe and more frequent variant with fewer, but larger ulcers >10mm which may last 5–10 weeks and most commonly affect keratinized mucosa. Associated with tissue destruction and scarring, and any site in the mouth and oropharynx may be affected. There is an even higher association between major aphthae and gastrointestinal and haematological disorders. They are also seen in AIDS. Seldom a cyclical pattern. Rx: as for minor aphthae, plus topical or systemic st", "paragraph": 6061, "source": "Oxford Handbook · paragraph 6061" }
+        {
+          "id": 1,
+          "quote": "Seen in 10% of RAS patients. A more severe and more frequent variant with fewer, but larger ulcers >10mm which may last 5–10 weeks and most commonly affect keratinized mucosa. Associated with tissue destruction and scarring, and any site in the mouth and oropharynx may be affected. There is an even higher association between major aphthae and gastrointestinal and haematological disorders. They are also seen in AIDS. Seldom a cyclical pattern. Rx: as for minor aphthae, plus topical or systemic st",
+          "paragraph": 6061,
+          "source": "Oxford Handbook · paragraph 6061"
+        }
       ]
     },
     {
@@ -513,8 +538,18 @@
       "treatment": "Refer for multidisciplinary care [2]. Azathioprine, ciclosporin, and thalidomide are used in specialist settings [2]. The GDP's role is recognition and prompt referral — this is not a condition to manage in primary care.",
       "prognosis": "A relapsing and remitting course, with the risk of serious systemic complications including uveitis leading to blindness and vascular involvement [1][2]. Prognosis depends on the organ systems involved.",
       "citations": [
-        { "id": 1, "quote": "A severe relapsing and remitting systemic vasculitis, characteristically affecting venules. All organs of the body can be affected. It has a worldwide distribution but is most prevalent in the Far East, along the Silk Route, and in the Middle East. In the UK a prevalence of 0.064 in 10,000 has been reported from Yorkshire. It is a disease of young adults, more common and more severe in males. It is associated with HLA subtype.", "paragraph": 6065, "source": "Oxford Handbook · paragraph 6065" },
-        { "id": 2, "quote": "Oral ulcers with two of skin lesions, uveitis, genital ulcers, or blistering of skin when cannulated. Clinical Δ only. No tests, associated with HLA-B51. It is, in fact, a multisystem disease of immunological origin—need to recognize and refer for multidisciplinary care. It has a different sex predilection depending on the geographical region studied. M:F—Mediterranean 8:1, Far East 2:1, Europe 1:1. Azathioprine, ciclosporin, and thalidomide.", "paragraph": 10452, "source": "Oxford Handbook · paragraph 10452" }
+        {
+          "id": 1,
+          "quote": "A severe relapsing and remitting systemic vasculitis, characteristically affecting venules. All organs of the body can be affected. It has a worldwide distribution but is most prevalent in the Far East, along the Silk Route, and in the Middle East. In the UK a prevalence of 0.064 in 10,000 has been reported from Yorkshire. It is a disease of young adults, more common and more severe in males. It is associated with HLA subtype.",
+          "paragraph": 6065,
+          "source": "Oxford Handbook · paragraph 6065"
+        },
+        {
+          "id": 2,
+          "quote": "Oral ulcers with two of skin lesions, uveitis, genital ulcers, or blistering of skin when cannulated. Clinical Δ only. No tests, associated with HLA-B51. It is, in fact, a multisystem disease of immunological origin—need to recognize and refer for multidisciplinary care. It has a different sex predilection depending on the geographical region studied. M:F—Mediterranean 8:1, Far East 2:1, Europe 1:1. Azathioprine, ciclosporin, and thalidomide.",
+          "paragraph": 10452,
+          "source": "Oxford Handbook · paragraph 10452"
+        }
       ]
     },
     {
@@ -529,7 +564,12 @@
       "treatment": "Refer to dermatology or oral medicine for systemic management. Systemic corticosteroids are the mainstay. Investigate for underlying malignancy and review medications for drug-related triggers [1].",
       "prognosis": "Generally more favourable than pemphigus — the condition can remit with treatment. However the association with internal malignancy and the age group means the overall prognosis depends on any underlying cause [1].",
       "citations": [
-        { "id": 1, "quote": "This affects the >60yrs age group. Subepithelial bullae form which are firm and less likely to break down than those in pemphigus; it is due to autoantibodies (IgG) to the epithelial basement membrane. The oral mucosa is only affected in ~20% of patients. May be an external 'marker' of internal malignancy or a drug-related immune response.", "paragraph": 6099, "source": "Oxford Handbook · paragraph 6099" }
+        {
+          "id": 1,
+          "quote": "This affects the >60yrs age group. Subepithelial bullae form which are firm and less likely to break down than those in pemphigus; it is due to autoantibodies (IgG) to the epithelial basement membrane. The oral mucosa is only affected in ~20% of patients. May be an external 'marker' of internal malignancy or a drug-related immune response.",
+          "paragraph": 6099,
+          "source": "Oxford Handbook · paragraph 6099"
+        }
       ]
     },
     {
@@ -544,7 +584,12 @@
       "treatment": "Dapsone — both diagnostic and therapeutic [1]. A gluten-free diet helps [1]. Refer to dermatology for systemic management.",
       "prognosis": "Chronic but manageable. Dapsone controls symptoms; a gluten-free diet may allow dose reduction over time [1].",
       "citations": [
-        { "id": 1, "quote": "This is a rare chronic condition of unknown aetiology, but often associated with gluten sensitivity with autoantibodies against reticullin, gliadin, endomysium, and transglutaminase. Oral lesions are seen in 70% of patients with a skin lesion. Commoner in middle-aged men; it affects both skin and mucous membranes; bullae in the mouth break down to leave large erosions. Rx: dapsone may be used both diagnostically and therapeutically. A gluten-free diet helps.", "paragraph": 6101, "source": "Oxford Handbook · paragraph 6101" }
+        {
+          "id": 1,
+          "quote": "This is a rare chronic condition of unknown aetiology, but often associated with gluten sensitivity with autoantibodies against reticullin, gliadin, endomysium, and transglutaminase. Oral lesions are seen in 70% of patients with a skin lesion. Commoner in middle-aged men; it affects both skin and mucous membranes; bullae in the mouth break down to leave large erosions. Rx: dapsone may be used both diagnostically and therapeutically. A gluten-free diet helps.",
+          "paragraph": 6101,
+          "source": "Oxford Handbook · paragraph 6101"
+        }
       ]
     },
     {
@@ -559,7 +604,12 @@
       "treatment": "Systemic steroids or mycophenolate mofetil [1]. Refer to dermatology.",
       "prognosis": "The source is limited on prognosis beyond the treatment options. Systemic immunosuppression is required long term in most cases.",
       "citations": [
-        { "id": 1, "quote": "This is rare and identified pathologically. May be variant of dermatitis herpetiformis. Produces non-specific oral ulceration and rarely bullae. Systemic steroids or mycophenolate mofetil for Rx.", "paragraph": 6111, "source": "Oxford Handbook · paragraph 6111" }
+        {
+          "id": 1,
+          "quote": "This is rare and identified pathologically. May be variant of dermatitis herpetiformis. Produces non-specific oral ulceration and rarely bullae. Systemic steroids or mycophenolate mofetil for Rx.",
+          "paragraph": 6111,
+          "source": "Oxford Handbook · paragraph 6111"
+        }
       ]
     },
     {
@@ -574,7 +624,12 @@
       "treatment": "Refer urgently to dermatology. Systemic immunosuppression is required — high-dose corticosteroids and steroid-sparing agents. The mortality risk means delay is unacceptable [1].",
       "prognosis": "Mortality 10% without treatment [1]. With modern systemic immunosuppression, the condition can be controlled, though patients typically require long-term therapy. Oral mucosal healing tracks systemic disease control.",
       "citations": [
-        { "id": 1, "quote": "Pemphigus is a chronic skin disease which can be rapidly fatal if not treated (mortality 10%). Affected patients have immunoglobulin G (IgG) autoantibodies against desmosomal components like desmoglein-1 and desmoglein-3. Oral mucosa is affected in 95% of patients with pemphigus vulgaris (most common type) and may be the initial presentation of pemphigus in 50%. Autoimmune in aetiology, there are circulating autoantibodies to epithelial desmosome tonofilament. Acantholysis and intercellular IgG", "paragraph": 6086, "source": "Oxford Handbook · paragraph 6086" }
+        {
+          "id": 1,
+          "quote": "Pemphigus is a chronic skin disease which can be rapidly fatal if not treated (mortality 10%). Affected patients have immunoglobulin G (IgG) autoantibodies against desmosomal components like desmoglein-1 and desmoglein-3. Oral mucosa is affected in 95% of patients with pemphigus vulgaris (most common type) and may be the initial presentation of pemphigus in 50%. Autoimmune in aetiology, there are circulating autoantibodies to epithelial desmosome tonofilament. Acantholysis and intercellular IgG",
+          "paragraph": 6086,
+          "source": "Oxford Handbook · paragraph 6086"
+        }
       ]
     },
     {
@@ -589,7 +644,12 @@
       "treatment": "Treat as for erosive lichen planus: topical and systemic corticosteroids, and referral to oral medicine or dermatology for 6-monthly surveillance [1].",
       "prognosis": "The source notes the erosive variant of lichen planus carries a small premalignant risk (<1%) [1]. This warrants the same 6-monthly follow-up as the erosive type.",
       "citations": [
-        { "id": 1, "quote": "This affects both skin and mucous membranes. Bullous lichen planus is a rare variant in which subepithelial bullae form and break down, leaving large erosions.", "paragraph": 6103, "source": "Oxford Handbook · paragraph 6103" }
+        {
+          "id": 1,
+          "quote": "This affects both skin and mucous membranes. Bullous lichen planus is a rare variant in which subepithelial bullae form and break down, leaving large erosions.",
+          "paragraph": 6103,
+          "source": "Oxford Handbook · paragraph 6103"
+        }
       ]
     },
     {
@@ -604,7 +664,12 @@
       "treatment": "Topical corticosteroids as first line (betamethasone mouthwash or dexamethasone). Oral medicine or dermatology referral and 6-monthly follow-up to exclude malignant transformation [1].",
       "prognosis": "Some authorities classify erosive lichen planus as premalignant with a transformation risk of less than 1% [1]. Regular surveillance is warranted. Symptomatic control with topical steroids is achievable for most patients.",
       "citations": [
-        { "id": 1, "quote": "This is a comparatively rare variant of lichen planus, which some authorities believe to be premalignant (<1%). The common forms of lichen planus have no proven premalignant potential.", "paragraph": 6194, "source": "Oxford Handbook · paragraph 6194" }
+        {
+          "id": 1,
+          "quote": "This is a comparatively rare variant of lichen planus, which some authorities believe to be premalignant (<1%). The common forms of lichen planus have no proven premalignant potential.",
+          "paragraph": 6194,
+          "source": "Oxford Handbook · paragraph 6194"
+        }
       ]
     },
     {
@@ -619,7 +684,12 @@
       "treatment": "Identify and withdraw the offending drug if possible [1]. Consult with the prescribing physician before stopping any medication. Topical steroids for symptomatic relief while the drug is being rationalised.",
       "prognosis": "Good if the offending drug is identified and stopped — lesions typically improve or resolve. If the drug cannot be withdrawn, manage symptomatically as for erosive lichen planus.",
       "citations": [
-        { "id": 1, "quote": "Classically associated with the use of gold in the Rx of rheumatoid arthritis. NSAIDs, oral hypoglycaemics, and beta blockers are commoner offenders.", "paragraph": 6314, "source": "Oxford Handbook · paragraph 6314" }
+        {
+          "id": 1,
+          "quote": "Classically associated with the use of gold in the Rx of rheumatoid arthritis. NSAIDs, oral hypoglycaemics, and beta blockers are commoner offenders.",
+          "paragraph": 6314,
+          "source": "Oxford Handbook · paragraph 6314"
+        }
       ]
     },
     {
@@ -634,7 +704,12 @@
       "treatment": "Identify and review the offending medication with the prescribing physician [1]. For agranulocytosis: urgent medical referral for haematological assessment and management. Treat folate deficiency if confirmed.",
       "prognosis": "Depends on the degree of marrow suppression and whether the drug can be stopped. Chloramphenicol can also induce aplastic anaemia, which affects haemostasis and can cause spontaneous oral purpura — a more severe and harder-to-reverse outcome [1].",
       "citations": [
-        { "id": 1, "quote": "There are a wide range of drugs which will depress any or all of the cell lines of the haemopoietic systems and these in turn can affect the oral mucosa, e.g. phenytoin. Long-term use can result in folate deficiency and macrocytic anaemia which can produce severe aphthous stomatitis. Chloramphenicol and certain analgesics can induce agranulocytosis, leading to severe oral ulceration. Chloramphenicol can also induce aplastic anaemia, which affects haemostasis, although spontaneous oral purpura an", "paragraph": 6310, "source": "Oxford Handbook · paragraph 6310" }
+        {
+          "id": 1,
+          "quote": "There are a wide range of drugs which will depress any or all of the cell lines of the haemopoietic systems and these in turn can affect the oral mucosa, e.g. phenytoin. Long-term use can result in folate deficiency and macrocytic anaemia which can produce severe aphthous stomatitis. Chloramphenicol and certain analgesics can induce agranulocytosis, leading to severe oral ulceration. Chloramphenicol can also induce aplastic anaemia, which affects haemostasis, although spontaneous oral purpura an",
+          "paragraph": 6310,
+          "source": "Oxford Handbook · paragraph 6310"
+        }
       ]
     },
     {
@@ -649,8 +724,18 @@
       "treatment": "Generally self-limiting, so supportive care — adequate hydration, analgesia, soft diet [2]. Antiviral therapy (aciclovir) is most effective when started early in immunocompromised patients. Hospital admission may be needed in very young children with severe dehydration.",
       "prognosis": "Self-limiting over 10–14 days [2]. The virus remains dormant in the trigeminal ganglion and can reactivate later as recurrent herpes labialis. Rare complications (encephalitis, meningitis) are potentially serious but uncommon [2].",
       "citations": [
-        { "id": 1, "quote": "(Human herpesvirus type 1 and 2.) Most common viral infection affecting the mouth. Although oral infection with HSV types 1 and 2 has been described, type 1 remains the dominant pathogen (type 2 usually causes genital infection). Antibodies indicating past infection are present in >60% of adult population.", "paragraph": 6012, "source": "Oxford Handbook · paragraph 6012" },
-        { "id": 2, "quote": "This varies widely in severity (↑ with age); it is often subclinical, and asymptomatic in 80%. In infancy it is often mistakenly attributed to 'teething'. It presents with a single episode of widespread stomatitis and unstable mucosa with vesicles which break down to form shallow painful ulcers, enlarged, tender cervical lymph nodes, halitosis, coated tongue, fever, and a general malaise for 10–14 days. Although generally self-limiting, rare complications include herpetic encephalitis and meningitis.", "paragraph": 6014, "source": "Oxford Handbook · paragraph 6014" }
+        {
+          "id": 1,
+          "quote": "(Human herpesvirus type 1 and 2.) Most common viral infection affecting the mouth. Although oral infection with HSV types 1 and 2 has been described, type 1 remains the dominant pathogen (type 2 usually causes genital infection). Antibodies indicating past infection are present in >60% of adult population.",
+          "paragraph": 6012,
+          "source": "Oxford Handbook · paragraph 6012"
+        },
+        {
+          "id": 2,
+          "quote": "This varies widely in severity (↑ with age); it is often subclinical, and asymptomatic in 80%. In infancy it is often mistakenly attributed to 'teething'. It presents with a single episode of widespread stomatitis and unstable mucosa with vesicles which break down to form shallow painful ulcers, enlarged, tender cervical lymph nodes, halitosis, coated tongue, fever, and a general malaise for 10–14 days. Although generally self-limiting, rare complications include herpetic encephalitis and meningitis.",
+          "paragraph": 6014,
+          "source": "Oxford Handbook · paragraph 6014"
+        }
       ]
     },
     {
@@ -665,7 +750,12 @@
       "treatment": "Supportive care. Self-limiting, so the goal is adequate hydration and symptomatic analgesia. No specific antiviral is indicated.",
       "prognosis": "Excellent. Self-limiting in the vast majority [1]. Very rarely, the causative enterovirus (Enterovirus 71) can cause neurological complications, but this is uncommon in typical UK presentations.",
       "citations": [
-        { "id": 1, "quote": "Rash on hands and feet plus ulcers on oral mucosa and gingiva. Little systemic upset. Self-limiting.", "paragraph": 1882, "source": "Oxford Handbook · paragraph 1882" }
+        {
+          "id": 1,
+          "quote": "Rash on hands and feet plus ulcers on oral mucosa and gingiva. Little systemic upset. Self-limiting.",
+          "paragraph": 1882,
+          "source": "Oxford Handbook · paragraph 1882"
+        }
       ]
     },
     {
@@ -680,7 +770,12 @@
       "treatment": "Supportive care and isolation. Report to public health. No specific antiviral treatment. Complications (pneumonia, encephalitis) require prompt escalation [1].",
       "prognosis": "Most cases recover fully. Complications — pneumonia and encephalitis — may lead to neurological deficits in 40% of affected patients and carry a 15% mortality [1]. Vaccination prevents the disease.",
       "citations": [
-        { "id": 1, "quote": "The prodromal phase of measles may be marked by small white spots with an erythematous margin on the buccal mucosa, known as Koplik spots. A few days later the maculo-papular rash of measles appears, usually behind the ears, then spreading to the face and trunk. Complications include pneumonia and encephalitis which may lead to neurological deficits in 40% and has a 15% mortality.", "paragraph": 6028, "source": "Oxford Handbook · paragraph 6028" }
+        {
+          "id": 1,
+          "quote": "The prodromal phase of measles may be marked by small white spots with an erythematous margin on the buccal mucosa, known as Koplik spots. A few days later the maculo-papular rash of measles appears, usually behind the ears, then spreading to the face and trunk. Complications include pneumonia and encephalitis which may lead to neurological deficits in 40% and has a 15% mortality.",
+          "paragraph": 6028,
+          "source": "Oxford Handbook · paragraph 6028"
+        }
       ]
     },
     {
@@ -695,7 +790,12 @@
       "treatment": "Supportive: rest, hydration, analgesia. No specific antiviral. Avoid contact sports while splenomegaly persists — risk of splenic rupture. Do not give ampicillin or amoxicillin, which precipitate a widespread maculopapular rash in EBV infection.",
       "prognosis": "Generally self-limiting over 2–4 weeks. Fatigue may persist for months. EBV remains latent and is linked to certain lymphomas in the context of immunosuppression [1].",
       "citations": [
-        { "id": 1, "quote": "This is seen mostly in children and young adults and is spread by infected saliva. It varies widely in severity and presents with sore throat, generalized lymphadenopathy, fever, headaches, general malaise, and often a maculo-papular rash. There may be hepatosplenomegaly. Oral manifestations may mimic 1° herpetic gingivostomatitis, with widespread oral ulceration, and in addition petechial haemorrhages, especially at the junction of hard and soft palate (pathognomonic), and bruising may be present. The cause is usually Epstein–Barr virus (EBV) and, less commonly, cytomegalovirus (CMV).", "paragraph": 6030, "source": "Oxford Handbook · paragraph 6030" }
+        {
+          "id": 1,
+          "quote": "This is seen mostly in children and young adults and is spread by infected saliva. It varies widely in severity and presents with sore throat, generalized lymphadenopathy, fever, headaches, general malaise, and often a maculo-papular rash. There may be hepatosplenomegaly. Oral manifestations may mimic 1° herpetic gingivostomatitis, with widespread oral ulceration, and in addition petechial haemorrhages, especially at the junction of hard and soft palate (pathognomonic), and bruising may be present. The cause is usually Epstein–Barr virus (EBV) and, less commonly, cytomegalovirus (CMV).",
+          "paragraph": 6030,
+          "source": "Oxford Handbook · paragraph 6030"
+        }
       ]
     },
     {
@@ -710,7 +810,12 @@
       "treatment": "Multidisciplinary management: rheumatology for the arthritis, ophthalmology for the eye involvement. Oral ulcers are managed symptomatically. The condition is self-limiting in most cases but can recur.",
       "prognosis": "Generally self-limiting. Some patients develop a chronic or relapsing course, particularly those with persistent underlying infection or HLA-B27 positivity.",
       "citations": [
-        { "id": 1, "quote": "The causative agent is unknown but it appears to be a post-infective response (after 2–3 weeks). Consists of urethritis, arthritis, conjunctivitis, &/or oral ulcers or erosions. Predominantly affects young males and is associated with human leucocyte antigen (HLA) B27 in 80% of patients—leucocytosis and ↑ ESR are common.", "paragraph": 6033, "source": "Oxford Handbook · paragraph 6033" }
+        {
+          "id": 1,
+          "quote": "The causative agent is unknown but it appears to be a post-infective response (after 2–3 weeks). Consists of urethritis, arthritis, conjunctivitis, &/or oral ulcers or erosions. Predominantly affects young males and is associated with human leucocyte antigen (HLA) B27 in 80% of patients—leucocytosis and ↑ ESR are common.",
+          "paragraph": 6033,
+          "source": "Oxford Handbook · paragraph 6033"
+        }
       ]
     },
     {
@@ -725,7 +830,12 @@
       "treatment": "Refer for multidisciplinary management, as for Behçet's disease. Systemic immunosuppression is typically required.",
       "prognosis": "Chronic and relapsing. The prognosis depends on the extent and severity of systemic involvement.",
       "citations": [
-        { "id": 1, "quote": "Stands for Mouth And Genital ulcers and Interstitial Chondritis and is a variant of the Behçet's disease group.", "paragraph": 10507, "source": "Oxford Handbook · paragraph 10507" }
+        {
+          "id": 1,
+          "quote": "Stands for Mouth And Genital ulcers and Interstitial Chondritis and is a variant of the Behçet's disease group.",
+          "paragraph": 10507,
+          "source": "Oxford Handbook · paragraph 10507"
+        }
       ]
     },
     {
@@ -740,7 +850,12 @@
       "treatment": "Refer to GUM clinic for systemic penicillin treatment and contact tracing. Handle the oral lesions with care — they are infectious [1].",
       "prognosis": "Secondary syphilis resolves by 12 weeks without treatment, though recurrences can occur up to a year [1]. Without systemic treatment, the infection progresses to tertiary syphilis in 30% of patients, causing gumma formation, CNS involvement, and vasculitis [1].",
       "citations": [
-        { "id": 1, "quote": "2° lesion. Develops 2–4 months after the 1° with a cutaneous rash, condylomata, and systemic features such as malaise, fever, headache, and weight loss. The oral lesions include sensitive sloughy mucous patches known as snail-track ulcers (serpiginous ulceration). These are also highly contagious and T. pallidum can be easily isolated. Syphilis serology is positive at this stage. The ulcers generally clear up by 12 weeks, although there may be recurrences up to 1yr.", "paragraph": 6002, "source": "Oxford Handbook · paragraph 6002" }
+        {
+          "id": 1,
+          "quote": "2° lesion. Develops 2–4 months after the 1° with a cutaneous rash, condylomata, and systemic features such as malaise, fever, headache, and weight loss. The oral lesions include sensitive sloughy mucous patches known as snail-track ulcers (serpiginous ulceration). These are also highly contagious and T. pallidum can be easily isolated. Syphilis serology is positive at this stage. The ulcers generally clear up by 12 weeks, although there may be recurrences up to 1yr.",
+          "paragraph": 6002,
+          "source": "Oxford Handbook · paragraph 6002"
+        }
       ]
     },
     {
@@ -755,8 +870,18 @@
       "treatment": "Usually resolves with aciclovir or valaciclovir, but returns on discontinuation [2]. The underlying immunosuppression is the real target — optimise HIV treatment or adjust transplant immunosuppression where possible.",
       "prognosis": "Lesions return on stopping antiviral therapy [2]. The significance is prognostic: hairy leukoplakia is a predictor of a bad prognosis and possible lymphoma development in immunocompromised patients [2].",
       "citations": [
-        { "id": 1, "quote": "Opportunistic infection on the tongue mucosa by EBV is thought to be the pathological mechanism behind 'hairy leucoplakia', which is found in transplant and HIV-positive patients.", "paragraph": 6031, "source": "Oxford Handbook · paragraph 6031" },
-        { "id": 2, "quote": "Bilateral, white, non-removable corrugated lesions of the tongue, unaffected by antifungals but usually resolve with aciclovir or valaciclovir (but return on discontinuation of Rx), and associated with EBV. It is a predictor of a bad prognosis and possible development of lymphoma.", "paragraph": 6455, "source": "Oxford Handbook · paragraph 6455" }
+        {
+          "id": 1,
+          "quote": "Opportunistic infection on the tongue mucosa by EBV is thought to be the pathological mechanism behind 'hairy leucoplakia', which is found in transplant and HIV-positive patients.",
+          "paragraph": 6031,
+          "source": "Oxford Handbook · paragraph 6031"
+        },
+        {
+          "id": 2,
+          "quote": "Bilateral, white, non-removable corrugated lesions of the tongue, unaffected by antifungals but usually resolve with aciclovir or valaciclovir (but return on discontinuation of Rx), and associated with EBV. It is a predictor of a bad prognosis and possible development of lymphoma.",
+          "paragraph": 6455,
+          "source": "Oxford Handbook · paragraph 6455"
+        }
       ]
     },
     {
@@ -771,7 +896,12 @@
       "treatment": "Topical solutions for benign growths [1]. For HPV-related cancer, surgery or chemotherapy [1]. Excise the benign lesion to confirm histology and type the HPV strain. Refer urgently if malignancy is suspected.",
       "prognosis": "Benign HPV lesions (papilloma, condyloma) carry no direct malignant risk but HPV 16 association warrants vigilance [1]. The rising incidence of HPV-driven oropharyngeal cancer is a public health concern [1].",
       "citations": [
-        { "id": 1, "quote": "HPV is now established as the principal cause of an ↑ in incidence of a subset of head and neck squamous cell cancers. HPV has been associated with squamous cell papilloma, condyloma acuminatum (multiple white/pink nodules), focal epithelial hyperplasia (multiple painless papules), and verruca vulgaris (white exophytic lumps). HPV type 16 is a cause of oropharyngeal cancer and oral cavity cancer. In general oropharyngeal cancer incidence rates were higher and ↑ more sharply in men. Rx: topical solutions for the benign growths. For cancer, surgery or chem", "paragraph": 6010, "source": "Oxford Handbook · paragraph 6010" }
+        {
+          "id": 1,
+          "quote": "HPV is now established as the principal cause of an ↑ in incidence of a subset of head and neck squamous cell cancers. HPV has been associated with squamous cell papilloma, condyloma acuminatum (multiple white/pink nodules), focal epithelial hyperplasia (multiple painless papules), and verruca vulgaris (white exophytic lumps). HPV type 16 is a cause of oropharyngeal cancer and oral cavity cancer. In general oropharyngeal cancer incidence rates were higher and ↑ more sharply in men. Rx: topical solutions for the benign growths. For cancer, surgery or chem",
+          "paragraph": 6010,
+          "source": "Oxford Handbook · paragraph 6010"
+        }
       ]
     },
     {
@@ -786,7 +916,538 @@
       "treatment": "Treat the underlying inflammatory bowel disease. Systemic immunosuppression (corticosteroids) is typically required. Refer to gastroenterology and dermatology for co-management.",
       "prognosis": "Tied to the activity of the underlying IBD. With good control of the systemic disease, lesions may resolve. Refractory cases require escalation of systemic immunosuppression.",
       "citations": [
-        { "id": 1, "quote": "Blue-edged ulcers, especially on the legs; associated with ulcerative colitis and Crohn's disease.", "paragraph": 7553, "source": "Oxford Handbook · paragraph 7553" }
+        {
+          "id": 1,
+          "quote": "Blue-edged ulcers, especially on the legs; associated with ulcerative colitis and Crohn's disease.",
+          "paragraph": 7553,
+          "source": "Oxford Handbook · paragraph 7553"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-032",
+      "description": "Diffuse, soft, white thickening of the cheek lining present since childhood — bilateral, no clear margin, no symptoms.",
+      "conditionName": "White spongy naevus",
+      "prevalence": "rare",
+      "etiology": "A rare, benign autosomal dominant condition affecting keratin [1]. The epithelium shows hyperplastic changes with gross intraepithelial oedema on histology — this is a structural keratin abnormality, developmental in origin, not a reaction to an irritant [1].",
+      "presentation": "Usually noticed in the second decade of life, though developmental in origin [1]. What you see is an asymptomatic diffuse, soft, uneven thickening of the superficial epithelium with no definite boundary, potentially affecting any part of the mouth [1].",
+      "results": "Histology shows hyperplastic epithelium with gross intraepithelial oedema [1]. No dysplasia. Biopsy is only needed if the presentation is atypical or there is clinical doubt.",
+      "definingCharacteristics": "The diffuse, soft quality — no sharp edge — and onset in youth in a patient with a family history of the same finding are the defining features [1]. Unlike leukoplakia, there is no dysplasia and no malignant potential. Unlike frictional keratosis, there is no trauma source and the thickening is bilateral and diffuse.",
+      "treatment": "Reassurance only [1]. No active treatment is needed.",
+      "prognosis": "Entirely benign, no malignant potential [1]. The condition is stable and does not require intervention beyond confirming the diagnosis.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a rare, benign autosomal dominant condition affecting keratin. It appears as asymptomatic diffuse, soft, uneven thickening of the superficial layer of the epithelium, which characteristically has no definite boundary and may affect any part of the mouth. Histology shows hyperplastic epithelium with gross intraepithelial oedema. Usually noticed in second decade of life, although developmental in origin. Rx: reassurance.",
+          "paragraph": 6115,
+          "source": "Oxford Handbook · paragraph 6115"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-033",
+      "description": "The entire oral mucosa appears uniformly altered — diffuse hyperplastic field change across all surfaces simultaneously, not a single discrete patch.",
+      "conditionName": "Panoral leucoplakia",
+      "prevalence": "rare",
+      "etiology": "A condition in which the entire oral mucosa is undergoing hyperplastic field change [1]. The risk of malignant change is documented [1]. The source does not specify a mechanism beyond this.",
+      "presentation": "Widespread mucosal change — not the discrete, localised patch of ordinary leukoplakia, but an altered appearance across many surfaces simultaneously [1].",
+      "results": "The risk of malignant change is the key clinical concern [1]. Biopsy of the most suspicious area is needed to assess dysplasia.",
+      "definingCharacteristics": "The interesting bit is the distribution: a field change affecting the whole oral mucosa [1]. This separates it from ordinary leukoplakia (a single lesion, often with a clear margin) and from lichen planus (bilateral buccal striae pattern). The field nature of the change drives the malignant risk [1].",
+      "treatment": "Specialist referral is essential given the risk of malignant change [1]. Close monitoring and biopsy of any changing area are required.",
+      "prognosis": "Risk of malignant change is documented [1]. Exact transformation rates are not given in the source.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is where the entire oral mucosa appears to be undergoing hyperplastic field change. Risk of malignant change.",
+          "paragraph": 6135,
+          "source": "Oxford Handbook · paragraph 6135"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-034",
+      "description": "A white patch that keeps coming back after removal, affects multiple oral sites in a woman, and has already been treated as ordinary leukoplakia — unsuccessfully.",
+      "conditionName": "Proliferative verrucous leukoplakia",
+      "prevalence": "rare",
+      "etiology": "A hard-to-define white patch with a high incidence of long-term malignant transformation [1]. More common in women [1]. What happens is that clinicians often misclassify it as ordinary leukoplakia and treat it simply — and it recurs. That pattern is the diagnostic tell [1].",
+      "presentation": "A white patch on the oral mucosa that nearly always recurs after treatment [1]. Multiple oral sites may be involved. Female predominance [1].",
+      "results": "The treatment response is the defining test: ordinary leukoplakia may remain stable or regress; this lesion recurs almost every time [1]. It can progress to SCC or verrucous carcinoma [1].",
+      "definingCharacteristics": "Three features set this apart from ordinary leukoplakia: recurrence after treatment [1], higher long-term malignant transformation rate [1], and female predominance [1]. So when a white patch returns after apparently adequate treatment, proliferative verrucous leukoplakia is the diagnosis to reconsider.",
+      "treatment": "Aggressive treatment is required — simple monitoring or minimal excision is inadequate [1]. Specialist referral is essential.",
+      "prognosis": "Lesions nearly always recur and turn malignant [1]. Prognosis is guarded; aggressive management is the only approach to reduce the risk of SCC or verrucous carcinoma [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a hard-to-define white patch which appears to have a high incidence of long-term malignant transformation. Clinicians often wrongly diagnose such lesions as oral leucoplakia and treat simply. Lesions nearly always recur and turn malignant. Clinicians should treat these lesions aggressively because they can progress to SCC or verrucous carcinoma. F > M.",
+          "paragraph": 6147,
+          "source": "Oxford Handbook · paragraph 6147"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-035",
+      "description": "A slow-growing, warty exophytic growth on the cheek or gum — spreads outward rather than burrowing into deeper tissue.",
+      "conditionName": "Verrucous carcinoma",
+      "prevalence": "rare",
+      "etiology": "A distinctive exophytic, wart-like lesion regarded as a lower-grade form of SCC [1]. It grows slowly, spreading laterally rather than deeply [1]. Characterised histologically by folded hyperplastic epithelium and a lower degree of cellular atypia than conventional SCC [1].",
+      "presentation": "A wart-like, exophytic lesion that grows slowly and spreads outward along the surface [1]. Locally invasive, but the invasion pattern is lateral spread rather than deep invasion [1].",
+      "results": "Histology shows folded hyperplastic epithelium and lower cellular atypia than conventional SCC [1]. The locally invasive behaviour and characteristic gross appearance are the key diagnostic features.",
+      "definingCharacteristics": "The growth pattern is the interesting bit: lateral spread rather than deep invasion [1]. This separates verrucous carcinoma from conventional SCC, which invades deep tissues early. Cellular atypia is lower on histology [1]. However, inadequate radiotherapy has historically induced more aggressive behaviour [1] — so the treatment choice matters.",
+      "treatment": "Surgical excision and/or radiotherapy [1]. Inadequate radiotherapy has been reported to induce more aggressive behaviour — treatment must be definitive [1].",
+      "prognosis": "Lower grade than conventional SCC, locally invasive rather than deeply so [1]. Risk of more aggressive behaviour with inadequate radiotherapy is documented [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A distinctive exophytic, wart-like lesion which grows slowly, spreading laterally rather than deeply, is locally invasive, and is regarded as a lower-grade SCC, characterized by folded hyperplastic epithelium and a lower degree of cellular atypia. Surgical excision &/or radiotherapy is the Rx. Historically, inadequate radiotherapy has been reported to induce more aggressive behaviour.",
+          "paragraph": 6217,
+          "source": "Oxford Handbook · paragraph 6217"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-036",
+      "description": "Creamy white patches on the inner cheeks or palate that wipe off to reveal a raw red surface — in a newborn, an elderly patient, or someone on broad-spectrum antibiotics.",
+      "conditionName": "Pseudomembranous candidosis (oral thrush)",
+      "prevalence": "common",
+      "etiology": "An opportunistic fungal infection. It affects 5% of newborn infants and 10% of elderly debilitated individuals [1]. It appears in newborns, in the immunocompromised, and in those whose normal oral flora has been disrupted.",
+      "presentation": "Creamy, lightly adherent plaques on an erythematous oral mucosa — usually on the cheek, palate, or oropharynx [1]. The patient may be symptomless, but more commonly there is discomfort on eating, a burning sensation, and a bad taste [1]. In infants, widespread oral candidosis can be associated with a livid facial rash and a nappy rash [1].",
+      "results": "The plaques can be gently stripped off, leaving a raw undersurface [1]. With Gram staining, candidal hyphae are visible [1]. This wipe-off test is the defining diagnostic manoeuvre.",
+      "definingCharacteristics": "What separates pseudomembranous candidosis from other white patches is exactly this: it wipes off [1]. Leukoplakia and lichen planus do not wipe off. The raw erythematous base left after stripping confirms the diagnosis. Topical formulations provide only limited benefit; systemic fluconazole or itraconazole are very effective [1].",
+      "treatment": "Topical nystatin or miconazole available but provide only limited benefit [1]. Fluconazole and itraconazole are very effective [1]. In breastfeeding with infant recolonisation, treat both simultaneously [1].",
+      "prognosis": "Responds well to systemic antifungals [1]. In immunocompromised patients, suppression rather than cure may be the realistic aim.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This affects 5% of newborn infants and 10% of elderly debilitated individuals. ∆: appears as creamy, lightly adherent plaques on an erythematous oral mucosa, usually on the cheek, palate, or oropharynx. Occasionally symptomless, but more commonly cause discomfort on eating and also may cause a burning sensation and bad taste. These plaques can be gently stripped off, leaving a raw under-surface and, with Gram staining, show candidal hyphae. In infancy, widespread oral candidosis can be associated with a livid facial rash and an associated nappy rash. Colonization of a breastfeeding mother's nipples can lead to mutual recolonization. Rx: a variety of topical formulations such as nystatin and miconazole are available, but provide only limited benefit. Fluconazole and itraconazole are very effective.",
+          "paragraph": 6038,
+          "source": "Oxford Handbook · paragraph 6038"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-037",
+      "description": "Red, shiny, sore mucosa — no white patch — appearing after antibiotic use, inhaled steroid use, or in a patient with HIV or xerostomia.",
+      "conditionName": "Erythematous candidosis",
+      "prevalence": "common",
+      "etiology": "An opportunistic infection following use of broad-spectrum antibiotics, sometimes inhaled steroids, and in patients with HIV or xerostomia [1]. What makes this tricky is the presentation: it's red and atrophic, not the classic white thrush — so it can be missed.",
+      "presentation": "Painful — exacerbated by hot or spicy foods [1]. The oral mucosa has a red, shiny, atrophic appearance [1]. There may be coexisting areas of thrush [1]. The redness is diffuse rather than discrete.",
+      "results": "The context is the key diagnostic pointer: recent antibiotic course, inhaled steroid use, HIV, or xerostomia [1]. Candidal smear or culture confirms the diagnosis when ambiguous.",
+      "definingCharacteristics": "Unlike pseudomembranous candidosis, there is no white plaque to wipe off — the lesion is purely red and atrophic [1]. The patient's history is the main distinguishing pointer: antibiotics, inhaled steroids, immunosuppression, or dry mouth [1]. Coexisting thrush, when present, further supports the candidal aetiology.",
+      "treatment": "Eliminate the cause first [1]. For inhaled-steroid users: rinse mouth with water after inhaling and/or use a spacer device [1]. Otherwise treat as for thrush with systemic antifungals [1].",
+      "prognosis": "Reversible once the predisposing cause is addressed [1]. In HIV or ongoing immunosuppression, recurrence is the norm without continuing management.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is an opportunistic infection following the use of broad-spectrum antibiotics, sometimes inhaled steroids, and in patients with HIV as well as those with xerostomia. It is painful and exacerbated by hot or spicy foods. The oral mucosa has a red, shiny, atrophic appearance and there may be coexisting areas of thrush. Rx: eliminate cause (if due to inhaled steroids rinse mouth with water after inhaling and/or use a spacer device), otherwise as for thrush.",
+          "paragraph": 6040,
+          "source": "Oxford Handbook · paragraph 6040"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-038",
+      "description": "Persistent oral and skin candidosis in a young patient, resistant to standard topical treatment, sometimes alongside endocrine disease.",
+      "conditionName": "Chronic mucocutaneous candidosis",
+      "prevalence": "rare",
+      "etiology": "A rare syndrome complex with several subgroups [1]. One subgroup is candidal endocrinopathy, where skin and mouth lesions occur alongside endocrine abnormalities [1]. Another is granulomatous skin candidosis — a late-onset, predominantly male group [1]. A third is AIDS-associated [1].",
+      "presentation": "Persistent candidosis affecting both skin and oral mucosa — not the short-lived thrush of antibiotic treatment, but a chronic relapsing pattern [1]. Associated endocrine abnormalities or skin granulomata point to the subgroup [1].",
+      "results": "Standard topical agents are insufficient — candidosis persists or recurs despite normal treatment [1]. The subgroup determines the additional investigations needed: endocrine screen for candidal endocrinopathy, HIV testing for the AIDS-associated group.",
+      "definingCharacteristics": "Chronic mucocutaneous candidosis is distinguished from ordinary thrush by its chronicity, resistance to topical treatment, and skin plus mucous membrane involvement [1]. The association with endocrine abnormalities or HIV marks the specific subgroups [1]. So when thrush won't respond and involves the skin as well, this is the diagnosis to consider.",
+      "treatment": "Difficult [1]. High-dose fluconazole 100 mg once daily or 200 mg once daily for 3 weeks [1]. Voriconazole is an alternative [1].",
+      "prognosis": "Challenging long-term. High-dose systemic antifungals are required [1]. The underlying immunological or endocrine abnormality drives the persistence.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A rare syndrome complex with several subgroups, including candidal endocrinopathy, where skin and mouth lesions occur in conjunction with endocrine abnormalities; granulomatous skin candidosis, a late-onset predominantly male-affecting group; and an AIDS-associated group. Rx: difficult, high-dose fluconazole 100mg od or 200mg od for 3 weeks. Voriconazole has recently been introduced as a Rx.",
+          "paragraph": 6051,
+          "source": "Oxford Handbook · paragraph 6051"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-039",
+      "description": "Recurrent oral ulcers as the only complaint in an adult who may also have glossitis or angular cheilitis — no bowel symptoms yet.",
+      "conditionName": "Coeliac disease (oral manifestations)",
+      "prevalence": "uncommon",
+      "etiology": "Coeliac disease is a common form of intestinal malabsorption. In adults, oral ulceration may be the only symptom [1]. Up to 5% of patients may have recurrent aphthous stomatitis without anaemia [1].",
+      "presentation": "In adults: oral ulceration as the primary or only complaint [1]. Other oral findings include glossitis, stomatitis, and angular cheilitis [1]. Children are more likely to show weight loss, weakness, fatty diarrhoea, and failure to thrive alongside oral lesions [1].",
+      "results": "Haematological and gastrointestinal investigations are required: blood picture and haematinic assay [1]. Antibodies to gluten, reticulin, and endomysium — anti-endomysial antibodies are a marker for coeliac disease [1]. Small bowel biopsy confirms the diagnosis [1].",
+      "definingCharacteristics": "The interesting bit: oral ulcers may be the presenting and, for a while, the only symptom in adult coeliac disease [1]. So when a patient has unexplained RAS with glossitis or angular cheilitis, coeliac disease is in the differential. The anti-endomysial antibody screen is the key blood test.",
+      "treatment": "Treat the underlying malabsorption: gluten-free diet and haematinic correction [1]. Management by gastroenterology once diagnosis is made.",
+      "prognosis": "Oral lesions respond to correction of underlying malabsorption and haematinic deficiencies [1]. The 5% with RAS but without anaemia are where the dental team may make the first diagnosis [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This common form of intestinal malabsorption may present with oral ulceration as the only symptom in adults. Although children also present with ulceration, they are more likely to show weight loss, weakness, fatty diarrhoea, and failure to thrive. Other findings are glossitis, stomatitis, and angular cheilitis. Up to 5% may have RAS without anaemia. Rx: haematological and gastrointestinal investigations are required, blood picture, and haematinic assay. ↑ malabsorption. Antibodies to gluten, reticulin, endomysium (anti-endomysial antibodies are a marker for coeliac disease); small bowel biopsy.",
+          "paragraph": 6386,
+          "source": "Oxford Handbook · paragraph 6386"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-040",
+      "description": "Oral ulcers resembling aphthae in a patient with known or suspected inflammatory bowel disease — rarely a papilliferous necrotic mucosal lesion.",
+      "conditionName": "Ulcerative colitis (oral manifestations)",
+      "prevalence": "uncommon",
+      "etiology": "Ulcerative colitis can produce oral lesions. More commonly these are aphthous-like ulcers; a rare but distinctive lesion is pyostomatitis vegetans — a papilliferous, necrotic mucosal lesion [1]. Gastrointestinal symptoms predominate in the clinical picture [1].",
+      "presentation": "Most often, oral ulcers identical in appearance to aphthae [1]. Rarely, pyostomatitis vegetans — a papilliferous, necrotic mucosal lesion [1]. Extraintestinal features may also be present: arthritis, uveitis, and erythema nodosum [1].",
+      "results": "Diagnosis rests on the gastrointestinal picture and systemic associations [1]. The oral lesions are non-specific. Most patients are managed by gastrointestinal specialists [1].",
+      "definingCharacteristics": "The context is the key: an IBD patient with aphthous-like ulcers [1]. Pyostomatitis vegetans, when present, is more distinctive — a papilliferous, necrotic lesion is not seen in simple RAS [1]. Arthritis, uveitis, and erythema nodosum alongside oral lesions signal the systemic IBD connection [1].",
+      "treatment": "Topical steroids for oral symptoms; systemic sulfasalazine for the underlying disease [1]. Most patients are managed by gastrointestinal specialists [1].",
+      "prognosis": "Oral lesions typically parallel the gastrointestinal disease activity. Management is directed at the systemic condition [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Rarely, pyostomatitis vegetans, a papilliferous, necrotic mucosal lesion can occur; more commonly, ulcers indistinguishable from aphthae are seen. Gastrointestinal symptoms predominate. Arthritis, uveitis, and erythema nodosum also occur. Topical steroids and systemic sulfasalazine are used in Rx. Most of these patients are managed by gastrointestinal specialists.",
+          "paragraph": 6388,
+          "source": "Oxford Handbook · paragraph 6388"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-041",
+      "description": "Cobblestoned buccal mucosa with linear ulcers and purplish-red swellings on the cheeks or lips — in a patient with or without known gut disease.",
+      "conditionName": "Crohn's disease (oral manifestations)",
+      "prevalence": "uncommon",
+      "etiology": "Crohn's disease is a chronic granulomatous disease of unknown aetiology that can affect any part of the gut from mouth to anus [1]. It primarily affects the terminal third of the ileum, but around 1% of cases present with oral ulceration before any other symptoms [1]. Orofacial granulomatosis is probably a variant [1].",
+      "presentation": "What you see on the buccal mucosa: purplish-red non-haemorrhagic swellings, linear long-standing ulcers, and cobblestoning with mucosal tags and folds [1]. The gingiva and lips are also affected [1]. In the 1% presenting orally first, there are no gastrointestinal symptoms at the time [1].",
+      "results": "Biopsy shows granulomata — the histological hallmark [1]. Any patient with oral cobblestoning and linear ulceration should be investigated for gut Crohn's disease, even without bowel symptoms.",
+      "definingCharacteristics": "The cobblestone appearance — mucosal tags, folds, and linear ulcers — is characteristic and distinguishes Crohn's from simple RAS [1]. The purplish-red non-haemorrhagic swellings of the buccal mucosa or lips are a further distinctive feature [1]. The rule: when you see this pattern, ask about gut symptoms and refer for gastrointestinal investigation.",
+      "treatment": "Painful oral lesions respond to topical steroids or simple excision [1]. But treatment is directed at the systemic disease — referral to gastroenterology is the main step [1].",
+      "prognosis": "Oral lesions generally follow the course of the systemic disease. Orofacial granulomatosis may behave as a localised condition [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Chronic granulomatous disease of unknown aetiology affecting any part of the gut from mouth to anus. Primarily affects the terminal third of the ileum, although ~1% of cases will present with oral ulceration predating any other symptoms. These tend to affect the gingiva, buccal mucosa, and lips with purplish-red non-haemorrhagic swellings, linear long-standing ulcers and cobblestoning of buccal mucosa with mucosal tags and folds. Orofacial granulomatosis is probably a variant. Painful oral lesions seem to respond well to topical steroids or simple excision but Rx is aimed at the systemic disease.",
+          "paragraph": 6390,
+          "source": "Oxford Handbook · paragraph 6390"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-042",
+      "description": "Mouth ulcers or mucosal soreness in a patient with an inflammatory skin and muscle disease — sometimes with an underlying malignancy.",
+      "conditionName": "Dermatomyositis (oral manifestations)",
+      "prevalence": "rare",
+      "etiology": "Dermatomyositis is an inflammatory condition of skin and muscles [1]. Fifteen percent of cases are associated with internal malignancy [1]. Oral lesions are an occasional feature, not universal [1].",
+      "presentation": "May occasionally present with mouth ulcers and soreness of tongue, palate, or gingiva [1]. The systemic disease — inflammatory skin and muscle involvement — is the dominant clinical picture [1].",
+      "results": "The oral presentation is non-specific. The important point is the systemic context: any patient with oral ulcers alongside skin and muscle disease warrants consideration of dermatomyositis and the 15% malignancy association [1].",
+      "definingCharacteristics": "The oral lesions alone are non-distinctive [1]. What characterises this entry is the systemic context: inflammatory skin and muscle disease, sometimes with an internal malignancy [1]. So the oral finding is a flag for systemic investigation, not the diagnosis itself.",
+      "treatment": "Management is directed at the systemic disease by the relevant specialists. The dentist's role is recognition and referral.",
+      "prognosis": "Dependent on the presence or absence of internal malignancy — the 15% malignancy association is the dominant prognostic factor [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Inflammatory condition of skin and muscles; 15% are associated with internal malignancy. May occasionally present with mouth ulcers and soreness of tongue, palate, or gingiva.",
+          "paragraph": 6379,
+          "source": "Oxford Handbook · paragraph 6379"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-043",
+      "description": "Oral ulceration and purpuric patches on the cheeks in a woman with known or suspected autoimmune disease — often with a facial butterfly skin rash.",
+      "conditionName": "Systemic lupus erythematosus (oral manifestations)",
+      "prevalence": "rare",
+      "etiology": "SLE is a systemic multisystem disease of uncertain aetiology; viruses, hormonal changes, and drug therapy have all been implicated [1]. The association with antinuclear factor is more common in females [1].",
+      "presentation": "Oral mucosal lesions occur in 30% of SLE patients — including ulceration and purpurae [1]. The classical skin finding is the malar butterfly rash [1]. Antinuclear antibodies are present and LE cells can be detected in the bloodstream [1].",
+      "results": "Antinuclear antibody testing is positive [1]. Histological and immunohistochemical confirmation of intact adjacent tissues around the lesions is the standard diagnostic approach [1].",
+      "definingCharacteristics": "Unlike lichen planus — the main oral differential for white or ulcerated lesions — SLE tends to affect the hard palate, has central ulceration with radiating striae, and is associated with systemic features and positive antinuclear antibodies [1]. The malar butterfly rash and female predominance are key clinical pointers [1].",
+      "treatment": "The oral lesions are managed with topical steroids. Systemic treatment for SLE is directed at the underlying multisystem disease [1].",
+      "prognosis": "Dependent on the systemic disease course. The oral lesions parallel systemic activity [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "SLE is a systemic multisystem disease of uncertain aetiology, although viruses, hormonal changes, and drug therapy have all been implicated. The association with the presence of antinuclear factor is more common in females. Gives rise to skin lesions, classical malar 'butterfly' rash, and oral mucosal lesions in 30%, which include ulceration and purpuras. Antinuclear antibodies are present. The so-called LE cells can be detected in the blood stream. The demonstration of intact adjacent tissues towards given lesions through histological and immunohistochemical confirmation is still the standard.",
+          "paragraph": 6371,
+          "source": "Oxford Handbook · paragraph 6371"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-044",
+      "description": "Oral ulceration in a patient with severe systemic vascular disease — necrosis of small and medium arteries causing mucosal breakdown.",
+      "conditionName": "Polyarteritis nodosa (oral manifestations)",
+      "prevalence": "rare",
+      "etiology": "Polyarteritis nodosa is characterised by inflammation and necrosis of small and medium-sized arteries [1]. Oral ulceration results from this vascular necrosis at the mucosal site [1]. The systemic prognosis is severe: up to 60% of patients die in the first year without treatment [1].",
+      "presentation": "Oral ulceration — a manifestation of vascular necrosis [1]. The systemic picture dominates. This is a multisystem vascular disease, and the oral finding is a secondary feature [1].",
+      "results": "Diagnosis is systemic, not from the oral lesions alone. The vascular disease is confirmed by systemic investigation and vessel biopsy.",
+      "definingCharacteristics": "Oral ulceration here is secondary to arteritis, not to a primary mucosal process [1]. The key clinical point is the prognosis: up to 60% of patients die in the first year without treatment [1]. Any patient with oral ulceration and systemic vascular symptoms warrants urgent referral.",
+      "treatment": "Systemic steroids [1]. Five-year survival improves to 40% with systemic steroids [1].",
+      "prognosis": "Without treatment, up to 60% of patients die in the first year [1]. Systemic steroids improve 5-year survival to 40% [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Characterized by inflammation and necrosis of small and medium-sized arteries; necrosis at any site may occur and is seen as ulceration in the mouth. Up to 60% of patients die in the first year; Rx with systemic steroids ↑ the 5yr survival to 40%.",
+          "paragraph": 6377,
+          "source": "Oxford Handbook · paragraph 6377"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-045",
+      "description": "Oral lesions in a young adult presenting with hilar lymphadenopathy and erythema nodosum — a systemic granulomatous condition.",
+      "conditionName": "Sarcoidosis (oral manifestations)",
+      "prevalence": "rare",
+      "etiology": "Sarcoidosis most commonly presents as hilar lymphadenopathy in young adults [1]. Oral lesions can occur [1]. Erythema nodosum is a common associated finding [1].",
+      "presentation": "Oral lesions — swellings or ulcers — in the context of systemic sarcoidosis [1]. The presenting picture is typically hilar lymphadenopathy in a young adult, with erythema nodosum on the skin [1].",
+      "results": "Histology of the oral lesion shows non-caseating granulomata — the hallmark of sarcoidosis. Chest X-ray shows hilar lymphadenopathy in the classic presentation [1].",
+      "definingCharacteristics": "The systemic context is key: a young adult with hilar lymphadenopathy and erythema nodosum who also has an oral lesion [1]. Oral sarcoidosis cannot be distinguished from other granulomatous conditions on clinical grounds alone — biopsy and systemic investigation are required.",
+      "treatment": "Oral lesions are managed symptomatically. Systemic treatment is directed at the underlying sarcoidosis.",
+      "prognosis": "Dependent on the systemic disease course. Oral lesions typically resolve with treatment of the underlying condition [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Most commonly presents as hilar lymphadenopathy in young adults. Oral lesions can occur. Erythema nodosum common.",
+          "paragraph": 7267,
+          "source": "Oxford Handbook · paragraph 7267"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-046",
+      "description": "Purple or dark-red vascular patches in the mouth — multiple, irregular — in a patient with AIDS or significant immunosuppression.",
+      "conditionName": "Kaposi's sarcoma (oral)",
+      "prevalence": "rare",
+      "etiology": "A HHV-8-related radiosensitive vascular tumour associated with AIDS [1]. A multifocal malignant tumour that occurs intraorally as well as on skin [2].",
+      "presentation": "Purple, vascular, multifocal lesions — seen intraorally in AIDS and other immunocompromised patients [2]. Dark red to purple in colour, reflecting the vascular nature [2]. The context is almost always AIDS or significant immunosuppression [1][2].",
+      "results": "Biopsy confirms the vascular malignant nature. The oral finding should prompt investigation for systemic disease and HIV testing if not already done.",
+      "definingCharacteristics": "A purple, multifocal vascular tumour in the context of immunosuppression is the defining picture [1][2]. The HHV-8 aetiology and AIDS association make this distinct from all other oral pigmented or vascular lesions. It is radiosensitive [1] — which drives the treatment choice.",
+      "treatment": "Radiotherapy — the tumour is radiosensitive [1]. Systemic treatment is directed at the underlying HIV/AIDS disease.",
+      "prognosis": "Prognosis is largely determined by the underlying AIDS/immunosuppression [1][2].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "(…… Kaposi's sarcoma (KS), p. 478.) A HHV-8-related radiosensitive vascular tumour associated with AIDS.",
+          "paragraph": 6165,
+          "source": "Oxford Handbook · paragraph 6165"
+        },
+        {
+          "id": 2,
+          "quote": "A purple, vascular, multifocal malignant tumour typically seen in AIDS and other immunocompromised patients. Also seen intraorally.",
+          "paragraph": 7520,
+          "source": "Oxford Handbook · paragraph 7520"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-047",
+      "description": "Patches of brownish-black pigmentation on the buccal mucosa — acquired, in a patient who may also have weakness, weight loss, or other endocrine symptoms.",
+      "conditionName": "Addison's disease (buccal mucosal melanosis)",
+      "prevalence": "rare",
+      "etiology": "Addison's disease is adrenocortical hypofunction [1]. It classically causes melanotic hyperpigmentation of the buccal mucosa [1]. It may also be part of the endocrine–candidosis syndrome [1].",
+      "presentation": "Melanotic hyperpigmentation of the buccal mucosa — the classic oral sign [1]. Systemic features of adrenocortical hypofunction provide the broader context. The dentist may encounter the pigmentation first.",
+      "results": "The oral finding warrants medical referral for cortisol and ACTH testing. The adrenocortical hypofunction is confirmed systemically [1].",
+      "definingCharacteristics": "Melanotic buccal pigmentation has a short differential: Addison's disease, racial/ethnic pigmentation, drug-induced melanosis. What makes Addison's distinctive is the acquired onset without racial pigmentation, combined with systemic adrenocortical insufficiency features [1]. The endocrine–candidosis syndrome link is a further pointer [1].",
+      "treatment": "Medical referral for investigation and adrenocortical hypofunction management [1]. Note the need for steroid cover for dental procedures in Addison's patients.",
+      "prognosis": "With systemic steroid replacement, the clinical picture stabilises [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "(Adrenocortical hypofunction.) Classically, causes melanotic hyperpigmentation of the buccal mucosa. May also be part of the endocrine–candidosis syndrome.",
+          "paragraph": 6420,
+          "source": "Oxford Handbook · paragraph 6420"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-048",
+      "description": "A rounded, moon-shaped face with oral candidosis — in a patient on long-term steroids or with signs of excess cortisol.",
+      "conditionName": "Cushing syndrome (oral and facial manifestations)",
+      "prevalence": "rare",
+      "etiology": "Excess cortisol — from endogenous overproduction or exogenous steroid medication — causes the characteristic head and neck manifestations [1].",
+      "presentation": "A 'moon face' and oral candidosis are the common head and neck features [1]. Facial acne and skin atrophy also occur [1].",
+      "results": "The clinical picture is diagnostic in context: moon face, oral thrush, skin atrophy, and acne in a patient on long-term corticosteroids [1]. The key dental implication is the need for steroid prophylaxis for invasive dental procedures [1].",
+      "definingCharacteristics": "Oral candidosis in the context of systemic steroid use or Cushing syndrome has a specific cause — corticosteroid-induced immune suppression [1]. The moon face and skin changes point to the systemic diagnosis. What makes this clinically significant for the dentist is the steroid prophylaxis requirement [1].",
+      "treatment": "Treat oral candidosis with antifungal therapy. Note the need for steroid prophylaxis before invasive dental procedures [1]. The underlying endocrine cause is managed by specialists.",
+      "prognosis": "Oral candidosis responds to antifungal treatment but recurs while steroid exposure continues [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A 'moon face' and oral candidosis are the common head and neck manifestations as a result of excess cortisol production (endogenous) or steroid medication (exogenous). Facial acne and skin atrophy is also seen. Note a need for steroid prophylaxis.",
+          "paragraph": 6422,
+          "source": "Oxford Handbook · paragraph 6422"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-049",
+      "description": "An oral lesion in a patient with a history of travel to endemic regions or systemic immunosuppression — caused by a rare fungal infection.",
+      "conditionName": "Histoplasmosis (oral manifestations)",
+      "prevalence": "rare",
+      "etiology": "Histoplasmosis and other rare fungal infections can have occasional oral manifestations [1].",
+      "presentation": "An oral lesion in the context of rare fungal infection [1]. The exact nature of the oral lesion is not described in the source beyond this; the clinical context is the key pointer.",
+      "results": "Diagnosis requires fungal culture, serology, and biopsy. Awareness of the epidemiological context is the first step.",
+      "definingCharacteristics": "Oral histoplasmosis is an occasional manifestation of a rare systemic fungal infection [1]. It is not clinically distinguishable from other oral lesions without microbiological investigation.",
+      "treatment": "Systemic antifungal therapy is required. The oral lesion is treated as part of the systemic disease.",
+      "prognosis": "Dependent on the systemic disease and immune status [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This and other rare fungal infections have occasional oral manifestations.",
+          "paragraph": 6053,
+          "source": "Oxford Handbook · paragraph 6053"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-050",
+      "description": "Coalescing white papules on the gums or palate in a patient with hyperkeratotic skin lesions on the scalp, neck, and chest.",
+      "conditionName": "Darier's disease (oral manifestations)",
+      "prevalence": "rare",
+      "etiology": "Darier's disease is a rare skin condition [1]. Oral lesions are present in approximately 50% of affected patients [1]. It is manifested with hyperkeratotic papules affecting seborrheic areas on the head, neck, and thorax [1].",
+      "presentation": "Coalescing white papules on the gingivae and palate [1]. The skin picture — hyperkeratotic papules on seborrheic areas of the head, neck, and thorax — provides the systemic context [1].",
+      "results": "Oral lesions are present in around 50% of patients [1]. Biopsy of the oral lesion confirms acantholytic dyskeratosis consistent with the diagnosis. The skin disease provides the diagnostic context.",
+      "definingCharacteristics": "Coalescing white papules on the gingivae are distinctive in this context — not a homogeneous white patch, but a papular, coalescing pattern [1]. The combination with characteristic skin hyperkeratotic papules on seborrheic areas makes the diagnosis [1].",
+      "treatment": "Managed by dermatology. Oral lesions do not typically require separate treatment.",
+      "prognosis": "The oral lesions are a manifestation of the underlying genetic skin condition [1]. No malignant potential is stated in the source.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A rare skin condition whose oral lesions (present in ~50%) are coalescing white papules on gingivae and palate. It is clinically manifested with hyperkeratotic papules affecting seborrheic areas on the head, neck, and thorax with less frequent involvement of the mouth.",
+          "paragraph": 6143,
+          "source": "Oxford Handbook · paragraph 6143"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-051",
+      "description": "Blistering or erosive mucosal disease with a strong family history, starting in young adults — distinct from other pemphigus variants.",
+      "conditionName": "Hailey–Hailey disease (benign familial chronic pemphigus)",
+      "prevalence": "rare",
+      "etiology": "Hailey–Hailey disease is a variant of pemphigus distinguished by a strong family history, with onset in young adults [1].",
+      "presentation": "Blistering or erosive disease in the mouth in a young adult with a positive family history of the same condition [1]. The skin is the primary site; oral involvement is part of the pattern.",
+      "results": "The strong family history is the key diagnostic pointer that distinguishes this from other pemphigus variants [1]. Biopsy with immunofluorescence shows intraepithelial blistering.",
+      "definingCharacteristics": "The defining feature is the family history and young adult onset — this is an inherited condition [1]. Unlike pemphigus vulgaris, which is autoimmune and acquired, Hailey–Hailey is genetic and familial [1].",
+      "treatment": "Managed by dermatology. Oral symptomatic treatment for erosions.",
+      "prognosis": "A chronic condition — the inherited basis means it persists [1]. Management is symptomatic.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This differs from other pemphigus by having a strong family history, with onset of the disease in young adults.",
+          "paragraph": 6088,
+          "source": "Oxford Handbook · paragraph 6088"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-052",
+      "description": "Oval white patches on the tongue in a patient with abnormal nails, skin, and sweat glands — a rare genetic syndrome.",
+      "conditionName": "Pachyonychia congenita",
+      "prevalence": "rare",
+      "etiology": "Pachyonychia congenita is a rare genetic condition affecting nails, skin, and sweat glands [1]. Oral white patches are a common feature [1].",
+      "presentation": "Oval, benign, white patches on the tongue are common [1]. Nail and skin abnormalities provide the systemic context [1].",
+      "results": "Diagnosis is made in the context of the genetic syndrome — the combination of nail dystrophy, skin abnormalities, and oral white patches [1].",
+      "definingCharacteristics": "The oral white patches are oval and benign [1]. The combination with nail and skin involvement in a genetic syndrome distinguishes this from acquired white patches [1]. No malignant potential is stated in the source.",
+      "treatment": "Managed by dermatology and genetics. No specific oral treatment is stated.",
+      "prognosis": "The oral white patches are benign [1]. No malignant potential is described in the source.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A rare genetic condition affecting nails, skin, and sweat glands. Oval, benign, white patches on tongue are common.",
+          "paragraph": 6145,
+          "source": "Oxford Handbook · paragraph 6145"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-053",
+      "description": "White plaques in the mouth present since childhood, in a patient with pigmented skin and nail dystrophy — a rare autosomal dominant condition with premalignant potential.",
+      "conditionName": "Dyskeratosis congenita",
+      "prevalence": "rare",
+      "etiology": "A rare autosomal dominant condition characterised by pigmented skin, nail dystrophy, and leucoplakia evident in childhood [1].",
+      "presentation": "White plaques in the mouth, evident from childhood [1]. The systemic features — pigmented skin and nail dystrophy — accompany the oral leucoplakia [1].",
+      "results": "The oral white plaques have premalignant potential [1]. Biopsy is required to assess dysplasia.",
+      "definingCharacteristics": "Childhood onset alongside a genetic syndrome (pigmented skin, nail dystrophy) and autosomal dominant inheritance is what separates dyskeratosis congenita from acquired white patches [1]. The premalignant potential of the white plaques [1] means ongoing oral surveillance is required.",
+      "treatment": "Specialist surveillance for dysplasia and malignancy given the premalignant potential [1]. Management with genetics and dermatology.",
+      "prognosis": "White plaques have premalignant potential [1]. Regular surveillance is essential.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A rare autosomal dominant condition of pigmented skin, nail dystrophy, and leucoplakia evident in childhood. White plaques have premalignant potential.",
+          "paragraph": 6199,
+          "source": "Oxford Handbook · paragraph 6199"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-054",
+      "description": "A small, stable, flat pigmented spot on the cheek lining, palate, or lip — present for a long time without change.",
+      "conditionName": "Oral pigmented naevus",
+      "prevalence": "very-uncommon",
+      "etiology": "Oral pigmented naevi are rare and benign — analogous to a mole on the skin [1]. Mostly harmless [1].",
+      "presentation": "Most commonly seen on the vermilion border of the lips and the palate [1]. If under 1 cm in diameter, they do not change in size or colour [1].",
+      "results": "A stable lesion under 1 cm in a typical site is clinically reassuring [1]. Any change in size, colour, or border irregularity warrants biopsy to exclude malignant melanoma.",
+      "definingCharacteristics": "The rule: if the lesion is under 1 cm and stable, it is likely benign [1]. Malignant melanoma, by contrast, enlarges rapidly and has a very dark, irregular outline. The distinction hinges on stability and size [1].",
+      "treatment": "Observation if under 1 cm and stable [1]. Biopsy any lesion that changes or exceeds 1 cm.",
+      "prognosis": "Mostly harmless [1]. No malignant potential stated for stable naevi under 1 cm [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Rare and benign. Analogous to a mole. Mostly harmless. Most commonly seen on vermilion border of lips and palate. If <1cm, they do not change in size or colour.",
+          "paragraph": 6161,
+          "source": "Oxford Handbook · paragraph 6161"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-055",
+      "description": "Opportunistic oral infections — more severe, persistent, or unusual than expected — in a patient on immunosuppressive drugs.",
+      "conditionName": "Immunosuppression-related opportunistic oral infections",
+      "prevalence": "uncommon",
+      "etiology": "Drugs that suppress the immune response — corticosteroids, ciclosporin, azathioprine, cytotoxics, and others — are now in common therapeutic use [1]. This creates a patient population susceptible to opportunistic oral infections [1].",
+      "presentation": "Oral infections that are more severe, persistent, or resistant to treatment than expected in an immunocompetent patient [1]. Candidosis is the most common oral opportunistic infection in this group.",
+      "results": "The clinical question is: what immunosuppressive agents is the patient on, and what is their current immune status? Aggressive treatment of infections is needed [1].",
+      "definingCharacteristics": "Background immunosuppression is the distinguishing factor [1]. Standard dental treatment carries increased cross-infection risk, and infections run a more aggressive course [1]. The goal is to anticipate and prevent rather than simply react.",
+      "treatment": "Aggressive treatment of infections [1]. Antimicrobial prophylaxis where indicated [1]. Cross-infection prevention and control principles are essential [1].",
+      "prognosis": "Dependent on the degree of immunosuppression and the underlying disease. With aggressive treatment and appropriate prophylaxis, outcomes improve [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Drugs which suppress the immune response, e.g. corticosteroids, ciclosporin, azathioprine, cytotoxics, etc., are now in common use therapeutically. Aggressive Rx of infections and antimicrobial prophylaxis are needed.",
+          "paragraph": 7599,
+          "source": "Oxford Handbook · paragraph 7599"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-056",
+      "description": "Oral candidosis in a young person without an obvious cause — one of the earliest signs of HIV disease.",
+      "conditionName": "HIV-associated candidosis (presenting sign of HIV)",
+      "prevalence": "uncommon",
+      "etiology": "Oral candidosis is seen in 70% of HIV patients and is one of the earliest oral manifestations [1]. It can present as erythematous (early), hyperplastic, or pseudomembranous candidosis (late), and as angular cheilitis in young people [1].",
+      "presentation": "Angular cheilitis is the most common oral feature of HIV [1]. Erythematous candidosis typically appears early, with pseudomembranous thrush later in the disease course [1]. The patient may be young — oral candidosis without an obvious cause in a young person is a pointer to HIV [1].",
+      "results": "Fifty percent of patients with HIV-associated thrush develop AIDS within 5 years [1]. So the question is not just how to treat the thrush — the question is why does this patient have thrush. HIV testing should be offered.",
+      "definingCharacteristics": "What separates HIV-associated candidosis from ordinary thrush is the patient profile and disease trajectory: a young person with unexplained or recurrent thrush, or with angular cheilitis [1]. The 50% progression to AIDS within 5 years makes early recognition genuinely important [1].",
+      "treatment": "Treat the candidosis with antifungals. Offer HIV testing — this is an early marker of HIV disease [1]. Refer for HIV specialist care if positive.",
+      "prognosis": "Fifty percent of patients with HIV-associated thrush develop AIDS within 5 years [1]. Early recognition and HIV treatment is the most important prognostic intervention.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Seen in 70% of HIV patients as early manifestation. Erythematous (early), hyperplastic, pseudomembranous (late), and angular cheilitis in young people (most common oral feature of HIV). 50% of patients with HIV-associated thrush develop AIDS in 5yrs.",
+          "paragraph": 6453,
+          "source": "Oxford Handbook · paragraph 6453"
+        }
+      ]
+    },
+    {
+      "id": "cheeks-057",
+      "description": "Widespread oral ulceration with sore throat and lymphadenopathy in a child or young adult — caused by an infectious mononucleosis-like illness where CMV rather than EBV is the agent.",
+      "conditionName": "CMV-related oral ulceration (infectious mononucleosis-like syndrome)",
+      "prevalence": "rare",
+      "etiology": "Infectious mononucleosis-like illness is caused most often by Epstein–Barr virus (EBV) and, less commonly, cytomegalovirus (CMV) [1]. Toxoplasmosis can also give a similar picture [1].",
+      "presentation": "Sore throat, generalised lymphadenopathy, fever, headaches, general malaise, and often a maculopapular rash in a child or young adult [1]. Oral manifestations may mimic primary herpetic gingivostomatitis with widespread oral ulceration [1]. Petechial haemorrhages — especially at the junction of the hard and soft palate — may be present and are regarded as pathognomonic [1].",
+      "results": "Initial investigations: monospot test and Paul–Bunnell test to exclude EBV [1]. Acute and convalescent titres for CMV and toxoplasmosis [1]. Early HIV infection can give a similar presentation and should be in the differential [1].",
+      "definingCharacteristics": "The petechial haemorrhages at the junction of the hard and soft palate are described as pathognomonic for the infectious mononucleosis picture [1]. CMV is the less common cause — EBV is the usual driver — but the clinical picture is essentially the same; serology separates them [1].",
+      "treatment": "Symptomatic management. Serology to confirm the causative agent [1]. Early HIV presentation must be excluded [1].",
+      "prognosis": "Typically self-limiting in immunocompetent patients. Serology guides the management of the rare cases where CMV or toxoplasmosis is confirmed [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is seen mostly in children and young adults and is spread by infected saliva. It varies widely in severity and presents with sore throat, generalized lymphadenopathy, fever, headaches, general malaise, and often a maculo-papular rash. Oral manifestations may mimic 1° herpetic gingivostomatitis, with widespread oral ulceration, and in addition petechial haemorrhages, especially at the junction of hard and soft palate (pathognomonic), and bruising may be present. The cause is usually Epstein–Barr virus (EBV) and, less commonly, cytomegalovirus (CMV). Toxoplasmosis can give a similar picture. ∆: initially monospot test, Paul–Bunnell test to exclude EBV, and acute and convalescent titres for CMV and toxoplasmosis.",
+          "paragraph": 6030,
+          "source": "Oxford Handbook · paragraph 6030"
+        }
       ]
     }
   ]
