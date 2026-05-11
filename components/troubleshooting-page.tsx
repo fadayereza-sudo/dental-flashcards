@@ -1,7 +1,9 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { createPortal } from "react-dom";
 import { useBackClose } from "@/lib/use-back-close";
+import { useDragToClose } from "@/lib/use-drag-to-close";
 import {
   PrincipleToggleList,
   type Citation,
@@ -76,6 +78,32 @@ const PREVALENCE_STYLE: Record<
   },
 };
 
+const PREVALENCE_DETAIL: Record<
+  Prevalence,
+  { range: string; encounter: string }
+> = {
+  "very-common": {
+    range: "≥10% lifetime",
+    encounter: "Seen weekly or more",
+  },
+  common: {
+    range: "1–10% lifetime",
+    encounter: "Seen monthly",
+  },
+  uncommon: {
+    range: "0.1–1% (1 in 100 – 1 in 1,000)",
+    encounter: "A handful per career",
+  },
+  "very-uncommon": {
+    range: "0.01–0.1% (1 in 1,000 – 1 in 10,000)",
+    encounter: "Once or twice per career",
+  },
+  rare: {
+    range: "<0.01% (<1 in 10,000)",
+    encounter: "Likely never personally",
+  },
+};
+
 type Problem = {
   id: string;
   description: string;
@@ -137,6 +165,7 @@ export function TroubleshootingPage() {
   const [activePrevalences, setActivePrevalences] = useState<Set<Prevalence>>(
     () => new Set(PREVALENCE_ORDER)
   );
+  const [prevalenceInfoOpen, setPrevalenceInfoOpen] = useState(false);
 
   const [query, setQuery] = useState("");
   const isSearching = normalizeQuery(query).length > 0;
@@ -321,8 +350,8 @@ export function TroubleshootingPage() {
       </div>
 
       {!isSearching && (
-        <div className="max-w-2xl mx-auto pb-3">
-          <div className="flex flex-wrap gap-1.5">
+        <div className="max-w-2xl mx-auto pb-3 flex items-center gap-2">
+          <div className="flex flex-wrap gap-1.5 flex-1 min-w-0">
             {PREVALENCE_ORDER.map((p) => {
               const active = activePrevalences.has(p);
               const style = PREVALENCE_STYLE[p];
@@ -339,6 +368,14 @@ export function TroubleshootingPage() {
               );
             })}
           </div>
+          <button
+            type="button"
+            onClick={() => setPrevalenceInfoOpen(true)}
+            className="shrink-0 w-7 h-7 rounded-full bg-paper-sunk border border-rule flex items-center justify-center text-ink-muted hover:text-ink transition-colors"
+            aria-label="What do these prevalence labels mean?"
+          >
+            <span className="text-xs font-semibold leading-none">?</span>
+          </button>
         </div>
       )}
 
@@ -453,6 +490,134 @@ export function TroubleshootingPage() {
         })}
       </div>
       )}
+
+      {prevalenceInfoOpen && (
+        <PrevalenceInfoSheet onClose={() => setPrevalenceInfoOpen(false)} />
+      )}
     </div>
   );
+}
+
+function PrevalenceInfoSheet({ onClose }: { onClose: () => void }) {
+  const [closing, setClosing] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const requestClose = useCallback(() => {
+    setClosing((c) => {
+      if (c) return c;
+      setTimeout(() => onClose(), 260);
+      return true;
+    });
+  }, [onClose]);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") requestClose();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [requestClose]);
+
+  useBackClose(mounted && !closing, requestClose);
+  const { sheetRef, handleProps } = useDragToClose(onClose);
+
+  if (!mounted) return null;
+
+  const sheet = (
+    <div
+      className="fixed inset-0 z-[100] flex items-end justify-center"
+      onClick={requestClose}
+    >
+      <div
+        className={`absolute inset-0 bg-ink/40 backdrop-blur-sm ${
+          closing ? "animate-fade-out" : "animate-fade-in"
+        }`}
+      />
+      <div
+        ref={sheetRef}
+        onClick={(e) => e.stopPropagation()}
+        className={`relative w-full max-w-[32rem] max-h-[75dvh] bg-paper rounded-t-2xl border-t border-rule shadow-[0_-8px_30px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden pb-[env(safe-area-inset-bottom)] ${
+          closing ? "animate-slide-down" : "animate-slide-up"
+        }`}
+      >
+        <div
+          {...handleProps}
+          className="flex justify-center pt-3 pb-2 touch-none cursor-grab active:cursor-grabbing"
+        >
+          <div className="w-10 h-1 rounded-full bg-ink-muted/30" />
+        </div>
+
+        <div className="flex items-start justify-between px-6 pb-3 border-b border-rule/70">
+          <div className="min-w-0 pr-4">
+            <p className="text-xs tracking-[0.04em] uppercase text-bronze font-semibold mb-1">
+              Prevalence guide
+            </p>
+            <p className="text-sm text-ink-soft">
+              What each label means statistically
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={requestClose}
+            className="shrink-0 mt-1 w-7 h-7 rounded-full bg-paper-sunk border border-rule flex items-center justify-center text-ink-muted hover:text-ink transition-colors"
+            aria-label="Close"
+          >
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden>
+              <path
+                d="M1 1l8 8M9 1l-8 8"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div
+          className="flex-1 min-h-0 overflow-y-auto px-6 py-5"
+          style={{
+            overscrollBehavior: "contain",
+            WebkitOverflowScrolling: "touch",
+          }}
+        >
+          <p className="text-sm text-ink-soft leading-[1.55] mb-5">
+            Probability of encountering this condition in a UK practice
+            catchment, anchored to lifetime prevalence in the white-British
+            population (with adjustment where ethnic or geographic skew
+            materially shifts the bucket).
+          </p>
+
+          <ul className="space-y-3">
+            {PREVALENCE_ORDER.map((p) => {
+              const detail = PREVALENCE_DETAIL[p];
+              const style = PREVALENCE_STYLE[p];
+              return (
+                <li key={p} className="flex items-start gap-3">
+                  <span
+                    className={`shrink-0 inline-block text-xs tracking-[0.04em] uppercase font-semibold whitespace-nowrap px-2 py-0.5 rounded-full ${style.badge}`}
+                  >
+                    {PREVALENCE_LABEL[p]}
+                  </span>
+                  <div className="flex-1 min-w-0 pt-0.5">
+                    <p className="text-sm text-ink font-medium">
+                      {detail.range}
+                    </p>
+                    <p className="text-xs text-ink-soft mt-0.5">
+                      {detail.encounter}
+                    </p>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+
+  return createPortal(sheet, document.body);
 }
