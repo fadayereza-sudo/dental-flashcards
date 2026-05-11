@@ -53,7 +53,7 @@ Never copy any of these source files into the project tree. The dev server OOMs 
 
 ## Origins (canonical slugs)
 
-These are the 15 level-1 origins. Order is the display order; the slug must match exactly so file paths and IDs line up.
+These are the 20 level-1 origins. Order is the display order; the slug must match exactly so file paths and IDs line up. Origins 1–15 are anatomical sites a GDP examines directly. Origins 16–20 are categorical groupings for problems that don't sit at a single site — they were added after the Oxford Handbook gap analysis (2026-05-11) surfaced large blocks of jaw, salivary, craniofacial, neuropathic, and systemic-disease conditions that didn't fit the original 15.
 
 | order | slug                  | title                  |
 | ----- | --------------------- | ---------------------- |
@@ -72,8 +72,15 @@ These are the 15 level-1 origins. Order is the display order; the slug must matc
 | 13    | `removable-prosthesis`| Removable prosthesis   |
 | 14    | `psychological`       | Psychological          |
 | 15    | `lifestyle`           | Lifestyle              |
+| 16    | `jaw`                 | Jaw                    |
+| 17    | `salivary`            | Salivary glands        |
+| 18    | `craniofacial`        | Craniofacial syndromes |
+| 19    | `neuropain`           | Neurogenic pain        |
+| 20    | `systemic`            | Systemic disease       |
 
-This list is not closed. If a clinically important problem cleanly belongs to an origin not on the list (e.g. `salivary-glands`, `tmj`), add the origin and append it to the index — never force-fit it into a wrong bucket.
+This list is not closed. If a clinically important problem cleanly belongs to an origin not on the list, add the origin and append it to the index — never force-fit it into a wrong bucket.
+
+**Allocation rule when a condition touches several origins**: put it where the GDP first *sees* the problem. A drug-induced lichenoid reaction is `cheeks`; sickle-cell-related infarcts in the jaw are `jaw`; a leukaemic patient whose gingiva bleeds spontaneously is `periodontal` (with `systemic` for the underlying disease as a separate problem). Cross-reference in `definingCharacteristics` rather than duplicating across origins.
 
 ## Schema
 

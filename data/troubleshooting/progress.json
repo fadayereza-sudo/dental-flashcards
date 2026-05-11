@@ -15,8 +15,13 @@
     "fixed-prosthesis",
     "removable-prosthesis",
     "psychological",
-    "lifestyle"
+    "lifestyle",
+    "jaw",
+    "salivary",
+    "craniofacial",
+    "neuropain",
+    "systemic"
   ],
-  "totalOrigins": 15,
-  "lastUpdated": "2026-05-10"
+  "totalOrigins": 20,
+  "lastUpdated": "2026-05-11"
 }

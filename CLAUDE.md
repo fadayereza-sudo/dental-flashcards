@@ -44,7 +44,12 @@ Card images served from `public/card-images/`. Cards can reference them via the 
 
 ## Troubleshooting (`data/troubleshooting/`)
 
-The middle panel of the app. One JSON file per **origin** (anatomical or thematic category: `permanent-dentition`, `periodontal`, `tongue`, `lifestyle`, etc.). The 15 canonical origins are: skin, lips, cheeks, tongue, floor-of-mouth, palate, throat, muscles, periodontal, primary-dentition, permanent-dentition, fixed-prosthesis, removable-prosthesis, psychological, lifestyle.
+The middle panel of the app. One JSON file per **origin** (anatomical site or thematic category). The 20 canonical origins are:
+
+- **Anatomical (1–15)**: skin, lips, cheeks, tongue, floor-of-mouth, palate, throat, muscles, periodontal, primary-dentition, permanent-dentition, fixed-prosthesis, removable-prosthesis, psychological, lifestyle.
+- **Categorical (16–20)** — added after the Oxford Handbook gap analysis (see [data/troubleshooting/oxford-handbook-coverage-analysis.md](data/troubleshooting/oxford-handbook-coverage-analysis.md)): jaw (cysts, tumours, fibro-osseous, deep-space infections, sinus, fractures), salivary (salivary gland disease), craniofacial (syndromes), neuropain (neurogenic/vascular facial pain), systemic (oral signs of systemic disease).
+
+**Allocation rule** when a condition touches several origins: put it where the GDP first *sees* the problem; cross-reference in `definingCharacteristics` rather than duplicating across origins.
 
 ```ts
 type OriginData = {

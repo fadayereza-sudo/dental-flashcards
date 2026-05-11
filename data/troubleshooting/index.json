@@ -88,5 +88,35 @@
     "title": "Lifestyle",
     "order": 15,
     "description": "Oral conditions where the primary driver is a lifestyle factor: tobacco use, dietary acid or sugar patterns, and oral hygiene habits."
+  },
+  {
+    "slug": "jaw",
+    "title": "Jaw",
+    "order": 16,
+    "description": "Pathology of the maxilla and mandible — odontogenic and non-odontogenic cysts, jaw tumours, fibro-osseous diseases, deep-space infections, maxillary sinus problems, and dento-alveolar / facial-skeleton fractures."
+  },
+  {
+    "slug": "salivary",
+    "title": "Salivary glands",
+    "order": 17,
+    "description": "Diseases of the major (parotid, submandibular, sublingual) and minor salivary glands — obstructive, infective, inflammatory, autoimmune, and neoplastic."
+  },
+  {
+    "slug": "craniofacial",
+    "title": "Craniofacial syndromes",
+    "order": 18,
+    "description": "Congenital and developmental syndromes affecting the face, jaws, palate, and dentition — most are referred to specialist multidisciplinary care, but the GDP is often first to notice."
+  },
+  {
+    "slug": "neuropain",
+    "title": "Neurogenic pain",
+    "order": 19,
+    "description": "Facial and oral pain of neurogenic, vascular, or central origin — the differentials for the toothache that doesn't behave like a toothache."
+  },
+  {
+    "slug": "systemic",
+    "title": "Systemic disease",
+    "order": 20,
+    "description": "Oral and dental manifestations of systemic disease — the moment when a routine dental exam picks up an undiagnosed haematological, endocrine, autoimmune, or metabolic condition."
   }
 ]

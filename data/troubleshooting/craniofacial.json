@@ -1,0 +1,110 @@
+{
+  "slug": "craniofacial",
+  "title": "Craniofacial syndromes",
+  "order": 18,
+  "description": "Congenital and developmental syndromes affecting the face, jaws, palate, and dentition — most are referred to specialist multidisciplinary care, but the GDP is often first to notice.",
+  "problems": [
+    {
+      "id": "craniofacial-001",
+      "description": "Child born with split in the lip and roof of the mouth, struggling to feed, with impaired hearing and speech.",
+      "conditionName": "Cleft lip and palate (CLP)",
+      "prevalence": "uncommon",
+      "etiology": "Multifactorial — both genetic and environmental factors are involved, including maternal smoking, alcohol use, and phenytoin intake [1]. Family history is present in 40% of cases of combined cleft lip and palate, and in 20% of isolated cleft palate cases [2]. It can occur in isolation or as part of a broader syndrome [1].",
+      "presentation": "A cleft of the lip and/or palate, which can be unilateral or bilateral, complete or incomplete [3]. Submucous cleft is often missed until poor speech is noticed, as the overlying mucosa is intact [3]. Associated problems include impaired hearing and speech, dental anomalies (hypodontia, displaced and hypoplastic teeth especially near the cleft), and congenital anomalies in up to 20% of cases [4].",
+      "results": "Tissue deficit, displacement of alveolar segments, and abnormal muscle attachments [5]. In repaired cases, maxillary growth is reduced in the anteroposterior, transverse, and vertical dimensions [6]. There is increased incidence of Class III malocclusion in adolescence due to restraining effects of primary surgery on facial growth [7].",
+      "definingCharacteristics": "Orofacial cleft with or without alveolar involvement, accompanied by hearing impairment and disordered speech. Dental anomalies — particularly hypodontia and displaced teeth at the cleft site — are characteristic [4]. Taking folic acid at the start of pregnancy reduces the risk fourfold [8].",
+      "treatment": "Managed by a specialist cleft team — cleft surgeon, ENT surgeon, orthodontist, speech therapist, and clinical psychologist [9]. The GDP's role is establishing good dental care early and supporting the family. Surgical staging includes lip closure at 3–6 months, palatal closure at 9–12 months, and alveolar bone graft when the canine root is half to two-thirds formed (around age 8½ to 10½ years) [10]. Centralisation of care and audit of outcome gives better results [9].",
+      "prognosis": "With coordinated MDT care, outcomes for speech, occlusion, and facial appearance have improved substantially. Growth restriction from surgery is an inherent trade-off; a proportion of cleft patients have skeletal discrepancy too severe for conventional surgical movements and require distraction osteogenesis [11]. Nasal deformity remains the greatest surgical challenge [12].",
+      "citations": [
+        { "id": 1, "quote": "Multifactorial with both genetic and environmental factors (including maternal smoking, alcohol, and phenytoin intake) involved.", "paragraph": 2634, "source": "Oxford Handbook · paragraph 2634" },
+        { "id": 2, "quote": "CLP varies with racial group and geographically. Occurs in ~1:1000 Caucasian births, but prevalence i. M > F. If unilateral L > R. Family history in 40% of cases.", "paragraph": 2631, "source": "Oxford Handbook · paragraph 2631" },
+        { "id": 3, "quote": "Many exist, but the best approach is to describe cleft: 1° &/or 2° palate; complete or incomplete; unilateral or bilateral. Submucous cleft of the palate is often missed until poor speech noticed, as overlying mucosa is intact.", "paragraph": 2636, "source": "Oxford Handbook · paragraph 2636" },
+        { "id": 4, "quote": "In CLP, ↑ prevalence of hypodontia and $ teeth (especially in region of cleft). Teeth adjacent to cleft are often displaced. Also ↑ incidence of hypoplasia and delayed eruption.", "paragraph": 2647, "source": "Oxford Handbook · paragraph 2647" },
+        { "id": 5, "quote": "Tissue deficit, displacement of segments, and abnormal muscle attachments.", "paragraph": 2639, "source": "Oxford Handbook · paragraph 2639" },
+        { "id": 6, "quote": "Unrepaired clefts show normal growth. In repaired clefts maxillary growth is ↓ AP, transversely, and vertically. Mandibular growth also d.", "paragraph": 2641, "source": "Oxford Handbook · paragraph 2641" },
+        { "id": 7, "quote": "Because of the restraining effects of 1° surgery upon facial growth, cleft patients often have a Class III malocclusion.", "paragraph": 2669, "source": "Oxford Handbook · paragraph 2669" },
+        { "id": 8, "quote": "Taking folic acid at the start of pregnancy reduces the risk of cleft lip and palate fourfold.", "paragraph": 6845, "source": "Oxford Handbook · paragraph 6845" },
+        { "id": 9, "quote": "Team usually includes cleft surgeon, ear, nose, and throat (ENT) surgeon, health visitors, orthodontist, speech therapist, clinical psychologist, and central coordinator. Centralization of care and audit of outcome gives better results.", "paragraph": 2649, "source": "Oxford Handbook · paragraph 2649" },
+        { "id": 10, "quote": "If an alveolar cleft is present then this should be grafted when the canine root is half to two-thirds formed (around age 8½ to 10½yrs) with cancellous bone.", "paragraph": 2661, "source": "Oxford Handbook · paragraph 2661" },
+        { "id": 11, "quote": "A proportion of cleft patients will have a skeletal discrepancy that is too severe for conventional surgical movements.", "paragraph": 2672, "source": "Oxford Handbook · paragraph 2672" },
+        { "id": 12, "quote": "Perhaps the greatest surgical challenge. 1° functional lip/nose repair may alter this.", "paragraph": 6855, "source": "Oxford Handbook · paragraph 6855" }
+      ]
+    },
+    {
+      "id": "craniofacial-002",
+      "description": "Patient with characteristic flat mid-face, large tongue, and delayed tooth eruption, known to have a heart condition and neck instability risk.",
+      "conditionName": "Down syndrome (trisomy 21)",
+      "prevalence": "uncommon",
+      "etiology": "The commonest of all malformation syndromes, affecting up to 1:600 births [1]. Risk increases with maternal age [1]. The condition is chromosomal in origin (trisomy 21).",
+      "presentation": "Characteristic facial appearance with brachycephaly, mid-face retrusion, small nose with flattened nasal bridge, and upward-sloping palpebral fissures [1]. Relative macroglossia and delayed eruption of teeth are consistent oral findings [1]. Major relevant associations for dental care are heart defects, atlanto-axial subluxation, anaemia, and an increased risk of leukaemia [1].",
+      "results": "Children with Down syndrome account for one-third of severely mentally handicapped children [1]. Atlanto-axial subluxation poses a risk during dental treatment in any position that hyperextends the neck — relevant for chair positioning and any procedure requiring neck movement.",
+      "definingCharacteristics": "Macroglossia, delayed eruption, and mid-face retrusion in a patient with trisomy 21. The combination of cardiac defects and atlanto-axial subluxation risk directly shapes how dental care is delivered [1]. Most patients are extremely friendly and cooperative [1].",
+      "treatment": "The GDP can provide routine dental care with appropriate adjustments — antibiotic prophylaxis where indicated for cardiac defects, careful neck positioning to avoid atlanto-axial stress, and modified communication strategies. Specialist referral is needed for complex restorative or surgical work. No cure; management is supportive and multidisciplinary.",
+      "prognosis": "Life expectancy has increased significantly with improved cardiac and medical care. Periodontal disease tends to be more severe and should be monitored proactively. Most patients can engage with primary dental care successfully.",
+      "citations": [
+        { "id": 1, "quote": "The commonest of all malformation syndromes, affecting up to 1:600 births. Risk ↑ with maternal age. Children with Down syndrome account for one-third of severely mentally handicapped children. Facial appearance is characteristic with brachycephaly, mid-face retrusion, small nose with flattened nasal bridge, and upward sloping palpebral fissures (formerly known as 'mongoloid slant'). There is relative macroglossia and delayed eruption of teeth. Major relevant associations are heart defects, atlanto-axial subluxation, anaemia, and an ↑ risk of leukaemia. Most children and adults with Down syndrome are extremely friendly and cooperative.", "paragraph": 10466, "source": "Oxford Handbook · paragraph 10466" }
+      ]
+    },
+    {
+      "id": "craniofacial-003",
+      "description": "Patient with very small lower jaw, flat cheekbones, downward-slanting eyes, and deformed ears — deaf, but with fully normal intellect.",
+      "conditionName": "Treacher Collins syndrome (mandibulofacial dysostosis)",
+      "prevalence": "rare",
+      "etiology": "A defect in structures derived from the first branchial arch [1]. Inherited as an autosomal dominant trait with variable expressivity [1].",
+      "presentation": "Downward-sloping palpebral fissures, hypoplastic malar complexes, mandibular retrognathia with a high gonial angle, deformed pinnae, hypoplastic air sinuses, colobomas in the outer third of the eye, and middle and inner ear hypoplasia causing deafness [1]. About 30% have cleft palates [1]. An unusual tongue-like projection of hair pointing towards the cheek is present in 25% [1].",
+      "results": "Most patients have completely normal intellectual function [1]. Deafness and facial appearance may lead to their potential being underestimated [1]. The degree of mandibular and malar hypoplasia determines the extent of surgical need.",
+      "definingCharacteristics": "The combination of mandibular retrognathia, malar hypoplasia, downward-slanting eyes, and conductive deafness with intact intellect is defining [1]. This syndrome is described as a prime indication for corrective craniofacial surgery [1].",
+      "treatment": "Management is by a craniofacial MDT. The GDP's role is recognition and appropriate onward referral, plus routine dental care. Corrective craniofacial surgery addresses the skeletal deformity; hearing aids or cochlear implants address deafness. Cleft palate repair where present.",
+      "prognosis": "With craniofacial surgical intervention and hearing rehabilitation, functional and aesthetic outcomes can be substantially improved. Intellectual potential is normal and outcomes are strongly influenced by whether deafness is identified and treated early.",
+      "citations": [
+        { "id": 1, "quote": "This basically involves defects in structures derived from the first branchial arch. It is inherited as an autosomal dominant trait with variable expressivity, and consists of downward-sloping palpebral fissures (formerly known as 'antimongoloid slant'), hypoplastic malar complexes, mandibular retrognathia with a high gonial angle, deformed pinnas, hypoplastic air sinuses, colobomas in the outer third of the eye, and middle and inner ear hypoplasia (and hence deafness). About 30% have cleft palates and 25% have an unusual tongue-like projection of hair pointing towards the cheek. Most have completely normal intellectual function, which may be missed because they are deaf and 'funny-looking kids'. These people may well miss out on fulfilling their potential because of society's (and some professionals') attitude to deformity. This syndrome is a prime indication for corrective craniofacial surgery.", "paragraph": 10551, "source": "Oxford Handbook · paragraph 10551" }
+      ]
+    },
+    {
+      "id": "craniofacial-004",
+      "description": "Newborn with very small lower jaw, cleft palate, and tongue falling back, causing airway obstruction and feeding difficulty.",
+      "conditionName": "Pierre Robin sequence",
+      "prevalence": "rare",
+      "etiology": "A sequence (not a syndrome) of micrognathia, cleft palate, and glossoptosis [1]. Associated with a huge number of additional anomalies [1]. About 30% of Robin sequence patients have Stickler syndrome, a connective tissue disorder with flat mid-face, myopia, retinal detachment, hearing loss, and arthropathy [2].",
+      "presentation": "Micrognathia, cleft palate, and glossoptosis — the tongue falls back and obstructs the airway [1]. Airway compromise is the immediate life-threatening problem in infancy. Associated anomalies are common; eyes should be examined to screen for Stickler syndrome [2].",
+      "results": "The primary risk is neonatal airway obstruction. The cleft palate impairs speech development. Stickler syndrome, when present, adds risk of retinal detachment and significant hearing loss [2]. The breadth of associated anomalies means full paediatric assessment is essential.",
+      "definingCharacteristics": "The triad of micrognathia, cleft palate, and glossoptosis is the defining sequence [1]. It is a sequence, not a syndrome — micrognathia is thought to be the initiating event that prevents the tongue from descending and disrupts palatal shelf fusion.",
+      "treatment": "Neonatal airway management is the immediate priority — managed by paediatric and craniofacial teams, not the GDP. The GDP's role is recognition and urgent referral at first presentation. Subsequent management follows the cleft pathway. Ophthalmic assessment is essential given the 30% Stickler syndrome prevalence [2].",
+      "prognosis": "With prompt airway management the immediate risk is controlled. Mandibular catch-up growth occurs in many cases, reducing the severity of retrognathia. Long-term outcomes depend on the extent of associated anomalies, particularly hearing and visual status in those with Stickler syndrome.",
+      "citations": [
+        { "id": 1, "quote": "Named after Pierre Robin (and mistakenly called Pierre Robin syndrome at times). This is micrognathia, cleft palate, and glossoptosis. Huge number of associated anomalies.", "paragraph": 10535, "source": "Oxford Handbook · paragraph 10535" },
+        { "id": 2, "quote": "Perhaps the commonest syndrome associated with cleft palate (20%). Consists of flat mid-face, cleft palate, myopia, retinal detachment, hearing loss (80%), and arthropathy. About 30% of Robin sequence patients have Stickler syndrome, therefore examine eyes.", "paragraph": 10547, "source": "Oxford Handbook · paragraph 10547" }
+      ]
+    },
+    {
+      "id": "craniofacial-005",
+      "description": "Patient with multiple bony lumps on the jaw and face, skin cysts, and a strong family history — incidental finding on dental X-ray.",
+      "conditionName": "Gardner syndrome",
+      "prevalence": "rare",
+      "etiology": "Autosomal dominant inheritance [1]. The syndrome comprises multiple osteomas of the jaws and facial bones, multiple polyps of the large intestine, and epidermoid cysts and fibromas of the skin [1].",
+      "presentation": "Multiple osteomas, particularly of the jaws and facial bones, which may be detected incidentally on dental radiographs [1]. Epidermoid skin cysts and fibromas are associated cutaneous findings [1]. The intestinal polyps are typically asymptomatic at the point of dental presentation.",
+      "results": "The intestinal polyps carry a high risk of malignant transformation [1]. Discovery of jaw osteomas on clinical examination or X-ray mandates investigation of the lower gastrointestinal tract [1]. Missing this step has serious consequences — Oxford describes it as a highly 'worthwhile' syndrome precisely because finding it in dental practice enables life-saving GI surveillance [1].",
+      "definingCharacteristics": "Multiple jaw osteomas + large intestine polyps with a tendency to rapid malignant change + epidermoid skin cysts, with autosomal dominant inheritance [1]. The dental finding is the entry point to a potentially life-saving diagnosis.",
+      "treatment": "The GDP's role is to recognise jaw osteomas — clinically and radiographically — and refer for GI investigation. Osteomas themselves are benign and may not require removal. GI management (surveillance colonoscopy and polyp removal) is the priority and is handled by gastroenterology and colorectal surgery teams.",
+      "prognosis": "If the intestinal polyps are identified and managed before malignant change, prognosis is good. Untreated, the polyp burden carries a high lifetime risk of colorectal carcinoma. The dental presentation is an important early diagnostic opportunity.",
+      "citations": [
+        { "id": 1, "quote": "This comprises multiple osteomas (particularly of the jaws and facial bones), multiple polyps of the large intestine, epidermoid cysts, and fibromas of the skin. It shows autosomal dominant inheritance. The discovery on clinical or X-ray examination of facial osteomas mandates examination of the lower gastrointestinal tract, as these polyps have a tendency to rapid malignant change. This is a highly 'worthwhile' syndrome.", "paragraph": 10474, "source": "Oxford Handbook · paragraph 10474" }
+      ]
+    },
+    {
+      "id": "craniofacial-006",
+      "description": "Patient with multiple skin cancers, multiple jaw cysts on X-ray, prominent forehead, and bifid ribs — several jaw cysts recur after treatment.",
+      "conditionName": "Gorlin–Goltz syndrome (multiple basal cell naevi syndrome)",
+      "prevalence": "rare",
+      "etiology": "Autosomal dominant condition [1]. Consists of multiple basal cell carcinomas (epitheliomas), multiple odontogenic keratocysts of the jaws, vertebral and rib anomalies (usually bifid ribs), and calcification of the falx cerebri [1].",
+      "presentation": "Multiple BCCs appearing from a young age, often before the typical BCC-risk age [1]. Multiple jaw cysts — odontogenic keratocysts — which are often found incidentally on dental panoramic radiographs [1]. Frontal bossing, mandibular prognathism, hypertelorism, and calcified falx cerebri on skull imaging [1].",
+      "results": "Odontogenic keratocysts in Gorlin–Goltz syndrome have a high recurrence rate after surgical removal and must be followed up long-term. The BCCs require dermatological surveillance. Hydrocephalus and eye and endocrine abnormalities have also been noted [1].",
+      "definingCharacteristics": "The combination of multiple odontogenic keratocysts of the jaws, multiple BCCs, bifid ribs, and calcified falx cerebri — together with frontal bossing and mandibular prognathism — is defining [1]. Jaw cysts presenting in a young patient, or multiple simultaneous jaw cysts at any age, should prompt consideration of this syndrome.",
+      "treatment": "The GDP's role is recognition — particularly identifying multiple or recurrent jaw cysts on radiographs — and referral to oral and maxillofacial surgery and dermatology. Jaw cysts are managed by the OMFS team (enucleation with or without peripheral ostectomy; Carnoy's solution is used in some centres). Skin surveillance is managed by dermatology. Genetic counselling is appropriate given autosomal dominant inheritance.",
+      "prognosis": "BCCs are locally destructive but rarely metastasise in this syndrome. Jaw cysts recur frequently and require lifelong radiographic surveillance. Overall prognosis depends on the extent of BCC burden and whether the diagnosis is made early enough to enable proactive surveillance.",
+      "citations": [
+        { "id": 1, "quote": "Consists of multiple BCCs (epitheliomas), multiple jaw cysts (odontogenic keratocysts), vertebral and rib anomalies (usually bifid ribs), and calcification of the falx cerebri. Frontal bossing, mandibular prognathism, hypertelorism, hydrocephalus, and eye and endocrine abnormalities have also been noted.", "paragraph": 10478, "source": "Oxford Handbook · paragraph 10478" }
+      ]
+    }
+  ]
+}
