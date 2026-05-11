@@ -425,6 +425,369 @@
           "source": "Odell's Clinical Problem Solving · paragraphs 6459–6466"
         }
       ]
+    },
+    {
+      "id": "cheeks-008",
+      "description": "A smooth, fleshy lump on the inner cheek — sessile or stalked — that appeared after years of denture use or cheek biting.",
+      "conditionName": "Fibroepithelial polyp",
+      "prevalence": "common",
+      "etiology": "An over-vigorous connective tissue response to low-grade, recurrent trauma [1]. The thing is, the stimulus is usually chronic and minor: a denture flange, a sharp cusp, or habitual cheek biting. The tissue doesn't repair normally — it overreacts, producing a benign fibrous mass rather than simply healing flat [1].",
+      "presentation": "A smooth lump on the buccal mucosa, the colour of normal mucosa. It may be sessile (broad-based) or pedunculated (stalked), and ranges from a small discrete lump to, in extreme cases, a lesion covering the entire palate [1]. Usually painless.",
+      "results": "Diagnosis is clinical. Histology after excision confirms the picture: dense collagenous fibrous tissue lined by keratinized stratified squamous epithelium [1]. No investigation is required before excision in a typical presentation.",
+      "definingCharacteristics": "What sets this apart from other cheek lumps is the combination of a clear trauma history (denture or biting), a smooth surface with normal mucosa colour, and the soft-to-firm rubbery consistency of organised fibrous tissue. A vascular lesion will blanch on pressure; a fibroepithelial polyp won't. A mucocele sits in the floor of the mouth or lip and is fluctuant.",
+      "treatment": "Excise with base [1]. Include the base in the specimen to reduce the risk of recurrence and to allow full histological assessment. Address the underlying trauma source: adjust the denture, smooth the sharp cusp.",
+      "prognosis": "Excellent. Benign with no malignant potential. Recurrence is uncommon if the base is fully excised and the provoking trauma eliminated.",
+      "citations": [
+        { "id": 1, "quote": "This is an over-vigorous response to low-grade recurrent trauma. May be sessile or pedunculated and ranges from small lumps to lesions covering the entire palate. Excise with base. Histology shows dense collagenous fibrous tissue lined by keratinized stratified squamous epithelium.", "paragraph": 5784, "source": "Oxford Handbook · paragraph 5784" }
+      ]
+    },
+    {
+      "id": "cheeks-009",
+      "description": "A soft cheek lump — or mucosal swelling with lip involvement — in a patient with known or suspected Crohn's disease or sarcoidosis.",
+      "conditionName": "Oral granulomata (Crohn's disease / orofacial granulomatosis / sarcoidosis)",
+      "prevalence": "very-uncommon",
+      "etiology": "These lumps are characterised histologically by granulomata — collections of epithelioid macrophages [1]. Several systemic conditions can drive the same picture: Crohn's disease, its localised oral-only variant orofacial granulomatosis (OFG), sarcoidosis, or implanted foreign material such as amalgam [1]. The reason they cluster in this origin is that the cheek mucosa is a common site for the presenting swelling.",
+      "presentation": "Soft mucosal swelling, often affecting the lips and buccal mucosa, with or without other signs of systemic disease. The patient may have a known GI diagnosis, or the oral swelling may be the first presentation.",
+      "results": "Biopsy is the key investigation: histology showing non-caseating granulomata confirms the diagnosis. The source of the granulomata — Crohn's, sarcoidosis, foreign body, or OFG — is then established by clinical context, imaging, and systemic workup.",
+      "definingCharacteristics": "Granulomatous swelling of the cheek or lip is a small differential. OFG is the localised variant when no systemic disease is found. The biopsy result (granulomata) is what separates this from fibroepithelial polyp, mucocele, and lymphoma. If amalgam particles are visible on the biopsy, foreign-body granuloma becomes the diagnosis.",
+      "treatment": "Treat or manage the underlying condition. Refer for systemic workup to exclude Crohn's, sarcoidosis, and other granulomatous diseases before committing to a purely localised diagnosis [1].",
+      "prognosis": "Depends on the underlying cause. OFG confined to the mouth can be managed with dietary exclusion and local measures. Crohn's and sarcoidosis require systemic management.",
+      "citations": [
+        { "id": 1, "quote": "Lumps characterized by the histological finding of granulomata may be caused by Crohn's disease or its localized variant orofacial granulomatosis, sarcoidosis, or implanted foreign bodies such as amalgam.", "paragraph": 5792, "source": "Oxford Handbook · paragraph 5792" }
+      ]
+    },
+    {
+      "id": "cheeks-010",
+      "description": "A blue or purple area on the cheek lining that blanches on pressure — present since childhood or early life.",
+      "conditionName": "Oral vascular malformation",
+      "prevalence": "very-uncommon",
+      "etiology": "Developmental lesions of blood vessels, not neoplastic growths [1]. The distinction from haemangioma matters: vascular malformations do not regress — they grow with the patient, expanding slowly over a lifetime [1]. They are characterised by the rate of blood flow within the lesion: low-flow (venous, lymphatic) versus high-flow (arterial).",
+      "presentation": "A blue, purple, or reddish area on the buccal mucosa. Blanches on pressure (diascopy) because the blood can be displaced — this is the key clinical test. Soft and compressible. No pain unless thrombosed.",
+      "results": "Diascopy (pressing a glass slide against the lesion): a vascular lesion blanches. An amalgam tattoo or melanotic macule does not. Imaging (MRI or interventional radiology assessment) characterises the lesion and its flow before any intervention.",
+      "definingCharacteristics": "The blanching on diascopy is pathognomonic for a vascular lesion and immediately excludes pigmented lesions. The long-standing history from early life, and the absence of spontaneous regression, separate malformations from haemangiomas of infancy (which involute). Unlike pyogenic granuloma, vascular malformations are not rapidly growing and are not related to trauma.",
+      "treatment": "Interventional radiology and surgery [1]. Refer to the appropriate specialist centre — do not attempt to excise without characterising the lesion first, as high-flow lesions carry a significant haemorrhage risk.",
+      "prognosis": "Benign but persistent. Low-flow venous malformations are amenable to sclerotherapy or surgery. High-flow lesions are more challenging and require specialist intervention.",
+      "citations": [
+        { "id": 1, "quote": "These are developmental lesions of blood vessels which do not regress but grow with the patient. Characterized by rate of blood flow in lesion. Rx: interventional radiology and surgery.", "paragraph": 5798, "source": "Oxford Handbook · paragraph 5798" }
+      ]
+    },
+    {
+      "id": "cheeks-011",
+      "description": "A flat, blue-black discoloured patch on the inner cheek — not tender, not growing — in a patient with a history of amalgam restorations.",
+      "conditionName": "Amalgam tattoo",
+      "prevalence": "common",
+      "etiology": "Amalgam particles implanted into the oral mucosa — either at the time of placing or removing a restoration, or from a broken filling [1]. Fine fragments migrate into the connective tissue and remain there permanently, producing a localised blue/black pigmentation. Road traffic accidents involving grit, or pencil graphite, can produce similar-looking lesions [1].",
+      "presentation": "A dense blue or black area of mucosal pigmentation, localised and flat [1]. Usually adjacent to a tooth that carries or once carried an amalgam restoration. The lesion may be palpable but often is not [1]. Asymptomatic.",
+      "results": "Radiograph: amalgam tattoos are radio-opaque [1]. This is diagnostic — finding radio-opaque particles at the site of a pigmented lesion confirms amalgam, not melanoma. If no radio-opacity is seen and the site is not characteristic, biopsy is needed to exclude melanocytic lesions. The source notes: 'if asymptomatic, diagnose and reassure' [1].",
+      "definingCharacteristics": "Radio-opacity on plain radiograph is the distinguishing feature from all other pigmented lesions. Oral melanotic macule, melanoma, and drug-induced pigmentation are all radiolucent. The amalgam tattoo also tends to become granular and fragmented over time [1]. A lesion that is radio-opaque, flat, at a site consistent with a previous restoration, and longstanding needs no further investigation in a typical presentation.",
+      "treatment": "None required if asymptomatic: diagnose and reassure [1]. If removal is planned — cosmetically or to confirm the diagnosis — cut out as a full-thickness wedge [1]. Do not attempt shave excision: the granular fragments are embedded in the submucosal tissue.",
+      "prognosis": "Entirely benign. No transformation potential. Patients can be permanently reassured once the diagnosis is confirmed.",
+      "citations": [
+        { "id": 1, "quote": "Amalgam tattoo is the commonest, a localized dense blue/black area of mucosal pigmentation. May result from implantation at time of restoration or from broken filling. Radio-opaque. May be palpable but often not. Amalgam tends to become granular and fragmented and if removal is planned, cut out as full-thickness wedge. If asymptomatic, diagnose and reassure. 'Road rash' from grit after road traffic accident or graphite from pencils can cause similar lesions.", "paragraph": 6155, "source": "Oxford Handbook · paragraph 6155" }
+      ]
+    },
+    {
+      "id": "cheeks-012",
+      "description": "Large, deep mouth ulcers lasting weeks and leaving scars, in a patient with a long history of recurrent aphthous disease.",
+      "conditionName": "Major aphthous ulcers (RAS major)",
+      "prevalence": "uncommon",
+      "etiology": "A severe variant of recurrent aphthous stomatitis, seen in 10% of RAS patients [1]. The mechanism is the same T-cell-mediated immunological reaction as minor RAS, but with a greater degree of tissue destruction. Major aphthae have a higher association with gastrointestinal and haematological disorders, and are also seen in AIDS [1].",
+      "presentation": "Fewer ulcers than in the minor type, but each is large — more than 10 mm diameter — and painful [1]. They last 5–10 weeks and most commonly affect keratinized mucosa, though any site in the mouth and oropharynx may be affected [1]. Scarring on healing is characteristic. There is seldom a cyclical pattern as there is in minor RAS [1].",
+      "results": "Diagnosis is clinical: the size (>10 mm), duration (weeks), and eventual scarring distinguish this from the minor type. Haematological screening to exclude underlying gastrointestinal or haematological disease is indicated, as for all RAS — but here the association is even stronger [1].",
+      "definingCharacteristics": "The thing that separates major from minor RAS: size above 10 mm, duration of 5–10 weeks rather than 1–2 weeks, and healing with scarring rather than without [1]. Minor RAS virtually never produces a scar. Affects keratinized mucosa — unlike minor RAS which favours non-keratinized surfaces. The association with AIDS should prompt HIV testing if no other explanation is found.",
+      "treatment": "As for minor aphthae, plus topical or systemic steroids [1]. Screen for and treat any underlying haematological or GI disorder. Consider systemic immunomodulation in severe or refractory cases.",
+      "prognosis": "Major RAS is more difficult to manage than the minor form. Scarring from repeated ulceration can restrict mouth opening over time. Identifying and treating the underlying cause — where one exists — reduces severity.",
+      "citations": [
+        { "id": 1, "quote": "Seen in 10% of RAS patients. A more severe and more frequent variant with fewer, but larger ulcers >10mm which may last 5–10 weeks and most commonly affect keratinized mucosa. Associated with tissue destruction and scarring, and any site in the mouth and oropharynx may be affected. There is an even higher association between major aphthae and gastrointestinal and haematological disorders. They are also seen in AIDS. Seldom a cyclical pattern. Rx: as for minor aphthae, plus topical or systemic st", "paragraph": 6061, "source": "Oxford Handbook · paragraph 6061" }
+      ]
+    },
+    {
+      "id": "cheeks-013",
+      "description": "Recurrent oral ulcers in a young adult alongside genital ulcers, skin lesions, or eye inflammation — seemingly unrelated symptoms presenting together.",
+      "conditionName": "Behçet's disease",
+      "prevalence": "rare",
+      "etiology": "A severe relapsing and remitting systemic vasculitis that characteristically affects venules [1]. All organs of the body can be involved. It is most prevalent in the Far East, along the Silk Route, and in the Middle East; in the UK, a prevalence of 0.064 in 10,000 has been reported from Yorkshire [1]. A disease of young adults, more common and more severe in males, and associated with HLA-B51 [2].",
+      "presentation": "Oral ulcers are the most consistent feature and may be the presenting complaint [1][2]. The diagnosis is clinical and based on recurrent oral ulcers plus two of: skin lesions, uveitis, genital ulcers, or blistering of skin when cannulated [2]. No single diagnostic test exists [2].",
+      "results": "Diagnosis is clinical only — no pathognomonic test [2]. HLA-B51 association supports the diagnosis. Leucocytosis and raised ESR are common findings [1]. Multisystem involvement warrants full systemic workup.",
+      "definingCharacteristics": "The oral ulcers alone are indistinguishable from major RAS. The reason to think Behçet's is the combination: oral ulcers plus extraoral findings (genital ulcers, uveitis, skin lesions) [2]. The geographic background is a useful prompt — the condition is far commoner along the Silk Route than in northern Europe [1]. Sex predilection varies by region: Mediterranean 8:1 male predominance, European practice closer to 1:1 [2].",
+      "treatment": "Refer for multidisciplinary care [2]. Azathioprine, ciclosporin, and thalidomide are used in specialist settings [2]. The GDP's role is recognition and prompt referral — this is not a condition to manage in primary care.",
+      "prognosis": "A relapsing and remitting course, with the risk of serious systemic complications including uveitis leading to blindness and vascular involvement [1][2]. Prognosis depends on the organ systems involved.",
+      "citations": [
+        { "id": 1, "quote": "A severe relapsing and remitting systemic vasculitis, characteristically affecting venules. All organs of the body can be affected. It has a worldwide distribution but is most prevalent in the Far East, along the Silk Route, and in the Middle East. In the UK a prevalence of 0.064 in 10,000 has been reported from Yorkshire. It is a disease of young adults, more common and more severe in males. It is associated with HLA subtype.", "paragraph": 6065, "source": "Oxford Handbook · paragraph 6065" },
+        { "id": 2, "quote": "Oral ulcers with two of skin lesions, uveitis, genital ulcers, or blistering of skin when cannulated. Clinical Δ only. No tests, associated with HLA-B51. It is, in fact, a multisystem disease of immunological origin—need to recognize and refer for multidisciplinary care. It has a different sex predilection depending on the geographical region studied. M:F—Mediterranean 8:1, Far East 2:1, Europe 1:1. Azathioprine, ciclosporin, and thalidomide.", "paragraph": 10452, "source": "Oxford Handbook · paragraph 10452" }
+      ]
+    },
+    {
+      "id": "cheeks-014",
+      "description": "Firm blisters on the cheek lining in an elderly patient, less fragile than those seen in pemphigus, with possible association to internal malignancy.",
+      "conditionName": "Bullous pemphigoid (oral)",
+      "prevalence": "rare",
+      "etiology": "An autoimmune condition caused by IgG autoantibodies directed against the epithelial basement membrane [1]. Subepithelial bullae form — the split is below the epithelium rather than within it, which is why the blisters are firmer and less likely to break down than those in pemphigus vulgaris [1]. Affects the over-60s age group [1]. May represent an external marker of internal malignancy, or may be a drug-related immune response [1].",
+      "presentation": "Firm, tense blisters on the oral mucosa, less fragile than those of pemphigus. The oral mucosa is affected in only around 20% of patients — skin is the more common site [1]. When oral lesions are present, they tend to be tense bullae rather than rapidly rupturing erosions.",
+      "results": "Biopsy with direct immunofluorescence: IgG deposits at the basement membrane zone confirm the diagnosis. The subepithelial cleft on histology distinguishes this from pemphigus (intraepithelial split).",
+      "definingCharacteristics": "Bullous pemphigoid differs from pemphigus vulgaris in three ways: the patient is older, the blisters are subepithelial and therefore firmer and more intact, and oral involvement is far less common (20% vs 95%) [1]. The possible association with internal malignancy or drug reactions should trigger a systemic review [1].",
+      "treatment": "Refer to dermatology or oral medicine for systemic management. Systemic corticosteroids are the mainstay. Investigate for underlying malignancy and review medications for drug-related triggers [1].",
+      "prognosis": "Generally more favourable than pemphigus — the condition can remit with treatment. However the association with internal malignancy and the age group means the overall prognosis depends on any underlying cause [1].",
+      "citations": [
+        { "id": 1, "quote": "This affects the >60yrs age group. Subepithelial bullae form which are firm and less likely to break down than those in pemphigus; it is due to autoantibodies (IgG) to the epithelial basement membrane. The oral mucosa is only affected in ~20% of patients. May be an external 'marker' of internal malignancy or a drug-related immune response.", "paragraph": 6099, "source": "Oxford Handbook · paragraph 6099" }
+      ]
+    },
+    {
+      "id": "cheeks-015",
+      "description": "Mouth blisters breaking down into large erosions in a middle-aged man with a known skin blistering condition linked to gluten.",
+      "conditionName": "Dermatitis herpetiformis (oral)",
+      "prevalence": "rare",
+      "etiology": "A rare chronic condition of unknown aetiology, frequently associated with gluten sensitivity [1]. Autoantibodies against reticulin, gliadin, endomysium, and transglutaminase are found [1]. Both skin and mucous membranes are affected. The condition is commoner in middle-aged men [1].",
+      "presentation": "Oral lesions are seen in 70% of patients who have a skin lesion [1]. Bullae in the mouth break down to leave large erosions — the blisters rupture quickly, so intact bullae are rarely seen on the buccal mucosa [1]. The skin blisters are the more prominent clinical feature.",
+      "results": "Autoantibody testing (anti-reticulin, anti-gliadin, anti-endomysium, anti-transglutaminase) supports the diagnosis. Skin biopsy with immunofluorescence showing IgA deposits at the dermal papillae is the gold standard for the skin diagnosis.",
+      "definingCharacteristics": "The interesting bit here is the diagnostic and therapeutic overlap: dapsone can be used both diagnostically and therapeutically [1] — a good response to dapsone supports the diagnosis. The gluten sensitivity link means a gluten-free diet helps [1]. These features separate it from pemphigus and bullous pemphigoid, where dapsone and gluten restriction have no role.",
+      "treatment": "Dapsone — both diagnostic and therapeutic [1]. A gluten-free diet helps [1]. Refer to dermatology for systemic management.",
+      "prognosis": "Chronic but manageable. Dapsone controls symptoms; a gluten-free diet may allow dose reduction over time [1].",
+      "citations": [
+        { "id": 1, "quote": "This is a rare chronic condition of unknown aetiology, but often associated with gluten sensitivity with autoantibodies against reticullin, gliadin, endomysium, and transglutaminase. Oral lesions are seen in 70% of patients with a skin lesion. Commoner in middle-aged men; it affects both skin and mucous membranes; bullae in the mouth break down to leave large erosions. Rx: dapsone may be used both diagnostically and therapeutically. A gluten-free diet helps.", "paragraph": 6101, "source": "Oxford Handbook · paragraph 6101" }
+      ]
+    },
+    {
+      "id": "cheeks-016",
+      "description": "Non-specific oral ulceration — occasionally with bullae — identified on biopsy as a distinct immunobullous disease separate from dermatitis herpetiformis.",
+      "conditionName": "Linear IgA disease",
+      "prevalence": "rare",
+      "etiology": "A rare condition identified pathologically rather than clinically [1]. It may be a variant of dermatitis herpetiformis — the clinical presentation overlaps but the immunofluorescence pattern is different: linear IgA deposits at the basement membrane zone, rather than the granular IgA of dermatitis herpetiformis [1].",
+      "presentation": "Produces non-specific oral ulceration; rarely, bullae are present in the mouth [1]. The oral presentation alone does not distinguish this from other blistering diseases — the diagnosis is histopathological.",
+      "results": "Biopsy with direct immunofluorescence is required for diagnosis: linear IgA deposits along the basement membrane zone is the defining finding [1].",
+      "definingCharacteristics": "Linear IgA disease cannot be distinguished from dermatitis herpetiformis, bullous pemphigoid, or other immunobullous conditions on clinical grounds alone — biopsy with immunofluorescence is needed [1]. The 'linear' refers to the pattern of IgA deposition, which contrasts with the granular pattern of dermatitis herpetiformis.",
+      "treatment": "Systemic steroids or mycophenolate mofetil [1]. Refer to dermatology.",
+      "prognosis": "The source is limited on prognosis beyond the treatment options. Systemic immunosuppression is required long term in most cases.",
+      "citations": [
+        { "id": 1, "quote": "This is rare and identified pathologically. May be variant of dermatitis herpetiformis. Produces non-specific oral ulceration and rarely bullae. Systemic steroids or mycophenolate mofetil for Rx.", "paragraph": 6111, "source": "Oxford Handbook · paragraph 6111" }
+      ]
+    },
+    {
+      "id": "cheeks-017",
+      "description": "Rapidly rupturing oral blisters leaving widespread raw erosions in a patient with confirmed or suspected pemphigus — often the mouth is the first site involved.",
+      "conditionName": "Pemphigus vulgaris (oral)",
+      "prevalence": "rare",
+      "etiology": "A chronic autoimmune skin disease with a potential to be rapidly fatal if untreated: 10% mortality [1]. Patients carry IgG autoantibodies against desmosomal components, specifically desmoglein-1 and desmoglein-3 [1]. These antibodies disrupt the desmosomal tonofilament complex, causing acantholysis — individual epidermal cells lose their attachments to each other, and the epithelium falls apart from within [1].",
+      "presentation": "Oral mucosa is affected in 95% of patients with pemphigus vulgaris [1]. Critically, in 50% of patients, the mouth is the initial presentation — before skin lesions appear [1]. The blisters are intraepithelial and fragile: they rupture almost immediately on formation, leaving raw, painful erosions. What you see in practice are erosions rather than intact bullae.",
+      "results": "Biopsy with immunofluorescence: intraepithelial IgG deposits and acantholysis on histology confirm the diagnosis. Circulating autoantibodies to epithelial desmosome tonofilament are detectable in serum [1].",
+      "definingCharacteristics": "The reason pemphigus is so dangerous is that the 10% mortality reflects the severity of the disease before systemic immunosuppression [1]. The oral lesions presenting first in 50% means the GDP may be the first clinician to see the condition — biopsy and urgent referral are mandatory [1]. Distinguishing from bullous pemphigoid: the blisters in pemphigus are intraepithelial and rupture immediately; in bullous pemphigoid they are subepithelial and much firmer.",
+      "treatment": "Refer urgently to dermatology. Systemic immunosuppression is required — high-dose corticosteroids and steroid-sparing agents. The mortality risk means delay is unacceptable [1].",
+      "prognosis": "Mortality 10% without treatment [1]. With modern systemic immunosuppression, the condition can be controlled, though patients typically require long-term therapy. Oral mucosal healing tracks systemic disease control.",
+      "citations": [
+        { "id": 1, "quote": "Pemphigus is a chronic skin disease which can be rapidly fatal if not treated (mortality 10%). Affected patients have immunoglobulin G (IgG) autoantibodies against desmosomal components like desmoglein-1 and desmoglein-3. Oral mucosa is affected in 95% of patients with pemphigus vulgaris (most common type) and may be the initial presentation of pemphigus in 50%. Autoimmune in aetiology, there are circulating autoantibodies to epithelial desmosome tonofilament. Acantholysis and intercellular IgG", "paragraph": 6086, "source": "Oxford Handbook · paragraph 6086" }
+      ]
+    },
+    {
+      "id": "cheeks-018",
+      "description": "Blistering and large raw erosions on the cheek mucosa in a patient with a known lichen planus diagnosis — bullae forming unexpectedly.",
+      "conditionName": "Bullous lichen planus",
+      "prevalence": "rare",
+      "etiology": "A rare variant of oral lichen planus in which subepithelial bullae form and then break down, leaving large erosions [1]. It affects both skin and mucous membranes [1]. The background autoimmune T-cell attack on stratified squamous epithelia is shared with all forms of lichen planus.",
+      "presentation": "Bullae form on the buccal mucosa (and potentially elsewhere) and rupture to leave raw, painful erosions [1]. Intact blisters may be seen briefly, but the predominant picture is one of erosion and ulceration on a background of lichen planus changes.",
+      "results": "Biopsy: subepithelial bullae are the defining histological finding, in the context of the dense lymphocytic band and basal cell degeneration typical of lichen planus. This distinguishes it from pemphigus (intraepithelial) and bullous pemphigoid (subepithelial but with IgG basement-membrane antibodies).",
+      "definingCharacteristics": "Bullous lichen planus is a rare variant, but it sits within a lichen planus context — look for the reticular striae elsewhere in the mouth [1]. The blistering is what surprises: typical reticular lichen planus doesn't blister. This variant behaves more like the erosive type in clinical severity. The background lichen planus changes in the same patient are the diagnostic anchor.",
+      "treatment": "Treat as for erosive lichen planus: topical and systemic corticosteroids, and referral to oral medicine or dermatology for 6-monthly surveillance [1].",
+      "prognosis": "The source notes the erosive variant of lichen planus carries a small premalignant risk (<1%) [1]. This warrants the same 6-monthly follow-up as the erosive type.",
+      "citations": [
+        { "id": 1, "quote": "This affects both skin and mucous membranes. Bullous lichen planus is a rare variant in which subepithelial bullae form and break down, leaving large erosions.", "paragraph": 6103, "source": "Oxford Handbook · paragraph 6103" }
+      ]
+    },
+    {
+      "id": "cheeks-019",
+      "description": "A red, ulcerated, or glazed area on the cheek mucosa in a patient with lichen planus — painful and slow to respond to topical treatment.",
+      "conditionName": "Erosive lichen planus",
+      "prevalence": "very-uncommon",
+      "etiology": "A comparatively rare variant of lichen planus [1]. The background autoimmune process is shared with all lichen planus types — T-cell attack on stratified squamous epithelium — but the erosive variant produces mucosal breakdown rather than the hyperkeratotic striae of the reticular type.",
+      "presentation": "Erythematous, glazed, or ulcerated areas on the buccal mucosa, often painful. The reticular striae typical of the commoner lichen planus may be visible at the periphery of the erosive zones. The patient usually reports a burning discomfort aggravated by food, particularly acidic or spicy items.",
+      "results": "Biopsy when the diagnosis is uncertain or when dysplasia needs to be excluded. Some authorities classify erosive lichen planus as premalignant — the source acknowledges a risk of less than 1% [1]. Malignant surveillance is indicated.",
+      "definingCharacteristics": "The reason this entry exists separately from reticular lichen planus is the premalignant designation: the common reticular form carries no proven premalignant potential, but the erosive variant does [1]. A patient who presents with erosive rather than reticular changes needs a different management pathway — 6-monthly follow-up rather than reassurance alone. The common forms of lichen planus have no proven premalignant potential; this is the exception [1].",
+      "treatment": "Topical corticosteroids as first line (betamethasone mouthwash or dexamethasone). Oral medicine or dermatology referral and 6-monthly follow-up to exclude malignant transformation [1].",
+      "prognosis": "Some authorities classify erosive lichen planus as premalignant with a transformation risk of less than 1% [1]. Regular surveillance is warranted. Symptomatic control with topical steroids is achievable for most patients.",
+      "citations": [
+        { "id": 1, "quote": "This is a comparatively rare variant of lichen planus, which some authorities believe to be premalignant (<1%). The common forms of lichen planus have no proven premalignant potential.", "paragraph": 6194, "source": "Oxford Handbook · paragraph 6194" }
+      ]
+    },
+    {
+      "id": "cheeks-020",
+      "description": "A lichen-planus-like white or ulcerated patch on the cheek that appeared after starting a new medication — often gold, NSAIDs, or beta blockers.",
+      "conditionName": "Drug-induced lichenoid eruption",
+      "prevalence": "very-uncommon",
+      "etiology": "A drug-induced immunological reaction producing oral lesions that are clinically and histologically identical to lichen planus [1]. The classic association is gold (used in rheumatoid arthritis), but NSAIDs, oral hypoglycaemics, and beta blockers are commoner offenders in practice [1].",
+      "presentation": "White, striated, or erosive lesions on the buccal mucosa — identical in appearance to lichen planus. The distribution may be asymmetric, acute in onset, or more extensively ulcerated than typical lichen planus. A careful drug history is the key diagnostic step.",
+      "results": "Medication review: identify the offending drug and correlate its introduction or dose change with the onset of the lesion [1]. Biopsy may be needed to exclude dysplasia. Resolution or improvement after withdrawing the suspected drug supports the diagnosis.",
+      "definingCharacteristics": "What separates a drug lichenoid reaction from true lichen planus is the history: acute onset following drug initiation, asymmetric distribution, and possible resolution on drug withdrawal [1]. The classic bilateral symmetry and posterior buccal distribution of true lichen planus may be absent. Identifying and removing the drug is both diagnostic and therapeutic.",
+      "treatment": "Identify and withdraw the offending drug if possible [1]. Consult with the prescribing physician before stopping any medication. Topical steroids for symptomatic relief while the drug is being rationalised.",
+      "prognosis": "Good if the offending drug is identified and stopped — lesions typically improve or resolve. If the drug cannot be withdrawn, manage symptomatically as for erosive lichen planus.",
+      "citations": [
+        { "id": 1, "quote": "Classically associated with the use of gold in the Rx of rheumatoid arthritis. NSAIDs, oral hypoglycaemics, and beta blockers are commoner offenders.", "paragraph": 6314, "source": "Oxford Handbook · paragraph 6314" }
+      ]
+    },
+    {
+      "id": "cheeks-021",
+      "description": "Severe, painful oral ulceration developing in a patient on long-term medication — chloramphenicol, certain analgesics, or phenytoin — with no healing in sight.",
+      "conditionName": "Drug-induced oral ulceration (agranulocytosis / marrow suppression)",
+      "prevalence": "very-uncommon",
+      "etiology": "A range of drugs can depress cell lines in the haemopoietic system, and the effects reach the oral mucosa [1]. Phenytoin, for example, used long-term, depletes folate leading to macrocytic anaemia, which in turn produces severe aphthous stomatitis [1]. Chloramphenicol and certain analgesics can induce agranulocytosis — the loss of neutrophils removes normal mucosal defences and severe oral ulceration follows [1].",
+      "presentation": "Severe, slow-healing ulceration that does not fit the typical minor RAS pattern in a patient on a relevant medication. The ulcers may be very large, very painful, and completely unresponsive to standard topical treatments.",
+      "results": "Full blood count is essential: agranulocytosis will show as a profound neutropaenia; macrocytic anaemia from folate deficiency will be apparent on the blood film [1]. Drug history cross-referenced with the BNF is key to identifying the culprit.",
+      "definingCharacteristics": "The reason to think drug-induced ulceration rather than major RAS is the medication context: a patient on phenytoin, chloramphenicol, or analgesics with a history of worsening ulceration that appeared or intensified after starting the drug [1]. The FBC result clinches it — a normal white cell count and film make drug-induced marrow suppression unlikely. Cross-referencing the drug history with the BNF is the practical first step [1].",
+      "treatment": "Identify and review the offending medication with the prescribing physician [1]. For agranulocytosis: urgent medical referral for haematological assessment and management. Treat folate deficiency if confirmed.",
+      "prognosis": "Depends on the degree of marrow suppression and whether the drug can be stopped. Chloramphenicol can also induce aplastic anaemia, which affects haemostasis and can cause spontaneous oral purpura — a more severe and harder-to-reverse outcome [1].",
+      "citations": [
+        { "id": 1, "quote": "There are a wide range of drugs which will depress any or all of the cell lines of the haemopoietic systems and these in turn can affect the oral mucosa, e.g. phenytoin. Long-term use can result in folate deficiency and macrocytic anaemia which can produce severe aphthous stomatitis. Chloramphenicol and certain analgesics can induce agranulocytosis, leading to severe oral ulceration. Chloramphenicol can also induce aplastic anaemia, which affects haemostasis, although spontaneous oral purpura an", "paragraph": 6310, "source": "Oxford Handbook · paragraph 6310" }
+      ]
+    },
+    {
+      "id": "cheeks-022",
+      "description": "A child or young adult with widespread mouth ulcers and blisters, fever, swollen glands, and general malaise — their first episode.",
+      "conditionName": "Primary herpetic gingivostomatitis",
+      "prevalence": "common",
+      "etiology": "The primary infection with herpes simplex virus type 1 — the most common viral infection affecting the mouth [1]. Antibodies indicating past infection are present in more than 60% of the adult population, but primary infection is often subclinical or asymptomatic in 80% of cases, and in infancy is sometimes mistakenly attributed to teething [2].",
+      "presentation": "A single episode of widespread stomatitis: vesicles breaking down to form shallow painful ulcers on unstable mucosa, with enlarged tender cervical lymph nodes, halitosis, coated tongue, fever, and general malaise for 10–14 days [2]. Severity increases with age — what is mild in a toddler can be debilitating in a teenager or young adult [2].",
+      "results": "Diagnosis is based on clinical features and history [2]. The virus can be grown in cell culture if confirmation is needed, but this is rarely required in practice. The combination of widespread vesicles-to-ulcers, lymphadenopathy, and systemic upset in a first episode is clinically distinctive.",
+      "definingCharacteristics": "The thing that marks this as primary rather than recurrent HSV is the whole-mouth distribution, the systemic upset, and the fact it's happening for the first time [2]. Recurrent herpes labialis (cold sore) is localised to the mucocutaneous junction of the lip. Although generally self-limiting, rare complications include herpetic encephalitis and meningitis [2] — these demand immediate escalation if any neurological features appear.",
+      "treatment": "Generally self-limiting, so supportive care — adequate hydration, analgesia, soft diet [2]. Antiviral therapy (aciclovir) is most effective when started early in immunocompromised patients. Hospital admission may be needed in very young children with severe dehydration.",
+      "prognosis": "Self-limiting over 10–14 days [2]. The virus remains dormant in the trigeminal ganglion and can reactivate later as recurrent herpes labialis. Rare complications (encephalitis, meningitis) are potentially serious but uncommon [2].",
+      "citations": [
+        { "id": 1, "quote": "(Human herpesvirus type 1 and 2.) Most common viral infection affecting the mouth. Although oral infection with HSV types 1 and 2 has been described, type 1 remains the dominant pathogen (type 2 usually causes genital infection). Antibodies indicating past infection are present in >60% of adult population.", "paragraph": 6012, "source": "Oxford Handbook · paragraph 6012" },
+        { "id": 2, "quote": "This varies widely in severity (↑ with age); it is often subclinical, and asymptomatic in 80%. In infancy it is often mistakenly attributed to 'teething'. It presents with a single episode of widespread stomatitis and unstable mucosa with vesicles which break down to form shallow painful ulcers, enlarged, tender cervical lymph nodes, halitosis, coated tongue, fever, and a general malaise for 10–14 days. Although generally self-limiting, rare complications include herpetic encephalitis and meningitis.", "paragraph": 6014, "source": "Oxford Handbook · paragraph 6014" }
+      ]
+    },
+    {
+      "id": "cheeks-023",
+      "description": "Small ulcers in the mouth alongside a rash on the palms and soles in a child — mild systemic upset.",
+      "conditionName": "Hand, foot and mouth disease",
+      "prevalence": "common",
+      "etiology": "A viral infection producing a characteristic triad: rash on the hands and feet alongside ulcers on the oral mucosa and gingiva [1]. Little systemic upset in most cases [1].",
+      "presentation": "Oral ulcers on the mucosa and gingiva combined with a rash on the hands and feet [1]. The systemic upset is mild — low-grade fever, mild malaise [1]. Self-limiting.",
+      "results": "Diagnosis is entirely clinical: the combination of hand, foot, and mouth involvement is pathognomonic. No investigations required in typical cases.",
+      "definingCharacteristics": "The triad is the diagnosis: oral ulcers plus rash on hands and feet [1]. This pattern does not occur in primary herpetic gingivostomatitis, which lacks the cutaneous hand-and-foot distribution. Little systemic upset distinguishes it from primary herpetic stomatitis, which produces significant malaise, high fever, and lymphadenopathy [1].",
+      "treatment": "Supportive care. Self-limiting, so the goal is adequate hydration and symptomatic analgesia. No specific antiviral is indicated.",
+      "prognosis": "Excellent. Self-limiting in the vast majority [1]. Very rarely, the causative enterovirus (Enterovirus 71) can cause neurological complications, but this is uncommon in typical UK presentations.",
+      "citations": [
+        { "id": 1, "quote": "Rash on hands and feet plus ulcers on oral mucosa and gingiva. Little systemic upset. Self-limiting.", "paragraph": 1882, "source": "Oxford Handbook · paragraph 1882" }
+      ]
+    },
+    {
+      "id": "cheeks-024",
+      "description": "Tiny white spots with a red rim on the inner cheeks — appearing in a feverish patient a day or two before a body rash.",
+      "conditionName": "Koplik spots (measles prodrome)",
+      "prevalence": "rare",
+      "etiology": "Koplik spots are an oral prodromal sign of measles infection [1]. They appear on the buccal mucosa during the prodromal phase, a few days before the characteristic maculo-papular skin rash erupts behind the ears and spreads to the face and trunk [1].",
+      "presentation": "Small white spots with an erythematous margin on the buccal mucosa [1]. The spots appear in a feverish child before the skin rash is visible. A few days later, the maculo-papular rash appears, starting behind the ears [1].",
+      "results": "Diagnosis is clinical — the combination of buccal white spots with a red margin in a feverish patient, followed by the characteristic skin rash, is sufficient. Serology confirms measles if needed for public health purposes.",
+      "definingCharacteristics": "Koplik spots are pathognomonic for the measles prodrome — no other condition produces this specific pattern of tiny white spots with an erythematous margin on the buccal mucosa in this clinical context [1]. Recognising them early matters: measles can cause serious complications including pneumonia and encephalitis with a 15% mortality and neurological deficits in 40% of encephalitis cases [1].",
+      "treatment": "Supportive care and isolation. Report to public health. No specific antiviral treatment. Complications (pneumonia, encephalitis) require prompt escalation [1].",
+      "prognosis": "Most cases recover fully. Complications — pneumonia and encephalitis — may lead to neurological deficits in 40% of affected patients and carry a 15% mortality [1]. Vaccination prevents the disease.",
+      "citations": [
+        { "id": 1, "quote": "The prodromal phase of measles may be marked by small white spots with an erythematous margin on the buccal mucosa, known as Koplik spots. A few days later the maculo-papular rash of measles appears, usually behind the ears, then spreading to the face and trunk. Complications include pneumonia and encephalitis which may lead to neurological deficits in 40% and has a 15% mortality.", "paragraph": 6028, "source": "Oxford Handbook · paragraph 6028" }
+      ]
+    },
+    {
+      "id": "cheeks-025",
+      "description": "Widespread oral ulceration resembling primary herpes stomatitis in a young adult with a very sore throat, swollen glands all over, and petechiae at the hard/soft palate junction.",
+      "conditionName": "Glandular fever (infectious mononucleosis — oral involvement)",
+      "prevalence": "uncommon",
+      "etiology": "Caused by the Epstein-Barr virus (EBV) in most cases, and less commonly cytomegalovirus (CMV) or Toxoplasma [1]. Spread by infected saliva. Affects children and young adults predominantly [1].",
+      "presentation": "Sore throat, generalised lymphadenopathy, fever, headaches, general malaise, and often a maculo-papular rash [1]. Oral manifestations may mimic primary herpetic gingivostomatitis: widespread oral ulceration [1]. The distinguishing finding is petechial haemorrhages, especially at the junction of hard and soft palate — which the source flags as pathognomonic [1]. Hepatosplenomegaly may be present [1].",
+      "results": "Monospot test (Paul-Bunnell) confirms heterophile antibodies. Full blood count shows lymphocytosis with atypical lymphocytes. Throat swab excludes bacterial tonsillitis. EBV serology if monospot is negative.",
+      "definingCharacteristics": "The pathognomonic oral finding is petechial haemorrhages at the hard/soft palate junction [1]. No other condition in this origin produces this combination: pharyngitis, generalised lymphadenopathy, palatal petechiae, and widespread oral ulceration together. This distinguishes it from primary herpetic gingivostomatitis, which is more localised to the gingiva and buccal mucosa and lacks palatal petechiae.",
+      "treatment": "Supportive: rest, hydration, analgesia. No specific antiviral. Avoid contact sports while splenomegaly persists — risk of splenic rupture. Do not give ampicillin or amoxicillin, which precipitate a widespread maculopapular rash in EBV infection.",
+      "prognosis": "Generally self-limiting over 2–4 weeks. Fatigue may persist for months. EBV remains latent and is linked to certain lymphomas in the context of immunosuppression [1].",
+      "citations": [
+        { "id": 1, "quote": "This is seen mostly in children and young adults and is spread by infected saliva. It varies widely in severity and presents with sore throat, generalized lymphadenopathy, fever, headaches, general malaise, and often a maculo-papular rash. There may be hepatosplenomegaly. Oral manifestations may mimic 1° herpetic gingivostomatitis, with widespread oral ulceration, and in addition petechial haemorrhages, especially at the junction of hard and soft palate (pathognomonic), and bruising may be present. The cause is usually Epstein–Barr virus (EBV) and, less commonly, cytomegalovirus (CMV).", "paragraph": 6030, "source": "Oxford Handbook · paragraph 6030" }
+      ]
+    },
+    {
+      "id": "cheeks-026",
+      "description": "Oral ulcers or erosions in a young male patient with urethritis, joint pain, and red eyes — appearing 2–3 weeks after an infection.",
+      "conditionName": "Reiter syndrome (reactive arthritis — oral ulcers)",
+      "prevalence": "very-uncommon",
+      "etiology": "The causative agent is unknown, but the condition appears to be a post-infective response occurring 2–3 weeks after an initiating infection [1]. Associated with HLA-B27 in 80% of patients [1]. Predominantly affects young males [1].",
+      "presentation": "Consists of urethritis, arthritis, conjunctivitis, and/or oral ulcers or erosions [1]. Oral lesions are one component of a multisystem picture. Leucocytosis and raised ESR are common systemic findings [1].",
+      "results": "Diagnosis is clinical: the combination of urethritis, arthritis, conjunctivitis, and oral ulcers in a young male after a recent infection. HLA-B27 typing supports the diagnosis in equivocal cases. Inflammatory markers (ESR, CRP) are typically elevated.",
+      "definingCharacteristics": "The oral ulcers in Reiter syndrome are one part of a classic triad: urethritis + arthritis + conjunctivitis (and/or oral ulcers) [1]. Oral lesions in isolation are not diagnosable as Reiter — the systemic components must be sought. The post-infective timing (2–3 weeks) and the HLA-B27 association are the diagnostic anchors.",
+      "treatment": "Multidisciplinary management: rheumatology for the arthritis, ophthalmology for the eye involvement. Oral ulcers are managed symptomatically. The condition is self-limiting in most cases but can recur.",
+      "prognosis": "Generally self-limiting. Some patients develop a chronic or relapsing course, particularly those with persistent underlying infection or HLA-B27 positivity.",
+      "citations": [
+        { "id": 1, "quote": "The causative agent is unknown but it appears to be a post-infective response (after 2–3 weeks). Consists of urethritis, arthritis, conjunctivitis, &/or oral ulcers or erosions. Predominantly affects young males and is associated with human leucocyte antigen (HLA) B27 in 80% of patients—leucocytosis and ↑ ESR are common.", "paragraph": 6033, "source": "Oxford Handbook · paragraph 6033" }
+      ]
+    },
+    {
+      "id": "cheeks-027",
+      "description": "Oral ulcers combined with genital ulcers and joint cartilage inflammation — a rare variant of the Behçet's disease spectrum.",
+      "conditionName": "MAGIC syndrome",
+      "prevalence": "rare",
+      "etiology": "Stands for Mouth And Genital ulcers and Interstitial Chondritis [1]. A recognised variant within the Behçet's disease group rather than a fully independent entity [1].",
+      "presentation": "Mouth and genital ulcers alongside interstitial chondritis — inflammation of cartilage (typically ear or nose cartilage) [1]. The oral component is indistinguishable from Behçet's disease oral ulcers.",
+      "results": "No specific diagnostic test. Diagnosis is clinical: the combination of mouth ulcers, genital ulcers, and chondritis defines the syndrome [1]. Full systemic evaluation is needed to exclude other autoimmune conditions.",
+      "definingCharacteristics": "MAGIC syndrome sits within the Behçet's spectrum but is distinguished by the addition of interstitial chondritis [1]. The chondritis component — affecting ear or nasal cartilage — is the differentiating feature from Behçet's disease itself. Both are rare in the UK.",
+      "treatment": "Refer for multidisciplinary management, as for Behçet's disease. Systemic immunosuppression is typically required.",
+      "prognosis": "Chronic and relapsing. The prognosis depends on the extent and severity of systemic involvement.",
+      "citations": [
+        { "id": 1, "quote": "Stands for Mouth And Genital ulcers and Interstitial Chondritis and is a variant of the Behçet's disease group.", "paragraph": 10507, "source": "Oxford Handbook · paragraph 10507" }
+      ]
+    },
+    {
+      "id": "cheeks-028",
+      "description": "Sloughy, serpiginous ulcers on the cheek lining in a patient with systemic illness — malaise, fever, rash — appearing weeks after a primary genital lesion.",
+      "conditionName": "Secondary syphilis (snail-track ulcers)",
+      "prevalence": "rare",
+      "etiology": "Secondary syphilis develops 2–4 months after the primary lesion [1]. It is a systemic stage involving multiple organs. The oral lesions — sensitive sloughy mucous patches known as snail-track ulcers (serpiginous ulceration) — are highly contagious: Treponema pallidum can be easily isolated from them [1].",
+      "presentation": "Systemic features dominate: cutaneous rash, condylomata, malaise, fever, headache, and weight loss [1]. The oral lesions are sensitive sloughy mucous patches — the serpiginous (snail-track) pattern on the buccal mucosa is characteristic [1]. The ulcers are highly contagious [1].",
+      "results": "Syphilis serology is positive at this stage [1]. Direct isolation of T. pallidum from the oral lesion is possible [1]. Urgent referral to GUM clinic for serological confirmation and contact tracing.",
+      "definingCharacteristics": "The snail-track or serpiginous pattern is characteristic and unusual enough to prompt syphilis testing immediately. The systemic features — rash, weight loss, fever — in a sexually active adult alongside oral ulcers should always raise the index of suspicion. Syphilis serology being positive at secondary stage confirms it [1]. The ulcers generally clear by 12 weeks but recurrences may occur up to one year [1].",
+      "treatment": "Refer to GUM clinic for systemic penicillin treatment and contact tracing. Handle the oral lesions with care — they are infectious [1].",
+      "prognosis": "Secondary syphilis resolves by 12 weeks without treatment, though recurrences can occur up to a year [1]. Without systemic treatment, the infection progresses to tertiary syphilis in 30% of patients, causing gumma formation, CNS involvement, and vasculitis [1].",
+      "citations": [
+        { "id": 1, "quote": "2° lesion. Develops 2–4 months after the 1° with a cutaneous rash, condylomata, and systemic features such as malaise, fever, headache, and weight loss. The oral lesions include sensitive sloughy mucous patches known as snail-track ulcers (serpiginous ulceration). These are also highly contagious and T. pallidum can be easily isolated. Syphilis serology is positive at this stage. The ulcers generally clear up by 12 weeks, although there may be recurrences up to 1yr.", "paragraph": 6002, "source": "Oxford Handbook · paragraph 6002" }
+      ]
+    },
+    {
+      "id": "cheeks-029",
+      "description": "A bilateral white corrugated patch on the tongue (and cheek) that won't rub off — found incidentally in a transplant recipient or an HIV-positive patient.",
+      "conditionName": "Hairy leukoplakia",
+      "prevalence": "very-uncommon",
+      "etiology": "Opportunistic infection of the tongue mucosa by Epstein-Barr virus (EBV) in immunocompromised patients [1]. Found in transplant recipients and HIV-positive patients [1][2].",
+      "presentation": "Bilateral, white, non-removable corrugated lesions of the tongue — the lateral margins are the classic site, though cheek involvement is possible [2]. The lesions are not affected by antifungals, which distinguishes them from pseudomembranous candidosis [2].",
+      "results": "Clinical diagnosis in the right context: bilateral non-removable corrugated white lesion in an immunocompromised patient that does not respond to antifungal treatment [2]. EBV in situ hybridisation on biopsy can confirm. The finding is a predictor of a bad prognosis and possible development of lymphoma [2].",
+      "definingCharacteristics": "The combination of a non-removable corrugated white lesion plus HIV or transplant immunosuppression background is essentially diagnostic [2]. Pseudomembranous candidosis rubs off; hairy leukoplakia does not. The antifungal non-response clinches it. It is a poor prognostic marker — its presence in an HIV-positive patient signals significant immune compromise and possible lymphoma risk [2].",
+      "treatment": "Usually resolves with aciclovir or valaciclovir, but returns on discontinuation [2]. The underlying immunosuppression is the real target — optimise HIV treatment or adjust transplant immunosuppression where possible.",
+      "prognosis": "Lesions return on stopping antiviral therapy [2]. The significance is prognostic: hairy leukoplakia is a predictor of a bad prognosis and possible lymphoma development in immunocompromised patients [2].",
+      "citations": [
+        { "id": 1, "quote": "Opportunistic infection on the tongue mucosa by EBV is thought to be the pathological mechanism behind 'hairy leucoplakia', which is found in transplant and HIV-positive patients.", "paragraph": 6031, "source": "Oxford Handbook · paragraph 6031" },
+        { "id": 2, "quote": "Bilateral, white, non-removable corrugated lesions of the tongue, unaffected by antifungals but usually resolve with aciclovir or valaciclovir (but return on discontinuation of Rx), and associated with EBV. It is a predictor of a bad prognosis and possible development of lymphoma.", "paragraph": 6455, "source": "Oxford Handbook · paragraph 6455" }
+      ]
+    },
+    {
+      "id": "cheeks-030",
+      "description": "A white, warty or cauliflower-like growth on the cheek lining — painless, slow-growing, in a patient with no obvious trauma or denture cause.",
+      "conditionName": "Oral squamous papilloma (HPV)",
+      "prevalence": "uncommon",
+      "etiology": "Human papilloma virus (HPV) is now established as the principal cause of a subset of head and neck squamous cell cancers [1]. HPV has been associated with squamous cell papilloma, condyloma acuminatum (multiple white/pink nodules), focal epithelial hyperplasia (multiple painless papules), and verruca vulgaris (white exophytic lumps) [1]. HPV type 16 is a cause of oropharyngeal and oral cavity cancer [1].",
+      "presentation": "An exophytic, white or pink, warty or cauliflower-like nodule on the buccal mucosa or other oral surfaces. Painless and slow-growing. May be single or multiple depending on the HPV-associated condition.",
+      "results": "Biopsy confirms papillomatous epithelium with koilocytes. HPV typing identifies high-risk subtypes (HPV 16) that warrant cancer surveillance. Any suspicious lesion — indurated, ulcerated, rapidly growing — should be treated as potentially malignant until proven otherwise.",
+      "definingCharacteristics": "HPV oral lesions form a spectrum: single squamous papilloma at one end, condylomata (multiple white/pink nodules) and focal epithelial hyperplasia (multiple painless papules) in the middle, and HPV 16-driven oropharyngeal cancer at the serious end [1]. The incidence of HPV-driven head and neck cancer has been rising, particularly in men [1]. Excision and HPV typing guide further management.",
+      "treatment": "Topical solutions for benign growths [1]. For HPV-related cancer, surgery or chemotherapy [1]. Excise the benign lesion to confirm histology and type the HPV strain. Refer urgently if malignancy is suspected.",
+      "prognosis": "Benign HPV lesions (papilloma, condyloma) carry no direct malignant risk but HPV 16 association warrants vigilance [1]. The rising incidence of HPV-driven oropharyngeal cancer is a public health concern [1].",
+      "citations": [
+        { "id": 1, "quote": "HPV is now established as the principal cause of an ↑ in incidence of a subset of head and neck squamous cell cancers. HPV has been associated with squamous cell papilloma, condyloma acuminatum (multiple white/pink nodules), focal epithelial hyperplasia (multiple painless papules), and verruca vulgaris (white exophytic lumps). HPV type 16 is a cause of oropharyngeal cancer and oral cavity cancer. In general oropharyngeal cancer incidence rates were higher and ↑ more sharply in men. Rx: topical solutions for the benign growths. For cancer, surgery or chem", "paragraph": 6010, "source": "Oxford Handbook · paragraph 6010" }
+      ]
+    },
+    {
+      "id": "cheeks-031",
+      "description": "A chronic, undermined ulcer with a characteristic blue-edged margin on the cheek or elsewhere in the mouth, in a patient with inflammatory bowel disease.",
+      "conditionName": "Pyoderma gangrenosum (oral)",
+      "prevalence": "rare",
+      "etiology": "Pyoderma gangrenosum is associated with ulcerative colitis and Crohn's disease [1]. The oral variant is rare but follows the same pattern as the more commonly recognised leg lesions.",
+      "presentation": "Blue-edged ulcers [1]. On the legs, these are the classic presentation; oral involvement follows the same pattern. The blue or violaceous undermined margin is the clinical hallmark.",
+      "results": "Diagnosis is clinical in the context of known inflammatory bowel disease. Biopsy excludes malignancy but is non-specific for pyoderma gangrenosum. The blue-undermined edge in an IBD patient is sufficient to make the working diagnosis.",
+      "definingCharacteristics": "The blue-edged, undermined margin is the distinguishing feature from all other oral ulcers [1]. No other condition in the cheek origin produces this specific margin appearance. The association with ulcerative colitis and Crohn's disease is the context that makes the diagnosis plausible [1].",
+      "treatment": "Treat the underlying inflammatory bowel disease. Systemic immunosuppression (corticosteroids) is typically required. Refer to gastroenterology and dermatology for co-management.",
+      "prognosis": "Tied to the activity of the underlying IBD. With good control of the systemic disease, lesions may resolve. Refractory cases require escalation of systemic immunosuppression.",
+      "citations": [
+        { "id": 1, "quote": "Blue-edged ulcers, especially on the legs; associated with ulcerative colitis and Crohn's disease.", "paragraph": 7553, "source": "Oxford Handbook · paragraph 7553" }
+      ]
     }
   ]
 }
