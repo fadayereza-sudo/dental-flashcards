@@ -205,6 +205,304 @@
           "source": "Odell's Clinical Problem Solving · paragraph 6069"
         }
       ]
+    },
+    {
+      "id": "palate-006",
+      "description": "Cleft of the palate with intact overlying mucosa — the defect is hidden until abnormal speech or feeding difficulty is noticed.",
+      "conditionName": "Submucous cleft palate",
+      "prevalence": "very-uncommon",
+      "etiology": "Cleft palate can be classified as involving the primary palate, secondary palate, or both, and may be complete or incomplete, unilateral or bilateral [1]. Submucous cleft is the hidden variant: the overlying mucosa remains intact, so the underlying bony or muscular defect is not visible on simple inspection [1]. The aetiology is multifactorial — genetic and environmental factors both contribute, and the condition can occur in isolation or as part of a syndrome [2].",
+      "presentation": "What you'll often hear first is a parental concern about speech. Because the mucosa is intact, the diagnosis is missed until poor speech is noticed [1]. Feeding difficulties in infancy may be the first pointer. The palate looks superficially normal, which is why it is easily overlooked at routine examination.\n\nCareful palpation along the midline of the hard palate may reveal a notch in the posterior hard palate — the bony deficiency underlying the intact mucosa.",
+      "results": "The classic picture on examination is a bifid uvula and a midline palatal notch palpable through intact mucosa. Speech assessment by a speech therapist will typically reveal velopharyngeal insufficiency — air escaping through the nose on sustained vowels and consonant pressure sounds.\n\nIsolated cleft palate occurs in approximately 1:2000 births, with females more commonly affected than males [3]. Congenital anomalies coexist in up to 20% of cleft palate cases [4].",
+      "definingCharacteristics": "The reason submucous cleft is missed is exactly what makes it distinctive: the mucosa is intact [1]. Overt cleft palate is visible immediately at birth; submucous cleft is found only when speech therapy or careful palpation uncovers it. A bifid uvula is a key surface sign that should prompt careful midline palpation in any child with speech difficulties.",
+      "treatment": "Refer to a specialist cleft team — management involves a cleft surgeon, ENT surgeon, speech therapist, orthodontist, and clinical psychologist working together [5]. Palatal closure is typically performed between 9 and 12 months of age, with the goal of preserving speech development [6]. Deferring repair reduces growth disturbance but adversely affects speech development [6].",
+      "prognosis": "Speech and hearing outcomes depend on early recognition and timely repair. In repaired clefts, maxillary growth is reduced in all three planes compared to unrepaired clefts, which show near-normal growth — so the timing and technique of repair are the key variables [7]. The takeaway is that missing the diagnosis until late childhood means suboptimal speech outcomes.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Many exist, but the best approach is to describe cleft: 1° &/or 2° palate; complete or incomplete; unilateral or bilateral. Submucous cleft of the palate is often missed until poor speech noticed, as overlying mucosa is intact.",
+          "paragraph": 2636,
+          "source": "Oxford Handbook · paragraph 2636"
+        },
+        {
+          "id": 2,
+          "quote": "Multifactorial with both genetic and environmental factors (including maternal smoking, alcohol, and phenytoin intake) involved. Can occur in isolation or as part of a syndrome.",
+          "paragraph": 2634,
+          "source": "Oxford Handbook · paragraph 2634"
+        },
+        {
+          "id": 3,
+          "quote": "Isolated cleft palate occurs in 1:2000 births. F > M. Family history in 20%.",
+          "paragraph": 2632,
+          "source": "Oxford Handbook · paragraph 2632"
+        },
+        {
+          "id": 4,
+          "quote": "These occur in up to 20% of cases with CLP and are more likely in association with isolated clefts of palate than lip.",
+          "paragraph": 2645,
+          "source": "Oxford Handbook · paragraph 2645"
+        },
+        {
+          "id": 5,
+          "quote": "Team usually includes cleft surgeon, ear, nose, and throat (ENT) surgeon, health visitors, orthodontist, speech therapist, clinical psychologist, and central coordinator. Centralization of care and audit of outcome gives better results.",
+          "paragraph": 2649,
+          "source": "Oxford Handbook · paragraph 2649"
+        },
+        {
+          "id": 6,
+          "quote": "Usually between 9 and 12 months. Delaire or Von Langenbeck ± modifications are the most popular. Deferring repair until patient is older ↓ growth disturbance, but speech development is adversely affected.",
+          "paragraph": 2655,
+          "source": "Oxford Handbook · paragraph 2655"
+        },
+        {
+          "id": 7,
+          "quote": "Unrepaired clefts show normal growth. In repaired clefts maxillary growth is ↓ AP, transversely, and vertically. Mandibular growth also d.",
+          "paragraph": 2641,
+          "source": "Oxford Handbook · paragraph 2641"
+        }
+      ]
+    },
+    {
+      "id": "palate-007",
+      "description": "Palatal mucosa under an old or ill-fitting upper denture develops a nodular, cobblestone surface — sometimes associated with angular cheilitis.",
+      "conditionName": "Inflammatory papillary hyperplasia of the palate",
+      "prevalence": "uncommon",
+      "etiology": "Inflammatory papillary hyperplasia is one of the problems that emerges from denture neglect. As a denture ages and the ridge resorbs, the appliance becomes progressively ill-fitting, and the resulting movement in function can drive a combination of mucosal changes: resorption, Candida colonisation, denture irritation hyperplasia, and papillary hyperplasia of the palate [1]. The denture acts as a reservoir for Candida, maintaining chronic fungal stimulation of the palatal mucosa [2].",
+      "presentation": "Usually found incidentally when examining the palate under a long-worn denture. The patient may have no complaint about the palate itself. What you see on removing the denture is an irregular, nodular surface — small papillary projections covering all or part of the palate under the denture footprint.\n\nAngular cheilitis may coexist [2]. Denture hygiene is typically poor.",
+      "results": "- **Visual inspection** under the denture is the key finding: raised papillary nodules on the palatal mucosa, confined to the denture-bearing area.\n- **No special investigations** are needed for the diagnosis itself, but the condition signals a need for review of Candida status (swab the fitting surface) and investigation of systemic predisposition if the infection is widespread [3].\n- **Denture assessment**: check occlusal surface wear, fit, and the patient's night-wear habits — all are likely to be abnormal.",
+      "definingCharacteristics": "The interesting bit is how this differs from denture stomatitis proper: both occur under an ill-fitting denture and both have a Candida component, but papillary hyperplasia is nodular rather than uniformly erythematous and flat [2][4]. The cobblestone texture is the distinguishing surface feature. Unlike a simple candidal infection, the papillary overgrowth may not fully resolve with antifungals alone — surgical reduction may be needed [2].",
+      "treatment": "Start with the same measures as denture stomatitis: night-time denture removal, thorough fitting-surface hygiene, reduced sugar intake, and miconazole gel applied to the fitting surface [2]. If the papillary hyperplasia persists despite good compliance, surgical reduction may be required before new dentures can be constructed [2].",
+      "prognosis": "With good denture hygiene and antifungal treatment the mucosal inflammation improves, but established papillary overgrowth often requires surgical reduction before the palate returns to a suitable denture-bearing surface [2]. New dentures should only be made once the palate has settled.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "As a result of resorption all dentures become progressively ill-fitting, → loss of retention and stability. Movement of dentures in function may result in: Resorption. Predisposition to candidal infection. Denture irritation hyperplasia. Inflammatory papillary hyperplasia of the palate. All of these are exacerbated by wear of the occlusal surfaces.",
+          "paragraph": 4647,
+          "source": "Oxford Handbook · paragraphs 4647–4652"
+        },
+        {
+          "id": 2,
+          "quote": "Miconazole gel can be added to the fitting surface of the denture before insertion. Coexisting papillary hyperplasia of palate may need surgical reduction. Systemic fluconazole may be used in some cases.",
+          "paragraph": 4743,
+          "source": "Oxford Handbook · paragraph 4743"
+        },
+        {
+          "id": 3,
+          "quote": "The possibility of an underlying condition predisposing to candidosis should be considered, especially if the infection involves other parts of the mouth or lips or if treatment fails despite good denture hygiene. In this case, referral to the patient's general practitioner would be indicated for further investigations.",
+          "paragraph": 2827,
+          "source": "Odell's Clinical Problem Solving · paragraph 2827"
+        },
+        {
+          "id": 4,
+          "quote": "Also known as denture sore mouth, a misnomer because the condition is usually symptomless. Classically, seen as redness of the palate under a F/− denture, with petechial and whitish areas.",
+          "paragraph": 4722,
+          "source": "Oxford Handbook · paragraph 4722"
+        }
+      ]
+    },
+    {
+      "id": "palate-008",
+      "description": "A sudden blood blister bursts onto the soft palate during a meal — alarming to the patient, with no prior warning.",
+      "conditionName": "Angina bullosa haemorrhagica",
+      "prevalence": "uncommon",
+      "etiology": "An acute, localised oral blood blister of unknown aetiology. The working theory is that trauma causes a break at the epithelium-connective tissue junction, leading to bleeding from superficial capillaries and formation of a bulla [1]. Steroid inhalers may predispose [1]. The event is characteristically sudden — there is no prodrome.",
+      "presentation": "What happens is that the patient notices a sudden blood-filled blister appearing during eating, on the soft palate, cheek, or tongue [1]. It can be alarming — the blister may be sizeable and looks dramatic. Most common in elderly patients [1]. The blister ruptures quickly, leaving a shallow ulcer that heals uneventfully.\n\nThe soft palate, cheeks, and tongue are the most common sites [1].",
+      "results": "Diagnosis is largely clinical — a sudden blood blister during eating in an elderly patient, resolving rapidly without scar, in the absence of any coagulation disorder. The key investigation step is excluding bullous conditions: pemphigus and pemphigoid can both produce oral blisters and are far more significant clinically [1].\n\nIf blisters are recurrent, persistent, or present at multiple sites, biopsy and haematological screen are warranted to exclude pemphigoid, pemphigus, and coagulation disorders.",
+      "definingCharacteristics": "The question to ask is whether this is truly a benign, isolated blood blister or whether it is an early presentation of pemphigus or mucous membrane pemphigoid. Angina bullosa haemorrhagica is distinguished by: sudden onset during eating, single or few blisters, soft palate predominance, rapid rupture and healing, and no systemic features [1]. Pemphigoid and pemphigus are more persistent, affect multiple mucosal sites including gingivae, and typically do not resolve without treatment [1].",
+      "treatment": "Puncture the blister if it is causing discomfort, and reassure the patient [1]. The goal is to exclude pemphigus and pemphigoid — if any doubt exists, refer for biopsy and immunofluorescence. No specific treatment is needed for the blood blister itself.",
+      "prognosis": "Oral blood blisters are irritating but of no known significance in isolation [2]. Healing is rapid and scarring does not occur. The risk is misdiagnosis — failing to identify pemphigoid or pemphigus on the first encounter.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "An acute, localized oral blood blister of unknown aetiology, although trauma may cause break in epithelium–connective tissue junction leading to bleeding from superficial capillaries and formation of a bulla. Invariably develops during eating and can be alarming to the patient. Most common in elderly. Steroid inhalers may predispose. Soft palate, cheeks, and tongue most common sites. ∆: exclude other bullous conditions. Rx: puncture &/or reassure (must differentiate from pemphigus/pemphigoid).",
+          "paragraph": 6095,
+          "source": "Oxford Handbook · paragraph 6095"
+        },
+        {
+          "id": 2,
+          "quote": "Oral blood blisters; irritating but of no known significance (…… Angina bullosa haemorrhagica, p. 444).",
+          "paragraph": 6415,
+          "source": "Oxford Handbook · paragraph 6415"
+        }
+      ]
+    },
+    {
+      "id": "palate-009",
+      "description": "Febrile child with small painful ulcers clustered on the uvula, soft palate, and fauces — no gingivitis, no hand or foot lesions.",
+      "conditionName": "Herpangina",
+      "prevalence": "very-uncommon",
+      "etiology": "Caused by Coxsackie A virus, confined to children [1]. The virus produces a febrile illness with sore throat as the cardinal symptoms. Spread is by the faeco-oral route [1]. The interesting bit is its site specificity: the ulcers cluster on the uvula, palate, and fauces rather than the anterior mouth — that distribution is pathognomonic [1].",
+      "presentation": "What you'll see in a child is fever, general upset, and sore throat with widespread small ulcers on the oral mucosa [1]. The site pattern is the key: ulcers are on the uvula, palate, and fauces — no gingivitis, which helps distinguish it from primary herpetic stomatitis [1]. The illness may be preceded by sore throat and conjunctivitis, and can be mistaken for teething in young children [1].\n\nThe source also notes a separate, related illness: hand, foot, and mouth disease, where Coxsackie A16 produces ulcers throughout the oral cavity together with a papular vesicular rash on hands and feet [2]. Herpangina does not have the hand and foot lesions.",
+      "results": "Diagnosis is clinical — the site-specific ulcer pattern in a febrile child. No gingivitis on examination separates this from herpetic stomatitis. A brief illness of 3–5 days in one source [3] and 10–14 days in another [1] indicates a self-limiting course.\n\nNo special investigations are routinely needed.",
+      "definingCharacteristics": "The rule of thumb for site: herpangina is confined to the posterior mouth — uvula, soft palate, and fauces [1]. Primary herpetic stomatitis produces gingivitis and involves the anterior mouth, lips, and tongue. Hand, foot, and mouth disease shares the same viral family but distributes ulcers throughout the oral cavity and adds the exanthem on hands and feet [2].",
+      "treatment": "Soft diet and symptomatic relief [3]. The illness is self-limiting and no antiviral is needed.",
+      "prognosis": "Self-limiting. The febrile illness resolves within days and the ulcers heal without scarring [1][3].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Herpangina is caused by Coxsackie A virus, is confined to children, and presents with widespread small ulcers on the oral mucosa with fever and general upset. Clinically it resembles herpetic stomatitis, but is site pathognomonic, affecting uvula, palate, and fauces with no gingivitis. May be preceded by sore throat and conjunctivitis. Can also be mistaken as 'teething'. Self-limiting in 10–14 days. Spread by faeco-oral route.",
+          "paragraph": 6024,
+          "source": "Oxford Handbook · paragraph 6024"
+        },
+        {
+          "id": 2,
+          "quote": "This is caused by Coxsackie virus (usually A16, but less commonly types 5 and 10) and is similar to herpangina but the lesions are present throughout the oral cavity. A papular, vesicular rash appears on the hands and feet in conjunction with nasal congestion and oral mucosal vesicles. These break down, leaving painful superficial ulcers, particularly on the palate. The gingivae are rarely involved. It is self-limiting in 10–14 days.",
+          "paragraph": 6026,
+          "source": "Oxford Handbook · paragraph 6026"
+        },
+        {
+          "id": 3,
+          "quote": "Febrile illness with sore throat due to ulcers on soft palate and throat. Usually lasts about 3–5 days. Rx: soft diet.",
+          "paragraph": 1884,
+          "source": "Oxford Handbook · paragraph 1884"
+        }
+      ]
+    },
+    {
+      "id": "palate-010",
+      "description": "Deep, non-healing ulcer on the palate in a patient with a known or possible history of syphilis — the ulcer has necrotic edges and may be enlarging.",
+      "conditionName": "Tertiary syphilis — palatal gumma",
+      "prevalence": "rare",
+      "etiology": "Tertiary syphilis develops several years after the primary infection, in approximately 30% of patients who do not receive treatment [1]. The third-stage lesion is the gumma: a necrotic granulomatous reaction that forms and enlarges over time [1]. The palate and tongue are the favoured oral sites [1]. Tertiary syphilis is a multisystem disorder involving the central nervous system and causing vasculitis [1].",
+      "presentation": "A necrotic ulcer on the palate, with a granulomatous, destructive character that enlarges progressively [1]. The patient may not have an obvious history of syphilis — the primary and secondary episodes may have been mild or unrecognised. The ulcer can perforate the palate if left untreated [1].\n\nThe lesions are non-infectious at this stage [1].",
+      "results": "Syphilis serology (VDRL, TPHA) is the key investigation. Biopsy would show necrotic granulomatous tissue. Third-stage lesions are non-infectious, so T. pallidum cannot be isolated from the site [1]. Refer to GUM medicine or infectious diseases for systemic investigation and treatment — tertiary syphilis causes CNS and vascular disease beyond the oral findings [1].",
+      "definingCharacteristics": "What distinguishes this from other palatal ulcers is the history (known or suspected syphilis, absence of an obvious dental cause), the deeply necrotic granulomatous character, and the progressive enlargement with potential palatal perforation [1]. Tuberculosis also produces a deep necrotic ulcer, but is more common on the posterior tongue; TB requires a different work-up (PCR, chest X-ray). Squamous cell carcinoma is the other important differential for a non-healing palatal ulcer.",
+      "treatment": "Refer urgently to GUM medicine or infectious diseases. Systemic treatment of syphilis is required — penicillin remains the drug of choice for tertiary disease. The palatal defect may need surgical reconstruction once the infection is controlled.",
+      "prognosis": "Without treatment, the gumma continues to enlarge and can perforate the palate. Tertiary syphilis is a multisystem disorder with CNS and vascular consequences beyond the oral lesion [1]. With appropriate systemic treatment, the active granulomatous process is arrested.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "3° lesion. Develops several years later in 30% of patients and is marked by gumma formation. This is a necrotic granulomatous reaction usually affecting the palate or tongue, which enlarges and ulcerates and may lead to perforation of the palate. Lesions are non-infectious. Tertiary syphilis is a multisystem disorder causing CNS involvement and vasculitis.",
+          "paragraph": 6003,
+          "source": "Oxford Handbook · paragraph 6003"
+        }
+      ]
+    },
+    {
+      "id": "palate-011",
+      "description": "Dark, rapidly enlarging, irregular pigmented lesion on the palate — not linked to any previous trauma or benign cause.",
+      "conditionName": "Oral malignant melanoma",
+      "prevalence": "rare",
+      "etiology": "A rare but potentially lethal intraoral malignancy [1]. The source does not detail the aetiological mechanism beyond the clinical characterisation, but the lesion is melanocytic in origin. A rare non-pigmented variant also exists [1].",
+      "presentation": "A dark, irregular lesion on the palate or oral mucosa that enlarges rapidly [1]. The colour is very dark and the outline is irregular — both features that should raise immediate concern. Patients may notice a new dark patch or enlargement of what they thought was a birthmark.\n\nThe non-pigmented variant is the dangerous diagnostic pitfall: it lacks the dark colouration and can be mistaken for other mucosal lesions [1].",
+      "results": "Any dark, rapidly growing, irregular oral lesion requires urgent biopsy. Excision biopsy or incisional biopsy under urgent two-week-wait referral. Histology confirms melanocytic origin. Staging investigation (imaging of neck, chest, abdomen) follows confirmed malignancy.",
+      "definingCharacteristics": "The rapid enlargement and very dark, irregular outline are the clinical hallmarks [1]. Benign melanotic macules and amalgam tattoos are both dark but are flat, have regular borders, and show no growth. Kaposi's sarcoma is a vascular lesion (HHV-8-related) appearing in AIDS patients and is also dark/purplish, but is a different entity [2]. Any dark oral lesion that is growing should be treated as malignant until proven otherwise.",
+      "treatment": "Two-week-wait urgent referral to oral and maxillofacial surgery or oral medicine. Do not delay — prognosis is strongly time-dependent. Excision biopsy with wide clear margins is the primary treatment for localised disease. Neck dissection and adjuvant therapy are used for advanced disease.",
+      "prognosis": "Very poor [1]. Oral malignant melanoma carries a worse prognosis than cutaneous melanoma, largely because it tends to present late. Early referral on clinical suspicion offers the best chance of improved outcomes.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Potentially lethal, relatively rare IO malignancy. Very dark, irregular outline, enlarges rapidly; poor prognosis. Rare variant is non-pigmented.",
+          "paragraph": 6167,
+          "source": "Oxford Handbook · paragraph 6167"
+        },
+        {
+          "id": 2,
+          "quote": "(…… Kaposi's sarcoma (KS), p. 478.) A HHV-8-related radiosensitive vascular tumour associated with AIDS.",
+          "paragraph": 6165,
+          "source": "Oxford Handbook · paragraph 6165"
+        }
+      ]
+    },
+    {
+      "id": "palate-012",
+      "description": "Papillated pink or white asymptomatic lumps on the palate or oral mucosa — patient may have a history of an STD or skin warts.",
+      "conditionName": "Oral warts / squamous papillomata (HPV-associated)",
+      "prevalence": "uncommon",
+      "etiology": "HPV is the main aetiological factor [1]. True warts in the mouth are rare and are usually transmitted from skin warts. The condition is found in those with an STD or AIDS, but most patients have no such link [1]. Squamous papillomata are more common than true warts and appear in a similar clinical pattern.",
+      "presentation": "Multiple papillated pink or white lumps that are asymptomatic [1]. The papillated surface texture — like a small cauliflower — is the identifying feature. The patient often notices them incidentally or they are found on routine examination. Lesions may be single or multiple.",
+      "results": "- **Clinical appearance** of multiple papillated pink or white lumps is often enough for a working diagnosis [1].\n- **Excision biopsy** is both the definitive diagnostic and therapeutic step. If on a stalk, ligate or diathermy the base — these lesions contain a prominent vessel [1].\n- **HIV testing** if multiple lesions are present and no other risk factor is identified.",
+      "definingCharacteristics": "The papillated texture separates warts and papillomata from flat white patches (leukoplakia, candidosis) and from palatal nodules with smooth surfaces (torus, salivary gland tumours). The key clinical rule is that even though these lesions are HPV-driven and usually benign, excision biopsy is the correct management — it provides histological confirmation and removes the lesion in one step [1].",
+      "treatment": "Excision biopsy. If on a stalk, ligate or use diathermy at the base because these lesions contain a prominent vessel [1]. Screen for STD and HIV if the clinical context suggests it.",
+      "prognosis": "Excision is curative for individual lesions. In immunocompromised patients (HIV/AIDS), recurrence is more likely. The prognosis is generally good for isolated papillomata in immunocompetent patients.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The main aetiological factor is HPV. True warts are rare in the mouth and usually transmitted from skin warts. Found in those with a STD or AIDS, but most have no such link. Papillomata are common in the mouth; they appear as multiple papillated pink or white asymptomatic lumps. Rx: excision biopsy (if on a stalk—ligate or diathermy base as they contain a prominent vessel).",
+          "paragraph": 5800,
+          "source": "Oxford Handbook · paragraphs 5800–5801"
+        }
+      ]
+    },
+    {
+      "id": "palate-013",
+      "description": "Small pinpoint red spots on the soft palate — appearing in a child or young adult with a platelet disorder, febrile illness, or a history of forceful vomiting.",
+      "conditionName": "Palatal petechiae (thrombocytopenic purpura and associated causes)",
+      "prevalence": "very-uncommon",
+      "etiology": "Purpura is due to platelet deficiency [1]. The commonest form in children is idiopathic thrombocytopenic purpura (ITP) [1]. Palatal petechiae can also appear in glandular fever, rubella, HIV, and recurrent vomiting — all contexts where there is either a coagulation disturbance or local capillary trauma [1].",
+      "presentation": "Pinpoint haemorrhages visible on the soft palate as red or dark-red spots — petechiae [1]. They do not blanch on pressure. The patient may have no oral complaint; the petechiae are often found incidentally, or the patient presents with the systemic illness. Spontaneous gingival bleeding may also be present in thrombocytopenic states.",
+      "results": "The interesting bit is that petechiae alone signal a need for urgent blood work. A full blood count with platelet count is the first step — a platelet count below 50,000/mm³ is associated with spontaneous bleeding. Coagulation screen and blood film follow. If glandular fever is suspected, a monospot test is appropriate.",
+      "definingCharacteristics": "Palatal petechiae are almost never an isolated finding — they point to a systemic cause. The differential is broader than just ITP: glandular fever, rubella, HIV, and vomiting-related capillary trauma can all produce the same picture [1]. The clinical question is always: what is the underlying cause? Never reassure and discharge on the appearance of palatal petechiae alone without a haematological screen.",
+      "treatment": "The goal is to identify and treat the underlying cause. Refer to the GP or haematology urgently if platelet deficiency is suspected. ITP in children may resolve spontaneously; moderate-to-severe cases are managed by haematologists with steroids, IVIG, or splenectomy. Avoid elective dental procedures (including injections) until platelet count is known.",
+      "prognosis": "Depends entirely on the underlying condition [1]. ITP in children often resolves spontaneously. HIV and glandular fever carry their own prognosis. The palatal petechiae themselves resolve as the systemic condition is managed.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Purpura is due to platelet deficiency. Commonest as idiopathic thrombocytopenic purpura (ITP) in children. Palatal petechiae or bruising may be seen. Palatal petechiae are also seen in glandular fever, rubella, HIV, and recurrent vomiting.",
+          "paragraph": 6413,
+          "source": "Oxford Handbook · paragraph 6413"
+        }
+      ]
+    },
+    {
+      "id": "palate-014",
+      "description": "Unusually high-arched narrow palate in a very tall, thin patient with long fingers — referred for dental care or found at routine examination.",
+      "conditionName": "Marfan syndrome",
+      "prevalence": "rare",
+      "etiology": "An autosomal dominant condition [1]. The syndrome is characterised by a connective tissue abnormality that produces skeletal, ocular, and cardiovascular features. Joint laxity is a feature, and the high-arched palate arises from the altered connective tissue architecture [1].",
+      "presentation": "What you'll see is a tall, thin patient with arachnodactyly — long, thin, spider-like hands [1]. The high-arched palate is often an incidental finding during a dental examination. Other features include dislocation of the lens, and cardiovascular anomalies: dissecting aneurysms of the thoracic aorta, aortic regurgitation, and floppy mitral valve [1]. Joint laxity is also common [1].\n\nThe condition is highly prevalent among top-class basketball and volleyball players [1].",
+      "results": "Diagnosis is clinical and genetic. On examination: high-arched palate, increased arm span-to-height ratio, arachnodactyly. Cardiovascular assessment is essential — aortic dissection is the life-threatening risk. Echocardiography is used for monitoring [1].",
+      "definingCharacteristics": "The combination of high-arched palate, arachnodactyly, and tall thin stature is distinctive [1]. The reason Marfan syndrome matters in dental practice is the cardiovascular risk: aortic dissection can be precipitated by stress and exertion, so any patient with undiagnosed Marfan features should be referred before elective procedures. Joint laxity and lens dislocation are additional pointers if the history is taken properly [1].",
+      "treatment": "The oral finding requires no direct treatment. Refer for cardiovascular assessment and genetic counselling if Marfan syndrome is suspected and not yet diagnosed [1]. Coordinate with the patient's cardiologist before dental procedures if aortic or valvular disease has been confirmed.",
+      "prognosis": "The risk of aortic dissection and cardiovascular complications determines long-term prognosis [1]. With appropriate monitoring and cardiovascular management, life expectancy has improved significantly. The dental finding of a high-arched palate is in itself benign.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "An autosomal dominant condition characterized by tall, thin stature and arachnodactyly (long, thin, spider-like hands), dislocation of the lens, dissecting aneurysms of the thoracic aorta, aortic regurgitation, floppy mitral valve, and high-arched palate. Joint laxity is also common. This condition is highly prevalent among top-class basketball and volleyball players, for obvious reasons.",
+          "paragraph": 10511,
+          "source": "Oxford Handbook · paragraph 10511"
+        }
+      ]
+    },
+    {
+      "id": "palate-015",
+      "description": "Cleft palate in a child with a flat mid-face, severe myopia, and early-onset arthropathy — the cleft was the presenting feature at birth.",
+      "conditionName": "Stickler syndrome",
+      "prevalence": "rare",
+      "etiology": "Stickler syndrome is perhaps the commonest syndrome associated with cleft palate [1]. The syndrome consists of flat mid-face, cleft palate (in 20% of cases), myopia, retinal detachment, hearing loss (in 80%), and arthropathy [1]. About 30% of Robin sequence patients have Stickler syndrome [1]. The reason the eye examination matters is that retinal detachment is a serious risk and can be missed if not actively looked for [1].",
+      "presentation": "A child with a cleft palate who also has a flat mid-face and significant myopia. The cleft palate is typically the presenting oral feature. Hearing loss is present in 80% [1], and arthropathy may emerge later in childhood. In some patients the syndrome is first recognised when the cleft palate is investigated and the examiner notes the characteristic flat facies and eye findings.",
+      "results": "The key investigation is ophthalmological examination to look for retinal detachment [1]. Hearing assessment is needed in all cases, given the 80% rate of hearing loss [1]. Genetic testing confirms the diagnosis. For the cleft palate itself, the same specialist team referral applies as for any cleft (cleft surgeon, speech therapist, ENT, orthodontist).",
+      "definingCharacteristics": "The takeaway for practice is this: about 30% of Robin sequence cases have Stickler syndrome, so any child with Robin sequence should have their eyes examined [1]. Among syndromic cleft palate diagnoses, Stickler stands out for the severity and frequency of its ocular involvement — retinal detachment is vision-threatening and requires proactive surveillance [1].",
+      "treatment": "Refer to a specialist cleft team for palate repair. Ophthalmology referral is mandatory to assess retinal status [1]. Audiology assessment for hearing loss [1]. Ongoing orthopaedic or rheumatology input for arthropathy as the child grows.",
+      "prognosis": "Cleft palate itself has good surgical outcomes when managed by a specialist team. The prognostic concerns are ocular — retinal detachment can cause blindness if not detected and treated — and auditory, given the 80% hearing loss rate [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Perhaps the commonest syndrome associated with cleft palate (20%). Consists of flat mid-face, cleft palate, myopia, retinal detachment, hearing loss (80%), and arthropathy. About 30% of Robin sequence patients have Stickler syndrome, therefore examine eyes.",
+          "paragraph": 10547,
+          "source": "Oxford Handbook · paragraph 10547"
+        }
+      ]
+    },
+    {
+      "id": "palate-016",
+      "description": "Cleft palate in a child with a flattened face, multiple congenital joint dislocations, and short stature — the dislocations are present at birth.",
+      "conditionName": "Larsen syndrome",
+      "prevalence": "rare",
+      "etiology": "A mainly autosomal dominant condition with a predilection for females [1]. The syndrome combines cleft palate with flattened facies, multiple congenital joint dislocations, foot deformities, and short stature [1]. The larynx may also be affected [1]. Cleft palate in this context is one of a constellation of connective tissue and skeletal abnormalities present from birth.",
+      "presentation": "At birth: the combination of multiple congenital joint dislocations together with cleft palate and a flattened face is the presenting picture [1]. The dislocations are typically of major joints (hips, knees, elbows) and are present from birth, which is the feature that distinguishes Larsen from other cleft syndromes. Sufferers are usually of short stature [1].",
+      "results": "Diagnosis is clinical and radiological — multiple joint dislocations confirmed on skeletal survey. Genetic testing may confirm the diagnosis. For dental management, the cleft palate follows standard cleft team assessment and repair.",
+      "definingCharacteristics": "What makes Larsen syndrome distinctive among cleft palate syndromes is the multiple congenital joint dislocations present at birth [1]. Stickler syndrome also includes cleft palate and connective tissue involvement, but its hallmark is severe myopia and retinal detachment rather than major joint dislocations. Marfan syndrome has joint laxity but not fixed congenital dislocations, and its palate finding is a high arch rather than a cleft. Larsen's picture — cleft + flattened facies + birth dislocations — is the defining cluster [1].",
+      "treatment": "Specialist cleft team referral for the cleft palate [1]. Orthopaedic management for the multiple joint dislocations — these are the dominant functional challenge in infancy and childhood. Laryngeal involvement may require ENT assessment [1].",
+      "prognosis": "Depends on the severity of orthopaedic involvement and the presence of laryngeal anomalies [1]. Cleft palate itself has a good surgical prognosis with specialist team management. Long-term orthopaedic and developmental input is typically needed.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A mainly autosomal dominant condition, with a predilection for females, consisting of cleft palate, flattened facies, multiple congenital dislocations, and deformities of the feet. Sufferers are usually of short stature. Larynx may be affected.",
+          "paragraph": 10503,
+          "source": "Oxford Handbook · paragraph 10503"
+        }
+      ]
     }
   ]
 }
