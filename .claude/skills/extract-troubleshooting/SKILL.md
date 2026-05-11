@@ -184,6 +184,24 @@ Use the **synthesise** prompt at `prompts/synthesise.md`.
 
 These rules apply to both phases (citations are surfaced as-is in phase 2).
 
+### Voice — read `.claude/skills/writing-style/SKILL.md` first
+
+Body prose for every problem must be in Ali's notebook voice — not a handbook paraphrase. **Read `.claude/skills/writing-style/SKILL.md` in full before writing any body field.** When delegating to sub-agents, paste the relevant sections of writing-style into the sub-agent prompt; sub-agents don't share parent memory.
+
+The most common failure mode is mirroring the source's textbook register when paraphrasing. The fix is to re-narrate, not re-arrange:
+
+**Off-voice (mirrors source):**
+
+> The most common neurological cause of facial pain. Thought to be a sensory form of epilepsy, although some cases are due to vascular pressure or nerve demyelination intracranially [1]. Patients under 50 presenting with cranial nerve neuralgia require full neurological examination and MRI [2].
+
+**On-voice (Ali's notebook):**
+
+> The most common neurological cause of facial pain. The thing is, nobody's quite sure what fires it — the current view is a sensory form of epilepsy, but some cases trace back to a vessel pressing on the nerve or to demyelination higher up [1]. So when a patient under 50 walks in with cranial-nerve neuralgia, you can't just call it idiopathic. Full neurological exam and MRI — these can be the presenting symptom of an intracranial tumour, skull-base metastases, HIV, syphilis, or MS [2].
+
+What changed: connective phrase opens the second sentence ("The thing is"); reasoning revealed inline; practical consequence drawn for the reader; plain words ("a vessel pressing on the nerve"); direct address with "you"; short sentence punctuates a longer one; em-dash used once meaningfully.
+
+**At least 3 connective phrases distributed across the six body fields per entry.** Pick naturally from: "the thing is", "what happens is", "the reason is that", "the goal is to", "so…", "now,", "the question is:", "here's the sequence", "the rule of thumb", "the takeaway", "the interesting bit", "for example,", "however,", "actually,". Don't cluster them.
+
 ### `description` (level-2 label)
 
 A single sentence, ≤25 words, third person. Lead with the most distinctive observable or patient-experienced feature. Do **not** name the condition. The reveal at the bottom is the payoff.
@@ -251,12 +269,42 @@ How to assign:
 (Inherited from `extract-first-principles` and project memory.)
 
 - **Layer A only.** Static structural / biomechanical facts and clinical decision rules. Drop adaptation theory, remodelling frameworks, FEM, cell biology, research-frame discussions. Memory: `user_first_principles_learning_philosophy.md`, `feedback_tissue_level_biomechanics.md`.
-- **No extrapolation.** If a source doesn't state etiology / Tx / Px, leave that section sparse. Never fabricate rationale to dress up a bare rule. Memory: `feedback_no_extrapolation_in_cards.md`.
+
+- **No extrapolation — every claim must be source-supported.** If a source doesn't state etiology / Tx / Px, leave that section sparse. Never fabricate rationale to dress up a bare rule. Memory: `feedback_no_extrapolation_in_cards.md`.
+
+  The common failure mode is filling in mechanism reasoning the source doesn't actually carry. Examples of claims that were caught in audit and trimmed:
+
+  - **Anatomical pathways beyond source.** Source says "interruption of sympathetic nerve fibres at the cervical ganglion 2° to bronchogenic carcinoma." Off-rule: "The sympathetic fibres run from the hypothalamus, down the spinal cord to C8/T1, then up alongside the carotid artery to the orbit." Drop the pathway; the source doesn't say it.
+  - **Mechanism speculation beyond source.** Source says "defect of C1-esterase inhibitor; precipitated by trauma." Off-rule: "Without C1-esterase inhibitor, bradykinin accumulates unchecked and drives vascular permeability." Drop the bradykinin mechanism; the source never names it.
+  - **Causal speculation beyond source.** Source says "appears to be a degenerative condition of articular cartilage." Off-rule: "The cause isn't fully understood, but mechanical overloading (parafunction, bruxism) and ageing are likely contributors." Drop the contributors; the source only labels it degenerative.
+  - **Cross-condition differentiation not in source.** Source describes condition X. Off-rule: "What distinguishes X from Y is the absence of urticaria and the failure to respond to antihistamines." If the source doesn't make that comparison, don't.
+  - **Named specifics tightening source generality.** Source says "bronchogenic carcinoma". Off-rule: "Pancoast tumour at the apex of the lung". Stick with the source's level of specificity.
+
+  **Acceptable** (these are NOT extrapolation): voice connective phrases ("the thing is", "what you'll see is"); rephrasing source content in plain words; drawing the consequence the source itself signals (e.g. when the source says "scores high on the worthwhile rating", writing "this needs investigation — it's not something you can reassure away"); reasoning that connects two source-supported claims.
+
 - **No internal episode codes.** Strip podcast catalogue codes (`GF019`, `PDP177`, `IC051`) anywhere they bleed in. Memory: `feedback_strip_internal_episode_codes.md`.
-- **Third person only.** No "I do", "we", "us", "for me". Direct impersonal statements.
+- **Third person only.** No "I do", "we", "us", "for me". Direct impersonal statements. "You" is allowed for procedural guidance ("you'll see…", "reach for…").
 - **Spoken-style, not textbook.** Short sentences, plain words, natural rhythm. Cut "It is also worth noting that…", "The clinical implication is therefore that…". Just say the thing.
-- **Em dashes sparingly.** Prefer commas, periods, colons.
+- **Em dashes ≤ 1 per paragraph.** Prefer commas, periods, colons.
+- **Banned register**: "moreover", "thus", "therefore", "furthermore". Use "so", "and", "but".
 - **No reference to "the handbook" / "the guideline" / "the textbook" inside body fields.** Citations carry provenance.
+
+## Self-check before finalising each problem
+
+Before writing the problem object to the output file, run this checklist over its six body fields. If any check fails, rewrite the failing sentence — don't ship it and fix later.
+
+- [ ] Every factual claim is directly supported by a `citations[].quote` for this problem (rephrasing is fine; mechanism reasoning the source doesn't carry is not).
+- [ ] Every `[N]` marker resolves to a citation entry; no orphan markers.
+- [ ] ≥3 connective phrases distributed across the six body fields ("the thing is", "what happens is", "so…", etc.).
+- [ ] No sentence opens "The X is Y" or any other textbook construction.
+- [ ] Treatment uses imperative mode for steps. ("Erythromycin 500 mg qds. Decongestant spray. Review at 10 days.")
+- [ ] No banned register ("moreover", "thus", "therefore", "furthermore").
+- [ ] Em dashes ≤ 1 per paragraph.
+- [ ] No reference to "the handbook", "the source", "the textbook" in body fields.
+- [ ] Description (L2 label) does not name the condition; conditionName field carries the diagnosis.
+- [ ] Voice reads as notes-to-self, not as a journal article.
+
+The same checklist is the contract for any audit pass: claims that fail check 1 get trimmed, not rewritten. Re-narrating in voice never authorises adding new factual content.
 
 ## Sample run — first origin: `permanent-dentition`
 
