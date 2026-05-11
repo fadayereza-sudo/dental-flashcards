@@ -289,20 +289,64 @@ How to assign:
 - **Banned register**: "moreover", "thus", "therefore", "furthermore". Use "so", "and", "but".
 - **No reference to "the handbook" / "the guideline" / "the textbook" inside body fields.** Citations carry provenance.
 
+## Source-only authoring discipline
+
+After three waves of authoring + audit, the dominant failure mode is clear: even with no-extrapolation rules in the skill, authoring agents default to filling in mechanism, anatomy, drug names, and cross-condition differentiation from clinical knowledge the source doesn't carry. The audit pass then trims that extra content. To stop wasting cycles on this round-trip, follow this discipline at authoring time, not after.
+
+**The contract**: every sentence in the six body fields is a near-paraphrase of a specific citation quote on that entry. If you cannot point to the quote a sentence is paraphrasing, do not write that sentence.
+
+### Per-entry workflow (mandatory)
+
+For each problem, before writing the body:
+
+1. **Read every cited paragraph in full.** No shortcuts — even for syndromes the model "knows".
+2. **List the citation IDs you will draw from for each body field.** Example: "etiology will use [1] only; presentation will use [1] and [3]; treatment will use [2] and [4]; prognosis will use [4]."
+3. **Write each body field as a paraphrase of the listed citations — nothing else.** If a citation contains five facts, your paragraph covers those five facts. If it contains two facts, your paragraph covers two facts.
+4. **Self-trim after writing each field.** Re-read it. For each sentence ask: "which citation quote covers this?" If none, delete the sentence.
+
+### Worked example — source-only authoring
+
+Citation quote (Oxford Handbook · paragraph 7366):
+> "May be the only functioning thyroid the patient has; do not excise lightly. Do pre-operative isotope scan."
+
+**Off-rule etiology (extrapolated, will be trimmed):**
+> Lingual thyroid is ectopic thyroid tissue at the base of the tongue. The clinical significance is that it may be the only functioning thyroid tissue the patient has [1]. This is why the rule is absolute: do not excise without a pre-operative isotope scan [1]. If the lingual thyroid is the patient's only thyroid, removing it without preparation causes surgical hypothyroidism.
+
+The last sentence — "removing it without preparation causes surgical hypothyroidism" — invents a mechanism the source doesn't state.
+
+**On-rule etiology (source-only):**
+> The clinical significance is that it may be the only functioning thyroid tissue the patient has [1]. So the rule is absolute: pre-operative isotope scan first, no light excisions [1].
+
+Both facts come from the citation. Voice — connective phrase ("so the rule is absolute"), short sentence, no em-dash — is on Ali's notebook patterns. Nothing extra.
+
+### Common extrapolation patterns to suppress
+
+These were caught and trimmed across waves 1–3. Don't write them in the first place.
+
+- **"The mechanism is X"** when the source only labels the condition. (Source: "C1-esterase inhibitor deficiency." Off-rule: "The protein normally controls the complement cascade." Drop the cascade — source never names it.)
+- **"Unlike condition Y, this presents with…"** when the source doesn't compare. Differential statements need source backing too.
+- **Specific drug names, doses, or surgical techniques** that the source doesn't name. (Source says "treat symptomatically"; don't write "5 mg PO bd".)
+- **Anatomical pathways** the source doesn't trace. (Source: "cervical ganglion." Don't write "hypothalamus → C8/T1 → carotid → orbit.")
+- **Named specifics tighter than source.** (Source: "bronchogenic carcinoma." Don't write "Pancoast tumour.")
+- **Risk percentages, time courses, or success rates** the source doesn't give.
+- **Background medical knowledge** about systemic disease beyond what's in the cited paragraphs.
+
 ## Self-check before finalising each problem
 
 Before writing the problem object to the output file, run this checklist over its six body fields. If any check fails, rewrite the failing sentence — don't ship it and fix later.
 
-- [ ] Every factual claim is directly supported by a `citations[].quote` for this problem (rephrasing is fine; mechanism reasoning the source doesn't carry is not).
-- [ ] Every `[N]` marker resolves to a citation entry; no orphan markers.
-- [ ] ≥3 connective phrases distributed across the six body fields ("the thing is", "what happens is", "so…", etc.).
-- [ ] No sentence opens "The X is Y" or any other textbook construction.
+- [ ] **Source-only contract**: each sentence paraphrases a citation quote on this entry; no sentence has "no quote behind it"
+- [ ] Every `[N]` marker resolves to a citation entry; no orphan markers
+- [ ] ≥3 connective phrases distributed across the six body fields ("the thing is", "what happens is", "so…", etc.)
+- [ ] No sentence opens "The X is Y" or any other textbook construction
 - [ ] Treatment uses imperative mode for steps. ("Erythromycin 500 mg qds. Decongestant spray. Review at 10 days.")
-- [ ] No banned register ("moreover", "thus", "therefore", "furthermore").
-- [ ] Em dashes ≤ 1 per paragraph.
-- [ ] No reference to "the handbook", "the source", "the textbook" in body fields.
-- [ ] Description (L2 label) does not name the condition; conditionName field carries the diagnosis.
-- [ ] Voice reads as notes-to-self, not as a journal article.
+- [ ] No banned register ("moreover", "thus", "therefore", "furthermore")
+- [ ] Em dashes ≤ 1 per paragraph
+- [ ] No reference to "the handbook", "the source", "the textbook" in body fields
+- [ ] Description (L2 label) does not name the condition; conditionName field carries the diagnosis
+- [ ] Voice reads as notes-to-self, not as a journal article
+
+If the source is a one-sentence paragraph (common for syndromes in the Oxford Handbook glossary), the entry will be short — that is the expected shape. Don't pad. A three-sentence etiology that's source-locked beats a six-paragraph etiology with three sentences of extrapolation.
 
 The same checklist is the contract for any audit pass: claims that fail check 1 get trimmed, not rewritten. Re-narrating in voice never authorises adding new factual content.
 
