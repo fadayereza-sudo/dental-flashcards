@@ -591,25 +591,23 @@ function PrevalenceInfoSheet({ onClose }: { onClose: () => void }) {
             materially shifts the bucket).
           </p>
 
-          <ul className="space-y-3">
+          <ul className="space-y-4">
             {PREVALENCE_ORDER.map((p) => {
               const detail = PREVALENCE_DETAIL[p];
               const style = PREVALENCE_STYLE[p];
               return (
-                <li key={p} className="flex items-start gap-3">
+                <li key={p}>
                   <span
-                    className={`shrink-0 inline-block text-xs tracking-[0.04em] uppercase font-semibold whitespace-nowrap px-2 py-0.5 rounded-full ${style.badge}`}
+                    className={`inline-block text-xs tracking-[0.04em] uppercase font-semibold whitespace-nowrap px-2 py-0.5 rounded-full ${style.badge}`}
                   >
                     {PREVALENCE_LABEL[p]}
                   </span>
-                  <div className="flex-1 min-w-0 pt-0.5">
-                    <p className="text-sm text-ink font-medium">
-                      {detail.range}
-                    </p>
-                    <p className="text-xs text-ink-soft mt-0.5">
-                      {detail.encounter}
-                    </p>
-                  </div>
+                  <p className="text-sm text-ink font-medium mt-1.5">
+                    {detail.range}
+                  </p>
+                  <p className="text-xs text-ink-soft mt-0.5">
+                    {detail.encounter}
+                  </p>
                 </li>
               );
             })}
