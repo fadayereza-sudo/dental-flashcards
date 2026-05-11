@@ -239,22 +239,25 @@ Two halves where sources support it: with treatment, without treatment. Numerica
 
 ### `prevalence`
 
-Required. One of `very-common` | `common` | `uncommon` | `very-uncommon` | `rare`. Framed by **GDP encounter frequency in a typical UK practice**, not lifetime population prevalence — the guide is a clinical decision-support tool, so what matters is pre-test probability when a patient walks in.
+Required. One of `very-common` | `common` | `uncommon` | `very-uncommon` | `rare`. Framed by **lifetime prevalence in the UK white-British population** (Ali's Oxfordshire catchment), with adjustment where ethnic or geographic skew materially shifts the bucket. The score is the patient's *probability of presence in the catchment*, not the GDP's encounter log — so self-limiting infections that resolve before they reach a dentist still count if a meaningful share of the population gets one in their lifetime.
 
-The buckets:
+The buckets (lifetime UK white-British prevalence; intuition column matches the in-app `?` popout in [components/troubleshooting-page.tsx](../../../components/troubleshooting-page.tsx)):
 
-- **very-common** — encountered multiple times a week. Most adults will have it at some point. Bread-and-butter. (Plaque-induced gingivitis, caries, dentine hypersensitivity.)
-- **common** — encountered at least monthly. A meaningful subgroup carries it. (Angular cheilitis, RAS, denture stomatitis, stage I–II periodontitis.)
-- **uncommon** — a few times a year. Specific patient sub-populations. (NUG, geographic tongue, cracked tooth syndrome, stage III–IV periodontitis.)
-- **very-uncommon** — once every couple of years. Often referred. (Orofacial granulomatosis, erosive lichen planus, chronic hyperplastic candidosis.)
-- **rare** — career-rare or never seen by a typical GDP. (Pemphigus, certain syndromes, specific malignancies.)
+| Bucket | UK lifetime prevalence | Encounter intuition |
+|---|---|---|
+| **very-common** | ≥10% | Seen weekly or more |
+| **common** | 1–10% | Seen monthly |
+| **uncommon** | 0.1–1% (1 in 100 – 1 in 1,000) | A handful per career |
+| **very-uncommon** | 0.01–0.1% (1 in 1,000 – 1 in 10,000) | Once or twice per career |
+| **rare** | <0.01% (<1 in 10,000) | Likely never personally |
 
 How to assign:
 
-- Where a source gives a hard number (population %, % in subgroup, annual incidence), that's the strongest evidence — use it and cite the figure inline in the body. Don't add a separate `prevalenceNote` field.
-- Where no number exists, assign by clinical-frequency framing using how the source itself signals frequency. Oxford and Odell's use phrases like "very common", "rare", "occasionally seen", "the commonest cause of…" — those phrases steer the bucket.
-- When two sources signal differently, lean on the more recent / more credible one.
-- For conditions that are common in a sub-population but rare overall, score by GDP encounter frequency. Denture stomatitis is **common** because GDPs see denture wearers daily, even though it's uncommon in the general adult population.
+- **Prefer hard numbers.** UK official stats (NHS Digital, PHE, ONS) → UK epi papers → Cochrane / systematic reviews → Orphanet (for rare diseases) → textbook estimates (Oxford, Cawson & Odell, Scully) → primary epi papers from any country. Cite the figure inline in the body — no separate `prevalenceNote` field.
+- **Fall back to source-language signals only when no number exists.** Oxford and Odell's use phrases like "very common", "rare", "occasionally seen", "the commonest cause of…" — those phrases steer the bucket but rank below a real prevalence figure.
+- **Demographic adjustment.** When a condition has known ethnic / geographic skew, score for the UK Oxfordshire white-British catchment, not the global average. Examples: oral submucous fibrosis is essentially absent in white British (drop to `rare` regardless of South Asian betel-chewer figures); Behçet's is much lower in NW Europe than along the Silk Road; Plummer–Vinson is *higher* in the catchment than global numbers suggest. Note the adjustment in the body, not in a separate field.
+- **Lifetime, not point.** For self-limiting infections (HFMD, herpangina, primary HSV), use lifetime — most people get them once. For chronic conditions, lifetime ≈ point.
+- **Composite categories.** When a problem entry covers several diagnoses (e.g. "oral granulomata: Crohn's / OFG / sarcoidosis"), score by the union of their populations — what fraction of the catchment ever has any of them.
 
 ## Citation rules
 
