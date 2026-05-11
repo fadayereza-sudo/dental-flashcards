@@ -297,6 +297,388 @@
           "source": "Odell's Clinical Problem Solving · paragraph 7958"
         }
       ]
+    },
+    {
+      "id": "lips-007",
+      "description": "Soft bluish or reddish lump on the lip present since birth or early childhood — blanches completely when you press on it.",
+      "conditionName": "Haemangioma of the lip",
+      "prevalence": "uncommon",
+      "etiology": "A developmental lesion of blood vessels — not a tumour in the conventional sense, but an abnormal proliferation of vascular tissue arising during development [1]. The reason it blanches on pressure is that it's blood-filled: pressing empties the vessels and the colour disappears, which is the clinical test that distinguishes it from a pigmented naevus or melanoma.",
+      "presentation": "Present at birth or appears in early childhood [1]. What you'll see is a soft, compressible swelling — bluish, reddish, or purple — on the lip or oral mucosa. It blanches completely on diascopy (pressing with a glass slide or fingertip). It can grow with the child, remain static, or spontaneously regress [1]. No pain, no ulceration in the straightforward case.",
+      "results": "The blanch test is the key finding — complete blanching on pressure distinguishes a haemangioma from a pigmented or solid lesion [1]. The interesting bit: **do not biopsy**, as this risks significant haemorrhage from an uncontrolled vascular lesion [1]. Diagnosis is clinical; imaging is used for deeper or large lesions.",
+      "definingCharacteristics": "The blanch test is pathognomonic in context — a lip swelling that completely blanches under pressure is vascular [1]. The developmental timing (present at birth or early childhood) and the capacity for spontaneous regression in 80% of cases [1] separate haemangioma from acquired vascular tumours.",
+      "treatment": "The rule of thumb here: watch and wait first. 80% spontaneously regress and need no intervention [1]. For the 20% that persist or grow, options include laser, cryotherapy, or excision if the lesion is very small [1]. Do not biopsy as a diagnostic step — the blanch test and clinical picture should be enough, and biopsy risks bleeding [1].",
+      "prognosis": "80% of haemangiomas spontaneously regress — so the majority of cases need observation only [1]. Those that do not regress can be successfully treated with laser or cryotherapy.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a developmental lesion of blood vessels. Present at birth, they can grow with the child, remain static, or regress. Blanch on pressure. Do not biopsy. 80% spontaneously regress; Rx for those that don't: laser or cryotherapy, can be excised if very small.",
+          "paragraph": 5794,
+          "source": "Oxford Handbook · paragraph 5794"
+        }
+      ]
+    },
+    {
+      "id": "lips-008",
+      "description": "Sudden dramatic swelling of the lip, floor of mouth, or neck appearing over minutes to hours. Patient is distressed. Possible trigger (food, drug, insect sting).",
+      "conditionName": "Allergic angio-oedema",
+      "prevalence": "uncommon",
+      "etiology": "A severe type I allergic response — IgE-mediated mast cell degranulation releasing histamine and other mediators — that causes rapid accumulation of fluid in the submucosa of the lips, neck, and floor of mouth [1]. There is usually an identifiable trigger: a food allergen, drug (commonly ACE inhibitors or NSAIDs), or insect sting [1]. The airway is the critical concern: if the floor of mouth or neck is involved, oedema can compromise the airway rapidly [2].",
+      "presentation": "Rapid onset swelling — lips, floor of mouth, neck — often within minutes of exposure to the trigger [1, 2]. What you'll also see in a full allergic reaction is urticaria, flushing, and in severe cases bronchospasm and cardiovascular collapse [2]. The swelling can be alarming in extent. The patient or family member may be able to name the trigger.",
+      "results": "This is a clinical diagnosis made on the presentation. The key question is severity: mild lip swelling alone versus swelling that involves the floor of mouth, neck, or airway [1, 2]. Angio-oedema is sudden onset, with severe face and neck allergic swelling — the airway is at risk [2].",
+      "definingCharacteristics": "The thing that distinguishes allergic angio-oedema from hereditary angio-oedema: there is usually an identifiable cause, and urticaria and systemic allergic features may accompany it [1]. It resolves within 24–48 hours with treatment. OFG lip swelling, by contrast, is slower and more chronic — lasting days to weeks with no allergic features [3].",
+      "treatment": "Mild: oral antihistamine [1]. Severe — treat as anaphylaxis [1, 2]. Here's the sequence for severe cases: adrenaline (epinephrine) IM, antihistamine IV, hydrocortisone IV, oxygen, call emergency services. Airway protection is the priority — if floor of mouth and neck are involved, this is an emergency.",
+      "prognosis": "With prompt treatment, angio-oedema resolves. The danger is the window before treatment when airway compromise is possible [2]. Identifying and avoiding the trigger prevents recurrence.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Severe type I allergic response affecting lips, neck, and floor of mouth. Usually an identifiable cause. Rx: mild—antihistamine PO; severe—as anaphylaxis, …… Anaphylactic shock and other drug reactions, p. 564.",
+          "paragraph": 6264,
+          "source": "Oxford Handbook · paragraph 6264"
+        },
+        {
+          "id": 2,
+          "quote": "Angio-oedema is sudden onset, with severe face and neck allergic swelling. The airway is at risk and therefore should be managed as for anaphylaxis.",
+          "paragraph": 7695,
+          "source": "Oxford Handbook · paragraph 7695"
+        },
+        {
+          "id": 3,
+          "quote": "The lip swelling of OFG would be expected to last days to weeks before resolving. Acute inflammatory causes such as angioedema resolve in 48 hours.",
+          "paragraph": 7919,
+          "source": "Odell's Clinical Problem Solving · paragraph 7919"
+        }
+      ]
+    },
+    {
+      "id": "lips-009",
+      "description": "Recurrent lip, floor of mouth, or neck swelling with no clear allergen — and a family history of the same. Feet and buttocks may also swell.",
+      "conditionName": "Hereditary angio-oedema",
+      "prevalence": "rare",
+      "etiology": "A defect of C1-esterase inhibitor — the protein that normally controls the complement cascade [1]. Without it, swelling is triggered by trauma or other stimuli, but unlike allergic angio-oedema there is no identifiable allergen and no urticaria. Precipitated by trauma [1]. Family history is the key pointer.",
+      "presentation": "Recurrent swelling of the lips, neck, and floor of mouth — and characteristically also the feet and buttocks [1]. No urticaria, no identifiable allergen. The patient may report a positive family history. Attacks can occur after trauma, including dental treatment.",
+      "results": "The diagnostic workup centres on blood tests: low C4, normal C3, and absence of C1 esterase inhibitor activity [1]. Family history supports the diagnosis. This pattern separates it from allergic angio-oedema, where C4 is normal, and from OFG, where complement levels are normal and swelling is chronic.",
+      "definingCharacteristics": "The interesting bit clinically: hereditary angio-oedema lacks the urticaria and identifiable allergen of allergic angio-oedema [1]. The family history, the recurrent pattern, and the swelling at multiple sites (including feet and buttocks) point away from a simple allergy and toward a complement disorder [1]. Low C4, normal C3 is the biochemical fingerprint.",
+      "treatment": "Acute attacks: fresh frozen plasma (which contains C1-esterase inhibitor) or partially purified C1-esterase inhibitor concentrate — seek advice in your locality [1]. Prophylaxis: long-term, tranexamic acid; short-term (e.g. before dental treatment), danazol [1]. Dental treatment is a known trigger — plan accordingly.",
+      "prognosis": "Recurrent without prophylaxis. With appropriate prophylaxis and acute management, attacks can be controlled [1]. The key risk is airway compromise during a severe episode.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Defect of C1-esterase inhibitor. Lip, neck, floor of mouth swelling, and swelling of feet and buttocks. Precipitated by trauma. Diagnosis from family history, bloods: low C4, normal C3, and absence of C1 esterase inhibitor activity. Rx: acute attacks—fresh frozen plasma (contains C1-esterase inhibitor) or partially purified (seek advice in your locality). Prophylaxis: long term, tranexamic acid; short term, danazol.",
+          "paragraph": 6266,
+          "source": "Oxford Handbook · paragraph 6266"
+        }
+      ]
+    },
+    {
+      "id": "lips-010",
+      "description": "Dry, thickened, keratotic lower lip with a blurred or irregular vermilion border. Long history of sun exposure. No ulceration yet but the change is progressive.",
+      "conditionName": "Actinic cheilitis",
+      "prevalence": "uncommon",
+      "etiology": "Sun damage to the lower lip causes excessive keratin production and increased mitotic activity in the basal layer [1]. The reason the lower lip is almost exclusively affected is its direct sun-facing position — the upper lip is shaded by the philtrum. The relevance is not cosmetic: actinic cheilitis is premalignant, and its recognised relationship to lip SCC makes it a condition that needs surveillance rather than reassurance [1].",
+      "presentation": "What you'll see on the lower lip: drying, scaling, keratotic thickening, and blurring of the vermilion border — the sharp line between the vermilion and skin is lost [1]. The lip may appear pale or greyish rather than the normal red. The patient is typically an outdoor worker or farmer with a long history of UV exposure. No ulceration in the early phase, but any non-healing area or indurated patch raises the concern that premalignancy has tipped into SCC.",
+      "results": "Diagnosis is clinical, but biopsy is indicated when the appearance changes, an ulcer develops, or induration appears — to exclude early SCC. Histology of actinic cheilitis shows the keratotic changes and basal-layer mitotic activity that mark it as premalignant [1].",
+      "definingCharacteristics": "The key framing: this is not just dry lips. Cheilitis simplex is habit-driven and reversible with lip salve; actinic cheilitis is UV-driven, shows structural change (keratosis, vermilion border blurring), and is premalignant [1]. The difference matters because actinic cheilitis requires follow-up and sun protection, not just emollients.",
+      "treatment": "Advise sun blocks and arrange regular follow-up [1]. The goal is to halt further UV damage. Sun block on the lower lip at every outdoor exposure. If induration, ulceration, or rapid change develops, urgent biopsy and referral. Laser excision or vermilionectomy for active intervention when indicated.",
+      "prognosis": "Premalignant — the risk of progression to SCC is the main concern [1]. Regular follow-up allows early detection of any malignant transformation. Sun avoidance and sun block reduce further progression.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Sun damage to the lower lip causes excessive keratin production and ↑ mitotic activity in the basal layer. Premalignant. Advise sun blocks and regular follow-up.",
+          "paragraph": 6252,
+          "source": "Oxford Handbook · paragraph 6252"
+        }
+      ]
+    },
+    {
+      "id": "lips-011",
+      "description": "Disc-like white plaques on the lips or oral mucosa, recurring and persisting. Mostly women. May have a faint butterfly rash on the face.",
+      "conditionName": "Chronic discoid lupus erythematosus (DLE)",
+      "prevalence": "rare",
+      "etiology": "A chronic disorder where lesions are limited to skin and mucosa — unlike systemic lupus erythematosus (SLE), which involves multiple organ systems [1]. The aetiology involves autoimmune mechanisms and can be distinguished from SLE by testing for double-stranded DNA antinuclear antibody in serum [1]. DLE is more likely to remain as a chronic and recurring disorder than to progress to SLE, although progression can occur [1].",
+      "presentation": "Disc-like white plaques on the oral mucosa and lips [1]. Oral lesions are present in 30% of cases [1]. The lip lesions in women may be premalignant — so this is a condition that needs more than just topical treatment [1]. A butterfly rash on the face may be present [1]. Patients often have a history of sun sensitivity.",
+      "results": "The discriminating blood test: DLE can be distinguished from SLE by the presence of specific double-stranded DNA antinuclear antibody in serum [1]. In DLE this antibody is absent; in SLE it is present. Biopsy of the oral lesion shows characteristic interface mucositis.",
+      "definingCharacteristics": "The thing is, DLE and SLE share clinical features but differ in scope and serology. DLE lesions are confined to skin and mucosa [1]; SLE involves joints, kidneys, blood, and other organ systems [1]. The white plaques of DLE can resemble lichen planus — the distinction rests on serology and biopsy. In women, lip lesions are specifically flagged as potentially premalignant [1].",
+      "treatment": "DLE: topical steroids as first-line [1]. Refractory lesions may respond to dapsone or thalidomide [1]. For SLE: systemic steroids [1]. Refer to dermatology or oral medicine for ongoing management. Regular review of the lip lesions in women is needed given the premalignant risk [1].",
+      "prognosis": "DLE is more likely to remain a chronic, recurring disorder than to progress to SLE [1]. Oral lesions require long-term follow-up. Lip lesions in women carry a premalignant designation [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The lesions of this condition are limited to skin and mucosa. May present as disc-like white plaques in the mouth and can progress to SLE, although is more likely to remain as a chronic and recurring disorder. Oral lesions are present in 30%. Lip lesions in women may be premalignant. Butterfly rash may be present. DLE can be distinguished from SLE by the presence of specific double-stranded DNA antinuclear antibody in serum. Rx: SLE—systemic steroids; DLE—topical steroids, refractory lesions may respond to dapsone or thalidomide.",
+          "paragraph": 6373,
+          "source": "Oxford Handbook · paragraph 6373"
+        }
+      ]
+    },
+    {
+      "id": "lips-012",
+      "description": "Persistent vertical crack running down the middle of the lower lip. Not at the commissures. Difficult to eradicate.",
+      "conditionName": "Persistent median fissure of the lip",
+      "prevalence": "very-uncommon",
+      "etiology": "May be found as a developmental abnormality, but the interesting bit is that it is usually secondarily infected, which makes it extremely difficult to eradicate [1]. May be associated with granulomatous cheilitis [1] — so when a median fissure keeps recurring despite treatment, orofacial granulomatosis should be considered.",
+      "presentation": "A chronic, deep midline vertical fissure on the lower lip vermilion, distinct from the commissure angular cheilitis. The patient may have had it for years. The fissure bleeds intermittently, cracks on yawning, and is resistant to simple emollient treatment [1].",
+      "results": "Clinical diagnosis. If persistent or associated with lip swelling, consider biopsy to exclude granulomatous change. If the fissure is at the midline and recurs despite standard treatment, look for granulomatous cheilitis.",
+      "definingCharacteristics": "Site is the distinguishing feature: the midline of the lower lip, not the commissures [1]. Angular cheilitis affects the corners; median fissure is strictly central. The association with granulomatous cheilitis is the clinical flag to look for — if lip swelling accompanies the fissure, OFG is in the differential [1].",
+      "treatment": "Excision plus or minus intralesional steroid [1]. The secondary infection makes simple topical treatment insufficient. If granulomatous cheilitis is associated, manage accordingly with intralesional triamcinolone.",
+      "prognosis": "Difficult to eradicate due to secondary infection [1]. Excision offers the best chance of resolution. Association with granulomatous cheilitis means prognosis is tied to control of the underlying condition.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This may be found as a developmental abnormality but is usually secondarily infected, which is extremely difficult to eradicate. May be associated with granulomatous cheilitis. Rx: excision ± intralesional steroid.",
+          "paragraph": 6248,
+          "source": "Oxford Handbook · paragraph 6248"
+        }
+      ]
+    },
+    {
+      "id": "lips-013",
+      "description": "Painful, crusted, bleeding erosions of the lips and gingiva in a young adult, often with target lesions on the palms. Preceded by a cold sore or a new drug.",
+      "conditionName": "Erythema multiforme (including Stevens–Johnson syndrome)",
+      "prevalence": "uncommon",
+      "etiology": "An immunologically mediated hypersensitivity reaction affecting skin and mucous membranes [1]. Trigger agents can be identified in about half of cases and include drugs (carbamazepine, penicillins, NSAIDs), infection (HSV, mycoplasma pneumonia), pregnancy, malignancy, sunlight, and chemicals such as perfumes and food additives [1]. Recurrent HSV infection is a particularly recognised trigger — a cold sore 1–2 weeks before lip crusting raises this possibility [2].",
+      "presentation": "What you'll see is oral mucosa covered in bullae that break down, with the lips and gingivae becoming crusted with painful erosions [1]. Target lesions — concentric rings of erythema — on the palms, legs, face, or neck are present in the skin form [1]. Oral lesions are seen in 70% [1]. Usually a fever is present [1]. The symptoms range from mild to life-threatening: Stevens–Johnson syndrome and toxic epidermal necrolysis represent the severest forms of the spectrum [1].",
+      "results": "Diagnosis is from clinical features [1]. The target lesions are characteristic. Biopsy may be needed to exclude other blistering conditions. Virological studies to exclude herpes — because if HSV is the trigger, aciclovir is part of the management [3]. The Stevens–Johnson end of the spectrum is associated with fever and multiple mucosal involvement [4].",
+      "definingCharacteristics": "The combination of painful oral erosions with crusted lips in a young adult, plus the target-lesion skin rash, is the defining picture [1]. The thing is, the lip crusting in EM can look alarming — thick haemorrhagic crusts across the vermilion are characteristic and distinct from the gold crust of angular cheilitis or the clear crusting of herpes labialis. The trigger history (recent herpes labialis or new drug) is always worth establishing [1, 2].",
+      "treatment": "The goal is to withdraw or treat the trigger factor if identified [3]. Hospitalisation may be required in severe forms for supportive therapy with IV rehydration [3]. Biopsy and virological studies to exclude herpes; aciclovir may be needed if the condition is related to herpes [3]. Improve oral hygiene with 0.2% chlorhexidine mouthwash [3]. Severe form: steroids and azathioprine [3]. Minor form: topical steroids [3].",
+      "prognosis": "It is a self-limiting condition in 3–4 weeks [1], but can recur once or twice a year [1]. Stevens–Johnson syndrome carries a higher morbidity — hospitalisation, fluid management, and systemic treatment are required [4]. Avoiding the trigger reduces recurrence.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is an immunologically mediated hypersensitivity reaction affecting skin and mucous membrane, usually in young adult males. Trigger agents can be identified in half of the cases and these include drugs (carbamazepine, penicillins, NSAIDs), infection (HSV, mycoplasma pneumonia), pregnancy, malignancy, sunlight, and chemicals such as perfumes and food additives. ∆: from clinical features which include 'target lesions', concentric rings of erythema on the palms, legs, face, or neck. Oral lesions seen in 70% in which the oral mucosa is covered in bullae which break down, the lips and gingivae becoming crusted with painful erosions. There is usually a fever. It is a self-limiting condition in 3–4 weeks but can recur once or twice a year. The symptoms range from mild to life-threatening conditions. Stevens–Johnson syndrome and toxic epidermal necrolysis (TEN) represent the severest forms of the spectrum.",
+          "paragraph": 6107,
+          "source": "Oxford Handbook · paragraph 6107"
+        },
+        {
+          "id": 2,
+          "quote": "If the patient has had recurrent HSV infection, usually in the form of herpes labialis, then the present ulcers could not have been caused by a primary herpetic infection. Recurrent herpetic infection is sometimes a trigger for attacks of erythema multiforme and a cold sore 1–2 weeks before onset would raise this possibility.",
+          "paragraph": 3186,
+          "source": "Odell's Clinical Problem Solving · paragraph 3186"
+        },
+        {
+          "id": 3,
+          "quote": "Withdraw or treat trigger factor if identified. Hospitalization may be required in severe forms for supportive therapy with IV rehydration. Biopsy; virological studies to exclude herpes; aciclovir may be needed if it is related to herpes. Improve OH with 0.2% chlorhexidine mouthwash. Severe form: Rx with steroids and azathioprine. Minor form: Rx with topical steroids.",
+          "paragraph": 6109,
+          "source": "Oxford Handbook · paragraph 6109"
+        },
+        {
+          "id": 4,
+          "quote": "A severe version of erythema multiforme, a mucocutaneous condition that is probably autoimmune in nature and precipitated particularly by drugs. Classical signs are the target lesions, concentric red rings which especially affect the hands and feet. Stevens–Johnson syndrome is said to be present when the condition is particularly severe, and is associated with fever and multiple mucosal involvement. Viral infections, e.g. herpes simplex, are the second commonest cause.",
+          "paragraph": 10545,
+          "source": "Oxford Handbook · paragraph 10545"
+        }
+      ]
+    },
+    {
+      "id": "lips-014",
+      "description": "Flat, dark brown or black spots scattered around the mouth and on the inner cheeks in a young person. Family history. Possibly some gut symptoms.",
+      "conditionName": "Peutz–Jeghers syndrome (perioral melanotic macules)",
+      "prevalence": "rare",
+      "etiology": "An autosomal dominant condition combining melanotic pigmentation of the perioral skin and mucosa with intestinal polyposis [1]. The polyps are hamartomatous — not true adenomas — and are found in the small intestine [1]. The reason this matters clinically is that although the polyps themselves have no particular propensity to malignant change, they can cause intussusception or other forms of gut obstruction [1].",
+      "presentation": "Flat, dark pigmented macules — melanotic spots — on the perioral skin (especially around the mouth) and on the oral mucosa [1]. Present from childhood, autosomal dominant so family members may be affected. There may be associated gut symptoms: abdominal pain or obstruction from intussusception [1]. Ovarian tumours are sometimes associated (10% of women with the syndrome) [1].",
+      "results": "Diagnosis is clinical when perioral pigmentation is combined with the family history and gut polyposis. The thing is, if you spot the perioral melanosis, the gut needs investigating — hamartomatous small intestinal polyps and their obstructive potential are the systemic concern [1].",
+      "definingCharacteristics": "The perioral pigmentation of Peutz–Jeghers syndrome is distinctive: multiple small dark macules clustered around the mouth in a young person with a family history is a pattern that should prompt gastrointestinal investigation [1]. Addison's disease causes oral pigmentation too, but is not perioral-predominant and has different systemic features. Physiological pigmentation in darker-skinned individuals is diffuse, not clustered around the lips.",
+      "treatment": "Refer to gastroenterology for GI surveillance — the gut polyps can obstruct [1]. Genetic counselling given the autosomal dominant inheritance [1]. The perioral lesions themselves are benign and do not require treatment. Monitor for associated ovarian tumours in women [1].",
+      "prognosis": "The perioral lesions are benign. The intestinal polyps carry a risk of intussusception and gut obstruction but not of malignant transformation [1]. The 10% ovarian tumour association in women warrants monitoring [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "An autosomal dominant condition of melanotic pigmentation of skin (especially peri-oral skin) and mucosa, and intestinal polyposis. These polyps, unlike those of Gardener syndrome, have no particular propensity to malignant change, being hamartomatous, and are found in the small intestine. They may, however, cause intussusception or other forms of gut obstruction. Ovarian tumours are sometimes associated with the condition (10% of woman with Peutz–Jeghers syndrome).",
+          "paragraph": 10523,
+          "source": "Oxford Handbook · paragraph 10523"
+        }
+      ]
+    },
+    {
+      "id": "lips-015",
+      "description": "Middle-aged woman with angular cheilitis, difficulty swallowing, and spooned nails. Looks pale and tired.",
+      "conditionName": "Plummer–Vinson syndrome (Patterson–Brown–Kelly syndrome)",
+      "prevalence": "rare",
+      "etiology": "The occurrence of dysphagia, microcytic hypochromic anaemia, koilonychia, and angular cheilitis [1]. The mechanism connecting these signs is iron deficiency — the koilonychia and angular cheilitis are secondary to the anaemia, though they may be the presenting features that bring the patient to the dental chair [1]. The dysphagia arises from a post-cricoid web, a membrane on the anterior oesophageal wall, which is itself premalignant [1].",
+      "presentation": "What you'll see in the dental chair: angular cheilitis and a pale patient who struggles to swallow [1]. The history reveals difficulty swallowing solids, fatigue, and pallor. Koilonychia (spoon-shaped nails) and angular cheilitis together in a middle-aged woman are the classic ensemble [1]. The main affected group is middle-aged women [1].",
+      "results": "Blood tests will show microcytic hypochromic anaemia [1]. The oesophageal web is found on barium swallow or endoscopy. The reason this matters beyond the angular cheilitis is the premalignant post-cricoid web — correction of the anaemia may both relieve symptoms and prevent malignant progression [1].",
+      "definingCharacteristics": "The interesting bit is that the dental features (angular cheilitis) are not the main clinical problem — they are the secondary manifestation of a systemic iron-deficiency anaemia with a serious oesophageal complication [1]. What distinguishes this from simple angular cheilitis is the systemic picture: dysphagia, anaemia, and koilonychia together make a syndrome, not just a soft-tissue finding at the commissures.",
+      "treatment": "Correct the anaemia — iron replacement under GP management [1]. Correction of anaemia may both relieve symptoms and prevent malignant progression of the oesophageal web [1]. Refer to gastroenterology for assessment of the oesophageal web. Treat the angular cheilitis locally with miconazole cream.",
+      "prognosis": "Correction of anaemia can both relieve symptoms and prevent malignant progression of the post-cricoid web [1]. The premalignant nature of the web means that failure to diagnose and treat carries a risk of post-cricoid carcinoma.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The occurrence of dysphagia, microcytic hypochromic anaemia, koilonychia (spoon-shaped nails), and angular cheilitis. The dysphagia is due to a post-cricoid web, usually a membrane on the anterior oesophageal wall, which is premalignant. The koilonychia and angular cheilitis are 2° to the anaemia but may be presenting symptoms. The main affected group is middle-aged women, and correction of the anaemia may both relieve symptoms and prevent malignant progression of the web.",
+          "paragraph": 10521,
+          "source": "Oxford Handbook · paragraph 10521"
+        }
+      ]
+    },
+    {
+      "id": "lips-016",
+      "description": "Young child under five with cracked red lips, a strawberry tongue, red eyes, and a fever. Cervical lymph nodes enlarged.",
+      "conditionName": "Kawasaki disease",
+      "prevalence": "rare",
+      "etiology": "A systemic vasculitis affecting children under 5 years old [1]. The aetiology is not fully characterised in the source. Arteritis is the most serious complication, and without treatment the condition can be fatal — though with treatment the death rate in the UK is less than 4% [2].",
+      "presentation": "The diagnostic criteria include: red, dry cracked lips; strawberry tongue; erythematous oropharyngeal mucosa; bilateral conjunctivitis; cervical lymphadenopathy; generalised rash; desquamation of hands and feet; and fever [2]. What happens is that the oral features — the cracked lips and strawberry tongue — can be the first things a dentist notices. If suspected, immediate paediatric referral is mandatory [2].",
+      "results": "Clinical diagnosis based on the criteria above [2]. No single laboratory test confirms the diagnosis. The systemic vasculitis and arteritis are assessed by echocardiography — coronary artery aneurysm is the most feared complication.",
+      "definingCharacteristics": "The ensemble of cracked lips, strawberry tongue, bilateral conjunctivitis, lymphadenopathy, rash, and fever in a child under 5 is diagnostic [2]. The thing is, no single feature is specific — it's the combination across sites and systems that makes the diagnosis. From the dental chair, cracked red lips and a strawberry tongue in an unwell febrile child should trigger immediate concern.",
+      "treatment": "If suspected, refer to a paediatrician immediately [2]. Hospital treatment with immunoglobulin and aspirin is the mainstay [1]. Speed matters — early treatment reduces the risk of coronary artery complications.",
+      "prognosis": "Can be treated if diagnosed [2]. Death rate in the UK is less than 4% with treatment, and approximately 0.1% in the US and Japan [2]. The main risk is coronary arteritis leading to aneurysm or myocardial infarction.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Usually affects children <5yrs with pyrexia, rash, cervical lymphadenopathy, dry cracked lips, red eyes, and red fingers and toes. Arteritis is the most serious complication. Immunoglobulin and aspirin in hospital is the mainstay of Rx.",
+          "paragraph": 10497,
+          "source": "Oxford Handbook · paragraph 10497"
+        },
+        {
+          "id": 2,
+          "quote": "This systemic vasculitis affecting children <5yrs causes death in the UK in <4% (US and Japan ~0.1%).4 It can be treated if ∆. The criteria include red, dry cracked lips, strawberry tongue, and erythematous oropharyngeal mucosa, bilateral conjunctivitis, cervical lymphadenopathy, generalized rash, desquamation of hands and feet, and fever. If suspected, refer to a paediatrician.",
+          "paragraph": 6268,
+          "source": "Oxford Handbook · paragraph 6268"
+        }
+      ]
+    },
+    {
+      "id": "lips-017",
+      "description": "Bilateral parotid and lacrimal gland swelling with eye inflammation in a young adult. Possible facial nerve palsy.",
+      "conditionName": "Heerfordt syndrome (uveoparotid fever)",
+      "prevalence": "rare",
+      "etiology": "A variant of sarcoidosis — the same granulomatous condition, but with a specific combination of lacrimal and salivary (especially parotid) swelling, uveitis, and fever [1]. Sometimes there are associated neuropathies, such as facial palsy [1]. The reason it's worth knowing in a dental context is that the parotid swelling brings these patients into dental and maxillofacial awareness.",
+      "presentation": "Bilateral parotid enlargement, lacrimal gland swelling, uveitis (eye inflammation), and fever [1]. Facial nerve palsy may be present alongside [1]. The patient may present primarily with parotid swelling, which can look like other salivary disease. The combination with uveitis and fever is the distinguishing picture.",
+      "results": "CXR shows hilar lymphadenopathy (sarcoidosis). Serum angiotensin-converting enzyme and calcium are raised. Biopsy of accessible tissue reveals non-caseating granuloma. Ophthalmology review is needed for uveitis.",
+      "definingCharacteristics": "The combination of parotid swelling, lacrimal swelling, uveitis, and fever in the context of sarcoidosis is the defining picture [1]. So parotid swelling in a young adult is not always a salivary stone or tumour — if there is eye involvement and systemic features, Heerfordt syndrome belongs on the differential.",
+      "treatment": "This is sarcoidosis — systemic steroids are the main treatment, intralesional or systemic [2]. Ophthalmology referral for the uveitis is mandatory. Refer to respiratory or general medicine for the systemic sarcoidosis workup.",
+      "prognosis": "Sarcoidosis can be self-limiting or chronic. The uveitis carries a risk of visual loss if untreated, so ophthalmology referral is time-sensitive.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Sarcoidosis with associated lacrimal and salivary (especially parotid) swelling, uveitis, and fever. Sometimes there are associated neuropathies, e.g. facial palsy.",
+          "paragraph": 10482,
+          "source": "Oxford Handbook · paragraph 10482"
+        },
+        {
+          "id": 2,
+          "quote": "A chronic multisystem granulomatous condition of young adults (more common in black people). Lip swelling, and gingival and palatal nodules occur. Heerfordt syndrome, …… Heerfordt syndrome (uveoparotid fever), p. 784. Biopsy reveals non-caseating granuloma with inclusion bodies in 20–50%). CXR: hilar lymphadenopathy. Serum adenosine deaminase, angiotensin-converting enzyme, and calcium level is i. Ask an ophthalmologist to exclude uveal tract involvement. Mortality rate for disseminated systemic disease is 10–20%. Rx: steroids, intralesional or systemic.",
+          "paragraph": 6250,
+          "source": "Oxford Handbook · paragraph 6250"
+        }
+      ]
+    },
+    {
+      "id": "lips-018",
+      "description": "Multiple small lumpy nodules on the lips and tongue in a tall, thin young person. Possibly a thyroid lump or raised blood pressure.",
+      "conditionName": "Multiple endocrine neoplasia type IIb (MEN IIb)",
+      "prevalence": "rare",
+      "etiology": "A group of conditions affecting the endocrine glands. MEN IIb consists of multiple mucosal neuromas with a characteristic histopathology, phaeochromocytoma, medullary thyroid carcinoma, and a thin wasted appearance [1]. The oral neuromas appear as multiple lumps on the lips and tongue. Calcitonin levels are elevated if medullary thyroid carcinoma is present [1].",
+      "presentation": "Multiple mucosal neuromas on the lips and tongue in a tall, thin, wasted-looking child or young adult [1]. The thin, wasted appearance is part of the syndrome phenotype. The patient may also have features of phaeochromocytoma (hypertension, sweating) or medullary thyroid carcinoma (thyroid lump) — though the oral neuromas may be the presenting feature [1].",
+      "results": "Biopsy of an oral nodule is mandatory — histopathology will show characteristic neuroma [1]. If histopathology is suggestive, the thyroid must be adequately investigated [1]. Calcitonin level should be measured [1]. Raised calcitonin confirms medullary thyroid carcinoma. Urine catecholamines for phaeochromocytoma.",
+      "definingCharacteristics": "The rule of thumb: multiple mucosal lumps on the lips and tongue in a tall thin young person is a 'worthwhile' syndrome — the source explicitly flags this as a diagnosis not to miss because of the associated medullary thyroid carcinoma [1]. Index of suspicion should be high [1]. The combination of oral neuromas, phaeochromocytoma, and medullary thyroid carcinoma is pathognomonic of MEN IIb.",
+      "treatment": "Biopsy the oral lesions [1]. If histopathology is suggestive, investigate the thyroid adequately [1]. Refer to endocrinology for full workup and management of the thyroid carcinoma and phaeochromocytoma. Medullary thyroid carcinoma requires surgery.",
+      "prognosis": "This is another 'worthwhile' syndrome — a source designation meaning the diagnosis is worth making because early treatment of the associated malignancies can be life-saving [1]. Prognosis depends primarily on the medullary thyroid carcinoma and its stage at detection.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A group of conditions affecting the endocrine glands. MEN IIb is of particular relevance as it consists of multiple mucosal neuromas which have a characteristic histopathology, phaeochromocytoma, medullary thyroid carcinoma, and a thin wasted appearance. Calcitonin levels are elevated if medullary thyroid carcinoma is present. Index of suspicion should be high in tall, thin, wasted-looking children and young adults presenting with lumps in the mouth. Biopsy is mandatory and if histopathology is suggestive the thyroid must be adequately investigated. This is another 'worthwhile' syndrome.",
+          "paragraph": 10515,
+          "source": "Oxford Handbook · paragraph 10515"
+        }
+      ]
+    },
+    {
+      "id": "lips-019",
+      "description": "Child with intellectual disability and severe repetitive self-inflicted wounds to the lips from biting.",
+      "conditionName": "Lesch–Nyhan syndrome",
+      "prevalence": "rare",
+      "etiology": "A defect of purine metabolism causing intellectual disability, spastic cerebral palsy, choreoathetosis, and aggressive self-mutilating behaviour — particularly involving the lips [1]. The self-mutilation is compulsive and apparently uncontrollable, driven by the neurological and metabolic defect rather than by behavioural intent.",
+      "presentation": "Severe, repetitive self-inflicted trauma to the lips from biting in a child with intellectual disability and neurological features (spasticity, choreoathetosis) [1]. The lips may be extensively scarred or mutilated. The self-mutilation is a defining and distressing feature — the child cannot prevent it [1].",
+      "results": "Diagnosis is based on the clinical triad: intellectual disability, movement disorder, and compulsive self-mutilation, confirmed by biochemical testing (elevated uric acid) [1]. The oral self-mutilation may prompt dental referral, but the condition requires paediatric neurology and metabolic medicine input.",
+      "definingCharacteristics": "The combination of compulsive self-mutilation of the lips and oral tissues with the neurological picture (intellectual disability, cerebral palsy, choreoathetosis) is the defining picture [1]. So in a child presenting with severe self-inflicted lip trauma, this metabolic diagnosis is in the differential — the behaviour is not simple parafunctional habit but a feature of the underlying syndrome.",
+      "treatment": "Dental protective appliances can reduce self-inflicted trauma to the lips and oral tissues. Management is multidisciplinary — paediatric neurology, metabolic medicine, and dentistry. Protect the oral tissues from ongoing self-inflicted trauma.",
+      "prognosis": "The condition is lifelong. Neurological damage is permanent [1]. The goal is to manage the self-mutilating behaviour and protect the oral and perioral tissues from further damage.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A defect of purine metabolism causing intellectual disability, spastic cerebral palsy, choreoathetosis, and aggressive self-mutilating behaviour (particularly involving the lips).",
+          "paragraph": 10505,
+          "source": "Oxford Handbook · paragraph 10505"
+        }
+      ]
+    },
+    {
+      "id": "lips-020",
+      "description": "Small pits or sinuses on the lower lip — like tiny holes — alongside or instead of a cleft lip or palate.",
+      "conditionName": "Van der Woude syndrome (lip pits)",
+      "prevalence": "rare",
+      "etiology": "Present in 1–2% of cleft patients [1]. Lip pits are actually small sinuses connecting to minor salivary glands — not simple dimples [1]. The condition is autosomal dominant with variable penetrance [1]. The reason they appear alongside cleft lip and palate is that the same developmental field is affected.",
+      "presentation": "Small, symmetric pits or sinuses on the vermilion of the lower lip, usually bilateral and paramedian [1]. Typically associated with cleft lip and/or palate, though the lip pits may appear without overt clefting [1]. Second premolars are missing in 10–20% of cases [1].",
+      "results": "Clinical diagnosis: the combination of lip pits and cleft lip/palate in a child with an autosomal dominant family history is diagnostic [1]. Check for missing second premolars on panoramic radiography [1].",
+      "definingCharacteristics": "The key feature is the pits themselves — small sinuses to minor salivary glands on the lower lip vermilion [1]. This is not angular cheilitis, not mucocele, not a normal anatomical variant. The association with cleft lip/palate and missing second premolars in an autosomal dominant pattern completes the picture [1].",
+      "treatment": "Manage the cleft lip and palate in the usual multidisciplinary way. The lip pits themselves can be excised if symptomatic (discharging saliva). Plan for possible missing second premolars in the restorative planning. Genetic counselling given the autosomal dominant inheritance [1].",
+      "prognosis": "The lip pits and cleft are structural — correctable with surgery. The dental hypodontia (missing second premolars in 10–20%) requires long-term prosthetic or orthodontic planning [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Present in 1–2% of cleft patients, lip pits (which are actually small sinuses to minor salivary glands) associated with cleft lip &/or palate. Autosomal dominant with variable penetrance. Second premolars are missing in 10–20%.",
+          "paragraph": 10555,
+          "source": "Oxford Handbook · paragraph 10555"
+        }
+      ]
+    },
+    {
+      "id": "lips-021",
+      "description": "Cleft lip and/or palate in a child with missing teeth, extra teeth, and abnormalities of the fingers.",
+      "conditionName": "Orofacial–digital syndrome",
+      "prevalence": "rare",
+      "etiology": "One of the many cleft lip and palate syndromes, all of which are associated with hypodontia (particularly missing lateral incisors) and supernumeraries [1]. This particular one has finger abnormalities as well [1]. The combination of orofacial clefting with digital anomalies places it in the orofacial-digital group.",
+      "presentation": "Cleft lip and/or palate combined with hypodontia of lateral incisors, supernumerary teeth, and finger abnormalities [1]. Dental development is complex — missing teeth and extra teeth both need to be identified on imaging.",
+      "results": "Panoramic radiograph to assess the full dental pattern — hypodontia of laterals and supernumeraries [1]. Multidisciplinary assessment for the cleft and the digital anomalies. Genetic evaluation for classification within the orofacial-digital group.",
+      "definingCharacteristics": "What makes this entry worth flagging: a cleft lip/palate child with both hypodontia and supernumerary teeth and finger abnormalities is not a straightforward isolated cleft — the digital element points to a syndromic diagnosis that has implications for genetic counselling and for the complexity of dental rehabilitation [1].",
+      "treatment": "Multidisciplinary cleft team management for the lip and palate. Orthodontic and restorative planning for the complex dental pattern — missing laterals and supernumeraries require a coordinated treatment plan. Genetic counselling.",
+      "prognosis": "Dental rehabilitation is complex given the combination of hypodontia and supernumeraries [1]. Overall prognosis is guided by the severity of the digital anomalies and the success of the cleft repair.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "One of the many CLP syndromes, all of which are associated with hypodontia (laterals especially) and supernumeraries. This one has finger abnormalities as well.",
+          "paragraph": 10517,
+          "source": "Oxford Handbook · paragraph 10517"
+        }
+      ]
+    },
+    {
+      "id": "lips-022",
+      "description": "Patches of pale, depigmented skin around the mouth or on the lips. May also involve the oral mucosa.",
+      "conditionName": "Vitiligo (perioral and lip)",
+      "prevalence": "very-uncommon",
+      "etiology": "Vitiligo is a depigmentation condition that can involve perioral skin and occasionally oral mucosa [1]. The cause is loss of melanocytes in the affected areas. It is listed among the conditions affecting the lip in the source.",
+      "presentation": "Sharply demarcated patches of pale, depigmented skin around the mouth — and occasionally pale patches on the lip mucosa [1]. The depigmentation is complete in the affected areas. It is not painful, not ulcerated, and not infective. The patient may present primarily for cosmetic concern or incidentally during a dental examination.",
+      "results": "Clinical diagnosis based on the characteristic depigmented patches in their perioral distribution [1]. Dermatology referral if the diagnosis is uncertain or if widespread vitiligo needs systemic management.",
+      "definingCharacteristics": "Vitiligo produces complete depigmentation — white, not pale — in sharply defined patches [1]. So perioral depigmentation in a patient with no history of chemical exposure or trauma should prompt consideration of vitiligo rather than post-inflammatory hypopigmentation. The lack of any associated mucosal change (no ulceration, no keratosis) distinguishes it from lichen planus or DLE.",
+      "treatment": "The perioral skin is in the domain of dermatology. Topical steroids or calcineurin inhibitors are used for focal lesions. Camouflage cosmetics for cosmetic concerns. No dental-specific treatment required.",
+      "prognosis": "Vitiligo is generally a chronic, progressive condition. Perioral patches may expand [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "vitiligo, 553",
+          "paragraph": 14841,
+          "source": "Oxford Handbook · paragraph 14841 (index entry)"
+        }
+      ]
+    },
+    {
+      "id": "lips-023",
+      "description": "Persistent, recurring scaling and crusting of the vermilion lip border. No known cause. Resists simple emollient treatment.",
+      "conditionName": "Exfoliative cheilitis",
+      "prevalence": "very-uncommon",
+      "etiology": "This is similar to actinic cheilitis but of unknown aetiology [1]. The reason simple emollient treatment fails is that, unlike cheilitis simplex (which is habit-driven and reversible), exfoliative cheilitis has no identifiable driving cause to remove. Some patients have anxiety or chronic lip-licking habits as contributing factors, but the aetiology is not fully established.",
+      "presentation": "Persistent scaling and crusting of the vermilion lip border that keeps recurring despite treatment [1]. The crusting is heavier and more persistent than in simple dry lips. No vesiculation, no commissure involvement. The patient may report that the lip repeatedly forms a dry crust that peels off and then re-forms.",
+      "results": "Clinical diagnosis based on the persistent, idiopathic nature of the crusting. Biopsy is performed if there is any doubt — to exclude actinic cheilitis (which shows keratotic basal-layer changes), lichen planus, or early malignant change. There is no definitive diagnostic test.",
+      "definingCharacteristics": "The thing that distinguishes exfoliative cheilitis from its close neighbours: it is similar to actinic cheilitis in appearance but lacks the UV history and basal-layer mitotic changes [1]. It is more persistent and heavier than simple dry lips (cheilitis simplex), which resolves with emollient and habit correction. The unknown aetiology is itself a defining feature — no sun exposure, no identifiable allergen, no habit that fully explains it [1].",
+      "treatment": "Symptomatic management — topical steroids if inflamed, emollients for barrier support. Explore anxiety and lip-licking as contributing factors. Refer to oral medicine if the condition is persistent or if the diagnosis is uncertain.",
+      "prognosis": "Persistent and difficult to treat [1]. Without an identifiable cause to remove, management is suppressive rather than curative. The condition does not carry the premalignant risk of true actinic cheilitis [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is similar to actinic cheilitis but of unknown aetiology.",
+          "paragraph": 6254,
+          "source": "Oxford Handbook · paragraph 6254"
+        }
+      ]
     }
   ]
 }
