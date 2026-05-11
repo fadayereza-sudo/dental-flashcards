@@ -17,19 +17,20 @@ import {
   type SearchTroubleshootingProblemItem,
 } from "@/lib/use-search-index";
 
-type OriginIndexEntry = {
-  slug: string;
-  title: string;
-  order: number;
-  description?: string;
-};
-
 type Prevalence =
   | "very-common"
   | "common"
   | "uncommon"
   | "very-uncommon"
   | "rare";
+
+type OriginIndexEntry = {
+  slug: string;
+  title: string;
+  order: number;
+  description?: string;
+  counts?: Record<Prevalence, number>;
+};
 
 const PREVALENCE_ORDER: Prevalence[] = [
   "very-common",
@@ -432,6 +433,11 @@ export function TroubleshootingPage() {
                 PREVALENCE_ORDER.indexOf(b.prevalence)
             );
           const truths = filteredProblems.map(problemToTruth);
+          const filteredCount = PREVALENCE_ORDER.reduce(
+            (n, p) =>
+              activePrevalences.has(p) ? n + (origin.counts?.[p] ?? 0) : n,
+            0
+          );
 
           return (
             <div key={origin.slug} className="space-y-0">
@@ -442,17 +448,22 @@ export function TroubleshootingPage() {
                 <span className="text-[17px] font-semibold">
                   {origin.title}
                 </span>
-                <svg
-                  className={`w-4 h-4 transition-transform text-ink-soft ${
-                    isOpen ? "rotate-90" : ""
-                  }`}
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <path d="M9 6l6 6-6 6" />
-                </svg>
+                <span className="flex items-center gap-2">
+                  <span className="text-sm text-ink-soft tabular-nums font-medium">
+                    {filteredCount}
+                  </span>
+                  <svg
+                    className={`w-4 h-4 transition-transform text-ink-soft ${
+                      isOpen ? "rotate-90" : ""
+                    }`}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M9 6l6 6-6 6" />
+                  </svg>
+                </span>
               </button>
 
               {isOpen && truths.length > 0 && (
