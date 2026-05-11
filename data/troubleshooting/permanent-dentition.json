@@ -543,8 +543,18 @@
       "treatment": "The goal is to maintain the arrested state. Reinforce the behaviours that led to arrest: dietary advice, oral hygiene instruction, and topical fluoride to consolidate remineralisation [2]. Restoration is not necessarily required if the lesion is fully arrested and accessible for cleaning.",
       "prognosis": "Stable lesions can remain inactive indefinitely provided the aetiological factors stay controlled [1]. If conditions change — diet worsens, oral hygiene drops, saliva reduces — the lesion can reactivate.",
       "citations": [
-        { "id": 1, "quote": "Under favourable conditions a lesion may become inactive and even regress. Clinically, arrested dentine caries has a hard or leathery consistency and is darker in colour than soft, yellow, active decay. Arrested enamel caries can be stained dark brown.", "paragraph": 549, "source": "Oxford Handbook · paragraph 549" },
-        { "id": 2, "quote": "With gingival recession, root dentine is exposed to carious attack. Rx requires, first, control of the aetiological factors and for most patients this involves dietary advice and oral hygiene instruction (OHI). Topical fluoride may aid remineralization and prevent new lesions developing.", "paragraph": 560, "source": "Oxford Handbook · paragraph 560" }
+        {
+          "id": 1,
+          "quote": "Under favourable conditions a lesion may become inactive and even regress. Clinically, arrested dentine caries has a hard or leathery consistency and is darker in colour than soft, yellow, active decay. Arrested enamel caries can be stained dark brown.",
+          "paragraph": 549,
+          "source": "Oxford Handbook · paragraph 549"
+        },
+        {
+          "id": 2,
+          "quote": "With gingival recession, root dentine is exposed to carious attack. Rx requires, first, control of the aetiological factors and for most patients this involves dietary advice and oral hygiene instruction (OHI). Topical fluoride may aid remineralization and prevent new lesions developing.",
+          "paragraph": 560,
+          "source": "Oxford Handbook · paragraph 560"
+        }
       ]
     },
     {
@@ -559,7 +569,12 @@
       "treatment": "Control the aetiological factors first: dietary advice and OHI for all patients [1]. Topical fluoride varnishes, high-fluoride toothpastes, and mouthrinses may aid remineralisation and prevent new lesions [1]. Active lesions require restoration — typically composite or a traditional or resin-modified glass ionomer cement [1].",
       "prognosis": "With aetiological control and fluoride, lesions can arrest. Active lesions left untreated progress rapidly into dentine and can involve the pulp. Xerostomic patients are at high ongoing risk and require intensive prevention.",
       "citations": [
-        { "id": 1, "quote": "As gingival recession is a prerequisite to root caries, it occurs predominantly in the >40yrs age group. Dentine, which has a critical pH below that of enamel, is thus directly exposed to carious attack. It is sometimes seen 2° to ↓ saliva flow (which reduces buffering capacity and may alter dietary habits) caused by salivary gland disease, drugs, or radiotherapy. Long-term sugar-based medication may also be a factor. Rx requires, first, control of the aetiological factors, and for most patients this involves dietary advice and OHI. Topical fluoride varnishes, high-fluoride toothpastes, and mouthrinses may aid remineralization and prevent new lesions developing. However, active lesions require restoration, typically with composite or a traditional/RMGIC.", "paragraph": 3746, "source": "Oxford Handbook · paragraph 3746" }
+        {
+          "id": 1,
+          "quote": "As gingival recession is a prerequisite to root caries, it occurs predominantly in the >40yrs age group. Dentine, which has a critical pH below that of enamel, is thus directly exposed to carious attack. It is sometimes seen 2° to ↓ saliva flow (which reduces buffering capacity and may alter dietary habits) caused by salivary gland disease, drugs, or radiotherapy. Long-term sugar-based medication may also be a factor. Rx requires, first, control of the aetiological factors, and for most patients this involves dietary advice and OHI. Topical fluoride varnishes, high-fluoride toothpastes, and mouthrinses may aid remineralization and prevent new lesions developing. However, active lesions require restoration, typically with composite or a traditional/RMGIC.",
+          "paragraph": 3746,
+          "source": "Oxford Handbook · paragraph 3746"
+        }
       ]
     },
     {
@@ -574,7 +589,12 @@
       "treatment": "If the tooth is sealed or restored, check the margins carefully; if intact, monitoring radiographically is initially justified [1]. If marginal integrity is not intact, investigate with a small round bur and seal if caries-free [1]. For high-risk individuals, fissure sealant is preferable to watching and waiting [1].",
       "prognosis": "Sealed lesions that remain sealed can be monitored and may not progress. The anatomy tends to favour rapid spread once the fissure is breached [1], so the window for conservative management is shorter than on smooth surfaces.",
       "citations": [
-        { "id": 1, "quote": "This is difficult to diagnose reliably, especially in the early stages. Testing the suspected cavity with a sharp probe is discouraged as stickiness could be due to the morphology of the fissure and the probe could encourage cavitation. The anatomy of the area also tends to favour spread of the lesion, which often occurs rapidly. As fissure caries is less affected by fluoride and oral hygiene (OH), fissure sealant (f/s) is preferable to watching and waiting particularly in high-risk individuals. Occlusal caries evident on b/w radiographs should not always be excised. If the tooth is fissure sealed or restored, check the margins very carefully, and if intact, monitoring the lesion radiographically is often justified initially. If marginal integrity is not intact, investigate the area with a small round bur. The 'cavity' can be aborted if no caries is found and the surface sealed.", "paragraph": 586, "source": "Oxford Handbook · paragraph 586" }
+        {
+          "id": 1,
+          "quote": "This is difficult to diagnose reliably, especially in the early stages. Testing the suspected cavity with a sharp probe is discouraged as stickiness could be due to the morphology of the fissure and the probe could encourage cavitation. The anatomy of the area also tends to favour spread of the lesion, which often occurs rapidly. As fissure caries is less affected by fluoride and oral hygiene (OH), fissure sealant (f/s) is preferable to watching and waiting particularly in high-risk individuals. Occlusal caries evident on b/w radiographs should not always be excised. If the tooth is fissure sealed or restored, check the margins very carefully, and if intact, monitoring the lesion radiographically is often justified initially. If marginal integrity is not intact, investigate the area with a small round bur. The 'cavity' can be aborted if no caries is found and the surface sealed.",
+          "paragraph": 586,
+          "source": "Oxford Handbook · paragraph 586"
+        }
       ]
     },
     {
@@ -589,11 +609,36 @@
       "treatment": "For enamel-confined lesions: preventive measures and monitoring [3]. For dentine-penetrating lesions: restore — typically with composite or amalgam using a matrix band and interproximal wedge. Intervention should be as conservative as possible to remove only infected dentine and restore the contact without damaging the adjacent tooth.",
       "prognosis": "Enamel lesions managed preventively can arrest. Dentine lesions left untreated progress to pulpal involvement. Serial radiographs at appropriate intervals are the best way to detect any change in status.",
       "citations": [
-        { "id": 1, "quote": "The sites on a tooth which are particularly prone to decay are those where plaque accumulation can occur unhindered, e.g. approximal enamel surfaces, cervical margins, and pits and fissures.", "paragraph": 551, "source": "Oxford Handbook · paragraph 551" },
-        { "id": 2, "quote": "Horizontal bitewing (b/w) radiographs are useful in the detection of approximal caries and in some instances occlusal caries. The clinical situation is more advanced than the radiographic appearance.", "paragraph": 575, "source": "Oxford Handbook · paragraph 575" },
-        { "id": 3, "quote": "If lesion is confined to enamel on b/w radiograph, institute preventive measures and keep under review.", "paragraph": 589, "source": "Oxford Handbook · paragraph 589" },
-        { "id": 4, "quote": "If lesion has penetrated dentine radiographically, a restoration is indicated unless serial radiographs show that it is static.", "paragraph": 590, "source": "Oxford Handbook · paragraph 590" },
-        { "id": 5, "quote": "If in doubt whether an approximal lesion has cavitated or not, an elastic orthodontic separator may be fitted for 3–7 days to allow surface visualization.", "paragraph": 591, "source": "Oxford Handbook · paragraph 591" }
+        {
+          "id": 1,
+          "quote": "The sites on a tooth which are particularly prone to decay are those where plaque accumulation can occur unhindered, e.g. approximal enamel surfaces, cervical margins, and pits and fissures.",
+          "paragraph": 551,
+          "source": "Oxford Handbook · paragraph 551"
+        },
+        {
+          "id": 2,
+          "quote": "Horizontal bitewing (b/w) radiographs are useful in the detection of approximal caries and in some instances occlusal caries. The clinical situation is more advanced than the radiographic appearance.",
+          "paragraph": 575,
+          "source": "Oxford Handbook · paragraph 575"
+        },
+        {
+          "id": 3,
+          "quote": "If lesion is confined to enamel on b/w radiograph, institute preventive measures and keep under review.",
+          "paragraph": 589,
+          "source": "Oxford Handbook · paragraph 589"
+        },
+        {
+          "id": 4,
+          "quote": "If lesion has penetrated dentine radiographically, a restoration is indicated unless serial radiographs show that it is static.",
+          "paragraph": 590,
+          "source": "Oxford Handbook · paragraph 590"
+        },
+        {
+          "id": 5,
+          "quote": "If in doubt whether an approximal lesion has cavitated or not, an elastic orthodontic separator may be fitted for 3–7 days to allow surface visualization.",
+          "paragraph": 591,
+          "source": "Oxford Handbook · paragraph 591"
+        }
       ]
     },
     {
@@ -608,7 +653,12 @@
       "treatment": "Management of radiation caries requires specialist referral [1]. Prevention before and after radiotherapy is paramount: intensive fluoride regimens, dietary advice, and saliva substitutes are the pillars. Extractions in an irradiated field carry a risk of osteoradionecrosis and should only be undertaken with specialist input.",
       "prognosis": "Without intensive preventive management, the xerostomic patient faces progressive, generalised tooth loss. With specialist-led prevention and tight dietary control, progression can be slowed.",
       "citations": [
-        { "id": 1, "quote": "Radiation for head and neck cancer may result in fibrosis of salivary glands and salivary flow. Patients often resort to sucking sweets to alleviate their dry mouth, which exacerbates the problem. Management of radiation caries requires specialist referral.", "paragraph": 1522, "source": "Oxford Handbook · paragraph 1522" }
+        {
+          "id": 1,
+          "quote": "Radiation for head and neck cancer may result in fibrosis of salivary glands and salivary flow. Patients often resort to sucking sweets to alleviate their dry mouth, which exacerbates the problem. Management of radiation caries requires specialist referral.",
+          "paragraph": 1522,
+          "source": "Oxford Handbook · paragraph 1522"
+        }
       ]
     },
     {
@@ -623,7 +673,12 @@
       "treatment": "Address the aetiological factors immediately alongside operative treatment. Dietary analysis and advice. Intensive fluoride: high-concentration fluoride varnish to all active lesions, prescription high-fluoride toothpaste. Interim stabilisation with glass ionomer cement rapidly arrests active lesions across multiple teeth before definitive restoration. Specialist referral if the driving cause is systemic or complex.",
       "prognosis": "With control of the underlying aetiological factors, progression can be halted. Without it, teeth progress to irreversible pulpitis and eventual loss.",
       "citations": [
-        { "id": 1, "quote": "A term with no specific definition, but often used to describe extensive, rapidly progressing caries affecting many teeth in the 1° &/or permanent dentition.", "paragraph": 1520, "source": "Oxford Handbook · paragraph 1520" }
+        {
+          "id": 1,
+          "quote": "A term with no specific definition, but often used to describe extensive, rapidly progressing caries affecting many teeth in the 1° &/or permanent dentition.",
+          "paragraph": 1520,
+          "source": "Oxford Handbook · paragraph 1520"
+        }
       ]
     },
     {
@@ -638,8 +693,18 @@
       "treatment": "Mild fluorosis with discolouration limited to the outer enamel layer: microabrasion is indicated [2]. Carefully isolate, clean, and dry the affected teeth; polish with a slurry of phosphoric acid mixed with pumice or a comparable commercial product. Review at 1–4 weeks once teeth have rehydrated and photograph the result [2]. More severe cases with structural breakdown may need composite veneers or crowns.",
       "prognosis": "Mild fluorosis managed by microabrasion gives good cosmetic results reviewed over several weeks as the enamel rehydrates [2]. Severe fluorosis with structural loss requires more extensive restorative management.",
       "citations": [
-        { "id": 1, "quote": "Fluorosis (or mottling) occurs due to a long-term excessive consumption of fluoride. It is endemic in areas with a high level of fluoride occurring naturally in the water. Clinically, it can vary from faint white opacities to severe pitting and discoloration. Histologically, it is caused by ↑ porosity in the outer third of the enamel. The degree of mottling/fluorosis ↑ as the concentration of fluoride (parts per million (ppm)) in the water supply i.", "paragraph": 619, "source": "Oxford Handbook · paragraph 619" },
-        { "id": 2, "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer. Affected teeth are carefully isolated, cleaned, and dried before 'polishing' the teeth with a slurry of either phosphoric acid (etch) mixed with pumice or a similar commercially available product (usually based on hydrochloric acid). Teeth treated in this way should be reviewed at 1–4 weeks for effect once teeth have re-hydrated and photographs taken.", "paragraph": 3865, "source": "Oxford Handbook · paragraph 3865" }
+        {
+          "id": 1,
+          "quote": "Fluorosis (or mottling) occurs due to a long-term excessive consumption of fluoride. It is endemic in areas with a high level of fluoride occurring naturally in the water. Clinically, it can vary from faint white opacities to severe pitting and discoloration. Histologically, it is caused by ↑ porosity in the outer third of the enamel. The degree of mottling/fluorosis ↑ as the concentration of fluoride (parts per million (ppm)) in the water supply i.",
+          "paragraph": 619,
+          "source": "Oxford Handbook · paragraph 619"
+        },
+        {
+          "id": 2,
+          "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer. Affected teeth are carefully isolated, cleaned, and dried before 'polishing' the teeth with a slurry of either phosphoric acid (etch) mixed with pumice or a similar commercially available product (usually based on hydrochloric acid). Teeth treated in this way should be reviewed at 1–4 weeks for effect once teeth have re-hydrated and photographs taken.",
+          "paragraph": 3865,
+          "source": "Oxford Handbook · paragraph 3865"
+        }
       ]
     },
     {
@@ -654,9 +719,24 @@
       "treatment": "Small hypoplastic areas can be fissure-sealed or restored conventionally [2]. More severely affected teeth may require crowning. Stainless steel crowns can be used as a semi-permanent measure in children [2]. Microabrasion may help if discolouration is limited to the outer enamel layer [3].",
       "prognosis": "The insult is past and no further hypoplasia develops. The clinical challenge is preventing secondary caries in the porous or deficient enamel and managing sensitivity.",
       "citations": [
-        { "id": 1, "quote": "So called because the hypoplastic enamel occurs in a distribution related to the extent of tooth formation at the time of the insult. Characteristically, due to its later formation, 2 is affected nearer to the incisal edge than 1 or 3.", "paragraph": 1213, "source": "Oxford Handbook · paragraph 1213" },
-        { "id": 2, "quote": "Small areas of hypoplasia can be fissure-sealed or restored conventionally, but more severely affected teeth may require crowning. Stainless steel (SS) crowns can be used in children as a semi-permanent measure.", "paragraph": 1218, "source": "Oxford Handbook · paragraph 1218" },
-        { "id": 3, "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer.", "paragraph": 3865, "source": "Oxford Handbook · paragraph 3865" }
+        {
+          "id": 1,
+          "quote": "So called because the hypoplastic enamel occurs in a distribution related to the extent of tooth formation at the time of the insult. Characteristically, due to its later formation, 2 is affected nearer to the incisal edge than 1 or 3.",
+          "paragraph": 1213,
+          "source": "Oxford Handbook · paragraph 1213"
+        },
+        {
+          "id": 2,
+          "quote": "Small areas of hypoplasia can be fissure-sealed or restored conventionally, but more severely affected teeth may require crowning. Stainless steel (SS) crowns can be used in children as a semi-permanent measure.",
+          "paragraph": 1218,
+          "source": "Oxford Handbook · paragraph 1218"
+        },
+        {
+          "id": 3,
+          "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer.",
+          "paragraph": 3865,
+          "source": "Oxford Handbook · paragraph 3865"
+        }
       ]
     },
     {
@@ -671,10 +751,30 @@
       "treatment": "Treatment depends on extent and severity [3]. Small areas: fissure seal or conventional restoration. Severely affected posterior teeth may need crowning; stainless steel crowns serve as a semi-permanent solution in children [3]. Microabrasion for outer-layer discolouration limited to the enamel surface [4].",
       "prognosis": "Stable once eruption is complete — no new hypoplasia develops. The main risks are secondary caries in pitted enamel and progressive breakdown if the structural deficiency is severe.",
       "citations": [
-        { "id": 1, "quote": "Caused by disturbance in matrix formation and is characterized by pitted, grooved, or thinned enamel.", "paragraph": 1197, "source": "Oxford Handbook · paragraph 1197" },
-        { "id": 2, "quote": "Hypocalcification is a disturbance of calcification. Affected enamel appears white, yellow, or brown and opaque. May become more discoloured post-eruptively. Affected enamel may be weak and prone to breakdown. Most disturbances of enamel formation will produce both hypoplasia and hypomineralization, but clinically one type usually predominates.", "paragraph": 1199, "source": "Oxford Handbook · paragraph 1199" },
-        { "id": 3, "quote": "Small areas of hypoplasia can be fissure-sealed or restored conventionally, but more severely affected teeth may require crowning. Stainless steel (SS) crowns can be used in children as a semi-permanent measure.", "paragraph": 1218, "source": "Oxford Handbook · paragraph 1218" },
-        { "id": 4, "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer.", "paragraph": 3865, "source": "Oxford Handbook · paragraph 3865" }
+        {
+          "id": 1,
+          "quote": "Caused by disturbance in matrix formation and is characterized by pitted, grooved, or thinned enamel.",
+          "paragraph": 1197,
+          "source": "Oxford Handbook · paragraph 1197"
+        },
+        {
+          "id": 2,
+          "quote": "Hypocalcification is a disturbance of calcification. Affected enamel appears white, yellow, or brown and opaque. May become more discoloured post-eruptively. Affected enamel may be weak and prone to breakdown. Most disturbances of enamel formation will produce both hypoplasia and hypomineralization, but clinically one type usually predominates.",
+          "paragraph": 1199,
+          "source": "Oxford Handbook · paragraph 1199"
+        },
+        {
+          "id": 3,
+          "quote": "Small areas of hypoplasia can be fissure-sealed or restored conventionally, but more severely affected teeth may require crowning. Stainless steel (SS) crowns can be used in children as a semi-permanent measure.",
+          "paragraph": 1218,
+          "source": "Oxford Handbook · paragraph 1218"
+        },
+        {
+          "id": 4,
+          "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer.",
+          "paragraph": 3865,
+          "source": "Oxford Handbook · paragraph 3865"
+        }
       ]
     },
     {
@@ -689,13 +789,48 @@
       "treatment": "Seek specialist advice for all but the mildest forms [5]. In more severe cases, stainless steel crowns and composite resin can be used to maintain molars and permanent incisors prior to more permanent restorations when the child is older [5]. Early recognition is important to prevent rapid tooth wear [7].",
       "prognosis": "Without early protective restorations, rapid and severe tooth wear leads to loss of vertical dimension and extensive dentine exposure [7]. With appropriate restorative management, the dentition can be preserved, though lifelong restorative needs are the norm for moderate to severe cases.",
       "citations": [
-        { "id": 1, "quote": "Many classifications exist, but generally these are classified by the type of enamel defect &/or the mode of inheritance. There are now known to be mutations in at least 15 different genes that are associated with AI8 (commonly affected genes: AMELX, ENAM, AMBN, KLK4, MMP20).", "paragraph": 1233, "source": "Oxford Handbook · paragraph 1233" },
-        { "id": 2, "quote": "Hypoplastic—enamel may be thin (smooth or rough) or pitted. Most commonly autosomal dominant inheritance.", "paragraph": 1235, "source": "Oxford Handbook · paragraph 1235" },
-        { "id": 3, "quote": "Hypocalcified—enamel is dull, lustreless, opaque white, honey, or brown coloured. Enamel may breakdown rapidly in severe cases. Sensitivity i, calculus ↑ common. May be autosomal dominant or recessive.", "paragraph": 1236, "source": "Oxford Handbook · paragraph 1236" },
-        { "id": 4, "quote": "Hypomaturation—mottled or frosty-looking white opacities, sometimes confined to incisal third of crown ('snow-capped teeth').", "paragraph": 1237, "source": "Oxford Handbook · paragraph 1237" },
-        { "id": 5, "quote": "Usually both 1° and 2° dentitions and all the teeth are affected. The different subgroups give rise to a wide variation in clinical presentation, ranging from discoloration to soft &/or deficient enamel. It is therefore difficult to make general recommendations, but it is wise to seek specialist advice for all but the mildest forms. Rx: in more severe cases, SS crowns and composite resin can be used to maintain molars and 2° inc, prior to more permanent restorations when child is older.", "paragraph": 1238, "source": "Oxford Handbook · paragraph 1238" },
-        { "id": 6, "quote": "Enamel-renal syndrome: a rare hypoplastic AI caused by mutation of the FAM20A gene and associated with nephrocalcinosis. Suspected individuals should be referred for genetic confirmation, and if confirmed, renal investigation. Clinical features may include severely hypoplasic and discoloured enamel, semi-lunar shape of incisal edges, intra-pulpal calcification, hyperplastic dental follicles, delayed eruption, and gingival hyperplasia.", "paragraph": 1239, "source": "Oxford Handbook · paragraph 1239" },
-        { "id": 7, "quote": "Early recognition and Rx of amelogenesis and dentinogenesis imperfecta is important to prevent rapid tooth wear.", "paragraph": 1248, "source": "Oxford Handbook · paragraph 1248" }
+        {
+          "id": 1,
+          "quote": "Many classifications exist, but generally these are classified by the type of enamel defect &/or the mode of inheritance. There are now known to be mutations in at least 15 different genes that are associated with AI8 (commonly affected genes: AMELX, ENAM, AMBN, KLK4, MMP20).",
+          "paragraph": 1233,
+          "source": "Oxford Handbook · paragraph 1233"
+        },
+        {
+          "id": 2,
+          "quote": "Hypoplastic—enamel may be thin (smooth or rough) or pitted. Most commonly autosomal dominant inheritance.",
+          "paragraph": 1235,
+          "source": "Oxford Handbook · paragraph 1235"
+        },
+        {
+          "id": 3,
+          "quote": "Hypocalcified—enamel is dull, lustreless, opaque white, honey, or brown coloured. Enamel may breakdown rapidly in severe cases. Sensitivity i, calculus ↑ common. May be autosomal dominant or recessive.",
+          "paragraph": 1236,
+          "source": "Oxford Handbook · paragraph 1236"
+        },
+        {
+          "id": 4,
+          "quote": "Hypomaturation—mottled or frosty-looking white opacities, sometimes confined to incisal third of crown ('snow-capped teeth').",
+          "paragraph": 1237,
+          "source": "Oxford Handbook · paragraph 1237"
+        },
+        {
+          "id": 5,
+          "quote": "Usually both 1° and 2° dentitions and all the teeth are affected. The different subgroups give rise to a wide variation in clinical presentation, ranging from discoloration to soft &/or deficient enamel. It is therefore difficult to make general recommendations, but it is wise to seek specialist advice for all but the mildest forms. Rx: in more severe cases, SS crowns and composite resin can be used to maintain molars and 2° inc, prior to more permanent restorations when child is older.",
+          "paragraph": 1238,
+          "source": "Oxford Handbook · paragraph 1238"
+        },
+        {
+          "id": 6,
+          "quote": "Enamel-renal syndrome: a rare hypoplastic AI caused by mutation of the FAM20A gene and associated with nephrocalcinosis. Suspected individuals should be referred for genetic confirmation, and if confirmed, renal investigation. Clinical features may include severely hypoplasic and discoloured enamel, semi-lunar shape of incisal edges, intra-pulpal calcification, hyperplastic dental follicles, delayed eruption, and gingival hyperplasia.",
+          "paragraph": 1239,
+          "source": "Oxford Handbook · paragraph 1239"
+        },
+        {
+          "id": 7,
+          "quote": "Early recognition and Rx of amelogenesis and dentinogenesis imperfecta is important to prevent rapid tooth wear.",
+          "paragraph": 1248,
+          "source": "Oxford Handbook · paragraph 1248"
+        }
       ]
     },
     {
@@ -710,13 +845,48 @@
       "treatment": "Seek specialist input. Management follows similar lines to severe amelogenesis imperfecta [5]. Early recognition and treatment is important to prevent rapid tooth wear [7]. Protective restorations and crowns are the mainstay. If osteogenesis imperfecta is suspected, medical referral is needed.",
       "prognosis": "Without early protective restorations, rapid and severe tooth wear leads to loss of vertical dimension and extensive dentine exposure [7]. Early and sustained specialist restorative management significantly improves the long-term outcome.",
       "citations": [
-        { "id": 1, "quote": "This is more common, affecting 1 in 8000. Both 1° and 2° dentitions are involved, although later-formed teeth may be less so.", "paragraph": 1243, "source": "Oxford Handbook · paragraph 1243" },
-        { "id": 2, "quote": "I—associated with osteogenesis imperfecta.", "paragraph": 1244, "source": "Oxford Handbook · paragraph 1244" },
-        { "id": 3, "quote": "II—teeth only.", "paragraph": 1245, "source": "Oxford Handbook · paragraph 1245" },
-        { "id": 4, "quote": "An autosomal dominant type 1 collagen defect. Multiple # following slight trauma with rapid but distorted healing is characteristic. Associated with blue sclera, deafness, and dentinogenesis imperfecta.", "paragraph": 7394, "source": "Oxford Handbook · paragraph 7394" },
-        { "id": 5, "quote": "Affected teeth have an opalescent brown or blue hue, bulbous crowns, short roots, and narrow flame-shaped pulps. The ADJ is abnormal, which results in the enamel flaking off, leading to rapid wear of the soft dentine. Rx: along similar lines as for severe amelogenesis.", "paragraph": 1246, "source": "Oxford Handbook · paragraph 1246" },
-        { "id": 6, "quote": "Children with opalescent teeth may also have brittle bone disease.", "paragraph": 1247, "source": "Oxford Handbook · paragraph 1247" },
-        { "id": 7, "quote": "Early recognition and Rx of amelogenesis and dentinogenesis imperfecta is important to prevent rapid tooth wear.", "paragraph": 1248, "source": "Oxford Handbook · paragraph 1248" }
+        {
+          "id": 1,
+          "quote": "This is more common, affecting 1 in 8000. Both 1° and 2° dentitions are involved, although later-formed teeth may be less so.",
+          "paragraph": 1243,
+          "source": "Oxford Handbook · paragraph 1243"
+        },
+        {
+          "id": 2,
+          "quote": "I—associated with osteogenesis imperfecta.",
+          "paragraph": 1244,
+          "source": "Oxford Handbook · paragraph 1244"
+        },
+        {
+          "id": 3,
+          "quote": "II—teeth only.",
+          "paragraph": 1245,
+          "source": "Oxford Handbook · paragraph 1245"
+        },
+        {
+          "id": 4,
+          "quote": "An autosomal dominant type 1 collagen defect. Multiple # following slight trauma with rapid but distorted healing is characteristic. Associated with blue sclera, deafness, and dentinogenesis imperfecta.",
+          "paragraph": 7394,
+          "source": "Oxford Handbook · paragraph 7394"
+        },
+        {
+          "id": 5,
+          "quote": "Affected teeth have an opalescent brown or blue hue, bulbous crowns, short roots, and narrow flame-shaped pulps. The ADJ is abnormal, which results in the enamel flaking off, leading to rapid wear of the soft dentine. Rx: along similar lines as for severe amelogenesis.",
+          "paragraph": 1246,
+          "source": "Oxford Handbook · paragraph 1246"
+        },
+        {
+          "id": 6,
+          "quote": "Children with opalescent teeth may also have brittle bone disease.",
+          "paragraph": 1247,
+          "source": "Oxford Handbook · paragraph 1247"
+        },
+        {
+          "id": 7,
+          "quote": "Early recognition and Rx of amelogenesis and dentinogenesis imperfecta is important to prevent rapid tooth wear.",
+          "paragraph": 1248,
+          "source": "Oxford Handbook · paragraph 1248"
+        }
       ]
     },
     {
@@ -731,7 +901,12 @@
       "treatment": "No treatment required for hypercementosis itself [1]. The clinical consequence is that extraction may be more complex — warn the patient and plan for potential difficulty, especially if surgical extraction is anticipated.",
       "prognosis": "Hypercementosis is a benign finding. Concrescence of adjacent teeth means extraction of one may risk the other [1].",
       "citations": [
-        { "id": 1, "quote": "Hypoplasia and aplasia of cementum are uncommon. The latter occurs in hypophosphatasia and results in premature exfoliation. Hypercementosis is relatively common and may occur in response to inflammation, mechanical stimulation, or Paget's disease, or be idiopathic. Concrescence is the uniting of the roots of two teeth by cementum.", "paragraph": 1250, "source": "Oxford Handbook · paragraph 1250" }
+        {
+          "id": 1,
+          "quote": "Hypoplasia and aplasia of cementum are uncommon. The latter occurs in hypophosphatasia and results in premature exfoliation. Hypercementosis is relatively common and may occur in response to inflammation, mechanical stimulation, or Paget's disease, or be idiopathic. Concrescence is the uniting of the roots of two teeth by cementum.",
+          "paragraph": 1250,
+          "source": "Oxford Handbook · paragraph 1250"
+        }
       ]
     },
     {
@@ -746,7 +921,12 @@
       "treatment": "Fissure sealing of the invagination as soon as possible after eruption may prevent pulp death, but is often too late by the time the tooth is seen [1]. If the pulp is still vital, seal or restore the pit. If pulp death has already occurred: RCT (which can be difficult due to the abnormal anatomy), pulpotomy, apical surgery, or extraction [1].",
       "prognosis": "Teeth with dens invaginatus have a guarded long-term prognosis because of the risk of early pulp necrosis. If the invagination is sealed promptly after eruption, pulp survival is possible. Once pulp death has occurred, endodontic treatment is technically demanding and outcomes variable [1].",
       "citations": [
-        { "id": 1, "quote": "This is really a marked palatal invagination, which gives the appearance of a tooth within a tooth. Usually affects 2s, but can also affect premolars. Where the invagination is in close proximity to the pulp, early pulp death may ensue. Fissure sealing of the invagination as soon as possible after eruption may prevent this, but is often too late. Extraction may be required, other options include RCT (can be difficult), pulpotomy, and apical Rx.", "paragraph": 1269, "source": "Oxford Handbook · paragraph 1269" }
+        {
+          "id": 1,
+          "quote": "This is really a marked palatal invagination, which gives the appearance of a tooth within a tooth. Usually affects 2s, but can also affect premolars. Where the invagination is in close proximity to the pulp, early pulp death may ensue. Fissure sealing of the invagination as soon as possible after eruption may prevent this, but is often too late. Extraction may be required, other options include RCT (can be difficult), pulpotomy, and apical Rx.",
+          "paragraph": 1269,
+          "source": "Oxford Handbook · paragraph 1269"
+        }
       ]
     },
     {
@@ -761,9 +941,24 @@
       "treatment": "Treatment depends on severity and patient cooperation [3]. If mild, expose the crown and align orthodontically — provided the apex will not be positioned against the labial plate of bone at the end of treatment; otherwise extraction is indicated [3].",
       "prognosis": "Mild cases treated orthodontically can be aligned successfully provided the root form allows movement [3]. If the apex is positioned unfavourably relative to the labial plate, orthodontic alignment risks labial bone loss and extraction becomes the preferred option [3].",
       "citations": [
-        { "id": 1, "quote": "This describes a tooth with a distorted crown or root. Usually affects 1s. Two types seen, dependent upon aetiology (Table 3.3).", "paragraph": 1271, "source": "Oxford Handbook · paragraph 1271" },
-        { "id": 2, "quote": "The traumatically induced type is caused by intrusion of the 1° incisor, resulting in displacement of the developing 2° incisor tooth germ. The effects depend upon the developmental stage at the time of injury.", "paragraph": 1272, "source": "Oxford Handbook · paragraph 1272" },
-        { "id": 3, "quote": "Rx: depends upon severity and patient cooperation. If mild it may be possible to expose crown and align orthodontically provided the apex will not be positioned against the labial plate of bone at the end of the Rx, otherwise extraction is indicated.", "paragraph": 1273, "source": "Oxford Handbook · paragraph 1273" }
+        {
+          "id": 1,
+          "quote": "This describes a tooth with a distorted crown or root. Usually affects 1s. Two types seen, dependent upon aetiology (Table 3.3).",
+          "paragraph": 1271,
+          "source": "Oxford Handbook · paragraph 1271"
+        },
+        {
+          "id": 2,
+          "quote": "The traumatically induced type is caused by intrusion of the 1° incisor, resulting in displacement of the developing 2° incisor tooth germ. The effects depend upon the developmental stage at the time of injury.",
+          "paragraph": 1272,
+          "source": "Oxford Handbook · paragraph 1272"
+        },
+        {
+          "id": 3,
+          "quote": "Rx: depends upon severity and patient cooperation. If mild it may be possible to expose crown and align orthodontically provided the apex will not be positioned against the labial plate of bone at the end of the Rx, otherwise extraction is indicated.",
+          "paragraph": 1273,
+          "source": "Oxford Handbook · paragraph 1273"
+        }
       ]
     },
     {
@@ -778,7 +973,12 @@
       "treatment": "Treatment follows the principles of hypoplasia management [1]: small defects can be fissure-sealed or restored with composite; more extensive defects may need a full coverage crown.",
       "prognosis": "The defect is fixed and does not progress once the tooth has erupted. With appropriate restorative management the tooth can be maintained. Secondary caries in the deficient enamel is the main ongoing risk.",
       "citations": [
-        { "id": 1, "quote": "This term is used to describe the effect of a disturbance of enamel and dentine formation by infection from an overlying 1° tooth which therefore usually affects premolar teeth. Rx: as for hypoplasia.", "paragraph": 1276, "source": "Oxford Handbook · paragraph 1276" }
+        {
+          "id": 1,
+          "quote": "This term is used to describe the effect of a disturbance of enamel and dentine formation by infection from an overlying 1° tooth which therefore usually affects premolar teeth. Rx: as for hypoplasia.",
+          "paragraph": 1276,
+          "source": "Oxford Handbook · paragraph 1276"
+        }
       ]
     },
     {
@@ -793,8 +993,18 @@
       "treatment": "External bleaching with carbamide peroxide in custom trays can give partial improvement for vital tetracycline-stained teeth. Veneers or crowns may be required for severe cases where bleaching is insufficient. Non-vital bleaching (walking bleach) addresses individual discoloured non-vital teeth [2].",
       "prognosis": "Tetracycline staining is permanent without restorative intervention. Bleaching gives partial improvement at best in moderate-to-severe cases. Veneers and crowns can mask the discolouration effectively at the cost of tooth preparation.",
       "citations": [
-        { "id": 1, "quote": "Incorporation of pigments during tooth formation, e.g. tetracycline staining (blue/brown), porphyria (red).", "paragraph": 1285, "source": "Oxford Handbook · paragraph 1285" },
-        { "id": 2, "quote": "Diffusion of pigment into hard tissues after formation, e.g. pulp necrosis products (grey), root canal medicaments (grey).", "paragraph": 1286, "source": "Oxford Handbook · paragraph 1286" }
+        {
+          "id": 1,
+          "quote": "Incorporation of pigments during tooth formation, e.g. tetracycline staining (blue/brown), porphyria (red).",
+          "paragraph": 1285,
+          "source": "Oxford Handbook · paragraph 1285"
+        },
+        {
+          "id": 2,
+          "quote": "Diffusion of pigment into hard tissues after formation, e.g. pulp necrosis products (grey), root canal medicaments (grey).",
+          "paragraph": 1286,
+          "source": "Oxford Handbook · paragraph 1286"
+        }
       ]
     },
     {
@@ -809,17 +1019,72 @@
       "treatment": "Here's the sequence for the walking bleach technique: place Orabase around the gingivae and isolate with rubber dam [3]. Open the access cavity and remove root filling to 2 mm below the gingival margin — a periodontal probe is a useful guide [4]. Place a thin layer of glass ionomer over the root filling to prevent root resorption [5]. Remove any stained dentine within the pulp chamber [6]. Clean access cavity with etchant on a pledget of cotton wool, repeat with alcohol, wash and dry [7]. Place 35% carbamide peroxide [8]. Seal with a pledget of cotton wool and glass ionomer [9]. Review after 1–2 weeks and repeat up to twice if needed [10]. Seal the access cavity permanently with a light shade of resin composite [11]. Warn the patient that there is a tendency for discolouration to recur over time — over-bleach to account for this [2].",
       "prognosis": "The technique usually achieves an improvement in shade rather than a perfect result [2]. Discolouration may recur over time [2]. If internal bleaching is insufficient, a veneer or crown is the next option.",
       "citations": [
-        { "id": 1, "quote": "Diffusion of pigment into hard tissues after formation, e.g. pulp necrosis products (grey), root canal medicaments (grey).", "paragraph": 1286, "source": "Oxford Handbook · paragraph 1286" },
-        { "id": 2, "quote": "This provides a conservative alternative to a post-retained crown for the discoloured root-filled tooth. However, it usually only achieves an improvement in shade. There is a tendency for the discoloration to recur over time, therefore warn the patient and over-bleach. Interestingly, it has been shown that the degree and duration of discoloration and the age of the patient do not affect the prognosis for a successful result.", "paragraph": 3851, "source": "Oxford Handbook · paragraph 3851" },
-        { "id": 3, "quote": "Place Orabase® around gingivae of tooth to be treated and isolate with rubber dam.", "paragraph": 3853, "source": "Oxford Handbook · paragraph 3853" },
-        { "id": 4, "quote": "Open access cavity and remove root filling to 2mm below gingival margin (a perio probe is a useful guide).", "paragraph": 3854, "source": "Oxford Handbook · paragraph 3854" },
-        { "id": 5, "quote": "Place thin layer of GI over root filling to prevent root resorption.", "paragraph": 3855, "source": "Oxford Handbook · paragraph 3855" },
-        { "id": 6, "quote": "Remove any stained dentine within pulp chamber.", "paragraph": 3856, "source": "Oxford Handbook · paragraph 3856" },
-        { "id": 7, "quote": "Clean access cavity with etchant on a pledget of cotton wool and then repeat with alcohol. Wash and dry.", "paragraph": 3857, "source": "Oxford Handbook · paragraph 3857" },
-        { "id": 8, "quote": "Place 35% carbamide peroxide.", "paragraph": 3858, "source": "Oxford Handbook · paragraph 3858" },
-        { "id": 9, "quote": "Seal with a pledget of cotton wool and GI.", "paragraph": 3859, "source": "Oxford Handbook · paragraph 3859" },
-        { "id": 10, "quote": "Review after 1–2 weeks and repeat (up to 2×) if necessary.", "paragraph": 3860, "source": "Oxford Handbook · paragraph 3860" },
-        { "id": 11, "quote": "Seal access cavity permanently with a light shade of resin composite.", "paragraph": 3861, "source": "Oxford Handbook · paragraph 3861" }
+        {
+          "id": 1,
+          "quote": "Diffusion of pigment into hard tissues after formation, e.g. pulp necrosis products (grey), root canal medicaments (grey).",
+          "paragraph": 1286,
+          "source": "Oxford Handbook · paragraph 1286"
+        },
+        {
+          "id": 2,
+          "quote": "This provides a conservative alternative to a post-retained crown for the discoloured root-filled tooth. However, it usually only achieves an improvement in shade. There is a tendency for the discoloration to recur over time, therefore warn the patient and over-bleach. Interestingly, it has been shown that the degree and duration of discoloration and the age of the patient do not affect the prognosis for a successful result.",
+          "paragraph": 3851,
+          "source": "Oxford Handbook · paragraph 3851"
+        },
+        {
+          "id": 3,
+          "quote": "Place Orabase® around gingivae of tooth to be treated and isolate with rubber dam.",
+          "paragraph": 3853,
+          "source": "Oxford Handbook · paragraph 3853"
+        },
+        {
+          "id": 4,
+          "quote": "Open access cavity and remove root filling to 2mm below gingival margin (a perio probe is a useful guide).",
+          "paragraph": 3854,
+          "source": "Oxford Handbook · paragraph 3854"
+        },
+        {
+          "id": 5,
+          "quote": "Place thin layer of GI over root filling to prevent root resorption.",
+          "paragraph": 3855,
+          "source": "Oxford Handbook · paragraph 3855"
+        },
+        {
+          "id": 6,
+          "quote": "Remove any stained dentine within pulp chamber.",
+          "paragraph": 3856,
+          "source": "Oxford Handbook · paragraph 3856"
+        },
+        {
+          "id": 7,
+          "quote": "Clean access cavity with etchant on a pledget of cotton wool and then repeat with alcohol. Wash and dry.",
+          "paragraph": 3857,
+          "source": "Oxford Handbook · paragraph 3857"
+        },
+        {
+          "id": 8,
+          "quote": "Place 35% carbamide peroxide.",
+          "paragraph": 3858,
+          "source": "Oxford Handbook · paragraph 3858"
+        },
+        {
+          "id": 9,
+          "quote": "Seal with a pledget of cotton wool and GI.",
+          "paragraph": 3859,
+          "source": "Oxford Handbook · paragraph 3859"
+        },
+        {
+          "id": 10,
+          "quote": "Review after 1–2 weeks and repeat (up to 2×) if necessary.",
+          "paragraph": 3860,
+          "source": "Oxford Handbook · paragraph 3860"
+        },
+        {
+          "id": 11,
+          "quote": "Seal access cavity permanently with a light shade of resin composite.",
+          "paragraph": 3861,
+          "source": "Oxford Handbook · paragraph 3861"
+        }
       ]
     },
     {
@@ -834,10 +1099,30 @@
       "treatment": "The goal is to manage the sensitivity while completing the whitening course. Pause treatment if sensitivity is severe. Use desensitising toothpaste during and after whitening. Reduce tray wear time or concentration if possible. Products must only be used by or under the direct supervision of a regulated dental professional [4].",
       "prognosis": "Tooth sensitivity following whitening is transient and self-limiting once whitening is stopped or reduced [1]. Some shade rebound is expected after completion [1].",
       "citations": [
-        { "id": 1, "quote": "Tooth whitening (bleaching) provides a non-invasive solution for mild to moderately discoloured vital or root-filled teeth. It is safe and effective provided it is used properly. Potential local adverse effects include gingival irritation and tooth sensitivity. Some shade rebound may occur shortly after Rx.", "paragraph": 3824, "source": "Oxford Handbook · paragraph 3824" },
-        { "id": 2, "quote": "Products containing or releasing between 0.1% and 6% hydrogen peroxide cannot be used on any person under 18yrs of age.", "paragraph": 3827, "source": "Oxford Handbook · paragraph 3827" },
-        { "id": 3, "quote": "Products containing between 0.1% and 6% hydrogen peroxide should only be used after appropriate clinical examination to ensure there are no risk factors or oral pathology concerns.", "paragraph": 3828, "source": "Oxford Handbook · paragraph 3828" },
-        { "id": 4, "quote": "Whitening is the practice of dentistry and that it should only be undertaken by regulated dental professionals.", "paragraph": 3826, "source": "Oxford Handbook · paragraph 3826" }
+        {
+          "id": 1,
+          "quote": "Tooth whitening (bleaching) provides a non-invasive solution for mild to moderately discoloured vital or root-filled teeth. It is safe and effective provided it is used properly. Potential local adverse effects include gingival irritation and tooth sensitivity. Some shade rebound may occur shortly after Rx.",
+          "paragraph": 3824,
+          "source": "Oxford Handbook · paragraph 3824"
+        },
+        {
+          "id": 2,
+          "quote": "Products containing or releasing between 0.1% and 6% hydrogen peroxide cannot be used on any person under 18yrs of age.",
+          "paragraph": 3827,
+          "source": "Oxford Handbook · paragraph 3827"
+        },
+        {
+          "id": 3,
+          "quote": "Products containing between 0.1% and 6% hydrogen peroxide should only be used after appropriate clinical examination to ensure there are no risk factors or oral pathology concerns.",
+          "paragraph": 3828,
+          "source": "Oxford Handbook · paragraph 3828"
+        },
+        {
+          "id": 4,
+          "quote": "Whitening is the practice of dentistry and that it should only be undertaken by regulated dental professionals.",
+          "paragraph": 3826,
+          "source": "Oxford Handbook · paragraph 3826"
+        }
       ]
     },
     {
@@ -852,8 +1137,18 @@
       "treatment": "Thermocatalytic techniques should no longer be used [1]. For the walking bleach technique, place a thin layer of glass ionomer over the root filling at 2 mm below the gingival margin before placing the bleaching agent — this barrier prevents root resorption [2].",
       "prognosis": "Established cervical resorption lesions require specialist management. Prevention is the key: avoiding thermocatalytic bleaching eliminates this particular risk entirely [1].",
       "citations": [
-        { "id": 1, "quote": "Thermocatalytic techniques, where the hydrogen peroxide is heated within the pulp chamber, should no longer be used, as they are associated with the development of cervical resorption lesions.", "paragraph": 3863, "source": "Oxford Handbook · paragraph 3863" },
-        { "id": 2, "quote": "Place thin layer of GI over root filling to prevent root resorption.", "paragraph": 3855, "source": "Oxford Handbook · paragraph 3855" }
+        {
+          "id": 1,
+          "quote": "Thermocatalytic techniques, where the hydrogen peroxide is heated within the pulp chamber, should no longer be used, as they are associated with the development of cervical resorption lesions.",
+          "paragraph": 3863,
+          "source": "Oxford Handbook · paragraph 3863"
+        },
+        {
+          "id": 2,
+          "quote": "Place thin layer of GI over root filling to prevent root resorption.",
+          "paragraph": 3855,
+          "source": "Oxford Handbook · paragraph 3855"
+        }
       ]
     },
     {
@@ -868,7 +1163,12 @@
       "treatment": "Microabrasion is the treatment of choice when discolouration is limited to the outer enamel layer [1]. Carefully isolate, clean, and dry the affected teeth. Polish with a slurry of phosphoric acid mixed with pumice, or a commercially available microabrasion product (usually based on hydrochloric acid) [1]. Review at 1–4 weeks once teeth have rehydrated and photograph the result [1].",
       "prognosis": "Microabrasion gives good cosmetic results for outer-enamel discolouration, reviewed after rehydration [1]. If the lesion is deeper than the outer enamel, microabrasion will not fully resolve it — a composite veneer or bonding may then be required.",
       "citations": [
-        { "id": 1, "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer. Affected teeth are carefully isolated, cleaned, and dried before 'polishing' the teeth with a slurry of either phosphoric acid (etch) mixed with pumice or a similar commercially available product (usually based on hydrochloric acid). Teeth treated in this way should be reviewed at 1–4 weeks for effect once teeth have re-hydrated and photographs taken.", "paragraph": 3865, "source": "Oxford Handbook · paragraph 3865" }
+        {
+          "id": 1,
+          "quote": "This is indicated for fluorosis, post-orthodontic demineralization, localized hypoplasia due to infection or trauma, and idiopathic hypoplasia where discoloration is limited to the outer enamel layer. Affected teeth are carefully isolated, cleaned, and dried before 'polishing' the teeth with a slurry of either phosphoric acid (etch) mixed with pumice or a similar commercially available product (usually based on hydrochloric acid). Teeth treated in this way should be reviewed at 1–4 weeks for effect once teeth have re-hydrated and photographs taken.",
+          "paragraph": 3865,
+          "source": "Oxford Handbook · paragraph 3865"
+        }
       ]
     },
     {
@@ -883,7 +1183,12 @@
       "treatment": "No treatment is required for taurodontism itself [1]. The practical consequence is that the abnormal pulp chamber anatomy may complicate endodontic treatment or occasionally extraction — this needs to be anticipated before starting these procedures [1].",
       "prognosis": "The condition is benign. The main practical implication is procedural difficulty if RCT or extraction is needed [1].",
       "citations": [
-        { "id": 1, "quote": "Taurodontism means 'bull-like'. May occur in some types of AI. Radiographically an elongation of the pulp chamber is seen, which resembles a bull's head. Rx: none required, but may complicate endodontic Rx and occasionally extraction.", "paragraph": 1278, "source": "Oxford Handbook · paragraph 1278" }
+        {
+          "id": 1,
+          "quote": "Taurodontism means 'bull-like'. May occur in some types of AI. Radiographically an elongation of the pulp chamber is seen, which resembles a bull's head. Rx: none required, but may complicate endodontic Rx and occasionally extraction.",
+          "paragraph": 1278,
+          "source": "Oxford Handbook · paragraph 1278"
+        }
       ]
     },
     {
@@ -898,7 +1203,12 @@
       "treatment": "The dental management addresses the morphological consequences: notched incisors and irregular molars may require restoration, build-up, or crowning for function and aesthetics. Systemic medical management is the primary treatment for the underlying infection.",
       "prognosis": "The dental morphological changes are permanent and fixed at eruption. Management is restorative and symptomatic. Systemic prognosis depends on the underlying syphilis treatment.",
       "citations": [
-        { "id": 1, "quote": "Due to T. pallidum crossing the placental barrier leading to the classical appearance of saddle nose, frontal bossing, sensorineural deafness, Hutchinson incisors (peg-shaped with notch), and mulberry (Moon) molars.", "paragraph": 6005, "source": "Oxford Handbook · paragraph 6005" }
+        {
+          "id": 1,
+          "quote": "Due to T. pallidum crossing the placental barrier leading to the classical appearance of saddle nose, frontal bossing, sensorineural deafness, Hutchinson incisors (peg-shaped with notch), and mulberry (Moon) molars.",
+          "paragraph": 6005,
+          "source": "Oxford Handbook · paragraph 6005"
+        }
       ]
     },
     {
@@ -913,7 +1223,12 @@
       "treatment": "The goal is to protect exposed dentine and restore crown contour. Cover exposed dentine with hard-setting calcium hydroxide cement and place an acid-etch retained composite tip using a cellulose acetate crown former as a guide [1]. If time is short, a temporary cover with GIC is acceptable. Keep under review. A veneer or porcelain jacket crown can be considered later [1].",
       "prognosis": "Good provided dentine is sealed promptly and vitality maintained. Pulp may become non-vital later — keep under long-term review.",
       "citations": [
-        { "id": 1, "quote": "Need to protect exposed dentine, preferably with a hard-setting calcium hydroxide cement and an acid-etch retained composite. If time permits, this can be done with a crown former to restore tooth contour. Keep under review. Veneer or porcelain jacket crown (PJC) can be considered later. If # near to pulp, treat as for pulp involvement.", "paragraph": 1692, "source": "Oxford Handbook · paragraph 1692" }
+        {
+          "id": 1,
+          "quote": "Need to protect exposed dentine, preferably with a hard-setting calcium hydroxide cement and an acid-etch retained composite. If time permits, this can be done with a crown former to restore tooth contour. Keep under review. Veneer or porcelain jacket crown (PJC) can be considered later. If # near to pulp, treat as for pulp involvement.",
+          "paragraph": 1692,
+          "source": "Oxford Handbook · paragraph 1692"
+        }
       ]
     },
     {
@@ -928,7 +1243,12 @@
       "treatment": "Here's the sequence, determined by root development and exposure size [1]:\n\n- **Pulp cap** (exposure <1 mm, <24 h, pulp vital, any root stage): cover with calcium hydroxide (e.g. Dycal®) and composite tip. Review vitality [1].\n- **Partial (Cvek) pulpotomy** (exposure >1 mm, >24 h, pulp vital, any root stage): LA and rubber dam. Enlarge access at exposure site with a high-speed bur, amputate pulp 2–4 mm into healthy tissue, arrest bleeding with sterile moist cotton wool (several minutes), cover with non-setting calcium hydroxide, seal with GIC, restore crown [1].\n- **Full coronal pulpotomy** (large or contaminated exposure, long duration, incomplete root development, impaired coronal vascularity): LA and rubber dam. Open pulp chamber, amputate coronal pulp to cervical constriction, wash with sterile water, place non-setting calcium hydroxide, restore with polycarboxylate or GIC and composite. Review at 6–8 weeks [1].\n- If apex is already closed and pulp is non-vital: RCT [1].\n\nAll pulpotomised teeth need long-term review — pulp necrosis and calcification are common sequelae [1].",
       "prognosis": "Success rates of 72% for cervical pulpotomies and 96% for minimal (Cvek) pulpotomies have been reported [1]. Long-term review is mandatory as pulp necrosis and calcification occur, even after apparently successful treatment [1].",
       "citations": [
-        { "id": 1, "quote": "Rx depends upon size of exposure, state of root development (1 root radiographically complete 10–11yrs, histologically 14–15yrs), time since injury, and other injuries (e.g. root #). If apex open, there is an ↑ blood supply to pulp, therefore likelihood of pulp death ↓. This is advantageous as Rx should be directed towards retaining vitality of radicular pulp to allow root closure to continue. Pulp cap: Indications: exposure <1mm; <24h; complete or incomplete root development; pulp still vital. Cover exposure with calcium hydroxide (e.g. Dycal®), and place composite tip. Partial (Cvek) pulpotomy: Indications: exposure >1mm; >24h; complete or incomplete root development, pulp still vital. Full coronal pulpotomy: Indications: large, contaminated exposures; long duration; incomplete root development; coronal pulp demonstrates impaired vascularity. All pulpotomized teeth should be kept under long-term review as pulp necrosis and calcification are common sequelae. Success rates of 72% for cervical pulpotomies and 96% for minimal (Cvek) pulpotomies have been reported.", "paragraph": 1705, "source": "Oxford Handbook · paragraphs 1705–1724" }
+        {
+          "id": 1,
+          "quote": "Rx depends upon size of exposure, state of root development (1 root radiographically complete 10–11yrs, histologically 14–15yrs), time since injury, and other injuries (e.g. root #). If apex open, there is an ↑ blood supply to pulp, therefore likelihood of pulp death ↓. This is advantageous as Rx should be directed towards retaining vitality of radicular pulp to allow root closure to continue. Pulp cap: Indications: exposure <1mm; <24h; complete or incomplete root development; pulp still vital. Cover exposure with calcium hydroxide (e.g. Dycal®), and place composite tip. Partial (Cvek) pulpotomy: Indications: exposure >1mm; >24h; complete or incomplete root development, pulp still vital. Full coronal pulpotomy: Indications: large, contaminated exposures; long duration; incomplete root development; coronal pulp demonstrates impaired vascularity. All pulpotomized teeth should be kept under long-term review as pulp necrosis and calcification are common sequelae. Success rates of 72% for cervical pulpotomies and 96% for minimal (Cvek) pulpotomies have been reported.",
+          "paragraph": 1705,
+          "source": "Oxford Handbook · paragraphs 1705–1724"
+        }
       ]
     },
     {
@@ -943,7 +1263,12 @@
       "treatment": "Treatment is position-dependent (see defining characteristics). The overarching principle: reposition and splint where possible, using flexible splinting of the minimum duration needed for the fracture position. Calcium hydroxide dressing limits inflammation and resorption in middle-third fractures. For fractures below the alveolar crest, orthodontic extrusion using gentle forces of 50–100 g can improve access for crown fabrication; retain for at least 3–6 months after extrusion before fabricating the permanent restoration [1].",
       "prognosis": "Apical-third fractures carry a good prognosis. Middle-third fractures depend on extent of displacement and timely treatment — delay reduces prognosis [1]. Coronal-third fractures carry the highest risk, primarily from bacterial ingress via the gingival crevice. Vertical root fractures usually require extraction [1].",
       "citations": [
-        { "id": 1, "quote": "Account for <10% of injuries to permanent dentition. The prognosis for this type of injury depends upon whether the # line communicates with the gingival crevice. Actual Rx depends on position of #. The prognosis is also affected by the degree of dislocation of apical and coronal fragments and mobility/displacement. Apical third: Usually no Rx is required unless mobility ↑ significantly. Middle third: In the majority of cases the tooth is loosened, therefore rigid splinting is advisable. 12 weeks of rigid splinting was previously advocated, but recent evidence suggests flexible splinting for 4 weeks may give a similar outcome. Coronal third: In this group there is a high risk of direct communication with the gingival crevice. An orthodontic extrusion will need either a URA or a sectional FA with an attachment bonded on to the labial surface. Gentle forces of 50–100g should be used. When sufficient extrusion has been achieved, retain for at least 3–6 months before fabricating a permanent restoration.", "paragraph": 1726, "source": "Oxford Handbook · paragraphs 1726–1737" }
+        {
+          "id": 1,
+          "quote": "Account for <10% of injuries to permanent dentition. The prognosis for this type of injury depends upon whether the # line communicates with the gingival crevice. Actual Rx depends on position of #. The prognosis is also affected by the degree of dislocation of apical and coronal fragments and mobility/displacement. Apical third: Usually no Rx is required unless mobility ↑ significantly. Middle third: In the majority of cases the tooth is loosened, therefore rigid splinting is advisable. 12 weeks of rigid splinting was previously advocated, but recent evidence suggests flexible splinting for 4 weeks may give a similar outcome. Coronal third: In this group there is a high risk of direct communication with the gingival crevice. An orthodontic extrusion will need either a URA or a sectional FA with an attachment bonded on to the labial surface. Gentle forces of 50–100g should be used. When sufficient extrusion has been achieved, retain for at least 3–6 months before fabricating a permanent restoration.",
+          "paragraph": 1726,
+          "source": "Oxford Handbook · paragraphs 1726–1737"
+        }
       ]
     },
     {
@@ -958,7 +1283,12 @@
       "treatment": "Concussion: reassurance and a soft diet [1]. Subluxation: if minor, soft diet only is needed; if the tooth is mobile, splint for 1–2 weeks and watch vitality [1].",
       "prognosis": "Generally good. Pulp survival is high for concussion. Subluxation carries a risk of later vitality loss — keep under long-term review, including periodic vitality testing and periapical radiographs.",
       "citations": [
-        { "id": 1, "quote": "Concussion: Injury to supporting tissues of tooth, without displacement. Subluxation: Actually means partial displacement, but commonly used to describe loosening of a tooth without displacement. Rx: Concussion: Reassurance and soft diet. Subluxation: If minor, no Rx other than advising a soft diet is necessary. If mobile, splint for 1–2 weeks and watch vitality.", "paragraph": 1747, "source": "Oxford Handbook · paragraphs 1747–1763" }
+        {
+          "id": 1,
+          "quote": "Concussion: Injury to supporting tissues of tooth, without displacement. Subluxation: Actually means partial displacement, but commonly used to describe loosening of a tooth without displacement. Rx: Concussion: Reassurance and soft diet. Subluxation: If minor, no Rx other than advising a soft diet is necessary. If mobile, splint for 1–2 weeks and watch vitality.",
+          "paragraph": 1747,
+          "source": "Oxford Handbook · paragraphs 1747–1763"
+        }
       ]
     },
     {
@@ -973,7 +1303,12 @@
       "treatment": "Reposition as soon as possible. LA and use fingers to push the tooth back into position [1]. Splint flexibly for 2–3 weeks [1]. If there has been a delay of more than 24 hours, manual reduction is unlikely to succeed — in these cases orthodontic repositioning is the alternative [1]. If the socket is comminuted, extend the splinting period to 6–8 weeks [1].",
       "prognosis": "Pulp survival is much better in teeth with immature (open) apices [1]. In mature teeth, loss of vitality occurs in approximately 70%, leading to inflammatory resorption if not managed [1]. External or internal resorption and pulp canal obliteration may also occur — long-term review is essential [1].",
       "citations": [
-        { "id": 1, "quote": "Lateral luxation: Displacement of tooth (laterally, labially, or palatally). Need to reposition tooth as soon as possible. Give LA and use fingers to push back into place. Then tooth should be splinted flexibly for 2–3 weeks. If there has been a delay of >24h since the injury, manual reduction is unlikely to be successful. If the displaced tooth is interfering with the occlusion a URA, with buccal capping, should be fitted as soon as possible. If root development is complete, loss of vitality is a common sequelae following luxation (~70%), leading to inflammatory resorption. Teeth with immature apices have a much better chance of pulp survival. External or internal resorption and pulp canal obliteration may also occur, therefore keep under review. Prevalence: 15–40% of injuries.", "paragraph": 1745, "source": "Oxford Handbook · paragraphs 1745–1762" }
+        {
+          "id": 1,
+          "quote": "Lateral luxation: Displacement of tooth (laterally, labially, or palatally). Need to reposition tooth as soon as possible. Give LA and use fingers to push back into place. Then tooth should be splinted flexibly for 2–3 weeks. If there has been a delay of >24h since the injury, manual reduction is unlikely to be successful. If the displaced tooth is interfering with the occlusion a URA, with buccal capping, should be fitted as soon as possible. If root development is complete, loss of vitality is a common sequelae following luxation (~70%), leading to inflammatory resorption. Teeth with immature apices have a much better chance of pulp survival. External or internal resorption and pulp canal obliteration may also occur, therefore keep under review. Prevalence: 15–40% of injuries.",
+          "paragraph": 1745,
+          "source": "Oxford Handbook · paragraphs 1745–1762"
+        }
       ]
     },
     {
@@ -988,7 +1323,12 @@
       "treatment": "Follow the UK guideline algorithm above [1]. Early pulp extirpation and placement of calcium hydroxide dressing is advisable because pulp death and root resorption can develop rapidly after injury [1]. Replacement resorption is also a common sequel [1].",
       "prognosis": "Guarded, particularly for mature teeth — pulp death is virtually certain with closed apices, and replacement resorption is a recognised complication [1]. Immature teeth with open apices fare better but still require close monitoring.",
       "citations": [
-        { "id": 1, "quote": "Intrusive luxation: Displacement of tooth into its socket. Often accompanied by # of alveolar bone. Current UK guidelines advise passive repositioning, with commencement of orthodontic repositioning within 3 weeks for all teeth with open apices and for teeth intruded <3mm with closed apices. For intrusions of 3–6mm in teeth with a closed apex, consider orthodontic or surgical repositioning, and if intrusion exceeds 6mm with a closed apex, surgically reposition. Surgically repositioned teeth require flexible splinting for 1–2 weeks. Pulp death &/or root resorption can ensue rapidly after injury and early pulp extirpation and placement of the calcium hydroxide dressing is advisable. Pulp death is virtually certain in teeth with closed apices, and occurs in two-thirds of immature teeth. Replacement resorption is also a common sequel. Prevalence: 15–40% of injuries.", "paragraph": 1754, "source": "Oxford Handbook · paragraphs 1754–1766" }
+        {
+          "id": 1,
+          "quote": "Intrusive luxation: Displacement of tooth into its socket. Often accompanied by # of alveolar bone. Current UK guidelines advise passive repositioning, with commencement of orthodontic repositioning within 3 weeks for all teeth with open apices and for teeth intruded <3mm with closed apices. For intrusions of 3–6mm in teeth with a closed apex, consider orthodontic or surgical repositioning, and if intrusion exceeds 6mm with a closed apex, surgically reposition. Surgically repositioned teeth require flexible splinting for 1–2 weeks. Pulp death &/or root resorption can ensue rapidly after injury and early pulp extirpation and placement of the calcium hydroxide dressing is advisable. Pulp death is virtually certain in teeth with closed apices, and occurs in two-thirds of immature teeth. Replacement resorption is also a common sequel. Prevalence: 15–40% of injuries.",
+          "paragraph": 1754,
+          "source": "Oxford Handbook · paragraphs 1754–1766"
+        }
       ]
     },
     {
@@ -1003,7 +1343,12 @@
       "treatment": "Reposition under LA with digital pressure and splint for 1–2 weeks [1]. Observe for signs of resorption or pulp death and manage accordingly [1]. If alveolar bone fracture is also present, extend the splinting period to 3–4 weeks; comminuted socket: 6–8 weeks [1].",
       "prognosis": "Loss of vitality is a recognised sequel — long-term review is essential [1]. Immature teeth have a better chance of pulp survival than mature teeth.",
       "citations": [
-        { "id": 1, "quote": "Extrusive luxation: Partial displacement of tooth from its socket. The affected tooth should be repositioned under LA with digital pressure and splinted for 1–2 weeks. Again, loss of vitality is a common sequel, so the tooth should be observed for any signs of resorption or pulp death. If any of these situations occur in conjunction with # of the alveolar bone, the splinting period should be ↑ to 3–4 weeks to aid bony healing. If, however, the socket is comminuted, splinting may need to be extended to 6–8 weeks.", "paragraph": 1755, "source": "Oxford Handbook · paragraphs 1755–1768" }
+        {
+          "id": 1,
+          "quote": "Extrusive luxation: Partial displacement of tooth from its socket. The affected tooth should be repositioned under LA with digital pressure and splinted for 1–2 weeks. Again, loss of vitality is a common sequel, so the tooth should be observed for any signs of resorption or pulp death. If any of these situations occur in conjunction with # of the alveolar bone, the splinting period should be ↑ to 3–4 weeks to aid bony healing. If, however, the socket is comminuted, splinting may need to be extended to 6–8 weeks.",
+          "paragraph": 1755,
+          "source": "Oxford Handbook · paragraphs 1755–1768"
+        }
       ]
     },
     {
@@ -1018,7 +1363,12 @@
       "treatment": "The pulp needs to be carefully extirpated — the process is progressive and will not arrest spontaneously [1]. Dress the tooth with calcium hydroxide, which appears to help arrest the resorption [1]. Once the resorption is controlled, a GP filling can be placed [1]. If perforation has occurred, raising a flap, removing granulation tissue, and attempting direct repair are options, though prognosis is reduced [1].",
       "prognosis": "Without treatment: progressive, eventually leading to root perforation or tooth loss. With prompt pulp extirpation and calcium hydroxide dressing, the resorption can be arrested and the tooth saved. Perforation significantly worsens prognosis [1].",
       "citations": [
-        { "id": 1, "quote": "Commonly seen after avulsion, luxation, intrusion, or extrusion. Internal resorption: This is associated with chronic pulpal inflammation, which results in resorption of dentine from the pulpal surface. It is progressive, therefore the pulp needs to be carefully extirpated. Dressing the tooth with calcium hydroxide appears to help arrest the resorption and once controlled, a GP filling may be placed. If perforation has occurred, the prognosis is ↓ considerably. Raising a flap, removal of granulation tissue, and direct repair can be attempted.", "paragraph": 1831, "source": "Oxford Handbook · paragraphs 1831–1833" }
+        {
+          "id": 1,
+          "quote": "Commonly seen after avulsion, luxation, intrusion, or extrusion. Internal resorption: This is associated with chronic pulpal inflammation, which results in resorption of dentine from the pulpal surface. It is progressive, therefore the pulp needs to be carefully extirpated. Dressing the tooth with calcium hydroxide appears to help arrest the resorption and once controlled, a GP filling may be placed. If perforation has occurred, the prognosis is ↓ considerably. Raising a flap, removal of granulation tissue, and direct repair can be attempted.",
+          "paragraph": 1831,
+          "source": "Oxford Handbook · paragraphs 1831–1833"
+        }
       ]
     },
     {
@@ -1033,7 +1383,12 @@
       "treatment": "Surface resorption: no treatment [1]. Replacement resorption: no treatment available to arrest it; endodontic therapy does not influence it [1]. Inflammatory resorption: prompt pulp extirpation and calcium hydroxide dressing can arrest it; once arrested, a GP filling can be placed [1].",
       "prognosis": "Surface resorption is self-limiting and carries a good prognosis [1]. Replacement resorption is usually progressive — once started it eventually leads to root replacement by bone and tooth loss [1]. Inflammatory resorption, once evident radiographically, has a poor prognosis as it is progressive and treatment is not always successful [1].",
       "citations": [
-        { "id": 1, "quote": "External resorption: Radiographically, loss of PDL with no radiolucent areas visible. Three types are seen: surface (transient), replacement, and inflammatory. Replacement resorption is usually 2° to irreversible damage to the cementum, leading to ankylosis (usually associated with a high percussion note). Replacement resorption is usually progressive, is not influenced by endodontic therapy, and eventually leads to the root being replaced by bone. Inflammatory resorption is frequently related to pulp necrosis and can often be halted by appropriate endodontic management. Irregular pits are seen on the root with adjacent radiolucency. Surface resorption: This occurs as a result of minor trauma to PDL cells. Usually is self-limiting and affected areas are repaired by cementum. No Rx.", "paragraph": 1835, "source": "Oxford Handbook · paragraphs 1835–1836 and 1817" }
+        {
+          "id": 1,
+          "quote": "External resorption: Radiographically, loss of PDL with no radiolucent areas visible. Three types are seen: surface (transient), replacement, and inflammatory. Replacement resorption is usually 2° to irreversible damage to the cementum, leading to ankylosis (usually associated with a high percussion note). Replacement resorption is usually progressive, is not influenced by endodontic therapy, and eventually leads to the root being replaced by bone. Inflammatory resorption is frequently related to pulp necrosis and can often be halted by appropriate endodontic management. Irregular pits are seen on the root with adjacent radiolucency. Surface resorption: This occurs as a result of minor trauma to PDL cells. Usually is self-limiting and affected areas are repaired by cementum. No Rx.",
+          "paragraph": 1835,
+          "source": "Oxford Handbook · paragraphs 1835–1836 and 1817"
+        }
       ]
     },
     {
@@ -1048,7 +1403,12 @@
       "treatment": "Prophylactic RCT is not necessary [1]. Keep under review. If signs of pulp necrosis develop (pain, swelling, periapical change), proceed to RCT [1].",
       "prognosis": "Most teeth with canal obliteration remain asymptomatic. For the minority that require RCT later, an 80% success rate has been reported despite the challenging canal anatomy [1].",
       "citations": [
-        { "id": 1, "quote": "Root canal obliteration: Occurs in 6–35% of luxation-type injuries. Prophylactic endodontic Rx is not necessary as pulp necrosis occurs in only 13–16% of cases. A high rate of success (80%) has been reported for subsequent RCT, despite a hairline or no root canal detectable on X-ray.", "paragraph": 1837, "source": "Oxford Handbook · paragraph 1837" }
+        {
+          "id": 1,
+          "quote": "Root canal obliteration: Occurs in 6–35% of luxation-type injuries. Prophylactic endodontic Rx is not necessary as pulp necrosis occurs in only 13–16% of cases. A high rate of success (80%) has been reported for subsequent RCT, despite a hairline or no root canal detectable on X-ray.",
+          "paragraph": 1837,
+          "source": "Oxford Handbook · paragraph 1837"
+        }
       ]
     },
     {
@@ -1063,7 +1423,12 @@
       "treatment": "The goal is a functional 3-2-1 smile [1]. Factors to weigh [1]:\n\n- Skeletal relationship — space closure in a Class III case can compromise the incisor relationship.\n- Crowding/spacing — in an uncrowded arch, space closure is difficult and requires prolonged retention.\n- Colour and form of 3 — if significantly darker or caniform in shape, creating a convincing 2 substitute is difficult.\n- Minimum implant space for 2 replacement: 6.5 mm [1].\n\nOptions: orthodontic space closure with composite reshaping of 3; implant replacement (not before growth is complete); conventional bridgework; resin-bonded bridge.",
       "prognosis": "Depends entirely on the treatment path chosen. Orthodontic space closure, done well, produces high patient satisfaction. When 2 is missing and 3 is ectopic, early monitoring and referral is essential to prevent root resorption of adjacent incisors [1].",
       "citations": [
-        { "id": 1, "quote": "1—rarely congenitally absent; usually lost following trauma or because of dilaceration. 2—congenitally absent in ~2% of population (with ↑ likelihood of displacement 3). May also be lost following trauma. Missing upper anterior teeth are noticed by the general public before other types of malocclusion. The aim of Rx is to provide a 321|123 smile. The management of missing incisors involves either recovery or maintenance of space for prosthetic replacement, or orthodontic space closure. Previous studies have shown that patients were more satisfied with space closure than prosthetic replacement. NB: 3 migrates down guided by the distal aspect of 2. When 2 is absent, peg-shaped, or small-rooted, it is important to monitor the maxillary canine for signs of ectopic eruption. Minimum width for implant to replace 2 is 6.5mm.", "paragraph": 1840, "source": "Oxford Handbook · paragraphs 1840–1842" }
+        {
+          "id": 1,
+          "quote": "1—rarely congenitally absent; usually lost following trauma or because of dilaceration. 2—congenitally absent in ~2% of population (with ↑ likelihood of displacement 3). May also be lost following trauma. Missing upper anterior teeth are noticed by the general public before other types of malocclusion. The aim of Rx is to provide a 321|123 smile. The management of missing incisors involves either recovery or maintenance of space for prosthetic replacement, or orthodontic space closure. Previous studies have shown that patients were more satisfied with space closure than prosthetic replacement. NB: 3 migrates down guided by the distal aspect of 2. When 2 is absent, peg-shaped, or small-rooted, it is important to monitor the maxillary canine for signs of ectopic eruption. Minimum width for implant to replace 2 is 6.5mm.",
+          "paragraph": 1840,
+          "source": "Oxford Handbook · paragraphs 1840–1842"
+        }
       ]
     },
     {
@@ -1078,7 +1443,12 @@
       "treatment": "The goal depends on cause. Exclude supernumerary with periapical X-ray first [1]. Then follow the before/after canine eruption pathway. If space is small and teeth of normal width with no other orthodontic need, the option to accept the diastema is legitimate — it is currently fashionable [1].",
       "prognosis": "Physiological diastema in the mixed dentition closes spontaneously as the canines erupt in the majority of cases. Orthodontically closed diastemas have a high tendency to relapse — prolonged retention is always required [1].",
       "citations": [
-        { "id": 1, "quote": "Prevalence 6yr-olds = 98%, 11yr-olds = 49%, 12–18yr-olds = 7%. Aetiology: Small teeth in large jaws; absent or peg-shaped 2|2; midline $; proclination of ULS; physiological (caused by pressure of developing teeth on upper incisor roots which reduces as 3 erupts), or due to a fraenum. A fraenum contributes to a diastema in a small number of cases and is associated with: Blanching of incisive papilla when fraenum put under tension. Radiographically there is a V-shaped notch in the interdental bone. Before 3 erupted: if diastema <3mm—review after eruption of canines. If >3mm—may need to approximate incisors. After 3 erupted: orthodontic closure will require prolonged retention as has high tendency to relapse. If fraenum an aetiological factor, consider doing a fraenectomy. Alternatively, measure width of 1 and 2, and if they are narrower than average (1 = 8.5mm, 2 = 6.5mm) consider composite additions or veneers. Take a periapical radiograph to exclude presence of a $.", "paragraph": 2240, "source": "Oxford Handbook · paragraphs 2240–2250" }
+        {
+          "id": 1,
+          "quote": "Prevalence 6yr-olds = 98%, 11yr-olds = 49%, 12–18yr-olds = 7%. Aetiology: Small teeth in large jaws; absent or peg-shaped 2|2; midline $; proclination of ULS; physiological (caused by pressure of developing teeth on upper incisor roots which reduces as 3 erupts), or due to a fraenum. A fraenum contributes to a diastema in a small number of cases and is associated with: Blanching of incisive papilla when fraenum put under tension. Radiographically there is a V-shaped notch in the interdental bone. Before 3 erupted: if diastema <3mm—review after eruption of canines. If >3mm—may need to approximate incisors. After 3 erupted: orthodontic closure will require prolonged retention as has high tendency to relapse. If fraenum an aetiological factor, consider doing a fraenectomy. Alternatively, measure width of 1 and 2, and if they are narrower than average (1 = 8.5mm, 2 = 6.5mm) consider composite additions or veneers. Take a periapical radiograph to exclude presence of a $.",
+          "paragraph": 2240,
+          "source": "Oxford Handbook · paragraphs 2240–2250"
+        }
       ]
     },
     {
@@ -1093,7 +1463,12 @@
       "treatment": "Remove the cause where identifiable: extract retained primary tooth, supernumerary, or remove obstruction from crypt [1]. For palatally displaced canines, see the specific entry. For primary failure of eruption in molars, refer for specialist advice — extraction is usually the only option [1].",
       "prognosis": "Depends on cause. If the tooth is present, in a reasonable position, and the obstruction is removed, eruption usually follows — average time to eruption after exposure and space creation for a supernumerary-obstructed 1 is 18 months [1]. Primary failure of eruption carries a poor prognosis for conservative management.",
       "citations": [
-        { "id": 1, "quote": "Disruption of normal eruption sequence and asymmetry in eruption times of contralateral teeth >6 months warrants further investigation. Developmental age is of more importance in assessing delayed eruption than chronological age. General causes: Hereditary gingival fibromatosis, Down syndrome, Gardner syndrome, hypothyroidism, cleidocranial dysostosis, and rickets. Local causes: Congenital absence. Is the most likely cause for failure of appearance of 2. Crowding. Rx: extractions. Retention of 1° tooth. Rx: extraction of 1° tooth. Supernumerary tooth. Is the most likely reason for failure of eruption of 1. Crown or root dilaceration. Dentigerous cyst. Trauma to 1° tooth leading to lateral or apical displacement of 2° incisor. Abnormal position of crypt. 1° failure of eruption usually affects molar teeth. Refer for advice, usually extraction is only option.", "paragraph": 1143, "source": "Oxford Handbook · paragraphs 1143–1158" }
+        {
+          "id": 1,
+          "quote": "Disruption of normal eruption sequence and asymmetry in eruption times of contralateral teeth >6 months warrants further investigation. Developmental age is of more importance in assessing delayed eruption than chronological age. General causes: Hereditary gingival fibromatosis, Down syndrome, Gardner syndrome, hypothyroidism, cleidocranial dysostosis, and rickets. Local causes: Congenital absence. Is the most likely cause for failure of appearance of 2. Crowding. Rx: extractions. Retention of 1° tooth. Rx: extraction of 1° tooth. Supernumerary tooth. Is the most likely reason for failure of eruption of 1. Crown or root dilaceration. Dentigerous cyst. Trauma to 1° tooth leading to lateral or apical displacement of 2° incisor. Abnormal position of crypt. 1° failure of eruption usually affects molar teeth. Refer for advice, usually extraction is only option.",
+          "paragraph": 1143,
+          "source": "Oxford Handbook · paragraphs 1143–1158"
+        }
       ]
     },
     {
@@ -1108,7 +1483,12 @@
       "treatment": "For young patients: wait 4–6 months to allow spontaneous self-correction [1]. If it hasn't self-corrected ('hold'), insert an orthodontic separating spring to allow the 6 to jump free [1]. For severe impactions, keep under observation. If E becomes abscessed or the 6 is at risk of caries, extract the primary tooth — the resulting space loss can be managed later as part of the overall orthodontic plan [1].",
       "prognosis": "Good in younger patients, where spontaneous self-correction is common. The space loss from extracting E can usually be managed orthodontically when the patient is older [1].",
       "citations": [
-        { "id": 1, "quote": "Ectopic eruption of first permanent molars: Most commonly occurs in the upper arch—against the distal of E occurs in 2–5% of children. It is an indication of crowding. In younger patients (<8yrs) many self-correct ('jump'). If still present after 4–6 months ('hold') or in older children, insertion of an orthodontic separating spring may allow the 6 to jump free. More severe impactions should be kept under observation. If the E becomes abscessed or the 6 is in danger of becoming carious then the 1° tooth should be extracted. The resulting space loss can be dealt with later as part of the overall orthodontic Rx plan.", "paragraph": 1162, "source": "Oxford Handbook · paragraph 1162" }
+        {
+          "id": 1,
+          "quote": "Ectopic eruption of first permanent molars: Most commonly occurs in the upper arch—against the distal of E occurs in 2–5% of children. It is an indication of crowding. In younger patients (<8yrs) many self-correct ('jump'). If still present after 4–6 months ('hold') or in older children, insertion of an orthodontic separating spring may allow the 6 to jump free. More severe impactions should be kept under observation. If the E becomes abscessed or the 6 is in danger of becoming carious then the 1° tooth should be extracted. The resulting space loss can be dealt with later as part of the overall orthodontic Rx plan.",
+          "paragraph": 1162,
+          "source": "Oxford Handbook · paragraph 1162"
+        }
       ]
     },
     {
@@ -1123,7 +1503,12 @@
       "treatment": "Attempt to dislodge the 6 by tightening a piece of brass wire around the contact point with E over several visits [1]. If that fails, observe, and extract E only if unavoidable — deal with the resulting space loss in the permanent dentition as part of the orthodontic plan [1].",
       "prognosis": "With early intervention, the molar can often be freed. Space loss from extracting E is a predictable consequence and needs orthodontic planning in the mixed or permanent dentition [1].",
       "citations": [
-        { "id": 1, "quote": "Impacted upper first permanent molars: Prevalence 2–6%. Indicative of crowding. Spontaneous disimpaction rare after 8yrs. Can try dislodging 6 by tightening a piece of brass wire round the contact point with E over several visits. Otherwise just observe, extracting E if unavoidable and dealing with resultant space loss in 2° dentition.", "paragraph": 2179, "source": "Oxford Handbook · paragraphs 2179–2180" }
+        {
+          "id": 1,
+          "quote": "Impacted upper first permanent molars: Prevalence 2–6%. Indicative of crowding. Spontaneous disimpaction rare after 8yrs. Can try dislodging 6 by tightening a piece of brass wire round the contact point with E over several visits. Otherwise just observe, extracting E if unavoidable and dealing with resultant space loss in 2° dentition.",
+          "paragraph": 2179,
+          "source": "Oxford Handbook · paragraphs 2179–2180"
+        }
       ]
     },
     {
@@ -1138,7 +1523,12 @@
       "treatment": "Seek specialist opinion quickly once detected on a radiograph [1]. Do not delay — the resorption can progress rapidly. Options: extraction of the canine to limit resorption; or if extensive, removal of the affected incisor and orthodontic management of the canine [1].",
       "prognosis": "Early detection is the critical factor. Once detected, timely specialist referral prevents further resorption. Extensive resorption of the incisor carries a poor prognosis for the incisor regardless of canine management [1].",
       "citations": [
-        { "id": 1, "quote": "Unerupted and impacted canines can cause resorption of incisor roots. For this to occur, a 'head-on' collision between the two seems to be required. If detected on a radiograph, a specialist opinion should be sought, quickly. Extraction of the canine may be necessary to limit resorption, but if extensive, removal of the affected incisor may be preferable, thus allowing the canine to erupt.", "paragraph": 2287, "source": "Oxford Handbook · paragraphs 2287–2288" }
+        {
+          "id": 1,
+          "quote": "Unerupted and impacted canines can cause resorption of incisor roots. For this to occur, a 'head-on' collision between the two seems to be required. If detected on a radiograph, a specialist opinion should be sought, quickly. Extraction of the canine may be necessary to limit resorption, but if extensive, removal of the affected incisor may be preferable, thus allowing the canine to erupt.",
+          "paragraph": 2287,
+          "source": "Oxford Handbook · paragraphs 2287–2288"
+        }
       ]
     },
     {
@@ -1153,7 +1543,12 @@
       "treatment": "The goal is coordinated planning across the team. No treatment for absent 8s. For other absent teeth, the options are: orthodontic space closure, implants (after growth completion), conventional bridgework, resin-bonded bridgework, or preservation of the retained primary tooth into adulthood where root quality permits [1].",
       "prognosis": "Variable and dependent on which teeth are absent, the skeletal pattern, and the overall treatment plan. Well-managed hypodontia with multidisciplinary input achieves functional and aesthetic outcomes across a range of treatment modalities [1].",
       "citations": [
-        { "id": 1, "quote": "Hypodontia (oligodontia): Developmental absence of one or more teeth. Prevalence: 1° dentition: 0.1–0.9%, 2° dentition: 3.5–6.5%. In Caucasians most commonly affected teeth are 8 (25–35%), 2 (2%), lower 5 (3%). Affects F > M and is often associated with smaller than average tooth size in remainder of dentition. Peg-shaped 2 often occurs in conjunction with absence of contralateral 2. NB: 3 migrates down guided by the distal aspect of 2. When 2 is absent, peg-shaped, or small-rooted, it is important to monitor the maxillary canine for signs of ectopic eruption. Aetiology: Often familial—polygenic inheritance. Also associated with ectodermal dysplasia and Down syndrome. 5 — If patient is crowded, extraction of E, either at around 8yrs for spontaneous space closure or later. If lower arch is well aligned or spaced, consider preservation of E, and bridgework later. Children with hypodontia will often benefit from specialist/multidisciplinary management.", "paragraph": 1169, "source": "Oxford Handbook · paragraphs 1169–1178" }
+        {
+          "id": 1,
+          "quote": "Hypodontia (oligodontia): Developmental absence of one or more teeth. Prevalence: 1° dentition: 0.1–0.9%, 2° dentition: 3.5–6.5%. In Caucasians most commonly affected teeth are 8 (25–35%), 2 (2%), lower 5 (3%). Affects F > M and is often associated with smaller than average tooth size in remainder of dentition. Peg-shaped 2 often occurs in conjunction with absence of contralateral 2. NB: 3 migrates down guided by the distal aspect of 2. When 2 is absent, peg-shaped, or small-rooted, it is important to monitor the maxillary canine for signs of ectopic eruption. Aetiology: Often familial—polygenic inheritance. Also associated with ectodermal dysplasia and Down syndrome. 5 — If patient is crowded, extraction of E, either at around 8yrs for spontaneous space closure or later. If lower arch is well aligned or spaced, consider preservation of E, and bridgework later. Children with hypodontia will often benefit from specialist/multidisciplinary management.",
+          "paragraph": 1169,
+          "source": "Oxford Handbook · paragraphs 1169–1178"
+        }
       ]
     },
     {
@@ -1168,7 +1563,12 @@
       "treatment": "Extract the supernumerary and create sufficient space for the obstructed tooth to erupt [1]. Where the unerupted tooth fails to erupt despite space, expose and bond an orthodontic attachment for traction [1].",
       "prognosis": "With timely removal of the supernumerary, normal eruption usually follows — average 18 months. Prolonged impaction (>2 years after space creation) may require surgical exposure [1].",
       "citations": [
-        { "id": 1, "quote": "Hyperdontia: Better known as supernumerary teeth. Prevalence: 1° dentition 0.8%, 2° dentition 2%. Occurs most frequently in premaxillary region. Affects M > F. Associated with cleidocranial dysostosis and CLP. Supernumerary ($) in 1° dentition is followed in about 50% of cases by $ in 2° dentition, so warn parent! Theories include offshoot of dental lamina and third dentition. No effect. If unerupted keep watch. If erupts—extract. Crowding. Rx: extract. Displacement. Rx: extraction of $ and fixed appliance. Failure of eruption. Most likely cause of 1 to fail to erupt. Rx: extract $ and ensure sufficient space. Average time to eruption in these cases is 18 months. If after 2yrs unerupted tooth fails to erupt despite sufficient space, may require conservative exposure and orthodontic traction.", "paragraph": 1179, "source": "Oxford Handbook · paragraphs 1179–1192" }
+        {
+          "id": 1,
+          "quote": "Hyperdontia: Better known as supernumerary teeth. Prevalence: 1° dentition 0.8%, 2° dentition 2%. Occurs most frequently in premaxillary region. Affects M > F. Associated with cleidocranial dysostosis and CLP. Supernumerary ($) in 1° dentition is followed in about 50% of cases by $ in 2° dentition, so warn parent! Theories include offshoot of dental lamina and third dentition. No effect. If unerupted keep watch. If erupts—extract. Crowding. Rx: extract. Displacement. Rx: extraction of $ and fixed appliance. Failure of eruption. Most likely cause of 1 to fail to erupt. Rx: extract $ and ensure sufficient space. Average time to eruption in these cases is 18 months. If after 2yrs unerupted tooth fails to erupt despite sufficient space, may require conservative exposure and orthodontic traction.",
+          "paragraph": 1179,
+          "source": "Oxford Handbook · paragraphs 1179–1192"
+        }
       ]
     },
     {
@@ -1183,7 +1583,12 @@
       "treatment": "The goal is a stable functional and aesthetic result. Mild cases: composite build-ups or veneers to narrow the spaces, or accept the spacing [1]. Severe cases: combined orthodontic and restorative approach to consolidate and localise spaces for implants or bridgework [1].",
       "prognosis": "Purely orthodontic closure tends to relapse without indefinite retention. The more durable route in generalised spacing from hypodontia/microdontia is a combined approach integrating restorative treatment [1].",
       "citations": [
-        { "id": 1, "quote": "Generalised spacing: This is due either to hypodontia or small teeth &/or large jaws. Note that hypodontia is associated with small teeth. Rx of spacing is problematic; a purely orthodontic approach is liable to relapse and requires prolonged retention. In milder cases, it may be wiser to build up the teeth if small or accept the spacing. In more severe cases, a combined restorative/orthodontic approach to localize space for the provision of prostheses or implants may be required. Spacing: Uncommon in the UK; crowding is the norm.", "paragraph": 2238, "source": "Oxford Handbook · paragraphs 2238–2239" }
+        {
+          "id": 1,
+          "quote": "Generalised spacing: This is due either to hypodontia or small teeth &/or large jaws. Note that hypodontia is associated with small teeth. Rx of spacing is problematic; a purely orthodontic approach is liable to relapse and requires prolonged retention. In milder cases, it may be wiser to build up the teeth if small or accept the spacing. In more severe cases, a combined restorative/orthodontic approach to localize space for the provision of prostheses or implants may be required. Spacing: Uncommon in the UK; crowding is the norm.",
+          "paragraph": 2238,
+          "source": "Oxford Handbook · paragraphs 2238–2239"
+        }
       ]
     },
     {
@@ -1198,7 +1603,12 @@
       "treatment": "The goal is to resolve the acute episode and plan definitive management. Irrigate under the operculum with saline or chlorhexidine [1]. Remove the opposing upper 8 to eliminate occlusal trauma [1]. Antibiotics if systemic signs are present — the same regimen as for a dental abscess [1]. Definitive: nearly all third molars associated with pericoronitis need removal [1].",
       "prognosis": "Pericoronitis recurs unless the third molar is removed. Acute episodes settle with conservative management, but without extraction the condition recurs. Spreading infection from pericoronitis can become a fascial space emergency — watch for trismus, systemic upset, and dysphagia.",
       "citations": [
-        { "id": 1, "quote": "Pericoronitis is inflammation and infection of a gum flap (operculum) overlying a partially erupted tooth, usually an 8– often traumatized by an overerupted 8. Rx: involves removal of the opposing 8, irrigation under the operculum with saline or chlorhexidine, and antibiotics (as for abscess) if necessary. Nearly all third molars associated with pericoronitis need removal.", "paragraph": 5730, "source": "Oxford Handbook · paragraph 5730" }
+        {
+          "id": 1,
+          "quote": "Pericoronitis is inflammation and infection of a gum flap (operculum) overlying a partially erupted tooth, usually an 8– often traumatized by an overerupted 8. Rx: involves removal of the opposing 8, irrigation under the operculum with saline or chlorhexidine, and antibiotics (as for abscess) if necessary. Nearly all third molars associated with pericoronitis need removal.",
+          "paragraph": 5730,
+          "source": "Oxford Handbook · paragraph 5730"
+        }
       ]
     },
     {
@@ -1213,7 +1623,12 @@
       "treatment": "Gently irrigate the socket and dress the exposed bone with Alvogyl®, BIPP, or ZOE packs — these provide remarkable analgesia but are difficult to remove [1]. Topical metronidazole is an alternative [1]. Chlorhexidine and/or hot salt mouthwashes may help [1]. NSAIDs are the systemic analgesic of choice [1]. Prophylactic use of anaerobic-targeted antibiotics such as metronidazole reduces the incidence of dry socket [1].",
       "prognosis": "Self-limiting condition — bone gradually re-epithelialises over 2–4 weeks. The main impact is patient discomfort in the short term. Dressings provide symptomatic relief while healing occurs [1].",
       "citations": [
-        { "id": 1, "quote": "Dry socket is osteitis of a socket following tooth removal. It is commonest in the mandible after removal of molars, especially 8–. Predisposing factors are smoking, surgical trauma, LA, history, bone disease, oral contraceptives, or immunodeficiency. Diagnosis: Pain onset after (usually 2–4 days) extraction, similar in nature but worse than the preceding toothache. The socket looks inflamed and exposed bone is usually visible. Rx is to gently clean the socket by irrigation and dress the exposed bone with Alvogyl®, BIPP, or ZOE packs (provide remarkable analgesia but are a horror to remove). Topical metronidazole is an alternative. Chlorhexidine &/or hot salt mouthwashes may help. NSAIDs are the systemic analgesic of choice. Prophylactic anaerobicidals such as metronidazole reduce the incidence of this condition.", "paragraph": 5732, "source": "Oxford Handbook · paragraphs 5732–5734" }
+        {
+          "id": 1,
+          "quote": "Dry socket is osteitis of a socket following tooth removal. It is commonest in the mandible after removal of molars, especially 8–. Predisposing factors are smoking, surgical trauma, LA, history, bone disease, oral contraceptives, or immunodeficiency. Diagnosis: Pain onset after (usually 2–4 days) extraction, similar in nature but worse than the preceding toothache. The socket looks inflamed and exposed bone is usually visible. Rx is to gently clean the socket by irrigation and dress the exposed bone with Alvogyl®, BIPP, or ZOE packs (provide remarkable analgesia but are a horror to remove). Topical metronidazole is an alternative. Chlorhexidine &/or hot salt mouthwashes may help. NSAIDs are the systemic analgesic of choice. Prophylactic anaerobicidals such as metronidazole reduce the incidence of this condition.",
+          "paragraph": 5732,
+          "source": "Oxford Handbook · paragraphs 5732–5734"
+        }
       ]
     },
     {
@@ -1228,7 +1643,548 @@
       "treatment": "The goal is to preserve the bridge if the failure is localised and manageable [1]. RCT through the retainer of the abutment crown is often possible and avoids bridge removal [1]. Before removing and replacing the bridge, a careful analysis of all reasons for failure is needed — minor problems should be repaired rather than replaced [1]. Secondary caries or marginal deficiencies, if small, can be restored with GIC [1]. Fractured porcelain can be repaired with specialist repair kits such as CoJet™ [1].",
       "prognosis": "Depends on the extent of the problem and the feasibility of endodontic access through the retainer. Successful RCT through the retainer allows the bridge to be retained. If the abutment cannot be treated through the retainer, the bridge must be removed — and the question then becomes whether the abutment is restorable at all [1].",
       "citations": [
-        { "id": 1, "quote": "Problems with abutment teeth, e.g. 2° caries, periodontal disease, loss of vitality. Before replacement of a bridge is embarked upon, a careful analysis of the reasons for failure is necessary. Minor problems in an otherwise satisfactory bridge should be repaired if at all possible. Fractured porcelain can be repaired with one of the specialized repair kits available (e.g. CoJet™). 2° caries or marginal deficiencies, if small, can be restored with traditional GIC. Failure may be due to loss of vitality. This is not necessarily an indication for removal of the bridge because RCT can often be carried out through the retainer of the abutment.", "paragraph": 4238, "source": "Oxford Handbook · paragraphs 4238–4245" }
+        {
+          "id": 1,
+          "quote": "Problems with abutment teeth, e.g. 2° caries, periodontal disease, loss of vitality. Before replacement of a bridge is embarked upon, a careful analysis of the reasons for failure is necessary. Minor problems in an otherwise satisfactory bridge should be repaired if at all possible. Fractured porcelain can be repaired with one of the specialized repair kits available (e.g. CoJet™). 2° caries or marginal deficiencies, if small, can be restored with traditional GIC. Failure may be due to loss of vitality. This is not necessarily an indication for removal of the bridge because RCT can often be carried out through the retainer of the abutment.",
+          "paragraph": 4238,
+          "source": "Oxford Handbook · paragraphs 4238–4245"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-055",
+      "description": "A tooth with a history of trauma or caries shows no visible canal on periapical radiograph. Root canal treatment is now needed because the pulp has died.",
+      "conditionName": "Sclerosed / obliterated root canal",
+      "prevalence": "uncommon",
+      "etiology": "Canal obliteration follows pulpal injury — typically trauma or deep caries — that stimulates tertiary dentine deposition, progressively narrowing and eventually occluding the canal space. The thing is, the pulp doesn't always die: only 13–16% of obliterated canals go on to pulp necrosis [1]. So the canal may be sclerosed without the tooth being in trouble. It only becomes a clinical problem when necrosis does occur and treatment is now needed through calcified tissue.",
+      "presentation": "The tooth is often asymptomatic until pulp death triggers apical periodontitis. On examination it may be discoloured, with a history of trauma or repeated restorations. The patient presents when the tooth becomes tender to bite on or a sinus appears, at which point the clinician must attempt RCT through calcified tissue.",
+      "results": "Radiograph shows a canal that appears hairline or is not detectable on the PA. Sensibility testing is negative once pulp is necrotic. Periapical changes (radiolucency, loss of lamina dura) may be present if necrosis has established periapical periodontitis.",
+      "definingCharacteristics": "What makes this distinct is the combination of a radiographically absent canal and a clinical need for RCT because of pulp necrosis. The question is: can the canal be found? Magnification, illumination, and EDTA lubricants are the tools [1]. Success rates of 80% have been reported even for canals that were hairline or undetectable on radiographs [1].",
+      "treatment": "Locate the canal orifice with careful exploration using a small file, a small round bur, or ultrasonic tips, aided by magnification and illumination [1]. Once the orifice is found, negotiate with a no. 8 or 10 file using EDTA-containing File-Eze®, Glyde™, or RC Prep™ as lubricant, then prepare and fill conventionally [1]. If a total blockage is encountered, fill to the level reached and consider periradicular surgery [1].",
+      "prognosis": "Success rates of 80% have been reported for canals that were hairline or undetectable on radiographs [1]. If the canal cannot be negotiated, periradicular surgery is the fallback [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "As the incidence of pulp necrosis following canal obliteration is only 13–16%, elective RCT is not warranted. However, where pulp death has occurred, finding the canal orifice may be difficult. If careful exploration with a small file is unsuccessful, investigation of the expected position of the canal entrance with a small round bur or ultrasonic tips, aided by magnification and illumination, may help. Once the canal is found, a no. 8 or 10 file should be used to try and negotiate it, using EDTA-containing File-Eze®, Glyde™, or RC Prep™ as a lubricant, and the canal prepared and filled conventionally. Success rates of 80% have been reported for canals that were hairline or undetectable on radiographs. Occasionally, a total blockage of the canal is encountered, in which case the filling is placed to this level &/or periradicular surgery done.",
+          "paragraph": 5155,
+          "source": "Oxford Handbook · paragraph 5155"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-056",
+      "description": "Calcified deposits are visible inside the pulp space on radiograph. Encountered during root canal access or investigation of pulpal symptoms.",
+      "conditionName": "Pulp stones (denticular calcifications)",
+      "prevalence": "common",
+      "etiology": "Pulp stones are calcified masses within the pulp chamber or root canals. They are a common incidental radiographic finding and are not in themselves a sign of pathology. The clinical significance is practical: they can obstruct access to the root canal orifice during endodontic treatment.",
+      "presentation": "Usually asymptomatic and discovered incidentally on bitewing or PA radiograph. Occasionally identified during endodontic access when a file fails to pass the pulp chamber floor. The patient has no symptoms attributable to the pulp stone itself.",
+      "results": "Radiograph shows radiopaque bodies within the pulp chamber or along the root canal. Sensibility testing reflects the pulpal status independent of the stone. No percussion or palpation tenderness attributable to the stone.",
+      "definingCharacteristics": "The distinction from canal obliteration is that pulp stones are discrete radio-opaque foci rather than diffuse narrowing. In the chamber they can be dislodged; in the canal they require EDTA and file work [1]. The stone does not itself cause symptoms — the indication for treatment is endodontic disease, not the stone.",
+      "treatment": "Pulp stones in the pulp chamber can usually be flicked out [1]. If they occur in the canal, use EDTA and a small file to dislodge them [1]. The goal is to clear the obstruction and allow normal canal instrumentation.",
+      "prognosis": "Once dislodged, the canal can be instrumented and filled normally. No particular adverse prognosis attributable to pulp stones per se.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Pulp stones in the pulp chamber can usually be flicked out. If they occur in the canal, use EDTA and a small file to dislodge them.",
+          "paragraph": 5157,
+          "source": "Oxford Handbook · paragraph 5157"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-057",
+      "description": "A file snaps inside the root canal during instrumentation. The broken fragment cannot be removed by simply repeating the filing motion.",
+      "conditionName": "Endodontic instrument fracture",
+      "prevalence": "uncommon",
+      "etiology": "Instrument fracture during root canal preparation is an iatrogenic complication. The outcome depends on root canal anatomy, the type and design of the fractured instrument, and the location of the fractured portion within the canal [1]. A fragment near the apex in a curved canal is the hardest scenario; a coronal fragment in a straight canal is more manageable.",
+      "presentation": "The clinician notices resistance or loss of length feedback during instrumentation, or discovers the shortened instrument on a check radiograph. The patient has no specific symptoms from the fractured fragment itself. The concern is whether the fragment blocks the canal and prevents adequate debridement.",
+      "results": "Check radiograph shows a radio-opaque fragment within the canal at a specific level. The location — coronal, middle, or apical third — and the canal curvature together determine the management options [1].",
+      "definingCharacteristics": "The fragment may be bypassed without removal in many cases [1]. What makes removal difficult is access: the apical third of a curved canal leaves almost no room to work. So the decision between bypass, attempt at retrieval, obturation short of the fragment, and periradicular surgery as a last resort all hinge on fragment position and canal anatomy [1].",
+      "treatment": "The fractured file may be bypassed [1]. If retrieval is possible: attempt to pull out with fine Steiglitz forceps [1]. If not, insert a fine file beside the instrument or use ultrasonic tips at low power to create a staging platform and dislodge it [1]. A Masseran kit may be required but these weaken root dentine [1]. If the fragment is in the apical portion, fill the canal coronal to it and keep under observation; resort to periradicular surgery as a last-ditch solution [1].",
+      "prognosis": "Many fractured instruments can be bypassed or removed. When apically lodged and unremovable, filling coronal to the fragment and observing is a legitimate approach [1]. Periradicular surgery remains available if periapical pathology develops.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The success of removal depends on root canal anatomy and type and design of the # instrument and location of the # portion. The fractured file may be bypassed. Sometimes it is possible to pull out the # portion with a pair of fine Steiglitz forceps. If not, insertion of a fine file beside the instrument or ultrasonic tips to create a staging platform used at a low power setting may dislodge it. Otherwise, a Masseran kit (…… Removing old posts and cores, p. 266) may be required but these weaken the root dentine. Should the # piece be lodged in the apical portion of the canal it may be better to fill the canal coronal to it and keep it under observation, resorting to periradicular surgery as a last-ditch solution.",
+          "paragraph": 5159,
+          "source": "Oxford Handbook · paragraph 5159"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-058",
+      "description": "A communication between the root canal and the periodontium or oral cavity occurs during or after root canal treatment, either as an iatrogenic error or due to resorption.",
+      "conditionName": "Root canal perforation",
+      "prevalence": "uncommon",
+      "etiology": "Perforations can be iatrogenic — from misdirected access or over-preparation — or caused by resorption [1]. The consequences depend on size and position. Small perforations in favourable positions can often be sealed; large or apically placed perforations may require surgery or multirooted tooth modification [1].",
+      "presentation": "Suspected intra-operatively when there is sudden haemorrhage into the canal not accounted for by pulpal tissue, or post-operatively when periapical symptoms persist or a sinus develops adjacent to the root rather than at the apex. Radiographic confirmation with a file placed to the suspected level establishes the site.",
+      "results": "Radiograph with a file in situ shows the instrument exiting the canal at a lateral position. Bleeding from a non-pulpal source during access or canal preparation is a key intra-operative signal. Post-operatively, a sinus or periradicular radiolucency at a lateral position rather than the apex points to a perforation.",
+      "definingCharacteristics": "Location within the canal determines treatment options. Pulp chamber floor perforations — if small — can be covered with MTA or a bioceramic material; if large, hemisection or extraction may be necessary [1]. Lateral perforations near the gingival margin can be incorporated in the final restoration [1]. Middle-third lateral perforations can be managed by passing instruments down the opposite wall and filling with lateral compaction technique [1]. Apical third perforations usually warrant a vertical compaction technique or periradicular surgery [1].",
+      "treatment": "For resorption-related perforations: dress with non-setting calcium hydroxide to arrest resorption and promote a calcific barrier [1]. MTA or bioceramic material is the repair material of choice with excellent results [1].\n\nHere's the sequence by location:\n\n- **Pulp chamber floor**: small — cover with MTA or bioceramic; large — consider hemisection or extraction [1].\n- **Lateral (gingival margin)**: incorporate in the final restoration [1].\n- **Lateral (middle third)**: instrument down the opposite wall, fill with lateral compaction [1]; larger perforations may need a surgical approach [1].\n- **Apical third**: attempt vertical compaction to fill both perforation and remainder of canal; if unsuccessful, periradicular surgery [1].",
+      "prognosis": "MTA repair of perforations carries excellent results [1]. Large or infected perforations in multirooted teeth carry a guarded prognosis and may lead to tooth loss.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "These can be iatrogenic or caused by resorption. In the latter case, dressing with non-setting calcium hydroxide may help to arrest the resorption and promote formation of a calcific barrier. Increasingly, MTA is being used for the repair of perforations and in surgical endodontics as a retrograde filling material with excellent results. Management of traumatic perforations depends upon their size and position: Pulp chamber floor—if small, can cover with MTA or a bioceramic material, but if large, hemisection or extraction may be necessary. MTA can also be used. Lateral perforation—if near the gingival margin, can be incorporated in the final restoration, e.g. a diaphragm post and core crown. If in the middle third, the remainder of the canal may be cleaned by passing instruments down the side of the wall opposite the perforation. Then the canal can be filled with GP, using a lateral compaction technique to occlude the perforation as well. Larger perforations may require a surgical approach and in multirooted teeth hemisection or extraction may be unavoidable. Apical third—it is usually worth trying a vertical compaction technique to attempt to fill both the perforation and the remainder of the canal. If this is unsuccessful, periradicular surgery will be required.",
+          "paragraph": 5166,
+          "source": "Oxford Handbook · paragraphs 5166–5170"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-059",
+      "description": "Symptoms persist or return months to years after root canal treatment that appeared technically adequate at the time.",
+      "conditionName": "Persistent / recurrent periapical periodontitis after root canal treatment",
+      "prevalence": "uncommon",
+      "etiology": "Following RCT the ideal outcome is prevention or resolution of periapical periodontitis and absence of clinical signs and symptoms [1]. In some cases, however, periapical periodontitis will persist, develop, or recur [1]. Three factors dominate the outcome: the pre-treatment periapical status, the quality and length of the root canal filling, and the quality of the coronal restoration [2][3].",
+      "presentation": "The patient returns with tenderness on biting, a persistent or re-appearing sinus, or a periapical radiolucency found on routine follow-up. The tooth was previously root-treated and restored. Symptoms may be subtle — just a low-grade TTP — or may escalate to an acute flare.",
+      "results": "Radiograph shows a persistent or enlarging periapical radiolucency, or one that fails to show the expected reduction in size at one-year review [1]. Outcome is most favourable — up to 95% — when there was no pre-treatment radiolucency and the RCF is well compacted within 2mm of the radiographic apex [2]. Pre-existing lesions do better when smaller (<5mm) [2].",
+      "definingCharacteristics": "The practical framework: absence of clinical signs and symptoms plus a decrease in size of the apical area is acceptable as success [1]. It is more pragmatic now to consider this as tooth survival rather than strict 'success/failure' [1]. What drives reassessment is a lesion that is not reducing, or new symptoms in a previously treated tooth.",
+      "treatment": "Reassess the three prognostic factors. Options range from monitoring a small asymptomatic lesion, to orthograde re-treatment (removing the old root filling and re-preparing and re-obturating), through to periradicular surgery if orthograde re-treatment is not possible or has already failed. The quality of the coronal restoration must be addressed alongside the endodontics [3].",
+      "prognosis": "Pre-treatment outcome data: no pre-treatment radiolucency — outcome up to 95% favourable [2]. With a pre-existing lesion, smaller lesions do better [2]. A well-compacted RCF within 2mm of the radiographic apex is the technical target [2]. Quality of coronal restoration is the third determinant [3].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Following RCT the ideal outcome is prevention or resolution of periapical periodontitis and absence of clinical signs and symptoms. In some cases, however, periapical periodontitis will persist, develop, or recur. Previously, the terms ‘success and ‘failure’ were used. It may be more pragmatic to consider that the absence of clinical signs and symptoms and a ↓ in size of any apical area be deemed acceptable. Considering this as tooth survival (having an asymptomatic functional tooth) is more in line with the criteria used to judge the outcome of implant placement.",
+          "paragraph": 5199,
+          "source": "Oxford Handbook · paragraphs 5198–5199"
+        },
+        {
+          "id": 2,
+          "quote": "Pre-treatment status of the periapical tissues—if there is no pre-treatment radiolucency, outcome is more favourable and can be up to 95%. If there is a lesion, outcome is more favourable for smaller (<5mm) lesions. Quality and length of RCF—outcome is more favourable if well compacted and reaches within 2mm of the radiographic apex.",
+          "paragraph": 5201,
+          "source": "Oxford Handbook · paragraphs 5201–5202"
+        },
+        {
+          "id": 3,
+          "quote": "Quality of coronal restoration.",
+          "paragraph": 5203,
+          "source": "Oxford Handbook · paragraph 5203"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-060",
+      "description": "A cyst discovered on periapical radiograph at the root apex of a tooth with a necrotic pulp or a previously root-treated tooth.",
+      "conditionName": "Radicular (inflammatory) cyst",
+      "prevalence": "common",
+      "etiology": "Radicular cysts are the commonest type of dental cyst. They are inflammatory dental cysts — the stimulus is a necrotic pulp, and the cyst epithelium comes from cell rests of Malassez in the PDL [1]. They can arise apically, laterally (at a lateral root canal), or as a residual cyst left behind after extraction [1].",
+      "presentation": "Usually asymptomatic and discovered as an incidental finding on routine periapical or bitewing radiograph. The associated tooth is non-vital. A slow-expanding painless swelling of the jaw may be the first sign if the cyst grows large. An acute episode of pain and swelling can occur if the cyst becomes infected.",
+      "results": "Radiograph shows a well-defined periapical radiolucency at the root apex of a non-vital tooth. Sensibility testing is negative. The cyst cannot be reliably distinguished from a periapical granuloma on plain radiograph — only histology makes the distinction [1].",
+      "definingCharacteristics": "What sets the radicular cyst apart from other jaw cysts is its strict association with a non-vital tooth [1]. The interesting bit: granulomas and cysts look identical on plain X-ray. The treatment is the same — enucleation plus endodontics or extraction — so the distinction matters for histological understanding more than immediate clinical decision-making [1].",
+      "treatment": "Enucleation plus endodontics or extraction of the causative tooth [1]. Always submit the cyst lining for histopathology [2].",
+      "prognosis": "With definitive treatment (enucleation and root canal treatment or extraction), prognosis is good. Recurrence is uncommon when the cyst is fully enucleated.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "These are very common, and may also be called radicular cysts. Described as apical or lateral depending on position in relation to tooth root, or residual if left behind after tooth extraction. Necrotic pulp is the stimulus, and the epithelium comes from cell rests of Malassez. Rx: enucleation plus endodontics or extraction.",
+          "paragraph": 5829,
+          "source": "Oxford Handbook · paragraph 5829"
+        },
+        {
+          "id": 2,
+          "quote": "Always submit cyst lining for histopathology.",
+          "paragraph": 5825,
+          "source": "Oxford Handbook · paragraph 5825"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-061",
+      "description": "Multiple small tooth-like structures, or a disorganised mass of dental hard tissues, discovered on radiograph — often associated with failure of eruption of a permanent tooth.",
+      "conditionName": "Odontome (compound or complex)",
+      "prevalence": "uncommon",
+      "etiology": "Odontomes are not true neoplasms. They are malformations of dental hard tissues [1]. Compound odontomes consist of multiple small tooth-like structures in a fibrous sac; complex odontomes are a congealed, irregular mass of dental hard tissue [1]. Both represent developmental errors in tooth morphogenesis rather than neoplastic growth.",
+      "presentation": "Frequently discovered incidentally on radiograph taken for delayed eruption or routine survey. May prevent eruption of the underlying permanent tooth. Larger lesions can produce painless jaw expansion. The patient has no pain or specific complaint unless an infection has supervened.",
+      "results": "Radiograph shows the characteristic pattern: multiple small tooth-like opacities (compound) or an irregular calcified mass (complex), usually within the crown-forming area of an unerupted tooth. The surrounding bony margins are well-defined.",
+      "definingCharacteristics": "These are best regarded and treated as unerupted, malpositioned, or impacted teeth [1]. The clinical approach mirrors dento-alveolar surgery for impacted teeth, not tumour surgery. The key distinction from a neoplasm is the well-defined border and the dental hard-tissue composition.",
+      "treatment": "Remove using standard dento-alveolar techniques when required [1]. Post-removal, the associated tooth may erupt if conditions allow, or may need surgical exposure and orthodontic traction.",
+      "prognosis": "Good. After removal of the odontome, prognosis for eruption of the retained tooth depends on the tooth's position and developmental stage at the time of treatment.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "These are not true neoplasms, but malformations of dental hard tissues. Classically, they are classified as compound when they are multiple small ‘teeth’ in a fibrous sac, and complex when they are a congealed irregular mass of dental hard tissue. These are best regarded and treated as unerupted, malpositioned, or impacted teeth, and removed using standard dento-alveolar techniques when required (…… Dento-alveolar surgery: removal of unerupted teeth, p. 394).",
+          "paragraph": 5869,
+          "source": "Oxford Handbook · paragraph 5869"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-062",
+      "description": "Smooth, cupped-out erosion on the palatal surfaces of upper front teeth in a young woman. No obvious dietary source of acid. Possible history of vomiting or weight concerns.",
+      "conditionName": "Perimolysis / tooth erosion in eating disorder (anorexia nervosa / bulimia nervosa)",
+      "prevalence": "uncommon",
+      "etiology": "Binge-eating followed by vomiting or laxative abuse is the mechanism in bulimia nervosa [1]. Repeated exposure of tooth surfaces to gastric acid produces the erosion pattern. Bingeing without weight loss is bulimia nervosa; anorexia nervosa additionally involves weight loss of more than 25% of ideal body weight and obsessive food avoidance [1]. Both have significant medical implications beyond dentistry.",
+      "presentation": "Palatal erosion of upper incisors is the characteristic dental finding — gastric acid bathes the palatal surfaces of upper teeth during vomiting. The patient may not volunteer a history of vomiting, and the eating disorder may not yet be diagnosed. Questioning must be sensitive. The interesting bit: this presentation may be the first clinical alert to an underlying eating disorder.",
+      "results": "Smooth perimolysis-pattern erosion — cupped surfaces, palatal tooth loss, exposed dentine, proud amalgam restorations relative to the eroded enamel. Hypersensitivity may be reported. The intrinsic acid pattern affects palatal surfaces of upper anteriors and occlusal/buccal of lower molars [2].",
+      "definingCharacteristics": "What distinguishes eating-disorder erosion from dietary erosion is the pattern: palatal surfaces of upper anteriors and occlusal/buccal of lower molars are the intrinsic acid targets [2], while dietary erosion classically affects labial surfaces of upper anteriors. The social history and the palatal predominance together point to the intrinsic source.",
+      "treatment": "These conditions warrant referral [2]. Dental management addresses the erosion — preventive measures, monitoring, and restorative intervention when dentine exposure causes symptoms or aesthetic concern. The priority is appropriate medical and psychological management of the eating disorder [1].",
+      "prognosis": "The underlying condition has a significant mortality rate [1]. Dental prognosis depends on the stage of erosion at presentation and whether the vomiting cycle can be interrupted. With medical management of the underlying disorder, erosion can be arrested and restored.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is the development of weight reduction as an overvalued idea. Associated with weight ↓ of >25% of ideal body weight and obsessive food avoidance. Commonest in females, it is also associated with amenorrhea. Has a significant mortality rate; binge-eating followed by vomiting &/or laxative abuse can occur. Bingeing without weight loss is bulimia nervosa. Dental effects, …… Erosion, p. 252.",
+          "paragraph": 7592,
+          "source": "Oxford Handbook · paragraph 7592"
+        },
+        {
+          "id": 2,
+          "quote": "Acid from stomach due to gastro-oesophageal reflux, vomiting in relation to eating disorder (…… Anorexia nervosa/bulimia nervosa, p. 555), pregnancy, stress, or rumination. Such conditions warrant referral. Affects palatal surfaces of ULS and occlusal/buccal of lower molars.",
+          "paragraph": 3792,
+          "source": "Oxford Handbook · paragraph 3792 (intrinsic erosion)"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-063",
+      "description": "Progressive smooth palatal erosion on upper teeth, sometimes accompanied by dyspepsia, chronic sore throat, or cough. No obvious dietary acid source.",
+      "conditionName": "GORD-related dental erosion (gastro-oesophageal reflux disease)",
+      "prevalence": "common",
+      "etiology": "Gastro-oesophageal reflux — regurgitation of gastric acid — is an intrinsic source of dental erosion. The same pattern as eating-disorder erosion is produced, but without vomiting behavior. GORD is a common cause of dyspepsia, sore throat, cough, and bad taste [1]. It may be entirely silent from the patient's perspective, with dental erosion as the presenting sign.",
+      "presentation": "What you'll typically hear: episodic heartburn, a sour taste, chronic sore throat, or morning hoarseness. Sometimes nothing dental-specific — the patient attends for a check-up and the erosion is found. Palatal erosion of upper incisors is the dental sign. The reason for the palatal pattern is that the refluxate pools on the palatal aspect of the upper teeth during or after reflux episodes.",
+      "results": "Smooth erosion predominantly on the palatal surfaces of upper anterior teeth, with possible involvement of occlusal surfaces of molars. Exposed dentine may trigger sensitivity. The pattern is intrinsic (palatal and occlusal) rather than extrinsic (labial) [2].",
+      "definingCharacteristics": "GORD-related erosion shares the intrinsic acid pattern with eating-disorder erosion, but the history distinguishes them: no vomiting behavior, possible dyspepsia symptoms, and often a middle-aged or older patient rather than the young woman with weight concerns. Both warrant referral for the underlying condition [2].",
+      "treatment": "These conditions warrant referral [2]. Dental preventive measures: fluoride protection and avoid toothbrushing immediately after a reflux episode. Restorative management for sensitivity or aesthetics as required. Medical management of GORD reduces the acid load.",
+      "prognosis": "With medical management of GORD, dental erosion can be arrested. Existing tooth loss is irreversible; restorative management can replace lost tissue. Patients with ongoing reflux require monitoring for erosion progression.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Reflux oesophagitis is a common cause of dyspepsia, sore throat, cough, and bad taste.",
+          "paragraph": 7273,
+          "source": "Oxford Handbook · paragraph 7273"
+        },
+        {
+          "id": 2,
+          "quote": "Acid from stomach due to gastro-oesophageal reflux, vomiting in relation to eating disorder (…… Anorexia nervosa/bulimia nervosa, p. 555), pregnancy, stress, or rumination. Such conditions warrant referral. Affects palatal surfaces of ULS and occlusal/buccal of lower molars.",
+          "paragraph": 3792,
+          "source": "Oxford Handbook · paragraph 3792 (intrinsic erosion)"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-064",
+      "description": "Electric shock sensation or worsening ache along the lower jaw that increases during the day and decreases overnight. Patient wears a lower denture on a very resorbed ridge.",
+      "conditionName": "Mental nerve compression by denture",
+      "prevalence": "uncommon",
+      "etiology": "Following alveolar resorption, the mental foramen migrates toward the ridge crest and the mental nerve may lie directly under the denture flange rather than protected within bone [1]. The denture compresses the nerve throughout the day — so the pain is worst after prolonged wear and lessens overnight when the denture is removed [1].",
+      "presentation": "What you'll hear: an electric-shock sensation or a background ache that builds through the day and settles overnight [1]. Leaving the lower denture out for several days reduces the pain [1]. The patient has usually worn the denture for years with gradual worsening as the ridge resorbs further.",
+      "results": "Clinical examination reveals a very resorbed lower ridge with the mental foramen at or near the ridge crest. Pressure over the foramen area reproduces the characteristic sensation. Radiograph shows the foramen close to or at the alveolar crest.",
+      "definingCharacteristics": "The pattern of daytime-loading pain that falls overnight is the defining feature [1]. The relief from leaving the denture out for several days is both diagnostic and therapeutic [1]. So the history alone often clinches the diagnosis before any examination is needed.",
+      "treatment": "Short-term: advise the patient to leave the denture out for several days to confirm the diagnosis and provide relief [1]. Definitive: relieve the denture flange over the mental foramen, or rebase the denture to redistribute load. If this fails, mental nerve repositioning creates a new foramen under the current position, or the nerve is laterally transposed into soft tissues in grossly atrophic mandibles [1]. Piezosurgery is useful here as using this tool to remove bone may be less likely to cause nerve damage [1].",
+      "prognosis": "Denture modification or relining often resolves the problem. Surgical repositioning is effective but reserved for cases where conservative management fails [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Mental nerve compression by a denture flange following alveolar resorption is a common problem, producing a sensation like an electric shock but with a background ache which ↑ during the day and ↓ overnight. Leaving the −/F out for several days ↓ the pain. The mental nerve is repositioned by creating a new foramen under its present position or laterally transposing the entire nerve into the soft tissues in grossly atrophic mandibles. Peizosurgery is useful here as using this tool to remove bone may be less likely to cause nerve damage.",
+          "paragraph": 6834,
+          "source": "Oxford Handbook · paragraph 6834"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-065",
+      "description": "Delayed eruption and abnormal tooth structure in a child with skeletal deformity, leg bowing, or a history of nutritional deficiency.",
+      "conditionName": "Rickets (oral and dental effects)",
+      "prevalence": "rare",
+      "etiology": "Rickets is failure of bone mineralisation in children (the adult equivalent is osteomalacia). The cause is deficiency, failure of synthesis, malabsorption, or impaired metabolism of vitamin D, and also hypophosphataemia or increased calcium requirement in pregnancy [1]. Among the systemic causes of delayed tooth eruption, rickets is listed alongside hereditary gingival fibromatosis, Down syndrome, Gardner syndrome, hypothyroidism, and cleidocranial dysostosis [2].",
+      "presentation": "The dental presentation is delayed eruption in the context of systemic features of rickets: skeletal deformity, leg bowing, growth retardation. Vitamin D-resistant rickets is additionally associated with dentinal abnormalities including dentinal dysplasia [3].",
+      "results": "Radiograph shows delayed development of tooth germs and delayed eruption. Enamel and dentine quality may be affected in vitamin D-resistant rickets. The systemic skeletal picture provides the diagnostic context.",
+      "definingCharacteristics": "The distinction from isolated delayed eruption is the systemic context: bone deformity or a known diagnosis of vitamin D deficiency. Vitamin D-resistant rickets belongs to a small group of conditions causing dentinal abnormalities including dentinogenesis imperfecta and dentinal dysplasias [3].",
+      "treatment": "Manage the dental consequences — delayed eruption and any dentinal abnormalities. The underlying vitamin D deficiency or metabolic disorder requires medical management; refer to the appropriate team for the systemic condition.",
+      "prognosis": "Depends on the underlying cause and timing of medical treatment. With correction of vitamin D status, mineralisation normalises but existing dental structural defects are permanent.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Failure of bone mineralization in, respectively, children and adults. Can be caused by deficiency, failure of synthesis, malabsorption, or impaired metabolism of vitamin D, and also hypophosphataemia or ↑ Ca2+ requirement in pregnancy.",
+          "paragraph": 7403,
+          "source": "Oxford Handbook · paragraph 7403"
+        },
+        {
+          "id": 2,
+          "quote": "Hereditary gingival fibromatosis, Down syndrome, Gardner syndrome, hypothyroidism, cleidocranial dysostosis, and rickets.",
+          "paragraph": 1148,
+          "source": "Oxford Handbook · paragraph 1148 (systemic causes of delayed eruption)"
+        },
+        {
+          "id": 3,
+          "quote": "These include dentinogenesis imperfecta, dentinal dysplasias (types I and II), regional odontodysplasia, vitamin D-resistant rickets, and Ehlers–Danlos syndrome—all of which are rare.",
+          "paragraph": 1241,
+          "source": "Oxford Handbook · paragraph 1241 (dentine developmental anomalies)"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-066",
+      "description": "Jaw pain or an incidental bone lesion found on dental radiograph in a patient with chronic renal disease, on dialysis, or post-transplant.",
+      "conditionName": "Renal osteodystrophy (chronic kidney disease — oral and jaw manifestations)",
+      "prevalence": "rare",
+      "etiology": "Chronic kidney disease produces progressive renal damage — commonly from glomerulonephritis, pyelonephritis, or polycystic disease — with protean systemic manifestations progressing to multisystem failure [1]. The jaw and dental consequences include bone lesions through renal osteodystrophy and secondary hyperparathyroidism [2]. Dialysis-dependent patients also carry increased infection risk (worsened by immunosuppression), increased bleeding tendency, and reduced drug excretion capacity [3][4].",
+      "presentation": "The patient is known to have chronic kidney disease or is on dialysis or post-transplant. Dental presentation may be jaw pain, jaw expansion, or loosening of teeth from the bony changes. Jaw lesions may alternatively be incidental radiographic findings. Generalised growth impairment may be present in children [2].",
+      "results": "Radiograph shows the jaw bone lesions associated with renal osteodystrophy and secondary hyperparathyroidism. Blood results in the medical history document the degree of renal failure.",
+      "definingCharacteristics": "The key practical rule: veins are sacrosanct in dialysis patients — never use their arteriovenous fistula [5]. That is the most immediately important dental team awareness. The jaw lesions are the oral signal of underlying metabolic bone disease, not a primary jaw pathology. Potential carriage of hepatitis B or HIV warrants cross-infection precautions [6].",
+      "treatment": "Medical management of the renal disease is primary. Dental treatment requires coordination with the renal team: timing around dialysis, caution with drug prescribing given reduced excretion capacity [4], awareness of increased bleeding tendency [3] and infection risk [3]. Never use the arteriovenous fistula [5].",
+      "prognosis": "The jaw bone lesions reflect the systemic metabolic state. Prognosis of the dental manifestations is tied to management of the underlying renal disease.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Basically the onset of uraemia after gradual, but progressive renal damage, commonly caused by glomerulonephritis (inflammation of the glomeruli following immune complex deposits), pyelonephritis (small scarred kidneys due to childhood infection, irradiation, or poisoning), or adult polycystic disease (congenital cysts within Bowman’s capsule). It has protean manifestations, starting with nocturia and anorexia, progressing through hypertension and anaemia to multisystem failure.",
+          "paragraph": 7319,
+          "source": "Oxford Handbook · paragraph 7319"
+        },
+        {
+          "id": 2,
+          "quote": "Bone lesions of the jaws (renal osteodystrophy, 2° hyperparathyroidism). Generalized growth impairment in children.",
+          "paragraph": 7325,
+          "source": "Oxford Handbook · paragraphs 7325–7326"
+        },
+        {
+          "id": 3,
+          "quote": "↑ risk of infection, worsened by immunosuppression. ↑ bleeding tendency.",
+          "paragraph": 7321,
+          "source": "Oxford Handbook · paragraphs 7321–7322"
+        },
+        {
+          "id": 4,
+          "quote": "↓ ability to excrete drugs.",
+          "paragraph": 7323,
+          "source": "Oxford Handbook · paragraph 7323"
+        },
+        {
+          "id": 5,
+          "quote": "Veins are sacrosanct; never use their arteriovenous fistula.",
+          "paragraph": 7324,
+          "source": "Oxford Handbook · paragraph 7324"
+        },
+        {
+          "id": 6,
+          "quote": "Potential carriage of Hep B, HIV.",
+          "paragraph": 7327,
+          "source": "Oxford Handbook · paragraph 7327"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-067",
+      "description": "Progressive jaw enlargement, spacing of teeth, Class III malocclusion, and macroglossia developing in an adult. A pituitary tumour may be known or suspected.",
+      "conditionName": "Acromegaly (oral and jaw manifestations)",
+      "prevalence": "rare",
+      "etiology": "Acromegaly is due to excess growth hormone production after closure of epiphyseal plates [1]. Before epiphyseal closure the same excess produces gigantism [2]. The oral and jaw changes are a direct result of growth hormone driving soft and hard tissue enlargement.",
+      "presentation": "What you'll see: enlargement of the tongue and lips, spacing of the teeth, and an increase in jaw size — particularly the mandible — resulting in a Class III malocclusion [1]. The patient may describe progressive jaw bite changes. Jaw pain is sometimes described [1].",
+      "results": "Clinical examination reveals prognathic mandible, macroglossia, macrocheilia, and tooth spacing [1]. Jaw pain may be present and can respond to treatment of the underlying pituitary tumour [1].",
+      "definingCharacteristics": "The combination of macroglossia, tooth spacing, and mandibular prognathism in an adult with gradual onset points to excess growth hormone. Jaw pain that responds to treatment of the pituitary tumour is a useful pointer [1]. So this is a condition where the dental presentation may direct the diagnosis.",
+      "treatment": "The definitive treatment is trans-sphenoidal hypophysectomy for the pituitary adenoma responsible [1]. Jaw pain can respond to treatment of the growth hormone-secreting tumour [1]. Dental and orthodontic management of the resultant malocclusion is secondary to addressing the endocrine source.",
+      "prognosis": "Tied to the outcome of pituitary tumour management. Jaw size changes and tooth spacing are irreversible once established.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Due to excess growth hormone production after the closure of epiphyseal plates. Oral signs include enlargement of the tongue and lips, spacing of the teeth, and an ↑ in jaw size, particularly the mandible resulting in a Class III malocclusion. Jaw pain is sometimes described, which can respond to Rx of the growth hormone-secreting pituitary tumour responsible for the disease. Rx: trans-sphenoidal hypophysectomy for pituitary adenoma.",
+          "paragraph": 6418,
+          "source": "Oxford Handbook · paragraph 6418"
+        },
+        {
+          "id": 2,
+          "quote": "Excess production of growth hormone, before and after fusion of the epiphyses, respectively.",
+          "paragraph": 7350,
+          "source": "Oxford Handbook · paragraph 7350 (gigantism/acromegaly)"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-068",
+      "description": "Teeth that are abnormally opalescent and wear rapidly. Patient has a history of multiple fractures from minor trauma, blue-tinged sclerae, or deafness.",
+      "conditionName": "Osteogenesis imperfecta with dentinogenesis imperfecta",
+      "prevalence": "rare",
+      "etiology": "Osteogenesis imperfecta is an autosomal dominant type 1 collagen defect [1]. The systemic hallmarks are multiple fractures following slight trauma with rapid but distorted healing, blue sclerae, deafness, and dentinogenesis imperfecta [1]. The collagen defect affects the dentine matrix as well as bone collagen.",
+      "presentation": "Teeth appear opalescent (grey-brown or blue-brown) and wear rapidly because the dentine is structurally abnormal. The patient has a known or suspected systemic diagnosis of osteogenesis imperfecta. The combination of opalescent teeth and a fracture history in a young patient is the picture.",
+      "results": "Radiograph shows the classic dentinogenesis imperfecta pattern: bulbous crowns, constricted cervices, obliterated root canals, and shortened roots. Clinically, the enamel chips away, exposing the weak dentine, which wears rapidly.",
+      "definingCharacteristics": "The reason this matters in general practice: the first presentation may be the opalescent teeth, and the fracture history or blue sclerae may not yet have been formally diagnosed. The jaws are not particularly prone to fractures following extractions [1] — so routine dental extractions can be performed, but the systemic context requires awareness.",
+      "treatment": "Manage the dentinogenesis imperfecta: protective restorations, crowns, or overdentures to prevent further wear. Full mouth rehabilitation is often required in severe cases. Refer to a specialist paediatric dentist for children. No special extraction precautions are required specifically for the jaw fracture risk [1].",
+      "prognosis": "Dentinogenesis imperfecta in osteogenesis imperfecta follows the same course as isolated dentinogenesis imperfecta — teeth are susceptible to rapid wear but can be protected restoratively. The jaws are not particularly prone to fracture following extractions [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "An autosomal dominant type 1 collagen defect. Multiple # following slight trauma with rapid but distorted healing is characteristic. Associated with blue sclera, deafness, and dentinogenesis imperfecta (…… Dentinogenesis imperfecta (hereditary opalescent dentine), p. 72). The jaws are not particularly prone to # following extractions.",
+          "paragraph": 7394,
+          "source": "Oxford Handbook · paragraph 7394"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-069",
+      "description": "Jaw infection that is extremely difficult to eradicate in a patient with unusually dense, sclerotic bone on radiograph. Frontal bossing and hypertelorism may be noted.",
+      "conditionName": "Osteopetrosis (marble bone disease)",
+      "prevalence": "rare",
+      "etiology": "Osteopetrosis involves an increase in bone density and brittleness, and a decrease in blood supply [1]. The reduced vascularity is the key: it makes infection in the jaw extremely difficult to eradicate [1]. Bone pain, fractures, and compression neuropathies may also occur [1]. Anaemia can complicate severe disease [1].",
+      "presentation": "The patient may present with a jaw infection that fails to resolve despite antibiotics and standard surgical drainage, in the context of a known or unknown diagnosis of osteopetrosis. Facial characteristics are frontal bossing and hypertelorism [1].",
+      "results": "Radiograph shows uniformly dense, marble-like bone with obliteration of the normal trabecular pattern. The mandible and maxilla appear sclerotic. In the context of osteomyelitis, the sclerotic bone limits drainage of pus and hinders healing.",
+      "definingCharacteristics": "The reason jaw infection is so hard to treat is the reduced blood supply [1]. Unlike normal osteomyelitis where surgical drainage usually resolves the infection, in osteopetrosis the avascular dense bone resists both infection-fighting and healing. Anaemia from marrow replacement adds to systemic vulnerability [1].",
+      "treatment": "Jaw infection in osteopetrosis requires specialist referral. Pre-operatively, discuss any planned extractions or surgical procedures with the patient's specialist team, given the elevated risk of osteomyelitis.",
+      "prognosis": "Jaw infections in osteopetrosis are prone to chronicity and are difficult to eradicate [1]. The prognosis depends on the severity of the underlying disease and degree of vascular compromise in the bone.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "There is an ↑ in bone density and brittleness, and a ↓ in blood supply. Prone to infection which is difficult to eradicate. Bone pain, #, and compression neuropathies may occur. Anaemia can complicate severe disease. Facial characteristics are frontal bossing and hypertelorism.",
+          "paragraph": 7396,
+          "source": "Oxford Handbook · paragraph 7396"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-070",
+      "description": "Multiple unerupted permanent teeth retained beneath the gum, while primary teeth are still in place well into adulthood. Clavicle hypoplasia may be present.",
+      "conditionName": "Cleidocranial dysostosis (cleidocranial dysplasia)",
+      "prevalence": "rare",
+      "etiology": "Cleidocranial dysostosis is an autosomal dominant defect of membranous bone formation [1][2]. The clavicles are affected (hypoplastic or absent), and the cranial fontanelles show delayed ossification [2]. What makes this most relevant in dentistry is the failure of tooth eruption with multiple supernumerary teeth and retention of the primary dentition [2]. The condition mainly affects membranous bone [2].",
+      "presentation": "The classic dental picture is: multiple unerupted permanent teeth, retention of primary dentition well beyond the normal exfoliation age, and multiple supernumerary teeth [2]. The skull is large and short with frontal and parietal bossing [2]. Shoulder mobility may be unusually wide because of clavicle hypoplasia.",
+      "results": "DPT shows a striking picture: multiple unerupted permanent teeth, often dozens of supernumerary teeth, and persistent primary teeth [2]. Inherent tooth abnormalities are common — dilaceration of roots, crown gemination, hypoplasia of secondary cementum [2]. A high-arched palate or clefting may be present [2].",
+      "definingCharacteristics": "The defining feature is the combination of multiple unerupted permanent teeth, supernumerary teeth, and persistent primary dentition in the context of a syndrome affecting membranous bone [2]. Skull and clavicle involvement separates this from simple hypodontia with retained primaries. Rickets, hypothyroidism, and Down syndrome are the other systemic causes of delayed eruption [3].",
+      "treatment": "Management is complex and multi-disciplinary: staged surgical exposure and extraction of supernumerary teeth to allow eruption or facilitate orthodontic traction of the permanent teeth. Specialist referral to a paediatric dentist and orthodontist is required early.",
+      "prognosis": "With staged surgical and orthodontic management, permanent teeth can often be brought into occlusion, but the treatment is prolonged. Unerupted teeth that cannot be brought into function require long-term monitoring for cyst formation.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "An inherited defect of membranous bone formation, usually autosomal dominant. Skull and clavicles are affected. Multiple unerupted teeth with retention of 1° dentition is characteristic.",
+          "paragraph": 7400,
+          "source": "Oxford Handbook · paragraph 7400"
+        },
+        {
+          "id": 2,
+          "quote": "An autosomal dominant inherited condition consisting of hypoplasia or aplasia of the clavicles, delayed ossification of the cranial fontanelles, and a large, short skull. Associated features are shortness of stature, frontal and parietal bossing, failure to pneumatize the air sinuses, a high-arched palate &/or clefting, mid-face hypoplasia, and failure of tooth eruption with multiple supernumerary teeth. Many of the teeth present have inherent abnormalities such as dilaceration of roots or crown gemination. Hypoplasia of 2° cementum may occur. The condition mainly, though not exclusively, affects membranous bone.",
+          "paragraph": 10460,
+          "source": "Oxford Handbook · paragraph 10460"
+        },
+        {
+          "id": 3,
+          "quote": "Hereditary gingival fibromatosis, Down syndrome, Gardner syndrome, hypothyroidism, cleidocranial dysostosis, and rickets.",
+          "paragraph": 1148,
+          "source": "Oxford Handbook · paragraph 1148 (systemic causes of delayed eruption)"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-071",
+      "description": "A syndrome of dense sclerotic bone on radiograph combined with micrognathia, exophthalmos, dwarfism, and short fingers. Presents rarely for dental or orthognathic assessment.",
+      "conditionName": "Pycnodysostosis",
+      "prevalence": "rare",
+      "etiology": "Pycnodysostosis is characterised by micrognathia with hypoplasia of the mandibular angle, exophthalmos, dwarfism, short fingers, and osteopetrosis [1]. The osteopetrosis component carries the same implications as isolated osteopetrosis: increased bone density and brittleness with reduced blood supply.",
+      "presentation": "The patient presents rarely for orthognathic or orthodontic assessment [1]. The mandibular angle is hypoplastic, giving an abnormal jaw shape. The dense sclerotic bone pattern on radiograph will be noted. The clinician needs awareness of the osteopetrosis component before undertaking any dento-alveolar surgery.",
+      "results": "Radiograph shows dense sclerotic bone (osteopetrotic pattern). The mandibular angle is hypoplastic on clinical and radiographic examination.",
+      "definingCharacteristics": "The reason the osteopetrosis component is clinically important is the infection and healing risk for any jaw surgery or extractions. The combination of the facial dysmorphic features and the dense bone distinguishes pycnodysostosis from isolated osteopetrosis. So the rule here: be aware of the osteopetrosis before any surgical procedure [1].",
+      "treatment": "Be aware of the osteopetrosis [1]. Any dento-alveolar surgery carries an elevated risk of poor healing and infection. Discuss with the patient's specialist team before extractions or surgical procedures.",
+      "prognosis": "Rare presentations. The osteopetrosis component limits surgical options and increases infection risk, as in isolated osteopetrosis.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Micrognathia with hypoplasia of the mandibular angle, exophthalmos, dwarfism, short fingers, and osteopetrosis. Rarely present for orthognathic/orthodontic Rx. Be aware of the osteopetrosis.",
+          "paragraph": 10527,
+          "source": "Oxford Handbook · paragraph 10527"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-072",
+      "description": "Congenitally missing multiple teeth in a child with sparse hair, absent or reduced sweating, and a characteristic saddle nose.",
+      "conditionName": "Hypohydrotic ectodermal dysplasia",
+      "prevalence": "rare",
+      "etiology": "Hypohydrotic ectodermal dysplasia combines hypodontia with lack of hair, lack of sweating, and a saddle nose [1]. The ectodermal defect affects structures derived from ectoderm: teeth (leading to hypodontia), hair follicles, and sweat glands. The result in the mouth is severe hypodontia, and where teeth are present they are often conical in shape.",
+      "presentation": "The child presents with severely reduced number of erupted teeth, or the primary dentition failed to erupt in normal numbers. The child may have sparse or absent hair, reduced sweating, and the characteristic saddle nose appearance [1]. Conical-shaped teeth where teeth are present is a diagnostic pointer.",
+      "results": "DPT shows severely reduced tooth germ development — marked hypodontia affecting both dentitions. Clinical examination confirms conical teeth where present. The facial appearance with saddle nose and the hair and sweating history complete the syndromic picture.",
+      "definingCharacteristics": "The combination of hypodontia with ectodermal features — lack of hair and sweating and saddle nose — is the defining picture [1]. Isolated hypodontia does not have these systemic features. The medical importance of the reduced sweating should be flagged: these patients may be at risk of hyperthermia in hot conditions.",
+      "treatment": "Prosthetic rehabilitation is the dental goal: complete dentures or overdentures in children to restore function, aesthetics, and jaw development. Implants can be considered after skeletal maturity. Early specialist referral to a paediatric dentist and restorative specialist for long-term prosthetic planning.",
+      "prognosis": "The hypodontia is permanent. Prosthetic rehabilitation provides function and aesthetics but requires ongoing maintenance and upgrading through growth. With implant-retained restorations at maturity, long-term function is achievable.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Hypodontia found in association with lack of hair, sweating, and saddle nose.",
+          "paragraph": 10495,
+          "source": "Oxford Handbook · paragraph 10495"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-073",
+      "description": "Dental erosion associated with a known or suspected gastrin-secreting tumour causing excessive acid production.",
+      "conditionName": "Zollinger–Ellison syndrome (dental erosion from gastrin hypersecretion)",
+      "prevalence": "rare",
+      "etiology": "Zollinger–Ellison syndrome is caused by a gastrin-secreting tumour that drives excessive acid production, causing duodenal ulcers and diarrhoea [1]. The intrinsic acid erosion pattern on the teeth is the same as for GORD — palatal surfaces of upper anteriors and occlusal surfaces — but the underlying cause is a gastrinoma.",
+      "presentation": "The patient typically carries a known medical diagnosis of Zollinger–Ellison syndrome or has recalcitrant peptic ulcer disease under investigation. The dental finding is erosion of the intrinsic acid pattern. The clinical context distinguishes this from dietary erosion.",
+      "results": "Smooth erosion on palatal and occlusal surfaces following the intrinsic acid pattern. The medical history and gastrin levels establish the diagnosis. The dental picture alone cannot distinguish Zollinger–Ellison erosion from GORD or eating-disorder erosion — the systemic context is the differentiator.",
+      "definingCharacteristics": "The reason for noting this condition: recalcitrant erosion in a patient with confirmed or suspected peptic disease warrants medical investigation. Zollinger–Ellison syndrome and GORD both produce the intrinsic acid erosion pattern; the distinction is the underlying gastrin-secreting tumour [1].",
+      "treatment": "Medical management of the gastrinoma is primary. Dental management as for intrinsic erosion: preventive measures, fluoride protection, avoid toothbrushing immediately after acid exposure, and restorative management of tooth loss as required.",
+      "prognosis": "Dental erosion from Zollinger–Ellison syndrome is reversible by controlling the acid source; irreversible once tooth structure is lost. Medical management of the gastrinoma reduces the dental risk.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Secrete gastrin causing duodenal ulcers and diarrhoea (Zollinger–Ellison syndrome).",
+          "paragraph": 7388,
+          "source": "Oxford Handbook · paragraph 7388"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-074",
+      "description": "A restoration that was placed to match adjacent teeth now looks visibly different — discoloured, opaque, or mismatched — causing patient concern.",
+      "conditionName": "Restoration failure — aesthetic",
+      "prevalence": "common",
+      "etiology": "Failed restoration aesthetics may arise from underlying discolouration (stained dentine beneath or corrosion products from underlying metal) or from surface staining of the restoration itself [1]. The cause determines the management: surface staining can sometimes be polished; underlying dentine discolouration or corroded metal requires replacement.",
+      "presentation": "The patient reports dissatisfaction with the appearance of a tooth — a filling, crown, or veneer that no longer matches. The restoration may have been fine initially and discoloured over time, or may never have matched well. The question is whether the patient is actually concerned: it is worth checking before replacing [1].",
+      "results": "Visual examination identifies the nature of the discolouration — surface stain (removable by polishing), intrinsic discolouration (stained dentine visible through the restoration), or metal corrosion products at the margin. Translucency and shade of the restoration are assessed against adjacent teeth.",
+      "definingCharacteristics": "The interesting bit in practice: the clinician’s assessment of a failed aesthetic may not match the patient’s concern. Patients may not be concerned, so it is worth checking before replacing [1]. Replacing a restoration purely for aesthetics that doesn’t bother the patient is unnecessary treatment.",
+      "treatment": "Check whether the patient is actually concerned before committing to replacement [1]. If surface staining: attempt polish. If underlying discolouration or corrosion products: assess whether replacement is indicated and what material will best achieve the desired result.",
+      "prognosis": "Aesthetic restorations have a finite lifespan before colour change requires attention. Surface staining can be managed conservatively. Underlying causes such as stained dentine or corroded metal require restoration replacement.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This may be due to underlying discoloration from stained dentine or corrosion products or superficial from surface staining. Patients may not be concerned so it is worth checking before replacing.",
+          "paragraph": 3776,
+          "source": "Oxford Handbook · paragraph 3776"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-075",
+      "description": "A visible gap or step at the edge of a restoration — 'ditching' around an amalgam or a chipped margin on a composite — with or without sensitivity.",
+      "conditionName": "Restoration failure — marginal integrity / ditching",
+      "prevalence": "very-common",
+      "etiology": "Failed marginal integrity can result from creep and corrosion causing ditching of amalgam restorations, shrinkage of composites or GIC at the margin, or marginal chipping [1]. The clinical significance depends on plaque control: if the patient can keep the margin plaque-free and there is no recurrent caries, replacement may not be necessary [2].",
+      "presentation": "The patient may report sensitivity, food packing, or may have noticed the step. Often found incidentally on routine examination. The margin is visible as a gap, step, or roughness at the restoration boundary.",
+      "results": "Visual and tactile examination identifies marginal ditching, gap, or chip. Bitewing radiograph is the investigation for secondary caries. The threshold for intervention is evidence of dentine involvement with progression or cavitation — not the mere presence of a marginal defect [2].",
+      "definingCharacteristics": "The rule here: a marginal defect without secondary caries and with a plaque-free patient does not automatically require replacement [2]. Secondary caries is difficult to diagnose, and careful observation rather than intervention is now advocated [2]. Intervention is indicated only when the lesion is in dentine with evidence of progression and/or cavitation [2].",
+      "treatment": "If the patient can keep the margin plaque-free and there is no recurrent caries: careful observation rather than replacement [2]. If secondary caries is present in dentine with progression or cavitation: replace the restoration [2]. To prevent secondary caries: educate the patient to reduce their caries rate and ensure an excellent restorative technique for any replacement [2].",
+      "prognosis": "Marginal defects alone do not inevitably progress to caries — plaque control is the determining factor [2]. Where secondary caries does develop, early identification on bitewing radiograph and timely replacement prevents further breakdown.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This can be due to creep/corrosion and ditching of amalgams or shrinkage of composites/GIC or marginal chipping.",
+          "paragraph": 3778,
+          "source": "Oxford Handbook · paragraph 3778"
+        },
+        {
+          "id": 2,
+          "quote": "If the patient can keep the margin plaque free and there is no recurrent caries then it may not be necessary to replace the restoration. If not, 2° or recurrent caries may be a risk. 2° caries is difficult to diagnose, but careful observation (clinically and radiographically) rather than intervention, is now advocated. Intervention is only indicated when the lesion is in dentine, and there is evidence of progression &/or cavitation is present. To prevent 2° caries it is important not only to educate the patient to reduce their caries rate but also to use an excellent restorative technique to ensure good long term-restorations.",
+          "paragraph": 3779,
+          "source": "Oxford Handbook · paragraph 3779"
+        }
+      ]
+    },
+    {
+      "id": "permanent-dentition-076",
+      "description": "A large part of a restoration fractures off, leaving the tooth partly exposed. Often happens on an occlusal surface under heavy load.",
+      "conditionName": "Restoration failure — bulk fracture",
+      "prevalence": "common",
+      "etiology": "Bulk fracture of a restoration can be due to heavy occlusal loading, poor cavity design, or poor bonding [1]. The failure is not random — it reflects either a material placed in an under-supported cavity, a bonding failure at the interface, or simply a load greater than the restoration was designed to carry.",
+      "presentation": "The patient notices a sudden loss of part of the restoration — often felt as a sharp edge on the tongue. There may be sensitivity from exposed dentine, or no symptoms if the fracture left remaining material over the dentine. The tooth may be visually obvious on examination.",
+      "results": "Visual examination shows the fractured restoration with exposed dentine or a portion of remaining material. Percussion is not tender unless secondary pulpal or periapical involvement has developed. Sensibility testing positive if the pulp is vital.",
+      "definingCharacteristics": "The distinction from marginal ditching: here the bulk of the restoration is lost, not just the margin. The reason matters for planning replacement: if the fracture was due to heavy loading or poor cavity design, the replacement must address those factors — cusp coverage, improved bonding, or a material better matched to the occlusal load [1].",
+      "treatment": "Replace the restoration. Assess the reason for failure: heavy occlusal loading (consider cuspal coverage or indirect restoration), poor cavity design (redesign with adequate cuspal support), or poor bonding (address bonding protocol) [1].",
+      "prognosis": "Bulk fracture restorations can be replaced, but without addressing the underlying cause the replacement will fail again. Heavy occlusal loading may ultimately require an indirect restoration or crown to distribute the load across remaining tooth structure.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Can be due to heavy occlusal loading, poor cavity design, or poor bonding.",
+          "paragraph": 3781,
+          "source": "Oxford Handbook · paragraph 3781"
+        }
       ]
     }
   ]
