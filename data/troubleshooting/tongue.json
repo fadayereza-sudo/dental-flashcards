@@ -217,6 +217,276 @@
           "source": "Oxford Handbook · paragraph 6229"
         }
       ]
+    },
+    {
+      "id": "tongue-009",
+      "description": "Diffuse enlargement of the tongue causing protrusion, feeding difficulty, or airway compromise — present from birth or developing in adulthood.",
+      "conditionName": "Macroglossia",
+      "prevalence": "rare",
+      "etiology": "The causes split into congenital and acquired. Congenital macroglossia occurs in Down syndrome, Hurler syndrome, and Beckwith–Wiedemann syndrome [1]. Beckwith–Wiedemann in particular is a specific cluster: exomphalos, macroglossia, gigantism, and adrenal and renal anomalies, with the added concern of profound hypoglycaemia [2]. Acquired macroglossia develops in acromegaly (excess growth hormone after epiphyseal plate closure causes tongue and lip enlargement) [3] and in amyloidosis, where deposits of fibrillar hyaline material accumulate in tissues including the tongue [4].",
+      "presentation": "What you'll see depends on the cause and degree of enlargement. In congenital cases the tongue may protrude from the oral cavity, interfering with feeding, speech, and dental development. In acromegaly, tongue and lip enlargement accompanies jaw enlargement and tooth spacing [3]. In amyloidosis, the macroglossia coexists with peripheral neuropathy, renal involvement, cardiomyopathy, and xerostomia [4]. The size increase may be subtle early or dramatic when the underlying condition is severe.",
+      "results": "The investigation goal is to identify the underlying cause. In a known syndromic patient (Down, Beckwith–Wiedemann), the diagnosis is clinical. For acquired macroglossia, investigations target the suspected cause: growth hormone and IGF-1 levels in acromegaly; biopsy of rectum or gingivae with Congo red staining in amyloidosis — this is the diagnostic standard for both primary and secondary amyloidosis [4].",
+      "definingCharacteristics": "Macroglossia is distinguishable from a sublingual swelling lifting the tongue (floor-of-mouth pathology) by the fact that the tongue itself is enlarged throughout rather than displaced. The combination of macroglossia with exomphalos and gigantism is pathognomonic of Beckwith–Wiedemann syndrome [2]. In amyloidosis, macroglossia alongside xerostomia in a patient with multi-organ disease points strongly to primary (AL) amyloid rather than secondary amyloid, which tends not to affect the tongue directly [4].",
+      "treatment": "Treat the underlying cause where possible. For acromegaly: trans-sphenoidal hypophysectomy for the growth hormone-secreting pituitary adenoma [3]. For amyloidosis: immunosuppression, though this rarely helps [4]. Surgical tongue reduction may be indicated when macroglossia is causing functional impairment or dental sequelae [1].",
+      "prognosis": "Prognosis depends entirely on the underlying condition. In Beckwith–Wiedemann, tongue reduction is sometimes required and the hypoglycaemia needs urgent management [2]. In amyloidosis, immunosuppression rarely helps the primary disease, and the outlook is governed by the systemic disease burden — cardiac and renal involvement are the dominant prognostic factors [4].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Congenital: Down syndrome, Hurler syndrome, Beckwith–Wiedemann syndrome. Benign tumours (e.g. lymphangioma), or acquired; acromegaly, amyloidosis …… Amyloidosis, p. 529. Surgical reduction of the tongue may be indicated.",
+          "paragraph": 6231,
+          "source": "Oxford Handbook · paragraph 6231"
+        },
+        {
+          "id": 2,
+          "quote": "Consists of exomphalos, macroglossia, gigantism, and adrenal and renal anomalies. May have profound hypoglycaemia. Tongue reduction is sometimes required.",
+          "paragraph": 10450,
+          "source": "Oxford Handbook · paragraph 10450"
+        },
+        {
+          "id": 3,
+          "quote": "Due to excess growth hormone production after the closure of epiphyseal plates. Oral signs include enlargement of the tongue and lips, spacing of the teeth, and an ↑ in jaw size, particularly the mandible resulting in a Class III malocclusion. Jaw pain is sometimes described, which can respond to Rx of the growth hormone-secreting pituitary tumour responsible for the disease. Rx: trans-sphenoidal hypophysectomy for pituitary adenoma.",
+          "paragraph": 6418,
+          "source": "Oxford Handbook · paragraph 6418"
+        },
+        {
+          "id": 4,
+          "quote": "Characterized by deposits of fibrillar eosinophilic hyaline material in a wide range of organs and tissues. Two types: 1° amyloidosis (AL amyloid), a plasma cell dyscrasia. Signs and symptoms include peripheral neuropathy, renal involvement, cardiomyopathy, xerostomia, and macroglossia. Rx: immunosuppression (rarely helps). 2° amyloidosis (AA amyloid). It reflects an underlying chronic disease: infection, rheumatoid, neoplasia. May respond to Rx of underlying disease. ∆: biopsy of rectum or gingivae—stain with Congo red.",
+          "paragraph": 7210,
+          "source": "Oxford Handbook · paragraph 7210"
+        }
+      ]
+    },
+    {
+      "id": "tongue-010",
+      "description": "Sore or burning tongue with or without visible changes; discomfort persists and the cause is not immediately obvious.",
+      "conditionName": "Glossodynia (sore tongue — multifactorial)",
+      "prevalence": "common",
+      "etiology": "Sore tongue — glossodynia — can occur in the presence or absence of visible clinical change, and the visible change doesn't always explain the symptom [1]. The main causes of glossitis are iron deficiency anaemia, pernicious anaemia, candidosis, vitamin B group deficiencies, and lichen planus [1]. However, a sore but clinically normal tongue is a common problem and is often psychogenic in origin [1]. The thing is, psychogenic doesn't mean you skip the workup: the first-line task is to exclude organic causes, including haematological deficiency states and unwanted reactions to medicines or mouthwashes [1].",
+      "presentation": "The patient reports a sore, burning, or uncomfortable tongue. On examination there may be frank depapillation and redness (pointing to haematinic deficiency, candidosis, or LP), or the tongue surface may look completely normal despite the symptom [1]. Burning crosses the midline and has no local trigger if psychogenic; a discrete erythematous or white patch localised to one area suggests a different diagnosis. Medicines and mouthwashes are worth exploring in the history — reactions to these are a recognised cause [1].",
+      "results": "First-line investigations to exclude organic causes:\n\n- **FBC and haematinics**: iron, ferritin, B12, folate — the minimum workup for a sore tongue [1].\n- **Swab**: exclude candidal colonisation.\n- **Medication and mouthwash review**: check for drugs with mucosal side effects and for agents the patient has been self-administering.\n- Normal results across all these shift the balance toward a psychogenic or neuropathic aetiology.",
+      "definingCharacteristics": "Glossodynia as a category is broader than burning mouth syndrome: it includes any sore tongue, with or without visible change. So the question is which subtype you're dealing with. If there's visible change, investigate the change (haematinic, candidal, LP). If the tongue looks normal, the workup is exclusion-first and burning mouth syndrome is the eventual label once organic causes are cleared [1].",
+      "treatment": "The goal is to identify and treat the underlying cause. Correct haematinic deficiency via the GP. Treat candidosis with antifungals. Review and stop offending medicines or mouthwashes [1]. If all investigations are normal and the tongue is clinically normal, manage as burning mouth syndrome: reassurance, exclusion of prosthetic and allergic causes, and specialist referral if symptoms are severe or protracted.",
+      "prognosis": "Depends entirely on the underlying cause. Haematinic deficiency resolves with replacement. Candidosis resolves with antifungals. Psychogenic sore tongue has a more variable course — the same 50% remission-in-6-7-years figure that applies to burning mouth syndrome is a useful benchmark [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "May occur in the presence or absence of clinical changes; however, it should be remembered that even the presence of glossitis may not explain the symptoms of a sore or burning tongue. Main causes of glossitis are iron deficiency anaemia, pernicious anaemia, candidosis, vitamin B group deficiencies, and lichen planus. Sore, but clinically normal tongue is a common problem and often psychogenic in origin; however, the first line of Rx is to exclude any possible organic cause, e.g. haematological deficiency states and unwanted reactions to self-administered or professionally administered medicines or mouthwashes.",
+          "paragraph": 6243,
+          "source": "Oxford Handbook · paragraph 6243"
+        }
+      ]
+    },
+    {
+      "id": "tongue-011",
+      "description": "A soft, painless, fluctuant swelling diffusely enlarging the tongue, cheek, or lip, present from early life and not regressing spontaneously.",
+      "conditionName": "Lymphangioma (tongue)",
+      "prevalence": "rare",
+      "etiology": "Lymphangioma is a developmental lesion of lymphatics — the lymphatic equivalent of a haemangioma [1]. It can be microcystic or macrocystic. What happens is that the lesion can enlarge the tongue, cheek, or lip (usually microcystic type) or present as a neck swelling (usually macrocystic type) [1]. Unlike haemangiomas, lymphangiomas do not spontaneously regress — they persist and can grow with the patient.",
+      "presentation": "The lesion may present as diffuse tongue enlargement that has been present since childhood, or as a soft swelling of the cheek or lip. The macrocystic type is more often found in the neck, where it appears as a fluctuant, transilluminable swelling. The tongue or lip variant is usually soft, non-tender, and may have a translucent or pebbly surface appearance. There is no inflammation unless the lesion becomes secondarily infected.",
+      "results": "Diagnosis is primarily clinical, aided by imaging. MRI is helpful in delineating the extent of microcystic lesions where there is no clear plane of excision. For macrocystic lesions, the boundaries are usually well defined on both clinical examination and imaging.",
+      "definingCharacteristics": "The thing that sets lymphangioma apart from haemangioma at the same site is two-fold: lymphangiomas do not blanch on pressure (unlike haemangiomas, which do [1]), and they do not involute spontaneously. Unlike mucoceles, lymphangiomas are developmental rather than traumatic in origin and are not confined to minor salivary gland sites. The macrocystic neck variant needs separating from branchial cysts and thyroglossal cysts by imaging.",
+      "treatment": "Microcystic lymphangiomas are difficult to excise — there is no clear plane of dissection — but some can be beneficially excised [1]. Macrocystic lesions do have definable planes in most cases and can be excised with little damage to surrounding structures [1]. Sclerosant picibanil is often used in the larger cyst cavities, despite macrocystic lesions being technically the easiest to remove surgically [1].",
+      "prognosis": "No spontaneous regression is expected, in contrast to haemangiomas. Macrocystic lesions can be excised effectively. Microcystic lesions may recur after excision given the absence of clear margins [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a rarer developmental lesion, this time of lymphatics. Can be microcystic or macrocystic. May present as an enlarged tongue, cheek, or lip (usually microcystic) or neck swellings (usually macrocystic). Rx: microcystic difficult as no clear plane of excision although some can be beneficially excised. Macrocystic lymphangiomas do have definable planes in most cases and can be excised with little damage to the surrounding structures. Sclerosant picibanil is often used in the larger cyst cavities, despite these being easiest to remove.",
+          "paragraph": 5796,
+          "source": "Oxford Handbook · paragraph 5796"
+        }
+      ]
+    },
+    {
+      "id": "tongue-012",
+      "description": "A deep, painful, slowly enlarging ulcer on the posterior dorsum of the tongue in a patient with systemic illness or immunocompromise.",
+      "conditionName": "Oral tuberculosis (tongue ulcer)",
+      "prevalence": "rare",
+      "etiology": "Tuberculosis is caused by Mycobacterium tuberculosis. It is a re-emerging disease, particularly in the context of HIV and increased migration, but remains rare in Western countries [1]. Oral involvement is uncommon even among TB patients — it occurs usually due to open pulmonary infection or coexisting HIV [1]. The posterior dorsum of the tongue is the commonest site for oral TB when it does occur [1].",
+      "presentation": "The oral lesion presents as a deep, painful ulcer with raised borders, gradually increasing in size [1]. Any part of the oral mucosa may be involved, but posterior tongue dorsum is the most likely site [1]. Patients are typically immunocompromised: this is not a lesion you'd expect in a well, immunocompetent adult. There may be a background of systemic TB symptoms — cough, night sweats, weight loss — or known HIV.",
+      "results": "- **Histopathology**: necrotizing granuloma with Langhans giant cells and epithelioid cells is the key finding [1].\n- **Ziehl–Nielsen stain**: reveals mycobacteria on the biopsy specimen [1].\n- **PCR**: facilitates definitive diagnosis especially in cases with an unusual presentation [1].\n- **Chest radiograph**: previous infection may show radio-opacities on facial views due to calcifications within lymph nodes [1].\n- Refer urgently to a chest physician for definitive management.",
+      "definingCharacteristics": "The defining feature is the combination of a deep, painful, enlarging ulcer with raised borders on the posterior tongue dorsum in an immunocompromised patient [1]. The raised border, failure to heal, and size progression distinguish this from a traumatic ulcer (which has a causative agent and heals once it's removed) and from aphthous ulceration (which is shallow, self-limiting, and recurrent in a previously well patient). Oral SCC is the most important differential — biopsy is mandatory.",
+      "treatment": "Refer to a chest physician for management, as combination chemotherapy is required [1]. In children, a lymph node excision may sometimes be required alongside systemic treatment [1]. The dentist's role is recognising the lesion and facilitating urgent onward referral.",
+      "prognosis": "Oral TB responds to systemic combination chemotherapy when the diagnosis is made and treatment started [1]. The prognosis is that of the systemic disease, including the severity of any coexisting HIV infection.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "TB is a re-emerging infectious disease caused by Mycobacterium tuberculosis. It is commonly seen in immunocompromised patients, including elderly persons. TB is rare in Western countries; however, it is being reported more frequently in recent years. This has been attributed to ↑ migration and spread of HIV. Although one-third of the global population is affected by TB, oral involvement is rare. When it does occur it is usually due to open pulmonary infection or coexisting HIV. The oral lesion presents as a deep, painful ulcer with raised borders, gradually ↑ in size. Any part of the oral mucosa may be involved, although the posterior aspect of the dorsum of the tongue is the commonest site. PCR may facilitate definitive ∆, especially in cases with an unusual presentation. Histopathology shows necrotizing granuloma with Langhans giant cells and epithelioid cells and a Ziehl–Nielsen stain reveals mycobacteria. Previous infection can sometimes be seen on facial views as radio-opacities due to calcifications within lymph nodes. Refer to a chest physician for management as combination chemotherapy is required. Often in children a lymph node excision may be required.",
+          "paragraph": 5998,
+          "source": "Oxford Handbook · paragraph 5998"
+        }
+      ]
+    },
+    {
+      "id": "tongue-013",
+      "description": "White coating on the tongue that peels to reveal a red, inflamed surface studded with prominent papillae — appearing in a febrile child with a sore throat and rash.",
+      "conditionName": "Scarlet fever tongue (strawberry tongue / raspberry tongue)",
+      "prevalence": "very-uncommon",
+      "etiology": "Scarlet fever is an infectious disease of 4–8-year-olds. The current view is that it may be due to a delayed-type hypersensitivity to streptococcal erythrogenic toxin [1]. The streptococcal infection drives the systemic and mucosal changes.",
+      "presentation": "Symptoms include sore throat, general malaise, fever, and the characteristic red rash [1]. The oral mucosa is reddened and the tongue undergoes pathognomonic changes in two stages [1]:\n\n- **Strawberry tongue**: the dorsum develops a white coating through which white oedematous fungiform papillae project.\n- **Raspberry tongue**: the white coating is then shed, leaving a smooth red dorsum with enlarged fungiform papillae.\n\nThe oral manifestations resolve within 14 days [1].",
+      "results": "Diagnosis is primarily clinical in the appropriate setting: a febrile child with sore throat, diffuse red skin rash, and the tongue changes described above. Throat swab cultures for Streptococcus pyogenes confirm the causative organism if needed. The tongue changes themselves are pathognomonic of scarlet fever in a child with the systemic picture [1].",
+      "definingCharacteristics": "The two-stage tongue progression — white-coated with prominent papillae projecting through (strawberry), then bare red dorsum with enlarged papillae (raspberry) — in a febrile 4–8-year-old with sore throat and rash is pathognomonic [1]. No other common tongue condition produces this sequence in this age group. The self-limiting course (resolving within 14 days with penicillin) and the systemic context help to nail the diagnosis.",
+      "treatment": "Treatment is directed towards the systemic condition: penicillin [1]. The oral manifestations resolve within 14 days and need no separate local treatment [1].",
+      "prognosis": "Excellent with antibiotic treatment. The oral changes resolve within 14 days [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Scarlet fever, an infectious disease of 4–8yr-olds, may be due to a delayed-type hypersensitivity to streptococcal erythrogenic toxin. Symptoms include sore throat, general malaise, fever, and characteristic red rash. The oral mucosa is reddened and the tongue undergoes pathognomonic changes; the dorsum develops a white coating through which white oedematous fungiform papillae project—the 'strawberry tongue' of scarlet fever. Later the white coating is shed and the dorsum becomes smooth and red with enlarged fungiform papillae—'raspberry tongue'. Rx is directed towards the systemic condition with penicillin. The oral manifestations resolve within 14 days.",
+          "paragraph": 5996,
+          "source": "Oxford Handbook · paragraph 5996"
+        }
+      ]
+    },
+    {
+      "id": "tongue-014",
+      "description": "A persistent white patch on the dorsum of the tongue in a patient with a history of sexually transmitted disease, associated with a known risk of malignant change.",
+      "conditionName": "Syphilitic leucoplakia",
+      "prevalence": "rare",
+      "etiology": "Syphilitic leucoplakia is one of the classical appearances of tertiary syphilis — specifically, a white patch developing on the dorsum of the tongue [1]. Tertiary syphilis develops several years after primary infection, in around 30% of untreated patients, and causes a multisystem disorder including CNS involvement, vasculitis, and necrotic granulomatous (gummatous) reactions affecting the palate or tongue [2].",
+      "presentation": "A white patch on the tongue dorsum, appearing in the context of a known or suspected history of syphilis. The lesion is fixed, does not rub off, and does not resolve with antifungal treatment. Tertiary syphilis is a multisystem disease: the patient may have neurological or cardiovascular manifestations alongside the oral finding. The interesting bit clinically is that treating the active syphilis does not resolve the leucoplakia — the white patch persists despite successful systemic treatment [1].",
+      "results": "- **Serology**: syphilis serology is positive by the tertiary stage [2].\n- **Dark-field microscopy** of smears and histology can support the diagnosis [1].\n- **Biopsy**: mandatory — this lesion carries a recognised propensity for malignant change and requires histopathological assessment [1].\n- Histology of the gumma itself shows a necrotic granulomatous reaction [2].",
+      "definingCharacteristics": "Syphilitic leucoplakia sits in the same clinical space as other white patches on the tongue dorsum (smoker's keratosis, candidosis, idiopathic leucoplakia, lichen planus), but three features mark it out: its tertiary syphilis context, its failure to resolve with antifungal or cessation of smoking, and its high propensity for malignant change [1]. Unlike candidal leucoplakia, it does not rub off. Unlike lichen planus, there are no associated striae or erosive areas.",
+      "treatment": "Treat the active syphilis disease systemically, but know that this will not resolve the leucoplakia [1]. Refer to secondary care for biopsy and specialist follow-up — the malignant potential mandates histological assessment and long-term surveillance [1].",
+      "prognosis": "The leucoplakia persists despite treatment of the underlying syphilis [1]. Given the propensity for malignant change, long-term follow-up and surveillance biopsy are required. Prognosis of the syphilis itself depends on the systemic disease burden at the time of treatment.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A white patch on the dorsum of the tongue is one of the classical appearances of tertiary syphilis (…… Syphilis, p. 432). Active disease must be treated; however, this will not resolve the area of leucoplakia, which has a propensity to undergo malignant change. ∆ is usually suggested by histology, serology, or dark-field microscopy of smears.",
+          "paragraph": 6123,
+          "source": "Oxford Handbook · paragraph 6123"
+        },
+        {
+          "id": 2,
+          "quote": "3° lesion. Develops several years later in 30% of patients and is marked by gumma formation. This is a necrotic granulomatous reaction usually affecting the palate or tongue, which enlarges and ulcerates and may lead to perforation of the palate. Lesions are non-infectious. Tertiary syphilis is a multisystem disorder causing CNS involvement and vasculitis.",
+          "paragraph": 6003,
+          "source": "Oxford Handbook · paragraph 6003"
+        }
+      ]
+    },
+    {
+      "id": "tongue-015",
+      "description": "Macroglossia and xerostomia developing in an adult alongside signs of multi-organ involvement — peripheral neuropathy, cardiac or renal disease.",
+      "conditionName": "Amyloidosis (primary AL amyloid — oral manifestations)",
+      "prevalence": "rare",
+      "etiology": "Amyloidosis is characterised by deposits of fibrillar eosinophilic hyaline material in a wide range of organs and tissues [1]. Primary amyloidosis (AL amyloid) is a plasma cell dyscrasia — the deposited material is derived from immunoglobulin light chains [1]. Secondary amyloidosis (AA amyloid) reflects an underlying chronic disease: infection, rheumatoid disease, or neoplasia [1]. The oral manifestations — macroglossia and xerostomia — are features of primary AL amyloid specifically [1].",
+      "presentation": "What you'll see in a patient with primary amyloidosis is macroglossia (tongue enlargement) alongside xerostomia [1]. The systemic picture includes peripheral neuropathy, renal involvement, and cardiomyopathy [1]. Macroglossia here is acquired rather than congenital — it develops in an adult with a plasma cell dyscrasia rather than presenting from birth. Xerostomia from salivary gland infiltration adds to the oral symptoms.",
+      "results": "- **Biopsy of rectum or gingivae with Congo red staining**: this is the diagnostic standard for both types of amyloidosis [1].\n- A positive Congo red stain showing apple-green birefringence under polarised light confirms amyloid deposits.\n- Gingival biopsy is a reasonable and accessible site for the dentist to consider if amyloidosis is suspected clinically.\n- Full systemic workup (renal function, cardiac assessment, serum/urine protein electrophoresis for the plasma cell dyscrasia) is performed by the physician.",
+      "definingCharacteristics": "The combination of acquired macroglossia with xerostomia in an adult — without a congenital syndrome — should raise amyloidosis in the differential. The reason is that primary AL amyloid deposits in tongue muscle and salivary gland tissue, producing both features simultaneously [1]. Unlike acromegaly (which also causes macroglossia), there is no jaw enlargement, no tooth spacing, and no growth hormone excess. Unlike hypothyroidism (which also causes macroglossia), there is no delayed eruption or puffy lips as the dominant picture.",
+      "treatment": "Immunosuppression for primary amyloidosis, but this rarely helps [1]. The underlying plasma cell dyscrasia drives the treatment decision — that is managed by haematology, not primary care. The GDP's contribution is early recognition, gingival biopsy if appropriate, and referral.",
+      "prognosis": "Immunosuppression rarely helps primary amyloidosis [1]. The prognosis is governed by the degree of cardiac and renal involvement. Secondary amyloidosis may respond to treatment of the underlying disease [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Characterized by deposits of fibrillar eosinophilic hyaline material in a wide range of organs and tissues. Two types: 1° amyloidosis (AL amyloid), a plasma cell dyscrasia. Signs and symptoms include peripheral neuropathy, renal involvement, cardiomyopathy, xerostomia, and macroglossia. Rx: immunosuppression (rarely helps). 2° amyloidosis (AA amyloid). It reflects an underlying chronic disease: infection, rheumatoid, neoplasia. May respond to Rx of underlying disease. ∆: biopsy of rectum or gingivae—stain with Congo red.",
+          "paragraph": 7210,
+          "source": "Oxford Handbook · paragraph 7210"
+        }
+      ]
+    },
+    {
+      "id": "tongue-016",
+      "description": "A midline mass at the base of the tongue discovered incidentally, with no obvious cause — the patient may be hypothyroid or euthyroid.",
+      "conditionName": "Lingual thyroid",
+      "prevalence": "rare",
+      "etiology": "Lingual thyroid is ectopic thyroid tissue at the base of the tongue. The clinical significance is that it may be the only functioning thyroid tissue the patient has [1]. This is why the rule is absolute: do not excise without a pre-operative isotope scan [1]. If the lingual thyroid is the patient's only thyroid, removing it without preparation causes surgical hypothyroidism.",
+      "presentation": "A midline mass at the tongue base, found incidentally or on systematic examination. The patient may be euthyroid if the ectopic tissue is functioning adequately, or hypothyroid if its function is insufficient. There are no diagnostic surface features — the mass is covered by normal mucosa. It may be asymptomatic or cause a sensation of something at the back of the throat.",
+      "results": "- **Isotope scan (technetium or radioiodine)**: the essential pre-operative investigation — confirms functioning thyroid tissue at the tongue base and, critically, shows whether normal cervical thyroid tissue is present elsewhere [1].\n- **Thyroid function tests**: assess functional status of the ectopic tissue.\n- Do not biopsy before imaging — if this is the only thyroid tissue and it is inadvertently damaged, the consequences are serious.",
+      "definingCharacteristics": "The rule of thumb here is: midline tongue-base mass equals isotope scan before any intervention, no exceptions [1]. The thing is, lingual thyroid is the one tongue-base mass where the sequence of investigation is mandatory for safety. Other midline tongue-base swellings (thyroglossal cyst, dermoid) do not carry this risk and can be biopsied more freely. The isotope scan result dictates whether excision is safe or whether supplemental thyroid hormone replacement needs to be prepared first.",
+      "treatment": "Do a pre-operative isotope scan before any surgical intervention [1]. Management depends on whether the lingual thyroid is the only functioning thyroid: if so, excision requires thyroid hormone replacement to be instituted. If normal cervical thyroid is present and functional, excision is safer. Refer to the appropriate surgical or endocrine team.",
+      "prognosis": "The lesion itself is benign. If excision is performed with appropriate pre-operative planning (isotope scan, hormone replacement if needed), outcomes are good. The main risk is surgical hypothyroidism from removing the patient's only functioning thyroid without preparation [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "May be the only functioning thyroid the patient has; do not excise lightly. Do pre-operative isotope scan.",
+          "paragraph": 7366,
+          "source": "Oxford Handbook · paragraph 7366"
+        }
+      ]
+    },
+    {
+      "id": "tongue-017",
+      "description": "Recurrent facial nerve palsy combined with soft-tissue orofacial swelling and a deeply fissured tongue — the three features appearing together.",
+      "conditionName": "Melkersson–Rosenthal syndrome",
+      "prevalence": "rare",
+      "etiology": "Melkersson–Rosenthal syndrome consists of the triad of facial paralysis, facial oedema, and fissured tongue [1]. It is probably a variant of the group of conditions now known as orofacial granulomatosis [1] — a group that also includes Crohn's disease and sarcoidosis as causes of non-caseating granulomata in the lips, cheeks, and face.",
+      "presentation": "The three components may not appear simultaneously, and the fissured tongue can precede the episodes of facial palsy and swelling. When fully expressed, the patient has a history of recurrent unilateral facial palsy episodes alongside episodes of diffuse lip or facial swelling [2]. The fissured tongue is usually found as a background finding on examination rather than as the presenting complaint. Orofacial oedema in isolation is the commonest presenting feature; the complete triad is not always present at any single visit.",
+      "results": "Diagnosis is clinical when the full triad is present [1]. Where facial palsy alone or lip swelling alone is the presenting feature, the possibility of Melkersson–Rosenthal should be kept in mind. Biopsy of the swollen tissue shows non-caseating granulomata — identical to the histology of Crohn's disease orofacial involvement and sarcoidosis [1].",
+      "definingCharacteristics": "The interesting bit about this condition is that it sits at the crossroads of neurology (facial palsy), dermatology (orofacial oedema), and oral medicine (fissured tongue) — so it is often misdiagnosed or attributed to Bell's palsy or idiopathic lip swelling until the recurrent pattern and fissured tongue draw the picture together. Unlike isolated Bell's palsy, the facial palsy here is recurrent and occurs alongside soft-tissue oedema [1]. The fissured tongue component cross-references to its own entry in this origin [2].",
+      "treatment": "Refer to secondary care for management of the underlying syndrome — the multi-system nature and the granulomatous histology require specialist input [2]. Management of the orofacial granulomatosis group may involve intralesional steroids, anti-TNF therapies, or clofazimine, depending on extent and severity.",
+      "prognosis": "Variable. The facial palsy episodes may or may not resolve completely between recurrences. The fissured tongue persists. The oedema tends to be chronic and fluctuating. Long-term specialist follow-up is indicated [2].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Consists of facial paralysis, facial oedema, and fissured tongue. It is probably a variant of the group of conditions now known as orofacial granulomatosis.",
+          "paragraph": 10513,
+          "source": "Oxford Handbook · paragraph 10513"
+        },
+        {
+          "id": 2,
+          "quote": "Deep fissuring of the tongue is not pathological in itself (affects 3% of tongues) but may harbour pathogenic microorganisms. Commoner in Down syndrome patients than average population. Melkerson–Rosenthal syndrome is a deeply fissured tongue in association with recurrent facial nerve palsy and swelling. Sjögren syndrome can have a tongue with a lobulated appearance. Rx: reassurance for most, referral for Melkerson–Rosenthal syndrome.",
+          "paragraph": 6233,
+          "source": "Oxford Handbook · paragraph 6233"
+        }
+      ]
+    },
+    {
+      "id": "tongue-018",
+      "description": "Macroglossia with puffy enlarged lips and delayed tooth eruption in a child — or facial puffiness with no oral changes in an adult.",
+      "conditionName": "Hypothyroidism (oral and facial manifestations)",
+      "prevalence": "uncommon",
+      "etiology": "Hypothyroidism produces different oral manifestations depending on onset. Congenital hypothyroidism (cretinism) is associated with enlargement of the tongue, puffy enlarged lips, and delayed tooth eruption [1]. Adult-onset hypothyroidism causes puffiness of the face and lips but no particular oral changes beyond that [1].",
+      "presentation": "In congenital hypothyroidism, the child presents with macroglossia, puffy lips, and delayed dental development alongside the classic systemic features of cretinism [1]. In adult hypothyroidism, what you'll see is a puffy face and lips — the oral changes are subtle. The tongue may be slightly enlarged but the dramatic macroglossia of the congenital form is not present in adults. Systemic features (cold intolerance, fatigue, weight gain, bradycardia) confirm the diagnosis.",
+      "results": "Thyroid function tests (TSH and free T4) are the diagnostic investigation — not an oral investigation. The oral findings point toward a systemic cause and should prompt referral to the GP. In congenital hypothyroidism, the delayed tooth eruption and macroglossia are detected in the dental chair alongside the child's other developmental markers.",
+      "definingCharacteristics": "The combination of macroglossia with puffy lips and delayed eruption in a child is the defining oral picture of congenital hypothyroidism [1]. In the adult, puffiness of face and lips without a tongue change separates it from amyloidosis (where macroglossia and xerostomia are the oral hallmarks) and from acromegaly (where jaw enlargement and tooth spacing are the dominant oral features). So the age of onset is the key variable: congenital form has macroglossia plus delayed eruption; adult form has puffiness without significant tongue change [1].",
+      "treatment": "Refer to the GP or paediatrician for thyroid hormone replacement therapy. The oral findings themselves resolve with adequate systemic control. No local treatment is indicated for the tongue or lips.",
+      "prognosis": "With early detection and thyroid hormone replacement, the systemic features of hypothyroidism are well controlled. In congenital hypothyroidism, early treatment is important for intellectual and developmental outcomes — the dental finding may be one route to early referral [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Congenital hypothyroidism is associated with enlargement of the tongue, with puffy enlarged lips and delayed tooth eruption. In adult hypothyroidism, puffiness of the face and lips also occurs, but there are no particular oral changes.",
+          "paragraph": 6424,
+          "source": "Oxford Handbook · paragraph 6424"
+        }
+      ]
+    },
+    {
+      "id": "tongue-019",
+      "description": "A persistent oral ulcer that looks like squamous cell carcinoma but spontaneously resolves — with eosinophilic cells on biopsy.",
+      "conditionName": "Traumatic ulcerative granuloma with stromal eosinophilia (TUGSE)",
+      "prevalence": "very-uncommon",
+      "etiology": "TUGSE is named for its histological signature: a granulomatous oral ulcer with prominent stromal eosinophilia. The thing is, it is clinically indistinguishable from squamous cell carcinoma — which is exactly what makes it important to know [1]. Despite its alarming appearance, it spontaneously resolves in most cases after up to six weeks [1].",
+      "presentation": "The patient presents with a persistent oral ulcer that has the morphology of a malignant ulcer: indurated edges, granular base, failure to heal over weeks. There is nothing on clinical examination that separates it from early SCC. It can occur on any oral mucosal site — tongue is a common location given the mechanical trauma the tongue experiences. There is no pathognomonic clinical sign: the diagnosis requires a biopsy.",
+      "results": "- **Biopsy**: mandatory, because the lesion cannot be distinguished from SCC without histology [1].\n- **Histopathology**: shows a granulomatous ulcer with abundant eosinophilic infiltrate in the stroma — this is the defining finding that separates TUGSE from SCC.\n- Once histology confirms TUGSE, no further treatment is usually needed; the lesion resolves spontaneously in up to six weeks [1].",
+      "definingCharacteristics": "TUGSE belongs to the small group of oral ulcers that need early diagnosis precisely because they mimic SCC while having a benign course [1]. The reason biopsy is non-negotiable: you cannot reassure the patient, and you cannot delay referral, based on clinical appearance alone — SCC is not excluded until histology comes back. The eosinophilic stromal infiltrate is the histological marker. The spontaneous resolution (up to six weeks) and absence of malignant cells on histology make the retrospective diagnosis.",
+      "treatment": "Biopsy is both the diagnostic and effectively the therapeutic step — the act of biopsy plus the spontaneous resolution are usually sufficient [1]. Monitor for resolution after the biopsy result confirms TUGSE. If the ulcer does not resolve within the expected window, re-evaluate for an alternative diagnosis.",
+      "prognosis": "Spontaneous resolution occurs in most cases within up to six weeks [1]. No malignant potential. The main hazard is diagnostic: delay in biopsy risks missing an SCC that was masquerading as TUGSE.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Traumatic ulcerative granuloma with stromal eosinophilia (TUGSE) because it can be clinically indistinguishable from SCC but spontaneously resolves in most cases (after up to 6 weeks).",
+          "paragraph": 6529,
+          "source": "Oxford Handbook · paragraph 6529"
+        }
+      ]
+    },
+    {
+      "id": "tongue-020",
+      "description": "Sore, smooth, atrophic tongue with burning, angular cheilitis, and aphthous ulcers — alongside systemic fatigue — attributable to nutritional deficiency.",
+      "conditionName": "Anaemia — oral manifestations (iron, B12, and folate deficiency)",
+      "prevalence": "uncommon",
+      "etiology": "Iron, vitamin B12, and folate deficiencies are all associated with recurrent oral ulceration, and specific deficiency states can produce oral changes even in the absence of frank anaemia [1]. The tongue is affected because haematinics are needed for normal epithelial turnover: when they fall below threshold, the mucosa thins and depapillates. Iron deficiency particularly predisposes to candidosis and angular cheilitis [1]; B12 deficiency may produce red lines or patches on a sore tongue even when the tongue looks otherwise normal [1].",
+      "presentation": "What you'll typically hear from the patient: sore tongue, burning sensation, mouth ulcers, and the corners of the mouth are cracked. On examination, the tongue may be smooth and atrophic with loss of papillae (frank atrophic glossitis), or it may look clinically normal despite the burning symptom [1]. Angular cheilitis is a well-recognised association, particularly with iron deficiency [1]. The sore, clinically normal tongue — burning tongue — can even be a precursor of anaemia before frank depapillation appears [1]. Systemic features (fatigue, breathlessness, pallor) complete the picture.",
+      "results": "- **FBC and haematinics**: iron, ferritin, B12, folate — the essential first-line panel [1].\n- Specific deficiencies can be present even without a frank anaemia on FBC, so haematinics must be checked even if haemoglobin is within range [1].\n- Microcytic picture points to iron deficiency; macrocytic picture points to B12 or folate.\n- Angular cheilitis swabs: exclude secondary Candida infection at the angles.",
+      "definingCharacteristics": "The oral picture of haematinic deficiency is not one lesion but a cluster: atrophic or burning tongue, recurrent aphthous ulcers, and angular cheilitis occurring together in a fatigued patient [1]. The interesting bit is that the burning tongue may precede any visible change — so haematinics are always worth checking in a patient with an unexplained sore or burning tongue even when the examination is normal [1]. Unlike burning mouth syndrome, haematinic investigations are abnormal here.",
+      "treatment": "Refer to the GP for treatment of the underlying deficiency. The dentist's role is early detection and referral — not prescribing the replacement itself. The GP will prescribe iron supplementation, intramuscular hydroxocobalamin for pernicious anaemia, or folic acid as appropriate [1]. Treat any secondary candidal infection at the angles topically. Review the oral mucosa once systemic levels are corrected.",
+      "prognosis": "Oral manifestations resolve with correction of the underlying deficiency [1]. The sore tongue and atrophic glossitis recover as epithelial cell turnover normalises. Angular cheilitis clears with both haematinic correction and antifungal treatment if Candida is present. If the deficiency is not identified and treated, the patient remains at risk of persistent oral candidosis and ulceration [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "The nutritional deficiencies associated with anaemia, iron, vitamin B12, and folate, are all associated with recurrent oral ulceration (…… Recurrent aphthous stomatitis (ulcers), p. 440) and specific deficiencies may be present, even in the absence of a frank anaemia. Atrophic glossitis was formerly the commonest oral symptom of anaemia but is less often seen now. Red lines or patches on a sore, but normal-looking tongue may indicate vitamin B12 deficiency. Candidosis (…… Oral candidosis (candidiasis), p. 438) may be precipitated or exacerbated by anaemia, particularly iron deficiency, and angular cheilitis is a well-recognized association. The sore, clinically normal tongue (burning tongue) is sometimes a manifestation or even precursor of anaemia.",
+          "paragraph": 6403,
+          "source": "Oxford Handbook · paragraph 6403"
+        }
+      ]
     }
   ]
 }
