@@ -244,6 +244,21 @@ export function TroubleshootingPage() {
     [origins]
   );
 
+  const totalFilteredCount = useMemo(
+    () =>
+      sortedOrigins.reduce(
+        (sum, origin) =>
+          sum +
+          PREVALENCE_ORDER.reduce(
+            (n, p) =>
+              activePrevalences.has(p) ? n + (origin.counts?.[p] ?? 0) : n,
+            0
+          ),
+        0
+      ),
+    [sortedOrigins, activePrevalences]
+  );
+
   const searchGroups = useMemo(() => {
     if (!isSearching || !searchIndex) return [];
     const q = normalizeQuery(query);
@@ -499,6 +514,10 @@ export function TroubleshootingPage() {
             </div>
           );
         })}
+        <p className="text-sm text-ink-soft text-center pt-3">
+          <span className="tabular-nums font-medium">{totalFilteredCount}</span>{" "}
+          condition{totalFilteredCount === 1 ? "" : "s"} total
+        </p>
       </div>
       )}
 
