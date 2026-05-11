@@ -39,7 +39,7 @@ These are the connective words and phrases that mark his voice. Use them natural
 
 ## Punctuation moves
 
-- **Em dashes** as casual parentheticals: "Short, repeated attacks — rather than continuous severe pain — point to reversible."
+- **Em dashes — sparingly.** They draw the eye and break flow when scattered through long-form text. Reach for commas, parentheses, colons, or a sentence break first. Save the em dash for moments where it does real work — a sharp aside, a beat of emphasis the rhythm needs. **Rule of thumb:** at most one em dash per paragraph, and never two paired dashes back-to-back when a comma pair would carry the same meaning.
 - **Colons** to drop into substance: "The question is: how do we …", "One reassurance though: the pain won't cross the midline."
 - **Sparing semicolons.** Prefers a period break.
 
