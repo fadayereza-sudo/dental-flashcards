@@ -197,6 +197,334 @@
           "source": "Oxford Handbook · paragraph 8239"
         }
       ]
+    },
+    {
+      "id": "skin-005",
+      "description": "Traumatic facial wounds — cuts, crush injuries, flap lacerations, or tissue avulsion — after facial trauma or assault.",
+      "conditionName": "Facial laceration and soft-tissue facial injury",
+      "prevalence": "uncommon",
+      "etiology": "Facial soft tissue injuries follow a predictable mechanism: cut wounds (slicing), crush wounds (blunt impact bursting the skin), flap or avulsion wounds (tissue sheared away), or penetrating wounds (stab, bite, projectile) [1]. The thing is, each type needs different management — you can't handle a crush laceration the same way as a simple cut, because the tissue behaves differently under closure.\n\nFacial wounds deserve particular care because the scar is permanent and visible. The principle is simple: you can't erase the scar, but you can give the patient the best possible one by following the right steps at the right time [2].",
+      "presentation": "What you'll be assessing:\n\n- **Mechanism**: cut vs burst vs flap vs tissue loss vs penetrating.\n- **Site anatomy**: is the wound near the eye, ear canal, lip vermilion, parotid duct, lacrimal duct, or a facial nerve branch? These change the management immediately [3].\n- **Nerve function**: test cranial nerves V and VII before injecting LA — once you anaesthetise, you lose the neurological baseline [3].\n- **Duct involvement**: parotid duct (buccal region) or lacrimal duct (medial canthal area) injury needs specialist repair.\n- **Contamination**: bites and dirty wounds carry a high infection risk and need aggressive cleaning [4].",
+      "results": "- **X-ray** to exclude foreign body in any penetrating wound [5].\n- **Nerve testing**: baseline V and VII function before any anaesthetic.\n- **ABCs first**: mechanism of injury, allergies, PMH, tetanus prophylaxis status [6].\n- **Wound closure timing**: close within 24 hours — delay beyond this risks infection and poor healing [6].",
+      "definingCharacteristics": "The interesting bit here is the anatomical specificity of facial wounds. The eyelid, pinna, eyebrow, and vermilion border all require precise matching — even a 1mm step at the vermilion edge is cosmetically obvious [7]. Penetrating wounds through platysma need theatre exploration by a senior surgeon, not primary closure in the chair [8].\n\nCompare by wound type:\n\n- **Simple laceration**: close in layers, accurate apposition, minimal sutures, remove at 6 days [9].\n- **Crush laceration**: skin has burst — minimal edge excision, deep closure, light skin approximation; remove sutures at 3–4 days [10].\n- **Avulsion/complete tissue loss**: skin graft or local flap; stitching severed tissue back on will not succeed [11].\n- **Bites**: prone to infection — co-amoxiclav, clean very carefully, close primarily [12].",
+      "treatment": "The goal is layered anatomical closure within 24 hours [2, 6].\n\n- **Irrigate** clean wounds with saline or aqueous chlorhexidine. Bites or dirty wounds: aggressive scrubbing with 50:50 water/povidone iodine [4].\n- **Explore** all wounds for foreign body, fracture, nerve, duct, or vessel damage [4].\n- **Close in layers**: mucosa and muscle with resorbable 3/0–4/0; skin with monofilament 4/0–6/0. Avoid tension on skin edges [13].\n- **Test nerve function** before injecting LA [3].\n- **Tetanus prophylaxis**: check status and administer if indicated [6].\n- **Bites**: co-amoxiclav, careful cleaning, primary closure [12].\n- **Penetrating wounds through platysma**: theatre, not chairside [8].\n- **Burns**: specialist referral [14].",
+      "prognosis": "Facial skin heals well because of its excellent vascular supply. Accurate primary closure within 24 hours gives the best cosmetic result. Crush lacerations swell post-operatively — anticipate this and remove sutures early at 3–4 days [10]. Bites get infected easily; co-amoxiclav cover is standard [12]. Nerve and duct injuries change the prognosis significantly and require specialist repair.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Type of patient, type of wound (cut, burst, flap, tissue loss), special anatomy, eye, eyelid, lip, cranial nerves V/VII, and parotid/lacrimal duct.",
+          "paragraph": 6761,
+          "source": "Oxford Handbook · paragraph 6761"
+        },
+        {
+          "id": 2,
+          "quote": "The face is highly visible and, once cut, no one can make the scar disappear. You can, however, give the patient the best possible scar by following certain principles. Definitive closure of soft tissue wounds should be done in tandem with fixation of bones or after exclusion of underlying bony injury.",
+          "paragraph": 6757,
+          "source": "Oxford Handbook · paragraph 6757"
+        },
+        {
+          "id": 3,
+          "quote": "Type of patient, type of wound (cut, burst, flap, tissue loss), special anatomy, eye, eyelid, lip, cranial nerves V/VII, and parotid/lacrimal duct.",
+          "paragraph": 6761,
+          "source": "Oxford Handbook · paragraph 6761"
+        },
+        {
+          "id": 4,
+          "quote": "Irrigate clean wounds with saline or aqueous chlorhexidine. Bites or dirty wounds with ingrained FB need aggressive scrubbing with 50:50 water:povidone iodine. Minimal or no excision of tissue for debridement. Explore all wounds for FB, #, nerve, duct, or vessel damage. Get haemostasis.",
+          "paragraph": 6767,
+          "source": "Oxford Handbook · paragraph 6767"
+        },
+        {
+          "id": 5,
+          "quote": "X-ray for foreign body.",
+          "paragraph": 6763,
+          "source": "Oxford Handbook · paragraph 6763"
+        },
+        {
+          "id": 6,
+          "quote": "ABCs, mechanism of injury, allergies, and PMH, need for tetanus and rabies prophylaxis. Wounds should be closed within 24h.",
+          "paragraph": 6759,
+          "source": "Oxford Handbook · paragraph 6759"
+        },
+        {
+          "id": 7,
+          "quote": "Require precise matching. Test prior to anaesthetic for facial and trigeminal nerve function.",
+          "paragraph": 6789,
+          "source": "Oxford Handbook · paragraph 6789"
+        },
+        {
+          "id": 8,
+          "quote": "Penetrating injuries especially through platysma should be explored by a senior surgeon in theatre, phone your next in line.",
+          "paragraph": 6780,
+          "source": "Oxford Handbook · paragraph 6780"
+        },
+        {
+          "id": 9,
+          "quote": "Close in layers with accurate anatomical apposition. Approximate, don't strangulate. Use minimum number of sutures to achieve intact wound with slight eversion. Remove facial sutures in 6 days.",
+          "paragraph": 6772,
+          "source": "Oxford Handbook · paragraph 6772"
+        },
+        {
+          "id": 10,
+          "quote": "Skin has burst: minimal edge excision, deep closure, and light skin approximation. Tends to swell. Remove sutures at 3–4 days.",
+          "paragraph": 6774,
+          "source": "Oxford Handbook · paragraph 6774"
+        },
+        {
+          "id": 11,
+          "quote": "Nasal tip, pinna, and lip commonest. Skin graft or local flap repair will succeed. Stitching severed part back on will not.",
+          "paragraph": 6798,
+          "source": "Oxford Handbook · paragraph 6798"
+        },
+        {
+          "id": 12,
+          "quote": "Easily get infected. Use co-amoxiclav, clean very carefully, and close primarily. Small twist or finger drain helpful.",
+          "paragraph": 6794,
+          "source": "Oxford Handbook · paragraph 6794"
+        },
+        {
+          "id": 13,
+          "quote": "In layers, mucosa, and muscle: resorbable 3/0–4/0; skin: monofilament 4/0–6/0 (…… Suturing, p. 388). Avoid tension on skin edge.",
+          "paragraph": 6769,
+          "source": "Oxford Handbook · paragraph 6769"
+        },
+        {
+          "id": 14,
+          "quote": "Need specialist referral.",
+          "paragraph": 6796,
+          "source": "Oxford Handbook · paragraph 6796"
+        }
+      ]
+    },
+    {
+      "id": "skin-006",
+      "description": "Honey-crusted, weeping sores spreading rapidly around the mouth and face in a child, easily mistaken for a recurrent cold sore.",
+      "conditionName": "Impetigo",
+      "prevalence": "very-uncommon",
+      "etiology": "Highly infectious staph and/or strep bacterial infection of the superficial skin [1]. The reason it spreads so fast in children is direct contact — fingers to face, one child to another. The lesions start around the mouth, which is exactly where a recurrent cold sore would appear, so the differential matters. It's not a dental condition, but a GDP will see it because parents bring children in with perioral symptoms and assume it's dental.",
+      "presentation": "Honey-yellow or golden-brown crusting around the mouth and nose, sometimes spreading to the chin and cheeks. The lesions are weeping and wet before they crust over. Unlike herpes simplex, there's no vesicular prodrome — just rapid onset of superficial skin breakdown. The child is usually well systemically. Highly contagious: siblings and close contacts will often develop the same lesion within days.",
+      "results": "Clinical diagnosis in most cases — the appearance and distribution are usually enough. Swab for culture if the diagnosis is uncertain or the child isn't responding to first-line treatment. Look for the tell: honey crust with weeping at the margin, no dermatomal pattern, no prodrome, no oral mucosal involvement.",
+      "definingCharacteristics": "The key differentiator from herpes labialis is the character of the crust: impetigo produces thick golden crust and rapid spread, whereas herpes produces vesicles first, then shallow ulcers, then a drier crust. No prodrome, no tingling, no history of recurrence at the same site. Also — impetigo responds to antibiotics; herpes does not [1].\n\nCompare to:\n\n- **Herpes simplex (cold sore)**: vesicular prodrome, same site every time, dermatomal, antiviral-responsive.\n- **Angular cheilitis**: limited to the commissures only, candidal or bacterial, chronic rather than acutely spreading.\n- **Eczema herpeticum**: widespread vesicular rash in a child with eczema — looks dramatic, needs urgent treatment.",
+      "treatment": "Topical antibiotic for mild cases: fusidic acid or mupirocin cream applied to the lesions. Systemic flucloxacillin or clarithromycin for widespread or severe impetigo. Keep the child away from school and siblings until the lesions are crusted and dry. Advise parents not to share towels. The GDP's role here is recognition and same-day GP referral — this is not a dental condition to treat in the chair.",
+      "prognosis": "Resolves quickly with appropriate antibiotic treatment — usually within one week. Recurrence is possible if hygiene isn't addressed. Untreated, it spreads aggressively across the face and to contacts. Rare complications include post-streptococcal glomerulonephritis with strep strains.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Very infectious staphylococcal (&/or streptococcal) rash. Starts around mouth and may be mistaken for 2° herpes.",
+          "paragraph": 1890,
+          "source": "Oxford Handbook · paragraph 1890"
+        }
+      ]
+    },
+    {
+      "id": "skin-007",
+      "description": "Sudden one-sided facial palsy with severe ear pain and blistering in or around the ear canal — not a simple Bell's palsy.",
+      "conditionName": "Ramsay Hunt syndrome",
+      "prevalence": "very-uncommon",
+      "etiology": "Herpes zoster reactivation in the geniculate ganglion of the facial nerve — that's what separates this from Bell's palsy [1]. The reason the picture is more complex than ordinary facial palsy is that the geniculate ganglion serves not just the facial nerve but also contributes to the sensory innervation of the ear canal and pinna. So you get motor failure plus a herpetic vesicular eruption in that territory, often with severe otalgia [2].\n\nThe same varicella zoster virus that causes chickenpox sits dormant in ganglia for decades and reactivates when immune surveillance falls. Age, immunosuppression, stress — all the usual VZV triggers apply here too.",
+      "presentation": "The triad that pins the diagnosis:\n\n1. **Lower motor neurone facial palsy** — same picture as Bell's palsy: inability to close the eye, forehead involvement, drooping corner of mouth [1].\n2. **Herpetic vesicles**: in the pharynx, external auditory canal, on the face, or on the pinna — not just perioral [1].\n3. **Severe otalgia**: ear pain that can precede the other features by days.\n\nThe facial palsy can look identical to Bell's palsy at first. The question is: are there vesicles? Check the ear canal and pinna carefully. Taste loss (anterior two-thirds of the tongue) and hearing changes may also appear.",
+      "results": "Clinical diagnosis once the vesicular eruption is visible. The vesicles in the ear canal or on the pinna are the diagnostic key — without them, you're looking at Bell's palsy [1]. Audiological assessment if hearing loss is present. MRI if the diagnosis is uncertain or complications are suspected.",
+      "definingCharacteristics": "What distinguishes Ramsay Hunt from Bell's palsy is the herpetic vesicular eruption in the ear/pinna/pharyngeal territory [1]. Bell's palsy has no vesicles, no otalgia of this severity, and a better prognosis. The practical consequence: every patient with facial palsy needs their ear canal inspected — if you see vesicles there, the diagnosis changes, the treatment changes (add aciclovir), and the prognosis is worse.\n\nCompare to:\n\n- **Bell's palsy**: LMN facial palsy without vesicles; steroids alone; better recovery.\n- **Trigeminal zoster**: rash in V territory on the face, not the ear; no facial palsy.\n- **Otitis externa**: ear canal redness and discharge but no facial palsy.",
+      "treatment": "Steroids and systemic aciclovir together — the combination improves recovery [2]. Start as early as possible; the treatment window mirrors that of Bell's palsy (within 72 hours of onset for best effect). Protect the cornea immediately: the eye can't close [1]. Analgesia for otalgia — it can be severe. Specialist referral is appropriate given the worse prognosis and audiological risk.",
+      "prognosis": "Worse than Bell's palsy. Recovery of facial function is less complete, and hearing loss — from cochlear involvement — may be permanent. The reason the prognosis is poorer is direct viral injury to the nerve rather than the inflammatory compression mechanism of Bell's palsy. Early combined treatment with steroids and aciclovir improves the odds, but complete recovery is not guaranteed [2].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Lower motor neurone facial palsy, with vesicles on the same side in the pharynx, external auditory canal, and on the face. It is thought to be due to herpes zoster of the geniculate ganglion.",
+          "paragraph": 10529,
+          "source": "Oxford Handbook · paragraph 10529"
+        },
+        {
+          "id": 2,
+          "quote": "Pain is associated with herpes zoster virus in the facial nerve. Systemic aciclovir and steroids improve recovery.",
+          "paragraph": 6356,
+          "source": "Oxford Handbook · paragraph 6356"
+        }
+      ]
+    },
+    {
+      "id": "skin-008",
+      "description": "Sweating and flushing of skin over the cheek triggered by eating — appearing months to years after parotid surgery or trauma to the cheek.",
+      "conditionName": "Frey syndrome (auriculotemporal syndrome, gustatory sweating)",
+      "prevalence": "very-uncommon",
+      "etiology": "Post-traumatic nerve crossover is the mechanism [1]. What happens is: after injury or surgery to the skin overlying the parotid gland, sympathetic fibres (that normally innervate the sweat glands of the skin) and parasympathetic fibres (that normally drive parotid secretion) regenerate abnormally. The parasympathetic fibres find their way to the sweat glands instead of the gland. So now eating — which activates parasympathetic drive — triggers sweating and flushing over the parotid skin rather than salivation [1].\n\nSuperficial parotidectomy is the commonest trigger [1]. The reported frequency post-parotidectomy ranges widely, but the condition is probably present to some degree in almost all cases if you look carefully enough — the starch-iodine test reveals subclinical cases [1].",
+      "presentation": "The patient describes sweating and flushing of the skin over one cheek whenever they eat — on the side of a previous parotidectomy or cheek injury. The timing is often delayed: symptoms appear months to years after the original surgery, as the aberrant nerve regeneration takes time to establish. There's no pain. It can be embarrassing socially — visible flushing and sweating at mealtimes.",
+      "results": "The starch-iodine test (Minor's test) confirms the diagnosis and maps the affected area: iodine painted over the skin, then starch powder dusted over it; the area sweats during gustatory stimulation, turning the starch-iodine complex blue-black [1]. Clinical history alone is usually sufficient for diagnosis when the post-parotidectomy context is clear.",
+      "definingCharacteristics": "The combination of gustatory-triggered sweating localised to the parotid skin region, following parotid surgery or trauma, is essentially pathognomonic [1]. The interesting bit is that the mechanism is entirely benign — no malignancy, no nerve compression — just aberrant regeneration. Compare to: **hyperhidrosis** (generalised, not gustatory-triggered, not localised), or **sympathetic gustatory flushing** in other conditions (Horner syndrome, diabetes) — but those don't follow parotid surgery and don't localise to the parotid skin territory.",
+      "treatment": "Reassurance first — the condition is benign. For mild cases, many patients tolerate it once they understand what it is. For bothersome cases: **botulinum toxin injections** into the affected skin area block the aberrant nerve signals effectively and are currently the most practical treatment. The effect lasts several months and can be repeated. Surgical options (fascial barrier placement at the time of parotidectomy to prevent aberrant regeneration) are primarily preventive, not corrective.",
+      "prognosis": "The condition is benign but persistent — spontaneous resolution is not expected. Botulinum toxin gives good symptom control with repeated treatments. The underlying aberrant innervation doesn't reverse. Patients can manage it well once it's diagnosed and the mechanism is explained.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "(Lucie Frey, a Polish physician.) A condition in which gustatory sweating and flushing of skin occur. It follows trauma to skin overlying a salivary gland and is thought to be due to post-traumatic crossover of sympathetic and parasympathetic innervation to the gland and skin, respectively. Its frequency following superficial parotidectomy ranges from 0% to 100% depending on which surgeon you are talking to, but is almost certainly present in all cases to some degree if looked for carefully enough (use starch–iodine test).",
+          "paragraph": 10472,
+          "source": "Oxford Handbook · paragraph 10472"
+        }
+      ]
+    },
+    {
+      "id": "skin-009",
+      "description": "Slowly progressive wasting of one side of the face — soft tissue only, no bone loss — starting in childhood and halting after a few years.",
+      "conditionName": "Romberg syndrome (hemifacial atrophy)",
+      "prevalence": "rare",
+      "etiology": "Progressive atrophy of the soft tissues of one side of the face, cause unknown [1]. The reason it's worth knowing is the associations: contralateral Jacksonian epilepsy and trigeminal neuralgia are linked findings, making this more than a cosmetic condition [1]. Rarely, the atrophy extends to half the body. It starts in the first decade and runs for about three years before becoming quiescent — so by the time the patient is a teenager, the process has usually stopped [1].",
+      "presentation": "Unilateral progressive shrinkage of the skin, subcutaneous fat, and muscle of one side of the face — the hemisphere of atrophy can extend from the forehead to the chin. The overlying skin may be thin, scarred, or pigmented. Onset is in childhood. The face gradually takes on a markedly asymmetric appearance as the affected side hollows out.\n\nNeurological features that may accompany it: contralateral epilepsy (Jacksonian type) and trigeminal neuralgia on the same side as the atrophy [1].",
+      "results": "Clinical diagnosis based on the characteristic unilateral progressive soft-tissue wasting. Imaging confirms no underlying bony involvement distinguishing it from hemifacial microsomia. Neurological assessment for associated epilepsy or trigeminal involvement. The condition becomes quiescent after approximately three years.",
+      "definingCharacteristics": "Progressive unilateral soft-tissue atrophy in a child, with no bony dysplasia — that combination separates Romberg syndrome from hemifacial microsomia (where there is bony and cartilaginous underdevelopment from birth) [1]. The associated contralateral Jacksonian epilepsy is a distinctive feature that no other facial asymmetry condition shares. The trajectory matters too: it progresses then stops, unlike tumour-related facial wasting which is relentlessly progressive.",
+      "treatment": "The underlying atrophy cannot be reversed while it is active. Wait for quiescence — typically after ~3 years — before planning reconstructive surgery. Once stable, soft-tissue augmentation (fat grafting, fillers, or structural implants) restores facial symmetry. Neurological management of associated epilepsy runs concurrently and independently. GDP role: recognise, refer to maxillofacial surgery and neurology.",
+      "prognosis": "The atrophic process is self-limiting — it becomes quiescent around three years from onset [1]. Reconstructive options exist once the condition is stable. Associated epilepsy and trigeminal neuralgia need their own long-term management. The cosmetic outcome after reconstruction depends on the degree of atrophy and the method of augmentation.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Consists of progressive atrophy of the soft tissues of half the face, associated with contralateral Jacksonian epilepsy and trigeminal neuralgia. Rarely, half the body may be affected. It starts in the first decade and lasts ~3yrs before it becomes quiescent.",
+          "paragraph": 10537,
+          "source": "Oxford Handbook · paragraph 10537"
+        }
+      ]
+    },
+    {
+      "id": "skin-010",
+      "description": "A facial port-wine stain — flat, purple-red, present from birth — sometimes with seizures or neurological findings on that side.",
+      "conditionName": "Sturge–Weber anomalad",
+      "prevalence": "rare",
+      "etiology": "A hamartomatous angioma affecting the upper part of the face — a congenital vascular malformation, not a tumour [1]. The reason it matters beyond cosmetics is that the angioma may extend intracranially, involving the meninges on the same side. That intracranial extension is what drives the neurological associations: convulsions, contralateral hemiplegia, and intellectual impairment can all result [1].\n\nIt's not inherited in the usual Mendelian sense — it arises from a somatic mutation during development.",
+      "presentation": "The port-wine stain is visible at birth: a flat, unilateral, dark red-purple discolouration of the upper face, classically in the distribution of the first and second divisions of the trigeminal nerve. It doesn't blanch fully on pressure in the way a simple capillary haemangioma does.\n\nThe associated neurological features — seizures, hemiplegia, or developmental delay — may become apparent in infancy or childhood as the intracranial component declares itself [1]. Glaucoma is a recognised ocular complication when the angioma involves the periorbital region.",
+      "results": "Clinical diagnosis on appearance. MRI with contrast to characterise intracranial involvement and plan management of seizures. Ophthalmological assessment for glaucoma if periorbital involvement is present. Neurological and neurosurgical assessment for convulsions and hemiplegia.",
+      "definingCharacteristics": "The facial port-wine angioma in the trigeminal distribution present from birth, with possible convulsions and contralateral hemiplegia, is the defining picture [1]. The surgical risk is obvious: any facial surgery in this territory carries vascular risk because of the underlying angiomatous tissue. This is one of the conditions where a GDP proceeding with local anaesthesia and dental surgery needs to know the diagnosis in advance.\n\nCompare to: **simple capillary haemangioma** (strawberry haemangioma) — usually involutes in childhood, no intracranial component; **hereditary haemorrhagic telangiectasia** — multiple telangiectases on lips and mucosa, different distribution, no port-wine facial pattern.",
+      "treatment": "The facial angioma itself is not surgically resectable. Laser therapy (pulsed dye laser) can lighten the port-wine stain cosmetically and is the current mainstay for the skin lesion. Intracranial involvement is managed by neurology and neurosurgery: anticonvulsants for seizures, and surgery where indicated. For dental treatment: the risks of surgery are significant given the underlying angiomatous tissue [1] — plan carefully, have haematological support available if major surgery is planned.",
+      "prognosis": "The port-wine stain is permanent and progressive in colour depth without treatment. The neurological prognosis depends on the degree of intracranial involvement and how well seizures are controlled. Laser therapy improves the cosmetic outcome significantly if started early. The condition is lifelong and managed rather than cured.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is due to a hamartomatous angioma affecting the upper part of the face, which may extend intracranially. There may be associated convulsions, hemiplegia (on the contralateral side of the body), or intellectual impairment. The risks of surgery are obvious.",
+          "paragraph": 10549,
+          "source": "Oxford Handbook · paragraph 10549"
+        }
+      ]
+    },
+    {
+      "id": "skin-011",
+      "description": "Drooping eyelid, constricted pupil, and absent facial sweating on one side — not a neurological emergency, but a potentially serious underlying cause.",
+      "conditionName": "Horner syndrome",
+      "prevalence": "rare",
+      "etiology": "Interruption of the cervical sympathetic chain — that's the whole mechanism [1]. The sympathetic fibres that supply the eye and facial skin run from the hypothalamus, down the spinal cord to C8/T1, then up alongside the carotid artery to the orbit. Interrupt them anywhere along that path and you get the classic triad.\n\nThe reason it 'scores high on the worthwhile rating' [1] is the cause: a Pancoast tumour (bronchogenic carcinoma at the apex of the lung) invading the cervical ganglion is the serious diagnosis to exclude. Neck trauma and neck dissection can also disrupt the chain. This is not something you can reassure away — it needs investigation.",
+      "presentation": "Four ipsilateral signs that cluster together:\n\n- **Miosis**: constricted pupil.\n- **Ptosis**: drooping eyelid (partial, not complete).\n- **Anhidrosis**: absent sweating on that side of the face.\n- **Enophthalmos**: sunken-appearing eye (occasionally) [1].\n\nAll four are ipsilateral to the sympathetic interruption. The patient may present to the dentist because of the facial asymmetry or noticed by you on examination.",
+      "results": "Clinical diagnosis on the four signs. The question is immediately: what's the cause? Chest X-ray and CT of the thorax to exclude apical lung lesion. MRI of the head and neck to characterise the sympathetic pathway. Urgent referral to medicine or neurology — the underlying cause determines the prognosis, not the Horner syndrome itself [1].",
+      "definingCharacteristics": "The combination of miosis + ptosis + anhidrosis on one side, without other focal neurology, is the hallmark [1]. The practical point: Horner syndrome in a new patient — especially a smoker — is a bronchogenic carcinoma until proven otherwise. The ptosis is partial (sympathetic ptosis), not complete (unlike CN III palsy which also causes ptosis but with a dilated pupil and opthalmoplegia). CN III palsy dilates the pupil; Horner syndrome constricts it. That distinction is immediate and important.",
+      "treatment": "There is no specific treatment for the Horner syndrome itself — the treatment is that of the underlying cause. Identify and treat the primary lesion. Refer urgently. From the GDP's perspective: if you spot Horner syndrome on examination, refer the same day for investigation.",
+      "prognosis": "Depends entirely on the underlying cause. Post-traumatic or post-surgical Horner syndrome (e.g. after neck dissection) may be permanent but benign. Horner syndrome from bronchogenic carcinoma carries the prognosis of that tumour. The reason to act quickly is that the underlying cause may be treatable — and this may be the first clinical sign of it [1].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Consists of a constricted pupil (miosis), drooping eyelid (ptosis), unilateral loss of sweating (anhidrosis) on the face, and occasionally sunken eye (enophthalmos). It is caused by interruption of sympathetic nerve fibres at the cervical ganglion 2° to, e.g. bronchogenic carcinoma, invading the ganglion or neck trauma. Scores high on the 'worthwhile' rating.",
+          "paragraph": 10491,
+          "source": "Oxford Handbook · paragraph 10491"
+        }
+      ]
+    },
+    {
+      "id": "skin-012",
+      "description": "Multiple soft lumps scattered across the face and body, some pigmented skin patches, present since childhood — progressively enlarging.",
+      "conditionName": "Von Recklinghausen neurofibromatosis (NF1)",
+      "prevalence": "rare",
+      "etiology": "An autosomal dominant condition — so half of first-degree relatives are affected [1]. Multiple neurofibromas develop from peripheral nerve sheath cells, scattered throughout the skin and subcutaneous tissue. The associated skin pigmentation takes the form of café-au-lait patches — flat, pale-brown macules. The thing is, the condition has a wide range of expression: some patients have a few small lesions; others have massive, disfiguring facial neurofibromas [1].\n\nThere is a predisposition to malignancy — peripheral nerve sheath tumours can undergo sarcomatous change [1]. CNS involvement (acoustic neuromas, gliomas, meningiomas) and skeletal abnormalities complete the systemic picture.",
+      "presentation": "Café-au-lait spots visible from infancy or childhood (six or more patches >15mm is a diagnostic criterion). Cutaneous neurofibromas begin appearing in adolescence — soft, rubbery, skin-coloured or slightly pigmented nodules that can be pushed into the skin ('buttonholing'). Facial lesions can become very large, causing visible asymmetry and disfigurement [1].\n\nAssociated features to ask about: hearing loss, vision changes, scoliosis, seizures, or learning difficulties.",
+      "results": "Clinical diagnosis in most cases — the combination of café-au-lait spots and neurofibromas is characteristic. Biopsy of atypical or rapidly growing lesions to exclude malignant transformation. Genetic testing confirms the NF1 mutation. Imaging (MRI) to assess CNS involvement.",
+      "definingCharacteristics": "The combination of multiple cutaneous neurofibromas with café-au-lait pigmentation, autosomal dominant pattern, and potential CNS and skeletal involvement is distinctive [1]. The GDP's role: notice facial lumps that don't fit the usual sebaceous cyst or lipoma pattern, particularly in younger patients with a positive family history. Also note: fibromas around the mouth can be misinterpreted as intraoral fibromas or mucoceles — look at the whole face and skin.\n\nCompare to: **multiple lipomata** — soft, subcutaneous, no pigmentation, no nerve origin; **sebaceous cysts** — smooth, punctum visible, no nerve sheath histology.",
+      "treatment": "No curative treatment for the underlying condition. Surgical excision of cosmetically troublesome or functionally compromising facial neurofibromas. The goal is to manage individual lesions — complete clearance is not achievable [1]. Malignant transformation requires oncological management. Annual review and screening for complications (ophthalmology, audiology, neurology) is the standard approach. Genetic counselling for the patient and family.",
+      "prognosis": "Variable. The condition is lifelong and progressive — new neurofibromas continue to develop. Facial disfigurement can become severe [1]. The malignant transformation rate is around 10%. Prognosis is significantly influenced by CNS involvement and malignant change. Patients with mild cutaneous disease can have near-normal function; those with major facial and CNS involvement face significant morbidity.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Multiple neurofibromas with skin pigmentation, skeletal abnormalities, CNS involvement, and a predisposition to malignancy are the basics of this syndrome. It undergoes autosomal dominant transmission and has a large and varied number of manifestations. Lesions of the face can be particularly disfiguring.",
+          "paragraph": 10557,
+          "source": "Oxford Handbook · paragraph 10557"
+        }
+      ]
+    },
+    {
+      "id": "skin-013",
+      "description": "An ulcerated, raised-edged lesion on sun-exposed facial skin — not healing, slowly enlarging.",
+      "conditionName": "Facial skin squamous cell carcinoma (SCC)",
+      "prevalence": "uncommon",
+      "etiology": "Arises in sun-damaged skin — actinic keratosis and carcinoma in situ are the recognised precursor states [1]. Cutaneous SCC is biologically different from mucosal SCC: it's surprisingly indolent on facial skin, with a much lower metastatic rate than oral mucosal SCC [2]. The exception that's worth knowing is the external ear, which can be aggressive in 40% of cases [2]. So location within the face actually changes how worried you should be.\n\nThe common facial skin cancers — BCC, SCC, and melanoma — may all be preceded by actinic keratosis, carcinoma in situ, or lentigo maligna [1].",
+      "presentation": "An ulcerated lesion with raised edges on sun-damaged facial skin [2]. Keratin horns may be visible at the surface. The surrounding skin is often chronically sun-damaged — leathery, unevenly pigmented, with other actinic keratoses nearby. Growth is slow and the patient may have had the lesion for months before seeking attention. It doesn't heal. Compare this to BCC: the SCC edge is raised and irregular but less 'pearly', and keratin features may be visible.",
+      "results": "- **Excision biopsy** for definitive diagnosis and margin assessment.\n- **Surgical margins**: 10mm for SCC (wider than BCC's 5mm) [3].\n- **Lymph node assessment**: cutaneous facial SCC is indolent in most sites but check nodes, especially for external ear lesions [2].\n- **Pre-existing actinic change**: note extent of background sun damage — other lesions may need monitoring.",
+      "definingCharacteristics": "What pins cutaneous SCC rather than BCC: the edge is raised but not pearly and rolled; keratin horns or keratotic surface changes may be present; the surrounding skin is more chronically sun-damaged. The external ear location warrants extra vigilance because of its higher metastatic risk [2]. Wider excision margins than BCC (10mm vs 5mm) reflect a more aggressive biological potential [3].\n\nCompare to:\n\n- **BCC**: pearly, rolled, telangiectatic border; locally destructive but almost never metastasises; 5mm margins sufficient.\n- **Melanoma**: pigmented; prognosis depends on Breslow depth; early metastasis; 10–30mm margins [3].\n- **Actinic keratosis**: flat, scaly, not yet broken down into ulceration; premalignant.",
+      "treatment": "Surgical excision is the treatment of choice, with 10mm margins of normal skin [3]. Radiotherapy is an alternative where excision is not feasible [2]. Mark the tumour periphery and excision line before injecting LA [4]. Mark the specimen to orientate for the pathologist [4]. Refer to the British Association of Dermatologists guidelines for management [3]. GDP role: identify, refer promptly to maxillofacial surgery or dermatology.",
+      "prognosis": "Cutaneous SCC of the face is mostly curable with excision. The exception is the external ear, where 40% can be aggressive [2]. Actinic keratoses and in-situ disease in the surrounding field remain at risk of further malignant transformation — long-term surveillance is indicated. Recurrence after clear-margin excision is uncommon.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "(…… Skin neoplasms, p. 550.) The common facial skin cancers are basal cell carcinoma (BCC), SCC, and malignant melanoma. They may be preceded by actinic keratosis, carcinoma in situ, or lentigo maligna.",
+          "paragraph": 6943,
+          "source": "Oxford Handbook · paragraph 6943"
+        },
+        {
+          "id": 2,
+          "quote": "SCC of the skin is surprisingly indolent in comparison to SCC of mucosa but beware the external ear which can be aggressive in 40%. Presents as an ulcerated lesion with raised edges. Keratin horns may be present, and it may arise in areas of previously sun-damaged skin or in gravitational leg ulcers. Surgical excision or radiotherapy is Rx of choice.",
+          "paragraph": 7504,
+          "source": "Oxford Handbook · paragraph 7504"
+        },
+        {
+          "id": 3,
+          "quote": "A margin of normal skin around the cancer of 5mm for BCC, 10mm for SCC, and 10–30mm for melanoma, dependent on site. The British Association of Dermatologists (BAD) produces a useful set of guidelines.",
+          "paragraph": 6946,
+          "source": "Oxford Handbook · paragraph 6946"
+        },
+        {
+          "id": 4,
+          "quote": "Mark out the periphery of the tumour, line of excision, and any flap repair before injecting LA (if used). Cut at 90° to skin through dermis and excise at level of fat layer. Always obtain good haemostasis (bipolar diathermy). Mark specimen to orientate for pathologist.",
+          "paragraph": 6948,
+          "source": "Oxford Handbook · paragraph 6948"
+        }
+      ]
+    },
+    {
+      "id": "skin-014",
+      "description": "A pigmented facial lesion that is rapidly enlarging, bleeding, changing colour, or producing satellite lesions around it.",
+      "conditionName": "Facial melanoma",
+      "prevalence": "rare",
+      "etiology": "Sunlight is the major aetiological factor — possibly due to burning at an early age [1]. Incidence has doubled in the last 20 years [1]. The reason melanoma is in a different risk category from BCC and cutaneous SCC is early metastasis: prognosis is driven by Breslow thickness, the depth of the tumour in the skin, and even modest depth correlates with a high metastatic potential [1]. This is not a lesion you can watch.",
+      "presentation": "Suspect melanoma when a pigmented lesion on the face does any of the following [1]:\n\n- Rapidly enlarges.\n- Bleeds spontaneously or with minimal trauma.\n- Ulcerates.\n- Shows 'satellite' lesions — new pigmented spots appearing around the original.\n- Changes colour — variegation of brown, black, red, white within a single lesion.\n\nThe ABCDE rule (Asymmetry, Border irregularity, Colour variegation, Diameter >6mm, Evolution/change) is the standard clinical tool. A lesion showing multiple ABCDE features warrants same-day referral.",
+      "results": "Histopathological diagnosis on excision biopsy — clinical appearance alone is not enough [1]. Breslow thickness measurement from the granular layer of the epidermis to the deepest tumour cells is the primary prognostic determinant. Sentinel lymph node biopsy for staging. CT/PET for staging in confirmed melanoma.",
+      "definingCharacteristics": "The defining characteristics are all about change: **rapid enlargement, bleeding, colour change, satellite lesions** — any one of these in a pigmented facial lesion demands prompt specialist referral [1]. Stable pigmented lesions (naevi, lentigo simplex) don't do these things. The takeaway for the GDP: you are well-placed to notice new or changing facial pigmented lesions during routine extra-oral examination. Don't assume benignity because the patient has 'always had it'. Ask whether it's changed.\n\nCompare to:\n\n- **BCC**: pearly, not pigmented (usually), no satellite lesions.\n- **Lentigo maligna**: flat, slow-growing, in situ precursor — becomes lentigo maligna melanoma when invasive.\n- **Seborrhoeic keratosis**: stuck-on appearance, uniform pigmentation, no bleeding or satellites.",
+      "treatment": "Prompt referral for specialist management [1]. Excision with 10–30mm margins depending on site and Breslow thickness [2]. Sentinel lymph node biopsy for staging. Adjuvant immunotherapy or targeted therapy (BRAF inhibitors) for advanced disease. GDP role: recognise and refer — don't biopsy incompletely or delay.",
+      "prognosis": "Prognosis is primarily determined by Breslow thickness at diagnosis [1]. Thin melanomas (<1mm) have excellent outcomes with surgery alone. Thick lesions and those with regional or distant metastases have markedly worse prognosis. Early detection is the only effective intervention the GDP can make — and it's a meaningful one, because the difference between a 0.5mm and a 4mm Breslow depth is the difference between curable and likely lethal.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This condition is being increasingly diagnosed, with a doubling of the incidence in the last 20yrs. The prognosis is dependent primarily on the depth of the tumour (Breslow thickness), as the thicker the lesion, the poorer the prognosis. Early metastasis is common. Sunlight is a major aetiological factor, possibly due to burning at an early age. Suspect if a pigmented lesion rapidly enlarges, bleeds, ulcerates, shows 'satellite' lesions, or changes colour. Prompt referral for specialist management is needed.",
+          "paragraph": 7506,
+          "source": "Oxford Handbook · paragraph 7506"
+        },
+        {
+          "id": 2,
+          "quote": "A margin of normal skin around the cancer of 5mm for BCC, 10mm for SCC, and 10–30mm for melanoma, dependent on site. The British Association of Dermatologists (BAD) produces a useful set of guidelines.",
+          "paragraph": 6946,
+          "source": "Oxford Handbook · paragraph 6946"
+        }
+      ]
+    },
+    {
+      "id": "skin-015",
+      "description": "Flaky, greasy skin around the eyebrows, nasolabial folds, or perioral area — mild but persistent, worse in winter.",
+      "conditionName": "Seborrhoeic eczema",
+      "prevalence": "common",
+      "etiology": "A fungal-based inflammatory skin condition primarily affecting sebaceous areas of the face [1]. The organism involved is Malassezia (Pityrosporum), a lipid-dependent yeast that colonises sebum-rich skin. Seborrhoeic areas — the scalp, nasolabial folds, eyebrows, and perioral skin — are the classic distribution. It's not an allergic reaction and not caused by poor hygiene; it's a dysregulated host response to a normal commensal organism.\n\nIn neonates it manifests as 'cradle cap' — thick yellow-white scaling of the scalp — which is the childhood form [1]. In adults, the facial distribution matters for dentistry because the perioral and perinasal involvement can be mistaken for other conditions.",
+      "presentation": "Greasy, yellowish-white scaling on a mildly red background, distributed symmetrically over the sebaceous areas: nasolabial folds, eyebrow margins, glabella, and perioral skin. The skin is not vesicular — no blisters, no weeping. Mild pruritus. The patient may not mention it unless directly asked. The GDP may notice it incidentally during extra-oral examination and mistake it for perioral dermatitis or contact dermatitis.",
+      "results": "Clinical diagnosis on distribution and appearance. No patch test needed — this is not an allergic condition. If diagnosis is uncertain, topical antifungal trial (ketoconazole shampoo or cream) that resolves the scaling confirms the fungal basis.",
+      "definingCharacteristics": "The greasy scale on the nasolabial folds and eyebrows is the distinguishing feature — it's not the dry, cracked eczema of contact dermatitis, not the honey crust of impetigo, and not the vesicular prodrome of herpes [1]. Symmetrical facial distribution separates it from the unilateral pattern of herpetic conditions. The perioral location makes it relevant to dentistry: patients may present thinking the scaling is related to their lips or an oral condition.\n\nCompare to:\n\n- **Perioral dermatitis**: papular red rash around the mouth, often associated with topical steroid use, no greasy scale.\n- **Allergic contact dermatitis**: vesicular, history of allergen contact, delayed onset.\n- **Psoriasis**: thick silvery scale on an erythematous plaque, typically scalp and extensor surfaces.",
+      "treatment": "Topical antifungal: ketoconazole 2% shampoo or cream used as a facial wash, left on for several minutes then rinsed. Mild topical steroid (e.g. 1% hydrocortisone) for acute flares — but only short-term, because prolonged steroid use on the face causes skin thinning and can precipitate perioral dermatitis. Maintenance with antifungal shampoo once weekly once the active phase resolves. GDP role: recognise and advise GP referral — topical antifungals are first-line and highly effective.",
+      "prognosis": "Chronic and relapsing — it doesn't resolve permanently, but it responds well to antifungal treatment [1]. Maintenance therapy prevents recurrence. Flares correlate with stress, illness, and winter conditions. Manageable long-term with simple topical treatment.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A fungal infection mainly affecting the scalp ('cradle cap') in neonates.",
+          "paragraph": 7534,
+          "source": "Oxford Handbook · paragraph 7534"
+        }
+      ]
     }
   ]
 }
