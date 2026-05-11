@@ -243,6 +243,114 @@
           "source": "Oxford Handbook · paragraph 4374"
         }
       ]
+    },
+    {
+      "id": "removable-prosthesis-007",
+      "description": "The palate under a complete upper denture develops a lumpy, nodular surface — dozens of small red-pink papillary projections covering the fitting-surface area.",
+      "conditionName": "Inflammatory papillary hyperplasia of the palate (denture-related)",
+      "prevalence": "common",
+      "etiology": "What happens is that prolonged wearing of a complete upper denture — especially night-time wear without removal — creates a warm, low-oxygen microenvironment on the palatal mucosa where Candida thrives [1]. The trauma from a poorly fitting or constantly worn denture adds a mechanical insult on top of the candidal colonisation, and the palatal mucosa responds with papillary hyperplasia: multiple small nodular projections of hyperplastic tissue grow from the fitting-surface area [2].\n\nThe link to Candida is not incidental. Denture stomatitis — of which this is a more advanced morphological variant — is caused by Candida albicans in 90% of cases [1]. The reason the palate specifically is affected, rather than the lower ridge, is that the upper denture creates a covered, sealed niche against the palate that traps organisms and prevents salivary clearance.",
+      "presentation": "Usually symptomless — the patient is often unaware until the denture is removed and the palate is examined [1]. What you'll see on lifting the denture is a field of small (1–3 mm) red or pink papillary projections covering the fitting-surface area of the palate, with surrounding erythema. In some cases the affected area also shows the diffuse redness of underlying denture stomatitis.\n\nThe palate surface feels velvety and granular on palpation, compared with the smooth firm mucosa of a healthy vault. The nodules don't ulcerate unless secondarily traumatized.",
+      "results": "Clinical diagnosis based on the characteristic distribution of nodules matching the denture footprint [2]. The spatial correspondence between the hyperplastic zone and the fitting-surface area of the denture is the key finding.\n\nSwab or smear of the palate for Candida is helpful to confirm active candidosis and guide antifungal choice. No radiographic investigation is needed.\n\nIn cases where nodules are unusually large, asymmetric, or located outside the obvious denture footprint, biopsy is appropriate — though true malignant transformation of inflammatory papillary hyperplasia is not described.",
+      "definingCharacteristics": "The defining feature is the carpet of small papillary projections strictly confined to the fitting-surface zone of the palate under the upper denture — the nodules don't extend to the non-covered palate or soft tissue elsewhere [2]. That restricted distribution separates it from other mucosal conditions.\n\nContrast:\n- **Denture stomatitis (Newton type I and II)**: erythema and petechiae under the denture, but the surface is flat or granular rather than genuinely papillary and nodular. Papillary hyperplasia is the Newton type III presentation — a more advanced, structural change.\n- **Denture irritation hyperplasia (epulis fissuratum)**: rolls of fibrous tissue at the denture flange margin in the sulcus, not on the palatal fitting surface.\n- **Erythematous candidosis from antibiotics/steroid inhaler**: diffuse palatal redness without nodularity and without the denture footprint pattern.",
+      "treatment": "The goal is to eliminate the Candida, remove the denture at night, and then deal with the residual hyperplastic tissue if it doesn't resolve [2].\n\n- **Remove dentures at night.** Night-time wear is a primary driver — this is the most important single instruction [1].\n- **Denture hygiene**: brush fitting surface and soak in hypochlorite cleanser daily [1]. The denture acts as a reservoir for Candida and must be treated alongside the mucosa.\n- **Antifungal**: miconazole gel applied to the fitting surface before insertion is the mainstay [1]. Systemic fluconazole if topical measures fail [1].\n- **Surgical reduction**: if papillary hyperplasia persists after adequate antifungal treatment and improved hygiene, surgical reduction of the hyperplastic nodules is needed before making a new or relined denture [2]. Leaving the irregular tissue in place means any new denture will sit on a poor foundation.\n- Replace the denture if it is ill-fitting, to remove the ongoing mechanical stimulus.",
+      "prognosis": "Antifungal treatment and removal at night will clear the candidosis and often reduce the erythema. The papillary tissue itself, once established, rarely resolves fully without surgical reduction [2]. With tissue reduction and a new well-fitting denture, recurrence is uncommon provided night-time removal and hygiene are maintained.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Also known as denture sore mouth, a misnomer because the condition is usually symptomless. Classically, seen as redness of the palate under a F/− denture, with petechial and whitish areas. 90% of cases due to Candida albicans, 9% to other Candida spp., and <1% to other organisms, e.g. Klebsiella spp.",
+          "paragraph": 4722,
+          "source": "Oxford Handbook · paragraph 4722"
+        },
+        {
+          "id": 2,
+          "quote": "Coexisting papillary hyperplasia of palate may need surgical reduction.",
+          "paragraph": 4743,
+          "source": "Oxford Handbook · paragraph 4743"
+        }
+      ]
+    },
+    {
+      "id": "removable-prosthesis-008",
+      "description": "Recession and soft-tissue stripping develop around abutment teeth of a lower acrylic partial denture — the gum pulls away from teeth that were periodontally healthy before the denture was fitted.",
+      "conditionName": "Gingival stripping by tissue-borne acrylic partial denture (gum-stripper)",
+      "prevalence": "common",
+      "etiology": "The problem is a design mismatch. An acrylic partial denture in the lower arch without rests on abutment teeth is a **mucosa-borne** (tissue-borne) denture: it has no direct tooth support, so occlusal loads are transmitted entirely to the mucosa [1]. Under function, the denture sinks into the soft tissue and can displace apically against the gingival margins of the remaining teeth. Repeat loading in this direction strips the gingival tissues away from the cervical area of the abutment tooth — hence the term gum-stripper [1].\n\nThis is less a problem in the upper arch because the palatal vault provides broad mucosal support that resists this sinking. In the lower arch there is no comparable vault, so tissue-only support is inherently less stable [2].",
+      "presentation": "- Recession affecting the labial or buccal gingivae of teeth adjacent to the denture saddle — specifically those teeth the acrylic base runs close to.\n- The patient may report soreness at the gingival margin on the side where the denture base contacts. Alternatively, the recession is painless and noted incidentally at a review appointment.\n- On examination: the acrylic connector or base runs across or close to the gingival margin of the natural teeth, with no clearance from the soft tissue.\n- Increased plaque accumulation and gingival inflammation at the contact zones, because the acrylic stagnates plaque and blocks self-cleansing.",
+      "results": "- Clinical examination with the denture in place: check whether the connector or saddle base runs directly over the gingival margins rather than clearing them [3].\n- Measure recession with a graduated probe: recession specifically at teeth adjacent to acrylic connectors or base extensions suggests a mechanical cause.\n- BPE of all teeth, comparing scores around abutment teeth to the rest of the dentition — a selective pattern of damage at the denture contact sites points to the prosthesis as the cause.\n- Remove the denture and check for tooth mobility: excessive clasp tension or leverage from an unstable denture may compound periodontal damage [4].",
+      "definingCharacteristics": "The pattern of recession is the diagnostic clue: it maps precisely to where the acrylic base or connector runs against the gingival margin, rather than being generalised across the arch [3]. What marks this out from other causes of recession:\n\n- **Generalised recession from toothbrush trauma**: uniform, on buccal surfaces across multiple teeth regardless of denture contact.\n- **Periodontal disease**: bone loss and pocketing are the primary findings, not just recession at connector sites.\n- **Clasping-related damage**: clasp-arm trauma causes cervical caries and periodontal damage at the tooth the clasp engages, not at every connector-contacted surface.\n\nThe thing is, this condition is largely preventable by design. When financial constraints make an acrylic base necessary, specific design steps can avoid the gum-stripper outcome: keeping the base clear of gingival margins, avoiding interdental acrylic extensions, and adding wrought stainless steel rests to provide some tooth support [3].",
+      "treatment": "- **Modify or replace the denture** to relieve acrylic from gingival margins wherever possible [3]. Where the base cannot avoid the area, reduce the labio-gingival extensions.\n- **Add rests** on appropriate abutment teeth to convert the denture from tissue-borne to partially tooth-borne, reducing the sinking force on the mucosa [2].\n- **Instruct on denture hygiene**: brushing the fitting surface with soap and water to reduce plaque accumulation against the adjacent gingival margins [5].\n- **Periodontal treatment**: root surface debridement and oral hygiene instruction for the affected teeth.\n- If recession is significant and function or aesthetics are compromised: consider soft tissue augmentation (connective tissue graft or similar) after the denture has been corrected — surgery without fixing the cause will fail.\n- For long-term management: a cobalt–chrome framework denture with correctly designed rests and connectors well clear of the gingival margins is the better solution if the patient can be referred or the practice offers this.",
+      "prognosis": "Recession caused by a gum-stripper does not self-correct. Removing the cause stops further progression, but the tissue lost does not regenerate without surgical intervention. With design correction and good oral hygiene, the inflammatory component resolves and the rate of loss slows to zero.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Gum-stripper: A tissue-borne partial denture which can 'sink'.",
+          "paragraph": 4334,
+          "source": "Oxford Handbook · paragraph 4334"
+        },
+        {
+          "id": 2,
+          "quote": "Tissue-only support should be utilized when no suitable teeth are available, and is less damaging in the upper than the lower arch, because of the palatal vault.",
+          "paragraph": 4415,
+          "source": "Oxford Handbook · paragraph 4415"
+        },
+        {
+          "id": 3,
+          "quote": "However, where financial constraints C/I a metal base, attention to the following may avoid the production of a gum-stripper: Wide mucosal coverage to provide maximum support. Keep base clear of the gingival margins wherever possible. No interdental extensions of acrylic. Point contact and wide embrasures between natural and artificial teeth. Labial flanges for extra retention and bracing. Additional support from wrought SS rests.",
+          "paragraph": 4359,
+          "source": "Oxford Handbook · paragraph 4359"
+        },
+        {
+          "id": 4,
+          "quote": "Pain from an individual tooth on P/P: Excessive load and/or traumatic occlusion. Leverage due to unstable denture. Clasp arm too tight.",
+          "paragraph": 4688,
+          "source": "Oxford Handbook · paragraph 4688"
+        },
+        {
+          "id": 5,
+          "quote": "When new dentures are fitted, the importance of regular, thorough cleaning, especially of fitting surfaces, with soap, water, and a brush to prevent the build-up of plaque, stain, and calculus should be emphasized.",
+          "paragraph": 4677,
+          "source": "Oxford Handbook · paragraph 4677"
+        }
+      ]
+    },
+    {
+      "id": "removable-prosthesis-009",
+      "description": "An elderly patient's longstanding dentures progressively stop fitting — the jaws appear to have grown larger and the patient now has difficulty with extractions that would previously have been routine.",
+      "conditionName": "Paget's disease of bone — jaw involvement with ill-fitting dentures and BRONJ risk",
+      "prevalence": "rare",
+      "etiology": "Paget's disease disrupts the normal, orderly cycle of bone remodelling and replaces it with chaotic alternation of resorption and deposition — resorption dominating in early stages, then disorganised new bone laid down in its place [1]. The jaws are affected alongside the skull, pelvis, and long bones: the maxilla more often than the mandible [2]. As the bone enlarges and deforms, dentures that previously fitted become increasingly ill-fitting and eventually unwearable, because the arch dimensions have changed.\n\nHypercementosis — thickening of the cementum layer around tooth roots — is a direct consequence of the same disordered bone-cementum metabolism [2]. The root becomes fused or adhered to the surrounding bone in a way that makes extraction extremely difficult. This is the relevant clinical trap: what looks like a routine extraction is not.",
+      "presentation": "- Patient over 55 with existing complete or partial dentures that have progressively stopped fitting, without the usual explanation of ridge resorption.\n- Jaw pain and possible cranial nerve symptoms if the skull base is involved [1].\n- On examination: the jaws may appear enlarged, the palatal vault flattened or expanded, the dental arches widened.\n- The patient may report that recent extractions elsewhere were unexpectedly difficult.\n- Systemic features: bone pain elsewhere, skull changes, hearing loss if auditory nerve compressed.",
+      "results": "- **Radiograph**: characteristic 'cotton wool' appearance of affected bone — patchy sclerosis mixed with areas of radiolucency, giving an irregular mottled pattern [2]. Loss of the normal trabecular architecture.\n- **Bloods**: raised serum alkaline phosphatase and raised urinary hydroxyproline are the biochemical hallmarks [2]. These reflect the high rate of bone turnover.\n- DPT confirms hypercementosis around roots of standing teeth: the root outline is bulbous and the periodontal ligament space may be obliterated in places.\n- The combination of jaw enlargement, cotton wool radiographic appearance, and elevated alkaline phosphatase is effectively diagnostic.",
+      "definingCharacteristics": "The question to ask when dentures keep failing without the usual ridge resorption pattern is: is the jaw actually getting bigger rather than smaller? Paget's is the condition where the bone expands rather than resorbs — the opposite mechanism to the usual denture failure story [1].\n\nThe interesting bit from a prosthetic standpoint is the double risk: not only do dentures fail because the arch dimensions change, but any extraction needed to improve the denture-bearing area carries a disproportionate BRONJ risk. Paget's disease is a standard indication for bisphosphonate therapy, and once the patient is on bisphosphonates, jaw surgery carries a risk of osteonecrosis ranging from under 1% for low-potency oral preparations up to 30% for patients on IV preparations who have had extractions [3].",
+      "treatment": "- Manage ill-fitting dentures conservatively wherever possible: reline, rebase, or remake rather than extracting standing teeth.\n- Before any surgical procedure including extraction: check whether the patient is on bisphosphonates or calcitonin for Paget's disease [2]. If so, apply BRONJ precautions — prophylactic chlorhexidine and broad-spectrum antibiotic, atraumatic technique, primary closure over bone to prevent necrosis [4].\n- Avoid general anaesthesia where possible [2].\n- Hypercementosis means roots are difficult to remove: extraction should be planned surgically rather than with a simple forceps technique [2].\n- For established BRONJ if it develops: refer to oral and maxillofacial surgery — there are no agreed effective treatments and local sequestrectomy with coverage is the best available approach [4].\n- The systemic disease is managed with bisphosphonates and calcitonin [2]; the GDP's role is to coordinate dental treatment around that.",
+      "prognosis": "The bony enlargement in Paget's is progressive during the active phase of the disease. Bisphosphonates stabilise the process but do not reverse existing jaw changes, so dentures will remain a persistent management problem. Hypercementosis does not resolve. If BRONJ develops, the condition appears to be progressive and there is no established effective treatment [3].",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "A common disorder of the elderly, where the normal, orderly replacement of bone is disrupted and replaced by a chaotic structure of new bone, causing enlargement and deformity. The hands and feet are spared. Complications include bone pain and cranial nerve compression, or, more rarely, high output cardiac failure or osteosarcoma. Another condition that is treated with bisphosphonates.",
+          "paragraph": 7411,
+          "source": "Oxford Handbook · paragraph 7411"
+        },
+        {
+          "id": 2,
+          "quote": "This is relatively common over the age of 55yrs and affects the skull, pelvis, and long bones, as well as the jaws. Although aetiology is uncertain, both the measles and respiratory syncytial viruses have been implicated. The maxilla is more frequently affected than the mandible. Hypercementosis of roots makes extractions difficult in this group. There is a replacement of normal bone remodelling by a chaotic alternation of resorption and deposition, with resorption dominating in the early stages. Bone pain and cranial neuropathies can occur. X-rays show a 'cotton wool' appearance. Biochemistry shows an ↑ in alkaline phosphatase and urinary hydroxyproline. Avoid GA; use prophylactic antibiotics and plan extractions surgically. Bisphosphonates and calcitonin are used in Rx.",
+          "paragraph": 5811,
+          "source": "Oxford Handbook · paragraph 5811"
+        },
+        {
+          "id": 3,
+          "quote": "Bisphosphonate-related osteonecrosis of the jaws (BRONJ aka BRON aka anti-resorptive-related osteonecrosis of the jaws (ARONJ)) is a condition where alveolar bone is exposed in the mouth in patients taking these drugs (Fig. 10.2). The condition appears to be progressive and there is no established effective treatment although several are being investigated. Bone necrosis without mucosal breach is also described. The incidence is variable but is probably much less than 1% for patients treated with low-potency drugs for osteoporosis, up to 30% for myeloma survivors at 10yrs who have received highly potent drugs and who have had extractions.",
+          "paragraph": 8280,
+          "source": "Oxford Handbook · paragraph 8280"
+        },
+        {
+          "id": 4,
+          "quote": "There will be many instances where patients have been started on these drugs and need teeth removed. If this can be avoided by endodontics, coronectomy, etc. then do it. If not, warn the patient of risks (range from <1% for low-risk drug in osteoporosis patient to 30% in a myeloma survivor at 10yrs). Use prophylactic chlorhexidine and broad-spectrum antibiotic, atraumatic extraction, and alveolar septoplasty to ensure all bone lies well below the gingival margin and close mucosa primarily.",
+          "paragraph": 5558,
+          "source": "Oxford Handbook · paragraph 5558"
+        }
+      ]
     }
   ]
 }
