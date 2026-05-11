@@ -233,6 +233,164 @@
           "source": "Oxford Handbook · paragraph 5744"
         }
       ]
+    },
+    {
+      "id": "floor-of-mouth-005",
+      "description": "Firm, doughy midline swelling in the floor of mouth or under the chin, present for years. Not fluctuant, not linked to meals — just slowly growing. Tongue elevation may be the first thing the patient notices.",
+      "conditionName": "Dermoid cyst",
+      "prevalence": "rare",
+      "etiology": "A developmental cyst arising from epithelium trapped during embryonic fusion of the midline structures [1]. The thing is, dermoid cysts can settle in two quite different zones: most commonly at the lateral canthus of the eye, but the next most frequent site is the midline of the neck, above the mylohyoid — and it's this sublingual variety that presents to the GDP [2]. When the cyst sits above the mylohyoid it bulges up into the floor of the mouth and elevates the tongue; when it sits below it presents as a submental swelling under the chin [2]. The cyst wall is true skin — it contains keratin and sometimes hair follicles or sebaceous glands — so it doesn't produce mucin and doesn't transilluminate like a ranula [2].",
+      "presentation": "A slowly enlarging, painless midline swelling — either lifting the tongue from below or presenting as a smooth submental lump [1, 2]. Most patients notice it incidentally or because the tongue feels pushed upward. The swelling is firm to doughy on palpation, not fluctuant. It doesn't change with meals and is not tender unless secondarily infected. Because the growth rate is glacial, patients often describe a lesion that has been present for years before they seek advice.",
+      "results": "- **Palpation**: firm, doughy, non-fluctuant. Does not transilluminate — keratin content prevents light transmission [2].\n- **Site**: midline or paramidline FOM, above or below the mylohyoid. Bimanual palpation helps determine the relationship to the muscle.\n- **Imaging**: MRI or USS to confirm cystic nature, locate the cyst relative to the mylohyoid, and plan surgical access. CT is adequate for bony relationships.\n- **Histology**: cyst lined by stratified squamous epithelium containing keratin; may include skin appendages (hair follicles, sebaceous glands).",
+      "definingCharacteristics": "The midline position and firm/doughy consistency separate this from almost everything else in the FOM. A ranula is lateral, soft, fluctuant, and bluish — a dermoid is central, firm, and skin-coloured or yellowish [2]. Sialolithiasis produces meal-related pain and gland swelling, not a midline cyst. Ludwig's angina is acutely tender and rapidly progressive. The interesting bit: a dermoid cyst literally contains skin — keratin, sometimes hair and sebum — so at excision it looks and smells nothing like a salivary lesion.",
+      "treatment": "Complete but conservative excision [1, 2]. The goal is full removal of the cyst wall to prevent recurrence. Approach depends on the cyst's position relative to the mylohyoid:\n\n- **Above the mylohyoid**: intraoral excision.\n- **Below the mylohyoid** (submental swelling): extraoral approach through a submental incision.\n\nRefer to oral and maxillofacial surgery. GDP role is recognition and onward referral.",
+      "prognosis": "Excellent with complete excision [1]. Recurrence is uncommon if the entire cyst wall is removed. No malignant potential. The main risk of leaving it untreated is progressive tongue elevation with eventual speech and swallowing difficulty.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is a developmental cyst most commonly found at the lateral canthus of the eye where it may extend intracranially, but next most often found in the midline of the neck above the mylohyoid, where it causes elevation of the tongue. Rx: complete but conservative excision.",
+          "paragraph": 5774,
+          "source": "Oxford Handbook · paragraph 5774"
+        },
+        {
+          "id": 2,
+          "quote": "Lies in floor of mouth, often under mylohyoid. Arises from trapped epithelium during embryonic fusion; contains keratin. Rx: total excision.",
+          "paragraph": 7020,
+          "source": "Oxford Handbook · paragraph 7020"
+        }
+      ]
+    },
+    {
+      "id": "floor-of-mouth-006",
+      "description": "A crop of dozens of tiny, intensely painful ulcers scattered across the floor of mouth and tongue, recurring almost continuously. Looks alarmingly like primary herpetic stomatitis but the patient has had it before.",
+      "conditionName": "Herpetiform ulcers",
+      "prevalence": "very-uncommon",
+      "etiology": "Part of the recurrent aphthous stomatitis (RAS) spectrum, but the rarest and most severe subset [1]. The name is misleading — herpetiform ulcers have nothing to do with herpes virus infection; the resemblance to primary herpetic stomatitis is purely visual [1]. What happens is a T-cell-mediated immunological reaction in genetically predisposed individuals, the same underlying mechanism as minor and major aphthae. The demographic tilt is worth noting: these occur predominantly in older women, unlike minor aphthae which start in childhood or adolescence [1]. Recurrences can be almost continuous for two to three years — which is what makes this subset so debilitating [1].",
+      "presentation": "A crop of small but intensely painful ulcers, up to 100 at a time [1]. Each ulcer individually is tiny (1–2 mm), but sheer number makes the oral mucosal surface look devastated. The commonest sites are the floor of mouth, lateral tongue margins, and tongue tip — affecting both keratinised and non-keratinised surfaces [1]. Each crop lasts one to two weeks before healing, then the next wave arrives [1]. Rarely, adjacent ulcers coalesce into a single large ulcer, and when this happens it can heal with scarring [1].",
+      "results": "- **Appearance**: multiple tiny discrete ulcers, 1–2 mm, with a yellow-grey base and erythematous halo. No vesicles (there is no viral prodrome here).\n- **Serology**: no viral titres; FBC and haematinics are worth checking since iron, B12, or folate deficiency can drive aphthous flares of any subtype [1].\n- **History**: the recurrent pattern over months to years, and the absence of systemic features distinguishing this from primary HSV infection. Viral swab negative [1].\n- No lymphadenopathy, no fever in uncomplicated cases.",
+      "definingCharacteristics": "The question is: how do you separate this from primary herpetic stomatitis, which it visually mimics [1]? Primary HSV gingivostomatitis is a first episode, in a child or young adult, with fever, cervical lymphadenopathy, and gingival involvement — it doesn't recur as the same picture. Herpetiform ulcers are recurrent, in older women, without systemic upset. The individual ulcers in primary HSV start as vesicles on an erythematous base; herpetiform aphthae skip the vesicle stage entirely. Major aphthae are fewer, larger (>10mm), and last much longer. Minor aphthae come in smaller crops of 1–6, mainly on non-keratinised mucosa.",
+      "treatment": "Manage as for minor aphthous ulceration [1]. The goal is symptom control and mucosa protection:\n\n- Chlorhexidine mouthwash to prevent secondary infection.\n- Topical analgesics (benzydamine mouthrinse).\n- Topical tetracycline and steroid preparations can reduce severity.\n- Investigate and treat any underlying haematinic deficiency — iron, B12, folate [1].\n- Screen for coexisting gastrointestinal disease (Crohn's, coeliac) if there is a relevant history.\n- Systemic immunosuppression (e.g. thalidomide) is reserved for severe refractory cases at specialist level.",
+      "prognosis": "Unpredictable. Recurrences may run almost continuously for two to three years then remit spontaneously [1]. Haematinic correction can markedly reduce frequency if a deficiency is the driver. For patients without a treatable cause, long-term symptomatic management is the realistic expectation. No malignant potential.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Least common. So named due to their resemblance to 1° herpetic stomatitis; however, they are not related to viral infection. Commoner in older females. Manifest as a crop of small but painful ulcers (up to 100) which usually last 1–2 weeks, the commonest site being the floor of mouth, lateral margins, and tip of tongue, occurring on both keratinized and non-keratinized surfaces. Rarely, they merge to form a large ulcer which heals with scarring. There are frequent recurrences (may be almost continuous for 2–3yrs). Rx: as for minor aphthous ulceration.",
+          "paragraph": 6063,
+          "source": "Oxford Handbook · paragraph 6063"
+        }
+      ]
+    },
+    {
+      "id": "floor-of-mouth-007",
+      "description": "Recurrent episodes of dramatic swelling of the floor of mouth, lips, or neck — without urticaria, without an identifiable allergen trigger, and with a family history of the same. Can compromise the airway.",
+      "conditionName": "Hereditary angio-oedema",
+      "prevalence": "rare",
+      "etiology": "A genetic defect of C1-esterase inhibitor — either absent or non-functional [1]. The reason this matters clinically is that C1-esterase inhibitor normally keeps the complement cascade and the contact activation (kinin) pathway in check. Without it, bradykinin accumulates unchecked with any triggering stimulus, and bradykinin drives profound vascular permeability — hence the swelling [1]. The trigger is typically trauma: dental treatment, intubation, minor soft-tissue injury, and sometimes emotional stress [1]. What distinguishes hereditary angio-oedema from allergic angio-oedema is the absence of urticaria and the failure to respond to antihistamines or adrenaline — because the mechanism is bradykinin, not histamine [1].",
+      "presentation": "Recurrent episodes of swelling affecting the lips, floor of mouth, neck, and sometimes the feet and buttocks [1]. The swelling is non-pitting, non-itchy, and not accompanied by urticaria. Episodes come on over hours, peak, then gradually resolve over one to several days. The airway relevance is real: FOM and pharyngeal swelling can compromise breathing, and a dental appointment (local anaesthetic injection, rubber dam, retraction) is a documented precipitant [1]. The family history is the key clue — ask about relatives who have had unexplained episodes of facial or laryngeal swelling.",
+      "results": "- **Bloods**: low C4, normal C3, and absence of C1-esterase inhibitor activity — this triad is diagnostic [1].\n- **Family history**: positive in most cases (autosomal dominant).\n- **Urticaria**: absent — distinguishes this from allergic angio-oedema [1].\n- **Response to antihistamines/adrenaline**: none — further distinguishing from IgE-mediated allergy.",
+      "definingCharacteristics": "The key separation from allergic angio-oedema [1]:\n\n- **No urticaria**: allergic reactions almost always produce urticaria alongside oedema. Hereditary angio-oedema does not.\n- **No identifiable allergen**: allergic angio-oedema usually has a traceable cause (food, drug, latex); hereditary does not.\n- **Trauma-precipitated**: dental treatment as a trigger points firmly toward the hereditary form.\n- **Family history**: the autosomal dominant inheritance means there are usually affected relatives.\n- **Complement bloods**: the C4/C3/C1-INH triad is a definitive test [1].",
+      "treatment": "Acute attack: fresh frozen plasma (which contains C1-esterase inhibitor) or partially purified C1-esterase inhibitor concentrate [1]. Seek local haematology/immunology advice on which product is available.\n\nLong-term prophylaxis: tranexamic acid [1].\n\nShort-term (perioperative) prophylaxis: danazol [1].\n\nFor dental treatment: alert the anaesthetic/medical team before any procedure. Pre-treatment danazol and FFP cover should be arranged for invasive dental work. Do not rely on adrenaline or antihistamines — they will not work.",
+      "prognosis": "Lifelong condition. Attacks are recurrent but manageable with appropriate prophylaxis and acute treatment [1]. The real danger is laryngeal oedema — historically a cause of death before C1-INH concentrate was available. With correct diagnosis and management plan in place, prognosis for individual episodes is good. The takeaway: once you know a patient has hereditary angio-oedema, every future dental appointment needs a management protocol agreed in advance.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Defect of C1-esterase inhibitor. Lip, neck, floor of mouth swelling, and swelling of feet and buttocks. Precipitated by trauma. Diagnosis from family history, bloods: low C4, normal C3, and absence of C1 esterase inhibitor activity. Rx: acute attacks—fresh frozen plasma (contains C1-esterase inhibitor) or partially purified (seek advice in your locality). Prophylaxis: long term, tranexamic acid; short term, danazol.",
+          "paragraph": 6266,
+          "source": "Oxford Handbook · paragraph 6266"
+        }
+      ]
+    },
+    {
+      "id": "floor-of-mouth-008",
+      "description": "A bright red, velvety patch in the floor of the mouth or ventral tongue that looks almost too red to be normal mucosa — but the patient has no pain and no obvious cause.",
+      "conditionName": "Erythroplakia",
+      "prevalence": "rare",
+      "etiology": "Erythroplakia is defined by the WHO as any lesion presenting as a bright red velvety plaque that cannot be characterised clinically or pathologically as any other recognisable condition [1]. The reason this matters is stark: at least 85% of erythroplakias are carcinoma in situ or frank carcinoma at biopsy [1]. The remaining 15% show severe dysplasia. In other words, there is no benign erythroplakia. The floor of mouth and ventral tongue are both high-risk sites — thin non-keratinised mucosa in permanent contact with pooled saliva and its carcinogenic load [1].\n\nThe aetiology mirrors that of FOM SCC: tobacco and alcohol synergistically, with the FOM acting as a collection point for dissolved carcinogens [2]. However, erythroplakia can appear in non-smokers, and in those cases it carries a particularly unpredictable course.",
+      "presentation": "A well-demarcated, flat or slightly depressed bright red patch — velvety in texture, not raised, not indurated at this stage [1]. It often looks more vivid than any inflammatory lesion. There's typically no pain, which is why patients and clinicians alike can underestimate it. The floor of mouth and ventral tongue are the commonest sites. May coexist with adjacent areas of leucoplakia — when this happens you're dealing with erythroleukoplakia, which carries a similarly high transformation risk.",
+      "results": "- **Appearance**: intense red, velvety, well-defined plaque. Any FOM or ventral tongue red patch that can't be attributed to a specific cause (trauma, candida, geographic tongue equivalent) needs biopsy.\n- **Toluidine blue**: stains areas of high mitotic activity and can help guide biopsy site selection within larger lesions.\n- **Biopsy**: mandatory. Histology shows carcinoma in situ or frank SCC in ≥85% of cases [1]. Even if the first biopsy shows only dysplasia, the site warrants specialist surveillance and likely ablation.\n- **Staging**: if frank SCC is confirmed, CT or MRI for staging as per floor-of-mouth cancer pathway.",
+      "definingCharacteristics": "Pure erythroplakia is the highest-risk potentially malignant disorder in the mouth — higher than leucoplakia (12% overall malignant transformation rate), higher than erythroleukoplakia (already elevated), higher than submucous fibrosis [1, 2]. The velvety texture and intense red colour distinguish it from simple inflammatory mucositis, which tends to be diffuse and related to a cause (denture, trauma, infection). The FOM site specifically concentrates risk. If you find a red patch in the FOM and it doesn't resolve once a cause is removed, biopsy it — do not watch and wait.",
+      "treatment": "Refer urgently to oral medicine or OMFS for biopsy and specialist management [1].\n\nFor confirmed dysplasia or CIS:\n\n- Ablation (laser, cryotherapy) or surgical excision of the affected area.\n- Regular long-term surveillance — field change means recurrence or new lesions are common even after treatment.\n\nFor confirmed SCC: manage as floor-of-mouth cancer (see floor-of-mouth-003).\n\nEliminate risk factors: smoking cessation and alcohol reduction — these improve prognosis and reduce new lesion development.",
+      "prognosis": "Guarded. With ≥85% representing CIS or frank carcinoma at first biopsy, the default assumption must be malignancy until histology proves otherwise [1]. Even lesions showing only dysplasia carry a high progression rate, particularly in the FOM. Early treatment — before invasion — offers good local control. Surveillance is lifelong because field change means new primaries can arise.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is any lesion that presents as bright red velvety plaques, which cannot be characterized clinically or pathologically as any other recognizable condition (WHO). Most of these lesions are carcinoma in situ or frank carcinoma and are found at high-risk sites (at least 85%).",
+          "paragraph": 6192,
+          "source": "Oxford Handbook · paragraph 6192"
+        },
+        {
+          "id": 2,
+          "quote": "In certain sites, e.g. floor of mouth, >25% may progress and certain variants, e.g. 'candidal leucoplakia', have a claimed 10–40% incidence of malignant change. ∆ and Rx: specialist referral is indicated—biopsy (possibly guided by toluidine blue to select most appropriate area) and Rx as appropriate. Malignant transformation is more common among non-smokers (idiopathic leucoplakia).",
+          "paragraph": 6188,
+          "source": "Oxford Handbook · paragraph 6188"
+        }
+      ]
+    },
+    {
+      "id": "floor-of-mouth-009",
+      "description": "A mixed red and white patch in the floor of the mouth — speckled, irregular, neither purely leucoplakic nor purely erythroplakic. Doesn't rub off.",
+      "conditionName": "Erythroleukoplakia (speckled leucoplakia)",
+      "prevalence": "very-uncommon",
+      "etiology": "Erythroleukoplakia is basically leucoplakia with zones of erythroplakia within it [1]. The reason the red areas matter so much is that erythroplakia carries a ≥85% rate of CIS or frank SCC at biopsy — so a white patch with red foci is not just a worse leucoplakia, it's a lesion where focally you may already be dealing with cancer [2]. The mixed appearance reflects uneven degrees of dysplastic change across the lesion surface: white areas represent hyperkeratosis, red areas represent atrophic epithelium with increased vascularity and a higher nuclear:cytoplasmic ratio.\n\nThe FOM is a high-risk site: tobacco and alcohol carcinogens pool in the saliva that bathes this thin non-keratinised mucosa, and the overall malignant transformation rate of leucoplakia in the FOM exceeds 25% [2].",
+      "presentation": "A speckled or nodular patch with irregular interspersed red and white areas — sometimes described as 'salt and pepper' [1]. The white component doesn't rub off (distinguishing it from candidal plaques, which do). The red component is not simply inflamed mucosa — it's atrophic epithelium. The lesion may be flat or slightly raised. Pain is absent early; discomfort may develop as dysplasia advances. The FOM and ventral tongue are the high-risk sites.",
+      "results": "- **Appearance**: speckled red-and-white plaque, fixed to surface. Won't wipe off.\n- **Palpation**: flat or minimally raised. Any indurated area should trigger immediate biopsy suspicion — induration means invasion.\n- **Biopsy**: mandatory. Histology shows epithelial dysplasia of varying degrees; the red foci are most likely to yield CIS or invasive SCC. Multiple biopsies may be needed to sample the full extent [2].\n- **Toluidine blue staining**: helps identify the highest-risk areas for biopsy targeting.\n- **Investigations for candidal co-infection**: Candida can colonise dysplastic plaques and increase malignant transformation risk.",
+      "definingCharacteristics": "Distinguishing erythroleukoplakia from its neighbours:\n\n- **vs pure leucoplakia**: the red component marks a step up in malignant risk. A purely white patch has an overall ~12% transformation rate; the mixed lesion is higher, particularly in the FOM [2].\n- **vs pure erythroplakia**: erythroplakia is all red, no white; erythroleukoplakia is the mixed form. Both are high risk [1, 2].\n- **vs candidal leucoplakia**: candidal plaques partially rub off with gauze; erythroleukoplakia does not. A PAS stain or culture distinguishes them, but treat any candidal component regardless.\n- **vs lichen planus**: erosive lichen planus produces red erosions within a lacy white pattern (Wickham's striae), typically bilateral, and has a biopsy picture distinct from dysplasia.",
+      "treatment": "Refer to oral medicine or OMFS for biopsy and specialist management [1, 2].\n\n- Biopsy the most suspicious (most red/indurated) area first.\n- Ablation or surgical excision of the lesion once histological grade is confirmed.\n- Treat any co-existing candidal infection.\n- Smoking cessation and alcohol reduction — the two modifiable risk factors that genuinely alter the trajectory.\n- Long-term surveillance after treatment, as field change means new lesions are common.",
+      "prognosis": "Higher risk than pure leucoplakia, lower than pure erythroplakia [1, 2]. Malignant transformation rate in the FOM exceeds 25% for leucoplakic lesions overall; the mixed lesion sits at the worse end of this range [2]. Early detection and treatment before invasion give good local control. Surveillance is lifelong.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "This is basically leucoplakia with areas of erythroplakia. Exhibits an ↑ risk of malignant transformation.",
+          "paragraph": 6190,
+          "source": "Oxford Handbook · paragraph 6190"
+        },
+        {
+          "id": 2,
+          "quote": "In certain sites, e.g. floor of mouth, >25% may progress and certain variants, e.g. 'candidal leucoplakia', have a claimed 10–40% incidence of malignant change. ∆ and Rx: specialist referral is indicated—biopsy (possibly guided by toluidine blue to select most appropriate area) and Rx as appropriate. Malignant transformation is more common among non-smokers (idiopathic leucoplakia).",
+          "paragraph": 6188,
+          "source": "Oxford Handbook · paragraph 6188"
+        }
+      ]
+    },
+    {
+      "id": "floor-of-mouth-010",
+      "description": "Hard, bony, non-tender lumps on the inner surface of the lower jaw — one or both sides, in the premolar-molar region. The patient has had them for years. They don't change.",
+      "conditionName": "Torus mandibularis",
+      "prevalence": "common",
+      "etiology": "Bony exostoses that develop on the lingual surface of the mandible in the premolar/molar region [1]. They are developmental anomalies — not tumours, not related to Gardner syndrome, and not a sign of systemic disease [1]. The reason they develop at this specific site is unclear; genetic predisposition is the main factor, and there's a higher prevalence in certain ethnic groups. They're bilateral in about 90% of cases. Growth is slow and typically stops once skeletal maturity is reached. The interesting bit: they are simply extra bone — normal bone in an abnormal location, with normal overlying mucosa.",
+      "presentation": "Smooth, lobulated or nodular hard swellings on the lingual aspect of the mandible, typically symmetrical, in the premolar/molar region [1]. The overlying mucosa is normal in colour and non-tender. Patients discover them incidentally — while running their tongue along the inside of their jaw — or a dentist notices them on examination. They don't ulcerate, don't bleed, and don't cause pain in themselves. Very large tori may cause speech difficulties or interfere with food handling. The main clinical problem arises when a lower partial or full denture is planned — the tori make it impossible to seat a denture without surgical reduction.",
+      "results": "- **Palpation**: rock hard, smooth or lobulated, non-tender. Attached to underlying bone — not pedunculated.\n- **Radiography**: occlusal or cross-sectional radiographs confirm the bony nature; there's no lytic component. Corticated margins, homogeneous density.\n- **No biopsy indicated** for typical presentation. If the surface becomes ulcerated or the lesion changes character, biopsy is warranted to exclude a rare osteogenic tumour.",
+      "definingCharacteristics": "The combination of bilateral, symmetrical, hard, non-tender, lingual mandibular swellings in the premolar/molar region is essentially pathognomonic [1]. Nothing else sits there like this. Distinguish from:\n\n- **Osteoma**: an osteoma is typically unilateral and not in the classical torus position [1]. Part of Gardner syndrome if multiple.\n- **Mandibular SCC or osteosarcoma**: lesions involving cortical destruction, paraesthesia, or mucosal ulceration demand biopsy urgently — the normal, intact overlying mucosa of torus mandibularis is the reassuring feature.\n- **Peripheral giant cell granuloma**: soft, reddish-purple, arises from interdental papilla, not from the lingual cortex.",
+      "treatment": "Reassure the patient: these are developmental anomalies and cause no harm [1]. No treatment is needed unless:\n\n- Denture construction is planned and the tori prevent a well-fitting base — in that case, excise them surgically before impressions [1].\n- Recurrent trauma leads to ulceration that fails to heal.\n\nSurgical excision when indicated: osteotomy under LA. Refer to oral surgery.",
+      "prognosis": "Excellent. No malignant potential. Growth stops at skeletal maturity. If excised, recurrence is uncommon. The main clinical consequence is purely prosthetic — patients who never need a denture may go through life never requiring any intervention.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "These are bony exostoses found in both jaws. Torus palatinus is found in the centre of the hard palate; torus mandibularis on the lingual premolar/molar region of the mandible. Rx: reassurance that these developmental anomalies cause no harm (they are not part of the Gardener syndrome, …… Gardener syndrome, p. 783). Rarely, excision for denture construction is indicated.",
+          "paragraph": 5805,
+          "source": "Oxford Handbook · paragraph 5805"
+        }
+      ]
+    },
+    {
+      "id": "floor-of-mouth-011",
+      "description": "Soft, compressible, slow-growing swelling in the floor of the mouth — slightly yellowish in colour when the overlying mucosa is thin. Not linked to meals, not painful, not fluctuant like a mucocele.",
+      "conditionName": "Intraoral lipoma",
+      "prevalence": "rare",
+      "etiology": "A benign tumour of adipose tissue [1]. Lipomas are common in the rest of the body but actually quite rare intraorally — the floor of mouth, buccal mucosa, and tongue are the usual sites when they do occur. The reason for the rarity is that the oral submucosa contains relatively little fat compared to subcutaneous tissue. What happens is a localised proliferation of normal-looking fat cells, sometimes with a thin fibrous capsule. No malignant potential; no systemic associations.",
+      "presentation": "A soft, smooth, compressible swelling that grows extremely slowly over months to years [1]. The overlying mucosa is intact and may show a yellowish tinge when the lipoma is superficial and the mucosa thin — the fat colour shows through. Not tender. Not related to meals. The patient typically notices a painless lump that has been present so long they've stopped worrying about it, then presents because it's getting large enough to be noticed. On compression it deforms easily; on release it bounces back slowly.",
+      "results": "- **Palpation**: soft and compressible, clearly differentiated from surrounding tissue, mobile [1]. Not fluctuant — it doesn't feel liquid-filled. Not hard.\n- **Aspiration**: no fluid. This distinguishes it from a ranula (which yields straw-coloured mucin).\n- **Imaging**: MRI is the investigation of choice — lipoma has a characteristic high signal on T1 and T2 that matches subcutaneous fat and allows confident pre-operative diagnosis.\n- **Histology**: mature adipocytes in lobules separated by thin fibrous septa. No pleomorphism.",
+      "definingCharacteristics": "The soft, compressible, yellowish quality and very slow growth distinguish a lipoma from everything else that causes a FOM swelling. A ranula is bluish and fluctuant (yields mucin on aspiration). A dermoid is firmer and midline. A salivary gland tumour is firm, not compressible. Sialolithiasis is meal-triggered. The lipoma doesn't transilluminate (solid tissue, not fluid) and yields nothing on aspiration. MRI is essentially diagnostic pre-operatively — the fat signal is unambiguous.",
+      "treatment": "Enucleate or excise with a narrow margin [1]. The capsule is usually well defined, making clean removal straightforward. No need for wide excision. Refer to oral surgery for definitive excision if the diagnosis is suspected clinically — MRI first is reasonable to confirm the nature before operating.",
+      "prognosis": "Excellent. No recurrence after complete excision. No malignant transformation [1]. Liposarcoma arising from an intraoral lipoma is not a recognised risk. The lesion is essentially a cosmetic and comfort issue once it becomes large enough to be bothersome.",
+      "citations": [
+        {
+          "id": 1,
+          "quote": "Lipoma. Soft, smooth, slow growing yellowish lump composed of fat cells. Enucleate or excise with narrow margin.",
+          "paragraph": 5850,
+          "source": "Oxford Handbook · paragraph 5850"
+        }
+      ]
     }
   ]
 }
